@@ -1,0 +1,15 @@
+[project]
+name = "vera"
+version = "0.1.0"
+description = "VERA: Vulnerability-aware Evidence-grounded Repair Agent for bad SBOMs"
+requires-python = ">=3.11"
+dependencies = ["httpx", "openai", "packaging", "packageurl-python", "semver", "node-semver", "cvss", "pyvis", "python-dotenv", "pandas", "scipy", "matplotlib", "streamlit"]
+
+[project.scripts]
+vera = "vera.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vera*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

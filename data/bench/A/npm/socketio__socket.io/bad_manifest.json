@@ -1,0 +1,873 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T11:10:03+01:00",
+  "component": {
+   "type": "application",
+   "name": "socketio/socket.io",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "core",
+   "version": "^7.24.7",
+   "purl": "pkg:npm/%40babel/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "plugin-transform-object-assign",
+   "version": "^7.24.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-object-assign",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "preset-env",
+   "version": "^7.24.7",
+   "purl": "pkg:npm/%40babel/preset-env",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "register",
+   "version": "^7.24.6",
+   "purl": "pkg:npm/%40babel/register",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "webtransport",
+   "version": "^1.1.4",
+   "purl": "pkg:npm/%40fails-components/webtransport",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@fails-components"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "webtransport-transport-http3-quiche",
+   "version": "^1.1.4",
+   "purl": "pkg:npm/%40fails-components/webtransport-transport-http3-quiche",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@fails-components"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "plugin-alias",
+   "version": "^5.1.0",
+   "purl": "pkg:npm/%40rollup/plugin-alias",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "plugin-babel",
+   "version": "^6.0.4",
+   "purl": "pkg:npm/%40rollup/plugin-babel",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "plugin-commonjs",
+   "version": "^26.0.1",
+   "purl": "pkg:npm/%40rollup/plugin-commonjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "plugin-node-resolve",
+   "version": "^15.2.3",
+   "purl": "pkg:npm/%40rollup/plugin-node-resolve",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "plugin-terser",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/%40rollup/plugin-terser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "fake-timers",
+   "version": "^11.2.2",
+   "purl": "pkg:npm/%40sinonjs/fake-timers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@sinonjs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "postgres-adapter",
+   "version": "^0.1.0",
+   "purl": "pkg:npm/%40socket.io/postgres-adapter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@socket.io"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "redis-streams-adapter",
+   "version": "~0.2.2",
+   "purl": "pkg:npm/%40socket.io/redis-streams-adapter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@socket.io"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "debug",
+   "version": "^4.1.12",
+   "purl": "pkg:npm/%40types/debug",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "expect.js",
+   "version": "^0.3.32",
+   "purl": "pkg:npm/%40types/expect.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "mocha",
+   "version": "^10.0.7",
+   "purl": "pkg:npm/%40types/mocha",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "node",
+   "version": "^24.13.2",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "pg",
+   "version": "^8.6.0",
+   "purl": "pkg:npm/%40types/pg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "sinonjs__fake-timers",
+   "version": "^8.1.5",
+   "purl": "pkg:npm/%40types/sinonjs__fake-timers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "cli",
+   "version": "^9.33.1",
+   "purl": "pkg:npm/%40wdio/cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@wdio"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "local-runner",
+   "version": "^9.33.1",
+   "purl": "pkg:npm/%40wdio/local-runner",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@wdio"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "mocha-framework",
+   "version": "^9.33.1",
+   "purl": "pkg:npm/%40wdio/mocha-framework",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@wdio"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "sauce-service",
+   "version": "^9.33.1",
+   "purl": "pkg:npm/%40wdio/sauce-service",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@wdio"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "spec-reporter",
+   "version": "^9.33.1",
+   "purl": "pkg:npm/%40wdio/spec-reporter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@wdio"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "babel-loader",
+   "version": "^9.1.3",
+   "purl": "pkg:npm/babel-loader",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "base64-arraybuffer",
+   "version": "^1.0.2",
+   "purl": "pkg:npm/base64-arraybuffer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "benchmark",
+   "version": "^2.1.4",
+   "purl": "pkg:npm/benchmark",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "blob",
+   "version": "^0.1.0",
+   "purl": "pkg:npm/blob",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "cookie",
+   "version": "~0.7.2",
+   "purl": "pkg:npm/cookie",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "eiows",
+   "version": "^7.1.0",
+   "purl": "pkg:npm/eiows",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "engine.io-client-v3",
+   "version": "npm:engine.io-client@^3.5.2",
+   "purl": "pkg:npm/engine.io-client-v3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "expect.js",
+   "version": "^0.3.1",
+   "purl": "pkg:npm/expect.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "express",
+   "version": "^4.19.2",
+   "purl": "pkg:npm/express",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "express-session",
+   "version": "^1.18.0",
+   "purl": "pkg:npm/express-session",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "has-cors",
+   "version": "^1.1.0",
+   "purl": "pkg:npm/has-cors",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "helmet",
+   "version": "^7.1.0",
+   "purl": "pkg:npm/helmet",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "ioredis",
+   "version": "^5.4.1",
+   "purl": "pkg:npm/ioredis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "mocha",
+   "version": "^10.6.0",
+   "purl": "pkg:npm/mocha",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "node-forge",
+   "version": "^1.3.1",
+   "purl": "pkg:npm/node-forge",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "nyc",
+   "version": "^17.0.0",
+   "purl": "pkg:npm/nyc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "pg",
+   "version": "^8.6.0",
+   "purl": "pkg:npm/pg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "prettier",
+   "version": "^3.3.2",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "redis",
+   "version": "^4.6.15",
+   "purl": "pkg:npm/redis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "rimraf",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/rimraf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "rollup",
+   "version": "^2.79.1",
+   "purl": "pkg:npm/rollup",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "should",
+   "version": "^13.2.3",
+   "purl": "pkg:npm/should",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "socket.io-client-v2",
+   "version": "npm:socket.io-client@^2.5.0",
+   "purl": "pkg:npm/socket.io-client-v2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "socket.io-msgpack-parser",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/socket.io-msgpack-parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "superagent",
+   "version": "^9.0.2",
+   "purl": "pkg:npm/superagent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "supertest",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/supertest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "text-blob-builder",
+   "version": "^0.0.1",
+   "purl": "pkg:npm/text-blob-builder",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "ts-loader",
+   "version": "^9.5.1",
+   "purl": "pkg:npm/ts-loader",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "ts-node",
+   "version": "^10.9.2",
+   "purl": "pkg:npm/ts-node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "tsd",
+   "version": "^0.31.1",
+   "purl": "pkg:npm/tsd",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "tsx",
+   "version": "~4.20.6",
+   "purl": "pkg:npm/tsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "typescript",
+   "version": "^6.0.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "uWebSockets.js",
+   "version": "github:uNetworking/uWebSockets.js#v20.56.0",
+   "purl": "pkg:npm/uWebSockets.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "wdio-geckodriver-service",
+   "version": "^5.0.2",
+   "purl": "pkg:npm/wdio-geckodriver-service",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58"
+   ]
+  }
+ ]
+}

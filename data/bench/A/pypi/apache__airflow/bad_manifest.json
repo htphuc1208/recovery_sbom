@@ -1,0 +1,2024 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T11:53:34+00:00",
+  "component": {
+   "type": "application",
+   "name": "apache/airflow",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "apache-airflow-task-sdk",
+   "version": "<1.6.0,>=1.5.0",
+   "purl": "pkg:pypi/apache-airflow-task-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "apache-airflow-core",
+   "version": "==3.5.0",
+   "purl": "pkg:pypi/apache-airflow-core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "apache-airflow-providers-airbyte",
+   "version": ">=5.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-airbyte",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "apache-airflow-providers-akeyless",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-akeyless",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "apache-airflow-providers-alibaba",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-alibaba",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "apache-airflow-providers-amazon",
+   "version": ">=9.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-amazon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "apache-airflow-providers-anthropic",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-anthropic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "apache-airflow-providers-apache-arrow",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-arrow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "apache-airflow-providers-apache-beam",
+   "version": ">=5.8.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-beam",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "apache-airflow-providers-apache-cassandra",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-cassandra",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "apache-airflow-providers-apache-drill",
+   "version": ">=2.8.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-drill",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "apache-airflow-providers-apache-druid",
+   "version": ">=3.12.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-druid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "apache-airflow-providers-apache-flink",
+   "version": ">=1.6.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-flink",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "apache-airflow-providers-apache-hdfs",
+   "version": ">=4.6.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-hdfs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "apache-airflow-providers-apache-hive",
+   "version": ">=8.2.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-hive",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "apache-airflow-providers-apache-iceberg",
+   "version": ">=1.2.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-iceberg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "apache-airflow-providers-apache-impala",
+   "version": ">=1.5.2",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-impala",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "apache-airflow-providers-apache-kafka",
+   "version": ">=1.6.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-kafka",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "apache-airflow-providers-apache-kylin",
+   "version": ">=3.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-kylin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "apache-airflow-providers-apache-livy",
+   "version": ">=3.9.2",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-livy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "apache-airflow-providers-apache-pig",
+   "version": ">=4.6.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-pig",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "apache-airflow-providers-apache-pinot",
+   "version": ">=4.5.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-pinot",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "apache-airflow-providers-apache-spark",
+   "version": ">=4.11.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-spark",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "apache-airflow-providers-apache-tinkerpop",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-apache-tinkerpop",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "apache-airflow-providers-apprise",
+   "version": ">=1.4.1",
+   "purl": "pkg:pypi/apache-airflow-providers-apprise",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "apache-airflow-providers-arangodb",
+   "version": ">=2.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-arangodb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "apache-airflow-providers-asana",
+   "version": ">=2.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-asana",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "apache-airflow-providers-atlassian-jira",
+   "version": ">=2.7.1",
+   "purl": "pkg:pypi/apache-airflow-providers-atlassian-jira",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "apache-airflow-providers-celery",
+   "version": ">=3.8.3",
+   "purl": "pkg:pypi/apache-airflow-providers-celery",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "apache-airflow-providers-clickhousedb",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-clickhousedb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "apache-airflow-providers-cloudant",
+   "version": ">=4.0.1",
+   "purl": "pkg:pypi/apache-airflow-providers-cloudant",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "apache-airflow-providers-cncf-kubernetes",
+   "version": ">=9.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-cncf-kubernetes",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "apache-airflow-providers-cohere",
+   "version": ">=1.4.0",
+   "purl": "pkg:pypi/apache-airflow-providers-cohere",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "apache-airflow-providers-common-ai",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-common-ai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "apache-airflow-providers-common-compat",
+   "version": ">=1.2.1",
+   "purl": "pkg:pypi/apache-airflow-providers-common-compat",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "apache-airflow-providers-common-io",
+   "version": ">=1.4.2",
+   "purl": "pkg:pypi/apache-airflow-providers-common-io",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "apache-airflow-providers-common-messaging",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-common-messaging",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "apache-airflow-providers-common-sql",
+   "version": ">=1.18.0",
+   "purl": "pkg:pypi/apache-airflow-providers-common-sql",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "apache-airflow-providers-databricks",
+   "version": ">=6.11.0",
+   "purl": "pkg:pypi/apache-airflow-providers-databricks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "apache-airflow-providers-datadog",
+   "version": ">=3.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-datadog",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "apache-airflow-providers-dbt-cloud",
+   "version": ">=3.11.0",
+   "purl": "pkg:pypi/apache-airflow-providers-dbt-cloud",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "apache-airflow-providers-dingding",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-dingding",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "apache-airflow-providers-discord",
+   "version": ">=3.9.0",
+   "purl": "pkg:pypi/apache-airflow-providers-discord",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "apache-airflow-providers-docker",
+   "version": ">=3.14.1",
+   "purl": "pkg:pypi/apache-airflow-providers-docker",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "apache-airflow-providers-duckdb",
+   "version": ">=0.2.0",
+   "purl": "pkg:pypi/apache-airflow-providers-duckdb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "apache-airflow-providers-edge3",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-edge3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "apache-airflow-providers-elasticsearch",
+   "version": ">=6.6.0",
+   "purl": "pkg:pypi/apache-airflow-providers-elasticsearch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "apache-airflow-providers-exasol",
+   "version": ">=4.6.1",
+   "purl": "pkg:pypi/apache-airflow-providers-exasol",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "apache-airflow-providers-fab",
+   "version": ">=3.6.0",
+   "purl": "pkg:pypi/apache-airflow-providers-fab",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "apache-airflow-providers-facebook",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-facebook",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "apache-airflow-providers-ftp",
+   "version": ">=3.12.0",
+   "purl": "pkg:pypi/apache-airflow-providers-ftp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "apache-airflow-providers-git",
+   "version": ">=0.0.2",
+   "purl": "pkg:pypi/apache-airflow-providers-git",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "apache-airflow-providers-github",
+   "version": ">=2.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-github",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "apache-airflow-providers-google",
+   "version": ">=10.24.0",
+   "purl": "pkg:pypi/apache-airflow-providers-google",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "apache-airflow-providers-grpc",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-grpc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "apache-airflow-providers-hashicorp",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-hashicorp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "apache-airflow-providers-http",
+   "version": ">=4.13.2",
+   "purl": "pkg:pypi/apache-airflow-providers-http",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "apache-airflow-providers-huggingface",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-huggingface",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "apache-airflow-providers-ibm-db2",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-ibm-db2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "apache-airflow-providers-ibm-mq",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-ibm-mq",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "apache-airflow-providers-imap",
+   "version": ">=3.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-imap",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b61",
+   "name": "apache-airflow-providers-influxdb",
+   "version": ">=2.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-influxdb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b62",
+   "name": "apache-airflow-providers-informatica",
+   "version": ">=0.1.1",
+   "purl": "pkg:pypi/apache-airflow-providers-informatica",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b63",
+   "name": "apache-airflow-providers-jdbc",
+   "version": ">=4.5.2",
+   "purl": "pkg:pypi/apache-airflow-providers-jdbc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b64",
+   "name": "apache-airflow-providers-jenkins",
+   "version": ">=3.7.2",
+   "purl": "pkg:pypi/apache-airflow-providers-jenkins",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b65",
+   "name": "apache-airflow-providers-keycloak",
+   "version": ">=0.0.1",
+   "purl": "pkg:pypi/apache-airflow-providers-keycloak",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b66",
+   "name": "apache-airflow-providers-microsoft-azure",
+   "version": ">=10.5.1",
+   "purl": "pkg:pypi/apache-airflow-providers-microsoft-azure",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b67",
+   "name": "apache-airflow-providers-microsoft-mssql",
+   "version": ">=3.9.2",
+   "purl": "pkg:pypi/apache-airflow-providers-microsoft-mssql",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b68",
+   "name": "apache-airflow-providers-microsoft-psrp",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-microsoft-psrp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b69",
+   "name": "apache-airflow-providers-microsoft-winrm",
+   "version": ">=3.6.1",
+   "purl": "pkg:pypi/apache-airflow-providers-microsoft-winrm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b70",
+   "name": "apache-airflow-providers-modal",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-modal",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b71",
+   "name": "apache-airflow-providers-mongo",
+   "version": ">=4.2.2",
+   "purl": "pkg:pypi/apache-airflow-providers-mongo",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b72",
+   "name": "apache-airflow-providers-mysql",
+   "version": ">=5.7.2",
+   "purl": "pkg:pypi/apache-airflow-providers-mysql",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b73",
+   "name": "apache-airflow-providers-neo4j",
+   "version": ">=3.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-neo4j",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b74",
+   "name": "apache-airflow-providers-odbc",
+   "version": ">=4.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-odbc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b75",
+   "name": "apache-airflow-providers-openai",
+   "version": ">=1.5.0",
+   "purl": "pkg:pypi/apache-airflow-providers-openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b76",
+   "name": "apache-airflow-providers-openfaas",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-openfaas",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b77",
+   "name": "apache-airflow-providers-openlineage",
+   "version": ">=2.3.0",
+   "purl": "pkg:pypi/apache-airflow-providers-openlineage",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b78",
+   "name": "apache-airflow-providers-opensearch",
+   "version": ">=1.9.3",
+   "purl": "pkg:pypi/apache-airflow-providers-opensearch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b79",
+   "name": "apache-airflow-providers-opsgenie",
+   "version": ">=5.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-opsgenie",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b80",
+   "name": "apache-airflow-providers-oracle",
+   "version": ">=3.12.0",
+   "purl": "pkg:pypi/apache-airflow-providers-oracle",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b81",
+   "name": "apache-airflow-providers-pagerduty",
+   "version": ">=3.8.1",
+   "purl": "pkg:pypi/apache-airflow-providers-pagerduty",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b82",
+   "name": "apache-airflow-providers-papermill",
+   "version": ">=3.8.2",
+   "purl": "pkg:pypi/apache-airflow-providers-papermill",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b83",
+   "name": "apache-airflow-providers-pgvector",
+   "version": ">=1.4.0",
+   "purl": "pkg:pypi/apache-airflow-providers-pgvector",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b84",
+   "name": "apache-airflow-providers-pinecone",
+   "version": ">=2.1.1",
+   "purl": "pkg:pypi/apache-airflow-providers-pinecone",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b85",
+   "name": "apache-airflow-providers-postgres",
+   "version": ">=5.13.1",
+   "purl": "pkg:pypi/apache-airflow-providers-postgres",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b86",
+   "name": "apache-airflow-providers-presto",
+   "version": ">=5.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-presto",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b87",
+   "name": "apache-airflow-providers-qdrant",
+   "version": ">=1.3.0",
+   "purl": "pkg:pypi/apache-airflow-providers-qdrant",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b88",
+   "name": "apache-airflow-providers-redis",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-redis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b89",
+   "name": "apache-airflow-providers-salesforce",
+   "version": ">=5.9.0",
+   "purl": "pkg:pypi/apache-airflow-providers-salesforce",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b90",
+   "name": "apache-airflow-providers-samba",
+   "version": ">=4.9.0",
+   "purl": "pkg:pypi/apache-airflow-providers-samba",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b91",
+   "name": "apache-airflow-providers-segment",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-segment",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b92",
+   "name": "apache-airflow-providers-sendgrid",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-sendgrid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b93",
+   "name": "apache-airflow-providers-sftp",
+   "version": ">=5.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-sftp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b94",
+   "name": "apache-airflow-providers-singularity",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-singularity",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b95",
+   "name": "apache-airflow-providers-slack",
+   "version": ">=8.9.1",
+   "purl": "pkg:pypi/apache-airflow-providers-slack",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b96",
+   "name": "apache-airflow-providers-smtp",
+   "version": ">=1.8.1",
+   "purl": "pkg:pypi/apache-airflow-providers-smtp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b97",
+   "name": "apache-airflow-providers-snowflake",
+   "version": ">=5.8.0",
+   "purl": "pkg:pypi/apache-airflow-providers-snowflake",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b98",
+   "name": "apache-airflow-providers-sqlite",
+   "version": ">=3.9.1",
+   "purl": "pkg:pypi/apache-airflow-providers-sqlite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b99",
+   "name": "apache-airflow-providers-ssh",
+   "version": ">=3.14.0",
+   "purl": "pkg:pypi/apache-airflow-providers-ssh",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b100",
+   "name": "apache-airflow-providers-standard",
+   "version": ">=0.0.1",
+   "purl": "pkg:pypi/apache-airflow-providers-standard",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b101",
+   "name": "apache-airflow-providers-tableau",
+   "version": ">=5.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-tableau",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b102",
+   "name": "apache-airflow-providers-telegram",
+   "version": ">=4.7.0",
+   "purl": "pkg:pypi/apache-airflow-providers-telegram",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b103",
+   "name": "apache-airflow-providers-teradata",
+   "version": ">=2.6.1",
+   "purl": "pkg:pypi/apache-airflow-providers-teradata",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b104",
+   "name": "apache-airflow-providers-trino",
+   "version": ">=5.8.1",
+   "purl": "pkg:pypi/apache-airflow-providers-trino",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b105",
+   "name": "apache-airflow-providers-vertica",
+   "version": ">=3.9.1",
+   "purl": "pkg:pypi/apache-airflow-providers-vertica",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b106",
+   "name": "apache-airflow-providers-vespa",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/apache-airflow-providers-vespa",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b107",
+   "name": "apache-airflow-providers-weaviate",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-weaviate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b108",
+   "name": "apache-airflow-providers-yandex",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/apache-airflow-providers-yandex",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b109",
+   "name": "apache-airflow-providers-ydb",
+   "version": ">=1.4.0",
+   "purl": "pkg:pypi/apache-airflow-providers-ydb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b110",
+   "name": "apache-airflow-providers-zendesk",
+   "version": ">=4.9.0",
+   "purl": "pkg:pypi/apache-airflow-providers-zendesk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b111",
+   "name": "apache-airflow",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b112",
+   "name": "atlasclient",
+   "version": ">=0.1.2",
+   "purl": "pkg:pypi/atlasclient",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b113",
+   "name": "cloudpickle",
+   "version": ">=2.2.1,<3.1.2",
+   "purl": "pkg:pypi/cloudpickle",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b114",
+   "name": "python-ldap",
+   "version": ">=3.4.4",
+   "purl": "pkg:pypi/python-ldap",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b115",
+   "name": "amqp",
+   "version": ">=5.2.0",
+   "purl": "pkg:pypi/amqp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b116",
+   "name": "sentry-sdk",
+   "version": ">=2.30.0",
+   "purl": "pkg:pypi/sentry-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b117",
+   "name": "uv",
+   "version": ">=0.13.7",
+   "purl": "pkg:pypi/uv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b118",
+   "name": "apache-airflow-breeze",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-breeze",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b119",
+   "name": "apache-airflow-dev",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-dev",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b120",
+   "name": "apache-airflow-scripts",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-scripts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b121",
+   "name": "apache-airflow-devel-common",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-devel-common",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b122",
+   "name": "apache-airflow-docker-tests",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-docker-tests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b123",
+   "name": "apache-airflow-task-sdk-integration-tests",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-task-sdk-integration-tests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b124",
+   "name": "apache-airflow-helm-chart",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-helm-chart",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b125",
+   "name": "apache-airflow-kubernetes-tests",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-kubernetes-tests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b126",
+   "name": "apache-airflow-ctl",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-ctl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b127",
+   "name": "apache-airflow-ctl-tests",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-ctl-tests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b128",
+   "name": "apache-airflow-shared-configuration",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-configuration",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b129",
+   "name": "apache-airflow-shared-dagnode",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-dagnode",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b130",
+   "name": "apache-airflow-shared-listeners",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-listeners",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b131",
+   "name": "apache-airflow-shared-logging",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-logging",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b132",
+   "name": "apache-airflow-shared-module-loading",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-module-loading",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b133",
+   "name": "apache-airflow-shared-observability",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-observability",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b134",
+   "name": "apache-airflow-shared-plugins-manager",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-plugins-manager",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b135",
+   "name": "apache-airflow-shared-providers-discovery",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-providers-discovery",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b136",
+   "name": "apache-airflow-shared-secrets-backend",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-secrets-backend",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b137",
+   "name": "apache-airflow-shared-secrets-masker",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-secrets-masker",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b138",
+   "name": "apache-airflow-shared-serialization",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-serialization",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b139",
+   "name": "apache-airflow-shared-state",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-state",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b140",
+   "name": "apache-airflow-shared-template-rendering",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-template-rendering",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b141",
+   "name": "apache-airflow-shared-timezones",
+   "version": "",
+   "purl": "pkg:pypi/apache-airflow-shared-timezones",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b142",
+   "name": "plyvel",
+   "version": ">=1.5.1",
+   "purl": "pkg:pypi/plyvel",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60",
+    "b61",
+    "b62",
+    "b63",
+    "b64",
+    "b65",
+    "b66",
+    "b67",
+    "b68",
+    "b69",
+    "b70",
+    "b71",
+    "b72",
+    "b73",
+    "b74",
+    "b75",
+    "b76",
+    "b77",
+    "b78",
+    "b79",
+    "b80",
+    "b81",
+    "b82",
+    "b83",
+    "b84",
+    "b85",
+    "b86",
+    "b87",
+    "b88",
+    "b89",
+    "b90",
+    "b91",
+    "b92",
+    "b93",
+    "b94",
+    "b95",
+    "b96",
+    "b97",
+    "b98",
+    "b99",
+    "b100",
+    "b101",
+    "b102",
+    "b103",
+    "b104",
+    "b105",
+    "b106",
+    "b107",
+    "b108",
+    "b109",
+    "b110",
+    "b111",
+    "b112",
+    "b113",
+    "b114",
+    "b115",
+    "b116",
+    "b117",
+    "b118",
+    "b119",
+    "b120",
+    "b121",
+    "b122",
+    "b123",
+    "b124",
+    "b125",
+    "b126",
+    "b127",
+    "b128",
+    "b129",
+    "b130",
+    "b131",
+    "b132",
+    "b133",
+    "b134",
+    "b135",
+    "b136",
+    "b137",
+    "b138",
+    "b139",
+    "b140",
+    "b141",
+    "b142"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1576 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-09-30T03:03:28+00:00",
+  "component": {
+   "type": "application",
+   "name": "bojieli/ai-agent-book",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "openai",
+   "version": ">=1.68",
+   "purl": "pkg:pypi/openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "pydantic",
+   "version": ">=2.9.0",
+   "purl": "pkg:pypi/pydantic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "python-dotenv",
+   "version": ">=1.0",
+   "purl": "pkg:pypi/python-dotenv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "requests",
+   "version": ">=2.31",
+   "purl": "pkg:pypi/requests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "colorama",
+   "version": ">=0.4.6",
+   "purl": "pkg:pypi/colorama",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "matplotlib",
+   "version": ">=3.8.0",
+   "purl": "pkg:pypi/matplotlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "numpy",
+   "version": ">=1.26.4",
+   "purl": "pkg:pypi/numpy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "pandas",
+   "version": ">=2.2.0",
+   "purl": "pkg:pypi/pandas",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "rich",
+   "version": ">=13.7",
+   "purl": "pkg:pypi/rich",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "seaborn",
+   "version": ">=0.13.0",
+   "purl": "pkg:pypi/seaborn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "tabulate",
+   "version": ">=0.9",
+   "purl": "pkg:pypi/tabulate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "tenacity",
+   "version": ">=9.0.0",
+   "purl": "pkg:pypi/tenacity",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "tqdm",
+   "version": ">=4.66.1",
+   "purl": "pkg:pypi/tqdm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "pypdf",
+   "version": ">=4.0",
+   "purl": "pkg:pypi/pypdf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "pypdf2",
+   "version": ">=3.0",
+   "purl": "pkg:pypi/pypdf2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "pdfplumber",
+   "version": ">=0.10.3",
+   "purl": "pkg:pypi/pdfplumber",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "reportlab",
+   "version": ">=4.0",
+   "purl": "pkg:pypi/reportlab",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "python-docx",
+   "version": ">=1.1",
+   "purl": "pkg:pypi/python-docx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "python-pptx",
+   "version": ">=0.6.23",
+   "purl": "pkg:pypi/python-pptx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "openpyxl",
+   "version": ">=3.1",
+   "purl": "pkg:pypi/openpyxl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "pillow",
+   "version": ">=10.2",
+   "purl": "pkg:pypi/pillow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "opencv-python",
+   "version": ">=4.9",
+   "purl": "pkg:pypi/opencv-python",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "aiohttp",
+   "version": ">=3.9.3",
+   "purl": "pkg:pypi/aiohttp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "anyio",
+   "version": ">=4.5.0",
+   "purl": "pkg:pypi/anyio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "beautifulsoup4",
+   "version": ">=4.12",
+   "purl": "pkg:pypi/beautifulsoup4",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "httpx",
+   "version": ">=0.27",
+   "purl": "pkg:pypi/httpx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "lxml",
+   "version": ">=5.1.0",
+   "purl": "pkg:pypi/lxml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "html2text",
+   "version": ">=2020.1.16",
+   "purl": "pkg:pypi/html2text",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "playwright",
+   "version": ">=1.40",
+   "purl": "pkg:pypi/playwright",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "agentbook",
+   "version": "",
+   "purl": "pkg:pypi/agentbook",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "browser-use",
+   "version": ">=0.1.40",
+   "purl": "pkg:pypi/browser-use",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "fastapi",
+   "version": ">=0.110",
+   "purl": "pkg:pypi/fastapi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "uvicorn",
+   "version": ">=0.27",
+   "purl": "pkg:pypi/uvicorn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "python-multipart",
+   "version": ">=0.0.9",
+   "purl": "pkg:pypi/python-multipart",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "tiktoken",
+   "version": ">=0.7.0",
+   "purl": "pkg:pypi/tiktoken",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "scikit-learn",
+   "version": ">=1.5.0",
+   "purl": "pkg:pypi/scikit-learn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "scipy",
+   "version": ">=1.11",
+   "purl": "pkg:pypi/scipy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "plotly",
+   "version": ">=5.18",
+   "purl": "pkg:pypi/plotly",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "sympy",
+   "version": ">=1.12",
+   "purl": "pkg:pypi/sympy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "numba",
+   "version": ">=0.59",
+   "purl": "pkg:pypi/numba",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "torch",
+   "version": ">=2.11",
+   "purl": "pkg:pypi/torch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "transformers",
+   "version": ">=4.40,<6",
+   "purl": "pkg:pypi/transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "chromadb",
+   "version": ">=0.5.0",
+   "purl": "pkg:pypi/chromadb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "faiss-cpu",
+   "version": ">=1.7.4",
+   "purl": "pkg:pypi/faiss-cpu",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "sentence-transformers",
+   "version": ">=2.2.2",
+   "purl": "pkg:pypi/sentence-transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "rank-bm25",
+   "version": ">=0.2.2",
+   "purl": "pkg:pypi/rank-bm25",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "flagembedding",
+   "version": ">=1.2.11",
+   "purl": "pkg:pypi/flagembedding",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "huggingface-hub",
+   "version": ">=0.34.0",
+   "purl": "pkg:pypi/huggingface-hub",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "annoy",
+   "version": ">=1.17.3",
+   "purl": "pkg:pypi/annoy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "hnswlib",
+   "version": ">=0.8",
+   "purl": "pkg:pypi/hnswlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "jieba",
+   "version": ">=0.42.1",
+   "purl": "pkg:pypi/jieba",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "networkx",
+   "version": ">=3.2",
+   "purl": "pkg:pypi/networkx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "umap-learn",
+   "version": ">=0.5.4",
+   "purl": "pkg:pypi/umap-learn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "aiofiles",
+   "version": ">=24.1.0",
+   "purl": "pkg:pypi/aiofiles",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "colorlog",
+   "version": ">=6.8",
+   "purl": "pkg:pypi/colorlog",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "loguru",
+   "version": ">=0.7.2",
+   "purl": "pkg:pypi/loguru",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "markdown",
+   "version": ">=3.5",
+   "purl": "pkg:pypi/markdown",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "pyyaml",
+   "version": ">=6.0",
+   "purl": "pkg:pypi/pyyaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "arxiv",
+   "version": ">=2.1",
+   "purl": "pkg:pypi/arxiv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "wikipedia",
+   "version": ">=1.4",
+   "purl": "pkg:pypi/wikipedia",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "waybackpy",
+   "version": ">=3.0",
+   "purl": "pkg:pypi/waybackpy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b61",
+   "name": "yfinance",
+   "version": ">=0.2",
+   "purl": "pkg:pypi/yfinance",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b62",
+   "name": "youtube-transcript-api",
+   "version": ">=0.6",
+   "purl": "pkg:pypi/youtube-transcript-api",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b63",
+   "name": "yt-dlp",
+   "version": ">=2024.4",
+   "purl": "pkg:pypi/yt-dlp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b64",
+   "name": "python-chess",
+   "version": ">=1.10",
+   "purl": "pkg:pypi/python-chess",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b65",
+   "name": "notion-client",
+   "version": ">=2.2",
+   "purl": "pkg:pypi/notion-client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b66",
+   "name": "sendgrid",
+   "version": ">=6.11",
+   "purl": "pkg:pypi/sendgrid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b67",
+   "name": "aiosmtplib",
+   "version": ">=3.0",
+   "purl": "pkg:pypi/aiosmtplib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b68",
+   "name": "pygithub",
+   "version": ">=2.3",
+   "purl": "pkg:pypi/pygithub",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b69",
+   "name": "google-api-python-client",
+   "version": ">=2.126",
+   "purl": "pkg:pypi/google-api-python-client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b70",
+   "name": "google-auth",
+   "version": ">=2.29",
+   "purl": "pkg:pypi/google-auth",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b71",
+   "name": "google-auth-oauthlib",
+   "version": ">=1.2",
+   "purl": "pkg:pypi/google-auth-oauthlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b72",
+   "name": "psutil",
+   "version": ">=5.9.8",
+   "purl": "pkg:pypi/psutil",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b73",
+   "name": "langchain-openai",
+   "version": ">=0.1",
+   "purl": "pkg:pypi/langchain-openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b74",
+   "name": "langchain-core",
+   "version": ">=0.2",
+   "purl": "pkg:pypi/langchain-core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b75",
+   "name": "slack-sdk",
+   "version": ">=3.27",
+   "purl": "pkg:pypi/slack-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b76",
+   "name": "python-dateutil",
+   "version": ">=2.9",
+   "purl": "pkg:pypi/python-dateutil",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b77",
+   "name": "python-constraint2",
+   "version": ">=2.0.2",
+   "purl": "pkg:pypi/python-constraint2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b78",
+   "name": "mem0ai",
+   "version": ">=2.0,<3",
+   "purl": "pkg:pypi/mem0ai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b79",
+   "name": "memobase",
+   "version": ">=0.0.27",
+   "purl": "pkg:pypi/memobase",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b80",
+   "name": "mcp",
+   "version": ">=1.0",
+   "purl": "pkg:pypi/mcp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b81",
+   "name": "fastmcp",
+   "version": ">=0.2",
+   "purl": "pkg:pypi/fastmcp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b82",
+   "name": "anthropic",
+   "version": ">=0.40.0",
+   "purl": "pkg:pypi/anthropic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b83",
+   "name": "google-genai",
+   "version": ">=0.3",
+   "purl": "pkg:pypi/google-genai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b84",
+   "name": "mistralai",
+   "version": ">=1.2.0",
+   "purl": "pkg:pypi/mistralai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b85",
+   "name": "litellm",
+   "version": ">=1.94.1",
+   "purl": "pkg:pypi/litellm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b86",
+   "name": "ollama",
+   "version": ">=0.5.1",
+   "purl": "pkg:pypi/ollama",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b87",
+   "name": "datasets",
+   "version": ">=3.4.1",
+   "purl": "pkg:pypi/datasets",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b88",
+   "name": "accelerate",
+   "version": ">=0.30",
+   "purl": "pkg:pypi/accelerate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b89",
+   "name": "peft",
+   "version": ">=0.17.0",
+   "purl": "pkg:pypi/peft",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b90",
+   "name": "trl",
+   "version": ">=0.22.2",
+   "purl": "pkg:pypi/trl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b91",
+   "name": "sentencepiece",
+   "version": ">=0.2",
+   "purl": "pkg:pypi/sentencepiece",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b92",
+   "name": "wandb",
+   "version": ">=0.17",
+   "purl": "pkg:pypi/wandb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b93",
+   "name": "trackio",
+   "version": ">=0.1",
+   "purl": "pkg:pypi/trackio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b94",
+   "name": "bitsandbytes",
+   "version": ">=0.45",
+   "purl": "pkg:pypi/bitsandbytes",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b95",
+   "name": "unsloth",
+   "version": ">=2026.7.6",
+   "purl": "pkg:pypi/unsloth",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b96",
+   "name": "unsloth-zoo",
+   "version": ">=2026.7.7",
+   "purl": "pkg:pypi/unsloth-zoo",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b97",
+   "name": "vllm",
+   "version": ">=0.26",
+   "purl": "pkg:pypi/vllm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b98",
+   "name": "librosa",
+   "version": ">=0.10",
+   "purl": "pkg:pypi/librosa",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b99",
+   "name": "soundfile",
+   "version": ">=0.12",
+   "purl": "pkg:pypi/soundfile",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b100",
+   "name": "torchaudio",
+   "version": ">=2.11",
+   "purl": "pkg:pypi/torchaudio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b101",
+   "name": "snac",
+   "version": ">=1.2",
+   "purl": "pkg:pypi/snac",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b102",
+   "name": "pytest",
+   "version": ">=8.3.0",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b103",
+   "name": "pytest-asyncio",
+   "version": ">=0.24.0",
+   "purl": "pkg:pypi/pytest-asyncio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b104",
+   "name": "pytest-mock",
+   "version": ">=3.14.0",
+   "purl": "pkg:pypi/pytest-mock",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b105",
+   "name": "pytest-cov",
+   "version": ">=5.0",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b106",
+   "name": "ruff",
+   "version": ">=0.4",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b107",
+   "name": "pymupdf",
+   "version": ">=1.24.0",
+   "purl": "pkg:pypi/pymupdf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b108",
+   "name": "fish-audio-sdk",
+   "version": ">=1.3.0,<2",
+   "purl": "pkg:pypi/fish-audio-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b109",
+   "name": "aiortc",
+   "version": ">=1.10",
+   "purl": "pkg:pypi/aiortc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b110",
+   "name": "openai-whisper",
+   "version": ">=20240930",
+   "purl": "pkg:pypi/openai-whisper",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60",
+    "b61",
+    "b62",
+    "b63",
+    "b64",
+    "b65",
+    "b66",
+    "b67",
+    "b68",
+    "b69",
+    "b70",
+    "b71",
+    "b72",
+    "b73",
+    "b74",
+    "b75",
+    "b76",
+    "b77",
+    "b78",
+    "b79",
+    "b80",
+    "b81",
+    "b82",
+    "b83",
+    "b84",
+    "b85",
+    "b86",
+    "b87",
+    "b88",
+    "b89",
+    "b90",
+    "b91",
+    "b92",
+    "b93",
+    "b94",
+    "b95",
+    "b96",
+    "b97",
+    "b98",
+    "b99",
+    "b100",
+    "b101",
+    "b102",
+    "b103",
+    "b104",
+    "b105",
+    "b106",
+    "b107",
+    "b108",
+    "b109",
+    "b110"
+   ]
+  }
+ ]
+}

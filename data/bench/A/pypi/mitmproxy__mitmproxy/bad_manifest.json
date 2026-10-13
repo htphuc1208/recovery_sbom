@@ -1,0 +1,680 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-10T20:32:12+01:00",
+  "component": {
+   "type": "application",
+   "name": "mitmproxy/mitmproxy",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "aioquic",
+   "version": ">=1.2.0,<=1.2.0",
+   "purl": "pkg:pypi/aioquic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "argon2-cffi",
+   "version": ">=23.1.0,<=25.1.0",
+   "purl": "pkg:pypi/argon2-cffi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "asgiref",
+   "version": ">=3.2.10,<=3.13.0",
+   "purl": "pkg:pypi/asgiref",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "backports-zstd",
+   "version": ">=1.7.0,<=1.7.0",
+   "purl": "pkg:pypi/backports-zstd",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "bcrypt",
+   "version": ">=5.0.0,<=5.0.0",
+   "purl": "pkg:pypi/bcrypt",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "brotli",
+   "version": ">=1.2.1,<=1.2.1",
+   "purl": "pkg:pypi/brotli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "certifi",
+   "version": ">=2026.10.19",
+   "purl": "pkg:pypi/certifi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "cryptography",
+   "version": ">=42.0,<=50.0.2",
+   "purl": "pkg:pypi/cryptography",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "flask",
+   "version": ">=3.0,<=3.1.3",
+   "purl": "pkg:pypi/flask",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "h11",
+   "version": ">=0.16.0,<=0.16.0",
+   "purl": "pkg:pypi/h11",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "h2",
+   "version": ">=4.3.0,<=4.4.1",
+   "purl": "pkg:pypi/h2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "hyperframe",
+   "version": ">=6.0,<=6.1.0",
+   "purl": "pkg:pypi/hyperframe",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "kaitaistruct",
+   "version": ">=0.10,<=0.11",
+   "purl": "pkg:pypi/kaitaistruct",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "ldap3",
+   "version": ">=2.8,<=2.9.1",
+   "purl": "pkg:pypi/ldap3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "mitmproxy-rs",
+   "version": ">=0.12.15,<0.13",
+   "purl": "pkg:pypi/mitmproxy-rs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "pydivert",
+   "version": ">=2.0.3,<=3.1.3",
+   "purl": "pkg:pypi/pydivert",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "pyopenssl",
+   "version": ">=24.3,<=27.0.0",
+   "purl": "pkg:pypi/pyopenssl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "pyparsing",
+   "version": ">=3.3.2,<=3.3.3",
+   "purl": "pkg:pypi/pyparsing",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "pyperclip",
+   "version": ">=1.9.0,<=1.11.0",
+   "purl": "pkg:pypi/pyperclip",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "ruamel-yaml",
+   "version": ">=0.18.10,<=0.19.1",
+   "purl": "pkg:pypi/ruamel-yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "sortedcontainers",
+   "version": ">=2.3,<=2.4.0",
+   "purl": "pkg:pypi/sortedcontainers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "tornado",
+   "version": ">=6.5.0,<=6.5.10",
+   "purl": "pkg:pypi/tornado",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "typing-extensions",
+   "version": ">=4.13.2,<=4.16.0",
+   "purl": "pkg:pypi/typing-extensions",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "urwid",
+   "version": ">=2.6.14,<=4.2.5",
+   "purl": "pkg:pypi/urwid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "wsproto",
+   "version": ">=1.0,<=1.3.2",
+   "purl": "pkg:pypi/wsproto",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "publicsuffix2",
+   "version": ">=2.20190812,<=2.20191221",
+   "purl": "pkg:pypi/publicsuffix2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "click",
+   "version": "==8.4.2",
+   "purl": "pkg:pypi/click",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "hypothesis",
+   "version": "==6.130.6",
+   "purl": "pkg:pypi/hypothesis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "maturin",
+   "version": "==1.15.0",
+   "purl": "pkg:pypi/maturin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "pdoc",
+   "version": "==16.0.0",
+   "purl": "pkg:pypi/pdoc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "pyinstaller",
+   "version": "==6.22.3",
+   "purl": "pkg:pypi/pyinstaller",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "pyinstaller-hooks-contrib",
+   "version": "==2026.9",
+   "purl": "pkg:pypi/pyinstaller-hooks-contrib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "pytest-asyncio",
+   "version": "==1.2.0",
+   "purl": "pkg:pypi/pytest-asyncio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "pytest-cov",
+   "version": "==7.0.0",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "pytest-timeout",
+   "version": "==2.4.0",
+   "purl": "pkg:pypi/pytest-timeout",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "pytest-xdist",
+   "version": "==3.8.0",
+   "purl": "pkg:pypi/pytest-xdist",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "pytest",
+   "version": "==8.4.2",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "requests",
+   "version": "==2.34.2",
+   "purl": "pkg:pypi/requests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "wheel",
+   "version": "==0.48.0",
+   "purl": "pkg:pypi/wheel",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "build",
+   "version": "==1.5.0",
+   "purl": "pkg:pypi/build",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "mypy",
+   "version": "==1.20.2",
+   "purl": "pkg:pypi/mypy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "types-requests",
+   "version": "==2.33.0.20260408",
+   "purl": "pkg:pypi/types-requests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "tox",
+   "version": "==4.55.1",
+   "purl": "pkg:pypi/tox",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "tox-uv",
+   "version": "==1.35.2",
+   "purl": "pkg:pypi/tox-uv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "ruff",
+   "version": "==0.17.2",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "awscli",
+   "version": "==1.46.2",
+   "purl": "pkg:pypi/awscli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "twine",
+   "version": "==7.0.0",
+   "purl": "pkg:pypi/twine",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46"
+   ]
+  }
+ ]
+}

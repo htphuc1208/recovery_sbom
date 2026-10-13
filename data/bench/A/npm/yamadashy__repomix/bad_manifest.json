@@ -1,0 +1,637 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-08T17:54:08+09:00",
+  "component": {
+   "type": "application",
+   "name": "yamadashy/repomix",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "prompts",
+   "version": "^0.11.0",
+   "purl": "pkg:npm/%40clack/prompts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@clack"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "server",
+   "version": "^2.4.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/server",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "strip-comments",
+   "version": "^2.4.2",
+   "purl": "pkg:npm/%40repomix/strip-comments",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@repomix"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "tree-sitter-wasms",
+   "version": "^0.1.17",
+   "purl": "pkg:npm/%40repomix/tree-sitter-wasms",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@repomix"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "core",
+   "version": "^13.1.0",
+   "purl": "pkg:npm/%40secretlint/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@secretlint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "secretlint-rule-preset-recommend",
+   "version": "^13.1.0",
+   "purl": "pkg:npm/%40secretlint/secretlint-rule-preset-recommend",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@secretlint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "chokidar",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/chokidar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "commander",
+   "version": "^15.0.0",
+   "purl": "pkg:npm/commander",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "fast-xml-builder",
+   "version": "^1.3.1",
+   "purl": "pkg:npm/fast-xml-builder",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "git-url-parse",
+   "version": "^16.1.0",
+   "purl": "pkg:npm/git-url-parse",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "globby",
+   "version": "^16.2.4",
+   "purl": "pkg:npm/globby",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "gpt-tokenizer",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/gpt-tokenizer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "handlebars",
+   "version": "^4.7.10",
+   "purl": "pkg:npm/handlebars",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "iconv-lite",
+   "version": "^0.7.0",
+   "purl": "pkg:npm/iconv-lite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "is-binary-path",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/is-binary-path",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "isbinaryfile",
+   "version": "^5.0.2",
+   "purl": "pkg:npm/isbinaryfile",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "jiti",
+   "version": "^2.7.0",
+   "purl": "pkg:npm/jiti",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "jschardet",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/jschardet",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "json5",
+   "version": "^2.2.3",
+   "purl": "pkg:npm/json5",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "minimatch",
+   "version": "^11.0.3",
+   "purl": "pkg:npm/minimatch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "picocolors",
+   "version": "^1.1.1",
+   "purl": "pkg:npm/picocolors",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "picospinner",
+   "version": "^3.1.2",
+   "purl": "pkg:npm/picospinner",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "tar",
+   "version": "^7.5.22",
+   "purl": "pkg:npm/tar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "tinyclip",
+   "version": "^1.0.3",
+   "purl": "pkg:npm/tinyclip",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "tinypool",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/tinypool",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "valibot",
+   "version": "^1.5.0",
+   "purl": "pkg:npm/valibot",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "web-tree-sitter",
+   "version": "^0.27.1",
+   "purl": "pkg:npm/web-tree-sitter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "zod",
+   "version": "^4.6.7",
+   "purl": "pkg:npm/zod",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "biome",
+   "version": "^2.6.4",
+   "purl": "pkg:npm/%40biomejs/biome",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@biomejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "types",
+   "version": "^13.1.0",
+   "purl": "pkg:npm/%40secretlint/types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@secretlint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "node",
+   "version": "^26.6.6",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "strip-comments",
+   "version": "^2.0.4",
+   "purl": "pkg:npm/%40types/strip-comments",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "to-json-schema",
+   "version": "^1.8.0",
+   "purl": "pkg:npm/%40valibot/to-json-schema",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@valibot"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "coverage-v8",
+   "version": "^5.0.5",
+   "purl": "pkg:npm/%40vitest/coverage-v8",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitest"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "xmldom",
+   "version": "^0.9.9",
+   "purl": "pkg:npm/%40xmldom/xmldom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@xmldom"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "git-up",
+   "version": "^8.1.1",
+   "purl": "pkg:npm/git-up",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "oxlint",
+   "version": "^1.90.0",
+   "purl": "pkg:npm/oxlint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "rimraf",
+   "version": "^6.1.3",
+   "purl": "pkg:npm/rimraf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "secretlint",
+   "version": "^13.1.0",
+   "purl": "pkg:npm/secretlint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "tsx",
+   "version": "^4.23.15",
+   "purl": "pkg:npm/tsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "typescript",
+   "version": "^7.0.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "vite",
+   "version": "^8.3.5",
+   "purl": "pkg:npm/vite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "vitest",
+   "version": "^5.0.5",
+   "purl": "pkg:npm/vitest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42"
+   ]
+  }
+ ]
+}

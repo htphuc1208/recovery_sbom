@@ -1,0 +1,3492 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T23:05:55-06:00",
+  "component": {
+   "type": "application",
+   "name": "headroomlabs-ai/headroom",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "c0",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "purl": "pkg:pypi/accelerate@1.15.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c1",
+   "name": "agno",
+   "version": "2.6.6",
+   "purl": "pkg:pypi/agno@2.6.6",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ba8795e020d2a036af312734c1a796b5064466d4c45ab6d64ea51ec5ec2b2cd7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c2",
+   "name": "aiohappyeyeballs",
+   "version": "2.6.1",
+   "purl": "pkg:pypi/aiohappyeyeballs@2.6.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f349ba8f4b75cb25c99c5c2d84e997e485204d2902a9597802b0371f09331fb8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c3",
+   "name": "aiohttp",
+   "version": "3.14.4",
+   "purl": "pkg:pypi/aiohttp@3.14.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "eb0093ca0817019d539f0d27bdf98e823944e05bb7efd9d2337a45b92e4d1b06"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c4",
+   "name": "aiosignal",
+   "version": "1.4.0",
+   "purl": "pkg:pypi/aiosignal@1.4.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c5",
+   "name": "annotated-doc",
+   "version": "0.0.4",
+   "purl": "pkg:pypi/annotated-doc@0.0.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "571ac1dc6991c450b25a9c2d84a3705e2ae7a53467b5d111c24fa8baabbed320"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c6",
+   "name": "annotated-types",
+   "version": "0.7.0",
+   "purl": "pkg:pypi/annotated-types@0.7.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c7",
+   "name": "anthropic",
+   "version": "0.76.0",
+   "purl": "pkg:pypi/anthropic@0.76.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "81efa3113901192af2f0fe977d3ec73fdadb1e691586306c4256cd6d5ccc331c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c8",
+   "name": "antlr4-python3-runtime",
+   "version": "4.9.3",
+   "purl": "pkg:pypi/antlr4-python3-runtime@4.9.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f224469b4168294902bb1efa80a8bf7855f24c99aef99cbefc1bcd3cce77881b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c9",
+   "name": "any-llm-sdk",
+   "version": "1.12.1",
+   "purl": "pkg:pypi/any-llm-sdk@1.12.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2461eb53995b482499f70d020069e9e22ae5a97c1f7a105d74c33cb620621b09"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c10",
+   "name": "anyio",
+   "version": "4.14.2",
+   "purl": "pkg:pypi/anyio@4.14.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "9f505dda5ac9f0c8309b5e8bd445a8c2bf7246f3ce950121e45ea15bc41d1494"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c11",
+   "name": "ast-grep-cli",
+   "version": "0.42.1",
+   "purl": "pkg:pypi/ast-grep-cli@0.42.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7704d9d6a7bfdaa0729eb31536878b63ad5161c4669b6ee4d783970ac4de1829"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c12",
+   "name": "async-timeout",
+   "version": "5.0.1",
+   "purl": "pkg:pypi/async-timeout@5.0.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "39e3809566ff85354557ec2398b55e096c8364bacac9405a7a1fa429e77fe76c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c13",
+   "name": "attrs",
+   "version": "25.4.0",
+   "purl": "pkg:pypi/attrs@25.4.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "adcf7e2a1fb3b36ac48d97835bb6d8ade15b8dcce26aba8bf1d14847b57a3373"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c14",
+   "name": "autogen-agentchat",
+   "version": "0.7.5",
+   "purl": "pkg:pypi/autogen-agentchat@0.7.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d19ca8ec26cb15e071a56c4269140aea2bf3c718bdc7e06f6677af9a905815ba"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c15",
+   "name": "autogen-core",
+   "version": "0.7.5",
+   "purl": "pkg:pypi/autogen-core@0.7.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4f4a0d3b88a36da75b2ef0d40be2d5e3a207cae7f7d951511e498ad1d68f8ef4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c16",
+   "name": "awscrt",
+   "version": "0.36.0",
+   "purl": "pkg:pypi/awscrt@0.36.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1f6dbe7fd755d981c6492f6ad08775060e86e9ccb7d84f6725e4444cee14bf5c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c17",
+   "name": "babel",
+   "version": "2.17.0",
+   "purl": "pkg:pypi/babel@2.17.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4d0b53093fdfb4b21c92b5213dba5a1b23885afa8383709427046b21c366e5f2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c18",
+   "name": "backoff",
+   "version": "2.2.1",
+   "purl": "pkg:pypi/backoff@2.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c19",
+   "name": "boto3",
+   "version": "1.43.96",
+   "purl": "pkg:pypi/boto3@1.43.96",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "73f0386fcc412ce5ad3ae4245e2a405e69e889988dd77e91b82e3b66404f3fee"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c20",
+   "name": "botocore",
+   "version": "1.43.96",
+   "purl": "pkg:pypi/botocore@1.43.96",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c21153a07b97e8497f4ffa83e340a055f3f479b074e6eedf7d0562a9bc861cac"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c21",
+   "name": "certifi",
+   "version": "2026.10.19",
+   "purl": "pkg:pypi/certifi@2026.10.19",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c22",
+   "name": "cffi",
+   "version": "2.0.0",
+   "purl": "pkg:pypi/cffi@2.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b4c854ef3adc177950a8dfc81a86f5115d2abd545751a304c5bcf2c2c7283cfe"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c23",
+   "name": "cfgv",
+   "version": "3.5.0",
+   "purl": "pkg:pypi/cfgv@3.5.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a8dc6b26ad22ff227d2634a65cb388215ce6cc96bbcc5cfde7641ae87e8dacc0"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c24",
+   "name": "charset-normalizer",
+   "version": "3.4.4",
+   "purl": "pkg:pypi/charset-normalizer@3.4.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6e1fcf0720908f200cd21aa4e6750a48ff6ce4afe7ff5a79a90d5ed8a08296f8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c25",
+   "name": "click",
+   "version": "8.5.0",
+   "purl": "pkg:pypi/click@8.5.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c26",
+   "name": "colorama",
+   "version": "0.4.6",
+   "purl": "pkg:pypi/colorama@0.4.6",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c27",
+   "name": "coloredlogs",
+   "version": "15.0.1",
+   "purl": "pkg:pypi/coloredlogs@15.0.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "612ee75c546f53e92e70049c9dbfcc18c935a2b9a53b66085ce9ef6a6e5c0934"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c28",
+   "name": "colorlog",
+   "version": "6.10.1",
+   "purl": "pkg:pypi/colorlog@6.10.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2d7e8348291948af66122cff006c9f8da6255d224e7cf8e37d8de2df3bad8c9c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c29",
+   "name": "courlan",
+   "version": "1.3.2",
+   "purl": "pkg:pypi/courlan@1.3.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d0dab52cf5b5b1000ee2839fbc2837e93b2514d3cb5bb61ae158a55b7a04c6be"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c30",
+   "name": "coverage",
+   "version": "7.13.2",
+   "purl": "pkg:pypi/coverage@7.13.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "060ebf6f2c51aff5ba38e1f43a2095e087389b1c69d559fde6049a4b0001320e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c31",
+   "name": "cryptography",
+   "version": "50.0.0",
+   "purl": "pkg:pypi/cryptography@50.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "031e2d5dd4bb9caa3ca9c82e5a197fd8ae680232cee62603d1a813f3f07e3d03"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c32",
+   "name": "cuda-bindings",
+   "version": "13.3.1",
+   "purl": "pkg:pypi/cuda-bindings@13.3.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c5879712accf6e14bb01aa5e67440eb84998b8d104b509cc7a6dc0b8f656a474"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c33",
+   "name": "cuda-pathfinder",
+   "version": "1.5.5",
+   "purl": "pkg:pypi/cuda-pathfinder@1.5.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0228c023f95d1480f143ef5c8922d27a2ab052087a942e81dc289c9eb8f91689"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c34",
+   "name": "cuda-toolkit",
+   "version": "13.0.3.0",
+   "purl": "pkg:pypi/cuda-toolkit@13.0.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d693caaa261214ddd7dbb60d68e71cbed884e68c2be7509778f3051da0b91c3f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c35",
+   "name": "datasets",
+   "version": "5.0.1",
+   "purl": "pkg:pypi/datasets@5.0.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "9fbf73688f8c18f7529b4fe592abd04015f81d1e58001e4bac73ffb2b39d7cc4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c36",
+   "name": "dateparser",
+   "version": "1.2.2",
+   "purl": "pkg:pypi/dateparser@1.2.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5a5d7211a09013499867547023a2a0c91d5a27d15dd4dbcea676ea9fe66f2482"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c37",
+   "name": "dill",
+   "version": "0.4.0",
+   "purl": "pkg:pypi/dill@0.4.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "44f54bf6412c2c8464c14e8243eb163690a9800dbe2c367330883b19c7561049"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c38",
+   "name": "distlib",
+   "version": "0.4.4",
+   "purl": "pkg:pypi/distlib@0.4.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "cf09d55b1e85a89576b036aeb71550bfd68320f3f21761ca329eadadad918638"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c39",
+   "name": "distro",
+   "version": "1.9.0",
+   "purl": "pkg:pypi/distro@1.9.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c40",
+   "name": "docstring-parser",
+   "version": "0.17.0",
+   "purl": "pkg:pypi/docstring-parser@0.17.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "cf2569abd23dce8099b300f9b4fa8191e9582dda731fd533daf54c4551658708"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c41",
+   "name": "et-xmlfile",
+   "version": "2.0.0",
+   "purl": "pkg:pypi/et-xmlfile@2.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c42",
+   "name": "fakeredis",
+   "version": "2.40.0",
+   "purl": "pkg:pypi/fakeredis@2.40.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b155ef2442134372eb1cc5664cf5638ccbe0a6dde9d1942153708e2782f315c9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c43",
+   "name": "fastapi",
+   "version": "0.136.3",
+   "purl": "pkg:pypi/fastapi@0.136.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "3d2a69bdf04b7e9f3afa292c3bc7a98816bbfafa10bc9b45f3f3700d2f761620"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c44",
+   "name": "fastembed",
+   "version": "0.8.0",
+   "purl": "pkg:pypi/fastembed@0.8.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "40bee672657574a1009e35ec50030a55f2b426842cb011845379817641bbbbd0"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c45",
+   "name": "fastuuid",
+   "version": "0.14.0",
+   "purl": "pkg:pypi/fastuuid@0.14.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "73946cb950c8caf65127d4e9a325e2b6be0442a224fd51ba3b6ac44e1912ce34"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c46",
+   "name": "filelock",
+   "version": "4.2.4",
+   "purl": "pkg:pypi/filelock@4.2.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c47",
+   "name": "flatbuffers",
+   "version": "25.12.19",
+   "purl": "pkg:pypi/flatbuffers@25.12.19",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c48",
+   "name": "frozenlist",
+   "version": "1.8.0",
+   "purl": "pkg:pypi/frozenlist@1.8.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "09474e9831bc2b2199fad6da3c14c7b0fbdd377cce9d3d77131be28906cb7d84"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c49",
+   "name": "fsspec",
+   "version": "2026.6.0",
+   "purl": "pkg:pypi/fsspec@2026.6.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "02e0b71817df9b2169dc30a16832045764def1191b43dcff5bb85bdee212d2a1"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c50",
+   "name": "gitdb",
+   "version": "4.0.12",
+   "purl": "pkg:pypi/gitdb@4.0.12",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "67073e15955400952c6565cc3e707c554a4eea2e428946f7a4c162fab9bd9bcf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c51",
+   "name": "gitpython",
+   "version": "3.2.1",
+   "purl": "pkg:pypi/gitpython@3.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d66b0832aa8755c1a84892937282df0befb16c97e5a64aeebd68be9c5e323f53"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c52",
+   "name": "google-api-core",
+   "version": "2.25.2",
+   "purl": "pkg:pypi/google-api-core@2.25.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e9a8f62d363dc8424a8497f4c2a47d6bcda6c16514c935629c257ab5d10210e7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c53",
+   "name": "google-auth",
+   "version": "2.62.0",
+   "purl": "pkg:pypi/google-auth@2.62.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4ff4319aeb4ad128409759d397a9fcafad126d0031d241cc0dd6b9a00b43e3f3"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c54",
+   "name": "google-cloud-aiplatform",
+   "version": "1.148.1",
+   "purl": "pkg:pypi/google-cloud-aiplatform@1.148.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "035101e2d8e65c6a706cc3930b2452de7ddcbde50dd130320fcea0d8b03b0c5a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c55",
+   "name": "google-cloud-bigquery",
+   "version": "3.42.3",
+   "purl": "pkg:pypi/google-cloud-bigquery@3.42.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "81b9bfa3a5fa098a04351c1a12579d16f28b93b836e4556ef6410a01deebf418"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c56",
+   "name": "google-cloud-core",
+   "version": "2.6.0",
+   "purl": "pkg:pypi/google-cloud-core@2.6.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6d63ac8e5eca6d9e4319d0a1e2265fadcd7f1049904378caecfa01cf52dd869e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c57",
+   "name": "google-cloud-resource-manager",
+   "version": "1.18.0",
+   "purl": "pkg:pypi/google-cloud-resource-manager@1.18.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "69bab144acd75878ebe44b720903dc3d140cb7d3be3261eaa8bc81e48afaff33"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c58",
+   "name": "google-cloud-storage",
+   "version": "3.4.1",
+   "purl": "pkg:pypi/google-cloud-storage@3.4.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "972764cc0392aa097be8f49a5354e22eb47c3f62370067fb1571ffff4a1c1189"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c59",
+   "name": "google-crc32c",
+   "version": "1.9.0",
+   "purl": "pkg:pypi/google-crc32c@1.9.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "457d0d9a4718fd52b1494eac5c200ad25beeadbdc91843d550a003910838589f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c60",
+   "name": "google-genai",
+   "version": "1.75.0",
+   "purl": "pkg:pypi/google-genai@1.75.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "8dc4c096e7d6288c3087f6893f582fe52468932464781edb8193bd92b9fefb2c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c61",
+   "name": "google-resumable-media",
+   "version": "2.11.0",
+   "purl": "pkg:pypi/google-resumable-media@2.11.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f43d15e6a7f818f762eaead0f369c551f8275a4179c9d6225d0d259f49b87b5d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c62",
+   "name": "googleapis-common-protos",
+   "version": "1.74.0",
+   "purl": "pkg:pypi/googleapis-common-protos@1.74.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "702216f78610bb510e3f12ac3cafd281b7ac45cc5d86e90ad87e4d301a3426b5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c63",
+   "name": "greenlet",
+   "version": "3.4.0",
+   "purl": "pkg:pypi/greenlet@3.4.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "805bebb4945094acbab757d34d6e1098be6de8966009ab9ca54f06ff492def58"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c64",
+   "name": "grpc-google-iam-v1",
+   "version": "0.14.4",
+   "purl": "pkg:pypi/grpc-google-iam-v1@0.14.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "412facc320fcbd94034b4df3d557662051d4d8adfa86e0ddb4dca70a3f739964"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c65",
+   "name": "grpcio",
+   "version": "1.80.0",
+   "purl": "pkg:pypi/grpcio@1.80.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "dfab85db094068ff42e2a3563f60ab3dddcc9d6488a35abf0132daec13209c8a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c66",
+   "name": "grpcio-status",
+   "version": "1.71.2",
+   "purl": "pkg:pypi/grpcio-status@1.71.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "803c98cb6a8b7dc6dbb785b1111aed739f241ab5e9da0bba96888aa74704cfd3"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c67",
+   "name": "gunicorn",
+   "version": "26.0.0",
+   "purl": "pkg:pypi/gunicorn@26.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "40233d26a5f0d1872916188c276e21641155111c2853f0c2cd55260aec0d24fc"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c68",
+   "name": "h11",
+   "version": "0.16.0",
+   "purl": "pkg:pypi/h11@0.16.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c69",
+   "name": "h2",
+   "version": "4.4.1",
+   "purl": "pkg:pypi/h2@4.4.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0e25f1462b23c9cb82d9eb02e28bc706dac2a68cb457c6a0d74d63c8a2a5d0e6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c70",
+   "name": "hf-xet",
+   "version": "1.6.0",
+   "purl": "pkg:pypi/hf-xet@1.6.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "70cbb9c896901600128cb9b6f06e132954fbede1db30f31f7c6c63f84cb7c31d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c71",
+   "name": "hnswlib",
+   "version": "0.8.0",
+   "purl": "pkg:pypi/hnswlib@0.8.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "cb6d037eedebb34a7134e7dc78966441dfd04c9cf5ee93911be911ced951c44c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c72",
+   "name": "hpack",
+   "version": "4.2.0",
+   "purl": "pkg:pypi/hpack@4.2.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c73",
+   "name": "htmldate",
+   "version": "1.9.4",
+   "purl": "pkg:pypi/htmldate@1.9.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1b94bcc4e08232a5b692159903acf95548b6a7492dddca5bb123d89d6325921c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c74",
+   "name": "httpcore",
+   "version": "1.0.9",
+   "purl": "pkg:pypi/httpcore@1.0.9",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c75",
+   "name": "httpcore2",
+   "version": "2.16.0",
+   "purl": "pkg:pypi/httpcore2@2.16.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5c4358319f2602d984ad93182c9fee5160f22e9da7babdda870a5e7c4e2dc34f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c76",
+   "name": "httpx",
+   "version": "0.28.1",
+   "purl": "pkg:pypi/httpx@0.28.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c77",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "purl": "pkg:pypi/httpx2@2.16.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "fd2c5d7909e8d86fe92d53020c310ca0e4e431b838c207c5754b9bbf0308d49a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c78",
+   "name": "httpx2-jsfetch",
+   "version": "1.0",
+   "purl": "pkg:pypi/httpx2-jsfetch@1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "cb916b707601e69a07721aabc8f3f6659be3a6893bc1ff5c6f9e02241df2da32"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c79",
+   "name": "huggingface-hub",
+   "version": "1.16.1",
+   "purl": "pkg:pypi/huggingface-hub@1.16.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "64340de934b9ce37857ef85a82de72f5629e8a270f9119eabb12bf495eb53c22"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c80",
+   "name": "humanfriendly",
+   "version": "10.0",
+   "purl": "pkg:pypi/humanfriendly@10.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1697e1a8a8f550fd43c2865cd84542fc175a61dcb779b6fee18cf6b6ccba1477"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c81",
+   "name": "hyperframe",
+   "version": "6.1.0",
+   "purl": "pkg:pypi/hyperframe@6.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c82",
+   "name": "identify",
+   "version": "2.6.16",
+   "purl": "pkg:pypi/identify@2.6.16",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "391ee4d77741d994189522896270b787aed8670389bfd60f326d677d64a6dfb0"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c83",
+   "name": "idna",
+   "version": "3.20",
+   "purl": "pkg:pypi/idna@3.20",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c84",
+   "name": "importlib-metadata",
+   "version": "8.7.1",
+   "purl": "pkg:pypi/importlib-metadata@8.7.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5a1f80bf1daa489495071efbb095d75a634cf28a8bc299581244063b53176151"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c85",
+   "name": "iniconfig",
+   "version": "2.3.0",
+   "purl": "pkg:pypi/iniconfig@2.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c86",
+   "name": "jinja2",
+   "version": "3.1.6",
+   "purl": "pkg:pypi/jinja2@3.1.6",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c87",
+   "name": "jiter",
+   "version": "0.12.0",
+   "purl": "pkg:pypi/jiter@0.12.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d8f8a7e317190b2c2d60eb2e8aa835270b008139562d70fe732e1c0020ec53c9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c88",
+   "name": "jmespath",
+   "version": "1.1.0",
+   "purl": "pkg:pypi/jmespath@1.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c89",
+   "name": "joblib",
+   "version": "1.5.3",
+   "purl": "pkg:pypi/joblib@1.5.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c90",
+   "name": "jsonpatch",
+   "version": "1.33",
+   "purl": "pkg:pypi/jsonpatch@1.33",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0ae28c0cd062bbd8b8ecc26d7d164fbbea9652a1a3693f3b956c1eae5145dade"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c91",
+   "name": "jsonpointer",
+   "version": "3.0.0",
+   "purl": "pkg:pypi/jsonpointer@3.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "13e088adc14fca8b6aa8177c044e12701e6ad4b28ff10e65f2267a90109c9942"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c92",
+   "name": "jsonref",
+   "version": "1.1.0",
+   "purl": "pkg:pypi/jsonref@1.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "590dc7773df6c21cbf948b5dac07a72a251db28b0238ceecce0a2abfa8ec30a9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c93",
+   "name": "jsonschema",
+   "version": "4.26.0",
+   "purl": "pkg:pypi/jsonschema@4.26.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c94",
+   "name": "jsonschema-specifications",
+   "version": "2025.9.1",
+   "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c95",
+   "name": "justext",
+   "version": "3.0.2",
+   "purl": "pkg:pypi/justext@3.0.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "62b1c562b15c3c6265e121cc070874243a443bfd53060e869393f09d6b6cc9a7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c96",
+   "name": "langchain-core",
+   "version": "1.6.1",
+   "purl": "pkg:pypi/langchain-core@1.6.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "954a84132a5cb0435d27b910e336347b6744ecc18fbeef1e2de7029a0959841a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c97",
+   "name": "langchain-ollama",
+   "version": "1.0.1",
+   "purl": "pkg:pypi/langchain-ollama@1.0.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "37eb939a4718a0255fe31e19fbb0def044746c717b01b97d397606ebc3e9b440"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c98",
+   "name": "langchain-openai",
+   "version": "1.2.2",
+   "purl": "pkg:pypi/langchain-openai@1.2.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7da39a3c70cbafa93853456199e39a264dc70651be79b12ac49b4f6a448bce2d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c99",
+   "name": "langchain-protocol",
+   "version": "0.0.19",
+   "purl": "pkg:pypi/langchain-protocol@0.0.19",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4cdf879a492a35980fd859ae792d3c65458ccaae504e183c9a10d7eac1f0720f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c100",
+   "name": "langgraph",
+   "version": "1.2.19",
+   "purl": "pkg:pypi/langgraph@1.2.19",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6094a5cbed52a77d8c74c276fcd2056abde7b2836eab1c7a6b74bacbd1a269b3"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c101",
+   "name": "langgraph-checkpoint",
+   "version": "4.3.1",
+   "purl": "pkg:pypi/langgraph-checkpoint@4.3.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "215a826935c8db4d9676e79fd95943e5b3847d78604390898e1d98581cc594e5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c102",
+   "name": "langgraph-prebuilt",
+   "version": "1.1.0",
+   "purl": "pkg:pypi/langgraph-prebuilt@1.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "51e311747d755b751d5c6b39b0c1446124d3a7643d2515017e6714b323508fc9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c103",
+   "name": "langgraph-sdk",
+   "version": "0.4.11",
+   "purl": "pkg:pypi/langgraph-sdk@0.4.11",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6a65be4a8f825966a07317b8e34e3337cd227b9b58b185f0123fd13c3d0116fa"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c104",
+   "name": "langsmith",
+   "version": "0.9.3",
+   "purl": "pkg:pypi/langsmith@0.9.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "aac85686868a7e61d77858b880230e510583c61ea48ac0a197e6ceff64ffb22b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c105",
+   "name": "librt",
+   "version": "0.7.8",
+   "purl": "pkg:pypi/librt@0.7.8",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ff3e9c11aa260c31493d4b3197d1e28dd07768594a4f92bec4506849d736248f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c106",
+   "name": "litellm",
+   "version": "1.101.3",
+   "purl": "pkg:pypi/litellm@1.101.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d8e37c8b2c2a5e01fe7b79dd12cd2e38be5e9729951bfd741cc59cf8f907e192"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c107",
+   "name": "loguru",
+   "version": "0.7.3",
+   "purl": "pkg:pypi/loguru@0.7.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c108",
+   "name": "lupa",
+   "version": "2.8",
+   "purl": "pkg:pypi/lupa@2.8",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c2a5fd15dc62374e1661a55f01744c9ec1c56f291ba4a0749d3af2174556e78f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c109",
+   "name": "lxml",
+   "version": "6.1.1",
+   "purl": "pkg:pypi/lxml@6.1.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "53b7d2b7a10b1c35c0a5e21e9224accf60c1bbfba523990732e521b2b73adef2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c110",
+   "name": "lxml-html-clean",
+   "version": "0.4.5",
+   "purl": "pkg:pypi/lxml-html-clean@0.4.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c76fcadd1e5bfb9b8bafc2200d51e4e78eb0dad67f56881c21dfb6484c7e7746"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c111",
+   "name": "magika",
+   "version": "0.6.2",
+   "purl": "pkg:pypi/magika@0.6.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5ef72fbc07723029b3684ef81454bc224ac5f60986aa0fc5a28f4456eebcb5b2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c112",
+   "name": "markdown-it-py",
+   "version": "4.0.0",
+   "purl": "pkg:pypi/markdown-it-py@4.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "87327c59b172c5011896038353a81343b6754500a08cd7a4973bb48c6d578147"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c113",
+   "name": "markupsafe",
+   "version": "3.0.3",
+   "purl": "pkg:pypi/markupsafe@3.0.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1cc7ea17a6824959616c525620e387f6dd30fec8cb44f649e31712db02123dad"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c114",
+   "name": "mcp",
+   "version": "2.3.0",
+   "purl": "pkg:pypi/mcp@2.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "dd0c44c089d16453e8ae31a3877a0054d7a2314caaa81f5e0541b9b1734b2377"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c115",
+   "name": "mcp-types",
+   "version": "2.3.0",
+   "purl": "pkg:pypi/mcp-types@2.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "968efdbdaedfab06adae40d378a34395f1090c5921d4be3c9cde283aaf76d91d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c116",
+   "name": "mdurl",
+   "version": "0.1.2",
+   "purl": "pkg:pypi/mdurl@0.1.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c117",
+   "name": "mem0ai",
+   "version": "2.2.1",
+   "purl": "pkg:pypi/mem0ai@2.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "fe91bb91ac8926231993a4aa58df00a60c6c74c709e6a338fe399500776eef4d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c118",
+   "name": "mmh3",
+   "version": "5.2.1",
+   "purl": "pkg:pypi/mmh3@5.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "dae0f0bd7d30c0ad61b9a504e8e272cb8391eed3f1587edf933f4f6b33437450"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c119",
+   "name": "mpmath",
+   "version": "1.3.0",
+   "purl": "pkg:pypi/mpmath@1.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c120",
+   "name": "multidict",
+   "version": "6.9.1",
+   "purl": "pkg:pypi/multidict@6.9.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "910d4260512660484c0dc1588a316fbb35a40c081c36fc51d1225351af17cfe4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c121",
+   "name": "multiprocess",
+   "version": "0.70.18",
+   "purl": "pkg:pypi/multiprocess@0.70.18",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "8b8940ae30139e04b076da6c5b83e9398585ebdf0f2ad3250673fef5b2ff06d6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c122",
+   "name": "mypy",
+   "version": "1.19.1",
+   "purl": "pkg:pypi/mypy@1.19.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d8dfc6ab58ca7dda47d9237349157500468e404b17213d44fc1cb77bce532288"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c123",
+   "name": "mypy-extensions",
+   "version": "1.1.0",
+   "purl": "pkg:pypi/mypy-extensions@1.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1be4cccdb0f2482337c4743e60421de3a356cd97508abadd57d47403e94f5505"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c124",
+   "name": "neo4j",
+   "version": "6.1.0",
+   "purl": "pkg:pypi/neo4j@6.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "3bd93941f3a3559af197031157220af9fd71f4f93a311db687bd69ffa417b67d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c125",
+   "name": "networkx",
+   "version": "3.6.1",
+   "purl": "pkg:pypi/networkx@3.6.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c126",
+   "name": "nodeenv",
+   "version": "1.10.0",
+   "purl": "pkg:pypi/nodeenv@1.10.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5bb13e3eed2923615535339b3c620e76779af4cb4c6a90deccc9e36b274d3827"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c127",
+   "name": "numpy",
+   "version": "2.4.1",
+   "purl": "pkg:pypi/numpy@2.4.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0cce2a669e3c8ba02ee563c7835f92c153cf02edff1ae05e1823f1dde21b16a5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c128",
+   "name": "nvidia-cublas",
+   "version": "13.1.1.3",
+   "purl": "pkg:pypi/nvidia-cublas@13.1.1.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b7a210458267ac818974c53038fbec2e969d5c99f305ab15c72522fa9f001dd5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c129",
+   "name": "nvidia-cuda-cupti",
+   "version": "13.0.85",
+   "purl": "pkg:pypi/nvidia-cuda-cupti@13.0.85",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "796bd679890ee55fb14a94629b698b6db54bcfd833d391d5e94017dd9d7d3151"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c130",
+   "name": "nvidia-cuda-nvrtc",
+   "version": "13.0.88",
+   "purl": "pkg:pypi/nvidia-cuda-nvrtc@13.0.88",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ad9b6d2ead2435f11cbb6868809d2adeeee302e9bb94bcf0539c7a40d80e8575"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c131",
+   "name": "nvidia-cuda-runtime",
+   "version": "13.0.96",
+   "purl": "pkg:pypi/nvidia-cuda-runtime@13.0.96",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ef9bcbe90493a2b9d810e43d249adb3d02e98dd30200d86607d8d02687c43f55"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c132",
+   "name": "nvidia-cudnn-cu13",
+   "version": "9.20.0.48",
+   "purl": "pkg:pypi/nvidia-cudnn-cu13@9.20.0.48",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e31454ae00094b0c55319d9d15b6fa2fc50a9e1c0f5c8c80fb75258234e731e1"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c133",
+   "name": "nvidia-cufft",
+   "version": "12.0.0.61",
+   "purl": "pkg:pypi/nvidia-cufft@12.0.0.61",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2708c852ef8cd89d1d2068bdbece0aa188813a0c934db3779b9b1faa8442e5f5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c134",
+   "name": "nvidia-cufile",
+   "version": "1.15.1.6",
+   "purl": "pkg:pypi/nvidia-cufile@1.15.1.6",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "08a3ecefae5a01c7f5117351c64f17c7c62efa5fffdbe24fc7d298da19cd0b44"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c135",
+   "name": "nvidia-curand",
+   "version": "10.4.0.35",
+   "purl": "pkg:pypi/nvidia-curand@10.4.0.35",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "133df5a7509c3e292aaa2b477afd0194f06ce4ea24d714d616ff36439cee349a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c136",
+   "name": "nvidia-cusolver",
+   "version": "12.0.4.66",
+   "purl": "pkg:pypi/nvidia-cusolver@12.0.4.66",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "02c2457eaa9e39de20f880f4bd8820e6a1cfb9f9a34f820eb12a155aa5bc92d2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c137",
+   "name": "nvidia-cusparse",
+   "version": "12.6.3.3",
+   "purl": "pkg:pypi/nvidia-cusparse@12.6.3.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "80bcc4662f23f1054ee334a15c72b8940402975e0eab63178fc7e670aa59472c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c138",
+   "name": "nvidia-cusparselt-cu13",
+   "version": "0.8.1",
+   "purl": "pkg:pypi/nvidia-cusparselt-cu13@0.8.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4dca476c50bf4780d46cd0bfbd82e2bc10a08e4fef7950917ce8d7578d22a23f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c139",
+   "name": "nvidia-nccl-cu13",
+   "version": "2.29.7",
+   "purl": "pkg:pypi/nvidia-nccl-cu13@2.29.7",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "674a12383e3c38a1bcccae7d4f3633b37852230b6047883cb2f4c2d1b36d9bf5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c140",
+   "name": "nvidia-nvjitlink",
+   "version": "13.0.88",
+   "purl": "pkg:pypi/nvidia-nvjitlink@13.0.88",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "13a74f429e23b921c1109976abefacc69835f2f433ebd323d3946e11d804e47b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c141",
+   "name": "nvidia-nvshmem-cu13",
+   "version": "3.4.5",
+   "purl": "pkg:pypi/nvidia-nvshmem-cu13@3.4.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6dc2a197f38e5d0376ad52cd1a2a3617d3cdc150fd5966f4aee9bcebb1d68fe9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c142",
+   "name": "nvidia-nvtx",
+   "version": "13.0.85",
+   "purl": "pkg:pypi/nvidia-nvtx@13.0.85",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4936d1d6780fbe68db454f5e72a42ff64d1fd6397df9f363ae786930fd5c1cd4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c143",
+   "name": "ollama",
+   "version": "0.6.1",
+   "purl": "pkg:pypi/ollama@0.6.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "fc4c984b345735c5486faeee67d8a265214a31cbb828167782dc642ce0a2bf8c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c144",
+   "name": "omegaconf",
+   "version": "2.3.0",
+   "purl": "pkg:pypi/omegaconf@2.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7b4df175cdb08ba400f45cae3bdcae7ba8365db4d165fc65fd04b050ab63b46b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c145",
+   "name": "onnxruntime",
+   "version": "1.23.2",
+   "purl": "pkg:pypi/onnxruntime@1.23.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "87d8b6eaf0fbeb6835a60a4265fde7a3b60157cf1b2764773ac47237b4d48612"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c146",
+   "name": "onnxruntime",
+   "version": "1.26.0",
+   "purl": "pkg:pypi/onnxruntime@1.26.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ee1109ef4ef27cad90e823399e61e03b3c6c7bfe0fb820b4baf3678c15be8b3c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c147",
+   "name": "openai",
+   "version": "2.41.0",
+   "purl": "pkg:pypi/openai@2.41.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "20cc7952e8501c7e5773dd2ef7be437bae9cb549044902e1041a83a54516e375"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c148",
+   "name": "opencv-python",
+   "version": "4.13.0.92",
+   "purl": "pkg:pypi/opencv-python@4.13.0.92",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "caf60c071ec391ba51ed00a4a920f996d0b64e3e46068aac1f646b5de0326a19"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c149",
+   "name": "openpyxl",
+   "version": "3.1.5",
+   "purl": "pkg:pypi/openpyxl@3.1.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c150",
+   "name": "openresponses-types",
+   "version": "2.3.0.post1",
+   "purl": "pkg:pypi/openresponses-types@2.3.0.post1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "88f6abcef9cad839203abff420dd080978bf6eb33cc06ddc5d78da4ccdba7613"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c151",
+   "name": "opentelemetry-api",
+   "version": "1.45.1",
+   "purl": "pkg:pypi/opentelemetry-api@1.45.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c152",
+   "name": "opentelemetry-exporter-http-transport",
+   "version": "0.66b1",
+   "purl": "pkg:pypi/opentelemetry-exporter-http-transport@0.66b1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2f95404bdee7f9d2d529c7de56c7bd86d014d774d8fbf137810e0167f8a492bf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c153",
+   "name": "opentelemetry-exporter-otlp-common",
+   "version": "0.66b1",
+   "purl": "pkg:pypi/opentelemetry-exporter-otlp-common@0.66b1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "00ff8592c3a7cb729ff3fdc7ffa12372c243bdf2163e80c180994d0c7bd83ee9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c154",
+   "name": "opentelemetry-exporter-otlp-proto-common",
+   "version": "1.45.1",
+   "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-common@1.45.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2f446183ae7047b036226f1d846c41a834b0e8755ad13b51a51dd38952eb466c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c155",
+   "name": "opentelemetry-exporter-otlp-proto-http",
+   "version": "1.45.1",
+   "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.45.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "24a97cf3753c7fb52fad44a696e452ff371686339e2acf3309e2eda3d0230700"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c156",
+   "name": "opentelemetry-instrumentation",
+   "version": "0.66b1",
+   "purl": "pkg:pypi/opentelemetry-instrumentation@0.66b1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4c4aa14dc9a24a02325a9d4c42c4d0208dbb1374c2b1b8fe6c9392d59f3e1008"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c157",
+   "name": "opentelemetry-instrumentation-threading",
+   "version": "0.66b1",
+   "purl": "pkg:pypi/opentelemetry-instrumentation-threading@0.66b1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "94039c60603060d26524e31aed1181a5d153e43f58462d110dbeb4830687d7d7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c158",
+   "name": "opentelemetry-proto",
+   "version": "1.45.1",
+   "purl": "pkg:pypi/opentelemetry-proto@1.45.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f38e2a8413053c180cd3d2637fbb279673ec2f6a6e09c995aafa2f452c52b46e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c159",
+   "name": "opentelemetry-sdk",
+   "version": "1.45.1",
+   "purl": "pkg:pypi/opentelemetry-sdk@1.45.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c604c11dc429810812348989115fa44bd558772a3d7442afc43d024f2c250ca4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c160",
+   "name": "opentelemetry-semantic-conventions",
+   "version": "0.66b1",
+   "purl": "pkg:pypi/opentelemetry-semantic-conventions@0.66b1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d4cddeb4315490b35213f55e2bdc9ac54bb1e4d318927475bed62b35545e581b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c161",
+   "name": "orjson",
+   "version": "3.11.6",
+   "purl": "pkg:pypi/orjson@3.11.6",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e259e85a81d76d9665f03d6129e09e4435531870de5961ddcd0bf6e3a7fde7d7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c162",
+   "name": "ormsgpack",
+   "version": "1.12.2",
+   "purl": "pkg:pypi/ormsgpack@1.12.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "bd5f4bf04c37888e864f08e740c5a573c4017f6fd6e99fa944c5c935fabf2dd9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c163",
+   "name": "packaging",
+   "version": "26.3",
+   "purl": "pkg:pypi/packaging@26.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c164",
+   "name": "pandas",
+   "version": "3.0.0",
+   "purl": "pkg:pypi/pandas@3.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d64ce01eb9cdca96a15266aa679ae50212ec52757c79204dbc7701a222401850"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c165",
+   "name": "pathspec",
+   "version": "1.0.4",
+   "purl": "pkg:pypi/pathspec@1.0.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "fb6ae2fd4e7c921a165808a552060e722767cfa526f99ca5156ed2ce45a5c723"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c166",
+   "name": "pillow",
+   "version": "13.0.0",
+   "purl": "pkg:pypi/pillow@13.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6f38f3f885a09cafc93fd667b1173a92f379e43785d635e7983c893f0da319fb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c167",
+   "name": "platformdirs",
+   "version": "4.5.1",
+   "purl": "pkg:pypi/platformdirs@4.5.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d03afa3963c806a9bed9d5125c8f4cb2fdaf74a55ab60e5d59b3fde758104d31"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c168",
+   "name": "pluggy",
+   "version": "1.6.0",
+   "purl": "pkg:pypi/pluggy@1.6.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c169",
+   "name": "portalocker",
+   "version": "2.7.0",
+   "purl": "pkg:pypi/portalocker@2.7.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a07c5b4f3985c3cf4798369631fb7011adb498e2a46d8440efc75a8f29a0f983"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c170",
+   "name": "posthog",
+   "version": "7.79.0",
+   "purl": "pkg:pypi/posthog@7.79.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0b24a6db8749de299f1d8e242e13718949c48c1a613be055675e8683e0c637ea"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c171",
+   "name": "pre-commit",
+   "version": "4.5.1",
+   "purl": "pkg:pypi/pre-commit@4.5.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "3b3afd891e97337708c1674210f8eba659b52a38ea5f822ff142d10786221f77"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c172",
+   "name": "propcache",
+   "version": "0.4.1",
+   "purl": "pkg:pypi/propcache@0.4.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "60a8fda9644b7dfd5dece8c61d8a85e271cb958075bfc4e01083c148b61a7caf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c173",
+   "name": "proto-plus",
+   "version": "1.28.2",
+   "purl": "pkg:pypi/proto-plus@1.28.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b874236fcac2358f601e4330bcb76cb8b89c851303ccf4078408b3d4774d1c52"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c174",
+   "name": "protobuf",
+   "version": "5.29.6",
+   "purl": "pkg:pypi/protobuf@5.29.6",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "62e8a3114992c7c647bce37dcc93647575fc52d50e48de30c6fcb28a6a291eb1"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c175",
+   "name": "psutil",
+   "version": "7.2.1",
+   "purl": "pkg:pypi/psutil@7.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ba9f33bb525b14c3ea563b2fd521a84d2fa214ec59e3e6a2858f78d0844dd60d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c176",
+   "name": "py-rust-stemmers",
+   "version": "0.1.5",
+   "purl": "pkg:pypi/py-rust-stemmers@0.1.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e644987edaf66919f5a9e4693336930f98d67b790857890623a431bb77774c84"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c177",
+   "name": "pyarrow",
+   "version": "23.0.1",
+   "purl": "pkg:pypi/pyarrow@23.0.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6f0147ee9e0386f519c952cc670eb4a8b05caa594eeffe01af0e25f699e4e9bb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c178",
+   "name": "pyasn1",
+   "version": "0.6.5",
+   "purl": "pkg:pypi/pyasn1@0.6.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4017b0fce125096b8573b39c989fdb1a4b19cf761e683398184550fea0e66587"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c179",
+   "name": "pyasn1-modules",
+   "version": "0.4.2",
+   "purl": "pkg:pypi/pyasn1-modules@0.4.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "29253a9207ce32b64c3ac6600edc75368f98473906e8fd1043bd6b5b1de2c14a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c180",
+   "name": "pyclipper",
+   "version": "1.4.0",
+   "purl": "pkg:pypi/pyclipper@1.4.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "adcb7ca33c5bdc33cd775e8b3eadad54873c802a6d909067a57348bcb96e7a2d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c181",
+   "name": "pycparser",
+   "version": "3.0",
+   "purl": "pkg:pypi/pycparser@3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c182",
+   "name": "pydantic",
+   "version": "2.12.5",
+   "purl": "pkg:pypi/pydantic@2.12.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e561593fccf61e8a20fc46dfc2dfe075b8be7d0188df33f221ad1f0139180f9d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c183",
+   "name": "pydantic-core",
+   "version": "2.41.5",
+   "purl": "pkg:pypi/pydantic-core@2.41.5",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a3a52f6156e73e7ccb0f8cced536adccb7042be67cb45f9562e12b319c119da6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c184",
+   "name": "pydantic-settings",
+   "version": "2.14.2",
+   "purl": "pkg:pypi/pydantic-settings@2.14.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a20c97b37910b6550d5ea50fbcc2d4187defe58cd57070b73863d069419c9440"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c185",
+   "name": "pygments",
+   "version": "2.20.0",
+   "purl": "pkg:pypi/pygments@2.20.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c186",
+   "name": "pyjwt",
+   "version": "2.15.1",
+   "purl": "pkg:pypi/pyjwt@2.15.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "42d59d631f7768a1028a64c7ff581a9bf7519804daf91fc5b6c56e30eec5e193"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c187",
+   "name": "pytest",
+   "version": "9.0.3",
+   "purl": "pkg:pypi/pytest@9.0.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2c5efc453d45394fdd706ade797c0a81091eccd1d6e4bccfcd476e2b8e0ab5d9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c188",
+   "name": "pytest-asyncio",
+   "version": "1.3.0",
+   "purl": "pkg:pypi/pytest-asyncio@1.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "611e26147c7f77640e6d0a92a38ed17c3e9848063698d5c93d5aa7aa11cebff5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c189",
+   "name": "pytest-cov",
+   "version": "7.0.0",
+   "purl": "pkg:pypi/pytest-cov@7.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "3b8e9558b16cc1479da72058bdecf8073661c7f57f7d3c5f22a1c23507f2d861"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c190",
+   "name": "python-dateutil",
+   "version": "2.9.0.post0",
+   "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c191",
+   "name": "python-discovery",
+   "version": "1.6.1",
+   "purl": "pkg:pypi/python-discovery@1.6.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d43fcdef879fe795352bd13ccf8d185ba5a9f86f36cfcd00529f596e737442b3"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c192",
+   "name": "python-dotenv",
+   "version": "1.2.2",
+   "purl": "pkg:pypi/python-dotenv@1.2.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1d8214789a24de455a8b8bd8ae6fe3c6b69a5e3d64aa8a8e5d68e694bbcb285a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c193",
+   "name": "python-multipart",
+   "version": "0.0.31",
+   "purl": "pkg:pypi/python-multipart@0.0.31",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "8408153d68a9773291fc1da39a8b85a50044bddbabd2dd72e9229776b7b15e28"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c194",
+   "name": "python-socks",
+   "version": "3.2.0",
+   "purl": "pkg:pypi/python-socks@3.2.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4cb349f43043eeeb12d10919cb992a7ce8671c2c5a836a47cb0c29d8def11d24"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c195",
+   "name": "pytz",
+   "version": "2025.2",
+   "purl": "pkg:pypi/pytz@2025.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c196",
+   "name": "pywin32",
+   "version": "311",
+   "purl": "pkg:pypi/pywin32@311",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "184eb5e436dea364dcd3d2316d577d625c0351bf237c4e9a5fabbcfa5a58b151"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c197",
+   "name": "pyyaml",
+   "version": "6.0.3",
+   "purl": "pkg:pypi/pyyaml@6.0.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "44edc647873928551a01e7a563d7452ccdebee747728c1080d881d68af7b997e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c198",
+   "name": "qdrant-client",
+   "version": "1.17.1",
+   "purl": "pkg:pypi/qdrant-client@1.17.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6cda4064adfeaf211c751f3fbc00edbbdb499850918c7aff4855a9a759d56cbd"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c199",
+   "name": "rapidocr",
+   "version": "3.8.1",
+   "purl": "pkg:pypi/rapidocr@3.8.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "650044b1fbce9e6bae5cae462dcf8be754cde11e2f23fc51f65dcc08deae2c46"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c200",
+   "name": "rapidocr-onnxruntime",
+   "version": "1.4.4",
+   "purl": "pkg:pypi/rapidocr-onnxruntime@1.4.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "971d7d5f223a7a808662229df1ef69893809d8457d834e6373d3854bc1782cbf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c201",
+   "name": "redis",
+   "version": "8.1.0",
+   "purl": "pkg:pypi/redis@8.1.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a4fe1aac3d3b3cc791d4b3d5931c5a956045dc951ee74d1c913ee3ac4d2ee9fb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c202",
+   "name": "referencing",
+   "version": "0.37.0",
+   "purl": "pkg:pypi/referencing@0.37.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c203",
+   "name": "regex",
+   "version": "2026.1.15",
+   "purl": "pkg:pypi/regex@2026.1.15",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1ae6020fb311f68d753b7efa9d4b9a5d47a5d6466ea0d5e3b5a471a960ea6e4a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c204",
+   "name": "requests",
+   "version": "2.33.0",
+   "purl": "pkg:pypi/requests@2.33.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "3324635456fa185245e24865e810cecec7b4caf933d7eb133dcde67d48cee69b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c205",
+   "name": "requests-toolbelt",
+   "version": "1.0.0",
+   "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c206",
+   "name": "respx",
+   "version": "0.23.1",
+   "purl": "pkg:pypi/respx@0.23.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b18004b029935384bccfa6d7d9d74b4ec9af73a081cc28600fffc0447f4b8c1a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c207",
+   "name": "rich",
+   "version": "14.3.1",
+   "purl": "pkg:pypi/rich@14.3.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "da750b1aebbff0b372557426fb3f35ba56de8ef954b3190315eb64076d6fb54e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c208",
+   "name": "rpds-py",
+   "version": "0.30.0",
+   "purl": "pkg:pypi/rpds-py@0.30.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a2bffea6a4ca9f01b3f8e548302470306689684e61602aa3d141e34da06cf425"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c209",
+   "name": "ruff",
+   "version": "0.17.3",
+   "purl": "pkg:pypi/ruff@0.17.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ab86b84cd9d05e56d329742c0cabdcbe2d1d56c98f4a04aab9b5b66196febfb4"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c210",
+   "name": "s3transfer",
+   "version": "0.19.2",
+   "purl": "pkg:pypi/s3transfer@0.19.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d8168eccca828cbb2cd573675333f3bddd254313a9c42494b84c76b539e8ba25"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c211",
+   "name": "safetensors",
+   "version": "0.8.0",
+   "purl": "pkg:pypi/safetensors@0.8.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c554f85858e05226d3c2828e32395e677434685d6d94594a41643361c5e837f0"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c212",
+   "name": "scikit-learn",
+   "version": "1.8.0",
+   "purl": "pkg:pypi/scikit-learn@1.8.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "146b4d36f800c013d267b29168813f7a03a43ecd2895d04861f1240b564421da"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c213",
+   "name": "scipy",
+   "version": "1.17.0",
+   "purl": "pkg:pypi/scipy@1.17.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2abd71643797bd8a106dff97894ff7869eeeb0af0f7a5ce02e4227c6a2e9d6fd"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c214",
+   "name": "sentence-transformers",
+   "version": "6.0.1",
+   "purl": "pkg:pypi/sentence-transformers@6.0.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b8888d72c707ba33c63aa30845850702dd5acadf1dd0d051436380bcebe4fd0f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c215",
+   "name": "sentencepiece",
+   "version": "0.2.1",
+   "purl": "pkg:pypi/sentencepiece@0.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6356d0986b8b8dc351b943150fcd81a1c6e6e4d439772e8584c64230e58ca987"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c216",
+   "name": "setuptools",
+   "version": "84.2.1",
+   "purl": "pkg:pypi/setuptools@84.2.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c217",
+   "name": "shapely",
+   "version": "2.1.2",
+   "purl": "pkg:pypi/shapely@2.1.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "91121757b0a36c9aac3427a651a7e6567110a4a67c97edf04f8d55d4765f6618"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c218",
+   "name": "shellingham",
+   "version": "1.5.4",
+   "purl": "pkg:pypi/shellingham@1.5.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c219",
+   "name": "six",
+   "version": "1.17.0",
+   "purl": "pkg:pypi/six@1.17.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c220",
+   "name": "smmap",
+   "version": "5.0.2",
+   "purl": "pkg:pypi/smmap@5.0.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b30115f0def7d7531d22a0fb6502488d879e75b260a9db4d0819cfb25403af5e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c221",
+   "name": "sniffio",
+   "version": "1.3.1",
+   "purl": "pkg:pypi/sniffio@1.3.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c222",
+   "name": "socksio",
+   "version": "1.0.0",
+   "purl": "pkg:pypi/socksio@1.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "95dc1f15f9b34e8d7b16f06d74b8ccf48f609af32ab33c608d08761c5dcbb1f3"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c223",
+   "name": "sortedcontainers",
+   "version": "2.4.0",
+   "purl": "pkg:pypi/sortedcontainers@2.4.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c224",
+   "name": "sqlalchemy",
+   "version": "2.0.49",
+   "purl": "pkg:pypi/sqlalchemy@2.0.49",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c5070135e1b7409c4161133aa525419b0062088ed77c92b1da95366ec5cbebbe"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c225",
+   "name": "sqlite-vec",
+   "version": "0.1.9",
+   "purl": "pkg:pypi/sqlite-vec@0.1.9",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1b62a7f0a060d9475575d4e599bbf94a13d85af896bc1ce86ee80d1b5b48e5fb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c226",
+   "name": "sse-starlette",
+   "version": "3.2.0",
+   "purl": "pkg:pypi/sse-starlette@3.2.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5876954bd51920fc2cd51baee47a080eb88a37b5b784e615abb0b283f801cdbf"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c227",
+   "name": "starlette",
+   "version": "1.3.1",
+   "purl": "pkg:pypi/starlette@1.3.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c7372aae11c3c3f26a42df7bd626cec2f47d03483d261d369516a615a53714c6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c228",
+   "name": "strands-agents",
+   "version": "1.63.0",
+   "purl": "pkg:pypi/strands-agents@1.63.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "fc0a140943855c0199a83fe5a78fc07f1e82ef7d60592538c2d52793121980f0"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c229",
+   "name": "sympy",
+   "version": "1.14.0",
+   "purl": "pkg:pypi/sympy@1.14.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c230",
+   "name": "tenacity",
+   "version": "9.1.2",
+   "purl": "pkg:pypi/tenacity@9.1.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f77bf36710d8b73a50b2dd155c97b870017ad21afe6ab300326b0371b3b05138"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c231",
+   "name": "threadpoolctl",
+   "version": "3.6.0",
+   "purl": "pkg:pypi/threadpoolctl@3.6.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c232",
+   "name": "tiktoken",
+   "version": "0.12.0",
+   "purl": "pkg:pypi/tiktoken@0.12.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6e227c7f96925003487c33b1b32265fad2fbcec2b7cf4817afb76d416f40f6bb"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c233",
+   "name": "tld",
+   "version": "0.13.1",
+   "purl": "pkg:pypi/tld@0.13.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a2d35109433ac83486ddf87e3c4539ab2c5c2478230e5d9c060a18af4b03aa7c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c234",
+   "name": "tokenizers",
+   "version": "0.22.2",
+   "purl": "pkg:pypi/tokenizers@0.22.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "544dd704ae7238755d790de45ba8da072e9af3eea688f698b137915ae959281c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c235",
+   "name": "tomli",
+   "version": "2.0.2",
+   "purl": "pkg:pypi/tomli@2.0.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2ebe24485c53d303f690b0ec092806a085f07af5a5aa1464f3931eec36caaa38"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c236",
+   "name": "tomlkit",
+   "version": "0.15.2",
+   "purl": "pkg:pypi/tomlkit@0.15.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "05562412163a3037b94497385fb7f9204c637bc605af7a48199e41cf2272f437"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c237",
+   "name": "torch",
+   "version": "2.13.0",
+   "purl": "pkg:pypi/torch@2.13.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e76f9bcecc52b8ff711239a2f7547d5353df95878ab232f0773c1d95928b92f8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c238",
+   "name": "tqdm",
+   "version": "4.67.1",
+   "purl": "pkg:pypi/tqdm@4.67.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c239",
+   "name": "trafilatura",
+   "version": "2.0.0",
+   "purl": "pkg:pypi/trafilatura@2.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "77eb5d1e993747f6f20938e1de2d840020719735690c840b9a1024803a4cd51d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c240",
+   "name": "transformers",
+   "version": "5.13.1",
+   "purl": "pkg:pypi/transformers@5.13.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "53f0ea8aa397e29244c2377ba981bcaf0c87adcf44fbdd447ef6306522afcacd"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c241",
+   "name": "tree-sitter",
+   "version": "0.26.0",
+   "purl": "pkg:pypi/tree-sitter@0.26.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "1d6fe0e8fb4df77b5ee816228e2c4475a63d8cc1d4d3a7ffd7097b2b87fc3e95"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c242",
+   "name": "tree-sitter-c-sharp",
+   "version": "0.23.1",
+   "purl": "pkg:pypi/tree-sitter-c-sharp@0.23.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e87be7572991552606a3155d2f6c2045ded8bce94bfd9f74bf521d949c219a1c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c243",
+   "name": "tree-sitter-embedded-template",
+   "version": "0.25.0",
+   "purl": "pkg:pypi/tree-sitter-embedded-template@0.25.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "fa0d06467199aeb33fb3d6fa0665bf9b7d5a32621ffdaf37fd8249f8a8050649"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c244",
+   "name": "tree-sitter-language-pack",
+   "version": "0.13.0",
+   "purl": "pkg:pypi/tree-sitter-language-pack@0.13.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0e7eae812b40a2dc8a12eb2f5c55e130eb892706a0bee06215dd76affeb00d07"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c245",
+   "name": "tree-sitter-yaml",
+   "version": "0.7.2",
+   "purl": "pkg:pypi/tree-sitter-yaml@0.7.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7e269ddcfcab8edb14fbb1f1d34eed1e1e26888f78f94eedfe7cc98c60f8bc9f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c246",
+   "name": "triton",
+   "version": "3.7.1",
+   "purl": "pkg:pypi/triton@3.7.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d4a0e1cd4c4a76370ed74a8432a53cea28716827d19e40ffc732233e35ceb3f6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c247",
+   "name": "truststore",
+   "version": "0.10.4",
+   "purl": "pkg:pypi/truststore@0.10.4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "adaeaecf1cbb5f4de3b1959b42d41f6fab57b2b1666adb59e89cb0b53361d981"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c248",
+   "name": "typer",
+   "version": "0.21.1",
+   "purl": "pkg:pypi/typer@0.21.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7985e89081c636b88d172c2ee0cfe33c253160994d47bdfdc302defd7d1f1d01"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c249",
+   "name": "typing-extensions",
+   "version": "4.15.0",
+   "purl": "pkg:pypi/typing-extensions@4.15.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c250",
+   "name": "typing-inspection",
+   "version": "0.4.2",
+   "purl": "pkg:pypi/typing-inspection@0.4.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4ed1cacbdc298c220f1bd249ed5287caa16f34d44ef4e9c3d0cbad5b521545e7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c251",
+   "name": "tzdata",
+   "version": "2025.3",
+   "purl": "pkg:pypi/tzdata@2025.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "06a47e5700f3081aab02b2e513160914ff0694bce9947d6b76ebd6bf57cfc5d1"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c252",
+   "name": "tzlocal",
+   "version": "5.3.1",
+   "purl": "pkg:pypi/tzlocal@5.3.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "eb1a66c3ef5847adf7a834f1be0800581b683b5608e74f86ecbcef8ab91bb85d"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c253",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "purl": "pkg:pypi/urllib3@2.8.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c254",
+   "name": "uuid-utils",
+   "version": "0.14.0",
+   "purl": "pkg:pypi/uuid-utils@0.14.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "f6695c0bed8b18a904321e115afe73b34444bc8451d0ce3244a1ec3b84deb0e5"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c255",
+   "name": "uvicorn",
+   "version": "0.40.0",
+   "purl": "pkg:pypi/uvicorn@0.40.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "c6c8f55bc8bf13eb6fa9ff87ad62308bbbc33d0b67f84293151efe87e0d5f2ee"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c256",
+   "name": "virtualenv",
+   "version": "21.14.13",
+   "purl": "pkg:pypi/virtualenv@21.14.13",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "5fbb04138a4861580b78ba9110d529a26bc48fcc93c8ec36bc0202eeed96a788"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c257",
+   "name": "watchdog",
+   "version": "6.0.0",
+   "purl": "pkg:pypi/watchdog@6.0.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6eb11feb5a0d452ee41f824e271ca311a09e250441c262ca2fd7ebcf2461a06c"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c258",
+   "name": "websockets",
+   "version": "16.0",
+   "purl": "pkg:pypi/websockets@16.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "31a52addea25187bde0797a97d6fc3d2f92b6f72a9370792d65a6e84615ac8a8"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c259",
+   "name": "win32-setctime",
+   "version": "1.2.0",
+   "purl": "pkg:pypi/win32-setctime@1.2.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "95d644c4e708aba81dc3704a116d8cbc974d70b3bdb8be1d150e36be6e9d1390"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c260",
+   "name": "wrapt",
+   "version": "1.17.3",
+   "purl": "pkg:pypi/wrapt@1.17.3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "273a736c4645e63ac582c60a56b0acb529ef07f78e08dc6bfadf6a46b19c0da7"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c261",
+   "name": "xlrd",
+   "version": "2.0.2",
+   "purl": "pkg:pypi/xlrd@2.0.2",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c262",
+   "name": "xlwt",
+   "version": "1.3.0",
+   "purl": "pkg:pypi/xlwt@1.3.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c263",
+   "name": "xxhash",
+   "version": "3.6.0",
+   "purl": "pkg:pypi/xxhash@3.6.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b47bbd8cf2d72797f3c2772eaaac0ded3d3af26481a26d7d7d41dc2d3c46b04a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c264",
+   "name": "yarl",
+   "version": "1.25.1",
+   "purl": "pkg:pypi/yarl@1.25.1",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "9d693bf4bf534e9ba3ae2780cfd577f5135629f7b5ac653490859d0b77864865"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c265",
+   "name": "zipp",
+   "version": "3.23.0",
+   "purl": "pkg:pypi/zipp@3.23.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "071652d6115ed432f5ce1d34c336c0adfd6a884660d1e9712a256d3d3bd4b14e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c266",
+   "name": "zstandard",
+   "version": "0.25.0",
+   "purl": "pkg:pypi/zstandard@0.25.0",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "933b65d7680ea337180733cf9e87293cc5500cc0eb3fc8769f4d3c88d724ec5c"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": []
+  }
+ ]
+}

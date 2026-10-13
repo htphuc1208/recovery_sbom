@@ -1,0 +1,410 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T17:22:38+00:00",
+  "component": {
+   "type": "application",
+   "name": "Yeachan-Heo/oh-my-claudecode",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "claude-agent-sdk",
+   "version": "^0.1.0",
+   "purl": "pkg:npm/%40anthropic-ai/claude-agent-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@anthropic-ai"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "napi",
+   "version": "^0.31.0",
+   "purl": "pkg:npm/%40ast-grep/napi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@ast-grep"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "sdk",
+   "version": "^1.26.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "better-sqlite3",
+   "version": "^7.6.13",
+   "purl": "pkg:npm/%40types/better-sqlite3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "ajv",
+   "version": "^8.17.1",
+   "purl": "pkg:npm/ajv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "better-sqlite3",
+   "version": "^12.10.0",
+   "purl": "pkg:npm/better-sqlite3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "chalk",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/chalk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "commander",
+   "version": "^12.1.0",
+   "purl": "pkg:npm/commander",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "jsonc-parser",
+   "version": "^3.3.1",
+   "purl": "pkg:npm/jsonc-parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "safe-regex",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/safe-regex",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "tsx",
+   "version": "^4.19.2",
+   "purl": "pkg:npm/tsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "vscode-languageserver-protocol",
+   "version": "^3.17.5",
+   "purl": "pkg:npm/vscode-languageserver-protocol",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "zod",
+   "version": "^3.23.8",
+   "purl": "pkg:npm/zod",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "sdk",
+   "version": "^0.78.0",
+   "purl": "pkg:npm/%40anthropic-ai/sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@anthropic-ai"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "js",
+   "version": "^9.39.2",
+   "purl": "pkg:npm/%40eslint/js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "node",
+   "version": "^22.19.7",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "eslint-plugin",
+   "version": "^8.18.2",
+   "purl": "pkg:npm/%40typescript-eslint/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "parser",
+   "version": "^8.18.2",
+   "purl": "pkg:npm/%40typescript-eslint/parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "ui",
+   "version": "^4.1.11",
+   "purl": "pkg:npm/%40vitest/ui",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitest"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "concurrently",
+   "version": "^9.2.1",
+   "purl": "pkg:npm/concurrently",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "esbuild",
+   "version": "^0.27.2",
+   "purl": "pkg:npm/esbuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "eslint",
+   "version": "^9.17.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "fast-check",
+   "version": "^4.5.3",
+   "purl": "pkg:npm/fast-check",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "prettier",
+   "version": "^3.4.2",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "typescript",
+   "version": "^5.7.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "typescript-eslint",
+   "version": "^8.53.0",
+   "purl": "pkg:npm/typescript-eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "vitest",
+   "version": "^4.1.11",
+   "purl": "pkg:npm/vitest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26"
+   ]
+  }
+ ]
+}

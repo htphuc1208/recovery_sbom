@@ -1,0 +1,254 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T01:50:30-05:00",
+  "component": {
+   "type": "application",
+   "name": "modelcontextprotocol/servers",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "server-everything",
+   "version": "*",
+   "purl": "pkg:npm/%40modelcontextprotocol/server-everything",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "server-filesystem",
+   "version": "*",
+   "purl": "pkg:npm/%40modelcontextprotocol/server-filesystem",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "server-memory",
+   "version": "*",
+   "purl": "pkg:npm/%40modelcontextprotocol/server-memory",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "server-sequential-thinking",
+   "version": "*",
+   "purl": "pkg:npm/%40modelcontextprotocol/server-sequential-thinking",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "changelog-github",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40changesets/changelog-github",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@changesets"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "cli",
+   "version": "^3.0.3",
+   "purl": "pkg:npm/%40changesets/cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@changesets"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "js",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/%40eslint/js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "client",
+   "version": "^2.3.1",
+   "purl": "pkg:npm/%40modelcontextprotocol/client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "eslint",
+   "version": "^10.11.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "globals",
+   "version": "^17.12.0",
+   "purl": "pkg:npm/globals",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "mcp-server-diff",
+   "version": "3.0.0",
+   "purl": "pkg:npm/mcp-server-diff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "prettier",
+   "version": "3.8.4",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "proper-lockfile",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/proper-lockfile",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "semver",
+   "version": "^7.8.4",
+   "purl": "pkg:npm/semver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "typescript-eslint",
+   "version": "^8.71.0",
+   "purl": "pkg:npm/typescript-eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "yaml",
+   "version": "^2.9.0",
+   "purl": "pkg:npm/yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15"
+   ]
+  }
+ ]
+}

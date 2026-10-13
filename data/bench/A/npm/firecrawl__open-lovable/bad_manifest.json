@@ -1,0 +1,1171 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-09T15:03:07+05:30",
+  "component": {
+   "type": "application",
+   "name": "firecrawl/open-lovable",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "anthropic",
+   "version": "^2.0.1",
+   "purl": "pkg:npm/%40ai-sdk/anthropic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@ai-sdk"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "google",
+   "version": "^2.0.4",
+   "purl": "pkg:npm/%40ai-sdk/google",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@ai-sdk"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "groq",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/%40ai-sdk/groq",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@ai-sdk"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "openai",
+   "version": "^2.0.4",
+   "purl": "pkg:npm/%40ai-sdk/openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@ai-sdk"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "sdk",
+   "version": "^0.57.0",
+   "purl": "pkg:npm/%40anthropic-ai/sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@anthropic-ai"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "code-interpreter",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/%40e2b/code-interpreter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@e2b"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "firecrawl-js",
+   "version": "^4.3.3",
+   "purl": "pkg:npm/%40mendable/firecrawl-js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@mendable"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "react-accordion",
+   "version": "^1.2.12",
+   "purl": "pkg:npm/%40radix-ui/react-accordion",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "react-alert-dialog",
+   "version": "^1.1.15",
+   "purl": "pkg:npm/%40radix-ui/react-alert-dialog",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "react-aspect-ratio",
+   "version": "^1.1.7",
+   "purl": "pkg:npm/%40radix-ui/react-aspect-ratio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "react-avatar",
+   "version": "^1.1.10",
+   "purl": "pkg:npm/%40radix-ui/react-avatar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "react-checkbox",
+   "version": "^1.3.3",
+   "purl": "pkg:npm/%40radix-ui/react-checkbox",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "react-collapsible",
+   "version": "^1.1.12",
+   "purl": "pkg:npm/%40radix-ui/react-collapsible",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "react-context-menu",
+   "version": "^2.2.16",
+   "purl": "pkg:npm/%40radix-ui/react-context-menu",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "react-dialog",
+   "version": "^1.1.15",
+   "purl": "pkg:npm/%40radix-ui/react-dialog",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "react-dropdown-menu",
+   "version": "^2.1.16",
+   "purl": "pkg:npm/%40radix-ui/react-dropdown-menu",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "react-hover-card",
+   "version": "^1.1.15",
+   "purl": "pkg:npm/%40radix-ui/react-hover-card",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "react-label",
+   "version": "^2.1.7",
+   "purl": "pkg:npm/%40radix-ui/react-label",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "react-menubar",
+   "version": "^1.1.16",
+   "purl": "pkg:npm/%40radix-ui/react-menubar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "react-navigation-menu",
+   "version": "^1.2.14",
+   "purl": "pkg:npm/%40radix-ui/react-navigation-menu",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "react-popover",
+   "version": "^1.1.15",
+   "purl": "pkg:npm/%40radix-ui/react-popover",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "react-progress",
+   "version": "^1.1.7",
+   "purl": "pkg:npm/%40radix-ui/react-progress",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "react-radio-group",
+   "version": "^1.3.8",
+   "purl": "pkg:npm/%40radix-ui/react-radio-group",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "react-scroll-area",
+   "version": "^1.2.10",
+   "purl": "pkg:npm/%40radix-ui/react-scroll-area",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "react-select",
+   "version": "^2.2.6",
+   "purl": "pkg:npm/%40radix-ui/react-select",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "react-separator",
+   "version": "^1.1.7",
+   "purl": "pkg:npm/%40radix-ui/react-separator",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "react-slider",
+   "version": "^1.3.6",
+   "purl": "pkg:npm/%40radix-ui/react-slider",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "react-slot",
+   "version": "^1.2.3",
+   "purl": "pkg:npm/%40radix-ui/react-slot",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "react-switch",
+   "version": "^1.2.5",
+   "purl": "pkg:npm/%40radix-ui/react-switch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "react-tabs",
+   "version": "^1.1.13",
+   "purl": "pkg:npm/%40radix-ui/react-tabs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "react-toast",
+   "version": "^1.2.15",
+   "purl": "pkg:npm/%40radix-ui/react-toast",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "react-toggle",
+   "version": "^1.1.10",
+   "purl": "pkg:npm/%40radix-ui/react-toggle",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "react-toggle-group",
+   "version": "^1.1.11",
+   "purl": "pkg:npm/%40radix-ui/react-toggle-group",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "react-tooltip",
+   "version": "^1.2.8",
+   "purl": "pkg:npm/%40radix-ui/react-tooltip",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "icons-react",
+   "version": "^3.34.1",
+   "purl": "pkg:npm/%40tabler/icons-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@tabler"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "typography",
+   "version": "^0.5.16",
+   "purl": "pkg:npm/%40tailwindcss/typography",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@tailwindcss"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "react-syntax-highlighter",
+   "version": "^15.5.13",
+   "purl": "pkg:npm/%40types/react-syntax-highlighter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "sandbox",
+   "version": "^0.0.17",
+   "purl": "pkg:npm/%40vercel/sandbox",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@vercel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "ai",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/ai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "autoprefixer",
+   "version": "^10.4.21",
+   "purl": "pkg:npm/autoprefixer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "class-variance-authority",
+   "version": "^0.7.1",
+   "purl": "pkg:npm/class-variance-authority",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "classnames",
+   "version": "^2.5.1",
+   "purl": "pkg:npm/classnames",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "clsx",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/clsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "copy-to-clipboard",
+   "version": "^3.3.3",
+   "purl": "pkg:npm/copy-to-clipboard",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "cors",
+   "version": "^2.8.5",
+   "purl": "pkg:npm/cors",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "dotenv",
+   "version": "^17.2.1",
+   "purl": "pkg:npm/dotenv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "framer-motion",
+   "version": "^12.23.12",
+   "purl": "pkg:npm/framer-motion",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "groq-sdk",
+   "version": "^0.29.0",
+   "purl": "pkg:npm/groq-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "jotai",
+   "version": "^2.14.0",
+   "purl": "pkg:npm/jotai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "lodash-es",
+   "version": "^4.17.21",
+   "purl": "pkg:npm/lodash-es",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "lucide-react",
+   "version": "^0.532.0",
+   "purl": "pkg:npm/lucide-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "motion",
+   "version": "^12.23.12",
+   "purl": "pkg:npm/motion",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "nanoid",
+   "version": "^5.1.5",
+   "purl": "pkg:npm/nanoid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "next",
+   "version": "15.5.27",
+   "purl": "pkg:npm/next",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "next-themes",
+   "version": "^0.4.6",
+   "purl": "pkg:npm/next-themes",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "pixi.js",
+   "version": "^8.13.1",
+   "purl": "pkg:npm/pixi.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "react",
+   "version": "19.1.0",
+   "purl": "pkg:npm/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "react-dom",
+   "version": "19.1.0",
+   "purl": "pkg:npm/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "react-hook-form",
+   "version": "^7.62.0",
+   "purl": "pkg:npm/react-hook-form",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "react-icons",
+   "version": "^5.5.0",
+   "purl": "pkg:npm/react-icons",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "react-syntax-highlighter",
+   "version": "^15.6.1",
+   "purl": "pkg:npm/react-syntax-highlighter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b61",
+   "name": "sonner",
+   "version": "^2.0.7",
+   "purl": "pkg:npm/sonner",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b62",
+   "name": "tailwind-gradient-mask-image",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/tailwind-gradient-mask-image",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b63",
+   "name": "tailwind-merge",
+   "version": "^3.3.1",
+   "purl": "pkg:npm/tailwind-merge",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b64",
+   "name": "tailwindcss-animate",
+   "version": "^1.0.7",
+   "purl": "pkg:npm/tailwindcss-animate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b65",
+   "name": "usehooks-ts",
+   "version": "^3.1.1",
+   "purl": "pkg:npm/usehooks-ts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b66",
+   "name": "zod",
+   "version": "^3.25.76",
+   "purl": "pkg:npm/zod",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b67",
+   "name": "eslintrc",
+   "version": "^3",
+   "purl": "pkg:npm/%40eslint/eslintrc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b68",
+   "name": "lodash-es",
+   "version": "^4.17.12",
+   "purl": "pkg:npm/%40types/lodash-es",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b69",
+   "name": "node",
+   "version": "^20",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b70",
+   "name": "react",
+   "version": "^19",
+   "purl": "pkg:npm/%40types/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b71",
+   "name": "react-dom",
+   "version": "^19",
+   "purl": "pkg:npm/%40types/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b72",
+   "name": "eslint",
+   "version": "^9",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b73",
+   "name": "eslint-config-next",
+   "version": "15.5.27",
+   "purl": "pkg:npm/eslint-config-next",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b74",
+   "name": "postcss",
+   "version": "^8.5.6",
+   "purl": "pkg:npm/postcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b75",
+   "name": "postcss-import",
+   "version": "^16.1.1",
+   "purl": "pkg:npm/postcss-import",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b76",
+   "name": "postcss-nesting",
+   "version": "^13.0.2",
+   "purl": "pkg:npm/postcss-nesting",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b77",
+   "name": "tailwindcss",
+   "version": "^3.4.17",
+   "purl": "pkg:npm/tailwindcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b78",
+   "name": "typescript",
+   "version": "^5",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60",
+    "b61",
+    "b62",
+    "b63",
+    "b64",
+    "b65",
+    "b66",
+    "b67",
+    "b68",
+    "b69",
+    "b70",
+    "b71",
+    "b72",
+    "b73",
+    "b74",
+    "b75",
+    "b76",
+    "b77",
+    "b78"
+   ]
+  }
+ ]
+}

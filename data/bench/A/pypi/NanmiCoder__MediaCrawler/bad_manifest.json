@@ -1,0 +1,498 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-09T10:56:56+08:00",
+  "component": {
+   "type": "application",
+   "name": "NanmiCoder/MediaCrawler",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "aiofiles",
+   "version": "~=23.2.1",
+   "purl": "pkg:pypi/aiofiles",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "aiomysql",
+   "version": "==0.2.0",
+   "purl": "pkg:pypi/aiomysql",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "aiosqlite",
+   "version": ">=0.21.0",
+   "purl": "pkg:pypi/aiosqlite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "alembic",
+   "version": ">=1.16.5",
+   "purl": "pkg:pypi/alembic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "asyncmy",
+   "version": ">=0.2.10",
+   "purl": "pkg:pypi/asyncmy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "cryptography",
+   "version": ">=45.0.7",
+   "purl": "pkg:pypi/cryptography",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "fastapi",
+   "version": "==0.110.2",
+   "purl": "pkg:pypi/fastapi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "httpx",
+   "version": "==0.28.1",
+   "purl": "pkg:pypi/httpx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "jieba",
+   "version": "==0.42.1",
+   "purl": "pkg:pypi/jieba",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "matplotlib",
+   "version": ">=3.11.0",
+   "purl": "pkg:pypi/matplotlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "motor",
+   "version": ">=3.3.0",
+   "purl": "pkg:pypi/motor",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "opencv-python",
+   "version": ">=4.11.0.86",
+   "purl": "pkg:pypi/opencv-python",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "pandas",
+   "version": "==2.2.3",
+   "purl": "pkg:pypi/pandas",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "parsel",
+   "version": "==1.9.1",
+   "purl": "pkg:pypi/parsel",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "pillow",
+   "version": ">=12.2.0",
+   "purl": "pkg:pypi/pillow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "playwright",
+   "version": ">=1.61.0",
+   "purl": "pkg:pypi/playwright",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "pydantic",
+   "version": ">=2.13.4",
+   "purl": "pkg:pypi/pydantic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "pyexecjs",
+   "version": "==1.5.1",
+   "purl": "pkg:pypi/pyexecjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "pyhumps",
+   "version": ">=3.8.0",
+   "purl": "pkg:pypi/pyhumps",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "python-dotenv",
+   "version": "==1.0.1",
+   "purl": "pkg:pypi/python-dotenv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "redis",
+   "version": "~=4.6.0",
+   "purl": "pkg:pypi/redis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "requests",
+   "version": "==2.32.3",
+   "purl": "pkg:pypi/requests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "sqlalchemy",
+   "version": ">=2.0.43",
+   "purl": "pkg:pypi/sqlalchemy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "tenacity",
+   "version": "==8.2.2",
+   "purl": "pkg:pypi/tenacity",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "typer",
+   "version": ">=0.12.3",
+   "purl": "pkg:pypi/typer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "uvicorn",
+   "version": "==0.29.0",
+   "purl": "pkg:pypi/uvicorn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "wordcloud",
+   "version": ">=1.9.6",
+   "purl": "pkg:pypi/wordcloud",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "pre-commit",
+   "version": ">=3.5.0",
+   "purl": "pkg:pypi/pre-commit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "openpyxl",
+   "version": ">=3.1.2",
+   "purl": "pkg:pypi/openpyxl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "pytest",
+   "version": ">=7.4.0",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "pytest-asyncio",
+   "version": ">=0.21.0",
+   "purl": "pkg:pypi/pytest-asyncio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "websockets",
+   "version": ">=15.0.1",
+   "purl": "pkg:pypi/websockets",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "asyncpg",
+   "version": ">=0.31.0",
+   "purl": "pkg:pypi/asyncpg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "xhshow",
+   "version": ">=0.2.0",
+   "purl": "pkg:pypi/xhshow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33"
+   ]
+  }
+ ]
+}

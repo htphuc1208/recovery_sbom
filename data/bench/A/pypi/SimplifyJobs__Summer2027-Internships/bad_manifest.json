@@ -1,0 +1,78 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T12:02:12+00:00",
+  "component": {
+   "type": "application",
+   "name": "SimplifyJobs/Summer2027-Internships",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "typer",
+   "version": ">=0.21.1",
+   "purl": "pkg:pypi/typer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "ruff",
+   "version": ">=0.14.11",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "mypy",
+   "version": ">=1.19.1",
+   "purl": "pkg:pypi/mypy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "taskipy",
+   "version": ">=1.14.1",
+   "purl": "pkg:pypi/taskipy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,442 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-04T07:16:26+00:00",
+  "component": {
+   "type": "application",
+   "name": "yt-dlp/yt-dlp",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "brotli",
+   "version": "",
+   "purl": "pkg:pypi/brotli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "brotlicffi",
+   "version": "",
+   "purl": "pkg:pypi/brotlicffi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "certifi",
+   "version": ">=2026.10.19",
+   "purl": "pkg:pypi/certifi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "mutagen",
+   "version": "",
+   "purl": "pkg:pypi/mutagen",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "pycryptodomex",
+   "version": "",
+   "purl": "pkg:pypi/pycryptodomex",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "requests",
+   "version": ">=2.32.2,<3",
+   "purl": "pkg:pypi/requests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "urllib3",
+   "version": ">=2.0.2,<3",
+   "purl": "pkg:pypi/urllib3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "websockets",
+   "version": ">=13.0",
+   "purl": "pkg:pypi/websockets",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "yt-dlp-ejs",
+   "version": "==0.8.0",
+   "purl": "pkg:pypi/yt-dlp-ejs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "curl-cffi",
+   "version": ">=0.5.10,!=0.6.*,!=0.7.*,!=0.8.*,!=0.9.*,<0.18",
+   "purl": "pkg:pypi/curl-cffi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "secretstorage",
+   "version": "",
+   "purl": "pkg:pypi/secretstorage",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "deno",
+   "version": ">=2.9.8",
+   "purl": "pkg:pypi/deno",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "charset-normalizer",
+   "version": "==3.5.2",
+   "purl": "pkg:pypi/charset-normalizer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "idna",
+   "version": "==3.20",
+   "purl": "pkg:pypi/idna",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "pycparser",
+   "version": "==3.12",
+   "purl": "pkg:pypi/pycparser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "cffi",
+   "version": "==2.1.1",
+   "purl": "pkg:pypi/cffi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "cryptography",
+   "version": "==50.0.2",
+   "purl": "pkg:pypi/cryptography",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "jeepney",
+   "version": "==0.9.0",
+   "purl": "pkg:pypi/jeepney",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "build",
+   "version": "",
+   "purl": "pkg:pypi/build",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "hatchling",
+   "version": ">=1.27.0",
+   "purl": "pkg:pypi/hatchling",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "autopep8",
+   "version": "~=2.0",
+   "purl": "pkg:pypi/autopep8",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "ruff",
+   "version": "~=0.17.0",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "pytest",
+   "version": "~=9.0",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "pytest-rerunfailures",
+   "version": "~=16.0",
+   "purl": "pkg:pypi/pytest-rerunfailures",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "pre-commit",
+   "version": "",
+   "purl": "pkg:pypi/pre-commit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "pyinstaller",
+   "version": "==6.22.0",
+   "purl": "pkg:pypi/pyinstaller",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "delocate",
+   "version": ">=0.13.0",
+   "purl": "pkg:pypi/delocate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "pyflakes",
+   "version": "~=3.4.0",
+   "purl": "pkg:pypi/pyflakes",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "pip",
+   "version": "",
+   "purl": "pkg:pypi/pip",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "uv",
+   "version": ">=0.10",
+   "purl": "pkg:pypi/uv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29"
+   ]
+  }
+ ]
+}

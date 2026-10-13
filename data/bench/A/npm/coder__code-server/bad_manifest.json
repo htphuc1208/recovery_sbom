@@ -1,0 +1,711 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T11:33:04-09:00",
+  "component": {
+   "type": "application",
+   "name": "coder/code-server",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "logger",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/%40coder/logger",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@coder"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "argon2",
+   "version": "^0.45.1",
+   "purl": "pkg:npm/argon2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "compression",
+   "version": "^1.7.4",
+   "purl": "pkg:npm/compression",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "cookie",
+   "version": "^1.1.1",
+   "purl": "pkg:npm/cookie",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "cookie-parser",
+   "version": "^1.4.6",
+   "purl": "pkg:npm/cookie-parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "env-paths",
+   "version": "^2.2.1",
+   "purl": "pkg:npm/env-paths",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "express",
+   "version": "^5.0.1",
+   "purl": "pkg:npm/express",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "http-proxy",
+   "version": "^1.18.1",
+   "purl": "pkg:npm/http-proxy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "httpolyglot",
+   "version": "^0.1.2",
+   "purl": "pkg:npm/httpolyglot",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "i18next",
+   "version": "^26.3.1",
+   "purl": "pkg:npm/i18next",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "js-yaml",
+   "version": "^5.2.3",
+   "purl": "pkg:npm/js-yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "limiter",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/limiter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "pem",
+   "version": "^1.14.8",
+   "purl": "pkg:npm/pem",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "proxy-agent",
+   "version": "^6.3.1",
+   "purl": "pkg:npm/proxy-agent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "qs",
+   "version": "^6.15.0",
+   "purl": "pkg:npm/qs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "rotating-file-stream",
+   "version": "^3.1.1",
+   "purl": "pkg:npm/rotating-file-stream",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "safe-compare",
+   "version": "^1.1.4",
+   "purl": "pkg:npm/safe-compare",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "semver",
+   "version": "^7.5.4",
+   "purl": "pkg:npm/semver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "ws",
+   "version": "^8.14.2",
+   "purl": "pkg:npm/ws",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "xdg-basedir",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/xdg-basedir",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "compat",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/%40eslint/compat",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "eslintrc",
+   "version": "^3.1.0",
+   "purl": "pkg:npm/%40eslint/eslintrc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "js",
+   "version": "^9.12.0",
+   "purl": "pkg:npm/%40eslint/js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "compression",
+   "version": "^1.7.3",
+   "purl": "pkg:npm/%40types/compression",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "cookie-parser",
+   "version": "^1.4.4",
+   "purl": "pkg:npm/%40types/cookie-parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "eslint__js",
+   "version": "^8.42.3",
+   "purl": "pkg:npm/%40types/eslint__js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "express",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/%40types/express",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "http-proxy",
+   "version": "1.17.7",
+   "purl": "pkg:npm/%40types/http-proxy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "js-yaml",
+   "version": "^4.0.6",
+   "purl": "pkg:npm/%40types/js-yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "node",
+   "version": "24.x",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "pem",
+   "version": "^1.14.1",
+   "purl": "pkg:npm/%40types/pem",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "proxy-from-env",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/%40types/proxy-from-env",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "safe-compare",
+   "version": "^1.1.0",
+   "purl": "pkg:npm/%40types/safe-compare",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "semver",
+   "version": "^7.5.2",
+   "purl": "pkg:npm/%40types/semver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "trusted-types",
+   "version": "^2.0.4",
+   "purl": "pkg:npm/%40types/trusted-types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "ws",
+   "version": "^8.5.5",
+   "purl": "pkg:npm/%40types/ws",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "doctoc",
+   "version": "^2.2.1",
+   "purl": "pkg:npm/doctoc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "eslint",
+   "version": "^9.12.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "eslint-config-prettier",
+   "version": "^10.1.8",
+   "purl": "pkg:npm/eslint-config-prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "eslint-import-resolver-typescript",
+   "version": "^4.4.4",
+   "purl": "pkg:npm/eslint-import-resolver-typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "eslint-plugin-import",
+   "version": "^2.28.1",
+   "purl": "pkg:npm/eslint-plugin-import",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "eslint-plugin-prettier",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/eslint-plugin-prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "globals",
+   "version": "^17.6.0",
+   "purl": "pkg:npm/globals",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "prettier",
+   "version": "3.9.4",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "prettier-plugin-sh",
+   "version": "^0.20.2",
+   "purl": "pkg:npm/prettier-plugin-sh",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "ts-node",
+   "version": "^10.9.1",
+   "purl": "pkg:npm/ts-node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "typescript",
+   "version": "^5.6.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "typescript-eslint",
+   "version": "^8.8.0",
+   "purl": "pkg:npm/typescript-eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47"
+   ]
+  }
+ ]
+}

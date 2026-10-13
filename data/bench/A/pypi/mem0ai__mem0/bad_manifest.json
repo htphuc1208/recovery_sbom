@@ -1,0 +1,778 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-06T22:23:06+05:30",
+  "component": {
+   "type": "application",
+   "name": "mem0ai/mem0",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "qdrant-client",
+   "version": ">=1.12.0",
+   "purl": "pkg:pypi/qdrant-client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "pydantic",
+   "version": ">=2.7.3",
+   "purl": "pkg:pypi/pydantic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "openai",
+   "version": ">=1.90.0",
+   "purl": "pkg:pypi/openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "httpx",
+   "version": ">=0.28.0",
+   "purl": "pkg:pypi/httpx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "posthog",
+   "version": ">=7.14.0",
+   "purl": "pkg:pypi/posthog",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "pytz",
+   "version": ">=2024.1",
+   "purl": "pkg:pypi/pytz",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "sqlalchemy",
+   "version": ">=2.0.31",
+   "purl": "pkg:pypi/sqlalchemy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "protobuf",
+   "version": ">=5.29.6,<7.0.0",
+   "purl": "pkg:pypi/protobuf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "spacy",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/spacy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "vecs",
+   "version": ">=0.4.0",
+   "purl": "pkg:pypi/vecs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "chromadb",
+   "version": ">=0.4.24",
+   "purl": "pkg:pypi/chromadb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "cassandra-driver",
+   "version": ">=3.29.0",
+   "purl": "pkg:pypi/cassandra-driver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "weaviate-client",
+   "version": ">=4.15.4,<5.0.0",
+   "purl": "pkg:pypi/weaviate-client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "pinecone",
+   "version": "<=7.3.0",
+   "purl": "pkg:pypi/pinecone",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "pinecone-text",
+   "version": ">=0.10.0",
+   "purl": "pkg:pypi/pinecone-text",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "faiss-cpu",
+   "version": ">=1.7.4",
+   "purl": "pkg:pypi/faiss-cpu",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "upstash-vector",
+   "version": ">=0.6.0",
+   "purl": "pkg:pypi/upstash-vector",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "azure-search-documents",
+   "version": ">=11.4.0b8",
+   "purl": "pkg:pypi/azure-search-documents",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "psycopg",
+   "version": ">=3.2.8",
+   "purl": "pkg:pypi/psycopg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "psycopg-pool",
+   "version": ">=3.2.6,<4.0.0",
+   "purl": "pkg:pypi/psycopg-pool",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "pymongo",
+   "version": ">=4.13.2",
+   "purl": "pkg:pypi/pymongo",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "pymochow",
+   "version": ">=2.2.9",
+   "purl": "pkg:pypi/pymochow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "pymysql",
+   "version": ">=1.1.0",
+   "purl": "pkg:pypi/pymysql",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "dbutils",
+   "version": ">=3.0.3",
+   "purl": "pkg:pypi/dbutils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "valkey",
+   "version": ">=6.0.0",
+   "purl": "pkg:pypi/valkey",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "databricks-sdk",
+   "version": ">=0.63.0",
+   "purl": "pkg:pypi/databricks-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "azure-identity",
+   "version": ">=1.24.0",
+   "purl": "pkg:pypi/azure-identity",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "redis",
+   "version": ">=5.0.0,<6.0.0",
+   "purl": "pkg:pypi/redis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "redisvl",
+   "version": ">=0.1.0,<1.0.0",
+   "purl": "pkg:pypi/redisvl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "elasticsearch",
+   "version": ">=8.0.0,<9.0.0",
+   "purl": "pkg:pypi/elasticsearch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "pymilvus",
+   "version": ">=2.4.0,<2.6.0",
+   "purl": "pkg:pypi/pymilvus",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "langchain-aws",
+   "version": ">=0.2.23,<0.3.0",
+   "purl": "pkg:pypi/langchain-aws",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "oracledb",
+   "version": ">=2.2.0",
+   "purl": "pkg:pypi/oracledb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "groq",
+   "version": ">=0.3.0",
+   "purl": "pkg:pypi/groq",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "together",
+   "version": ">=0.2.10",
+   "purl": "pkg:pypi/together",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "litellm",
+   "version": ">=1.83.7,<1.98.0",
+   "purl": "pkg:pypi/litellm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "ollama",
+   "version": ">=0.3.0",
+   "purl": "pkg:pypi/ollama",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "vertexai",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/vertexai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "google-generativeai",
+   "version": ">=0.3.0",
+   "purl": "pkg:pypi/google-generativeai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "google-genai",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/google-genai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "boto3",
+   "version": ">=1.34.0",
+   "purl": "pkg:pypi/boto3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "langchain",
+   "version": ">=0.3.30,<1.0.0",
+   "purl": "pkg:pypi/langchain",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "langchain-community",
+   "version": ">=0.3.27,<1.0.0",
+   "purl": "pkg:pypi/langchain-community",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "langchain-core",
+   "version": ">=0.3.85,<1.0.0",
+   "purl": "pkg:pypi/langchain-core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "sentence-transformers",
+   "version": ">=5.2.0",
+   "purl": "pkg:pypi/sentence-transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "transformers",
+   "version": ">=5.3.0",
+   "purl": "pkg:pypi/transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "opensearch-py",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/opensearch-py",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "fastembed",
+   "version": ">=0.3.1",
+   "purl": "pkg:pypi/fastembed",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "pytest",
+   "version": ">=8.2.2",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "pytest-mock",
+   "version": ">=3.14.0",
+   "purl": "pkg:pypi/pytest-mock",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "pytest-asyncio",
+   "version": ">=0.23.7",
+   "purl": "pkg:pypi/pytest-asyncio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "ruff",
+   "version": "==0.16.0",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "isort",
+   "version": ">=5.13.2",
+   "purl": "pkg:pypi/isort",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "pre-commit",
+   "version": ">=3.5.0",
+   "purl": "pkg:pypi/pre-commit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53"
+   ]
+  }
+ ]
+}

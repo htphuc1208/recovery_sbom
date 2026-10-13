@@ -1,0 +1,367 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-09-06T15:44:57+08:00",
+  "component": {
+   "type": "application",
+   "name": "alibaba/page-agent",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "cli",
+   "version": "^21.2.2",
+   "purl": "pkg:npm/%40commitlint/cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@commitlint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "config-conventional",
+   "version": "^21.2.2",
+   "purl": "pkg:npm/%40commitlint/config-conventional",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@commitlint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "eslint-plugin",
+   "version": "^5.18.7",
+   "purl": "pkg:npm/%40eslint-react/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint-react"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "js",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/%40eslint/js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "api-extractor",
+   "version": "^7.59.0",
+   "purl": "pkg:npm/%40microsoft/api-extractor",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@microsoft"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "vite",
+   "version": "^4.3.3",
+   "purl": "pkg:npm/%40tailwindcss/vite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@tailwindcss"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "prettier-plugin-sort-imports",
+   "version": "^6.0.2",
+   "purl": "pkg:npm/%40trivago/prettier-plugin-sort-imports",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@trivago"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "node",
+   "version": "^26.4.1",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "plugin-react",
+   "version": "^6.1.1",
+   "purl": "pkg:npm/%40vitejs/plugin-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "chalk",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/chalk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "concurrently",
+   "version": "^10.0.5",
+   "purl": "pkg:npm/concurrently",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "dotenv",
+   "version": "^17.4.2",
+   "purl": "pkg:npm/dotenv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "eslint",
+   "version": "^10.9.1",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "globals",
+   "version": "^17.12.0",
+   "purl": "pkg:npm/globals",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "happy-dom",
+   "version": "^20.13.2",
+   "purl": "pkg:npm/happy-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "husky",
+   "version": "^9.1.7",
+   "purl": "pkg:npm/husky",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "lint-staged",
+   "version": "^17.4.1",
+   "purl": "pkg:npm/lint-staged",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "prettier",
+   "version": "^3.9.6",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "typescript",
+   "version": "^6.0.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "typescript-eslint",
+   "version": "^8.69.0",
+   "purl": "pkg:npm/typescript-eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "unplugin-dts",
+   "version": "^1.0.3",
+   "purl": "pkg:npm/unplugin-dts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "vite",
+   "version": "^8.2.2",
+   "purl": "pkg:npm/vite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "vite-plugin-css-injected-by-js",
+   "version": "^5.0.2",
+   "purl": "pkg:npm/vite-plugin-css-injected-by-js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "vitest",
+   "version": "^4.1.11",
+   "purl": "pkg:npm/vitest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23"
+   ]
+  }
+ ]
+}

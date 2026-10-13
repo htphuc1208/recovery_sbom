@@ -1,0 +1,1607 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T18:54:46-08:00",
+  "component": {
+   "type": "application",
+   "name": "microsoft/playwright",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "core",
+   "version": "3.0.1",
+   "purl": "pkg:npm/%40actions/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@actions"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "github",
+   "version": "9.1.1",
+   "purl": "pkg:npm/%40actions/github",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@actions"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "core",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "helper-plugin-utils",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/helper-plugin-utils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "parser",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "plugin-proposal-decorators",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-proposal-decorators",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "plugin-syntax-async-generators",
+   "version": "7.8.4",
+   "purl": "pkg:npm/%40babel/plugin-syntax-async-generators",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "plugin-syntax-import-attributes",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-syntax-import-attributes",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "plugin-syntax-json-strings",
+   "version": "7.8.3",
+   "purl": "pkg:npm/%40babel/plugin-syntax-json-strings",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "plugin-syntax-object-rest-spread",
+   "version": "7.8.3",
+   "purl": "pkg:npm/%40babel/plugin-syntax-object-rest-spread",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "plugin-syntax-optional-catch-binding",
+   "version": "7.8.3",
+   "purl": "pkg:npm/%40babel/plugin-syntax-optional-catch-binding",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "plugin-transform-class-properties",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-class-properties",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "plugin-transform-class-static-block",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-class-static-block",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "plugin-transform-explicit-resource-management",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-explicit-resource-management",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "plugin-transform-export-namespace-from",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-export-namespace-from",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "plugin-transform-logical-assignment-operators",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-logical-assignment-operators",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "plugin-transform-modules-commonjs",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-modules-commonjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "plugin-transform-nullish-coalescing-operator",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-nullish-coalescing-operator",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "plugin-transform-numeric-separator",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-numeric-separator",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "plugin-transform-optional-chaining",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-optional-chaining",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "plugin-transform-private-methods",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-private-methods",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "plugin-transform-private-property-in-object",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-private-property-in-object",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "plugin-transform-react-jsx",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/plugin-transform-react-jsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "preset-typescript",
+   "version": "7.29.7",
+   "purl": "pkg:npm/%40babel/preset-typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "node-api",
+   "version": "1.5.4-r.1",
+   "purl": "pkg:npm/%40duckdb/node-api",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@duckdb"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "compat",
+   "version": "2.1.0",
+   "purl": "pkg:npm/%40eslint/compat",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "eslintrc",
+   "version": "3.3.5",
+   "purl": "pkg:npm/%40eslint/eslintrc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "js",
+   "version": "9.39.4",
+   "purl": "pkg:npm/%40eslint/js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "expect-utils",
+   "version": "30.4.1",
+   "purl": "pkg:npm/%40jest/expect-utils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@jest"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "sdk",
+   "version": "1.32.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "eslint-plugin",
+   "version": "5.10.0",
+   "purl": "pkg:npm/%40stylistic/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@stylistic"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "babel__core",
+   "version": "7.20.5",
+   "purl": "pkg:npm/%40types/babel__core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "babel__helper-plugin-utils",
+   "version": "7.10.3",
+   "purl": "pkg:npm/%40types/babel__helper-plugin-utils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "babel__traverse",
+   "version": "7.28.0",
+   "purl": "pkg:npm/%40types/babel__traverse",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "chrome",
+   "version": "0.2.0",
+   "purl": "pkg:npm/%40types/chrome",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "codemirror",
+   "version": "5.60.17",
+   "purl": "pkg:npm/%40types/codemirror",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "debug",
+   "version": "4.1.13",
+   "purl": "pkg:npm/%40types/debug",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "diff",
+   "version": "7.0.2",
+   "purl": "pkg:npm/%40types/diff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "formidable",
+   "version": "2.0.6",
+   "purl": "pkg:npm/%40types/formidable",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "ini",
+   "version": "4.1.1",
+   "purl": "pkg:npm/%40types/ini",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "istanbul-lib-instrument",
+   "version": "1.7.8",
+   "purl": "pkg:npm/%40types/istanbul-lib-instrument",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "node",
+   "version": "20.19.43",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "pngjs",
+   "version": "6.0.5",
+   "purl": "pkg:npm/%40types/pngjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "progress",
+   "version": "2.0.7",
+   "purl": "pkg:npm/%40types/progress",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "proxy-from-env",
+   "version": "1.0.4",
+   "purl": "pkg:npm/%40types/proxy-from-env",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "react",
+   "version": "19.2.17",
+   "purl": "pkg:npm/%40types/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "react-dom",
+   "version": "19.2.3",
+   "purl": "pkg:npm/%40types/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "retry",
+   "version": "0.12.5",
+   "purl": "pkg:npm/%40types/retry",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "source-map-support",
+   "version": "0.5.10",
+   "purl": "pkg:npm/%40types/source-map-support",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "ws",
+   "version": "8.18.1",
+   "purl": "pkg:npm/%40types/ws",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "xml2js",
+   "version": "0.4.14",
+   "purl": "pkg:npm/%40types/xml2js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "yauzl",
+   "version": "3.4.0",
+   "purl": "pkg:npm/%40types/yauzl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "yazl",
+   "version": "3.3.1",
+   "purl": "pkg:npm/%40types/yazl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "eslint-plugin",
+   "version": "8.62.0",
+   "purl": "pkg:npm/%40typescript-eslint/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "parser",
+   "version": "8.62.0",
+   "purl": "pkg:npm/%40typescript-eslint/parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "utils",
+   "version": "8.62.0",
+   "purl": "pkg:npm/%40typescript-eslint/utils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "plugin-basic-ssl",
+   "version": "2.3.0",
+   "purl": "pkg:npm/%40vitejs/plugin-basic-ssl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "plugin-react",
+   "version": "6.0.3",
+   "purl": "pkg:npm/%40vitejs/plugin-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "zip.js",
+   "version": "2.7.73",
+   "purl": "pkg:npm/%40zip.js/zip.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@zip.js"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "chokidar",
+   "version": "4.0.3",
+   "purl": "pkg:npm/chokidar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "chromium-bidi",
+   "version": "12.1.0",
+   "purl": "pkg:npm/chromium-bidi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b61",
+   "name": "colors",
+   "version": "1.4.0",
+   "purl": "pkg:npm/colors",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b62",
+   "name": "commander",
+   "version": "15.0.0",
+   "purl": "pkg:npm/commander",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b63",
+   "name": "cross-env",
+   "version": "10.1.0",
+   "purl": "pkg:npm/cross-env",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b64",
+   "name": "debug",
+   "version": "4.4.3",
+   "purl": "pkg:npm/debug",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b65",
+   "name": "diff",
+   "version": "9.0.0",
+   "purl": "pkg:npm/diff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b66",
+   "name": "dotenv",
+   "version": "17.4.2",
+   "purl": "pkg:npm/dotenv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b67",
+   "name": "electron",
+   "version": "42.11.16",
+   "purl": "pkg:npm/electron",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b68",
+   "name": "enquirer",
+   "version": "2.4.1",
+   "purl": "pkg:npm/enquirer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b69",
+   "name": "esbuild",
+   "version": "0.28.1",
+   "purl": "pkg:npm/esbuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b70",
+   "name": "eslint",
+   "version": "9.39.4",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b71",
+   "name": "eslint-plugin-import",
+   "version": "2.32.0",
+   "purl": "pkg:npm/eslint-plugin-import",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b72",
+   "name": "eslint-plugin-notice",
+   "version": "1.0.0",
+   "purl": "pkg:npm/eslint-plugin-notice",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b73",
+   "name": "eslint-plugin-react",
+   "version": "7.37.5",
+   "purl": "pkg:npm/eslint-plugin-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b74",
+   "name": "eslint-plugin-react-hooks",
+   "version": "5.2.0",
+   "purl": "pkg:npm/eslint-plugin-react-hooks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b75",
+   "name": "formidable",
+   "version": "2.1.5",
+   "purl": "pkg:npm/formidable",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b76",
+   "name": "get-east-asian-width",
+   "version": "1.6.0",
+   "purl": "pkg:npm/get-east-asian-width",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b77",
+   "name": "get-stream",
+   "version": "9.0.1",
+   "purl": "pkg:npm/get-stream",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b78",
+   "name": "graceful-fs",
+   "version": "4.2.11",
+   "purl": "pkg:npm/graceful-fs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b79",
+   "name": "https-proxy-agent",
+   "version": "9.1.0",
+   "purl": "pkg:npm/https-proxy-agent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b80",
+   "name": "ini",
+   "version": "7.0.0",
+   "purl": "pkg:npm/ini",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b81",
+   "name": "istanbul-lib-instrument",
+   "version": "6.0.3",
+   "purl": "pkg:npm/istanbul-lib-instrument",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b82",
+   "name": "jest-matcher-utils",
+   "version": "30.4.1",
+   "purl": "pkg:npm/jest-matcher-utils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b83",
+   "name": "jest-message-util",
+   "version": "30.4.1",
+   "purl": "pkg:npm/jest-message-util",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b84",
+   "name": "jpeg-js",
+   "version": "0.4.4",
+   "purl": "pkg:npm/jpeg-js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b85",
+   "name": "json5",
+   "version": "2.2.3",
+   "purl": "pkg:npm/json5",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b86",
+   "name": "mime",
+   "version": "4.1.0",
+   "purl": "pkg:npm/mime",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b87",
+   "name": "minimatch",
+   "version": "10.2.5",
+   "purl": "pkg:npm/minimatch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b88",
+   "name": "open",
+   "version": "11.0.0",
+   "purl": "pkg:npm/open",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b89",
+   "name": "pngjs",
+   "version": "7.0.0",
+   "purl": "pkg:npm/pngjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b90",
+   "name": "progress",
+   "version": "2.0.3",
+   "purl": "pkg:npm/progress",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b91",
+   "name": "proxy-from-env",
+   "version": "2.1.0",
+   "purl": "pkg:npm/proxy-from-env",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b92",
+   "name": "react",
+   "version": "19.2.7",
+   "purl": "pkg:npm/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b93",
+   "name": "react-dom",
+   "version": "19.2.7",
+   "purl": "pkg:npm/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b94",
+   "name": "retry",
+   "version": "0.13.1",
+   "purl": "pkg:npm/retry",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b95",
+   "name": "signal-exit",
+   "version": "4.1.0",
+   "purl": "pkg:npm/signal-exit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b96",
+   "name": "socks-proxy-agent",
+   "version": "10.1.0",
+   "purl": "pkg:npm/socks-proxy-agent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b97",
+   "name": "source-map-support",
+   "version": "0.5.21",
+   "purl": "pkg:npm/source-map-support",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b98",
+   "name": "ssim.js",
+   "version": "3.5.0",
+   "purl": "pkg:npm/ssim.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b99",
+   "name": "typescript",
+   "version": "6.0.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b100",
+   "name": "vite",
+   "version": "8.1.6",
+   "purl": "pkg:npm/vite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b101",
+   "name": "vite-plugin-static-copy",
+   "version": "3.4.0",
+   "purl": "pkg:npm/vite-plugin-static-copy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b102",
+   "name": "ws",
+   "version": "8.21.0",
+   "purl": "pkg:npm/ws",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b103",
+   "name": "xml2js",
+   "version": "0.6.2",
+   "purl": "pkg:npm/xml2js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b104",
+   "name": "yaml",
+   "version": "2.9.0",
+   "purl": "pkg:npm/yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b105",
+   "name": "yauzl",
+   "version": "3.4.0",
+   "purl": "pkg:npm/yauzl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b106",
+   "name": "yazl",
+   "version": "3.3.1",
+   "purl": "pkg:npm/yazl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b107",
+   "name": "zod",
+   "version": "4.6.7",
+   "purl": "pkg:npm/zod",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b108",
+   "name": "zod-to-json-schema",
+   "version": "3.25.2",
+   "purl": "pkg:npm/zod-to-json-schema",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60",
+    "b61",
+    "b62",
+    "b63",
+    "b64",
+    "b65",
+    "b66",
+    "b67",
+    "b68",
+    "b69",
+    "b70",
+    "b71",
+    "b72",
+    "b73",
+    "b74",
+    "b75",
+    "b76",
+    "b77",
+    "b78",
+    "b79",
+    "b80",
+    "b81",
+    "b82",
+    "b83",
+    "b84",
+    "b85",
+    "b86",
+    "b87",
+    "b88",
+    "b89",
+    "b90",
+    "b91",
+    "b92",
+    "b93",
+    "b94",
+    "b95",
+    "b96",
+    "b97",
+    "b98",
+    "b99",
+    "b100",
+    "b101",
+    "b102",
+    "b103",
+    "b104",
+    "b105",
+    "b106",
+    "b107",
+    "b108"
+   ]
+  }
+ ]
+}

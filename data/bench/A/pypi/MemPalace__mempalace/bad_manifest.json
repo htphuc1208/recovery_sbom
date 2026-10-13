@@ -1,0 +1,470 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T01:07:55-03:00",
+  "component": {
+   "type": "application",
+   "name": "MemPalace/mempalace",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "chromadb",
+   "version": ">=1.5.4,<2",
+   "purl": "pkg:pypi/chromadb",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "pyyaml",
+   "version": ">=6.0,<7",
+   "purl": "pkg:pypi/pyyaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "tomli",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/tomli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "huggingface-hub",
+   "version": ">=0.20",
+   "purl": "pkg:pypi/huggingface-hub",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "tokenizers",
+   "version": ">=0.15",
+   "purl": "pkg:pypi/tokenizers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "numpy",
+   "version": ">=1.24",
+   "purl": "pkg:pypi/numpy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "python-dateutil",
+   "version": ">=2.8",
+   "purl": "pkg:pypi/python-dateutil",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "pytest",
+   "version": ">=7.0",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "pytest-cov",
+   "version": ">=4.0",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "pytest-xdist",
+   "version": ">=3.0",
+   "purl": "pkg:pypi/pytest-xdist",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "pillow",
+   "version": ">=10.0",
+   "purl": "pkg:pypi/pillow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "scipy",
+   "version": ">=1.10",
+   "purl": "pkg:pypi/scipy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "pytest-rerunfailures",
+   "version": ">=12.0",
+   "purl": "pkg:pypi/pytest-rerunfailures",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "ruff",
+   "version": "==0.16.6",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "psutil",
+   "version": ">=5.9",
+   "purl": "pkg:pypi/psutil",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "hypothesis",
+   "version": ">=6.0",
+   "purl": "pkg:pypi/hypothesis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "pre-commit",
+   "version": ">=3.0",
+   "purl": "pkg:pypi/pre-commit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "mypy",
+   "version": ">=1.0",
+   "purl": "pkg:pypi/mypy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "autocorrect",
+   "version": ">=2.0",
+   "purl": "pkg:pypi/autocorrect",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "pymilvus",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/pymilvus",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "milvus-lite",
+   "version": ">=3.0",
+   "purl": "pkg:pypi/milvus-lite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "psycopg",
+   "version": ">=3.1",
+   "purl": "pkg:pypi/psycopg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "onnxruntime-gpu",
+   "version": ">=1.16",
+   "purl": "pkg:pypi/onnxruntime-gpu",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "onnxruntime-directml",
+   "version": ">=1.16",
+   "purl": "pkg:pypi/onnxruntime-directml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "onnxruntime",
+   "version": ">=1.16",
+   "purl": "pkg:pypi/onnxruntime",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "sentence-transformers",
+   "version": ">=6.1.0",
+   "purl": "pkg:pypi/sentence-transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "transformers",
+   "version": ">=5.19.0",
+   "purl": "pkg:pypi/transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "torch",
+   "version": ">=2.14.0",
+   "purl": "pkg:pypi/torch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "soundfile",
+   "version": ">=0.13.1",
+   "purl": "pkg:pypi/soundfile",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "torchcodec",
+   "version": ">=0.17.0",
+   "purl": "pkg:pypi/torchcodec",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "striprtf",
+   "version": ">=0.0.27",
+   "purl": "pkg:pypi/striprtf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "markitdown",
+   "version": ">=0.1.5",
+   "purl": "pkg:pypi/markitdown",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31"
+   ]
+  }
+ ]
+}

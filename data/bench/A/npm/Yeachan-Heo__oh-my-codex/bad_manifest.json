@@ -1,0 +1,226 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-10T22:18:00+09:00",
+  "component": {
+   "type": "application",
+   "name": "Yeachan-Heo/oh-my-codex",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "toml",
+   "version": "^2.2.5",
+   "purl": "pkg:npm/%40iarna/toml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@iarna"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "sdk",
+   "version": "^1.26.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "lzma",
+   "version": "1.4.1",
+   "purl": "pkg:npm/%40napi-rs/lzma",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@napi-rs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "tar-stream",
+   "version": "3.2.2",
+   "purl": "pkg:npm/tar-stream",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "yauzl",
+   "version": "3.4.0",
+   "purl": "pkg:npm/yauzl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "zod",
+   "version": "^4.3.6",
+   "purl": "pkg:npm/zod",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "biome",
+   "version": "^2.4.4",
+   "purl": "pkg:npm/%40biomejs/biome",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@biomejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "node",
+   "version": "^26.0.0",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "tar-stream",
+   "version": "3.1.5",
+   "purl": "pkg:npm/%40types/tar-stream",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "yauzl",
+   "version": "3.4.0",
+   "purl": "pkg:npm/%40types/yauzl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "yazl",
+   "version": "3.3.1",
+   "purl": "pkg:npm/%40types/yazl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "c8",
+   "version": "^11.0.0",
+   "purl": "pkg:npm/c8",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "typescript",
+   "version": "^7.0.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "yazl",
+   "version": "3.3.1",
+   "purl": "pkg:npm/yazl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13"
+   ]
+  }
+ ]
+}

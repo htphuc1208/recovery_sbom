@@ -1,0 +1,528 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T05:54:54-03:00",
+  "component": {
+   "type": "application",
+   "name": "Infisical/infisical",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "c0",
+   "name": "runtime",
+   "version": "7.29.2",
+   "purl": "pkg:npm/%40babel/runtime@7.29.2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@babel",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "2620d2847e39cca1d6c867b864d551ac28c1cfc361f53326646d648784132bc8420535818bc0dafa2eecd5f270eff958a4ce1c71ea5235fab367f42f001062e6"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c1",
+   "name": "primitive",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/primitive@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "c90f28197d8656c1183161b1728beed6e1963c2c55e4115f79e631a8f9ae0335322d3f6a99a317480857a5bd16aeca487aa633749a64876bc73287493e04486b"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c2",
+   "name": "react-collection",
+   "version": "1.0.3",
+   "purl": "pkg:npm/%40radix-ui/react-collection@1.0.3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "dd2cd6fb43d6ef2041a10953f3035c1ad6b1683d174aed2e2d4160aed1d8d3c01cc74e5368768e9952d1ef77348ff72aa43cb9dca04c3bbb34771db098e20320"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c3",
+   "name": "react-compose-refs",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-compose-refs@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "7c348181de3814a1dad4544c539f6a04c3c5725d8f644fb69e6aae9e3f81585c986239e120358bd88b43b37aeb6c90d03adcede6721e6cb0907384117f3e8b27"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c4",
+   "name": "react-context",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-context@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "79b6eb745a184dcb99d2fe301b9b5e7469e9f6dcdc57c6b0cecc58a61ee05d4caf9cd2ee4c8702935ab5ec911b9d585700a1bda17dcab5c87088c200629f4d2e"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c5",
+   "name": "react-direction",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-direction@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "45772f9d7832bd8bc110e84206e75d29e715928322235d09726e5c4c8eda6c94401d87c5c5ebbe14142cfc3bddc5262e7314799a76b474db0be9016576ce5330"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c6",
+   "name": "react-id",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-id@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "b48eec4ff92a629f29f7ac86598d4e0272c7aea0e0cc779f441290d98024052e636bb40b719f59fee63b6c48cf51ab5ff11a26a1733cff5b0c8f5209684e54cd"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c7",
+   "name": "react-presence",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-presence@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "5172d6e1401b218e598dcbf38df445a39831bdaf108ab0bd845ef0444e14e60cfe4cfd036d193efffab2b8043531c0f106dd7134c05369c8851af12626f0190a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c8",
+   "name": "react-primitive",
+   "version": "1.0.3",
+   "purl": "pkg:npm/%40radix-ui/react-primitive@1.0.3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "ca2e7cb95ca801c2bf36ad629d1639e994a32b2a4134a4daff599c2fca9d97aa097846836ce95d973ac69fb3fa43721de5df9260d19ce40260738bc6863b39fa"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c9",
+   "name": "react-radio-group",
+   "version": "1.1.3",
+   "purl": "pkg:npm/%40radix-ui/react-radio-group@1.1.3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "c7ec842dacb279f35e29e4f1e1f8caea3f7d16ce9ce2a2a6dda637f06decc1055337ac4ca6cadb8a00b4b87b362fffe0f2ae2a47ba8e730c3ce37d232668b66a"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c10",
+   "name": "react-roving-focus",
+   "version": "1.0.4",
+   "purl": "pkg:npm/%40radix-ui/react-roving-focus@1.0.4",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "da6520e4c81cbb4d355641b2f857f3672cdb9ae516ce05a48f7aefbf8caefa62f0d37fa64f36f1647bdf706c85a766fc12441e324a5143916203656bd8ee9379"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c11",
+   "name": "react-slot",
+   "version": "1.0.2",
+   "purl": "pkg:npm/%40radix-ui/react-slot@1.0.2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "61e4e9baae1d795fba0eeb2f5545b88af0609e41f010252ed0188de372f95020c581d86c45458082185317931bbcd4cfce68853b1f746ac0d25235ae08d6a9c2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c12",
+   "name": "react-use-callback-ref",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-use-callback-ref@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "0fde0b8d7e12a74c491556a840e77738ef64eeda4160d39775586496d51b1afd906fd39776b83f0a9b23959bfb89ad784b296fdfdf0bb30581555bb99ea2b301"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c13",
+   "name": "react-use-controllable-state",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-use-controllable-state@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "4af979198e4541e37be7c7d62ab8cce906fb6acbd77a2665b654f85368157e5f06c79500bf6b0c4742d6a3cca1b08661da8434785759e7d6a838e315edbe3b54"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c14",
+   "name": "react-use-layout-effect",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-use-layout-effect@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "bffe517a08895987680af32721306434dc7a6c28f6d1f89a2675ad464535f32213a6dada5e37dfcf941b9f4e6e3a24273af8be75b9339e4a1a325b73d469eccd"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c15",
+   "name": "react-use-previous",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-use-previous@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "715e4b6bd0cfc2243b4b481fff4aa20fa62036a339164f7b29dae5739c8172b1778f21194309bbbd816a328e087de1e0257b1168cbcb00116d7743951266610f"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c16",
+   "name": "react-use-size",
+   "version": "1.0.1",
+   "purl": "pkg:npm/%40radix-ui/react-use-size@1.0.1",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@radix-ui",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "89b6b2f95aab81c688eaf780a238e87cf013c2579d5e24a65fe0b42ab064ff18295fdac1ccf5773ac7f096141d50e15b87e2ca428acb613fb14d75bd57cc9dd2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c17",
+   "name": "uuid",
+   "version": "9.0.7",
+   "purl": "pkg:npm/%40types/uuid@9.0.7",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types",
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "594b48551519f62e5d61779f0c4008eec87dfceee31af1e0ec37ffe4efe0b47dd869b7b9a1d237516a29551d6a6cf5d0b6f3b15aede63385f1958799b4c585e2"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c18",
+   "name": "husky",
+   "version": "8.0.3",
+   "purl": "pkg:npm/husky@8.0.3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "f9d412caa3e1e31d6194ed6cc1706235bd87cd30cdd48d8818b431d46ac1ba2a8525fa0cae7656c1599ab6f4a23be233f1f0549dffa57a4c0da387362e55c8b6"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c19",
+   "name": "js-tokens",
+   "version": "4.0.0",
+   "purl": "pkg:npm/js-tokens@4.0.0",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "45d2547e5704ddc5332a232a420b02bb4e853eef5474824ed1b7986cf84737893a6a9809b627dca02b53f5b7313a9601b690f690233a49bce0e026aeb16fcf29"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c20",
+   "name": "loose-envify",
+   "version": "1.4.0",
+   "purl": "pkg:npm/loose-envify@1.4.0",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "972bb13c6aff59f86b95e9b608bfd472751cd7372a280226043cee918ed8e45ff242235d928ebe7d12debe5c351e03324b0edfeb5d54218e34f04b71452a0add"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c21",
+   "name": "react",
+   "version": "18.2.0",
+   "purl": "pkg:npm/react@18.2.0",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "ff722331d6f62fd41b05d5a25b97b73f6fe7a70301694f661c24825333659f464261b71f4ec19b4c9ad4fe419e99d1f6216981da2a19fb3931b66aba834f5f19"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c22",
+   "name": "react-dom",
+   "version": "18.2.0",
+   "purl": "pkg:npm/react-dom@18.2.0",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "e88313ae2526bec8c752336d103b9d65fb83414a165d5c4a1e194419293cd67e18152fabfca97df705e2c25557b4f06d25e9e8cefd8ffa1c43b30f5e03b5e8ea"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c23",
+   "name": "scheduler",
+   "version": "0.23.0",
+   "purl": "pkg:npm/scheduler@0.23.0",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "0adb93866807360ef32195805e2dc0b322330379f8c71eda3728f00b654995d3b62cc5438452beeb7c46aaae82b091f8ad302debf33e3781a16620d83f1f5e53"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "c24",
+   "name": "secrets.js-grempe",
+   "version": "2.0.0",
+   "purl": "pkg:npm/secrets.js-grempe@2.0.0",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "hashes": [
+    {
+     "alg": "SHA-512",
+     "content": "e3190e21a0c083df7c7531576542533a855b74b1df07cd7c48c78b27af4005c7201842a8931b28445ba90057c02269685122afe1050634c80a55b28c7facf452"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": []
+  }
+ ]
+}

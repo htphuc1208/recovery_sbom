@@ -1,0 +1,95 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T10:08:38-08:00",
+  "component": {
+   "type": "application",
+   "name": "microsoft/playwright-mcp",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "playwright",
+   "version": "1.66.0-alpha-2026-11-09",
+   "purl": "pkg:npm/playwright",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "playwright-core",
+   "version": "1.66.0-alpha-2026-11-09",
+   "purl": "pkg:npm/playwright-core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "sdk",
+   "version": "^1.25.2",
+   "purl": "pkg:npm/%40modelcontextprotocol/sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "test",
+   "version": "1.66.0-alpha-2026-11-09",
+   "purl": "pkg:npm/%40playwright/test",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@playwright"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "node",
+   "version": "^24.3.0",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4"
+   ]
+  }
+ ]
+}

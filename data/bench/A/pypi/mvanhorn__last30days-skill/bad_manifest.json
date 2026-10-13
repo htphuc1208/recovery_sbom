@@ -1,0 +1,92 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T16:03:12-08:00",
+  "component": {
+   "type": "application",
+   "name": "mvanhorn/last30days-skill",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "pytest",
+   "version": ">=9.1.1,<10",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "pytest-cov",
+   "version": ">=7,<8",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "pytest-xdist",
+   "version": ">=3.8,<4",
+   "purl": "pkg:pypi/pytest-xdist",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "pyyaml",
+   "version": ">=6.0.2,<7",
+   "purl": "pkg:pypi/pyyaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "towncrier",
+   "version": ">=25.8.0,<27",
+   "purl": "pkg:pypi/towncrier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4"
+   ]
+  }
+ ]
+}

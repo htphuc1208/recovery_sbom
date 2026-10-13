@@ -1,0 +1,535 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2024-08-19T08:50:41+01:00",
+  "component": {
+   "type": "application",
+   "name": "GoogleChromeLabs/squoosh",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "plugin-commonjs",
+   "version": "^17.0.0",
+   "purl": "pkg:npm/%40rollup/plugin-commonjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "plugin-node-resolve",
+   "version": "^11.1.0",
+   "purl": "pkg:npm/%40rollup/plugin-node-resolve",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "plugin-replace",
+   "version": "^2.3.4",
+   "purl": "pkg:npm/%40rollup/plugin-replace",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "plugin-terser",
+   "version": "^0.4.4",
+   "purl": "pkg:npm/%40rollup/plugin-terser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "rollup-plugin-off-main-thread",
+   "version": "^2.2.2",
+   "purl": "pkg:npm/%40surma/rollup-plugin-off-main-thread",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@surma"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "dedent",
+   "version": "^0.7.0",
+   "purl": "pkg:npm/%40types/dedent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "mime-types",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/%40types/mime-types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "node",
+   "version": "^16.11.1",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "rollup-plugin-import-meta-assets",
+   "version": "^1.0.6",
+   "purl": "pkg:npm/%40web/rollup-plugin-import-meta-assets",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@web"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "comlink",
+   "version": "^4.3.0",
+   "purl": "pkg:npm/comlink",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "cssnano",
+   "version": "^4.1.10",
+   "purl": "pkg:npm/cssnano",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "dedent",
+   "version": "^0.7.0",
+   "purl": "pkg:npm/dedent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "del",
+   "version": "^5.1.0",
+   "purl": "pkg:npm/del",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "file-drop-element",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/file-drop-element",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "husky",
+   "version": "^7.0.2",
+   "purl": "pkg:npm/husky",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "idb-keyval",
+   "version": "^3.2.0",
+   "purl": "pkg:npm/idb-keyval",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "image-size",
+   "version": "^0.9.3",
+   "purl": "pkg:npm/image-size",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "linkstate",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/linkstate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "lint-staged",
+   "version": "^10.5.1",
+   "purl": "pkg:npm/lint-staged",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "lodash.camelcase",
+   "version": "^4.3.0",
+   "purl": "pkg:npm/lodash.camelcase",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "mime-types",
+   "version": "^2.1.28",
+   "purl": "pkg:npm/mime-types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "npm-run-all",
+   "version": "^4.1.5",
+   "purl": "pkg:npm/npm-run-all",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "pointer-tracker",
+   "version": "^2.5.3",
+   "purl": "pkg:npm/pointer-tracker",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "postcss",
+   "version": "^7.0.35",
+   "purl": "pkg:npm/postcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "postcss-modules",
+   "version": "^3.2.2",
+   "purl": "pkg:npm/postcss-modules",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "postcss-nested",
+   "version": "^4.2.3",
+   "purl": "pkg:npm/postcss-nested",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "postcss-simple-vars",
+   "version": "^5.0.2",
+   "purl": "pkg:npm/postcss-simple-vars",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "postcss-url",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/postcss-url",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "preact",
+   "version": "^10.5.5",
+   "purl": "pkg:npm/preact",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "preact-render-to-string",
+   "version": "^5.1.11",
+   "purl": "pkg:npm/preact-render-to-string",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "prettier",
+   "version": "^2.4.1",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "rollup",
+   "version": "^2.38.0",
+   "purl": "pkg:npm/rollup",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "serve",
+   "version": "^11.3.2",
+   "purl": "pkg:npm/serve",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "typescript",
+   "version": "^4.4.4",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "wasm-feature-detect",
+   "version": "^1.2.11",
+   "purl": "pkg:npm/wasm-feature-detect",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "which",
+   "version": "^2.0.2",
+   "purl": "pkg:npm/which",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35"
+   ]
+  }
+ ]
+}

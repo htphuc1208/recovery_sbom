@@ -1,0 +1,628 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T11:19:52+08:00",
+  "component": {
+   "type": "application",
+   "name": "oldj/SwitchHosts",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "commands",
+   "version": "^6.11.1",
+   "purl": "pkg:npm/%40codemirror/commands",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@codemirror"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "state",
+   "version": "^6.7.6",
+   "purl": "pkg:npm/%40codemirror/state",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@codemirror"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "view",
+   "version": "^6.43.13",
+   "purl": "pkg:npm/%40codemirror/view",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@codemirror"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "dayjs",
+   "version": "1.11.23",
+   "purl": "pkg:npm/dayjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "lodash",
+   "version": "4.18.1",
+   "purl": "pkg:npm/lodash",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "tslib",
+   "version": "2.8.1",
+   "purl": "pkg:npm/tslib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "uuid",
+   "version": "14.0.2",
+   "purl": "pkg:npm/uuid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "js",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/%40eslint/js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "core",
+   "version": "^9.6.3",
+   "purl": "pkg:npm/%40mantine/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@mantine"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "hooks",
+   "version": "^9.6.3",
+   "purl": "pkg:npm/%40mantine/hooks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@mantine"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "notifications",
+   "version": "^9.6.3",
+   "purl": "pkg:npm/%40mantine/notifications",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@mantine"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "test",
+   "version": "^1.63.0",
+   "purl": "pkg:npm/%40playwright/test",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@playwright"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "icons-react",
+   "version": "3.48.0",
+   "purl": "pkg:npm/%40tabler/icons-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@tabler"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "api",
+   "version": "^2.12.1",
+   "purl": "pkg:npm/%40tauri-apps/api",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@tauri-apps"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "cli",
+   "version": "^2.12.1",
+   "purl": "pkg:npm/%40tauri-apps/cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@tauri-apps"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "react",
+   "version": "^16.3.3",
+   "purl": "pkg:npm/%40testing-library/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@testing-library"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "assert",
+   "version": "1.5.11",
+   "purl": "pkg:npm/%40types/assert",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "lodash",
+   "version": "4.17.25",
+   "purl": "pkg:npm/%40types/lodash",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "node",
+   "version": "26.6.4",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "react",
+   "version": "19.3.0",
+   "purl": "pkg:npm/%40types/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "react-dom",
+   "version": "19.3.0",
+   "purl": "pkg:npm/%40types/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "plugin-react",
+   "version": "^6.1.1",
+   "purl": "pkg:npm/%40vitejs/plugin-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "ahooks",
+   "version": "3.10.0",
+   "purl": "pkg:npm/ahooks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "clsx",
+   "version": "2.1.1",
+   "purl": "pkg:npm/clsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "eslint",
+   "version": "^10.12.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "eslint-plugin-react-hooks",
+   "version": "^7.1.1",
+   "purl": "pkg:npm/eslint-plugin-react-hooks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "globals",
+   "version": "^17.13.0",
+   "purl": "pkg:npm/globals",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "jotai",
+   "version": "3.0.1",
+   "purl": "pkg:npm/jotai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "jsdom",
+   "version": "^30.1.2",
+   "purl": "pkg:npm/jsdom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "prettier",
+   "version": "3.9.9",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "pretty-bytes",
+   "version": "7.2.0",
+   "purl": "pkg:npm/pretty-bytes",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "react",
+   "version": "19.3.0",
+   "purl": "pkg:npm/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "react-dom",
+   "version": "19.3.0",
+   "purl": "pkg:npm/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "react-icons",
+   "version": "5.7.0",
+   "purl": "pkg:npm/react-icons",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "react-router",
+   "version": "8.4.0",
+   "purl": "pkg:npm/react-router",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "rimraf",
+   "version": "^6.1.3",
+   "purl": "pkg:npm/rimraf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "sass",
+   "version": "1.105.1",
+   "purl": "pkg:npm/sass",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "smooth-scroll-into-view-if-needed",
+   "version": "2.0.2",
+   "purl": "pkg:npm/smooth-scroll-into-view-if-needed",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "typescript",
+   "version": "6.0.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "typescript-eslint",
+   "version": "^8.71.0",
+   "purl": "pkg:npm/typescript-eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "vite",
+   "version": "8.3.4",
+   "purl": "pkg:npm/vite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "vitest",
+   "version": "^5.0.3",
+   "purl": "pkg:npm/vitest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41"
+   ]
+  }
+ ]
+}

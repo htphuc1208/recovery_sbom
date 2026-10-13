@@ -1,0 +1,1100 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T23:05:55-06:00",
+  "component": {
+   "type": "application",
+   "name": "headroomlabs-ai/headroom",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "tiktoken",
+   "version": ">=0.5.0",
+   "purl": "pkg:pypi/tiktoken",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "pydantic",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/pydantic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "litellm",
+   "version": ">=1.96.2,<2.0",
+   "purl": "pkg:pypi/litellm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "click",
+   "version": ">=8.5.0",
+   "purl": "pkg:pypi/click",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "rich",
+   "version": ">=13.0.0",
+   "purl": "pkg:pypi/rich",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "opentelemetry-api",
+   "version": ">=1.45.1",
+   "purl": "pkg:pypi/opentelemetry-api",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "ast-grep-cli",
+   "version": ">=0.30.0,!=0.44.1",
+   "purl": "pkg:pypi/ast-grep-cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "pyyaml",
+   "version": ">=6.0",
+   "purl": "pkg:pypi/pyyaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "tomlkit",
+   "version": ">=0.15.2,<1.0",
+   "purl": "pkg:pypi/tomlkit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "truststore",
+   "version": ">=0.10.0",
+   "purl": "pkg:pypi/truststore",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "hf-xet",
+   "version": ">=1.6.0",
+   "purl": "pkg:pypi/hf-xet",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "filelock",
+   "version": ">=4.2.1",
+   "purl": "pkg:pypi/filelock",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "fastapi",
+   "version": ">=0.100.0",
+   "purl": "pkg:pypi/fastapi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "uvicorn",
+   "version": ">=0.23.0,<1.0",
+   "purl": "pkg:pypi/uvicorn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "orjson",
+   "version": ">=3.9.14",
+   "purl": "pkg:pypi/orjson",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "httpx",
+   "version": ">=0.24.0",
+   "purl": "pkg:pypi/httpx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "openai",
+   "version": ">=2.14.0",
+   "purl": "pkg:pypi/openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "mcp",
+   "version": ">=2.2.0,<3.0.0",
+   "purl": "pkg:pypi/mcp",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "magika",
+   "version": ">=0.6.0",
+   "purl": "pkg:pypi/magika",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "zstandard",
+   "version": ">=0.20.0",
+   "purl": "pkg:pypi/zstandard",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "websockets",
+   "version": ">=13.0",
+   "purl": "pkg:pypi/websockets",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "python-socks",
+   "version": ">=2.7.1",
+   "purl": "pkg:pypi/python-socks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "onnxruntime",
+   "version": ">=1.24.0",
+   "purl": "pkg:pypi/onnxruntime",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "transformers",
+   "version": ">=5.5.0,<6.0",
+   "purl": "pkg:pypi/transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "watchdog",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/watchdog",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "sqlite-vec",
+   "version": ">=0.1.9",
+   "purl": "pkg:pypi/sqlite-vec",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "headroom-ai",
+   "version": "",
+   "purl": "pkg:pypi/headroom-ai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "gunicorn",
+   "version": ">=21.0.0",
+   "purl": "pkg:pypi/gunicorn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "google-cloud-aiplatform",
+   "version": ">=1.38",
+   "purl": "pkg:pypi/google-cloud-aiplatform",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "tree-sitter-language-pack",
+   "version": ">=0.10.0,<1.0",
+   "purl": "pkg:pypi/tree-sitter-language-pack",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "tree-sitter",
+   "version": ">=0.26.0,<0.27",
+   "purl": "pkg:pypi/tree-sitter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "torch",
+   "version": ">=2.12.1",
+   "purl": "pkg:pypi/torch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "huggingface-hub",
+   "version": ">=1.5.0,<3.0",
+   "purl": "pkg:pypi/huggingface-hub",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "sentence-transformers",
+   "version": ">=2.2.0,<7.0",
+   "purl": "pkg:pypi/sentence-transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "hnswlib",
+   "version": ">=0.8.0",
+   "purl": "pkg:pypi/hnswlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "mem0ai",
+   "version": ">=2.0.18,<3.0",
+   "purl": "pkg:pypi/mem0ai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "qdrant-client",
+   "version": ">=1.9.0,<2.0",
+   "purl": "pkg:pypi/qdrant-client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "neo4j",
+   "version": ">=5.20.0,<7.0",
+   "purl": "pkg:pypi/neo4j",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "fastembed",
+   "version": ">=0.6.0",
+   "purl": "pkg:pypi/fastembed",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "numpy",
+   "version": ">=1.24.0",
+   "purl": "pkg:pypi/numpy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "pillow",
+   "version": ">=12.3.0",
+   "purl": "pkg:pypi/pillow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "sentencepiece",
+   "version": ">=0.1.99",
+   "purl": "pkg:pypi/sentencepiece",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "rapidocr-onnxruntime",
+   "version": ">=1.4.0,<2",
+   "purl": "pkg:pypi/rapidocr-onnxruntime",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "rapidocr",
+   "version": ">=3.0,<4",
+   "purl": "pkg:pypi/rapidocr",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "jinja2",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/jinja2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "openpyxl",
+   "version": ">=3.1.0",
+   "purl": "pkg:pypi/openpyxl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "xlrd",
+   "version": ">=2.0.1",
+   "purl": "pkg:pypi/xlrd",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "opentelemetry-sdk",
+   "version": ">=1.24.0",
+   "purl": "pkg:pypi/opentelemetry-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "opentelemetry-exporter-otlp-proto-http",
+   "version": ">=1.24.0",
+   "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "any-llm-sdk",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/any-llm-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "langchain-core",
+   "version": ">=1.3.3,<4.0",
+   "purl": "pkg:pypi/langchain-core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "langchain-openai",
+   "version": ">=1.1.14,<2.0",
+   "purl": "pkg:pypi/langchain-openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "langgraph",
+   "version": ">=1.2.14,<2.0",
+   "purl": "pkg:pypi/langgraph",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "agno",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/agno",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "strands-agents",
+   "version": ">=0.1.0",
+   "purl": "pkg:pypi/strands-agents",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "autogen-agentchat",
+   "version": ">=0.7",
+   "purl": "pkg:pypi/autogen-agentchat",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "starlette",
+   "version": ">=0.27.0",
+   "purl": "pkg:pypi/starlette",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "datasets",
+   "version": ">=5.0.1",
+   "purl": "pkg:pypi/datasets",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "accelerate",
+   "version": ">=0.20.0",
+   "purl": "pkg:pypi/accelerate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "scikit-learn",
+   "version": ">=1.3.0",
+   "purl": "pkg:pypi/scikit-learn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "anthropic",
+   "version": ">=0.18.0",
+   "purl": "pkg:pypi/anthropic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b61",
+   "name": "boto3",
+   "version": ">=1.41.0",
+   "purl": "pkg:pypi/boto3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b62",
+   "name": "botocore",
+   "version": ">=1.41.0",
+   "purl": "pkg:pypi/botocore",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b63",
+   "name": "redis",
+   "version": ">=5.0.0",
+   "purl": "pkg:pypi/redis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b64",
+   "name": "trafilatura",
+   "version": ">=1.6.0",
+   "purl": "pkg:pypi/trafilatura",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b65",
+   "name": "pytest",
+   "version": ">=7.0.0",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b66",
+   "name": "pytest-cov",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b67",
+   "name": "pytest-asyncio",
+   "version": ">=0.21.0",
+   "purl": "pkg:pypi/pytest-asyncio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b68",
+   "name": "ruff",
+   "version": "==0.17.3",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b69",
+   "name": "mypy",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/mypy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b70",
+   "name": "pre-commit",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/pre-commit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b71",
+   "name": "ollama",
+   "version": ">=0.4.0",
+   "purl": "pkg:pypi/ollama",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b72",
+   "name": "langchain-ollama",
+   "version": ">=0.2.0",
+   "purl": "pkg:pypi/langchain-ollama",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b73",
+   "name": "fakeredis",
+   "version": ">=2.20.0",
+   "purl": "pkg:pypi/fakeredis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b74",
+   "name": "xlwt",
+   "version": ">=1.3.0",
+   "purl": "pkg:pypi/xlwt",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b75",
+   "name": "cryptography",
+   "version": ">=50.0.0",
+   "purl": "pkg:pypi/cryptography",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b76",
+   "name": "respx",
+   "version": ">=0.20.0",
+   "purl": "pkg:pypi/respx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60",
+    "b61",
+    "b62",
+    "b63",
+    "b64",
+    "b65",
+    "b66",
+    "b67",
+    "b68",
+    "b69",
+    "b70",
+    "b71",
+    "b72",
+    "b73",
+    "b74",
+    "b75",
+    "b76"
+   ]
+  }
+ ]
+}

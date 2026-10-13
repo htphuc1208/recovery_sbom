@@ -1,0 +1,250 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-01T10:22:32-06:00",
+  "component": {
+   "type": "application",
+   "name": "colbymchenry/codegraph",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "prompts",
+   "version": "^1.3.0",
+   "purl": "pkg:npm/%40clack/prompts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@clack"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "commander",
+   "version": "^14.0.2",
+   "purl": "pkg:npm/commander",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "fast-string-width",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/fast-string-width",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "fast-wrap-ansi",
+   "version": "^0.2.0",
+   "purl": "pkg:npm/fast-wrap-ansi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "ignore",
+   "version": "^7.0.14",
+   "purl": "pkg:npm/ignore",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "jsonc-parser",
+   "version": "^3.3.1",
+   "purl": "pkg:npm/jsonc-parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "picomatch",
+   "version": "^4.0.3",
+   "purl": "pkg:npm/picomatch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "sisteransi",
+   "version": "^1.0.5",
+   "purl": "pkg:npm/sisteransi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "tree-sitter-wasms",
+   "version": "^0.1.11",
+   "purl": "pkg:npm/tree-sitter-wasms",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "web-tree-sitter",
+   "version": "^0.25.3",
+   "purl": "pkg:npm/web-tree-sitter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "vite-plugin-svelte",
+   "version": "^6.2.4",
+   "purl": "pkg:npm/%40sveltejs/vite-plugin-svelte",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@sveltejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "node",
+   "version": "^20.19.30",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "picomatch",
+   "version": "^4.0.2",
+   "purl": "pkg:npm/%40types/picomatch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "jsdom",
+   "version": "^25.0.1",
+   "purl": "pkg:npm/jsdom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "typescript",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "vitest",
+   "version": "^4.1.11",
+   "purl": "pkg:npm/vitest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15"
+   ]
+  }
+ ]
+}

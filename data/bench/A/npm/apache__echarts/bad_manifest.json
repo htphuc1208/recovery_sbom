@@ -1,0 +1,541 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-04T18:59:16+08:00",
+  "component": {
+   "type": "application",
+   "name": "apache/echarts",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "tslib",
+   "version": "2.3.0",
+   "purl": "pkg:npm/tslib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "zrender",
+   "version": "6.1.0",
+   "purl": "pkg:npm/zrender",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "code-frame",
+   "version": "7.10.4",
+   "purl": "pkg:npm/%40babel/code-frame",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "core",
+   "version": "7.3.4",
+   "purl": "pkg:npm/%40babel/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "types",
+   "version": "7.10.5",
+   "purl": "pkg:npm/%40babel/types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@babel"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "typescript-versions",
+   "version": "^0.1.9",
+   "purl": "pkg:npm/%40definitelytyped/typescript-versions",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@definitelytyped"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "utils",
+   "version": "0.0.188",
+   "purl": "pkg:npm/%40definitelytyped/utils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@definitelytyped"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "eslint-plugin-ec",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/%40echarts-x/eslint-plugin-ec",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@echarts-x"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "rollup-plugin-dts",
+   "version": "2.0.3",
+   "purl": "pkg:npm/%40lang/rollup-plugin-dts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@lang"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "api-extractor",
+   "version": "7.31.2",
+   "purl": "pkg:npm/%40microsoft/api-extractor",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@microsoft"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "plugin-commonjs",
+   "version": "^17.0.0",
+   "purl": "pkg:npm/%40rollup/plugin-commonjs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "plugin-node-resolve",
+   "version": "^11.0.0",
+   "purl": "pkg:npm/%40rollup/plugin-node-resolve",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "plugin-replace",
+   "version": "^2.3.4",
+   "purl": "pkg:npm/%40rollup/plugin-replace",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "plugin-terser",
+   "version": "0.4.2",
+   "purl": "pkg:npm/%40rollup/plugin-terser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@rollup"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "jest",
+   "version": "^26.0.14",
+   "purl": "pkg:npm/%40types/jest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "eslint-plugin",
+   "version": "^4.33.0",
+   "purl": "pkg:npm/%40typescript-eslint/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "parser",
+   "version": "^4.33.0",
+   "purl": "pkg:npm/%40typescript-eslint/parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "chalk",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/chalk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "commander",
+   "version": "2.11.0",
+   "purl": "pkg:npm/commander",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "dtslint",
+   "version": "^4.0.5",
+   "purl": "pkg:npm/dtslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "esbuild",
+   "version": "^0.8.39",
+   "purl": "pkg:npm/esbuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "eslint",
+   "version": "^7.15.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "fs-extra",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/fs-extra",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "globby",
+   "version": "11.0.0",
+   "purl": "pkg:npm/globby",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "husky",
+   "version": "^8.0.3",
+   "purl": "pkg:npm/husky",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "jest",
+   "version": "^26.6.1",
+   "purl": "pkg:npm/jest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "jest-canvas-mock",
+   "version": "^2.5.0",
+   "purl": "pkg:npm/jest-canvas-mock",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "jshint",
+   "version": "2.13.5",
+   "purl": "pkg:npm/jshint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "magic-string",
+   "version": "^0.25.7",
+   "purl": "pkg:npm/magic-string",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "open",
+   "version": "6.4.0",
+   "purl": "pkg:npm/open",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "rollup",
+   "version": "2.34.2",
+   "purl": "pkg:npm/rollup",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "seedrandom",
+   "version": "3.0.3",
+   "purl": "pkg:npm/seedrandom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "semver",
+   "version": "6.3.0",
+   "purl": "pkg:npm/semver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "terser",
+   "version": "^5.16.1",
+   "purl": "pkg:npm/terser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "ts-jest",
+   "version": "^26.4.3",
+   "purl": "pkg:npm/ts-jest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "typescript",
+   "version": "4.4.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-10T11:35:09+08:00",
+  "component": {
+   "type": "application",
+   "name": "musistudio/claude-code-router",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "ai-gateway",
+   "version": "^1.0.21",
+   "purl": "pkg:npm/%40the-next-ai/ai-gateway",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@the-next-ai"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "bot-gateway-sdk",
+   "version": "^0.1.0",
+   "purl": "pkg:npm/%40the-next-ai/bot-gateway-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@the-next-ai"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "better-sqlite3",
+   "version": "^12.11.1",
+   "purl": "pkg:npm/better-sqlite3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "electron-updater",
+   "version": "^6.8.9",
+   "purl": "pkg:npm/electron-updater",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "node-forge",
+   "version": "^1.4.0",
+   "purl": "pkg:npm/node-forge",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "openai",
+   "version": "^6.27.0",
+   "purl": "pkg:npm/openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "pm2",
+   "version": "^7.0.3",
+   "purl": "pkg:npm/pm2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "undici",
+   "version": "^7.29.0",
+   "purl": "pkg:npm/undici",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "core",
+   "version": "^6.3.1",
+   "purl": "pkg:npm/%40dnd-kit/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@dnd-kit"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "sortable",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/%40dnd-kit/sortable",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@dnd-kit"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "utilities",
+   "version": "^3.2.2",
+   "purl": "pkg:npm/%40dnd-kit/utilities",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@dnd-kit"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "test",
+   "version": "^1.61.1",
+   "purl": "pkg:npm/%40playwright/test",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@playwright"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "cli",
+   "version": "^4.3.0",
+   "purl": "pkg:npm/%40tailwindcss/cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@tailwindcss"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "better-sqlite3",
+   "version": "^7.6.13",
+   "purl": "pkg:npm/%40types/better-sqlite3",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "node",
+   "version": "^22.10.2",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "node-forge",
+   "version": "^1.3.14",
+   "purl": "pkg:npm/%40types/node-forge",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "react",
+   "version": "^18.3.18",
+   "purl": "pkg:npm/%40types/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "react-dom",
+   "version": "^18.3.5",
+   "purl": "pkg:npm/%40types/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "baseui",
+   "version": "^16.1.1",
+   "purl": "pkg:npm/baseui",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "clsx",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/clsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "electron",
+   "version": "^42.3.3",
+   "purl": "pkg:npm/electron",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "electron-builder",
+   "version": "^26.8.1",
+   "purl": "pkg:npm/electron-builder",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "esbuild",
+   "version": "^0.27.7",
+   "purl": "pkg:npm/esbuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "js-yaml",
+   "version": "^4.3.1",
+   "purl": "pkg:npm/js-yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "lucide-react",
+   "version": "^1.17.0",
+   "purl": "pkg:npm/lucide-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "motion",
+   "version": "^12.40.0",
+   "purl": "pkg:npm/motion",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "react",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "react-dom",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "recharts",
+   "version": "^3.8.1",
+   "purl": "pkg:npm/recharts",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "styletron-engine-atomic",
+   "version": "^1.6.2",
+   "purl": "pkg:npm/styletron-engine-atomic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "styletron-react",
+   "version": "^6.1.1",
+   "purl": "pkg:npm/styletron-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "tailwind-merge",
+   "version": "^3.6.0",
+   "purl": "pkg:npm/tailwind-merge",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "tailwindcss",
+   "version": "^4.3.0",
+   "purl": "pkg:npm/tailwindcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "typescript",
+   "version": "^5.9.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33"
+   ]
+  }
+ ]
+}

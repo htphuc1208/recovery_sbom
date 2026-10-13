@@ -1,0 +1,690 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-27T00:27:57+09:00",
+  "component": {
+   "type": "application",
+   "name": "hexojs/hexo",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "abbrev",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/abbrev",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "bluebird",
+   "version": "^3.7.2",
+   "purl": "pkg:npm/bluebird",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "fast-archy",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/fast-archy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "fast-text-table",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/fast-text-table",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "hexo-cli",
+   "version": "^4.3.2",
+   "purl": "pkg:npm/hexo-cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "hexo-front-matter",
+   "version": "^4.2.1",
+   "purl": "pkg:npm/hexo-front-matter",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "hexo-fs",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/hexo-fs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "hexo-i18n",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/hexo-i18n",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "hexo-log",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/hexo-log",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "hexo-util",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/hexo-util",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "js-yaml",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/js-yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "js-yaml-js-types",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/js-yaml-js-types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "micromatch",
+   "version": "^4.0.8",
+   "purl": "pkg:npm/micromatch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "moize",
+   "version": "^6.1.6",
+   "purl": "pkg:npm/moize",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "moment",
+   "version": "^2.30.1",
+   "purl": "pkg:npm/moment",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "moment-timezone",
+   "version": "^0.6.2",
+   "purl": "pkg:npm/moment-timezone",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "nunjucks",
+   "version": "^3.2.4",
+   "purl": "pkg:npm/nunjucks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "picocolors",
+   "version": "^1.1.1",
+   "purl": "pkg:npm/picocolors",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "pretty-hrtime",
+   "version": "^1.0.3",
+   "purl": "pkg:npm/pretty-hrtime",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "strip-ansi",
+   "version": "^7.1.0",
+   "purl": "pkg:npm/strip-ansi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "tildify",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/tildify",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "titlecase",
+   "version": "^1.1.3",
+   "purl": "pkg:npm/titlecase",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "warehouse",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/warehouse",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "abbrev",
+   "version": "^1.1.3",
+   "purl": "pkg:npm/%40types/abbrev",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "bluebird",
+   "version": "^3.5.37",
+   "purl": "pkg:npm/%40types/bluebird",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "chai",
+   "version": "^4.3.11",
+   "purl": "pkg:npm/%40types/chai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "graceful-fs",
+   "version": "^4.1.9",
+   "purl": "pkg:npm/%40types/graceful-fs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "js-yaml",
+   "version": "^4.0.9",
+   "purl": "pkg:npm/%40types/js-yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "micromatch",
+   "version": "^4.0.7",
+   "purl": "pkg:npm/%40types/micromatch",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "mocha",
+   "version": "^10.0.9",
+   "purl": "pkg:npm/%40types/mocha",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "node",
+   "version": "^20.17.6",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "nunjucks",
+   "version": "^3.2.2",
+   "purl": "pkg:npm/%40types/nunjucks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "sinon",
+   "version": "^17.0.3",
+   "purl": "pkg:npm/%40types/sinon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "0x",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/0x",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "c8",
+   "version": "^9.0.0",
+   "purl": "pkg:npm/c8",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "chai",
+   "version": "^4.3.6",
+   "purl": "pkg:npm/chai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "cheerio",
+   "version": "1.0.0",
+   "purl": "pkg:npm/cheerio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "decache",
+   "version": "^4.6.1",
+   "purl": "pkg:npm/decache",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "eslint",
+   "version": "^9.17.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "eslint-config-hexo",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/eslint-config-hexo",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "hexo-renderer-marked",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/hexo-renderer-marked",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "husky",
+   "version": "^9.1.7",
+   "purl": "pkg:npm/husky",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "lint-staged",
+   "version": "^15.3.0",
+   "purl": "pkg:npm/lint-staged",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "mocha",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/mocha",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "sinon",
+   "version": "^17.0.1",
+   "purl": "pkg:npm/sinon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "ts-node",
+   "version": "^10.9.1",
+   "purl": "pkg:npm/ts-node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "typescript",
+   "version": "^5.3.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46"
+   ]
+  }
+ ]
+}

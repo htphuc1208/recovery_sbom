@@ -1,0 +1,64 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-02T12:11:19+01:00",
+  "component": {
+   "type": "application",
+   "name": "mingrammer/diagrams",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "graphviz",
+   "version": ">=0.13.2,<0.22.0",
+   "purl": "pkg:pypi/graphviz",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "jinja2",
+   "version": ">=2.10,<4.0",
+   "purl": "pkg:pypi/jinja2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "typed-ast",
+   "version": ">=1.5.5,<2",
+   "purl": "pkg:pypi/typed-ast",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2"
+   ]
+  }
+ ]
+}

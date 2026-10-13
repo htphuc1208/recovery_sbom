@@ -1,0 +1,455 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T06:58:55+00:00",
+  "component": {
+   "type": "application",
+   "name": "ChromeDevTools/chrome-devtools-mcp",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "gcf",
+   "version": "^2.2.2",
+   "purl": "pkg:npm/%40blackwell-systems/gcf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@blackwell-systems"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "genai",
+   "version": "^2.0.1",
+   "purl": "pkg:npm/%40google/genai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@google"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "client",
+   "version": "2.4.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "core",
+   "version": "2.4.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "server",
+   "version": "2.4.0",
+   "purl": "pkg:npm/%40modelcontextprotocol/server",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@modelcontextprotocol"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "eslint-plugin",
+   "version": "^5.4.0",
+   "purl": "pkg:npm/%40stylistic/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@stylistic"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "toon",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/%40toon-format/toon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@toon-format"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "node",
+   "version": "^26.0.0",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "semver",
+   "version": "^7.7.1",
+   "purl": "pkg:npm/%40types/semver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "sinon",
+   "version": "^22.0.0",
+   "purl": "pkg:npm/%40types/sinon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "yargs",
+   "version": "^17.0.33",
+   "purl": "pkg:npm/%40types/yargs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "eslint-plugin",
+   "version": "^8.43.0",
+   "purl": "pkg:npm/%40typescript-eslint/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "parser",
+   "version": "^8.43.0",
+   "purl": "pkg:npm/%40typescript-eslint/parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "core-js",
+   "version": "3.51.0",
+   "purl": "pkg:npm/core-js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "eslint",
+   "version": "^10.7.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "eslint-import-resolver-typescript",
+   "version": "^4.4.4",
+   "purl": "pkg:npm/eslint-import-resolver-typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "eslint-plugin-eslint-plugin",
+   "version": "^7.6.2",
+   "purl": "pkg:npm/eslint-plugin-eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "eslint-plugin-import",
+   "version": "^2.32.0",
+   "purl": "pkg:npm/eslint-plugin-import",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "eslint-plugin-jsdoc",
+   "version": "^65.2.0",
+   "purl": "pkg:npm/eslint-plugin-jsdoc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "eslint-plugin-mocha",
+   "version": "^12.0.2",
+   "purl": "pkg:npm/eslint-plugin-mocha",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "globals",
+   "version": "^17.0.0",
+   "purl": "pkg:npm/globals",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "lighthouse",
+   "version": "13.6.0",
+   "purl": "pkg:npm/lighthouse",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "prettier",
+   "version": "^3.6.2",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "puppeteer",
+   "version": "25.17.0",
+   "purl": "pkg:npm/puppeteer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "semver",
+   "version": "^7.7.4",
+   "purl": "pkg:npm/semver",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "sinon",
+   "version": "^22.0.0",
+   "purl": "pkg:npm/sinon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "typescript",
+   "version": "npm:@typescript/typescript6@^6.0.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "typescript-eslint",
+   "version": "^8.43.0",
+   "purl": "pkg:npm/typescript-eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "yargs",
+   "version": "18.2.0",
+   "purl": "pkg:npm/yargs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "zod",
+   "version": "^4.4.3",
+   "purl": "pkg:npm/zod",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29"
+   ]
+  }
+ ]
+}

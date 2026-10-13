@@ -1,0 +1,1044 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T07:18:03-08:00",
+  "component": {
+   "type": "application",
+   "name": "langflow-ai/langflow",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "langflow-base",
+   "version": "==1.13.2",
+   "purl": "pkg:pypi/langflow-base",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "oauthlib",
+   "version": ">=4.0.1,<5.0.0",
+   "purl": "pkg:pypi/oauthlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "lfx-ibm",
+   "version": ">=0.3.2,<1.0.0",
+   "purl": "pkg:pypi/lfx-ibm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "lfx-docling",
+   "version": ">=0.2.3,<1.0.0",
+   "purl": "pkg:pypi/lfx-docling",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "lfx-datastax",
+   "version": ">=0.2.2,<1.0.0",
+   "purl": "pkg:pypi/lfx-datastax",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "lfx-toolguard",
+   "version": ">=0.2.4,<1.0.0",
+   "purl": "pkg:pypi/lfx-toolguard",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "lfx-openai",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-openai",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "lfx-anthropic",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-anthropic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "lfx-azure",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-azure",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "lfx-ollama",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-ollama",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "lfx-amazon",
+   "version": ">=0.2.3,<1.0.0",
+   "purl": "pkg:pypi/lfx-amazon",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "lfx-cohere",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-cohere",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "lfx-oracle",
+   "version": ">=0.3.1,<1.0.0",
+   "purl": "pkg:pypi/lfx-oracle",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "lfx-vllm",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-vllm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "lfx-openai-compatible",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-openai-compatible",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "lfx-google",
+   "version": ">=0.3.6,<1.0.0",
+   "purl": "pkg:pypi/lfx-google",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "lfx-microsoft",
+   "version": ">=0.1.4,<1.0.0",
+   "purl": "pkg:pypi/lfx-microsoft",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "lfx-slack",
+   "version": ">=0.2.2,<1.0.0",
+   "purl": "pkg:pypi/lfx-slack",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "lfx-bundles",
+   "version": ">=1.2.9,<2.0",
+   "purl": "pkg:pypi/lfx-bundles",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "lfx-arxiv",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-arxiv",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "lfx-confluent",
+   "version": ">=0.2.3,<1.0.0",
+   "purl": "pkg:pypi/lfx-confluent",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "lfx-duckduckgo",
+   "version": ">=0.2.2,<1.0.0",
+   "purl": "pkg:pypi/lfx-duckduckgo",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "lfx-empiriolabs",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-empiriolabs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "lfx-exa",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-exa",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "lfx-firecrawl",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-firecrawl",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "lfx-nextplaid",
+   "version": ">=0.2.3,<1.0.0",
+   "purl": "pkg:pypi/lfx-nextplaid",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "lfx-paddle",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-paddle",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "lfx-serpingapi",
+   "version": ">=0.1.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-serpingapi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "lfx-serply",
+   "version": ">=0.1.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-serply",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "lfx-valkey",
+   "version": ">=0.2.0,<1.0.0",
+   "purl": "pkg:pypi/lfx-valkey",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "couchbase",
+   "version": ">=4.2.1",
+   "purl": "pkg:pypi/couchbase",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "cassio",
+   "version": ">=0.1.7",
+   "purl": "pkg:pypi/cassio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "sentence-transformers",
+   "version": ">=2.3.1",
+   "purl": "pkg:pypi/sentence-transformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "ctransformers",
+   "version": ">=0.2.10",
+   "purl": "pkg:pypi/ctransformers",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "clickhouse-connect",
+   "version": "==0.7.19",
+   "purl": "pkg:pypi/clickhouse-connect",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "nv-ingest-api",
+   "version": ">=26.1.0,<27.0.0",
+   "purl": "pkg:pypi/nv-ingest-api",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "nv-ingest-client",
+   "version": ">=26.1.0,<26.3.0",
+   "purl": "pkg:pypi/nv-ingest-client",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "celery",
+   "version": ">=5.6,<5.7",
+   "purl": "pkg:pypi/celery",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "pytest-instafail",
+   "version": ">=0.5.0",
+   "purl": "pkg:pypi/pytest-instafail",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "ipykernel",
+   "version": ">=6.29.0",
+   "purl": "pkg:pypi/ipykernel",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "ruff",
+   "version": "~=0.13.1",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "httpx",
+   "version": ">=0.28.1",
+   "purl": "pkg:pypi/httpx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "pytest",
+   "version": ">=9.0.3",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "requests",
+   "version": ">=2.33.0",
+   "purl": "pkg:pypi/requests",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "pytest-cov",
+   "version": ">=5.0.0",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "pytest-mock",
+   "version": ">=3.14.0",
+   "purl": "pkg:pypi/pytest-mock",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "pytest-xdist",
+   "version": ">=3.6.0",
+   "purl": "pkg:pypi/pytest-xdist",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "pytest-sugar",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/pytest-sugar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "respx",
+   "version": ">=0.21.1",
+   "purl": "pkg:pypi/respx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "pytest-asyncio",
+   "version": ">=0.23.0",
+   "purl": "pkg:pypi/pytest-asyncio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "pytest-profiling",
+   "version": ">=1.7.0",
+   "purl": "pkg:pypi/pytest-profiling",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "pre-commit",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/pre-commit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "vulture",
+   "version": ">=2.11",
+   "purl": "pkg:pypi/vulture",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "dictdiffer",
+   "version": ">=0.9.0",
+   "purl": "pkg:pypi/dictdiffer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "pytest-split",
+   "version": ">=0.9.0",
+   "purl": "pkg:pypi/pytest-split",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "pytest-flakefinder",
+   "version": ">=1.1.0",
+   "purl": "pkg:pypi/pytest-flakefinder",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "packaging",
+   "version": ">=24.1,<25.0",
+   "purl": "pkg:pypi/packaging",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "asgi-lifespan",
+   "version": ">=2.1.0",
+   "purl": "pkg:pypi/asgi-lifespan",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "pytest-github-actions-annotate-failures",
+   "version": ">=0.2.0",
+   "purl": "pkg:pypi/pytest-github-actions-annotate-failures",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "blockbuster",
+   "version": ">=1.5.20,<1.6",
+   "purl": "pkg:pypi/blockbuster",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "types-aiofiles",
+   "version": ">=24.1.0.20240626",
+   "purl": "pkg:pypi/types-aiofiles",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b61",
+   "name": "codeflash",
+   "version": ">=0.8.4",
+   "purl": "pkg:pypi/codeflash",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b62",
+   "name": "hypothesis",
+   "version": ">=6.123.17",
+   "purl": "pkg:pypi/hypothesis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b63",
+   "name": "locust",
+   "version": "~=2.43.4",
+   "purl": "pkg:pypi/locust",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b64",
+   "name": "pytest-rerunfailures",
+   "version": ">=15.0",
+   "purl": "pkg:pypi/pytest-rerunfailures",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b65",
+   "name": "scrapegraph-py",
+   "version": ">=1.10.2",
+   "purl": "pkg:pypi/scrapegraph-py",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b66",
+   "name": "elevenlabs",
+   "version": "==1.58.1",
+   "purl": "pkg:pypi/elevenlabs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b67",
+   "name": "faker",
+   "version": ">=37.0.0",
+   "purl": "pkg:pypi/faker",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b68",
+   "name": "pytest-timeout",
+   "version": ">=2.3.1",
+   "purl": "pkg:pypi/pytest-timeout",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b69",
+   "name": "pyyaml",
+   "version": ">=6.0.2",
+   "purl": "pkg:pypi/pyyaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b70",
+   "name": "pyleak",
+   "version": ">=0.1.14",
+   "purl": "pkg:pypi/pyleak",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b71",
+   "name": "onnxruntime",
+   "version": ">=1.20,<1.24",
+   "purl": "pkg:pypi/onnxruntime",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b72",
+   "name": "fakeredis",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/fakeredis",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60",
+    "b61",
+    "b62",
+    "b63",
+    "b64",
+    "b65",
+    "b66",
+    "b67",
+    "b68",
+    "b69",
+    "b70",
+    "b71",
+    "b72"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T09:54:58+00:00",
+  "component": {
+   "type": "application",
+   "name": "abhigyanpatwari/GitNexus",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "eslint-plugin",
+   "version": "^8.57.2",
+   "purl": "pkg:npm/%40typescript-eslint/eslint-plugin",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "parser",
+   "version": "^8.57.2",
+   "purl": "pkg:npm/%40typescript-eslint/parser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@typescript-eslint"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "eslint",
+   "version": "^9.39.4",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "eslint-config-prettier",
+   "version": "^10.1.8",
+   "purl": "pkg:npm/eslint-config-prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "eslint-plugin-react-hooks",
+   "version": "^7.0.1",
+   "purl": "pkg:npm/eslint-plugin-react-hooks",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "eslint-plugin-unused-imports",
+   "version": "^4.4.1",
+   "purl": "pkg:npm/eslint-plugin-unused-imports",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "husky",
+   "version": "^9.1.7",
+   "purl": "pkg:npm/husky",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "lint-staged",
+   "version": "^16.4.0",
+   "purl": "pkg:npm/lint-staged",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "prettier",
+   "version": "^3.8.0",
+   "purl": "pkg:npm/prettier",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "prettier-plugin-tailwindcss",
+   "version": "^0.7.0",
+   "purl": "pkg:npm/prettier-plugin-tailwindcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "typescript",
+   "version": "^5.9.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10"
+   ]
+  }
+ ]
+}

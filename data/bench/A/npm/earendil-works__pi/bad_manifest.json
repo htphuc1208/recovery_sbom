@@ -1,0 +1,137 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T11:59:23+01:00",
+  "component": {
+   "type": "application",
+   "name": "earendil-works/pi",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "biome",
+   "version": "2.3.5",
+   "purl": "pkg:npm/%40biomejs/biome",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@biomejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "wasm-nodejs",
+   "version": "2.3.5",
+   "purl": "pkg:npm/%40biomejs/wasm-nodejs",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@biomejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "node",
+   "version": "22.19.19",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "esbuild",
+   "version": "0.28.2",
+   "purl": "pkg:npm/esbuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "husky",
+   "version": "9.1.7",
+   "purl": "pkg:npm/husky",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "pnpm",
+   "version": "11.15.1",
+   "purl": "pkg:npm/pnpm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "typescript",
+   "version": "7.0.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "yaml",
+   "version": "2.9.0",
+   "purl": "pkg:npm/yaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7"
+   ]
+  }
+ ]
+}

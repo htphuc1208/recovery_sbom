@@ -1,0 +1,380 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-10T21:13:02-07:00",
+  "component": {
+   "type": "application",
+   "name": "markedjs/marked",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "cli",
+   "version": "^0.18.5",
+   "purl": "pkg:npm/%40arethetypeswrong/cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@arethetypeswrong"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "eslint-config",
+   "version": "^1.0.14",
+   "purl": "pkg:npm/%40markedjs/eslint-config",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@markedjs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "testutils",
+   "version": "18.1.1-0",
+   "purl": "pkg:npm/%40markedjs/testutils",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@markedjs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "commit-analyzer",
+   "version": "^13.0.1",
+   "purl": "pkg:npm/%40semantic-release/commit-analyzer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@semantic-release"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "git",
+   "version": "^11.0.1",
+   "purl": "pkg:npm/%40semantic-release/git",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@semantic-release"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "github",
+   "version": "^12.0.10",
+   "purl": "pkg:npm/%40semantic-release/github",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@semantic-release"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "npm",
+   "version": "^13.2.0",
+   "purl": "pkg:npm/%40semantic-release/npm",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@semantic-release"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "release-notes-generator",
+   "version": "^14.1.1",
+   "purl": "pkg:npm/%40semantic-release/release-notes-generator",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@semantic-release"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "cheerio",
+   "version": "1.2.0",
+   "purl": "pkg:npm/cheerio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "commonmark",
+   "version": "0.31.2",
+   "purl": "pkg:npm/commonmark",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "cross-env",
+   "version": "^10.1.0",
+   "purl": "pkg:npm/cross-env",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "dts-bundle-generator",
+   "version": "^9.5.1",
+   "purl": "pkg:npm/dts-bundle-generator",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "esbuild",
+   "version": "^0.28.2",
+   "purl": "pkg:npm/esbuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "esbuild-plugin-umd-wrapper",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/esbuild-plugin-umd-wrapper",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "eslint",
+   "version": "^10.14.0",
+   "purl": "pkg:npm/eslint",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "highlight.js",
+   "version": "^11.12.0",
+   "purl": "pkg:npm/highlight.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "markdown-it",
+   "version": "15.0.3",
+   "purl": "pkg:npm/markdown-it",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "marked-highlight",
+   "version": "^2.2.4",
+   "purl": "pkg:npm/marked-highlight",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "marked-man",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/marked-man",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "recheck",
+   "version": "^4.6.2",
+   "purl": "pkg:npm/recheck",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "rimraf",
+   "version": "^6.1.4",
+   "purl": "pkg:npm/rimraf",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "semantic-release",
+   "version": "^25.0.9",
+   "purl": "pkg:npm/semantic-release",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "titleize",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/titleize",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "tslib",
+   "version": "^2.9.1",
+   "purl": "pkg:npm/tslib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "typescript",
+   "version": "6.0.3",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24"
+   ]
+  }
+ ]
+}

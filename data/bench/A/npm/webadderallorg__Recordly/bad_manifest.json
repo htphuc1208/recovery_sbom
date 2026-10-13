@@ -1,0 +1,837 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-12T06:49:47+11:00",
+  "component": {
+   "type": "application",
+   "name": "webadderallorg/Recordly",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "react",
+   "version": "^2.1.10",
+   "purl": "pkg:npm/%40phosphor-icons/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@phosphor-icons"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "react",
+   "version": "^2.3.0",
+   "purl": "pkg:npm/%40solar-icons/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@solar-icons"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "supabase-js",
+   "version": "^2.116.0",
+   "purl": "pkg:npm/%40supabase/supabase-js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ],
+   "group": "@supabase"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "capturekit",
+   "version": "^1.0.13",
+   "purl": "pkg:npm/capturekit",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "electron-updater",
+   "version": "^6.8.9",
+   "purl": "pkg:npm/electron-updater",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "ffmpeg-static",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/ffmpeg-static",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "ffprobe-static",
+   "version": "^3.1.0",
+   "purl": "pkg:npm/ffprobe-static",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "heic2any",
+   "version": "^0.0.4",
+   "purl": "pkg:npm/heic2any",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "proper-lockfile",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/proper-lockfile",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "sherpa-onnx-node",
+   "version": "2.0.1",
+   "purl": "pkg:npm/sherpa-onnx-node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "uiohook-napi",
+   "version": "^1.5.4",
+   "purl": "pkg:npm/uiohook-napi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "biome",
+   "version": "2.3.13",
+   "purl": "pkg:npm/%40biomejs/biome",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@biomejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "core",
+   "version": "^6.3.1",
+   "purl": "pkg:npm/%40dnd-kit/core",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@dnd-kit"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "rebuild",
+   "version": "^4.2.0",
+   "purl": "pkg:npm/%40electron/rebuild",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@electron"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "fix",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/%40fix-webm-duration/fix",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@fix-webm-duration"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "react",
+   "version": "^3.2.6",
+   "purl": "pkg:npm/%40heroui/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@heroui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "styles",
+   "version": "^3.2.6",
+   "purl": "pkg:npm/%40heroui/styles",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@heroui"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "test",
+   "version": "^1.63.0",
+   "purl": "pkg:npm/%40playwright/test",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@playwright"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "postcss",
+   "version": "^4.3.3",
+   "purl": "pkg:npm/%40tailwindcss/postcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@tailwindcss"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "gif.js",
+   "version": "^0.2.5",
+   "purl": "pkg:npm/%40types/gif.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "node",
+   "version": "^25.0.3",
+   "purl": "pkg:npm/%40types/node",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "proper-lockfile",
+   "version": "^4.1.4",
+   "purl": "pkg:npm/%40types/proper-lockfile",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "react",
+   "version": "^19.3.0",
+   "purl": "pkg:npm/%40types/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "react-dom",
+   "version": "^19.3.0",
+   "purl": "pkg:npm/%40types/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@types"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "plugin-react",
+   "version": "^4.2.1",
+   "purl": "pkg:npm/%40vitejs/plugin-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ],
+   "group": "@vitejs"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "clsx",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/clsx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "dnd-timeline",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/dnd-timeline",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "electron",
+   "version": "^43.8.3",
+   "purl": "pkg:npm/electron",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "electron-builder",
+   "version": "^26.15.3",
+   "purl": "pkg:npm/electron-builder",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "emoji-picker-react",
+   "version": "^4.16.1",
+   "purl": "pkg:npm/emoji-picker-react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "fast-check",
+   "version": "^4.5.2",
+   "purl": "pkg:npm/fast-check",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "gif.js",
+   "version": "^0.2.0",
+   "purl": "pkg:npm/gif.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "json5",
+   "version": "2.2.3",
+   "purl": "pkg:npm/json5",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "lightningcss",
+   "version": "^1.32.0",
+   "purl": "pkg:npm/lightningcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "mediabunny",
+   "version": "^1.25.1",
+   "purl": "pkg:npm/mediabunny",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "motion",
+   "version": "^12.23.24",
+   "purl": "pkg:npm/motion",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "mp4box",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/mp4box",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "pixi-filters",
+   "version": "^6.1.5",
+   "purl": "pkg:npm/pixi-filters",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "pixi.js",
+   "version": "^8.14.0",
+   "purl": "pkg:npm/pixi.js",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "postcss",
+   "version": "^8.5.6",
+   "purl": "pkg:npm/postcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "react",
+   "version": "^19.3.0",
+   "purl": "pkg:npm/react",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "react-aria",
+   "version": "3.52.1",
+   "purl": "pkg:npm/react-aria",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "react-confetti",
+   "version": "^6.4.0",
+   "purl": "pkg:npm/react-confetti",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "react-dom",
+   "version": "^19.3.0",
+   "purl": "pkg:npm/react-dom",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "react-icons",
+   "version": "^5.5.0",
+   "purl": "pkg:npm/react-icons",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "react-resizable-panels",
+   "version": "^3.0.6",
+   "purl": "pkg:npm/react-resizable-panels",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "react-rnd",
+   "version": "^10.5.2",
+   "purl": "pkg:npm/react-rnd",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "tailwind-merge",
+   "version": "^3.3.1",
+   "purl": "pkg:npm/tailwind-merge",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "tailwindcss",
+   "version": "^4.3.3",
+   "purl": "pkg:npm/tailwindcss",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "tailwindcss-animate",
+   "version": "^1.0.7",
+   "purl": "pkg:npm/tailwindcss-animate",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "terser",
+   "version": "^5.44.1",
+   "purl": "pkg:npm/terser",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "typescript",
+   "version": "^5.2.2",
+   "purl": "pkg:npm/typescript",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "vite",
+   "version": "^6.4.5",
+   "purl": "pkg:npm/vite",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "vite-plugin-electron",
+   "version": "^0.28.6",
+   "purl": "pkg:npm/vite-plugin-electron",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "vite-plugin-electron-renderer",
+   "version": "^0.14.5",
+   "purl": "pkg:npm/vite-plugin-electron-renderer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "vitest",
+   "version": "^4.1.12",
+   "purl": "pkg:npm/vitest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "web-demuxer",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/web-demuxer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56"
+   ]
+  }
+ ]
+}

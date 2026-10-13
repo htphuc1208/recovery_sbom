@@ -1,0 +1,876 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-11T23:28:24+01:00",
+  "component": {
+   "type": "application",
+   "name": "fastapi/fastapi",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "name": "starlette",
+   "version": ">=0.46.0",
+   "purl": "pkg:pypi/starlette",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "name": "anyio",
+   "version": ">=4.1.0",
+   "purl": "pkg:pypi/anyio",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "name": "pydantic",
+   "version": ">=2.9.0",
+   "purl": "pkg:pypi/pydantic",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "name": "typing-extensions",
+   "version": ">=4.8.0",
+   "purl": "pkg:pypi/typing-extensions",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "name": "typing-inspection",
+   "version": ">=0.4.2",
+   "purl": "pkg:pypi/typing-inspection",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "name": "annotated-doc",
+   "version": ">=0.0.2",
+   "purl": "pkg:pypi/annotated-doc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "name": "opentelemetry-api",
+   "version": ">=1.44.0",
+   "purl": "pkg:pypi/opentelemetry-api",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "name": "opentelemetry-sdk",
+   "version": ">=1.44.0",
+   "purl": "pkg:pypi/opentelemetry-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "name": "opentelemetry-exporter-otlp-proto-http",
+   "version": ">=1.44.0",
+   "purl": "pkg:pypi/opentelemetry-exporter-otlp-proto-http",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "name": "fastapi-cli",
+   "version": ">=0.0.32",
+   "purl": "pkg:pypi/fastapi-cli",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "name": "fastar",
+   "version": ">= 0.9.0",
+   "purl": "pkg:pypi/fastar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "name": "httpx",
+   "version": ">=0.23.0,<1.0.0",
+   "purl": "pkg:pypi/httpx",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "name": "httpx2",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/httpx2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "name": "jinja2",
+   "version": ">=3.1.5",
+   "purl": "pkg:pypi/jinja2",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "name": "python-multipart",
+   "version": ">=0.0.18",
+   "purl": "pkg:pypi/python-multipart",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "name": "email-validator",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/email-validator",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "name": "uvicorn",
+   "version": ">=0.12.0",
+   "purl": "pkg:pypi/uvicorn",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "name": "pydantic-settings",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/pydantic-settings",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "name": "pydantic-extra-types",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/pydantic-extra-types",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "name": "itsdangerous",
+   "version": ">=1.1.0",
+   "purl": "pkg:pypi/itsdangerous",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "name": "pyyaml",
+   "version": ">=5.3.1",
+   "purl": "pkg:pypi/pyyaml",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "name": "playwright",
+   "version": ">=1.57.0",
+   "purl": "pkg:pypi/playwright",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "name": "prek",
+   "version": ">=0.2.22",
+   "purl": "pkg:pypi/prek",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "name": "zizmor",
+   "version": ">=1.23.1",
+   "purl": "pkg:pypi/zizmor",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "name": "black",
+   "version": ">=25.1.0",
+   "purl": "pkg:pypi/black",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b25",
+   "name": "cairosvg",
+   "version": ">=2.8.2",
+   "purl": "pkg:pypi/cairosvg",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b26",
+   "name": "griffe-typingdoc",
+   "version": ">=0.3.0",
+   "purl": "pkg:pypi/griffe-typingdoc",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b27",
+   "name": "griffe-warnings-deprecated",
+   "version": ">=1.1.0",
+   "purl": "pkg:pypi/griffe-warnings-deprecated",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b28",
+   "name": "jieba",
+   "version": ">=0.42.1",
+   "purl": "pkg:pypi/jieba",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b29",
+   "name": "markdown-include-variants",
+   "version": ">=0.0.10",
+   "purl": "pkg:pypi/markdown-include-variants",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b30",
+   "name": "mdx-include",
+   "version": ">=1.4.1,<2.0.0",
+   "purl": "pkg:pypi/mdx-include",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b31",
+   "name": "mkdocstrings",
+   "version": ">=1.0.3",
+   "purl": "pkg:pypi/mkdocstrings",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b32",
+   "name": "pillow",
+   "version": ">=11.3.0",
+   "purl": "pkg:pypi/pillow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b33",
+   "name": "typer",
+   "version": ">=0.21.1",
+   "purl": "pkg:pypi/typer",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b34",
+   "name": "zensical",
+   "version": ">=0.0.42",
+   "purl": "pkg:pypi/zensical",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b35",
+   "name": "python-slugify",
+   "version": ">=8.0.4",
+   "purl": "pkg:pypi/python-slugify",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b36",
+   "name": "ruff",
+   "version": ">=0.14.14,<0.17.0",
+   "purl": "pkg:pypi/ruff",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b37",
+   "name": "pygithub",
+   "version": ">=2.3.0,<3.0.0",
+   "purl": "pkg:pypi/pygithub",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b38",
+   "name": "smokeshow",
+   "version": ">=0.5.0",
+   "purl": "pkg:pypi/smokeshow",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b39",
+   "name": "opentelemetry-instrumentation-fastapi",
+   "version": ">=0.65b0",
+   "purl": "pkg:pypi/opentelemetry-instrumentation-fastapi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b40",
+   "name": "logfire",
+   "version": ">=5.1.0",
+   "purl": "pkg:pypi/logfire",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b41",
+   "name": "sentry-sdk",
+   "version": ">=2.70.0",
+   "purl": "pkg:pypi/sentry-sdk",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b42",
+   "name": "coverage",
+   "version": ">=7.13,<8.0",
+   "purl": "pkg:pypi/coverage",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b43",
+   "name": "dirty-equals",
+   "version": ">=0.9.0",
+   "purl": "pkg:pypi/dirty-equals",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b44",
+   "name": "flask",
+   "version": ">=3.0.0,<4.0.0",
+   "purl": "pkg:pypi/flask",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b45",
+   "name": "inline-snapshot",
+   "version": ">=0.21.1",
+   "purl": "pkg:pypi/inline-snapshot",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b46",
+   "name": "mypy",
+   "version": ">=1.14.1",
+   "purl": "pkg:pypi/mypy",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b47",
+   "name": "pwdlib",
+   "version": ">=0.2.1",
+   "purl": "pkg:pypi/pwdlib",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b48",
+   "name": "pyjwt",
+   "version": ">=2.9.0",
+   "purl": "pkg:pypi/pyjwt",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b49",
+   "name": "pytest",
+   "version": ">=9.0.0,<9.2",
+   "purl": "pkg:pypi/pytest",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b50",
+   "name": "pytest-codspeed",
+   "version": ">=4.3.0",
+   "purl": "pkg:pypi/pytest-codspeed",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b51",
+   "name": "sqlmodel",
+   "version": ">=0.0.31",
+   "purl": "pkg:pypi/sqlmodel",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b52",
+   "name": "strawberry-graphql",
+   "version": ">=0.200.0,<1.0.0",
+   "purl": "pkg:pypi/strawberry-graphql",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b53",
+   "name": "ty",
+   "version": ">=0.0.25",
+   "purl": "pkg:pypi/ty",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b54",
+   "name": "a2wsgi",
+   "version": ">=1.9.0,<=2.0.0",
+   "purl": "pkg:pypi/a2wsgi",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b55",
+   "name": "pytest-xdist",
+   "version": ">=3.0.2",
+   "purl": "pkg:pypi/pytest-xdist",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b56",
+   "name": "pytest-cov",
+   "version": ">=4.0.0",
+   "purl": "pkg:pypi/pytest-cov",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b57",
+   "name": "pytest-sugar",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/pytest-sugar",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b58",
+   "name": "pytest-timeout",
+   "version": ">=2.4.0",
+   "purl": "pkg:pypi/pytest-timeout",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b59",
+   "name": "gitpython",
+   "version": ">=3.1.46",
+   "purl": "pkg:pypi/gitpython",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "b60",
+   "name": "pydantic-ai-slim",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/pydantic-ai-slim",
+   "properties": [
+    {
+     "name": "dev",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b58",
+    "b59",
+    "b60"
+   ]
+  }
+ ]
+}

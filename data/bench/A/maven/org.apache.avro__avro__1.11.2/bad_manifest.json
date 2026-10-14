@@ -1,0 +1,108 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "avro",
+   "group": "org.apache.avro",
+   "version": "1.11.2",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-databind",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "org.apache.commons",
+   "name": "commons-compress",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-compress"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "org.xerial.snappy",
+   "name": "snappy-java",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.xerial.snappy/snappy-java"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "org.tukaani",
+   "name": "xz",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.tukaani/xz"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "com.github.luben",
+   "name": "zstd-jni",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.github.luben/zstd-jni"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5"
+   ]
+  }
+ ]
+}

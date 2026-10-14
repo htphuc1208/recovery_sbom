@@ -1,0 +1,458 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.4",
+ "version": 1,
+ "metadata": {
+  "tools": [
+   {
+    "vendor": "OWASP Foundation",
+    "name": "CycloneDX Maven plugin",
+    "version": "2.7.9",
+    "hashes": [
+     {
+      "alg": "MD5",
+      "content": "8e595cdb67f17e4b41e046456970591d"
+     },
+     {
+      "alg": "SHA-1",
+      "content": "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+     },
+     {
+      "alg": "SHA-256",
+      "content": "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+     },
+     {
+      "alg": "SHA-512",
+      "content": "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+     },
+     {
+      "alg": "SHA-384",
+      "content": "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+     },
+     {
+      "alg": "SHA3-384",
+      "content": "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+     },
+     {
+      "alg": "SHA3-256",
+      "content": "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+     },
+     {
+      "alg": "SHA3-512",
+      "content": "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+     }
+    ]
+   }
+  ],
+  "component": {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.commons",
+   "name": "commons-compress",
+   "version": "1.24.0",
+   "description": "Apache Commons Compress defines an API for working with compression and archive formats. These include: bzip2, gzip, pack200, lzma, xz, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4, Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-compress@1.24.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://commons.apache.org/proper/commons-compress/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://github.com/apache/commons-parent/actions"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/COMPRESS"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.24.0?type=jar"
+  },
+  "properties": [
+   {
+    "name": "maven.goal",
+    "value": "makeAggregateBom"
+   },
+   {
+    "name": "maven.scopes",
+    "value": "compile,provided,runtime,system"
+   },
+   {
+    "name": "maven.reproducible",
+    "value": "enabled"
+   }
+  ]
+ },
+ "components": [
+  {
+   "publisher": "com.github.luben",
+   "group": "com.github.luben",
+   "name": "zstd-jni",
+   "version": "1.5.5-5",
+   "description": "JNI bindings for Zstd native library that provides fast and high compression lossless algorithm for Java and all JVM languages.",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "0e164757192c4dcf3c524f6cabeb8494"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "74ffdc5f140080adacf5278287aadd950179f848"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "c78d4e139894f555d956d12fbfcf3d45af751d4b2f183880ed5f99b69b284416"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "00e9e20c68e74a890be0089b6f10a677876a2ecfc6b1b98f449bcf13d0fa91d4c68c7cc3dc7fec5fc575053d778517af52e0a7ffcb1c26d8e7bc02ed304edda5"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "fec680d74af046105be755c727f04cc753872820405fee71e1c7c27cd0ef18c77f629925e379f8b54f6daafada85b809"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "bf25464025522c6555d14fa7c05dbec1316aba69b5c2cf0b1a2ae334c47289b23a176cab853977d023b9c706ef9034b0"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "68ef7b45e04c61c16991172e9dc67273c466729b1e9969aa2c3cd7bd010f1ece"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "050d8a505a924a31da1190c76c0b70c4fbe9589c907c94a5ad08469ec5bb7f13a10ca7f78fd5f96799a1561f793d8853452ebd638b68b5936da0f300bd4a009e"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-2-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.5-5?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/luben/zstd-jni"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/com.github.luben/zstd-jni@1.5.5-5?type=jar"
+  },
+  {
+   "group": "org.brotli",
+   "name": "dec",
+   "version": "0.1.2",
+   "description": "Brotli is a generic-purpose lossless compression algorithm.",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "4b1cd14cf29733941cc536b27e6aedfa"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "0c26a897ae0d524809eef1c786cc6183b4ddcc3b"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "615c0c3efef990d77831104475fba6a1f7971388691d4bad1471ad84101f6d52"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "d4cd2b33f7c358012ff01db6a13ebfe1e8051a580698bffcd942c47451012cf53ce49a400b1c8bf7502b01e631d79d7c6417202a145622572d79fd145ccde61a"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "d6b8ad9d0ee6baf8c3a29c1dc2911eaf207352e2c7de893a0185e987e7eae87827890c1d4dbf31c46f25846fbcdc08bb"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "d16c32130bf6b168ff4c8a3dedf1b17787f8d6f0eab9de21e51ed3ab1e7d85925dd02315972f6ca3a4493357aad545cb"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "962dc76a5c487de8d34308860ab65927bf91f50ccb12f37bffb036a7a05145a4"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "a82a3f79b57d30613606ca51dc432b097fa75aab5c87fb45eabec6d80ddeff1b329100b325bb07005aebaec166952c4599a863d4bfd5a684bad21103a2046311"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.brotli/dec@0.1.2?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://brotli.org/dec"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/google/brotli/dec"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.brotli/dec@0.1.2?type=jar"
+  },
+  {
+   "group": "org.tukaani",
+   "name": "xz",
+   "version": "1.9",
+   "description": "XZ data compression",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "57c2fbfeb55e307ccae52e5322082e02"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "1ea4bec1a921180164852c65006d928617bd2caf"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "211b306cfc44f8f96df3a0a3ddaf75ba8c5289eed77d60d72f889bb855f535e5"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "a4362db234d4e83683e90f5baf90c82107450cc4404acab96e3fab14b8a3d4588a19722171d32f27d18463682a6994cad9af0b1065c954e3a77ea7bdcf586bac"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "aa30349b094723369908369a18e2cb5beb5b7ca0b24b4d56c2f5725fae152220f6526466672b22bfec939e2e0622a01d"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "b3e1fee7784188df5e1931c9e8137ac0e20e63f66f93e7f938a448fc0b3adb4be5205c7a5f1835007e233fee2696fc2c"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "92eff603ed0aab557e1a45e17a74e80d8ec656b5f137197b23c429c903fa448f"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "b290f92958f8cd91705331d8411140c23957ab8b568fbe19a70f4f1dc97eddc13d3a200df28a02ab5911ce18f546c33f720878be0f727edac839a6e63ee66ece"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "name": "Public Domain"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.tukaani/xz@1.9?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://tukaani.org/xz/java.html"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.tukaani.org/?p=xz-java.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.tukaani/xz@1.9?type=jar"
+  },
+  {
+   "publisher": "OW2",
+   "group": "org.ow2.asm",
+   "name": "asm",
+   "version": "9.5",
+   "description": "ASM, a very small and fast Java bytecode manipulation framework",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "29721ee4b5eacf0a34b204c345c8bc69"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "dc6ea1875f4d64fbc85e1691c95b96a3d8569c90"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "b62e84b5980729751b0458c534cf1366f727542bb8d158621335682a460f0353"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "9e65f2983783725bae196ca939b45246958731246df1c495089c8ea5ce646de77c4e01a5a9ba10642016bb3258e1727e9ebcece6e74d9e3c32f528025d76b955"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "db0c70803b0fd3ef17b29d90d0540ca6f7589012281035f1a21cd3c70c4658f95e82190d7670b15130e88e8c704e0781"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "35e433fcbbde557ef1d7e52900e309799853d4d9f08d618a9766ca931eb85a6d6c8361b481ecc8f60f4495978a047b09"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "7808baa8efadeaa53cd64a5c16828fe5addc3a5bd6347708288994de809986b6"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "c5e0902f4b58e8efde87b337eec16f5a0ee8e579afd9f2560fb8adc8f4e7b402c0719de55fa7875bd6bb098f4f4e313315af3f957b1e875b29bebcfb0570ec96"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause",
+      "url": "https://opensource.org/licenses/BSD-3-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://asm.ow2.io/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://gitlab.ow2.org/asm/asm/issues"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail.ow2.org/wws/arc/asm/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitlab.ow2.org/asm/asm/"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.ow2.asm/asm@9.5?type=jar"
+  },
+  {
+   "publisher": "OSGi Alliance",
+   "group": "org.osgi",
+   "name": "org.osgi.core",
+   "version": "6.0.0",
+   "description": "OSGi Core Release 6, Interfaces and Classes for use in compiling bundles.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "cae291c61fe8b7a4476d713550c7ff49"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "0c49acdc9ac62cf69ee49cb6f1905b4fdb79ea5c"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "1c1bb435eb34cbf1f743653da38f604d45d53fbc95979053768cd3fc293cb931"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "a6d5388804982ab2cb0ba82b4291e73f006577c54e5dcb0675a2c4922594ddb0265810a4e7c748c88eba76ee350340376b7a9bd25d2de3afb954cf89117cd470"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "8daff91fc229b2874c1ff7a214fdee65b1824fbac76eb7feec609c5b70ab2fd24fc5cf017b339788a5c7aec041ec1a1c"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "b921d8bea5dab6e7d827ce49a43e6edb4a15c1402e1d70498faf867bd7e9ea61f47b9cbdbf008ed517b71499c02b9e4c"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "5836efac64dd3757498bc6648cf02e46f136c6b0b39d5f1641218459d6b68ca0"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "9056edfc04943cdc81041db1851cade670415457221617babeb3d3c5136c3dcc303862e55b545f40584477e0654d11d84db6ede072015b08744241202d79ee63"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://www.osgi.org"
+    },
+    {
+     "type": "vcs",
+     "url": "private"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-compress@1.24.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/com.github.luben/zstd-jni@1.5.5-5?type=jar",
+    "pkg:maven/org.brotli/dec@0.1.2?type=jar",
+    "pkg:maven/org.tukaani/xz@1.9?type=jar",
+    "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+    "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.github.luben/zstd-jni@1.5.5-5?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.brotli/dec@0.1.2?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.tukaani/xz@1.9?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar",
+   "dependsOn": []
+  }
+ ]
+}

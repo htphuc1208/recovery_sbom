@@ -1,0 +1,169 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:b56d58fb-366a-33a7-bb81-23cb2192cb4f",
+ "version": 1,
+ "metadata": {
+  "lifecycles": [
+   {
+    "phase": "build"
+   }
+  ],
+  "tools": {
+   "components": [
+    {
+     "type": "library",
+     "author": "OWASP Foundation",
+     "group": "org.cyclonedx",
+     "name": "cyclonedx-maven-plugin",
+     "version": "2.9.0",
+     "description": "CycloneDX Maven plugin",
+     "hashes": [
+      {
+       "alg": "MD5",
+       "content": "dfaeab7ec837ce07874e2ee66fdc57d3"
+      },
+      {
+       "alg": "SHA-1",
+       "content": "8bab47bafc8183d0a5f37790ff55ed05ead1ae2d"
+      },
+      {
+       "alg": "SHA-256",
+       "content": "67117e03eae4a03ca8bab3add044995f4899aa21798a2510b8265ef8101e90ac"
+      },
+      {
+       "alg": "SHA-512",
+       "content": "ae6b706516bb76da806b7854aef9e348fa593f5159ae9d693ad38942165c0ebc0846d977a477f6029612d43468fd2cd73a5aa253c228a94fb8d184e0acefc3d2"
+      },
+      {
+       "alg": "SHA-384",
+       "content": "ee872354d8b0dcd6f9835a913b3aaba70d9365a46043be78020183282a1e9fca812e969246cbe31d642541591b46648b"
+      }
+     ]
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.mina/mina-core@2.2.4?type=bundle",
+   "publisher": "Apache MINA Project",
+   "group": "org.apache.mina",
+   "name": "mina-core",
+   "version": "2.2.4",
+   "description": "Apache MINA is a network application framework which helps users develop high performance and highly scalable network applications easily. It provides an abstract event-driven asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.mina/mina-core@2.2.4?type=bundle",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://mina.apache.org/mina-core/"
+    },
+    {
+     "type": "distribution-intake",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/DIRMINA"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/www-announce/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/apache/mina/tree/2.2.4/mina-core"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "maven.goal",
+    "value": "makeBom"
+   },
+   {
+    "name": "maven.scopes",
+    "value": "compile,provided,runtime,system"
+   },
+   {
+    "name": "cdx:reproducible",
+    "value": "enabled"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+   "publisher": "QOS.ch",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "version": "1.7.36",
+   "description": "The slf4j API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "872da51f5de7f3923da4de871d57fd85"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT",
+      "url": "https://opensource.org/license/mit/"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://www.slf4j.org"
+    },
+    {
+     "type": "distribution-intake",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/qos-ch/slf4j/slf4j-api"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.mina/mina-core@2.2.4?type=bundle",
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+   "dependsOn": []
+  }
+ ]
+}

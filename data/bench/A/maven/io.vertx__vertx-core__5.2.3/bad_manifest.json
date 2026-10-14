@@ -1,0 +1,374 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-03T08:49:03Z",
+  "component": {
+   "type": "library",
+   "name": "vertx-core",
+   "group": "io.vertx",
+   "version": "5.2.3",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "io.vertx",
+   "name": "vertx-core-logging",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.vertx/vertx-core-logging"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "io.netty",
+   "name": "netty-common",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-common"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "io.netty",
+   "name": "netty-buffer",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-buffer"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "io.netty",
+   "name": "netty-transport",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-transport"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "io.netty",
+   "name": "netty-handler",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-handler"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "io.netty",
+   "name": "netty-handler-proxy",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-handler-proxy"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "group": "io.netty",
+   "name": "netty-codec-http",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-codec-http"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "group": "io.netty",
+   "name": "netty-codec-http2",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-codec-http2"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "group": "io.netty",
+   "name": "netty-codec-classes-quic",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-codec-classes-quic"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "group": "io.netty",
+   "name": "netty-codec-http3",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-codec-http3"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "group": "io.netty",
+   "name": "netty-resolver",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-resolver"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "group": "io.netty",
+   "name": "netty-resolver-dns",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-resolver-dns"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "group": "io.netty",
+   "name": "netty-codec-haproxy",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-codec-haproxy"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "group": "io.netty",
+   "name": "netty-transport-classes-epoll",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-transport-classes-epoll"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "group": "io.netty",
+   "name": "netty-transport-classes-io_uring",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-transport-classes-io_uring"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "group": "io.netty",
+   "name": "netty-transport-classes-kqueue",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-transport-classes-kqueue"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "group": "io.netty",
+   "name": "netty-codec-native-quic",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-codec-native-quic"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-databind",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b19",
+   "group": "org.apache.logging.log4j",
+   "name": "log4j-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b20",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b21",
+   "group": "io.vertx",
+   "name": "vertx-codegen-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.vertx/vertx-codegen-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b22",
+   "group": "io.vertx",
+   "name": "vertx-codegen-json",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.vertx/vertx-codegen-json"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b23",
+   "group": "io.vertx",
+   "name": "vertx-docgen-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.vertx/vertx-docgen-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b24",
+   "group": "io.netty",
+   "name": "netty-tcnative-classes",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-tcnative-classes"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24"
+   ]
+  }
+ ]
+}

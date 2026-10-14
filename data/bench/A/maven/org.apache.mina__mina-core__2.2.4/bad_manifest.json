@@ -1,0 +1,52 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "mina-core",
+   "group": "org.apache.mina",
+   "version": "2.2.4",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.easymock",
+   "name": "easymock",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.easymock/easymock"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "org.mockito",
+   "name": "mockito-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-core"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1"
+   ]
+  }
+ ]
+}

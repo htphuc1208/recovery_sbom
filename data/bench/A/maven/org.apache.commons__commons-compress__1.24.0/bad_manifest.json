@@ -1,0 +1,99 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "commons-compress",
+   "group": "org.apache.commons",
+   "version": "1.24.0",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "com.github.luben",
+   "name": "zstd-jni",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.5.5-5",
+   "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.5-5"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "org.brotli",
+   "name": "dec",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "0.1.2",
+   "purl": "pkg:maven/org.brotli/dec@0.1.2"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "org.tukaani",
+   "name": "xz",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.9",
+   "purl": "pkg:maven/org.tukaani/xz@1.9"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "org.ow2.asm",
+   "name": "asm",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${asm.version}",
+   "purl": "pkg:maven/org.ow2.asm/asm"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "org.osgi",
+   "name": "org.osgi.core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "6.0.0",
+   "purl": "pkg:maven/org.osgi/org.osgi.core@6.0.0"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4"
+   ]
+  }
+ ]
+}

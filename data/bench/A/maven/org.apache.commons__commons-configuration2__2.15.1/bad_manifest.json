@@ -1,0 +1,309 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "commons-configuration2",
+   "group": "org.apache.commons",
+   "version": "2.15.1",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.apache.commons",
+   "name": "commons-lang3",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "3.20.0",
+   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.20.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "org.apache.commons",
+   "name": "commons-text",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.15.0",
+   "purl": "pkg:maven/org.apache.commons/commons-text@1.15.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "commons-logging",
+   "name": "commons-logging",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.3.6",
+   "purl": "pkg:maven/commons-logging/commons-logging@1.3.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "commons-beanutils",
+   "name": "commons-beanutils",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.11.0",
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.11.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "commons-codec",
+   "name": "commons-codec",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.22.0",
+   "purl": "pkg:maven/commons-codec/commons-codec@1.22.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "org.apache.commons",
+   "name": "commons-jexl",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "2.1.1",
+   "purl": "pkg:maven/org.apache.commons/commons-jexl@2.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "group": "org.apache.commons",
+   "name": "commons-vfs2",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "2.10.0",
+   "purl": "pkg:maven/org.apache.commons/commons-vfs2@2.10.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "group": "org.apache.httpcomponents",
+   "name": "httpcore-nio",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "4.4.16",
+   "purl": "pkg:maven/org.apache.httpcomponents/httpcore-nio@4.4.16"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "group": "commons-io",
+   "name": "commons-io",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "2.22.0",
+   "purl": "pkg:maven/commons-io/commons-io@2.22.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "group": "commons-jxpath",
+   "name": "commons-jxpath",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.4.0",
+   "purl": "pkg:maven/commons-jxpath/commons-jxpath@1.4.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "group": "xml-resolver",
+   "name": "xml-resolver",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.2",
+   "purl": "pkg:maven/xml-resolver/xml-resolver@1.2"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "group": "org.springframework",
+   "name": "spring-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${spring.version}",
+   "purl": "pkg:maven/org.springframework/spring-core"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "group": "org.springframework",
+   "name": "spring-beans",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${spring.version}",
+   "purl": "pkg:maven/org.springframework/spring-beans"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "group": "javax.servlet",
+   "name": "servlet-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "2.5",
+   "purl": "pkg:maven/javax.servlet/servlet-api@2.5"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "group": "jakarta.servlet",
+   "name": "jakarta.servlet-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "5.0.0",
+   "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api@5.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "group": "org.yaml",
+   "name": "snakeyaml",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "2.6",
+   "purl": "pkg:maven/org.yaml/snakeyaml@2.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-databind",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "2.21.3",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b17",
+   "group": "org.apache.logging.log4j",
+   "name": "log4j-1.2-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${log4j.version}",
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b18",
+   "group": "org.apache.logging.log4j",
+   "name": "log4j-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${log4j.version}",
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-core"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "commons-text",
+   "group": "org.apache.commons",
+   "version": "1.15.0",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.apache.commons",
+   "name": "commons-lang3",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${commons.lang3.version}",
+   "purl": "pkg:maven/org.apache.commons/commons-lang3"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0"
+   ]
+  }
+ ]
+}

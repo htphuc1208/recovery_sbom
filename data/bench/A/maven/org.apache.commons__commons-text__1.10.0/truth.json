@@ -1,0 +1,161 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.4",
+ "serialNumber": "urn:uuid:a8e013d0-175e-4e33-9a07-778696d58c60",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2022-09-24T14:57:00Z",
+  "tools": [
+   {
+    "vendor": "OWASP Foundation",
+    "name": "CycloneDX Maven plugin",
+    "version": "2.7.1",
+    "hashes": [
+     {
+      "alg": "MD5",
+      "content": "538c878ebf89b372876e247d056a3fc5"
+     },
+     {
+      "alg": "SHA-1",
+      "content": "4561e50edb47e12a03712b1afce9b20cba32fd28"
+     },
+     {
+      "alg": "SHA-256",
+      "content": "f0ea7b3bcf5c7ba649b8d9807e805385330501881677d47333aebce8305ef4d4"
+     },
+     {
+      "alg": "SHA-512",
+      "content": "a35400ca6411692ae8964fe7030eaba2a83a2fa50e2883def3054191283c3b48e2dcdd68bf80f5a0ede3898cc6b7cb7b998aacd2c1e969320053c43b6ab8d873"
+     },
+     {
+      "alg": "SHA-384",
+      "content": "75c0c03a03c69e82ad1f7b942d6d733da8261c4058174355d6b24ebd88cee34180f2e8484d2b0fedaf459078bdf6e927"
+     }
+    ]
+   }
+  ],
+  "component": {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.commons",
+   "name": "commons-text",
+   "version": "1.10.0",
+   "description": "Apache Commons Text is a library focused on algorithms working on strings.",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://www.apache.org/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://github.com/apache/commons-parent/actions"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/TEXT"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=commons-text.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"
+  }
+ },
+ "components": [
+  {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.commons",
+   "name": "commons-lang3",
+   "version": "3.12.0",
+   "description": "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "19fe50567358922bdad277959ea69545"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "fbdbc0943cb3498b0148e86a39b773f97c8e6013740f72dbc727faeabea402073e2cc8c4d68198e5fc6b08a13b7700236292e99d4785f2c9989f2e5fac11fd81"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "c34b8a0e0eba2168ad56fedeb7a1d710b6f1d3f1ce6aae99a4e0247bd120efbbadc8dcb2f731045b8a16e3efd30604dc"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/LANG"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+    },
+    {
+     "type": "build-system",
+     "url": "https://builds.apache.org/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "website",
+     "url": "https://www.apache.org/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+   "dependsOn": []
+  }
+ ]
+}

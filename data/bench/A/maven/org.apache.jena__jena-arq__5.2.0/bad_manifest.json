@@ -1,0 +1,137 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "jena-arq",
+   "group": "org.apache.jena",
+   "version": "5.2.0",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.apache.jena",
+   "name": "jena-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "5.2.0",
+   "purl": "pkg:maven/org.apache.jena/jena-core@5.2.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "com.google.code.gson",
+   "name": "gson",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "org.slf4j",
+   "name": "jcl-over-slf4j",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/jcl-over-slf4j"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "com.apicatalog",
+   "name": "titanium-json-ld",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.apicatalog/titanium-json-ld"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "org.glassfish",
+   "name": "jakarta.json",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.glassfish/jakarta.json"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "com.google.protobuf",
+   "name": "protobuf-java",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/com.google.protobuf/protobuf-java"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "group": "org.apache.thrift",
+   "name": "libthrift",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.apache.thrift/libthrift"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "group": "org.apache.commons",
+   "name": "commons-lang3",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-lang3"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,498 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.4",
+ "serialNumber": "urn:uuid:65f36afb-2354-3737-b44c-fd498a294610",
+ "version": 1,
+ "metadata": {
+  "tools": [
+   {
+    "vendor": "OWASP Foundation",
+    "name": "CycloneDX Maven plugin",
+    "version": "2.7.11",
+    "hashes": [
+     {
+      "alg": "MD5",
+      "content": "a70e8b649ab4a2bb7922d360173c8237"
+     },
+     {
+      "alg": "SHA-1",
+      "content": "4c3c0878c15561639076e5be7a48ffcd6111c5ee"
+     },
+     {
+      "alg": "SHA-256",
+      "content": "70997d52dbffd4e797c467b2062c6ba9b8b5a7380ff2884779f2743b6172ebb5"
+     },
+     {
+      "alg": "SHA-512",
+      "content": "bc1ce91190c642f68fd3571939d7668def3b879ec8e5a87a213a9710a106e0290f60f9e0414593d19cca958c4fcb5d4450bd2793bcd609948419c8a2a6a7f5c8"
+     },
+     {
+      "alg": "SHA-384",
+      "content": "3c8421bdafd1754fb424f16dccc83bfe0827648c1cadfffc98bdf1c7da65475dfe48d2f4b16d233bb8819e155ba6a4f3"
+     },
+     {
+      "alg": "SHA3-384",
+      "content": "ad88cf6a0e0a5d51df49a4dab5530a28de9df7eec8460c045dff3e1f9316b82a244a125d52b937fe9d4ee72e44f5d01a"
+     },
+     {
+      "alg": "SHA3-256",
+      "content": "b4d9c3ef07c34517fd9f33178ba95ffc9618eb84a3671e71b0c82991ec3717e5"
+     },
+     {
+      "alg": "SHA3-512",
+      "content": "935b43aba8999dc7d95d93288a251c97b6b32852841b7bef31516c27c8d65c8de7f8411f1829f765ee760f25930c766db6a49df68e5994e18721c0a71f606f1e"
+     }
+    ]
+   }
+  ],
+  "component": {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.santuario",
+   "name": "xmlsec",
+   "version": "3.0.4",
+   "description": "Apache XML Security for Java supports XML-Signature Syntax and Processing, W3C Recommendation 12 February 2002, and XML Encryption Syntax and Processing, W3C Recommendation 10 December 2002. As of version 1.4, the library supports the standard Java API JSR-105: XML Digital Signature APIs.",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.santuario/xmlsec@3.0.4?type=bundle",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://santuario.apache.org/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/SANTUARIO"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://news.gmane.org/gmane.text.xml.security.devel"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=santuario-xml-security-java.git;a=summary"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.santuario/xmlsec@3.0.4?type=bundle"
+  },
+  "properties": [
+   {
+    "name": "maven.goal",
+    "value": "makeAggregateBom"
+   },
+   {
+    "name": "maven.scopes",
+    "value": "compile,provided,runtime,system"
+   },
+   {
+    "name": "cdx:reproducible",
+    "value": "enabled"
+   }
+  ]
+ },
+ "components": [
+  {
+   "publisher": "QOS.ch",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "version": "1.7.36",
+   "description": "The slf4j API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "872da51f5de7f3923da4de871d57fd85"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "3bc3110dafb8d5be16a39f3b2671a466463cd99eb39610c0e4719a7bf2d928f2ea213c734887c6926a07c4cca7769e4b"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "ba2608179fcf46e2291a90b9cbb4aa30d718e481f59c350cc21c73b88d826881"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "14c4edcd19702ef607d78826839d8a6d3a39157df54b89a801d3d3cbbe1307131a77671b041c761122730fb1387888c5ec2e46bdd80e1cb07f8f144676441824"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://www.slf4j.org"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/qos-ch/slf4j/slf4j-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+  },
+  {
+   "publisher": "Eclipse Foundation",
+   "group": "jakarta.xml.bind",
+   "name": "jakarta.xml.bind-api",
+   "version": "3.0.1",
+   "description": "Jakarta XML Binding API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "ce443876615a903fdff9e0d5d13cb8d4"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "5257932df36ff3e4e6de50429dde946490a6a800"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "b8fb4bee3ff5b5c1ef77144d8411316018d7bbd41fcf1ede0646f7978546b867"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "7c74cedf7c0baaa5166311a4c4300a72eb09ae280ec3376553dd8651e6e3d5f100794421ba647b328195dfcf98a6cf7623169a0b87de3f13984dd7436c284807"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "9e3e8b7b86884751280e71e3888d1ff3f4f0c9d6446ed8e32cd61f030532b455b7401d1495dc0da72cd3f6300c68f482"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "47bfcb7a14b57aaa6c813a54702af321dd488cd1697a52476bb46fb9e6162cd46b62faa876a77752b4a7271241924b38"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "91d3e457af90b684e246e02808fb8ededfef65f602717e3815417cb63f22c6b6"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "3c72bb852c244bfb7da0f382fda743c0f8522f56fa77337b203f5027ba8b32d12cd6d0d6ffadfea65552b508be9b40601d876b398a8fca8f4ae9ecd979154a93"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api"
+    },
+    {
+     "type": "distribution",
+     "url": "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/eclipse-ee4j/jaxb-api/issues"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://dev.eclipse.org/mhonarc/lists/jaxb-dev"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar"
+  },
+  {
+   "publisher": "The Apache Software Foundation",
+   "group": "commons-codec",
+   "name": "commons-codec",
+   "version": "1.16.1",
+   "description": "The Apache Commons Codec component contains encoder and decoders for various formats such as Base16, Base32, Base64, digest, and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "6c5be822d8d3fa61c3b54c4c8978dfdc"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "47bd4d333fba53406f6c6c51884ddbca435c8862"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "ec87bfb55f22cbd1b21e2190eeda28b2b312ed2a431ee49fbdcc01812d04a5e4"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "bd33fd5340757ea0616a8c2a48760cfc9932f93b8e067701f4a122fd59735083468a016d8c0fd65973dd3fa4fc3537855e71a1fae7d14e1777e31ff1c47708ce"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "ee7f4c3e5c01cf77f4d82b09c358087738e6e79507ced9f2c82fdce3b32825bb62b2d66b30ef897e2972d3253478c525"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "c200875af6359f6a584b108ecae3d83496942e1216dfacbd86e3c22e54b90b9519a9b01a229e71552111b10c8734c327"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "81cd8a4c12e0b7ac84222e33b159cbd6f658b3e0f48e5fd8075d50cd03b05837"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "c821b99a5b4a3fbf052f562d60479bc252aafa8057fcbe095e09e96cf01594a23455658f9c666866e1937910ff44a1a891760d04c22d5187cb98be9d0d58952b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/commons-codec/commons-codec@1.16.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://commons.apache.org/proper/commons-codec/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://github.com/apache/commons-parent/actions"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/CODEC"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/apache/commons-codec"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-codec/commons-codec@1.16.1?type=jar"
+  },
+  {
+   "publisher": "FasterXML",
+   "group": "com.fasterxml.woodstox",
+   "name": "woodstox-core",
+   "version": "6.5.1",
+   "description": "Woodstox is a high-performance XML processor that implements Stax (JSR-173), SAX2 and Stax2 APIs",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "961dd4b2afedf95293dfdd8adfc8f211"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "c6e52e84fe959e69a243c83ec7d24cd889444ddf"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "c928d60665c6415fb1c39775cf95cfc44f7f4580cf5ab01b1c380ebffd76887f"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "d9b3cf6aaac85d8c349e7a24ad30f7e23b7765f1b7ce2fdf301bf2240b9c7ee184bdd938e58be6df9ac90e97e3b8c7b34f8fa9da27d1ed8de78765a8345b18f2"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "d51e67aae26449a2cdffa90a08b09cc805b85da3e758011a0945fc8b0ee8c18e98c6f94f0c0cf46b7a49e7370073068c"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "2e731b74e4814647b1a320cd2f1b9f9914db1cb07510e69fb4dda33c6b1586fb2ee9e3f5af027c98dd0d33e2ed4b19de"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "f84ca4c9bb77abb6e61930c7debee48497b2febc30d48329c6b15546dd00371b"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "257aea7a23c4631eaaa942763e639d239660f29cfb7190f0b112abf6301a214fcc8e84b118ba73d92861a5f441bee479908a4831352ce2278d3d40ef51067894"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/FasterXML/woodstox"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/FasterXML/woodstox/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/FasterXML/woodstox"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar"
+  },
+  {
+   "publisher": "fasterxml.com",
+   "group": "org.codehaus.woodstox",
+   "name": "stax2-api",
+   "version": "4.2.1",
+   "description": "tax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "af8377bc7882332e22456616a9f164f6"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "a3f7325c52240418c2ba257b103c3c550e140c83"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "678567e48b51a42c65c699f266539ad3d676d4b1a5b0ad7d89ece8b9d5772579"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "00efc5d4d17540fb180c5b20d456630a8b3262dff46676689ae916ba16f0fbd9b1a71c7badfb254faad6597f94fed1edb96f77c15f40178eaf4d8cd35cea5e8d"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "97a6a9f0cc666776e4a4f08729c303d2a602ce5c25ee633cd6c54c72f12d11e9d43634ca6ca4ef7da5973a52030384da"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "683a1f110ab84333e7517dabe175b91d7ea2fbead2f9d02acf798c588a7508bc67580642afa8d57441bc56ce610d5b0f"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "5e8e54209fb6b580e928e703ef11645aff1a21dfd47cca2dc0e53d0befaef09c"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "d79338a481605c94e144c967cb7adbc6cfd06ee6a1182b5ebc8cd8ad3deedd707931e404aa197bc94d3b5a5d82a2e6dd6a2f6cc9dafc42ce3ad5061076b05199"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-4-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://github.com/FasterXML/stax2-api"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/FasterXML/stax2-api/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "http://github.com/FasterXML/stax2-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.santuario/xmlsec@3.0.4?type=bundle",
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+    "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.16.1?type=jar",
+    "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/commons-codec/commons-codec@1.16.1?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar",
+   "dependsOn": []
+  }
+ ]
+}

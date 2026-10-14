@@ -1,0 +1,365 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.4",
+ "version": 1,
+ "metadata": {
+  "tools": [
+   {
+    "vendor": "OWASP Foundation",
+    "name": "CycloneDX Maven plugin",
+    "version": "2.7.9",
+    "hashes": [
+     {
+      "alg": "MD5",
+      "content": "8e595cdb67f17e4b41e046456970591d"
+     },
+     {
+      "alg": "SHA-1",
+      "content": "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+     },
+     {
+      "alg": "SHA-256",
+      "content": "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+     },
+     {
+      "alg": "SHA-512",
+      "content": "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+     },
+     {
+      "alg": "SHA-384",
+      "content": "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+     },
+     {
+      "alg": "SHA3-384",
+      "content": "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+     },
+     {
+      "alg": "SHA3-256",
+      "content": "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+     },
+     {
+      "alg": "SHA3-512",
+      "content": "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+     }
+    ]
+   }
+  ],
+  "component": {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.commons",
+   "name": "commons-dbcp2",
+   "version": "2.10.0",
+   "description": "Apache Commons DBCP software implements Database Connection Pooling",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-dbcp2@2.10.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://commons.apache.org/dbcp/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://github.com/apache/commons-parent/actions"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/DBCP"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=commons-dbcp.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-dbcp2@2.10.0?type=jar"
+  },
+  "properties": [
+   {
+    "name": "maven.goal",
+    "value": "makeAggregateBom"
+   },
+   {
+    "name": "maven.scopes",
+    "value": "compile,provided,runtime,system"
+   },
+   {
+    "name": "maven.reproducible",
+    "value": "enabled"
+   }
+  ]
+ },
+ "components": [
+  {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.commons",
+   "name": "commons-pool2",
+   "version": "2.11.1",
+   "description": "The Apache Commons Object Pooling Library.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "2210a041929e7c94485d5402458340b9"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "8970fd110c965f285ed4c6e40be7630c62db6f68"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "ea0505ee7515e58b1ac0e686e4d1a5d9f7d808e251a61bc371aa0595b9963f83"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "7177d8a9e45ae47881ec323150dc7bd3372ce32eff9866029b47a77cb734535d5e987f22e6cb7009104832c3772079fb6322b2919650765b76a4b4aa8eae648e"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "c77e99c898da417d33b035745e6f827d47f3c9a5f159764d1e31f0f0ee0b0b3569929495013db6c4d84922c78a3325cf"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "ba6e6d5a0e8d9e4778e619d8303ebba6c56bcd70169372e420067f3961cf98bd2631f177ac084d5dc1ad0790767816fe"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "985483edbf54bb59552633f3584ca0e484e2a0c471fafd7b2643809da874aea1"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "2757b5a8bd74bae36ad48a6102405457774d0aed03afdbe46cc804ed02f58dd484d637a0341195bb12bbcd8f3083ee3a644105734c0128fccfbe045cdf6b4491"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://commons.apache.org/proper/commons-pool/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://builds.apache.org/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/POOL"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=commons-pool.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar"
+  },
+  {
+   "publisher": "The Apache Software Foundation",
+   "group": "commons-logging",
+   "name": "commons-logging",
+   "version": "1.2",
+   "description": "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "040b4b4d8eac886f6b4a2a3bd2f31b00"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "628eb4407e95dca84da1a06b08a6d9b832a49de8472b1b217e8607f08efeeed18b996232d64dd07f03e78e0e3bb4b078"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "9aab62deccf156ee6e324c925dfc30ecb53e8465802863a551901a461424e807"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "3fd76857f6d20c03799537cc961c1c4ddf1c375c6c192fb982363e3b9397ba138b77f24ef38b4202f44e37586789c0320e4de18fdadd2772304fd14a9b26d552"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://commons.apache.org/proper/commons-logging/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://continuum-ci.apache.org/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "http://issues.apache.org/jira/browse/LOGGING"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+  },
+  {
+   "publisher": "EE4J Community",
+   "group": "jakarta.transaction",
+   "name": "jakarta.transaction-api",
+   "version": "1.3.1",
+   "description": "Eclipse Project for JTA",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "8d73f117126db2439967e52978d22ae8"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "b293f31864ccef65cdd24043f3b69dc1ea1a7d98"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "5a72090b86e5a43fe5ebfaaf78545c7c86fe75afe854c026b7f729886c4930ab"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "96243a86b15c8b420c23b999370c0f4185308c4ebc174c0bfa088c044f9669d0970a7592a3714285363c0fb6ed865b7670f8401fd944a24e942c6ccaad86b23b"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "fbb495f725048b59984665acf5c6ebc6f05c097e71292095bb73a7e6df610155bf4b6376c840f3364016ec5224011f15"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "d50739aa86f510fccda86df4a610cb014cd7f3808e7fca7ec83c829a29bfe6c127dd15799d8bb9f59a9566624a6e6146"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "539383e7c5fa97f0227c52bf9519864d043437b990fab5e819c4b6e20aba78c2"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "f3ea1149c073bee42f309f4437562614f88a11d0277a31dd0e954ffa7a1bb5d0baa0b909f03f7730d876b5200271d13c566bcf9d6ee45ea4b26c918cbf6a2fc9"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "EPL-2.0"
+     }
+    },
+    {
+     "license": {
+      "id": "GPL-2.0-with-classpath-exception"
+     }
+    }
+   ],
+   "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://projects.eclipse.org/projects/ee4j.jta"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/eclipse-ee4j/jta-api/issues"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://dev.eclipse.org/mhonarc/lists/jta-dev/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/eclipse-ee4j/jta-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.1?type=jar"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-dbcp2@2.10.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+    "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+    "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.1?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.1?type=jar",
+   "dependsOn": []
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "commons-dbcp2",
+   "group": "org.apache.commons",
+   "version": "2.10.0",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.apache.commons",
+   "name": "commons-pool2",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${commons.pool.version}",
+   "purl": "pkg:maven/org.apache.commons/commons-pool2"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "commons-logging",
+   "name": "commons-logging",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.2",
+   "purl": "pkg:maven/commons-logging/commons-logging@1.2"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "jakarta.transaction",
+   "name": "jakarta.transaction-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.3.1",
+   "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.1"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2"
+   ]
+  }
+ ]
+}

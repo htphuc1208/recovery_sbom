@@ -1,0 +1,84 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "xmlsec",
+   "group": "org.apache.santuario",
+   "version": "3.0.4",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${slf4j.version}",
+   "purl": "pkg:maven/org.slf4j/slf4j-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "jakarta.xml.bind",
+   "name": "jakarta.xml.bind-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${xml.bind.api.version}",
+   "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "commons-codec",
+   "name": "commons-codec",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${commons.codec.version}",
+   "purl": "pkg:maven/commons-codec/commons-codec"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "com.fasterxml.woodstox",
+   "name": "woodstox-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "runtime"
+    }
+   ],
+   "version": "${woodstox.core.version}",
+   "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "wss4j-ws-security-common",
+   "group": "org.apache.wss4j",
+   "version": "3.0.2",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "jakarta.mail",
+   "name": "jakarta.mail-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/jakarta.mail/jakarta.mail-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "org.apache.santuario",
+   "name": "xmlsec",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.apache.santuario/xmlsec"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "org.opensaml",
+   "name": "opensaml-saml-impl",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${opensaml.version}",
+   "purl": "pkg:maven/org.opensaml/opensaml-saml-impl"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "org.cryptacular",
+   "name": "cryptacular",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${cryptacular.version}",
+   "purl": "pkg:maven/org.cryptacular/cryptacular"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "com.google.guava",
+   "name": "guava",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "32.1.2-jre",
+   "purl": "pkg:maven/com.google.guava/guava@32.1.2-jre"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "group": "org.opensaml",
+   "name": "opensaml-xacml-impl",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${opensaml.version}",
+   "purl": "pkg:maven/org.opensaml/opensaml-xacml-impl"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "group": "org.opensaml",
+   "name": "opensaml-xacml-saml-impl",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${opensaml.version}",
+   "purl": "pkg:maven/org.opensaml/opensaml-xacml-saml-impl"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "group": "org.ehcache",
+   "name": "ehcache",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.ehcache/ehcache"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "group": "org.bouncycastle",
+   "name": "bcprov-jdk18on",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk18on"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "group": "org.bouncycastle",
+   "name": "bcpkix-jdk18on",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "group": "org.jasypt",
+   "name": "jasypt",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.jasypt/jasypt"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11"
+   ]
+  }
+ ]
+}

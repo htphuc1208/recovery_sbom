@@ -1,0 +1,2678 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.4",
+ "version": 1,
+ "metadata": {
+  "tools": [
+   {
+    "vendor": "OWASP Foundation",
+    "name": "CycloneDX Maven plugin",
+    "version": "2.7.9",
+    "hashes": [
+     {
+      "alg": "MD5",
+      "content": "8e595cdb67f17e4b41e046456970591d"
+     },
+     {
+      "alg": "SHA-1",
+      "content": "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+     },
+     {
+      "alg": "SHA-256",
+      "content": "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+     },
+     {
+      "alg": "SHA-512",
+      "content": "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+     },
+     {
+      "alg": "SHA-384",
+      "content": "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+     },
+     {
+      "alg": "SHA3-384",
+      "content": "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+     },
+     {
+      "alg": "SHA3-256",
+      "content": "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+     },
+     {
+      "alg": "SHA3-512",
+      "content": "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+     }
+    ]
+   }
+  ],
+  "component": {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.wss4j",
+   "name": "wss4j-ws-security-common",
+   "version": "3.0.2",
+   "description": "Apache WSS4J parent pom",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.wss4j/wss4j-ws-security-common@3.0.2?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://ws.apache.org/wss4j/wss4j-ws-security-common/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/WSS"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://lists.apache.org/list.html?dev@ws.apache.org"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=ws-wss4j.git;a=summary/wss4j-parent/wss4j-ws-security-common"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.wss4j/wss4j-ws-security-common@3.0.2?type=jar"
+  },
+  "properties": [
+   {
+    "name": "maven.goal",
+    "value": "makeBom"
+   },
+   {
+    "name": "maven.scopes",
+    "value": "compile,provided,runtime,system"
+   },
+   {
+    "name": "maven.reproducible",
+    "value": "enabled"
+   }
+  ]
+ },
+ "components": [
+  {
+   "publisher": "Eclipse Foundation",
+   "group": "jakarta.mail",
+   "name": "jakarta.mail-api",
+   "version": "2.1.2",
+   "description": "Jakarta Mail API 2.1 Specification API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "a0f418c90766053b4acae3f3aecdc6f4"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "e2f24836f1720a6b53d98240a78b4860597428c8"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "0aa8de0f682a5ce381c2572ac110a91a01b30bdbf6694614e7a1f2dbda85a11c"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "2b181e5cc16b44fe53b32d2ab52f31d2e032983fe65b16a708400113a129eea54540893af8f1fc05acb2a6b7636604afe7e4c3f044b1377d8d86399c2ac0f24c"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "54986a6e5cbbea7bfc734744c95757a2bec500b3f02465c379d78d43d1cbba2d60247baa80f29ab222079968da05a0c9"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "befce271661cfa449ff3a36f6d787755fdf0c94ba5052da4c09aaf4bb85acc5064bc1eb66a063a7ffe516138e0b5e1fa"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "b15de48cfea3d0d9a7a22d0bb8ce73d6dcc8d20bee1f1f848433d27d21b68b0a"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "4352852427564e0041b1cf7efa91ce25c186ce3ad58327b9c7e6d64c92553b2b63702490f0e79ccbcd60eaafe731f2b93cb0926d4027866290c5eee7543789e1"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "EPL-2.0"
+     }
+    },
+    {
+     "license": {
+      "id": "GPL-2.0-with-classpath-exception"
+     }
+    },
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/jakarta.mail/jakarta.mail-api@2.1.2?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://projects.eclipse.org/projects/ee4j/jakarta.mail-api"
+    },
+    {
+     "type": "distribution",
+     "url": "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/jakartaee/mail-api/issues"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/jakartaee/mail-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/jakarta.mail/jakarta.mail-api@2.1.2?type=jar"
+  },
+  {
+   "publisher": "Eclipse Foundation",
+   "group": "jakarta.activation",
+   "name": "jakarta.activation-api",
+   "version": "2.1.2",
+   "description": "Jakarta Activation API 2.1 Specification",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "1af11450fafc7ee26c633d940286bc16"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "640c0d5aff45dbff1e1a1bc09673ff3a02b1ba12"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "f53f578dd0eb4170c195a4e215c59a38abfb4123dcb95dd902fef92876499fbb"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "383283f469aba01a274591e29f1aa398fefa273bca180162d9d11c87509ffb55cb2dde51783bd6cae6f2c4347e0ac7358cf11f4c85787d5d2857354b9e29d877"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "e34ac294c104cb67ac06f7fc60752e54a881c04f68271b758899739a5df5be2d2d0e707face2705b95fa5a26cedf9313"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "ffd74b0335a4bfdd9a0c733c77ecdfa967d5280500c7d2f01e2be8499d39a9f0cd29c9063ae634223347bb00f4e60c33"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "c97236eaebb15b8aefa034b23834eaeed848dacf119746c6d87832c47581e74d"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "147dfa2bf46bb47c81462c36ac6612f9f807169ffb785e2bbd45538205c5713f33af4373f3324a2063350c2367baff37e9c2cf085c38c96870ad88c60a7fbea4"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.2?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/jakartaee/jaf-api"
+    },
+    {
+     "type": "distribution",
+     "url": "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/jakartaee/jaf-api/issues/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/jakartaee/jaf-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.2?type=jar"
+  },
+  {
+   "publisher": "QOS.ch",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "version": "2.0.9",
+   "description": "The slf4j API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "45630e54b0f0ac2b3c80462515ad8fda"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "7cf2726fdcfbc8610f9a71fb3ed639871f315340"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "069e6ddce79617e37d61758120c7e68348ee62f255781948937f7bec3058e46244026d7f6a11e90fbc15cd4288c4bb1acee4f242af521c721a9e68a05e64d526"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "fd6f7ad85d02ac63cd1a586c8bb158c1fc000495f512f097731ea9f749b5da2637615b821294962805ba312c738f40aa"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "17cd61f59a162250b52a89c7c56eb60da253b776210500313c7b82744483ff84717946f969251fb4d76f9bb12a2458fe"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "9dcb04582c64c79e788f9191195834ec75bb3457133d22a176a0ccb069b97103"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "990faffa454598a3fa82affe30f1323db769d2e1fff20d9c7163ef6fd95ac7a0874c06a634207a2eaed9e5afbdee68b225138fc75018717ba97efe3ffe92c88a"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://www.slf4j.org"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/qos-ch/slf4j/slf4j-parent/slf4j-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+  },
+  {
+   "publisher": "The Apache Software Foundation",
+   "group": "org.apache.santuario",
+   "name": "xmlsec",
+   "version": "3.0.3",
+   "description": "Apache XML Security for Java supports XML-Signature Syntax and Processing, W3C Recommendation 12 February 2002, and XML Encryption Syntax and Processing, W3C Recommendation 10 December 2002. As of version 1.4, the library supports the standard Java API JSR-105: XML Digital Signature APIs.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "d170785a30881c6a1e5817f7439795a5"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "bc09c71749c9726874418224ba13f5e24fcc1e6a"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "b23df0b77125345f549374a85ca93c74e09d548a6c92858923b9fd9a24d5188b"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "50aab7d093a3355d0c4997a1ee590cd19265b1e1fff0ae992accda51aee35a596fa97c34354ff3815499c88a8dc6194c8a79da56e3ff93df33f98f4ae19334ee"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "38bb97380d3396d3eb332819e19ebd0a264fdc89e525cac9a47561a081313c3d4b4a68806e8b181b79694dc83b3187b3"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "656955fc397574e8a41a19b4e9526ceab24bdc9d3328c073dd119bc9cf82afbfe824c19890c2ea65362de3a94b49376a"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "b6d11d2c0dc59406c0f2f1f6409c226b25b775e12a986bb4c70047900da300cd"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "ef36f51a1926ad492054edd2b4618a7a8aa84c6d51bf98e7afe89a07b8b380b9dc4a1be98c204392dd94ba1000da78d4aad40528d7aa62e62547a980c30fb3d7"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://santuario.apache.org/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/SANTUARIO"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://news.gmane.org/gmane.text.xml.security.devel"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitbox.apache.org/repos/asf?p=santuario-xml-security-java.git;a=summary"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar"
+  },
+  {
+   "publisher": "Eclipse Foundation",
+   "group": "jakarta.xml.bind",
+   "name": "jakarta.xml.bind-api",
+   "version": "3.0.1",
+   "description": "Jakarta XML Binding API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "ce443876615a903fdff9e0d5d13cb8d4"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "5257932df36ff3e4e6de50429dde946490a6a800"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "b8fb4bee3ff5b5c1ef77144d8411316018d7bbd41fcf1ede0646f7978546b867"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "7c74cedf7c0baaa5166311a4c4300a72eb09ae280ec3376553dd8651e6e3d5f100794421ba647b328195dfcf98a6cf7623169a0b87de3f13984dd7436c284807"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "9e3e8b7b86884751280e71e3888d1ff3f4f0c9d6446ed8e32cd61f030532b455b7401d1495dc0da72cd3f6300c68f482"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "47bfcb7a14b57aaa6c813a54702af321dd488cd1697a52476bb46fb9e6162cd46b62faa876a77752b4a7271241924b38"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "91d3e457af90b684e246e02808fb8ededfef65f602717e3815417cb63f22c6b6"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "3c72bb852c244bfb7da0f382fda743c0f8522f56fa77337b203f5027ba8b32d12cd6d0d6ffadfea65552b508be9b40601d876b398a8fca8f4ae9ecd979154a93"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api"
+    },
+    {
+     "type": "distribution",
+     "url": "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/eclipse-ee4j/jaxb-api/issues"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://dev.eclipse.org/mhonarc/lists/jaxb-dev"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar"
+  },
+  {
+   "publisher": "The Apache Software Foundation",
+   "group": "commons-codec",
+   "name": "commons-codec",
+   "version": "1.15",
+   "description": "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "303baf002ce6d382198090aedd9d79a2"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "da30a716770795fce390e4dd340a8b728f220c6572383ffef55bd5839655d5611fcc06128b2144f6cdcb36f53072a12ec80b04afee787665e7ad0b6e888a6787"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "05d0506283716472175d44c2a4766523397bf8a007c18848f9c9a61718cc8aa437f9cb4b91771037ab29a960860b62a0"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "12fad4ef78274b06f97b1243cea6f970088abde082d2de9377d915a34b44f7d7d67807c03e59c849b69f1544e2a9a1be"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "87be248f33f241121f54aad61a9a460a79eabefbf1b5b0dd22aeb95b581f727e"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "8c992c9c569ebaa0bf956a4c5b34fbf5e1ed1c212c2dd896fa216183ee0bcd341e96698af4b9cec7e8880762faa081a3d3a27f51349aa457cb8e373e4f57c788"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://commons.apache.org/proper/commons-codec/"
+    },
+    {
+     "type": "build-system",
+     "url": "https://builds.apache.org/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.apache.org/jira/browse/CODEC"
+    },
+    {
+     "type": "mailing-list",
+     "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/apache/commons-codec"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+  },
+  {
+   "publisher": "FasterXML",
+   "group": "com.fasterxml.woodstox",
+   "name": "woodstox-core",
+   "version": "6.5.1",
+   "description": "Woodstox is a high-performance XML processor that implements Stax (JSR-173), SAX2 and Stax2 APIs",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "961dd4b2afedf95293dfdd8adfc8f211"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "c6e52e84fe959e69a243c83ec7d24cd889444ddf"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "c928d60665c6415fb1c39775cf95cfc44f7f4580cf5ab01b1c380ebffd76887f"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "d9b3cf6aaac85d8c349e7a24ad30f7e23b7765f1b7ce2fdf301bf2240b9c7ee184bdd938e58be6df9ac90e97e3b8c7b34f8fa9da27d1ed8de78765a8345b18f2"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "d51e67aae26449a2cdffa90a08b09cc805b85da3e758011a0945fc8b0ee8c18e98c6f94f0c0cf46b7a49e7370073068c"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "2e731b74e4814647b1a320cd2f1b9f9914db1cb07510e69fb4dda33c6b1586fb2ee9e3f5af027c98dd0d33e2ed4b19de"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "f84ca4c9bb77abb6e61930c7debee48497b2febc30d48329c6b15546dd00371b"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "257aea7a23c4631eaaa942763e639d239660f29cfb7190f0b112abf6301a214fcc8e84b118ba73d92861a5f441bee479908a4831352ce2278d3d40ef51067894"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/FasterXML/woodstox"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/FasterXML/woodstox/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/FasterXML/woodstox"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar"
+  },
+  {
+   "publisher": "fasterxml.com",
+   "group": "org.codehaus.woodstox",
+   "name": "stax2-api",
+   "version": "4.2.1",
+   "description": "tax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "af8377bc7882332e22456616a9f164f6"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "a3f7325c52240418c2ba257b103c3c550e140c83"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "678567e48b51a42c65c699f266539ad3d676d4b1a5b0ad7d89ece8b9d5772579"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "00efc5d4d17540fb180c5b20d456630a8b3262dff46676689ae916ba16f0fbd9b1a71c7badfb254faad6597f94fed1edb96f77c15f40178eaf4d8cd35cea5e8d"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "97a6a9f0cc666776e4a4f08729c303d2a602ce5c25ee633cd6c54c72f12d11e9d43634ca6ca4ef7da5973a52030384da"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "683a1f110ab84333e7517dabe175b91d7ea2fbead2f9d02acf798c588a7508bc67580642afa8d57441bc56ce610d5b0f"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "5e8e54209fb6b580e928e703ef11645aff1a21dfd47cca2dc0e53d0befaef09c"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "d79338a481605c94e144c967cb7adbc6cfd06ee6a1182b5ebc8cd8ad3deedd707931e404aa197bc94d3b5a5d82a2e6dd6a2f6cc9dafc42ce3ad5061076b05199"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-4-Clause"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://github.com/FasterXML/stax2-api"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/FasterXML/stax2-api/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "http://github.com/FasterXML/stax2-api"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-saml-impl",
+   "version": "4.3.0",
+   "description": "SAML Provider Implementations",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "d42ca8f8c85cfa53b1dfdfc209ad6b05"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "b3fccacc4cb775e0f1c57354bd0beb4e9b7da0a7"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "94c0d58d85298c8f3e8bc2f71cbf8a34ff2895f6b8f6b5983fee052480dca4ca"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "aa5ab5f726443c6d718fc1d0047f0677c0e39a634ae4f437715137842c6c94ffc532a24561a65e23ee318225183a018bad17d3a24fae9611ed7dff90c3bd951c"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "9584149a074c76c85efd9307b69de3c2c6ddbb274bb7a71ce4eb19b6f95dff4873a785e711ef947f06a9c5d8615c4c33"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "b987c6e7a258196e56313f0b0e0d41db124134ac7662ff9a40ab529c61db899a9002368348fa2a6e2d73146928f9223e"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "e42f27985f9563cddb7ab22f66adb6bee0a39d79628c981c00d138e4f2aa723b"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "273344c3b98ab4aa7f7c505116d39ae57a6578487e22f2b23a30314304606f669e6b14534896b90f0e0bba6b7d01708743ba02159f101c0906e996ee1149ed1b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-saml-impl@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-saml-impl/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-saml-impl@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-core",
+   "version": "4.3.0",
+   "description": "Core",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "b350cea439d84edae64dd16baf71c15d"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "6773e581374b2b30c8acdeff59278363a37ddafd"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "baf7a322faa0fbf99b33543cde8fe7a73c2f00f5ee121703b098179e53c3ce62"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "e6628e9a1bced7b341bfc5dd2ba82aec9a02574431ac34ad6b562541841b54def5ae91bf6a1dfa78569e9d1a9b8a343046925ccbe8db22b3260987866f185a36"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "5788fe5c41bee40c3f6a63a9505fd9ee30e39ae9f3c69cd896b8d9fa5e8210a30dc18a66b6fc6086407b5f34f4cbf1ed"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "8ab4b649aad23546dd234b92985a0ee22f117c096e0fd4a885f7d0497e1987d4e9e91920b0437a35f282a91ebc96e606"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "20595f5cd3833f774517797ace319305e5e4866a227a0ff2dada29a86dabc5fb"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "8d3ddfbc89283f8eba6c60cde013ab267eafc75608dcf9e390bfe42f7a1b6acca6d0f56e8312c05de596b3463fee72d674a0021760f1b8b7efbf9ac75c516aab"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-core/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-profile-api",
+   "version": "4.3.0",
+   "description": "Profile API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "a33bb692e07f524c7893c742987f2cfa"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "73f712945c01750bcb91e0d4c3c95e48f0010bf9"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "4c7b3e526b2d7b3cb00150b23e72c51d11e64dd3d0abe5bc9c126e018214edfb"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "3d3977523b80722b42b5f2ec5a94fd5c1fcd62989074e5f0610818cd2b8a34c0074fc51fec60add5180d8058a9ea3035a73126e57a031adca757dc7733781ef9"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "0a681fff33c37dd21aa3051ba34fb53c587058f2acadf609eb2d3cfe87a9e32dcc245afc8dfc858ba59374083a3bc1ad"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "f3e1377825bb4af11ba49a3f4928c3691f702e8fc824dc63fcb1047fcaad73a9bb24c7c351221289afd08d7c9087f110"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "403959f90815ca042a19067cf2610404d4b67bdbc26d1d9dc3982963dd378c0b"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "330edd3e665bd6082cb891bc5e78ed1493911ddb3440d8eeecc0731471728f879cfb19a8753c3b72e83aef4ac2db88e1cd3bb1e226ddde84ebcf3f5f6e496033"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-profile-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-profile-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-profile-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-saml-api",
+   "version": "4.3.0",
+   "description": "SAML Provider API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "609851b6c0fd37ae84a3a271ff8dbfb3"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "86ac06b15963033e9495487995f5f0aea1cc96ea"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "63adb283408134d179711fed24c90aa70561f7f1bfa2e399dc04270a7aaaa588"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "2fffa04aff2e31c8121d6d7ee2125631c221430f4b81397c63c7cc6ce9f54d49175a47182fd1105b57e7359f6f53df365e22c3cd614479cba4e66a2c0c283f77"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "20a6b067c8036577a9b1f2023181a32e40d7bcb902b5c0595fff08e202316d7b50323d9df6e360eda15b50a3d90297b2"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "8bad4ec4900388e7fe1073806cab983d046406544d185ce146b38f31dd5ed6dc6091f3aec47062713796bbc86d3c928e"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "6e5e00b56386d7e45c81dc42ba60fae1db7be396eb6aec09326284659c96a38c"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "f8eb3c82a3bedaf97c481a959024938dccbdd6ba39f83e8e11ba7eb5735f3b06cd91e2899a5f1d0907b154e02c30fb985ebb19d083e43a8ec0811688e043261c"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-saml-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-saml-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-saml-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-security-api",
+   "version": "4.3.0",
+   "description": "Security API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "05877528bd024e2f2f1da492d2540e04"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "77d0101d8be9be40db41b6f33823c6952fd5e122"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "77024cf8aa54e5e7321befe99efc618d47cd476756024d3a028ab9b2fcebf5d0"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "5c9da51840d1085c22b54d098337f6cf469c65592d705a8aa12ace0f54b41c298972f6a4f177fb64c268be20482d80a73093bb5613e2648d87859aa713b099af"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "258ae3f7cf3b0410d09ac1ab641365f8fdcd7179fde6de84ebcadbf70cea3aad497ecead4854e86e18392a11e44a1a40"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "ba323b8f320a4115cf56b8b8d8421c37298365c9d8d3e6147a71b57dce8667d492b7d99cf24fe764e2db1d22a714b7a6"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "2123fda28892201207f62d6c72d8519ee3c4fd9fc411c2576e3c756fe5315b38"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "d0b6f19748d59a6ddc0a0cbd5b4e410a9f89889279c7a6eabab8791b083852e82a7305fae379b717c05d4c852e768935e4367c682db554e8d4bb09979382a42b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-security-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-security-impl",
+   "version": "4.3.0",
+   "description": "Security Implementation",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "5fc64b5fdae10401af0d99ae964a918d"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "9772c7dd74f9ddf5edc22bae4bdb87f54970fac9"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "566f93514c3c966bb5d22907030c66943cf4bb75923177f73922f9da341d5542"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "d2ce117db070ca2c80c62f13ccee9e6582af4e5d0e240bdf8564bf782c1a39547a15316918b962f16309b3dbce20ceb9bf8546cce417591d43f5726f3d21f527"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "fc98c62578699eb9314571a08f5b3c1725a91360814b264caff40330d3d17861a280245d7ffbbd07141740a9b09506e8"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "4c95b3e5f9339c30ae2fd852dda02637e74040029ce4930e12f6d3fbd89fa85df6f8c5d8acb8db3cd3ebc45455729ef9"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "ec3a2e03c9480f7830afab62a07e3c6656285f688201b78140a3787c8c767b33"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "6381aaa4dff6459cb9368c2a22b1997e26c719bda95018f367dd57a0a02bfc11219fa224671c4c21a7ccd029cf510087a3f9d2e9936f6104ad7820cecd471032"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-security-impl@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-security-impl/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-security-impl@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-soap-api",
+   "version": "4.3.0",
+   "description": "SOAP Provider API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "6c993587f3ee08b907948ba83c57d7ae"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "9f04cd64085670fb65ad98c7c23ab333af10be45"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "1cf4a5892172161e959898e43b44554a6aecd479fff6ef5e95ad7f20f2cffe02"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "a48680639c5c5408818df8c123040c2114b495fe34ea3704824bb94d849b227632502094265f62209838b7a6ccea3218772562e4614e58b100cbeaf3f9a494f2"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "6b0d16820e1073c1d0d1f146b6ce27054a8890bc01e1a7d99ce628284eada4ed5d2b2d1d59ea0fdbab7e31ac3ab112b0"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "4a86ce367928133423ab9205a001b51a4f2511aa47b381b9e1414484e81820211bca03573708f1814f510bc33dfc00f7"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "9c1e1e73355830be0eeb4d574788c281e88192b667f03e3aad20799562ceec30"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "92b6fcc0f2f6090bb31e16c52e7a227ec859b9a0ac41eb17e160ea3a4f583bde2cbd656846993196fb0cb23dc14c1f46d4f3f4a86303391a99194e3f35c27464"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-soap-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-soap-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-soap-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-xmlsec-api",
+   "version": "4.3.0",
+   "description": "XML Security API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "4a2d6ec1f7b0c9d68ee907bf578929f9"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "5c20fadeeb77c1bb689139b17621ea7f5b719f5f"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "db60d224ae7b0740c38bca1bfb3ada0e87ba0e680ebc2f5fe5b16ea863d3f2ca"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "4d33cbc9e94fb532ac40ddb06e5aa16ea25d466c7450706c5f638d37031c6caa6b32670caa1d3de65f41b0db0be0acc8b55e52caee9b8489793c4ce6fa874154"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "42feef86d093b64c0597cb27dab6a3622db86a43ec67345d64dada445d9fd00f34a97ba39d803e1811b9fb5c1c474762"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "a0f1f82fdf12e98529808348c075d59c1a193e6f6119a4f42c7fca3209fab75e53c70ca6c41ac53ac2c937160949d7cf"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "22e666c0891b8cb764acec8d68051d8faff582927271699c41d2e10c96a6a6c0"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "dcad3a7eee9eb2a2d9168445e3fdebc9aca331fbf03dc6c75fa9bf5bd1e8affaf483e714166bb204ef7d6b7a8fdbeb7a41db58575634294911d91625284dd26e"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-xmlsec-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-xmlsec-impl",
+   "version": "4.3.0",
+   "description": "XML Security Implementation",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "ae9073562830dff64e47d68ce14c7c59"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "a1c9c88fcad6db5e83e488bbbe9e1aff42d9dece"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "da3b2b2aed7a3182edd0d006b685c729ed8beb04b3304667d9fcd62975446611"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "ec02d7c1277a12c319107c7c5369a7399986a30d2cef39150d1478ef73d7cef36f055dadad3dde38231e97295fee2c4b0d382ab6288164cc817e811389a53ac4"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "8d160564c2db4d0a72081ed8b04f18e66b23cec7ba145fe5ff65780b07c556683f62faa0eec2914f769072f18fc654cf"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "e1c26ee6f631a2878d4ac963f0a417a38936a78109515ce9d99befefe0841512842b59c68ee12dd77d2ff20e6fc9d6a0"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "eb39c4c75cd51d48a94e512d8fde9bbf45961d6d89e63b28a18659878441be4f"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "f948b99f77ae628e1e4cd6c3f94bb97dce9e76432a80524f511c23c122b33aaa6a71b7954de439f04ee1ef67d0cbf32c14e11953020888fbbfc50dd8a2167de5"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-xmlsec-impl/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@4.3.0?type=jar"
+  },
+  {
+   "group": "io.dropwizard.metrics",
+   "name": "metrics-core",
+   "version": "4.2.15",
+   "description": "Metrics is a Java library which gives you unparalleled insight into what your code does in production. Metrics provides a powerful toolkit of ways to measure the behavior of critical components in your production environment.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "6a000703a6700e51eb4369442a385864"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "a3ee63ed254f9a6977e2751ffcc0f158c2c1f5e3"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "d6da099ba1b38378eaf01490623fa570d6be1b6ddd52f1368120de67416d21fc"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "79c29c4cd9bc7b0a8a1991cd33873652627f4dd922ee7c5007baaa4ddceb5163356a51c39fcf78b314ff34af11073d7cdfe7f83ad8651f2d400fcac33df011ee"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "76f15cd6994d47f6a6b1e14d46198e096a5446846d3286e4ac7c59b4d74cdd8ddde52a3108f16ceee8649df2da151889"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "ebcd4ba3fe5f87c056de94cb51ed98589032b8a4b4f8f5b9f1edf9f4405ae2998e1c9cfce75f630ae68db59f7dcd02a0"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "1740de1c4c5be99984cd93fa97ddfdb6abeffc79deb343e2755d92629f204fd5"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "ad67994a90498056996dd08cbc0d4568202a24c78843d57303cbab42483a5e3e42c5e3c18eb53e88bd388044b1af4335686e4d27ea189a0e1db77752cfc99c8b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.15?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://metrics.dropwizard.io/metrics-core"
+    },
+    {
+     "type": "distribution",
+     "url": "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/dropwizard/metrics/issues/"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/dropwizard/metrics/metrics-core/"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.15?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "net.shibboleth.utilities",
+   "name": "java-support",
+   "version": "8.4.0",
+   "description": "A POM containing properties, profiles, plugin configurations, etc. that are common across all Shibboleth V4 projects.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "53961a8c7362418bc668246a1cfad978"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "9b5eaaa086ccd483d4204d4ac0db8e961a9be0f7"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "12e5e24259a642eb978ab08388b86b1e566fc99f6aba2b4e1dc5ffcba933708a"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "4afc0d57f8f48ffb35041973a0b4a8b3175f1837872a5dbb0268b6dcd72638d9bdbbebe27130f62d97c90c316be05aa310c90ca8240a8e3f65e3d72e48686380"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "655b9d8f251edb9db61f4a9bcde72d313f69563f4eb33e4b2d2a60f627cf8d98df9f5fe639d070dde2d946a1a060380a"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "91c6c898d3583d362acf9d77d2f15c98d15abaffb7029161f6d7b400cc3b4fd23d6e94695795fa374d11acc569a2c188"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "b17f53049beff821652361aa584f9d2d17d2ed7b44855a386b931d4b120c68fd"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "d1930af301711344752d0c7703b99fe087b0945e4020ba2b2f2ca4f1781f4da092e2c60df68a0df7f7567aa568596fe7a67d2a5e3d91de3312301f1613d0726a"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/java-support/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-support.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+  },
+  {
+   "group": "org.cryptacular",
+   "name": "cryptacular",
+   "version": "1.2.6",
+   "description": "The spectacular complement to the Bouncy Castle crypto API for Java.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "b4cf54fbc0b44a3233b0daa8b4c0cb83"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "c97954b8bc9fbf63393d6a3b9113a6ce70772b45"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "7a901585834f4533f127c643660435aec9a969af720613dc9126e555be7b1a01"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "f1537257428dcda2c02dcee022f44539210510c66f752964556da62f6bf0f8924c6f443dca418482cf4d9d66ccc840d883c162a24d1b6639628ffbdaf6820bec"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "5cbe09098237398b55a517b4769146b5f3a893a062092e82e4aaea0630c940970e835aaffac8b6ea22f7d6cbeaaba191"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "a48cd3adf9dfc90e9dd0023e1c40d21369c198bb46a992ee01719e8a1e6deeab3f8215d9c1394c1306ca8a8268a201ba"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "2197138eff1b76c3743e9dffc896b3376b92c0c70f558f10a3277b84b82b63c9"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "79b5016a94ed082b321e812492a5ad11c25c4f143f0a2167643c5c6a7e08d35e54a1366468d232534a9428d5c05858241086f47057c2db3e9414935d985a38a4"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    },
+    {
+     "license": {
+      "name": "GNU Lesser General Public License",
+      "url": "http://www.gnu.org/licenses/lgpl-3.0.txt"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.cryptacular/cryptacular@1.2.6?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://www.cryptacular.org"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/vt-middleware/cryptacular/issues"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://groups.google.com/group/cryptacular"
+    },
+    {
+     "type": "vcs",
+     "url": "scm:git:git@github.com:vt-middleware/cryptacular.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.cryptacular/cryptacular@1.2.6?type=jar"
+  },
+  {
+   "group": "com.google.guava",
+   "name": "guava",
+   "version": "32.1.2-jre",
+   "description": "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "5fe031b3b35ed56182478811a931d617"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "d683751034688863dc82315a75620abbeeca525cc592d5227b136c29902a0d035f306c6bfaf87d00d95bd1bd967953b00a932286ce09cfba1a0fb35efd852cd4"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "cdf41f5f70c467f1f0d8ec42d43eebd8e9da7e5fc60bd24d17db852ce0669a7316abb0a217f19c5cca41b20ade17a1f0"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "2084f7a28971f428e1b07a659d9a2cc221654b0e31d457c1219b5526e102124207ab4b2d163d4d5ec731551da396003b"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "0ccf9f22abd1ae422fd040e387adb12c31e4dd749c3e40181077e6fb9acdb51b"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "e354820ed3f5da18411e6f4ba69294b2d171b2debbd51053e617178fa7a7cb64b3a6978c841a3060fd77474cf99e6aa2451aea39a5755cfe1f7eaef0d20d0e63"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/google/guava"
+    },
+    {
+     "type": "build-system",
+     "url": "https://github.com/google/guava/actions"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/google/guava/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/google/guava/guava"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar"
+  },
+  {
+   "group": "com.google.guava",
+   "name": "failureaccess",
+   "version": "1.0.1",
+   "description": "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "091883993ef5bfa91da01dcc8fc52236"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "f8d59b808d6ba617252305b66d5590937da9b2b843d492d06b8d0b1b1f397e39f360d5817707797b979a5bf20bf21987b35333e7a15c44ed7401fea2d2119cae"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "67659dbd9647ec303d7f15128dc9dba19b98fd8d74758ee3b602451e32c855e236ccaafe08edf4bbfa245f981268440f"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "1460875f0331c5fa3791772a6a322a7db180261bc2adacf7271df1fbf3b088a587a755a604c039982cb593c5cfc1f101"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "ea86406e75fcd93eafe3cde1b3135ba485f1bb9b75fed98894a0bf1f0aee04f0"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "52ac0f487ab5dd27c9f2e54fd1d84c7a620cae9d49be4072aa2b11501787bf4391ddaa13d02eccdf19e8eea46aecbea5f6064b26777c1b836108a280652e04ac"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/google/guava/failureaccess"
+    },
+    {
+     "type": "build-system",
+     "url": "https://travis-ci.org/google/guava"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/google/guava/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/google/guava/failureaccess"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-xacml-impl",
+   "version": "4.3.0",
+   "description": "XACML Provider Implementations",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "72aab68365e9518d87d5cfeadee82c3f"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "50dbb7935bb02b90feb314a857a5c7e90ca26891"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "7161dd5206ef768ff36a1490af5130b311ee080d600478d256c1b7a5f3bf73e4"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "3199710b27a5561c919e3ee3f24541140460d17d253bf76eacaf7408f3afcbd7bcf8a7dc04bb00dcccbb29524c57d0fa496bc991ed844e1ab43883b639618e3f"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "bfdb2f9d149c61f305bc65859249cf0c0127b675e870004bca5540c547ccecefe4e4c06a4e7f83d0f1fb45a3d57db822"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "fd78d4887e78c803df1f62bb23f6dbbd266dad46636079e83c4d69c6a1b50d343c5b751bd53137a99319e90e3d1d1e4c"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "7ad95646b688c25329cee321e5262b7a0897db8dd2c0d998e60a0c2ba4d8c68e"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "e6e18ac848e94e8b59737a409d8733b26d331983ef0bd911354768d081a4466c8e54c84244de0e2b88a060418b2223b3f21f5162a25a86b2e853240962325b1b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-xacml-impl@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-xacml-impl/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-xacml-impl@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-xacml-api",
+   "version": "4.3.0",
+   "description": "XACML Provider API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "8ab3ed2cb86b19d5dab994fd0abcf9fe"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "44e299c1fa958aa8f1c2cf81ac72e7f877ed123b"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "f60a0667c8edec8a6cf3648a64f3ccc42587e109c9021e298711dfd92956e359"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "6f779dd0c39765159252065c661f507fffffb10b47b91eef51ad52f7ff05e7be4418fc6a3bee1adcfaa567c6bdc53cbb8e97de5fe5202dfe1eb027434d4530d4"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "3c9901c30744ce2d75ae21f34ee7f1d755e669b787410c1673cc0843ad7fc8b32cb7de42d7273180e74bcf94ff871482"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "6521dab93f2d777200d7bb316277122314d302766ee9156e212eef7906a8d85fdacc4ae15e802d18cd9ee3126887be0e"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "4ed1ac6c35f7d4fb1d5fe87a638a8e989ec41804b718431b0883137ae9558f98"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "56059c039f60ef765ae7bccb08a04d7b30f32d16d371f986c12b09ce539d245246f98c65d62ae02b931e0ac6b4b953743eae382cc924a4c7d17bea4df5a7fc0b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-xacml-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-xacml-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-xacml-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-xacml-saml-impl",
+   "version": "4.3.0",
+   "description": "SAML XACML Profile Implementation",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "002d4e5cc40c202a9ff213880624842d"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "8c651b5a5867dee21e407d7d00a1af4c0475da73"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "f8acd7956c324e2d97cdb2450773d9da9b478ed476db4dbe47f206dedda30694"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "8aa5d56ca582aa96c6a4721fd43543d86fe7b9cd97c630b863dec4dbf56e999e502ef8b1244b77b66fd11ad4974f48ef91180ac117a832d3a6afb103900d3d0d"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "45e1b36c09e42d5e51e716d4cd78d9e5ad29ceae3cd139755a352a40546d7a87acdfbac9cc4fd3ccd0d4cfaf4e76dd23"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "71d8c443d7c542955109599b0a744989a961d94631eb0b9c7e5371454d394c61cfb439d64276d241443ffa3b3747876a"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "0b0a7dfe130c130455c9b839d028af641b8ac5562efc5c3f810fa6c1a4a2a503"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "bc899e3edb66ddb3d7e54e4fb6b0dada2a21262e03d0485eb93c87f3c71f7f9126af4207d6c7399fce99bf8c988188f8d7897179b0bed2e3e35a810c8e15f3e5"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-xacml-saml-impl@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-xacml-saml-impl/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-xacml-saml-impl@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Shibboleth Consortium",
+   "group": "org.opensaml",
+   "name": "opensaml-xacml-saml-api",
+   "version": "4.3.0",
+   "description": "SAML XACML Profile API",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "ff9b2c7c19a79a218b5f5f63fa74e602"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "695bf030dde946144576b5e03631b4b3eae7f87e"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "65bd849f20b0df3a10efefe0b0640a3ba126141b40ab7f2f5ea1429154c0a5e2"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "da92b0b35ff74fdc07822a1faf4b1c73ab96ab38496956912b7d1e8bc8a34ca85576262836b50a7d7a83fabeacbe711f8e58eeddceb7a24b500c32009fac237a"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "dcb7862420fcd283c012cbc1cf66e7098604c274fbfb7c87a1289bb9d7a05cebc3a75e5343580753d86c61c54344c1ad"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "3f0cf7dc0fc28a65f028145ec0616167046a9aec75ad3778695a7771568fad8062a99989480e2c841d0ecb96d94db404"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "89409a8c3b2938bcd2e1a1ea9e8bb752fe5210c4605386c82a11b49dc6fe8ead"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "5ad828d0c16267f5b5aca522f8ad0c293e20a7d3efa732099acdc7b486d1763302831fbbd46e074521eea97663ec39d9af614b596c03f2f367eb820da5532f69"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.opensaml/opensaml-xacml-saml-api@4.3.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://shibboleth.net/opensaml-xacml-saml-api/"
+    },
+    {
+     "type": "distribution",
+     "url": "https://build.shibboleth.net/nexus/content/repositories/releases"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://issues.shibboleth.net/"
+    },
+    {
+     "type": "mailing-list",
+     "url": "http://marc.info/?l=shibboleth-announce"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.shibboleth.net/view/?p=java-opensaml.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.opensaml/opensaml-xacml-saml-api@4.3.0?type=jar"
+  },
+  {
+   "publisher": "Terracotta Inc., a wholly-owned subsidiary of Software AG USA, Inc.",
+   "group": "org.ehcache",
+   "name": "ehcache",
+   "version": "3.10.8",
+   "description": "End-user ehcache3 jar artifact",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "6767673b52b5c2157bb6b41daef38963"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "892b8caf98d188d0bac6ff16db564cae13a6874f"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "4530ba51c1768f680bffcc5af722f7b65a0abb3874d9f17a731c7085eb2613e7"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "cc2fe9472be5534188d1d327c2c8fdb39114f83a3c9ca7e5cb2425f09517653ffeccb7e0d96f5c38fe0f0eb4d8846aecbbb2d92777b666eb803969a06a386faa"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "0dee1a1e8090a40967c06065a25f7a27f9dadbdb5666b9a06a20e3f021376950923a20c854f2f930822be77f30408772"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "99339fadfef0eca6a98bf8be39cd8d892b9aeae7062de5dc6c8f2b774ef95aa87a30cacf38c2166bc139a48322de3b3a"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "db83db3d39aee9794143e5c9cbec469a5d7fd6af7f53d6afe7b35fff25125867"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "e409f9c77f0047e9530f7d418a9faf3619ed6841a9db7b12bd86b27947800f0fbe7227837399ff861594d53e26df2ca9226074b0803456bcfefa8b38030e9bf3"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.ehcache/ehcache@3.10.8?classifier=jakarta&type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://ehcache.org"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/ehcache/ehcache3/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/ehcache/ehcache3"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.ehcache/ehcache@3.10.8?classifier=jakarta&type=jar"
+  },
+  {
+   "group": "javax.cache",
+   "name": "cache-api",
+   "version": "1.1.0",
+   "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "ac907ad12e9a7ac5d41abf703855002f"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "77bdcff7814076dfa61611b0db88487c515150b6"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "6c980ad1ae4a6dda3bdb62986c3ef5b41ccf766e12353587ee4e4307e27e155a"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "35824a03ce90b198aafb18e7943594ed833b257bf02e5ef9690d782224e6838232298430627455bb5eb7a91bcd42144b34273cf8473719d7d7f64638164c89f9"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "1f6c6204e9653fa989340ae361cb0372dc852057383cf72d881ddf1838ab59f46297fd4a217e4b171144d48918d4998c"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "f5258073222820223be540f5393426023e0d0cde7a432ba4338fb134a28e867b52cee569ff3c4e5032f660b85fb4caca"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "0190bf39824bdcab1879086ebeae5f7fff7fd1a349f832663787274f2c5934bb"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "d24dc13d9d2aa0e01f37732bc96395962882bfa197c1cdc81fdaf8c8530bdaa7654944b2ecbf966719ffe793861e3baf44f129aa73489ede55a36ff67e155cbc"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/javax.cache/cache-api@1.1.0?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://github.com/jsr107/jsr107spec"
+    },
+    {
+     "type": "distribution",
+     "url": "http://oss.sonatype.org/service/local/staging/deploy/maven2"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/javax.cache/cache-api@1.1.0?type=jar"
+  },
+  {
+   "group": "org.bouncycastle",
+   "name": "bcprov-jdk18on",
+   "version": "1.76",
+   "description": "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains JCE provider and lightweight API for the Bouncy Castle Cryptography APIs for JDK 1.8 and up.",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "7020b9a9e1b951f5754a2168a26367f1"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "3a785d0b41806865ad7e311162bfa3fa60b3965b"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "fda85d777aaae168015860b23a77cad9b8d3a1d5c904fda875313427bd560179"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "dbc5b525d805823b53dbaded11547155a14f795212ce6fe1e93d6da431081ea9480718ea2fc17dc7906f8489aadb68e781afd1e771d26f9f8a09b21552bb165c"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "e694358472e4ff27bbeda8610581d09d20b70e8af3075ff17ec56ac5eb1cbe4f3bfb69c1ee376d036e9650feb7615703"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "6462c5f3d18098fd50e40dd00733f75ff57e6b390099823ccb645bd7acd72a8a210d234b4fed0b889604c8048be1a742"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "c1296b156a9d365b11076ed66a523fc74112874d5ac2910fa488cdfb716bd8be"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "5ffb1bea400731911ed4fe07999843ba14af7b083aed422d9f2f5e02c4f18993eef5f891c0b06dedbce67cf7df3104b7a3c1e4f197d1c91b8f5a0f3257541d1b"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "name": "Bouncy Castle Licence",
+      "url": "https://www.bouncycastle.org/licence.html"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://www.bouncycastle.org/java.html"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/bcgit/bc-java/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/bcgit/bc-java"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar"
+  },
+  {
+   "group": "org.bouncycastle",
+   "name": "bcpkix-jdk18on",
+   "version": "1.76",
+   "description": "The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.8 and up. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "661d57d384f768f2bf92c0392f88379e"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "10c9cf5c1b4d64abeda28ee32fbade3b74373622"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "935a388854c329f9a6f32708f30c90045d2f91294fa687281273145d4cf9834a"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "b924374168e25f21ab7f6dd4f6755e55a401cbbbaa0d6f17a0c9bf59e61dc42750b200c494c413f6f8c27fc16d9312f51fc15c979e4298916f5bd0c329cbbffa"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "d52951022d439bfff225af8d27aaaa2064806e5d3a6b58b27396045b4dc99d374fd162333d35c3b075e22f8a075a94cd"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "89fe037a38351c32d0b0dc8af44da2cdc657af7d81bd7dafc1bcde78369a128d00f11a065910c4e8c5efa7e7b6a1ee4b"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "34f22275a9af4982fe3677c02eeef549094108a2c9dcc3917bc43a752c58678d"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "4888682241fdebbfcea315d43dea0148144959c90e4245378140e17f3315f5f9b71ee737402be1490f7d23c3228ae5c313d53fd6e6f52063e243d1fddfd471ec"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "name": "Bouncy Castle Licence",
+      "url": "https://www.bouncycastle.org/licence.html"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.76?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://www.bouncycastle.org/java.html"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/bcgit/bc-java/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/bcgit/bc-java"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.76?type=jar"
+  },
+  {
+   "group": "org.bouncycastle",
+   "name": "bcutil-jdk18on",
+   "version": "1.76",
+   "description": "The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls. This jar contains APIs for JDK 1.8 and up.",
+   "scope": "optional",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "4df5b021c310b4c7c07d4490318d75cb"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "8c7594e651a278bcde18e038d8ab55b1f97f4d31"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "1a65ad02958223a3f31373bd72eea942cafd1b1877a3ed0b492c2487e77c3c27"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "385d95b4c32053bb3734c342d5f3255bcc1cee7e35649965bb5fbf8733ec37009fd5f5e06817a45e7857a2e62e923563ce1231ee3a1de411f788dfa93d39ce41"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "fe120698485b9b3e1cfabb0c0b1c31c6190a8476b19be14e1370cd903f5201dae678a7178a68f5e9c33cec6659d94e07"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "74eb3f0c46882d703e0113756f9204c2c382673ca7766c93713d329dc08c799ffe1ebbfdd59229349423e88ee37be0bc"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "b1f66fd4bd357e5f784f490f9a2aa575b9bd35770e55ec968fc7670bbf7640b6"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "768deeb2848b19ff3b91e3fe4369b0d49f3352770a2b438c5f090aafab27c5c37833be03342ea420a034f82102cdbd75d48a3e8e1c9ebd9ba73e401bf3ddb855"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "name": "Bouncy Castle Licence",
+      "url": "https://www.bouncycastle.org/licence.html"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.76?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "https://www.bouncycastle.org/java.html"
+    },
+    {
+     "type": "issue-tracker",
+     "url": "https://github.com/bcgit/bc-java/issues"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/bcgit/bc-java"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.76?type=jar"
+  },
+  {
+   "publisher": "The JASYPT team",
+   "group": "org.jasypt",
+   "name": "jasypt",
+   "version": "1.9.3",
+   "description": "Java library which enables encryption in java apps with minimum effort.",
+   "scope": "required",
+   "hashes": [
+    {
+     "alg": "MD5",
+     "content": "39327c7e38782102ecdb3c9dc4e8dcd3"
+    },
+    {
+     "alg": "SHA-1",
+     "content": "0d99ef9540f51c617f2a293b460f025d2ee563dd"
+    },
+    {
+     "alg": "SHA-256",
+     "content": "f481fbb8dd8ce754bfde7552af4fcbe8c5e303d53663bb3d8ce9d4338e0e55aa"
+    },
+    {
+     "alg": "SHA-512",
+     "content": "99369da44e4c26f64e600f99b135eb05167ae1ebb5bb9f22233f14023f5416318bb4ca5893dbb0e7d444395ea6fa53713559a6990120b4fc962a1e9284ba5821"
+    },
+    {
+     "alg": "SHA-384",
+     "content": "12baa02ea8f8bdfdf04070d216dff4339b7b1c128f895007e900a18ee38a899e1a82fded92595a9a6f9127ae8c42877c"
+    },
+    {
+     "alg": "SHA3-384",
+     "content": "72ba6c5ea5781cf7f627fc1e847c68e0064947cd75587e028a443b2d8056c6434cb5be8a0e3c6170f71fae6d67719e8d"
+    },
+    {
+     "alg": "SHA3-256",
+     "content": "1cf8809814fad98e8204220110becfeb901050ea9aefd9cb4607adf76631b547"
+    },
+    {
+     "alg": "SHA3-512",
+     "content": "08f3aee5e0c3b57cb0be5f8f2de7b2429793c717dd25fb74e20eaafcaf1cfac3721cf184d179a4c507d90fd864b300f3e83d15ebbeb937637d8eb1d1bf779d48"
+    }
+   ],
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ],
+   "purl": "pkg:maven/org.jasypt/jasypt@1.9.3?type=jar",
+   "externalReferences": [
+    {
+     "type": "website",
+     "url": "http://www.jasypt.org"
+    },
+    {
+     "type": "distribution",
+     "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+    },
+    {
+     "type": "vcs",
+     "url": "scm:git:git@github.com:jasypt/jasypt.git"
+    }
+   ],
+   "type": "library",
+   "bom-ref": "pkg:maven/org.jasypt/jasypt@1.9.3?type=jar"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.wss4j/wss4j-ws-security-common@3.0.2?type=jar",
+   "dependsOn": [
+    "pkg:maven/jakarta.mail/jakarta.mail-api@2.1.2?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+    "pkg:maven/org.opensaml/opensaml-saml-impl@4.3.0?type=jar",
+    "pkg:maven/org.cryptacular/cryptacular@1.2.6?type=jar",
+    "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xacml-impl@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xacml-saml-impl@4.3.0?type=jar",
+    "pkg:maven/org.ehcache/ehcache@3.10.8?classifier=jakarta&type=jar",
+    "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar",
+    "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.76?type=jar",
+    "pkg:maven/org.jasypt/jasypt@1.9.3?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/jakarta.mail/jakarta.mail-api@2.1.2?type=jar",
+   "dependsOn": [
+    "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.2?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.2?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+    "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@3.0.1?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-saml-impl@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-profile-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-saml-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-impl@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-soap-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-impl@4.3.0?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+    "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.15?type=jar",
+    "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+    "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.15?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.15?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-profile-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.15?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-saml-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-profile-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-soap-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+    "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+    "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar",
+    "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.76?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.76?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar",
+    "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.76?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.76?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-soap-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+    "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-security-impl@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+    "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@4.3.0?type=jar",
+    "pkg:maven/org.apache.santuario/xmlsec@3.0.3?type=jar",
+    "pkg:maven/org.opensaml/opensaml-security-impl@4.3.0?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.cryptacular/cryptacular@1.2.6?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.76?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+   "dependsOn": [
+    "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-xacml-impl@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xacml-api@4.3.0?type=jar",
+    "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-xacml-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-xacml-saml-impl@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-saml-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-saml-impl@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xacml-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xacml-saml-api@4.3.0?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.opensaml/opensaml-xacml-saml-api@4.3.0?type=jar",
+   "dependsOn": [
+    "pkg:maven/org.opensaml/opensaml-core@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-saml-api@4.3.0?type=jar",
+    "pkg:maven/org.opensaml/opensaml-xacml-api@4.3.0?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "pkg:maven/net.shibboleth.utilities/java-support@8.4.0?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.ehcache/ehcache@3.10.8?classifier=jakarta&type=jar",
+   "dependsOn": [
+    "pkg:maven/javax.cache/cache-api@1.1.0?type=jar",
+    "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+   ]
+  },
+  {
+   "ref": "pkg:maven/javax.cache/cache-api@1.1.0?type=jar",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.jasypt/jasypt@1.9.3?type=jar",
+   "dependsOn": []
+  }
+ ]
+}

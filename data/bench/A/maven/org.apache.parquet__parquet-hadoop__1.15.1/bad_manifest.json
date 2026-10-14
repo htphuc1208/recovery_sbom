@@ -1,0 +1,219 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "parquet-hadoop",
+   "group": "org.apache.parquet",
+   "version": "1.15.1",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "org.apache.parquet",
+   "name": "parquet-column",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.15.1",
+   "purl": "pkg:maven/org.apache.parquet/parquet-column@1.15.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "org.apache.parquet",
+   "name": "parquet-format-structures",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.15.1",
+   "purl": "pkg:maven/org.apache.parquet/parquet-format-structures@1.15.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "org.apache.parquet",
+   "name": "parquet-common",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.15.1",
+   "purl": "pkg:maven/org.apache.parquet/parquet-common@1.15.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "org.apache.hadoop",
+   "name": "hadoop-client",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "3.3.6",
+   "purl": "pkg:maven/org.apache.hadoop/hadoop-client@3.3.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "org.apache.hadoop",
+   "name": "hadoop-common",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "3.3.6",
+   "purl": "pkg:maven/org.apache.hadoop/hadoop-common@3.3.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "org.apache.hadoop",
+   "name": "hadoop-mapreduce-client-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "3.3.6",
+   "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.3.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "group": "org.apache.hadoop",
+   "name": "hadoop-annotations",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "version": "3.3.6",
+   "purl": "pkg:maven/org.apache.hadoop/hadoop-annotations@3.3.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "group": "org.apache.parquet",
+   "name": "parquet-jackson",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "runtime"
+    }
+   ],
+   "version": "1.15.1",
+   "purl": "pkg:maven/org.apache.parquet/parquet-jackson@1.15.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "group": "org.xerial.snappy",
+   "name": "snappy-java",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.1.10.7",
+   "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.7"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "group": "io.airlift",
+   "name": "aircompressor",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "2.0.2",
+   "purl": "pkg:maven/io.airlift/aircompressor@2.0.2"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "group": "commons-pool",
+   "name": "commons-pool",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.6",
+   "purl": "pkg:maven/commons-pool/commons-pool@1.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "group": "com.github.luben",
+   "name": "zstd-jni",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.5.6-6",
+   "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.6-6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "1.7.33",
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.33"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12"
+   ]
+  }
+ ]
+}

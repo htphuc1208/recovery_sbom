@@ -1,0 +1,69 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "commons-csv",
+   "group": "org.apache.commons",
+   "version": "1.14.1",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "commons-io",
+   "name": "commons-io",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${commons.io.version}",
+   "purl": "pkg:maven/commons-io/commons-io"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "commons-codec",
+   "name": "commons-codec",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${commons.codec.version}",
+   "purl": "pkg:maven/commons-codec/commons-codec"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "com.github.spotbugs",
+   "name": "spotbugs-annotations",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${commons.spotbugs.impl.version}",
+   "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2"
+   ]
+  }
+ ]
+}

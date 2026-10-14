@@ -1,0 +1,263 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "version": 1,
+ "metadata": {
+  "timestamp": null,
+  "component": {
+   "type": "library",
+   "name": "zookeeper",
+   "group": "org.apache.zookeeper",
+   "version": "3.9.7",
+   "bom-ref": "root"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "b0",
+   "group": "com.github.spotbugs",
+   "name": "spotbugs-annotations",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b1",
+   "group": "org.apache.zookeeper",
+   "name": "zookeeper-jute",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "version": "${project.version}",
+   "purl": "pkg:maven/org.apache.zookeeper/zookeeper-jute"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b2",
+   "group": "commons-cli",
+   "name": "commons-cli",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/commons-cli/commons-cli"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b3",
+   "group": "org.apache.yetus",
+   "name": "audience-annotations",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.apache.yetus/audience-annotations"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b4",
+   "group": "io.netty",
+   "name": "netty-handler",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-handler"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b5",
+   "group": "io.netty",
+   "name": "netty-transport-native-epoll",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-transport-native-epoll"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b6",
+   "group": "io.netty",
+   "name": "netty-tcnative-boringssl-static",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/io.netty/netty-tcnative-boringssl-static"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b7",
+   "group": "org.slf4j",
+   "name": "slf4j-api",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b8",
+   "group": "ch.qos.logback",
+   "name": "logback-classic",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "runtime"
+    }
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-classic"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b9",
+   "group": "org.eclipse.jetty",
+   "name": "jetty-server",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-server"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b10",
+   "group": "org.eclipse.jetty",
+   "name": "jetty-servlet",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b11",
+   "group": "org.eclipse.jetty",
+   "name": "jetty-client",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-client"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b12",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-databind",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b13",
+   "group": "org.jline",
+   "name": "jline",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/org.jline/jline"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b14",
+   "group": "io.dropwizard.metrics",
+   "name": "metrics-core",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/io.dropwizard.metrics/metrics-core"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b15",
+   "group": "org.xerial.snappy",
+   "name": "snappy-java",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "provided"
+    }
+   ],
+   "purl": "pkg:maven/org.xerial.snappy/snappy-java"
+  },
+  {
+   "type": "library",
+   "bom-ref": "b16",
+   "group": "commons-io",
+   "name": "commons-io",
+   "properties": [
+    {
+     "name": "scope",
+     "value": "compile"
+    }
+   ],
+   "purl": "pkg:maven/commons-io/commons-io"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "root",
+   "dependsOn": [
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16"
+   ]
+  }
+ ]
+}

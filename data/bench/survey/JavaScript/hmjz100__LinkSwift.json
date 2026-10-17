@@ -1,0 +1,80 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.hmjz100/LinkSwift",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/ce23551c-ffd0-4e8c-9dcb-63bac98eaf24",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:41:43Z"
+  },
+  "packages": [
+   {
+    "name": "@eslint/js",
+    "SPDXID": "SPDXRef-npm-eslint-js-10.0.1-e10804",
+    "versionInfo": "^10.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40eslint/js@%5E10.0.1"
+     }
+    ]
+   },
+   {
+    "name": "eslint",
+    "SPDXID": "SPDXRef-npm-eslint-10.6.0-6ad370",
+    "versionInfo": "^10.6.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/eslint@%5E10.6.0"
+     }
+    ]
+   },
+   {
+    "name": "com.github.hmjz100/LinkSwift",
+    "SPDXID": "SPDXRef-github-hmjz100-LinkSwift-dev-6694d2",
+    "versionInfo": "dev",
+    "downloadLocation": "git+https://github.com/hmjz100/LinkSwift",
+    "filesAnalyzed": false,
+    "licenseDeclared": "AGPL-3.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/hmjz100/LinkSwift@dev"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-hmjz100-LinkSwift-dev-6694d2",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-js-10.0.1-e10804",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hmjz100-LinkSwift-dev-6694d2",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-10.6.0-6ad370",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-hmjz100-LinkSwift-dev-6694d2",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

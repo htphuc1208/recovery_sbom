@@ -1,0 +1,1896 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.github/spec-kit",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/52c0945e-b7ce-483e-bc9c-881a152a8c0b",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: dependabot"
+   ],
+   "created": "2026-11-12T12:57:35Z"
+  },
+  "packages": [
+   {
+    "name": "httpx2",
+    "SPDXID": "SPDXRef-pypi-httpx2-2.16.0-280fcb",
+    "versionInfo": "2.16.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/httpx2@2.16.0"
+     }
+    ]
+   },
+   {
+    "name": "pyyaml",
+    "SPDXID": "SPDXRef-pypi-pyyaml-6.0.3-3138f1",
+    "versionInfo": "6.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2006-2016 Kirill Simonov, Copyright (c) 2017-2021 Ingy",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyyaml@6.0.3"
+     }
+    ]
+   },
+   {
+    "name": "sse-starlette",
+    "SPDXID": "SPDXRef-pypi-sse-starlette-3.6.0-161d02",
+    "versionInfo": "3.6.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sse-starlette@3.6.0"
+     }
+    ]
+   },
+   {
+    "name": "click",
+    "SPDXID": "SPDXRef-pypi-click-1994eb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/click"
+     }
+    ]
+   },
+   {
+    "name": "pydantic-core",
+    "SPDXID": "SPDXRef-pypi-pydantic-core-2.50.2-e93149",
+    "versionInfo": "2.50.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pydantic-core@2.50.2"
+     }
+    ]
+   },
+   {
+    "name": "coverage",
+    "SPDXID": "SPDXRef-pypi-coverage-7.17.0-9fc015",
+    "versionInfo": "7.17.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/coverage@7.17.0"
+     }
+    ]
+   },
+   {
+    "name": "httpcore2",
+    "SPDXID": "SPDXRef-pypi-httpcore2-2.16.0-f52d23",
+    "versionInfo": "2.16.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/httpcore2@2.16.0"
+     }
+    ]
+   },
+   {
+    "name": "json5",
+    "SPDXID": "SPDXRef-pypi-json5-0.17.3-620482",
+    "versionInfo": "0.17.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/json5@0.17.3"
+     }
+    ]
+   },
+   {
+    "name": "jsonschema-specifications",
+    "SPDXID": "SPDXRef-pypi-jsonschema-specifications-2025.9.1-c1f6b8",
+    "versionInfo": "2025.9.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2022 Julian Berman",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/jsonschema-specifications@2025.9.1"
+     }
+    ]
+   },
+   {
+    "name": "idna",
+    "SPDXID": "SPDXRef-pypi-idna-3.20-4a88d1",
+    "versionInfo": "3.20",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2013-2026, Kim Davies and contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/idna@3.20"
+     }
+    ]
+   },
+   {
+    "name": "annotated-doc",
+    "SPDXID": "SPDXRef-pypi-annotated-doc-0.0.5-69a9d6",
+    "versionInfo": "0.0.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2025 Sebastian Ramirez",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/annotated-doc@0.0.5"
+     }
+    ]
+   },
+   {
+    "name": "shellingham",
+    "SPDXID": "SPDXRef-pypi-shellingham-1.5.4-8095b7",
+    "versionInfo": "1.5.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "ISC",
+    "copyrightText": "Copyright (c) 2018, Tzu-ping Chung <uranusjr@gmail.com>",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/shellingham@1.5.4"
+     }
+    ]
+   },
+   {
+    "name": "lark",
+    "SPDXID": "SPDXRef-pypi-lark-1.3.1-f8c921",
+    "versionInfo": "1.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT AND MPL-2.0",
+    "copyrightText": "(c) 2016 Bram van der Sanden, Copyright (c) 2017 Erez Shinan, Copyright (c) 2017-2020, PyInstaller Development Team., copyright 2020, Erez Shinan",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/lark@1.3.1"
+     }
+    ]
+   },
+   {
+    "name": "pycparser",
+    "SPDXID": "SPDXRef-pypi-pycparser-3.12-a7d40b",
+    "versionInfo": "3.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2008-2027, Eli Bendersky",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pycparser@3.12"
+     }
+    ]
+   },
+   {
+    "name": "json5",
+    "SPDXID": "SPDXRef-pypi-json5-ce93e2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/json5"
+     }
+    ]
+   },
+   {
+    "name": "packaging",
+    "SPDXID": "SPDXRef-pypi-packaging-26.3-69dea4",
+    "versionInfo": "26.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 OR BSD-2-Clause",
+    "copyrightText": "Copyright (c) 2017-present Ofek Lev <oss@ofek.dev>, Copyright (c) Donald Stufft and individual contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/packaging@26.3"
+     }
+    ]
+   },
+   {
+    "name": "execnet",
+    "SPDXID": "SPDXRef-pypi-execnet-2.1.2-5b596e",
+    "versionInfo": "2.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) 2004-2013, Holger Krekel and others, (c) 2006-2009, Armin Rigo, Holger Krekel, Maciej Fijalkowski, (c) 2006-2013, Armin Rigo, Holger Krekel, Maciej Fijalkowski, (c) 2008-2013, holger krekel, (c) 2008-2014, Holger Krekel and others, (c) 2012, Holger Krekel and others, (c) Holger Krekel, copyright 2004-2015 :authors - Holger Krekel, copyright 2012, holger krekel and others",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/execnet@2.1.2"
+     }
+    ]
+   },
+   {
+    "name": "mcp-types",
+    "SPDXID": "SPDXRef-pypi-mcp-types-2.3.0-f370fa",
+    "versionInfo": "2.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mcp-types@2.3.0"
+     }
+    ]
+   },
+   {
+    "name": "pytest",
+    "SPDXID": "SPDXRef-pypi-pytest-26d91a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest"
+     }
+    ]
+   },
+   {
+    "name": "click",
+    "SPDXID": "SPDXRef-pypi-click-8.5.0-06de73",
+    "versionInfo": "8.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright 2001-2006 Gregory P. Ward, Copyright 2002-2006 Python Software Foundation, copyright 2014 Pallets, Copyright 2014 Pallets",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/click@8.5.0"
+     }
+    ]
+   },
+   {
+    "name": "iniconfig",
+    "SPDXID": "SPDXRef-pypi-iniconfig-2.3.1-dd5201",
+    "versionInfo": "2.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/iniconfig@2.3.1"
+     }
+    ]
+   },
+   {
+    "name": "uvicorn",
+    "SPDXID": "SPDXRef-pypi-uvicorn-0.54.0-1be85b",
+    "versionInfo": "0.54.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/uvicorn@0.54.0"
+     }
+    ]
+   },
+   {
+    "name": "opentelemetry-api",
+    "SPDXID": "SPDXRef-pypi-opentelemetry-api-1.45.2-34cf24",
+    "versionInfo": "1.45.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/opentelemetry-api@1.45.2"
+     }
+    ]
+   },
+   {
+    "name": "attrs",
+    "SPDXID": "SPDXRef-pypi-attrs-26.1.0-14b9c5",
+    "versionInfo": "26.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) N Revealed, Copyright ...\" is shown in the HTML footer. Default is True., Copyright (c) 2015 Hynek Schlawack",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/attrs@26.1.0"
+     }
+    ]
+   },
+   {
+    "name": "python-multipart",
+    "SPDXID": "SPDXRef-pypi-python-multipart-0.0.32-d01cde",
+    "versionInfo": "0.0.32",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2012, Andrew Dunham",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/python-multipart@0.0.32"
+     }
+    ]
+   },
+   {
+    "name": "pywin32",
+    "SPDXID": "SPDXRef-pypi-pywin32-312-78fd50",
+    "versionInfo": "312",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "PSF-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pywin32@312"
+     }
+    ]
+   },
+   {
+    "name": "pathspec",
+    "SPDXID": "SPDXRef-pypi-pathspec-821d9f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pathspec"
+     }
+    ]
+   },
+   {
+    "name": "pydantic",
+    "SPDXID": "SPDXRef-pypi-pydantic-2.14.2-39bb7d",
+    "versionInfo": "2.14.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pydantic@2.14.2"
+     }
+    ]
+   },
+   {
+    "name": "colorama",
+    "SPDXID": "SPDXRef-pypi-colorama-0.4.6-1518d3",
+    "versionInfo": "0.4.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2010 Jonathan Hartley, Copyright Jonathan Hartley & Arnon Yaari, 2013-2020, Copyright Jonathan Hartley 2013",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/colorama@0.4.6"
+     }
+    ]
+   },
+   {
+    "name": "mcp",
+    "SPDXID": "SPDXRef-pypi-mcp-00c85e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mcp"
+     }
+    ]
+   },
+   {
+    "name": "lark",
+    "SPDXID": "SPDXRef-pypi-lark-b01275",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/lark"
+     }
+    ]
+   },
+   {
+    "name": "pytest-xdist",
+    "SPDXID": "SPDXRef-pypi-pytest-xdist-deb1ae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest-xdist"
+     }
+    ]
+   },
+   {
+    "name": "httpx2-jsfetch",
+    "SPDXID": "SPDXRef-pypi-httpx2-jsfetch-1.0-344d3b",
+    "versionInfo": "1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2019, Encode OSS Ltd (https://www.encode.io/), Copyright (c) 2026",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/httpx2-jsfetch@1.0"
+     }
+    ]
+   },
+   {
+    "name": "typer",
+    "SPDXID": "SPDXRef-pypi-typer-61eb66",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/typer"
+     }
+    ]
+   },
+   {
+    "name": "starlette",
+    "SPDXID": "SPDXRef-pypi-starlette-1.10.0-317ac7",
+    "versionInfo": "1.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/starlette@1.10.0"
+     }
+    ]
+   },
+   {
+    "name": "typer",
+    "SPDXID": "SPDXRef-pypi-typer-0.27.3-fc9f77",
+    "versionInfo": "0.27.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/typer@0.27.3"
+     }
+    ]
+   },
+   {
+    "name": "pytest",
+    "SPDXID": "SPDXRef-pypi-pytest-9.2.0-1c84eb",
+    "versionInfo": "9.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest@9.2.0"
+     }
+    ]
+   },
+   {
+    "name": "cffi",
+    "SPDXID": "SPDXRef-pypi-cffi-2.1.1-288efd",
+    "versionInfo": "2.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT-0",
+    "copyrightText": "Copyright (c) 1996 Red Hat, Inc., Copyright (c) 1996-2003 Red Hat, Inc., Copyright (c) 1996-2003, 2007, 2008 Red Hat, Inc., Copyright (c) 1996, 1998 Red Hat, Inc., Copyright (c) 1996, 1998, 1999, 2001 Red Hat, Inc., Copyright (c) 1996, 1998, 2001, 2002 Red Hat, Inc., Copyright (c) 2001 John Beniton, Copyright (c) 2002 Bo Thorsen, Copyright (c) 2002 Ranjit Mathew, Copyright (c) 2002 Roger Sayle, Copyright (c) 2009, 2010, 2011, 2012 ARM Ltd., Copyright (c) 2011, 2014, 2019, 2021 Anthony Green, Copyright (c) 2024, Rose Davidson, copyright 2012-2025, Armin Rigo, Maciej Fijalkowski",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/cffi@2.1.1"
+     }
+    ]
+   },
+   {
+    "name": "mdurl",
+    "SPDXID": "SPDXRef-pypi-mdurl-0.1.2-d4ab9d",
+    "versionInfo": "0.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2015 Vitaly Puzrin, Alex Kocharin, Copyright (c) 2021 Taneli Hukkinen, Copyright Joyent, Inc. and other Node contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mdurl@0.1.2"
+     }
+    ]
+   },
+   {
+    "name": "jsonschema",
+    "SPDXID": "SPDXRef-pypi-jsonschema-4.26.0-6636d4",
+    "versionInfo": "4.26.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2012 Julian Berman, Copyright (c) 2013 Julian Berman, Julian Berman copyright 2013",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/jsonschema@4.26.0"
+     }
+    ]
+   },
+   {
+    "name": "anyio",
+    "SPDXID": "SPDXRef-pypi-anyio-4.15.1-3674a5",
+    "versionInfo": "4.15.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Alex Gronholm copyright 2018, Copyright (c) 2018 Alex Gronholm",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/anyio@4.15.1"
+     }
+    ]
+   },
+   {
+    "name": "pytest-xdist",
+    "SPDXID": "SPDXRef-pypi-pytest-xdist-3.8.0-86b10a",
+    "versionInfo": "3.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2010 Holger Krekel and contributors, copyright 2010, holger krekel and contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest-xdist@3.8.0"
+     }
+    ]
+   },
+   {
+    "name": "h11",
+    "SPDXID": "SPDXRef-pypi-h11-0.16.0-ed3b3f",
+    "versionInfo": "0.16.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2006-2008 Scipy Developers, Copyright (c) 2006, Jonathan E. Taylor, Copyright (c) 2009-2012 Statsmodels Developers, Copyright (c) 2016 Nathaniel J. Smith <njs@pobox.com> and other contributors, Copyright 2007, 2008 Chris Wanstrath chris@ozmm.org, copyright 2016, Nathaniel J. Smith",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/h11@0.16.0"
+     }
+    ]
+   },
+   {
+    "name": "annotated-types",
+    "SPDXID": "SPDXRef-pypi-annotated-types-0.8.0-209c03",
+    "versionInfo": "0.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2022 the contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/annotated-types@0.8.0"
+     }
+    ]
+   },
+   {
+    "name": "pydantic",
+    "SPDXID": "SPDXRef-pypi-pydantic-575d4c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pydantic"
+     }
+    ]
+   },
+   {
+    "name": "pygments",
+    "SPDXID": "SPDXRef-pypi-pygments-2.21.0-9e47e4",
+    "versionInfo": "2.21.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-2-Clause",
+    "copyrightText": "(c) 2000-2003 by cYcnus visit www.cYcnus.de, (c) 2006-present by Georg Brandl, Matthaus Chajdas and contributors, (c) 2010 Jeremy Ashkenas, DocumentCloud Inc., (c) 2010 Jeremy Ashkenas, DocumentCloud Inc. Underscore, (c) 2014, (c) 2014 Comment.Multiline Text.Whitespace, (c) 2015 Andreas Rossberg, (c) Copyright 1999, Artran, Inc., (c) Copyright 2006 by myself, (c) Copyright 2006 Salvatore Filippone University of Rome Tor Vergata, (c) Copyright 2006-present, Georg Brandl and Pygments contributors, (c) FSF., (c) Justin Fletcher, (c) Justin Fletcher, 1998, (c) Justin Fletcher, 1998 40, (c) Name.Entity 1998-2009, Modelica Association, (c) Name.Entity Copyright 2006 by Text Punctuation, (c) openEHR Foundation, (c) V End, Copyright (c) 1984, 1985, 1988, 2010 Howard Trickey and Oren Patashnik, Copyright (c) 1984, 1985, 1988, 2010 Howard Trickey and Oren Patashnik. Unlimited, Copyright (c) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc., Copyright (c) 1985-1986, 1992, 1994-1995, 1999-2015 Free Software, Copyright (c) 1985-1986, 1992, 1994-1995, 1999-2015 Free Software Foundation, Inc., Copyright (c) 1991, 1992, Jos van de Woude, jvdwoude@hut.nl, Copyright (c) 1991, Jos van der Woude, jvdwoude@hut.nl, Copyright (c) 1993-2003 Yukihiro Matsumoto, Copyright (c) 1994-5 by the Regents of the University of California, Copyright (c) 1995-2004 Functional Objects, Inc., Copyright (c) 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc., Copyright (c) 1996-2016 by the PostgreSQL Global Development Group, Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005 Comment.Single, Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005 Free Software Foundation, Inc., Copyright (c) 1997 Borland International, Copyright (c) 1998 Comment, Copyright (c) 1998-2009, Modelica Association, Copyright (c) 1998,1999,2000,2001,2002 Tal Davidson, Copyright (c) 2000 Information-technology Promotion Agency, Japan, Copyright (c) 2000 Network Applied Communication Laboratory, Inc., Copyright (c) 2003, 04 by Johannes Barre, Copyright (c) 2003, MetaQuotes Software Corp., copyright (c) 2004 by Andre Simon, Copyright (c) 2004, 2005, 2006 Aelitis, Copyright (c) 2005 Free Software Foundation, Inc, Copyright (c) 2005-2006 by, Copyright (c) 2005-2007 Terence Parr, Copyright (c) 2006 Kashia Buch (kashia@vfemail.net), Fabian Buch (fabian@fabian-buch.de), Copyright (c) 2006-2022 by the, Copyright (c) 2006, Manni, Copyright (c) 2007-2008 - INRIA, Copyright (c) 2008 Silken, Copyright (c) 2008 Slava Pestov, Copyright (c) 2008 The Regents of the University of California, Copyright (c) 2008-2011 The Regents of the University of California, Copyright (c) 2008, Brian Frank and Andy Frank, Copyright (c) 2009 Benjamin Kowarsch, Copyright (c) 2009 The R Foundation for Statistical Computing, Copyright (c) 2009 The R Foundation for Statistical Computing ISBN, Copyright (c) 2009-2010, Gary L. Cutler, Copyright (c) 2009-2010, Gary L. Cutler GC0410, Copyright (c) 2010, Gary L. Cutler, Copyright (c) 2011 Nokia Corporation and/or its subsidiary(-ies), Copyright (c) 2012-2013 Nenad Rakocevic, Copyright (c) 2014 Fullstack.io, Copyright (c) 2015 DH electronics GmbH, Copyright (C) 2015 DH electronics GmbH, Copyright (c) 2015 Georg Brandl, Copyright (c) 2017 Johannes Holzl, Copyright (c) 2018 Marek Vasut <marex@denx.de>, Copyright (c) 2023 Roblox Corporation, Copyright (c) Curve.Fi, 2020-2023, Copyright (c) INRIA - Serge, Copyright (c) Rich Hickey, Copyright 1996 Institut National de Recherche en Informatique, Copyright 1997 University of Cambridge, Copyright 1999-2011, Copyright 1999-2011 Comment, Copyright 2004-2008 Jean Privat <jean@pryen.org>, Copyright 2005 Brian Alliet, copyright 2006-2014, MetaQuotes Software Corp, Copyright 2006-2014, MetaQuotes Software Corp., Copyright 2006-2014, MetaQuotes Software Corp. http://www.metaquotes.net, Copyright 2006-2020 by the Pygments team, Copyright 2006-2022 by the Pygments team, copyright 2006-2024, Georg Brandl and Pygments contributors, Copyright 2006-present by r'the Pygments team, Copyright 2006-present by the Pygments team, copyright 2006. Text, copyright 2006. Uploaded, Copyright 2007-2012 LassoSoft Inc., Copyright 2007-2013 by the Sphinx team, Copyright 2007-2021 by the Sphinx team, Copyright 2008, 280 North, Inc., Copyright 2009-2013, MetaQuotes Software Corp., Copyright 2009-2013, MetaQuotes Software Corp. http://www.mql4.com, Copyright 2012 by Luis Majano and Ortus Solutions, Corp www.gocontentbox.org www.luismajano.com www.ortussolutions.com, Copyright 2012 Nokia Siemens Networks Oyj, Copyright 2012-2013 Alexis Laferriere <alexis.laf@xymus.net>, Copyright 2012-2018 Manas Technology Solutions, Copyright 2013 Alexis Laferriere <alexis.laf@xymus.net>, Copyright 2013 Matthieu Lucas <lucasmatthieu@gmail.com>, Copyright 2013 Wikimedia, Copyright 2014 Alexis Laferriere <alexis.laf@xymus.net>, Copyright 2014 Lucas Bajolet <r4pass@hotmail.com>, Copyright 2015 Ruben De Smet, Copyright 2020 Microsoft Research, Copyright 2021 by the Pygments team, Copyright 2023 The Redblox Authors, Copyright content Knut Muller, Alexander Wolf, Uwe Ritzschke, Paul-Robert Achcenich, 2006, copyright Core CorrespondenceScrolls, Murphy (c) 2000-2003, Platform Copyright 2012 by Luis Majano and Ortus Solutions, Corp www.gocontentbox.org www.luismajano.com www.ortussolutions.com Apache, Portions (c) International Organization for Standardization 1986, Portions created by the Initial Developer are Copyright (c) 1998 the Initial Developer",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pygments@2.21.0"
+     }
+    ]
+   },
+   {
+    "name": "referencing",
+    "SPDXID": "SPDXRef-pypi-referencing-0.37.0-c0b6b8",
+    "versionInfo": "0.37.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2022 Julian Berman",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/referencing@0.37.0"
+     }
+    ]
+   },
+   {
+    "name": "markdown-it-py",
+    "SPDXID": "SPDXRef-pypi-markdown-it-py-4.2.0-cda9e0",
+    "versionInfo": "4.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2014 Vitaly Puzrin, Alex Kocharin, Copyright (c) 2020, Copyright 2014 Mathias Bynens https://mathiasbynens.be, Copyright 2021 Taneli Hukkinen",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/markdown-it-py@4.2.0"
+     }
+    ]
+   },
+   {
+    "name": "rpds-py",
+    "SPDXID": "SPDXRef-pypi-rpds-py-2026.9.1-83394b",
+    "versionInfo": "2026.9.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2022 Tobias Gustafsson, Copyright (c) 2023 Julian Berman",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/rpds-py@2026.9.1"
+     }
+    ]
+   },
+   {
+    "name": "typing-inspection",
+    "SPDXID": "SPDXRef-pypi-typing-inspection-0.4.4-2165a7",
+    "versionInfo": "0.4.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Pydantic Services Inc. 2025",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/typing-inspection@0.4.4"
+     }
+    ]
+   },
+   {
+    "name": "pyyaml",
+    "SPDXID": "SPDXRef-pypi-pyyaml-a53df5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyyaml"
+     }
+    ]
+   },
+   {
+    "name": "pathspec",
+    "SPDXID": "SPDXRef-pypi-pathspec-1.1.1-546d89",
+    "versionInfo": "1.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MPL-2.0",
+    "copyrightText": "Copyright (c) 2013-2026 Caleb P. Burns",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pathspec@1.1.1"
+     }
+    ]
+   },
+   {
+    "name": "readchar",
+    "SPDXID": "SPDXRef-pypi-readchar-4.2.2-4d28bc",
+    "versionInfo": "4.2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2014-2022 Miguel Angel Garcia, Copyright (c) 2022 Miguel Angel Garcia",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/readchar@4.2.2"
+     }
+    ]
+   },
+   {
+    "name": "truststore",
+    "SPDXID": "SPDXRef-pypi-truststore-0.10.5-718b2a",
+    "versionInfo": "0.10.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/truststore@0.10.5"
+     }
+    ]
+   },
+   {
+    "name": "pytest-cov",
+    "SPDXID": "SPDXRef-pypi-pytest-cov-b60d7e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest-cov"
+     }
+    ]
+   },
+   {
+    "name": "rich",
+    "SPDXID": "SPDXRef-pypi-rich-15.0.0-3120f6",
+    "versionInfo": "15.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2020 Will McGugan, Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/rich@15.0.0"
+     }
+    ]
+   },
+   {
+    "name": "mcp",
+    "SPDXID": "SPDXRef-pypi-mcp-2.3.0-3982be",
+    "versionInfo": "2.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mcp@2.3.0"
+     }
+    ]
+   },
+   {
+    "name": "pytest-cov",
+    "SPDXID": "SPDXRef-pypi-pytest-cov-7.1.0-936b76",
+    "versionInfo": "7.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2010 Meme Dough",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest-cov@7.1.0"
+     }
+    ]
+   },
+   {
+    "name": "cryptography",
+    "SPDXID": "SPDXRef-pypi-cryptography-50.0.2-c24968",
+    "versionInfo": "50.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 OR BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/cryptography@50.0.2"
+     }
+    ]
+   },
+   {
+    "name": "packaging",
+    "SPDXID": "SPDXRef-pypi-packaging-0d9f96",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/packaging"
+     }
+    ]
+   },
+   {
+    "name": "pluggy",
+    "SPDXID": "SPDXRef-pypi-pluggy-1.7.0-bf2925",
+    "versionInfo": "1.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pluggy@1.7.0"
+     }
+    ]
+   },
+   {
+    "name": "typing-extensions",
+    "SPDXID": "SPDXRef-pypi-typing-extensions-4.16.0-229677",
+    "versionInfo": "4.16.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Python-2.0 AND GPL-1.0-or-later AND Python-2.0 AND BSD-3-Clause AND Python-2.0 AND BSD-3-Clause AND 0BSD",
+    "copyrightText": "Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands, Copyright (c) 1995-2001 Corporation for National Research Initiatives, Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Python Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/typing-extensions@4.16.0"
+     }
+    ]
+   },
+   {
+    "name": "pyjwt",
+    "SPDXID": "SPDXRef-pypi-pyjwt-2.15.1-50de7a",
+    "versionInfo": "2.15.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyjwt@2.15.1"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/init",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-init-9b3254085494b55a0f7c4c2b3d2d52cc712ce370-e87b1a",
+    "versionInfo": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/init@9b3254085494b55a0f7c4c2b3d2d52cc712ce370"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/analyze",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-analyze-9b3254085494b55a0f7c4c2b3d2d52cc712ce370-50322e",
+    "versionInfo": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/analyze@9b3254085494b55a0f7c4c2b3d2d52cc712ce370"
+     }
+    ]
+   },
+   {
+    "name": "DavidAnson/markdownlint-cli2-action",
+    "SPDXID": "SPDXRef-githubactions-DavidAnson-markdownlint-cli2-action-696eb3f2509270d7b882d2aa68347bc676e7af34-c95683",
+    "versionInfo": "696eb3f2509270d7b882d2aa68347bc676e7af34",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/DavidAnson/markdownlint-cli2-action@696eb3f2509270d7b882d2aa68347bc676e7af34"
+     }
+    ]
+   },
+   {
+    "name": "github/gh-aw-actions/setup",
+    "SPDXID": "SPDXRef-githubactions-githubgh-aw-actions-setup-924af5fdc64061cfbf66fb584c8b07e2ac230c60-1b1368",
+    "versionInfo": "924af5fdc64061cfbf66fb584c8b07e2ac230c60",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/gh-aw-actions/setup@924af5fdc64061cfbf66fb584c8b07e2ac230c60"
+     }
+    ]
+   },
+   {
+    "name": "actions/stale",
+    "SPDXID": "SPDXRef-githubactions-actions-stale-4391f3da665fdf50b6810c1a66712fb9ba21aa93-dd429a",
+    "versionInfo": "4391f3da665fdf50b6810c1a66712fb9ba21aa93",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-949feb2413d6458794dcd2491c4babbbce0c15c1-3259db",
+    "versionInfo": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "versionInfo": "3a2844b7e9c422d3c10d287c895573f7108da1b3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a-ac548b",
+    "versionInfo": "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache/save",
+    "SPDXID": "SPDXRef-githubactions-actionscache-save-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8fc7ab",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache/restore",
+    "SPDXID": "SPDXRef-githubactions-actionscache-restore-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8830a0",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "versionInfo": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
+     }
+    ]
+   },
+   {
+    "name": "github/gh-aw-actions/setup",
+    "SPDXID": "SPDXRef-githubactions-githubgh-aw-actions-setup-5e508589e03a7757a7e05b26e834292f5445bfb6-fd115b",
+    "versionInfo": "5e508589e03a7757a7e05b26e834292f5445bfb6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/gh-aw-actions/setup@5e508589e03a7757a7e05b26e834292f5445bfb6"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-9000827ccba6bdab643e8b6fd33ac0654aef8333-6c80c5",
+    "versionInfo": "9000827ccba6bdab643e8b6fd33ac0654aef8333",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-python",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-python-5fda3b95a4ea91299a34e894583c3862153e4b97-42919c",
+    "versionInfo": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97"
+     }
+    ]
+   },
+   {
+    "name": "github/gh-aw-actions/setup-cli",
+    "SPDXID": "SPDXRef-githubactions-githubgh-aw-actions-setup-cli-5e508589e03a7757a7e05b26e834292f5445bfb6-1e8723",
+    "versionInfo": "5e508589e03a7757a7e05b26e834292f5445bfb6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/gh-aw-actions/setup-cli@5e508589e03a7757a7e05b26e834292f5445bfb6"
+     }
+    ]
+   },
+   {
+    "name": "astral-sh/setup-uv",
+    "SPDXID": "SPDXRef-githubactions-astral-sh-setup-uv-68559e99cc807c1eb7e9238fd43a15bba460eec2-b6888f",
+    "versionInfo": "68559e99cc807c1eb7e9238fd43a15bba460eec2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2"
+     }
+    ]
+   },
+   {
+    "name": "actions/configure-pages",
+    "SPDXID": "SPDXRef-githubactions-actions-configure-pages-45bfe0192ca1faeb007ade9deae92b16b8254a0d-227d52",
+    "versionInfo": "45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-pages-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-pages-artifact-fc324d3547104276b827a68afc52ff2a11cc49c9-e9ba56",
+    "versionInfo": "fc324d3547104276b827a68afc52ff2a11cc49c9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9"
+     }
+    ]
+   },
+   {
+    "name": "actions/deploy-pages",
+    "SPDXID": "SPDXRef-githubactions-actions-deploy-pages-368f82528645a54fb793d4d04e342629a3f51346-73882c",
+    "versionInfo": "368f82528645a54fb793d4d04e342629a3f51346",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-dotnet",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-dotnet-0f4a354dd5547a28c70b7853dbd95d5b67886e73-23a46f",
+    "versionInfo": "0f4a354dd5547a28c70b7853dbd95d5b67886e73",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-dotnet@0f4a354dd5547a28c70b7853dbd95d5b67886e73"
+     }
+    ]
+   },
+   {
+    "name": "mcp",
+    "SPDXID": "SPDXRef-pypi-mcp-9b0a95",
+    "versionInfo": ">= 2.2.0,< 3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mcp"
+     }
+    ]
+   },
+   {
+    "name": "packaging",
+    "SPDXID": "SPDXRef-pypi-packaging-bb4e91",
+    "versionInfo": ">= 23.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/packaging"
+     }
+    ]
+   },
+   {
+    "name": "readchar",
+    "SPDXID": "SPDXRef-pypi-readchar-3adc17",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/readchar"
+     }
+    ]
+   },
+   {
+    "name": "pathspec",
+    "SPDXID": "SPDXRef-pypi-pathspec-a56a12",
+    "versionInfo": ">= 0.12.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pathspec"
+     }
+    ]
+   },
+   {
+    "name": "click",
+    "SPDXID": "SPDXRef-pypi-click-bfdfb3",
+    "versionInfo": ">= 8.2.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/click"
+     }
+    ]
+   },
+   {
+    "name": "lark",
+    "SPDXID": "SPDXRef-pypi-lark-e0aebe",
+    "versionInfo": ">= 1.3.1,< 2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/lark"
+     }
+    ]
+   },
+   {
+    "name": "rich",
+    "SPDXID": "SPDXRef-pypi-rich-af1359",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/rich"
+     }
+    ]
+   },
+   {
+    "name": "pyyaml",
+    "SPDXID": "SPDXRef-pypi-pyyaml-710ec0",
+    "versionInfo": ">= 6.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyyaml"
+     }
+    ]
+   },
+   {
+    "name": "json5",
+    "SPDXID": "SPDXRef-pypi-json5-7dee6b",
+    "versionInfo": ">= 0.13.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/json5"
+     }
+    ]
+   },
+   {
+    "name": "typer",
+    "SPDXID": "SPDXRef-pypi-typer-00d9d1",
+    "versionInfo": ">= 0.24.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/typer"
+     }
+    ]
+   },
+   {
+    "name": "pydantic",
+    "SPDXID": "SPDXRef-pypi-pydantic-68708c",
+    "versionInfo": ">= 2.13.0,< 3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pydantic"
+     }
+    ]
+   },
+   {
+    "name": "com.github.github/spec-kit",
+    "SPDXID": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/github/spec-kit",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/github/spec-kit@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-httpx2-2.16.0-280fcb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pyyaml-6.0.3-3138f1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-sse-starlette-3.6.0-161d02",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-click-1994eb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pydantic-core-2.50.2-e93149",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-coverage-7.17.0-9fc015",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-httpcore2-2.16.0-f52d23",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-json5-0.17.3-620482",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-jsonschema-specifications-2025.9.1-c1f6b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-idna-3.20-4a88d1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-annotated-doc-0.0.5-69a9d6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-shellingham-1.5.4-8095b7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-lark-1.3.1-f8c921",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pycparser-3.12-a7d40b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-json5-ce93e2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-packaging-26.3-69dea4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-execnet-2.1.2-5b596e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-mcp-types-2.3.0-f370fa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-26d91a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-click-8.5.0-06de73",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-iniconfig-2.3.1-dd5201",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-uvicorn-0.54.0-1be85b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-opentelemetry-api-1.45.2-34cf24",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-attrs-26.1.0-14b9c5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-python-multipart-0.0.32-d01cde",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pywin32-312-78fd50",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pathspec-821d9f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pydantic-2.14.2-39bb7d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-colorama-0.4.6-1518d3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-mcp-00c85e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-lark-b01275",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-xdist-deb1ae",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-httpx2-jsfetch-1.0-344d3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-typer-61eb66",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-starlette-1.10.0-317ac7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-typer-0.27.3-fc9f77",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-9.2.0-1c84eb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-cffi-2.1.1-288efd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-mdurl-0.1.2-d4ab9d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-jsonschema-4.26.0-6636d4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-anyio-4.15.1-3674a5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-xdist-3.8.0-86b10a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-h11-0.16.0-ed3b3f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-annotated-types-0.8.0-209c03",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pydantic-575d4c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pygments-2.21.0-9e47e4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-referencing-0.37.0-c0b6b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-markdown-it-py-4.2.0-cda9e0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-rpds-py-2026.9.1-83394b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-typing-inspection-0.4.4-2165a7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pyyaml-a53df5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pathspec-1.1.1-546d89",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-readchar-4.2.2-4d28bc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-truststore-0.10.5-718b2a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-cov-b60d7e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-rich-15.0.0-3120f6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-mcp-2.3.0-3982be",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-cov-7.1.0-936b76",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-cryptography-50.0.2-c24968",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-packaging-0d9f96",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pluggy-1.7.0-bf2925",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-typing-extensions-4.16.0-229677",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pyjwt-2.15.1-50de7a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-astral-sh-setup-uv-68559e99cc807c1eb7e9238fd43a15bba460eec2-b6888f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-deploy-pages-368f82528645a54fb793d4d04e342629a3f51346-73882c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-dotnet-0f4a354dd5547a28c70b7853dbd95d5b67886e73-23a46f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-mcp-9b0a95",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-lark-e0aebe",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-9000827ccba6bdab643e8b6fd33ac0654aef8333-6c80c5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-packaging-bb4e91",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-typer-00d9d1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubgh-aw-actions-setup-5e508589e03a7757a7e05b26e834292f5445bfb6-fd115b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-python-5fda3b95a4ea91299a34e894583c3862153e4b97-42919c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-DavidAnson-markdownlint-cli2-action-696eb3f2509270d7b882d2aa68347bc676e7af34-c95683",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubgh-aw-actions-setup-cli-5e508589e03a7757a7e05b26e834292f5445bfb6-1e8723",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-readchar-3adc17",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-json5-7dee6b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a-ac548b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-init-9b3254085494b55a0f7c4c2b3d2d52cc712ce370-e87b1a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubgh-aw-actions-setup-924af5fdc64061cfbf66fb584c8b07e2ac230c60-1b1368",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-rich-af1359",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-click-bfdfb3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pydantic-68708c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-analyze-9b3254085494b55a0f7c4c2b3d2d52cc712ce370-50322e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-stale-4391f3da665fdf50b6810c1a66712fb9ba21aa93-dd429a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actionscache-save-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8fc7ab",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actionscache-restore-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8830a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pathspec-a56a12",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-pypi-pyyaml-710ec0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-949feb2413d6458794dcd2491c4babbbce0c15c1-3259db",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-configure-pages-45bfe0192ca1faeb007ade9deae92b16b8254a0d-227d52",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-pages-artifact-fc324d3547104276b827a68afc52ff2a11cc49c9-e9ba56",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-github-spec-kit-main-9e4cff",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

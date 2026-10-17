@@ -1,0 +1,2575 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.alibaba/druid",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/27582d1e-993e-4de2-85f8-da2a4085a84f",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:27:13Z"
+  },
+  "packages": [
+   {
+    "name": "com.dameng:DmJdbcDriver18",
+    "SPDXID": "SPDXRef-maven-com.dameng-DmJdbcDriver18-8.1.3.62-d33e72",
+    "versionInfo": "8.1.3.62",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.dameng/DmJdbcDriver18@8.1.3.62"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.calcite:calcite-core",
+    "SPDXID": "SPDXRef-maven-org.apache.calcite-calcite-core-1.26.0-2058cf",
+    "versionInfo": "1.26.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.calcite/calcite-core@1.26.0"
+     }
+    ]
+   },
+   {
+    "name": "org.hibernate:hibernate-core",
+    "SPDXID": "SPDXRef-maven-org.hibernate-hibernate-core-5.6.9-ff0ce3",
+    "versionInfo": "5.6.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hibernate/hibernate-core@5.6.9"
+     }
+    ]
+   },
+   {
+    "name": "org.nutz:nutz",
+    "SPDXID": "SPDXRef-maven-org.nutz-nutz-1.r.55-4be0dc",
+    "versionInfo": "1.r.55",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.nutz/nutz@1.r.55"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-generator-annprocess",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-edf573",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-test",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-test-4.3.20.RELEASE-458492",
+    "versionInfo": "4.3.20.RELEASE",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-test@4.3.20.RELEASE"
+     }
+    ]
+   },
+   {
+    "name": "net.sourceforge.jtds:jtds",
+    "SPDXID": "SPDXRef-maven-net.sourceforge.jtds-jtds-1.3.0-4b5de9",
+    "versionInfo": "1.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NOASSERTION",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/net.sourceforge.jtds/jtds@1.3.0"
+     }
+    ]
+   },
+   {
+    "name": "javax.servlet:javax.servlet-api",
+    "SPDXID": "SPDXRef-maven-javax.servlet-javax.servlet-api-3.1.0-85ce12",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997-2010 Oracle and/or its affiliates, Copyright (c) 1997-2010 Oracle and/or its affiliates., Copyright (c) 1997-2010 Oracle and/or its affiliates. All rights reserved., Copyright (c) 1997-2013 Oracle and/or its affiliates, Copyright (c) 1997-2013 Oracle and/or its affiliates., Copyright (c) 1999-2013, http://www.oracle.com' Oracle and/or its affiliates, Copyright (c) 2008-2010 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2009-2010 Oracle and/or its affiliates. All rights reserved., Copyright 1999-2013, http://www.oracle.com' Oracle and/or its affiliates., Copyright 2004 The Apache Software Foundation, copyrighted by the Free Software Foundation, Portions Copyright (c) 1999-2002 The Apache Software Foundation, Portions Copyright 1999-2002 The Apache Software Foundation.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0"
+     }
+    ]
+   },
+   {
+    "name": "commons-dbcp:commons-dbcp",
+    "SPDXID": "SPDXRef-maven-commons-dbcp-commons-dbcp-1.4-7a349d",
+    "versionInfo": "1.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2010 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-dbcp/commons-dbcp@1.4"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.ibatis:ibatis-sqlmap",
+    "SPDXID": "SPDXRef-maven-org.apache.ibatis-ibatis-sqlmap-2.3.4.726-d8c122",
+    "versionInfo": "2.3.4.726",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2004 Clinton Begin",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.ibatis/ibatis-sqlmap@2.3.4.726"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-core",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-core-4.3.20.RELEASE-680601",
+    "versionInfo": "4.3.20.RELEASE",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-github-NOASSERTION",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <http://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2018 Pivotal, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-core@4.3.20.RELEASE"
+     }
+    ]
+   },
+   {
+    "name": "org.hibernate:hibernate-c3p0",
+    "SPDXID": "SPDXRef-maven-org.hibernate-hibernate-c3p0-5.6.9-c22186",
+    "versionInfo": "5.6.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hibernate/hibernate-c3p0@5.6.9"
+     }
+    ]
+   },
+   {
+    "name": "c3p0:c3p0",
+    "SPDXID": "SPDXRef-maven-c3p0-c3p0-0.9.1.2-7b04a0",
+    "versionInfo": "0.9.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-3.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/c3p0/c3p0@0.9.1.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.logging.log4j:log4j-core",
+    "SPDXID": "SPDXRef-maven-org.apache.logging.log4j-log4j-core-2.17.0-795c27",
+    "versionInfo": "2.17.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 1999-2005 The Apache Software Foundation, Copyright 1999-2012 Apache Software Foundation, Copyright 2005-2006 Tim Fennell",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.derby:derby",
+    "SPDXID": "SPDXRef-maven-org.apache.derby-derby-10.12.1.1-99b2a1",
+    "versionInfo": "10.12.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) Copyright 1997,2004 International Business Machines Corporation, (c) Copyright IBM Corp. 2003, Copyright (c) 1995-2008 International Business Machines Corporation and others, Copyright (c) 2002,2003, Stefan Haustein, Oberhausen, Rhld., Germany, Copyright (c) OSGi Alliance (2000, 2007), Copyright 1997, 2015 The Apache Software Foundation, Copyright 2004-2015 The Apache Software Foundation, Copyright 2008 The Apache Software Foundation, copyright 2009 by www.imdict.net, Copyright 2013 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.derby/derby@10.12.1.1"
+     }
+    ]
+   },
+   {
+    "name": "org.postgresql:postgresql",
+    "SPDXID": "SPDXRef-maven-org.postgresql-postgresql-42.2.18-57f446",
+    "versionInfo": "42.2.18",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-2-Clause",
+    "copyrightText": "Copyright (c) 1997, PostgreSQL Global Development Group, Copyright (c) 2003-2020, PostgreSQL Global Developme nt Group Bundle-Descriptiona, Copyright 2017, OnGres, Copyright 2017, OnGres., Copyright 2019, OnGres, Copyright 2019, OnGres.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.postgresql/postgresql@42.2.18"
+     }
+    ]
+   },
+   {
+    "name": "org.mybatis:mybatis",
+    "SPDXID": "SPDXRef-maven-org.mybatis-mybatis-3.4.0-9e11ba",
+    "versionInfo": "3.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2015 Shigeru Chiba, Copyright (c) 2004, Drew Davidson and Luke Blanshard, Copyright 2009-2016 the original author or authors, Copyright 2010 Adam Gent, Copyright 2010 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mybatis/mybatis@3.4.0"
+     }
+    ]
+   },
+   {
+    "name": "com.h2database:h2",
+    "SPDXID": "SPDXRef-maven-com.h2database-h2-1.4.199-906989",
+    "versionInfo": "1.4.199",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0 OR MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.h2database/h2@1.4.199"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba:dubbo",
+    "SPDXID": "SPDXRef-maven-com.alibaba-dubbo-2.5.3-722d5a",
+    "versionInfo": "2.5.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba/dubbo@2.5.3"
+     }
+    ]
+   },
+   {
+    "name": "com.aliyun.odps:odps-sdk-udf",
+    "SPDXID": "SPDXRef-maven-com.aliyun.odps-odps-sdk-udf-0.43.3-public-430905",
+    "versionInfo": "0.43.3-public",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.aliyun.odps/odps-sdk-udf@0.43.3-public"
+     }
+    ]
+   },
+   {
+    "name": "org.junit.jupiter:junit-jupiter",
+    "SPDXID": "SPDXRef-maven-org.junit.jupiter-junit-jupiter-0f4ea0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter"
+     }
+    ]
+   },
+   {
+    "name": "commons-logging:commons-logging",
+    "SPDXID": "SPDXRef-maven-commons-logging-commons-logging-1.2-77062b",
+    "versionInfo": "1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2003-2014 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.calcite:calcite-druid",
+    "SPDXID": "SPDXRef-maven-org.apache.calcite-calcite-druid-1.26.0-f5f95d",
+    "versionInfo": "1.26.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.calcite/calcite-druid@1.26.0"
+     }
+    ]
+   },
+   {
+    "name": "com.oceanbase:oceanbase-client",
+    "SPDXID": "SPDXRef-maven-com.oceanbase-oceanbase-client-2.4.12-7b8ed2",
+    "versionInfo": "2.4.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.oceanbase/oceanbase-client@2.4.12"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-orm",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-orm-4.3.20.RELEASE-fc9be8",
+    "versionInfo": "4.3.20.RELEASE",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-orm@4.3.20.RELEASE"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-30.1-jre-017e2f",
+    "versionInfo": "30.1-jre",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava@30.1-jre"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-core",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-core-451565",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-core"
+     }
+    ]
+   },
+   {
+    "name": "org.junit.vintage:junit-vintage-engine",
+    "SPDXID": "SPDXRef-maven-org.junit.vintage-junit-vintage-engine-36843f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.junit.vintage/junit-vintage-engine"
+     }
+    ]
+   },
+   {
+    "name": "com.mysql:mysql-connector-j",
+    "SPDXID": "SPDXRef-maven-com.mysql-mysql-connector-j-8.0.33-72c629",
+    "versionInfo": "8.0.33",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0 AND GPL-1.0-or-later AND GPL-2.0-only AND (GPL-2.0-only OR LGPL-2.1-only) AND GPL-3.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND (LGPL-3.0-or-later OR GPL-2.0-or-later) AND LicenseRef-github-NOASSERTION",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1991-2014 Unicode, Inc., Copyright (c) 1991, 1999 Free Software Foundation, Inc., Copyright (c) 2000, 2023, Oracle and/or its affiliates, Copyright (c) 2007, 2023, Oracle and/or its affiliates, Copyright (c) 2014, 2020, Oracle and/or its affiliates, Copyright (c) 2017, 2023, Oracle and/or its affiliates, Copyright (c) 2019 Machinery, Copyright (c) 2019, 2021, Oracle and/or its affiliates, Copyright 2008 Google Inc., copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.mysql/mysql-connector-j@8.0.33"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.curator:curator-recipes",
+    "SPDXID": "SPDXRef-maven-org.apache.curator-curator-recipes-4.2.0-de7473",
+    "versionInfo": "4.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT",
+    "copyrightText": "Copyright 2011-2019 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.curator/curator-recipes@4.2.0"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-ibatis",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-ibatis-2.0.8-fa5108",
+    "versionInfo": "2.0.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-ibatis@2.0.8"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.kylin:kylin-jdbc",
+    "SPDXID": "SPDXRef-maven-org.apache.kylin-kylin-jdbc-2.0.0-845b4a",
+    "versionInfo": "2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.kylin/kylin-jdbc@2.0.0"
+     }
+    ]
+   },
+   {
+    "name": "io.trino:trino-jdbc",
+    "SPDXID": "SPDXRef-maven-io.trino-trino-jdbc-352-cbdd27",
+    "versionInfo": "352",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.trino/trino-jdbc@352"
+     }
+    ]
+   },
+   {
+    "name": "org.hamcrest:hamcrest",
+    "SPDXID": "SPDXRef-maven-org.hamcrest-hamcrest-2.2-580428",
+    "versionInfo": "2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hamcrest/hamcrest@2.2"
+     }
+    ]
+   },
+   {
+    "name": "javax.transaction:jta",
+    "SPDXID": "SPDXRef-maven-javax.transaction-jta-1.1-10e55e",
+    "versionInfo": "1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "CDDL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/javax.transaction/jta@1.1"
+     }
+    ]
+   },
+   {
+    "name": "com.jolbox:bonecp",
+    "SPDXID": "SPDXRef-maven-com.jolbox-bonecp-0.8.0-9cac0a",
+    "versionInfo": "0.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.jolbox/bonecp@0.8.0"
+     }
+    ]
+   },
+   {
+    "name": "simple-jndi:simple-jndi",
+    "SPDXID": "SPDXRef-maven-simple-jndi-simple-jndi-0.11.4.1-6e6289",
+    "versionInfo": "0.11.4.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2003-2008, Henri Yandell",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/simple-jndi/simple-jndi@0.11.4.1"
+     }
+    ]
+   },
+   {
+    "name": "ru.yandex.clickhouse:clickhouse-jdbc",
+    "SPDXID": "SPDXRef-maven-ru.yandex.clickhouse-clickhouse-jdbc-0.2.4-f622b4",
+    "versionInfo": "0.2.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/ru.yandex.clickhouse/clickhouse-jdbc@0.2.4"
+     }
+    ]
+   },
+   {
+    "name": "com.jolbox:bonecp-spring",
+    "SPDXID": "SPDXRef-maven-com.jolbox-bonecp-spring-0.8.0-80e197",
+    "versionInfo": "0.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.jolbox/bonecp-spring@0.8.0"
+     }
+    ]
+   },
+   {
+    "name": "com.github.housepower:clickhouse-native-jdbc-shaded",
+    "SPDXID": "SPDXRef-maven-com.github.housepower-clickhouse-native-jdbc-shaded-2.5.6-62e9ae",
+    "versionInfo": "2.5.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.housepower/clickhouse-native-jdbc-shaded@2.5.6"
+     }
+    ]
+   },
+   {
+    "name": "com.oracle.ojdbc:ojdbc8",
+    "SPDXID": "SPDXRef-maven-com.oracle.ojdbc-ojdbc8-19.3.0.0-9c55ce",
+    "versionInfo": "19.3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-scancode-oracle-free-2018",
+    "copyrightText": "Copyright (c) 2003, 2015, Oracle and/or its affiliates, Copyright (c) 2003, 2015, Oracle and/or its affiliates., Copyright 2003 Oracle Corporation, Copyright 2003 Oracle Corporation., COPYRIGHT_STR Oracle Everybody, copyrighted by Oracle Corporation, copyrighted by Oracle Corporation.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.oracle.ojdbc/ojdbc8@19.3.0.0"
+     }
+    ]
+   },
+   {
+    "name": "org.mariadb.jdbc:mariadb-java-client",
+    "SPDXID": "SPDXRef-maven-org.mariadb.jdbc-mariadb-java-client-2.4.0-a53fcf",
+    "versionInfo": "2.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1-or-later",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@2.4.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-surefire-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-bbd84e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.quartz-scheduler:quartz",
+    "SPDXID": "SPDXRef-maven-org.quartz-scheduler-quartz-2.3.2-248471",
+    "versionInfo": "2.3.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001- currentYear, Terracotta, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.quartz-scheduler/quartz@2.3.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-dbcp2",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-dbcp2-2.5.0-34f507",
+    "versionInfo": "2.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2018 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-dbcp2@2.5.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.logging.log4j:log4j-api",
+    "SPDXID": "SPDXRef-maven-org.apache.logging.log4j-log4j-api-2.13.2-dc03fa",
+    "versionInfo": "2.13.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-api@2.13.2"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.servlet:jakarta.servlet-api",
+    "SPDXID": "SPDXRef-maven-jakarta.servlet-jakarta.servlet-api-5.0.0-78ce83",
+    "versionInfo": "5.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "(c) Copyright International Business Machines Corporation 2002, Copyright (c) 1997, 2020 Oracle and/or its affiliates and others, Copyright (c) 1997, 2020 Oracle and/or its affiliates and others., Copyright (C) 1997, 2020 Oracle and/or its affiliates and others., Copyright (c) 1999, 2018 Oracle and/or its affiliates, Copyright (c) 1999, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 1999, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2000, 2018 Oracle and/or its affiliates, Copyright (c) 2000, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2000, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2008, 2020 Oracle and/or its affiliates and others, Copyright (c) 2008, 2020 Oracle and/or its affiliates and others., Copyright (C) 2008, 2020 Oracle and/or its affiliates and others., Copyright (c) 2009, 2020 Oracle and/or its affiliates, Copyright (c) 2009, 2020 Oracle and/or its affiliates and others, Copyright (c) 2009, 2020 Oracle and/or its affiliates and others., Copyright (C) 2009, 2020 Oracle and/or its affiliates and others., Copyright (c) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018 Oracle and/or its affiliates, Copyright (c) 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2020 Eclipse Foundation, Copyright & 169 2019, 2020 Eclipse Foundation, Copyright 2002 International Business Machines Corporation, Copyright 2004 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.servlet/jakarta.servlet-api@5.0.0"
+     }
+    ]
+   },
+   {
+    "name": "log4j:log4j",
+    "SPDXID": "SPDXRef-maven-log4j-log4j-1.2.17-cbf0e4",
+    "versionInfo": "1.2.17",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 1999-2005 The Apache Software Foundation, Copyright 2007 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/log4j/log4j@1.2.17"
+     }
+    ]
+   },
+   {
+    "name": "org.antlr:antlr4",
+    "SPDXID": "SPDXRef-maven-org.antlr-antlr4-4.11.1-484559",
+    "versionInfo": "4.11.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2006 Kay Roepke, Copyright (c) 2012 Sam Harwell, Copyright (c) 2012 Terence Parr, Copyright (c) 2012-2016 Sam Harwell, Copyright (c) 2012-2016 Terence Parr, Copyright (c) 2012-2017 The ANTLR Project, Copyright (c) 2013 Sam Harwell, Copyright (c) 2013 Terence Parr, Copyright (c) 2014 Eric Vergnaud, Copyright (c) 2014 Tiago Mazzutti, Copyright (c) 2015 Dan McLaughlin, Mike Lischke, Copyright (c) 2015 Janyou, Copyright (c) 2016, Mike Lischke, Copyright (c) 2017 Tobe Osakwe, Copyright (c) 2020 Larry Li",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.antlr/antlr4@4.11.1"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-webmvc",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-webmvc-4.3.20.RELEASE-68e2d5",
+    "versionInfo": "4.3.20.RELEASE",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-github-NOASSERTION",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <http://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2018 Pivotal, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-webmvc@4.3.20.RELEASE"
+     }
+    ]
+   },
+   {
+    "name": "org.javasimon:javasimon-spring",
+    "SPDXID": "SPDXRef-maven-org.javasimon-javasimon-spring-4.1.1-51c631",
+    "versionInfo": "4.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.javasimon/javasimon-spring@4.1.1"
+     }
+    ]
+   },
+   {
+    "name": "com.aliyun.odps:odps-jdbc",
+    "SPDXID": "SPDXRef-maven-com.aliyun.odps-odps-jdbc-3.4.2-c2c14f",
+    "versionInfo": "3.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.aliyun.odps/odps-jdbc@3.4.2"
+     }
+    ]
+   },
+   {
+    "name": "org.mybatis:mybatis-spring",
+    "SPDXID": "SPDXRef-maven-org.mybatis-mybatis-spring-1.3.0-afe1dc",
+    "versionInfo": "1.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mybatis/mybatis-spring@1.3.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.curator:curator-test",
+    "SPDXID": "SPDXRef-maven-org.apache.curator-curator-test-4.2.0-61cc43",
+    "versionInfo": "4.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.curator/curator-test@4.2.0"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-beans",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-beans-4.3.20.RELEASE-69906f",
+    "versionInfo": "4.3.20.RELEASE",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <http://www.ow2.org/>, Copyright (c) 1999-2009, OW2 Consortium http://www.ow2.org, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2018 Pivotal, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-beans@4.3.20.RELEASE"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.tomcat:tomcat-jdbc",
+    "SPDXID": "SPDXRef-maven-org.apache.tomcat-tomcat-jdbc-8.0.32-cee983",
+    "versionInfo": "8.0.32",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.tomcat/tomcat-jdbc@8.0.32"
+     }
+    ]
+   },
+   {
+    "name": "org.javasimon:javasimon-jdbc41",
+    "SPDXID": "SPDXRef-maven-org.javasimon-javasimon-jdbc41-4.1.1-69ccb8",
+    "versionInfo": "4.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.javasimon/javasimon-jdbc41@4.1.1"
+     }
+    ]
+   },
+   {
+    "name": "org.javasimon:javasimon-javaee",
+    "SPDXID": "SPDXRef-maven-org.javasimon-javasimon-javaee-4.1.1-7e191f",
+    "versionInfo": "4.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.javasimon/javasimon-javaee@4.1.1"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba.fastjson2:fastjson2",
+    "SPDXID": "SPDXRef-maven-com.alibaba.fastjson2-fastjson2-2.0.29-814b0a",
+    "versionInfo": "2.0.29",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba.fastjson2/fastjson2@2.0.29"
+     }
+    ]
+   },
+   {
+    "name": "commons-dbutils:commons-dbutils",
+    "SPDXID": "SPDXRef-maven-commons-dbutils-commons-dbutils-1.6-28e1e5",
+    "versionInfo": "1.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2014 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-dbutils/commons-dbutils@1.6"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-log4j12",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-log4j12-1.7.9-d4d7c9",
+    "versionInfo": "1.7.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.9"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-api",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-1.7.9-dbf62e",
+    "versionInfo": "1.7.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.9"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.cloud:spring-cloud-starter",
+    "SPDXID": "SPDXRef-maven-org.springframework.cloud-spring-cloud-starter-5ae5c4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.cloud/spring-cloud-starter"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.cloud:spring-cloud-starter-consul-discovery",
+    "SPDXID": "SPDXRef-maven-org.springframework.cloud-spring-cloud-starter-consul-discovery-034e81",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.cloud/spring-cloud-starter-consul-discovery"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba:druid",
+    "SPDXID": "SPDXRef-maven-com.alibaba-druid-1.2.22-4fcce1",
+    "versionInfo": "1.2.22",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) JS Foundation and other contributors, Copyright 2012 Twitter, Inc, Copyright 2012 Twitter, Inc. http://www.apache.org/licenses/LICENSE-2.0.txt",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba/druid@1.2.22"
+     }
+    ]
+   },
+   {
+    "name": "org.projectlombok:lombok",
+    "SPDXID": "SPDXRef-maven-org.projectlombok-lombok-1.16.10-7dc6bf",
+    "versionInfo": "1.16.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NOASSERTION",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.projectlombok/lombok@1.16.10"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery",
+    "SPDXID": "SPDXRef-maven-com.alibaba.cloud-spring-cloud-starter-alibaba-nacos-discovery-2.1.1-030518",
+    "versionInfo": "2.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery@2.1.1"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-configuration-processor",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-configuration-processor-0abea4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-configuration-processor"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client",
+    "SPDXID": "SPDXRef-maven-org.springframework.cloud-spring-cloud-starter-netflix-eureka-client-56f126",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okhttp3:okhttp",
+    "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-okhttp-3.14.9-5dafcd",
+    "versionInfo": "3.14.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) Ljava/lang/StringBuilder (Ljava/lang/String )V group",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@3.14.9"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.cloud:spring-cloud-commons",
+    "SPDXID": "SPDXRef-maven-org.springframework.cloud-spring-cloud-commons-2e4b30",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.cloud/spring-cloud-commons"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents:httpclient",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents-httpclient-a1f09b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient"
+     }
+    ]
+   },
+   {
+    "name": "io.kubernetes:client-java",
+    "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-16.0.3-3eb197",
+    "versionInfo": "16.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.kubernetes/client-java@16.0.3"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-4f8c48",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-maven-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-web",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-web-b1e441",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-web"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-undertow",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-undertow-0bec82",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-undertow"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.cloud:spring-cloud-dependencies",
+    "SPDXID": "SPDXRef-maven-org.springframework.cloud-spring-cloud-dependencies-Greenwich.SR5-41950f",
+    "versionInfo": "Greenwich.SR5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.cloud/spring-cloud-dependencies@Greenwich.SR5"
+     }
+    ]
+   },
+   {
+    "name": "io.spring.javaformat:spring-javaformat-maven-plugin",
+    "SPDXID": "SPDXRef-maven-io.spring.javaformat-spring-javaformat-maven-plugin-0.0.31-799869",
+    "versionInfo": "0.0.31",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.spring.javaformat/spring-javaformat-maven-plugin@0.0.31"
+     }
+    ]
+   },
+   {
+    "name": "com.mysql:mysql-connector-j",
+    "SPDXID": "SPDXRef-maven-com.mysql-mysql-connector-j-18e824",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.mysql/mysql-connector-j"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-jpa-39b0bf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-test",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-test-538e13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-test"
+     }
+    ]
+   },
+   {
+    "name": "javax.cache:cache-api",
+    "SPDXID": "SPDXRef-maven-javax.cache-cache-api-e0f535",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/javax.cache/cache-api"
+     }
+    ]
+   },
+   {
+    "name": "com.puppycrawl.tools:checkstyle",
+    "SPDXID": "SPDXRef-maven-com.puppycrawl.tools-checkstyle-8.45.1-2dc3ac",
+    "versionInfo": "8.45.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1+",
+    "copyrightText": "Copyright (c) 2001-2021 the original author or authors, Copyright (c) 2002 Oliver Burn, Copyright 2006 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.puppycrawl.tools/checkstyle@8.45.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-dependency-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-dependency-plugin-5.1.3-1eb9aa",
+    "versionInfo": "5.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-dependency-plugin@5.1.3"
+     }
+    ]
+   },
+   {
+    "name": "org.webjars.npm:bootstrap",
+    "SPDXID": "SPDXRef-maven-org.webjars.npm-bootstrap-5.1.3-4545d0",
+    "versionInfo": "5.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.webjars.npm/bootstrap@5.1.3"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba:druid-spring-boot-starter",
+    "SPDXID": "SPDXRef-maven-com.alibaba-druid-spring-boot-starter-1.2.29-SNAPSHOT-f9fd87",
+    "versionInfo": "1.2.29-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba/druid-spring-boot-starter@1.2.29-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.h2database:h2",
+    "SPDXID": "SPDXRef-maven-com.h2database-h2-80bd8e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.h2database/h2"
+     }
+    ]
+   },
+   {
+    "name": "org.postgresql:postgresql",
+    "SPDXID": "SPDXRef-maven-org.postgresql-postgresql-d2f635",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.postgresql/postgresql"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-validation",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-validation-d535b8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-validation"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-thymeleaf-c3ef3e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf"
+     }
+    ]
+   },
+   {
+    "name": "pl.project13.maven:git-commit-id-plugin",
+    "SPDXID": "SPDXRef-maven-pl.project13.maven-git-commit-id-plugin-c7ebf0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/pl.project13.maven/git-commit-id-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.eclipse.m2e:lifecycle-mapping",
+    "SPDXID": "SPDXRef-maven-org.eclipse.m2e-lifecycle-mapping-1.0.0-12d702",
+    "versionInfo": "1.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.eclipse.m2e/lifecycle-mapping@1.0.0"
+     }
+    ]
+   },
+   {
+    "name": "io.spring.nohttp:nohttp-checkstyle",
+    "SPDXID": "SPDXRef-maven-io.spring.nohttp-nohttp-checkstyle-0.0.10-f3daf1",
+    "versionInfo": "0.0.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.spring.nohttp/nohttp-checkstyle@0.0.10"
+     }
+    ]
+   },
+   {
+    "name": "org.ehcache:ehcache",
+    "SPDXID": "SPDXRef-maven-org.ehcache-ehcache-459313",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.ehcache/ehcache"
+     }
+    ]
+   },
+   {
+    "name": "org.jacoco:jacoco-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.7-ed8141",
+    "versionInfo": "0.8.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0",
+    "copyrightText": "Copyright (c) 2009, 2021 Mountainminds GmbH & Co. KG and Contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jacoco/jacoco-maven-plugin@0.8.7"
+     }
+    ]
+   },
+   {
+    "name": "org.webjars:webjars-locator-core",
+    "SPDXID": "SPDXRef-maven-org.webjars-webjars-locator-core-c2a43b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.webjars/webjars-locator-core"
+     }
+    ]
+   },
+   {
+    "name": "com.gitlab.haynes:libsass-maven-plugin",
+    "SPDXID": "SPDXRef-maven-com.gitlab.haynes-libsass-maven-plugin-0.2.26-a12074",
+    "versionInfo": "0.2.26",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.gitlab.haynes/libsass-maven-plugin@0.2.26"
+     }
+    ]
+   },
+   {
+    "name": "org.webjars.npm:font-awesome",
+    "SPDXID": "SPDXRef-maven-org.webjars.npm-font-awesome-4.7.0-10c244",
+    "versionInfo": "4.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "OFL-1.1",
+    "copyrightText": "Copyright Dave Gandy 2016",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.webjars.npm/font-awesome@4.7.0"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-devtools",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-devtools-d72bdb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-devtools"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-actuator",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-actuator-34475a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-cache",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-cache-6d0122",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-cache"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-checkstyle-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-checkstyle-plugin-3.1.2-8355a2",
+    "versionInfo": "3.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-checkstyle-plugin@3.1.2"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-autoconfigure",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-aaef4b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.servlet:jakarta.servlet-api",
+    "SPDXID": "SPDXRef-maven-jakarta.servlet-jakarta.servlet-api-6.0.0-4a7d7a",
+    "versionInfo": "6.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "(c) Copyright International Business Machines Corporation 2002, Copyright (c) 1997, 2020 Oracle and/or its affiliates and others, Copyright (c) 1997, 2021 Oracle and/or its affiliates and others, Copyright (c) 1997, 2022 Oracle and/or its affiliates and others, Copyright (c) 1997, 2022 Oracle and/or its affiliates and others., Copyright (C) 1997, 2022 Oracle and/or its affiliates and others., Copyright (c) 1997, 2024 Oracle and/or its affiliates and others., Copyright (c) 1999, 2018 Oracle and/or its affiliates, Copyright (c) 1999, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 1999, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2000, 2018 Oracle and/or its affiliates, Copyright (c) 2000, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2000, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2008, 2020 Oracle and/or its affiliates and others, Copyright (c) 2008, 2020 Oracle and/or its affiliates and others., Copyright (C) 2008, 2020 Oracle and/or its affiliates and others., Copyright (c) 2008, 2023 Oracle and/or its affiliates and others., Copyright (c) 2009, 2020 Oracle and/or its affiliates, Copyright (c) 2009, 2020 Oracle and/or its affiliates and others, Copyright (c) 2009, 2020 Oracle and/or its affiliates and others., Copyright (C) 2009, 2020 Oracle and/or its affiliates and others., Copyright (c) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2009, 2021 Oracle and/or its affiliates, Copyright (c) 2009, 2021 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2009, 2021 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2009, 2023 Oracle and/or its affiliates and others., Copyright (c) 2018 Oracle and/or its affiliates, Copyright (c) 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2022 Eclipse Foundation, Copyright & 169 2019, 2022 Eclipse Foundation, Copyright 2002 International Business Machines Corporation, Copyright 2004 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-dependencies",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-dependencies-038c5e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-dependencies"
+     }
+    ]
+   },
+   {
+    "name": "org.moditect:moditect-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.moditect-moditect-maven-plugin-c0cc4b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.moditect/moditect-maven-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-maven-compiler-plugin-61db8b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/maven-compiler-plugin"
+     }
+    ]
+   },
+   {
+    "name": "com.h2database:h2",
+    "SPDXID": "SPDXRef-maven-com.h2database-h2-2.3.232-0ec395",
+    "versionInfo": "2.3.232",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0 OR MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.h2database/h2@2.3.232"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-api",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.17-95b76b",
+    "versionInfo": "2.0.17",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.17"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-jdbc",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-jdbc-6.1.21-b9b959",
+    "versionInfo": "6.1.21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <https://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-jdbc@6.1.21"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba:druid",
+    "SPDXID": "SPDXRef-maven-com.alibaba-druid-1.2.29-SNAPSHOT-4778bf",
+    "versionInfo": "1.2.29-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba/druid@1.2.29-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-jdbc",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-jdbc-46963e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-jdbc"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-jdbc",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-jdbc-f3eebb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-jdbc"
+     }
+    ]
+   },
+   {
+    "name": "org.glassfish.jaxb:jaxb-runtime",
+    "SPDXID": "SPDXRef-maven-org.glassfish.jaxb-jaxb-runtime-2.3.2-1341b7",
+    "versionInfo": "2.3.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 1997, 2018 Oracle and/or its affiliates, Copyright (c) 2013, 2018 Oracle and/or its affiliates, Copyright (c) 2014, 2018 Oracle and/or its affiliates, Copyright (c) 2018 Oracle and/or its affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.2"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-api",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-13d614",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-api"
+     }
+    ]
+   },
+   {
+    "name": "javax.servlet:javax.servlet-api",
+    "SPDXID": "SPDXRef-maven-javax.servlet-javax.servlet-api-fe5c20",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/javax.servlet/javax.servlet-api"
+     }
+    ]
+   },
+   {
+    "name": "codecov/codecov-action",
+    "SPDXID": "SPDXRef-githubactions-codecov-codecov-action-3.1.0-8f0025",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/codecov/codecov-action@3.1.0"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-4..-afeeb4",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "org.jacoco:jacoco-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.8-1f4b15",
+    "versionInfo": "0.8.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0",
+    "copyrightText": "Copyright (c) 2009, 2022 Mountainminds GmbH & Co. KG and Contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jacoco/jacoco-maven-plugin@0.8.8"
+     }
+    ]
+   },
+   {
+    "name": "org.sonatype.plugins:nexus-staging-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-4806e8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.sonatype.plugins/nexus-staging-maven-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.moditect:moditect-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.moditect-moditect-maven-plugin-1.0.0.RC2-61c206",
+    "versionInfo": "1.0.0.RC2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.moditect/moditect-maven-plugin@1.0.0.RC2"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-maven-compiler-plugin-1.37-9e8b79",
+    "versionInfo": "1.37",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/maven-compiler-plugin@1.37"
+     }
+    ]
+   },
+   {
+    "name": "org.sonatype.central:central-publishing-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.sonatype.central-central-publishing-maven-plugin-0.8.0-81a7fc",
+    "versionInfo": "0.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.sonatype.central/central-publishing-maven-plugin@0.8.0"
+     }
+    ]
+   },
+   {
+    "name": "io.github.git-commit-id:git-commit-id-maven-plugin",
+    "SPDXID": "SPDXRef-maven-io.github.git-commit-id-git-commit-id-maven-plugin-5.0.0-38049b",
+    "versionInfo": "5.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NOASSERTION",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.git-commit-id/git-commit-id-maven-plugin@5.0.0"
+     }
+    ]
+   },
+   {
+    "name": "org.sonatype.plugins:nexus-staging-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-1.6.13-5e57bb",
+    "versionInfo": "1.6.13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.sonatype.plugins/nexus-staging-maven-plugin@1.6.13"
+     }
+    ]
+   },
+   {
+    "name": "com.puppycrawl.tools:checkstyle",
+    "SPDXID": "SPDXRef-maven-com.puppycrawl.tools-checkstyle-9.3-74bd93",
+    "versionInfo": "9.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1+",
+    "copyrightText": "Copyright (c) 2001-2022 the original author or authors, Copyright (c) 2002 Oliver Burn, Copyright 2006 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.puppycrawl.tools/checkstyle@9.3"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-checkstyle-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-checkstyle-plugin-3.4.0-778536",
+    "versionInfo": "3.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2005-2024 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-checkstyle-plugin@3.4.0"
+     }
+    ]
+   },
+   {
+    "name": "org.junit:junit-bom",
+    "SPDXID": "SPDXRef-maven-org.junit-junit-bom-5.11.4-37fe98",
+    "versionInfo": "5.11.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-non-standard",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.junit/junit-bom@5.11.4"
+     }
+    ]
+   },
+   {
+    "name": "com.github.alibaba/druid",
+    "SPDXID": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/alibaba/druid",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/alibaba/druid@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.dameng-DmJdbcDriver18-8.1.3.62-d33e72",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.derby-derby-10.12.1.1-99b2a1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.oracle.ojdbc-ojdbc8-19.3.0.0-9c55ce",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.aliyun.odps-odps-jdbc-3.4.2-c2c14f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-undertow-0bec82",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.postgresql-postgresql-d2f635",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-javax.servlet-javax.servlet-api-fe5c20",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-io.trino-trino-jdbc-352-cbdd27",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.javasimon-javasimon-javaee-4.1.1-7e191f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.17-95b76b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.mariadb.jdbc-mariadb-java-client-2.4.0-a53fcf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba.cloud-spring-cloud-starter-alibaba-nacos-discovery-2.1.1-030518",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.cloud-spring-cloud-starter-netflix-eureka-client-56f126",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.moditect-moditect-maven-plugin-1.0.0.RC2-61c206",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.git-commit-id-git-commit-id-maven-plugin-5.0.0-38049b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba-dubbo-2.5.3-722d5a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.javasimon-javasimon-jdbc41-4.1.1-69ccb8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-log4j12-1.7.9-d4d7c9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.jolbox-bonecp-0.8.0-9cac0a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba.fastjson2-fastjson2-2.0.29-814b0a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-validation-d535b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-checkstyle-plugin-3.1.2-8355a2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.glassfish.jaxb-jaxb-runtime-2.3.2-1341b7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-commons-dbcp-commons-dbcp-1.4-7a349d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-simple-jndi-simple-jndi-0.11.4.1-6e6289",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.cloud-spring-cloud-starter-consul-discovery-034e81",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.h2database-h2-2.3.232-0ec395",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-dbcp2-2.5.0-34f507",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.calcite-calcite-druid-1.26.0-f5f95d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.mybatis-mybatis-3.4.0-9e11ba",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba-druid-1.2.22-4fcce1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.curator-curator-test-4.2.0-61cc43",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-4f8c48",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.mysql-mysql-connector-j-18e824",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-c3p0-c3p0-0.9.1.2-7b04a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.cloud-spring-cloud-dependencies-Greenwich.SR5-41950f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba-druid-spring-boot-starter-1.2.29-SNAPSHOT-f9fd87",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-thymeleaf-c3ef3e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-13d614",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-checkstyle-plugin-3.4.0-778536",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-ibatis-2.0.8-fa5108",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.webjars.npm-bootstrap-5.1.3-4545d0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-actuator-34475a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.logging.log4j-log4j-core-2.17.0-795c27",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.hamcrest-hamcrest-2.2-580428",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.8-1f4b15",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-maven-compiler-plugin-1.37-9e8b79",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-javax.transaction-jta-1.1-10e55e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.puppycrawl.tools-checkstyle-9.3-74bd93",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-webmvc-4.3.20.RELEASE-68e2d5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-1.7.9-dbf62e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.gitlab.haynes-libsass-maven-plugin-0.2.26-a12074",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-jdbc-46963e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-core-451565",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.junit.vintage-junit-vintage-engine-36843f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-test-4.3.20.RELEASE-458492",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-core-4.3.20.RELEASE-680601",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-io.spring.nohttp-nohttp-checkstyle-0.0.10-f3daf1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-dependencies-038c5e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.oceanbase-oceanbase-client-2.4.12-7b8ed2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-3.14.9-5dafcd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.javasimon-javasimon-spring-4.1.1-51c631",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-jdbc-f3eebb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-30.1-jre-017e2f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.ibatis-ibatis-sqlmap-2.3.4.726-d8c122",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.hibernate-hibernate-c3p0-5.6.9-c22186",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.junit.jupiter-junit-jupiter-0f4ea0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-bbd84e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-githubactions-codecov-codecov-action-3.1.0-8f0025",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.junit-junit-bom-5.11.4-37fe98",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-configuration-processor-0abea4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-commons-logging-commons-logging-1.2-77062b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.jolbox-bonecp-spring-0.8.0-80e197",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.housepower-clickhouse-native-jdbc-shaded-2.5.6-62e9ae",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.servlet-jakarta.servlet-api-5.0.0-78ce83",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-log4j-log4j-1.2.17-cbf0e4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-antlr4-4.11.1-484559",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-javax.cache-cache-api-e0f535",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.ehcache-ehcache-459313",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.nutz-nutz-1.r.55-4be0dc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-net.sourceforge.jtds-jtds-1.3.0-4b5de9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.mysql-mysql-connector-j-8.0.33-72c629",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-io.spring.javaformat-spring-javaformat-maven-plugin-0.0.31-799869",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-dependency-plugin-5.1.3-1eb9aa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.webjars-webjars-locator-core-c2a43b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-aaef4b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-orm-4.3.20.RELEASE-fc9be8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-javax.servlet-javax.servlet-api-3.1.0-85ce12",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.cloud-spring-cloud-commons-2e4b30",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-test-538e13",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.hibernate-hibernate-core-5.6.9-ff0ce3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-edf573",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.quartz-scheduler-quartz-2.3.2-248471",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.logging.log4j-log4j-api-2.13.2-dc03fa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.cloud-spring-cloud-starter-5ae5c4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.h2database-h2-80bd8e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.servlet-jakarta.servlet-api-6.0.0-4a7d7a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-jdbc-6.1.21-b9b959",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.curator-curator-recipes-4.2.0-de7473",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-beans-4.3.20.RELEASE-69906f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.projectlombok-lombok-1.16.10-7dc6bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-maven-compiler-plugin-61db8b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.h2database-h2-1.4.199-906989",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.mybatis-mybatis-spring-1.3.0-afe1dc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-web-b1e441",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-commons-dbutils-commons-dbutils-1.6-28e1e5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.puppycrawl.tools-checkstyle-8.45.1-2dc3ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.7-ed8141",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-devtools-d72bdb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-cache-6d0122",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.sonatype.central-central-publishing-maven-plugin-0.8.0-81a7fc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-ru.yandex.clickhouse-clickhouse-jdbc-0.2.4-f622b4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.tomcat-tomcat-jdbc-8.0.32-cee983",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.postgresql-postgresql-42.2.18-57f446",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.aliyun.odps-odps-sdk-udf-0.43.3-public-430905",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.kylin-kylin-jdbc-2.0.0-845b4a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents-httpclient-a1f09b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-jpa-39b0bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.webjars.npm-font-awesome-4.7.0-10c244",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.moditect-moditect-maven-plugin-c0cc4b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.calcite-calcite-core-1.26.0-2058cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-pl.project13.maven-git-commit-id-plugin-c7ebf0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-4..-afeeb4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-4806e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-16.0.3-3eb197",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.eclipse.m2e-lifecycle-mapping-1.0.0-12d702",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba-druid-1.2.29-SNAPSHOT-4778bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relatedSpdxElement": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-1.6.13-5e57bb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-alibaba-druid-master-f999ca",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

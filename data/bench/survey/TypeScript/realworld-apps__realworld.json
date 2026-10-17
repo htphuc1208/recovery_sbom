@@ -1,0 +1,451 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.realworld-apps/realworld",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/59ad6d2b-8dbb-419a-922e-c75613a61a2c",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:58:34Z"
+  },
+  "packages": [
+   {
+    "name": "@types/react-dom",
+    "SPDXID": "SPDXRef-npm-types-react-dom-19.2.3-dc3ae9",
+    "versionInfo": "^19.2.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react-dom@%5E19.2.3"
+     }
+    ]
+   },
+   {
+    "name": "react-dom",
+    "SPDXID": "SPDXRef-npm-react-dom-19.2.4-85abfb",
+    "versionInfo": "^19.2.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react-dom@%5E19.2.4"
+     }
+    ]
+   },
+   {
+    "name": "react",
+    "SPDXID": "SPDXRef-npm-react-19.2.4-aca0c2",
+    "versionInfo": "^19.2.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react@%5E19.2.4"
+     }
+    ]
+   },
+   {
+    "name": "@astrojs/starlight-tailwind",
+    "SPDXID": "SPDXRef-npm-astrojs-starlight-tailwind-4.0.2-e2643b",
+    "versionInfo": "^4.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40astrojs/starlight-tailwind@%5E4.0.2"
+     }
+    ]
+   },
+   {
+    "name": "@astrojs/check",
+    "SPDXID": "SPDXRef-npm-astrojs-check-0.9.6-207042",
+    "versionInfo": "^0.9.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40astrojs/check@%5E0.9.6"
+     }
+    ]
+   },
+   {
+    "name": "@tailwindcss/vite",
+    "SPDXID": "SPDXRef-npm-tailwindcss-vite-4.1.8-2b0be9",
+    "versionInfo": "^4.1.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40tailwindcss/vite@%5E4.1.8"
+     }
+    ]
+   },
+   {
+    "name": "@astrojs/starlight",
+    "SPDXID": "SPDXRef-npm-astrojs-starlight-0.37.4-e59892",
+    "versionInfo": "^0.37.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40astrojs/starlight@%5E0.37.4"
+     }
+    ]
+   },
+   {
+    "name": "sharp",
+    "SPDXID": "SPDXRef-npm-sharp-0.34.5-acd869",
+    "versionInfo": "^0.34.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/sharp@%5E0.34.5"
+     }
+    ]
+   },
+   {
+    "name": "tailwindcss",
+    "SPDXID": "SPDXRef-npm-tailwindcss-4.1.18-9e5eba",
+    "versionInfo": "^4.1.18",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/tailwindcss@%5E4.1.18"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-5.9.3-39f4eb",
+    "versionInfo": "^5.9.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@%5E5.9.3"
+     }
+    ]
+   },
+   {
+    "name": "astro",
+    "SPDXID": "SPDXRef-npm-astro-5.16.16-85852d",
+    "versionInfo": "^5.16.16",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/astro@%5E5.16.16"
+     }
+    ]
+   },
+   {
+    "name": "@types/react",
+    "SPDXID": "SPDXRef-npm-types-react-19.2.10-99fd58",
+    "versionInfo": "^19.2.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react@%5E19.2.10"
+     }
+    ]
+   },
+   {
+    "name": "@astrojs/react",
+    "SPDXID": "SPDXRef-npm-astrojs-react-4.4.2-a4cf31",
+    "versionInfo": "^4.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40astrojs/react@%5E4.4.2"
+     }
+    ]
+   },
+   {
+    "name": "kerhub/spammy-guardian",
+    "SPDXID": "SPDXRef-githubactions-kerhub-spammy-guardian-fa79bcda24df6dae5b93285e1749e59c77add4bd-d30981",
+    "versionInfo": "fa79bcda24df6dae5b93285e1749e59c77add4bd",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/kerhub/spammy-guardian@fa79bcda24df6dae5b93285e1749e59c77add4bd"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "oven-sh/setup-bun",
+    "SPDXID": "SPDXRef-githubactions-oven-sh-setup-bun-2..-9c3076",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/oven-sh/setup-bun@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/analyze",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-5cce3b",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/analyze@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/init",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-init-4..-4b59fc",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/init@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/deploy-pages",
+    "SPDXID": "SPDXRef-githubactions-actions-deploy-pages-5..-b802ea",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/deploy-pages@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/configure-pages",
+    "SPDXID": "SPDXRef-githubactions-actions-configure-pages-6..-2f1e1e",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/configure-pages@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-pages-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-pages-artifact-5..-5f799a",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-pages-artifact@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.github.realworld-apps/realworld",
+    "SPDXID": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/realworld-apps/realworld",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/realworld-apps/realworld@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-dom-19.2.3-dc3ae9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-react-dom-19.2.4-85abfb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-react-19.2.4-aca0c2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-astrojs-starlight-tailwind-4.0.2-e2643b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-astrojs-check-0.9.6-207042",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-tailwindcss-vite-4.1.8-2b0be9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-astrojs-starlight-0.37.4-e59892",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-sharp-0.34.5-acd869",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-tailwindcss-4.1.18-9e5eba",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-5.9.3-39f4eb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-astro-5.16.16-85852d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-19.2.10-99fd58",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-npm-astrojs-react-4.4.2-a4cf31",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-init-4..-4b59fc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-deploy-pages-5..-b802ea",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-configure-pages-6..-2f1e1e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-pages-artifact-5..-5f799a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-kerhub-spammy-guardian-fa79bcda24df6dae5b93285e1749e59c77add4bd-d30981",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-oven-sh-setup-bun-2..-9c3076",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-5cce3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-realworld-apps-realworld-main-2c912a",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

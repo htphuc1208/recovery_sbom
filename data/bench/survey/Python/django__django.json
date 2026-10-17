@@ -1,0 +1,1130 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.django/django",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/e5897ff8-a131-4fbd-97a9-d9973605ad67",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: dependabot"
+   ],
+   "created": "2026-11-12T13:05:57Z"
+  },
+  "packages": [
+   {
+    "name": "sphinxcontrib-spelling",
+    "SPDXID": "SPDXRef-pypi-sphinxcontrib-spelling-2fb636",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sphinxcontrib-spelling"
+     }
+    ]
+   },
+   {
+    "name": "asgiref",
+    "SPDXID": "SPDXRef-pypi-asgiref-922cc7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/asgiref"
+     }
+    ]
+   },
+   {
+    "name": "epubcheck",
+    "SPDXID": "SPDXRef-pypi-epubcheck-1fcccb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/epubcheck"
+     }
+    ]
+   },
+   {
+    "name": "argon2-cffi",
+    "SPDXID": "SPDXRef-pypi-argon2-cffi-e0f1ac",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/argon2-cffi"
+     }
+    ]
+   },
+   {
+    "name": "pydata-sphinx-theme",
+    "SPDXID": "SPDXRef-pypi-pydata-sphinx-theme-621dd5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pydata-sphinx-theme"
+     }
+    ]
+   },
+   {
+    "name": "bcrypt",
+    "SPDXID": "SPDXRef-pypi-bcrypt-139e43",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/bcrypt"
+     }
+    ]
+   },
+   {
+    "name": "blacken-docs",
+    "SPDXID": "SPDXRef-pypi-blacken-docs-4726f3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/blacken-docs"
+     }
+    ]
+   },
+   {
+    "name": "pyenchant",
+    "SPDXID": "SPDXRef-pypi-pyenchant-dacbeb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyenchant"
+     }
+    ]
+   },
+   {
+    "name": "sphinx",
+    "SPDXID": "SPDXRef-pypi-sphinx-44e47e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sphinx"
+     }
+    ]
+   },
+   {
+    "name": "setuptools",
+    "SPDXID": "SPDXRef-pypi-setuptools-f37385",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/setuptools"
+     }
+    ]
+   },
+   {
+    "name": "sphinx-lint",
+    "SPDXID": "SPDXRef-pypi-sphinx-lint-2cfe38",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sphinx-lint"
+     }
+    ]
+   },
+   {
+    "name": "sqlparse",
+    "SPDXID": "SPDXRef-pypi-sqlparse-ea5993",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sqlparse"
+     }
+    ]
+   },
+   {
+    "name": "django-extensions",
+    "SPDXID": "SPDXRef-pypi-django-extensions-be33d7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/django-extensions"
+     }
+    ]
+   },
+   {
+    "name": "environs",
+    "SPDXID": "SPDXRef-pypi-environs-d6e677",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/environs"
+     }
+    ]
+   },
+   {
+    "name": "psycopg2-binary",
+    "SPDXID": "SPDXRef-pypi-psycopg2-binary-533034",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/psycopg2-binary"
+     }
+    ]
+   },
+   {
+    "name": "django",
+    "SPDXID": "SPDXRef-pypi-django-146d73",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/django"
+     }
+    ]
+   },
+   {
+    "name": "grunt-cli",
+    "SPDXID": "SPDXRef-npm-grunt-cli-1.5.0-1944fb",
+    "versionInfo": "^1.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/grunt-cli@%5E1.5.0"
+     }
+    ]
+   },
+   {
+    "name": "grunt-contrib-qunit",
+    "SPDXID": "SPDXRef-npm-grunt-contrib-qunit-10.2.0-9e2932",
+    "versionInfo": "^10.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/grunt-contrib-qunit@%5E10.2.0"
+     }
+    ]
+   },
+   {
+    "name": "qunit",
+    "SPDXID": "SPDXRef-npm-qunit-2.25.0-fb5339",
+    "versionInfo": "^2.25.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/qunit@%5E2.25.0"
+     }
+    ]
+   },
+   {
+    "name": "grunt",
+    "SPDXID": "SPDXRef-npm-grunt-1.6.2-58afd5",
+    "versionInfo": "^1.6.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/grunt@%5E1.6.2"
+     }
+    ]
+   },
+   {
+    "name": "@biomejs/biome",
+    "SPDXID": "SPDXRef-npm-biomejs-biome-2.4.15-c9c1dc",
+    "versionInfo": "2.4.15",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT OR Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40biomejs/biome@2.4.15"
+     }
+    ]
+   },
+   {
+    "name": "mysqlclient",
+    "SPDXID": "SPDXRef-pypi-mysqlclient-44c0be",
+    "versionInfo": ">= 2.2.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mysqlclient"
+     }
+    ]
+   },
+   {
+    "name": "psycopg",
+    "SPDXID": "SPDXRef-pypi-psycopg-ee52d8",
+    "versionInfo": ">= 3.1.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/psycopg"
+     }
+    ]
+   },
+   {
+    "name": "psycopg-pool",
+    "SPDXID": "SPDXRef-pypi-psycopg-pool-75ec9b",
+    "versionInfo": ">= 3.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/psycopg-pool"
+     }
+    ]
+   },
+   {
+    "name": "conda-incubator/setup-miniconda",
+    "SPDXID": "SPDXRef-githubactions-conda-incubator-setup-miniconda-835234971496cad1653abb28a638a281cf32541f-379fe8",
+    "versionInfo": "835234971496cad1653abb28a638a281cf32541f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/conda-incubator/setup-miniconda@835234971496cad1653abb28a638a281cf32541f"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-6..-88c644",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "conda-incubator/setup-miniconda",
+    "SPDXID": "SPDXRef-githubactions-conda-incubator-setup-miniconda-8ee1f361103df19b6f8c8655fd3967a8ecb162d5-286951",
+    "versionInfo": "8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5"
+     }
+    ]
+   },
+   {
+    "name": "oracledb",
+    "SPDXID": "SPDXRef-pypi-oracledb-51dadc",
+    "versionInfo": ">= 4.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/oracledb"
+     }
+    ]
+   },
+   {
+    "name": "tzdata",
+    "SPDXID": "SPDXRef-pypi-tzdata-ffcacb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/tzdata"
+     }
+    ]
+   },
+   {
+    "name": "docutils",
+    "SPDXID": "SPDXRef-pypi-docutils-2a389c",
+    "versionInfo": ">= 0.22",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/docutils"
+     }
+    ]
+   },
+   {
+    "name": "playwright",
+    "SPDXID": "SPDXRef-pypi-playwright-d1c9e0",
+    "versionInfo": ">= 1.65.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/playwright"
+     }
+    ]
+   },
+   {
+    "name": "argon2-cffi",
+    "SPDXID": "SPDXRef-pypi-argon2-cffi-1315a2",
+    "versionInfo": ">= 23.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/argon2-cffi"
+     }
+    ]
+   },
+   {
+    "name": "black",
+    "SPDXID": "SPDXRef-pypi-black-a7cd56",
+    "versionInfo": ">= 26.5.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/black"
+     }
+    ]
+   },
+   {
+    "name": "numpy",
+    "SPDXID": "SPDXRef-pypi-numpy-7e40a8",
+    "versionInfo": ">= 1.26.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/numpy"
+     }
+    ]
+   },
+   {
+    "name": "pillow",
+    "SPDXID": "SPDXRef-pypi-pillow-019af3",
+    "versionInfo": ">= 10.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pillow"
+     }
+    ]
+   },
+   {
+    "name": "jinja2",
+    "SPDXID": "SPDXRef-pypi-jinja2-972de5",
+    "versionInfo": ">= 2.11.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/jinja2"
+     }
+    ]
+   },
+   {
+    "name": "pymemcache",
+    "SPDXID": "SPDXRef-pypi-pymemcache-929471",
+    "versionInfo": ">= 3.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pymemcache"
+     }
+    ]
+   },
+   {
+    "name": "bcrypt",
+    "SPDXID": "SPDXRef-pypi-bcrypt-3625f1",
+    "versionInfo": ">= 4.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/bcrypt"
+     }
+    ]
+   },
+   {
+    "name": "sqlparse",
+    "SPDXID": "SPDXRef-pypi-sqlparse-078403",
+    "versionInfo": ">= 0.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sqlparse"
+     }
+    ]
+   },
+   {
+    "name": "tblib",
+    "SPDXID": "SPDXRef-pypi-tblib-7d812e",
+    "versionInfo": ">= 3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/tblib"
+     }
+    ]
+   },
+   {
+    "name": "geoip2",
+    "SPDXID": "SPDXRef-pypi-geoip2-348b61",
+    "versionInfo": ">= 4.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/geoip2"
+     }
+    ]
+   },
+   {
+    "name": "aiosmtpd",
+    "SPDXID": "SPDXRef-pypi-aiosmtpd-1c5fea",
+    "versionInfo": ">= 1.4.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/aiosmtpd"
+     }
+    ]
+   },
+   {
+    "name": "pyyaml",
+    "SPDXID": "SPDXRef-pypi-pyyaml-1b4ace",
+    "versionInfo": ">= 6.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyyaml"
+     }
+    ]
+   },
+   {
+    "name": "redis",
+    "SPDXID": "SPDXRef-pypi-redis-49b8b8",
+    "versionInfo": ">= 5.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/redis"
+     }
+    ]
+   },
+   {
+    "name": "asgiref",
+    "SPDXID": "SPDXRef-pypi-asgiref-b3cf89",
+    "versionInfo": ">= 3.12.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/asgiref"
+     }
+    ]
+   },
+   {
+    "name": "pylibmc",
+    "SPDXID": "SPDXRef-pypi-pylibmc-182788",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pylibmc"
+     }
+    ]
+   },
+   {
+    "name": "pywatchman",
+    "SPDXID": "SPDXRef-pypi-pywatchman-e774b2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pywatchman"
+     }
+    ]
+   },
+   {
+    "name": "asgiref",
+    "SPDXID": "SPDXRef-pypi-asgiref-9e00b8",
+    "versionInfo": ">= 3.13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/asgiref"
+     }
+    ]
+   },
+   {
+    "name": "colorama",
+    "SPDXID": "SPDXRef-pypi-colorama-a2b8c4",
+    "versionInfo": ">= 0.4.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/colorama"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-python",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-python-6..-9454b1",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-python@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-9..-8892dd",
+    "versionInfo": "9.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@9.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-8..-8b2394",
+    "versionInfo": "8.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@8.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "psf/black",
+    "SPDXID": "SPDXRef-githubactions-psf-black-stable-a61b53",
+    "versionInfo": "stable",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/psf/black@stable"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-6..-95d0cf",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "zizmorcore/zizmor-action",
+    "SPDXID": "SPDXRef-githubactions-zizmorcore-zizmor-action-e639db99335bc9038abc0e066dfcd72e23d26fb4-26fb7c",
+    "versionInfo": "e639db99335bc9038abc0e066dfcd72e23d26fb4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4"
+     }
+    ]
+   },
+   {
+    "name": "liskin/gh-problem-matcher-wrap",
+    "SPDXID": "SPDXRef-githubactions-liskin-gh-problem-matcher-wrap-d31bb388d13cf879e93f878cb2550299f0afb460-94fa8f",
+    "versionInfo": "d31bb388d13cf879e93f878cb2550299f0afb460",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/liskin/gh-problem-matcher-wrap@d31bb388d13cf879e93f878cb2550299f0afb460"
+     }
+    ]
+   },
+   {
+    "name": "com.github.django/django",
+    "SPDXID": "SPDXRef-github-django-django-main-d2c3ee",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/django/django",
+    "filesAnalyzed": false,
+    "licenseDeclared": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/django/django@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-sphinxcontrib-spelling-2fb636",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-asgiref-922cc7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-epubcheck-1fcccb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-argon2-cffi-e0f1ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pydata-sphinx-theme-621dd5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-bcrypt-139e43",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-blacken-docs-4726f3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pyenchant-dacbeb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-sphinx-44e47e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-setuptools-f37385",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-sphinx-lint-2cfe38",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-sqlparse-ea5993",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-django-extensions-be33d7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-environs-d6e677",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-psycopg2-binary-533034",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-django-146d73",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-npm-grunt-cli-1.5.0-1944fb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-npm-grunt-contrib-qunit-10.2.0-9e2932",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-npm-qunit-2.25.0-fb5339",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-npm-grunt-1.6.2-58afd5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-npm-biomejs-biome-2.4.15-c9c1dc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-6..-88c644",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-tzdata-ffcacb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-argon2-cffi-1315a2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pillow-019af3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-sqlparse-078403",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-tblib-7d812e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-aiosmtpd-1c5fea",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-asgiref-b3cf89",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-psycopg-ee52d8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-psycopg-pool-75ec9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-geoip2-348b61",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pywatchman-e774b2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-asgiref-9e00b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-6..-95d0cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-liskin-gh-problem-matcher-wrap-d31bb388d13cf879e93f878cb2550299f0afb460-94fa8f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-oracledb-51dadc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-jinja2-972de5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-bcrypt-3625f1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-psf-black-stable-a61b53",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-mysqlclient-44c0be",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-conda-incubator-setup-miniconda-835234971496cad1653abb28a638a281cf32541f-379fe8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-playwright-d1c9e0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-8..-8b2394",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-conda-incubator-setup-miniconda-8ee1f361103df19b6f8c8655fd3967a8ecb162d5-286951",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-colorama-a2b8c4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pyyaml-1b4ace",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-black-a7cd56",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-numpy-7e40a8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pymemcache-929471",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-python-6..-9454b1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-docutils-2a389c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-redis-49b8b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-pypi-pylibmc-182788",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-9..-8892dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-django-django-main-d2c3ee",
+    "relatedSpdxElement": "SPDXRef-githubactions-zizmorcore-zizmor-action-e639db99335bc9038abc0e066dfcd72e23d26fb4-26fb7c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-django-django-main-d2c3ee",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

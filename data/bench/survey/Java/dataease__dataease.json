@@ -1,0 +1,5390 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.dataease/dataease",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/a3f5474c-ad8f-4cdf-830e-b28d2f59cf53",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:31:25Z"
+  },
+  "packages": [
+   {
+    "name": "playwright-core",
+    "SPDXID": "SPDXRef-npm-playwright-core-1.64.1-d8a3a4",
+    "versionInfo": "1.64.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/playwright-core@1.64.1"
+     }
+    ]
+   },
+   {
+    "name": "@playwright/cli",
+    "SPDXID": "SPDXRef-npm-playwright-cli-0.1.22-4fd6fa",
+    "versionInfo": "0.1.22",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40playwright/cli@0.1.22"
+     }
+    ]
+   },
+   {
+    "name": "playwright",
+    "SPDXID": "SPDXRef-npm-playwright-1.64.0-alpha-1790635538000-a6b1d6",
+    "versionInfo": "1.64.0-alpha-1790635538000",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/playwright@1.64.0-alpha-1790635538000"
+     }
+    ]
+   },
+   {
+    "name": "playwright-core",
+    "SPDXID": "SPDXRef-npm-playwright-core-1.64.0-alpha-1790635538000-411db5",
+    "versionInfo": "1.64.0-alpha-1790635538000",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/playwright-core@1.64.0-alpha-1790635538000"
+     }
+    ]
+   },
+   {
+    "name": "@playwright/test",
+    "SPDXID": "SPDXRef-npm-playwright-test-1.64.1-447d39",
+    "versionInfo": "1.64.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40playwright/test@1.64.1"
+     }
+    ]
+   },
+   {
+    "name": "playwright",
+    "SPDXID": "SPDXRef-npm-playwright-1.64.1-fc83c4",
+    "versionInfo": "1.64.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/playwright@1.64.1"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/docs-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-docs-ui-1.2.0-cc5572",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/docs-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/lodash-es",
+    "SPDXID": "SPDXRef-npm-types-lodash-es-4.17.6-5e20bc",
+    "versionInfo": "^4.17.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/lodash-es@%5E4.17.6"
+     }
+    ]
+   },
+   {
+    "name": "less",
+    "SPDXID": "SPDXRef-npm-less-4.1.3-2228a4",
+    "versionInfo": "^4.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/less@%5E4.1.3"
+     }
+    ]
+   },
+   {
+    "name": "stompjs",
+    "SPDXID": "SPDXRef-npm-stompjs-2.3.3-d88fdd",
+    "versionInfo": "^2.3.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stompjs@%5E2.3.3"
+     }
+    ]
+   },
+   {
+    "name": "@intlify/unplugin-vue-i18n",
+    "SPDXID": "SPDXRef-npm-intlify-unplugin-vue-i18n-0.8.2-01e265",
+    "versionInfo": "^0.8.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40intlify/unplugin-vue-i18n@%5E0.8.2"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-4.9.3-f611af",
+    "versionInfo": "^4.9.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@%5E4.9.3"
+     }
+    ]
+   },
+   {
+    "name": "vue-clipboard3",
+    "SPDXID": "SPDXRef-npm-vue-clipboard3-2.0.0-ebc9b3",
+    "versionInfo": "^2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-clipboard3@%5E2.0.0"
+     }
+    ]
+   },
+   {
+    "name": "autoprefixer",
+    "SPDXID": "SPDXRef-npm-autoprefixer-10.4.13-a63ac4",
+    "versionInfo": "^10.4.13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/autoprefixer@%5E10.4.13"
+     }
+    ]
+   },
+   {
+    "name": "stylelint",
+    "SPDXID": "SPDXRef-npm-stylelint-15.2.0-9b96bf",
+    "versionInfo": "^15.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stylelint@%5E15.2.0"
+     }
+    ]
+   },
+   {
+    "name": "eslint-config-prettier",
+    "SPDXID": "SPDXRef-npm-eslint-config-prettier-8.6.0-c642c1",
+    "versionInfo": "^8.6.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/eslint-config-prettier@%5E8.6.0"
+     }
+    ]
+   },
+   {
+    "name": "vue3-ace-editor",
+    "SPDXID": "SPDXRef-npm-vue3-ace-editor-2.2.2-c0a1e1",
+    "versionInfo": "^2.2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue3-ace-editor@%5E2.2.2"
+     }
+    ]
+   },
+   {
+    "name": "xss",
+    "SPDXID": "SPDXRef-npm-xss-1.0.14-82199d",
+    "versionInfo": "^1.0.14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/xss@%5E1.0.14"
+     }
+    ]
+   },
+   {
+    "name": "@types/jquery",
+    "SPDXID": "SPDXRef-npm-types-jquery-3.5.16-67b312",
+    "versionInfo": "^3.5.16",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/jquery@%5E3.5.16"
+     }
+    ]
+   },
+   {
+    "name": "@types/stompjs",
+    "SPDXID": "SPDXRef-npm-types-stompjs-2.3.9-3e72cd",
+    "versionInfo": "^2.3.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/stompjs@%5E2.3.9"
+     }
+    ]
+   },
+   {
+    "name": "exceljs",
+    "SPDXID": "SPDXRef-npm-exceljs-4.4.0-f1055b",
+    "versionInfo": "^4.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/exceljs@%5E4.4.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-filter-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-filter-ui-1.2.0-d95ff7",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-filter-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "jquery",
+    "SPDXID": "SPDXRef-npm-jquery-3.6.4-54b283",
+    "versionInfo": "^3.6.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/jquery@%5E3.6.4"
+     }
+    ]
+   },
+   {
+    "name": "web-storage-cache",
+    "SPDXID": "SPDXRef-npm-web-storage-cache-1.1.1-375699",
+    "versionInfo": "^1.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/web-storage-cache@%5E1.1.1"
+     }
+    ]
+   },
+   {
+    "name": "eslint",
+    "SPDXID": "SPDXRef-npm-eslint-7.32.0-d592c0",
+    "versionInfo": "^7.32.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/eslint@%5E7.32.0"
+     }
+    ]
+   },
+   {
+    "name": "eslint-plugin-prettier",
+    "SPDXID": "SPDXRef-npm-eslint-plugin-prettier-4.2.1-7697d0",
+    "versionInfo": "^4.2.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/eslint-plugin-prettier@%5E4.2.1"
+     }
+    ]
+   },
+   {
+    "name": "@types/node",
+    "SPDXID": "SPDXRef-npm-types-node-20.14.12-f38921",
+    "versionInfo": "^20.14.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/node@%5E20.14.12"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-data-validation",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-data-validation-1.2.0-1b6629",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-data-validation@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-sort-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-sort-ui-1.2.0-09b408",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-sort-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "qs",
+    "SPDXID": "SPDXRef-npm-qs-6.11.0-3ff9fd",
+    "versionInfo": "^6.11.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/qs@%5E6.11.0"
+     }
+    ]
+   },
+   {
+    "name": "vxe-table",
+    "SPDXID": "SPDXRef-npm-vxe-table-4.16.204.19.22-3b314b",
+    "versionInfo": ">=4.16.20 <=4.19.22",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vxe-table@%3E%3D4.16.20%20%3C%3D4.19.22"
+     }
+    ]
+   },
+   {
+    "name": "@antv/g-svg",
+    "SPDXID": "SPDXRef-npm-antv-g-svg-2.1.1-cf46f3",
+    "versionInfo": "^2.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antv/g-svg@%5E2.1.1"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-crosshair-highlight",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-crosshair-highlight-1.2.0-060359",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-crosshair-highlight@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/engine-render",
+    "SPDXID": "SPDXRef-npm-univerjs-engine-render-1.2.0-c1f9b3",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/engine-render@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vue-codemirror",
+    "SPDXID": "SPDXRef-npm-vue-codemirror-6.1.1-8ea088",
+    "versionInfo": "^6.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-codemirror@%5E6.1.1"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-conditional-formatting",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-conditional-formatting-1.2.0-f282a3",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-conditional-formatting@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "prettier",
+    "SPDXID": "SPDXRef-npm-prettier-2.8.4-736aec",
+    "versionInfo": "^2.8.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/prettier@%5E2.8.4"
+     }
+    ]
+   },
+   {
+    "name": "stylelint-prettier",
+    "SPDXID": "SPDXRef-npm-stylelint-prettier-2.0.0-9e18b3",
+    "versionInfo": "^2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stylelint-prettier@%5E2.0.0"
+     }
+    ]
+   },
+   {
+    "name": "vue-router",
+    "SPDXID": "SPDXRef-npm-vue-router-4.1.3-c03b6c",
+    "versionInfo": "4.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) 2022 Eduardo San Martin Morote, Copyright (c) 2019-present Eduardo San Martin Morote",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-router@4.1.3"
+     }
+    ]
+   },
+   {
+    "name": "@babel/runtime",
+    "SPDXID": "SPDXRef-npm-babel-runtime-7.5.5-b1e507",
+    "versionInfo": "^7.5.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40babel/runtime@%5E7.5.5"
+     }
+    ]
+   },
+   {
+    "name": "@antv/l7",
+    "SPDXID": "SPDXRef-npm-antv-l7-2.23.1-5cb6b6",
+    "versionInfo": "2.23.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antv/l7@2.23.1"
+     }
+    ]
+   },
+   {
+    "name": "dingtalk-jsapi",
+    "SPDXID": "SPDXRef-npm-dingtalk-jsapi-3.1.0-4e023a",
+    "versionInfo": "^3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/dingtalk-jsapi@%5E3.1.0"
+     }
+    ]
+   },
+   {
+    "name": "mitt",
+    "SPDXID": "SPDXRef-npm-mitt-3.0.0-bcee86",
+    "versionInfo": "^3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/mitt@%5E3.0.0"
+     }
+    ]
+   },
+   {
+    "name": "vite-plugin-style-import-secondary",
+    "SPDXID": "SPDXRef-npm-vite-plugin-style-import-secondary-2.0.0-7f25a3",
+    "versionInfo": "^2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-plugin-style-import-secondary@%5E2.0.0"
+     }
+    ]
+   },
+   {
+    "name": "vant",
+    "SPDXID": "SPDXRef-npm-vant-4.10.0-cf45a8",
+    "versionInfo": "4.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vant@4.10.0"
+     }
+    ]
+   },
+   {
+    "name": "postcss-html",
+    "SPDXID": "SPDXRef-npm-postcss-html-1.5.0-e94601",
+    "versionInfo": "^1.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/postcss-html@%5E1.5.0"
+     }
+    ]
+   },
+   {
+    "name": "vuedraggable",
+    "SPDXID": "SPDXRef-npm-vuedraggable-4.1.0-42ae3c",
+    "versionInfo": "^4.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vuedraggable@%5E4.1.0"
+     }
+    ]
+   },
+   {
+    "name": "js-base64",
+    "SPDXID": "SPDXRef-npm-js-base64-3.7.5-f8fc3c",
+    "versionInfo": "^3.7.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/js-base64@%5E3.7.5"
+     }
+    ]
+   },
+   {
+    "name": "vue-router_2",
+    "SPDXID": "SPDXRef-npm-vue-router2-4.1.3-0bb457",
+    "versionInfo": "^4.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-router_2@%5E4.1.3"
+     }
+    ]
+   },
+   {
+    "name": "echarts",
+    "SPDXID": "SPDXRef-npm-echarts-5.5.1-b06249",
+    "versionInfo": "^5.5.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/echarts@%5E5.5.1"
+     }
+    ]
+   },
+   {
+    "name": "@tinymce/tinymce-vue",
+    "SPDXID": "SPDXRef-npm-tinymce-tinymce-vue-5.1.1-1a0cf8",
+    "versionInfo": "^5.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40tinymce/tinymce-vue@%5E5.1.1"
+     }
+    ]
+   },
+   {
+    "name": "screenfull",
+    "SPDXID": "SPDXRef-npm-screenfull-6.0.2-cc8f20",
+    "versionInfo": "^6.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/screenfull@%5E6.0.2"
+     }
+    ]
+   },
+   {
+    "name": "tinymce-i18n",
+    "SPDXID": "SPDXRef-npm-tinymce-i18n-23.1.23-64b4ef",
+    "versionInfo": "23.1.23",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2018 mklkj, Copyright (c) 2022 Ephox Corporation DBA Tiny Technologies, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/tinymce-i18n@23.1.23"
+     }
+    ]
+   },
+   {
+    "name": "vue",
+    "SPDXID": "SPDXRef-npm-vue-3.5.35-2fe857",
+    "versionInfo": "3.5.35",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) 2018-present Yuxi, Copyright (c) 2018-present, Yuxi",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue@3.5.35"
+     }
+    ]
+   },
+   {
+    "name": "cron-validate",
+    "SPDXID": "SPDXRef-npm-cron-validate-1.4.5-a2b464",
+    "versionInfo": "^1.4.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/cron-validate@%5E1.4.5"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-conditional-formatting-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-conditional-formatting-ui-1.2.0-f4d57e",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-conditional-formatting-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/engine-formula",
+    "SPDXID": "SPDXRef-npm-univerjs-engine-formula-1.2.0-a786d9",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/engine-formula@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "postcss",
+    "SPDXID": "SPDXRef-npm-postcss-8.4.21-33da78",
+    "versionInfo": "^8.4.21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/postcss@%5E8.4.21"
+     }
+    ]
+   },
+   {
+    "name": "vue-dompurify-html",
+    "SPDXID": "SPDXRef-npm-vue-dompurify-html-5.3.0-b5d5dd",
+    "versionInfo": "^5.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-dompurify-html@%5E5.3.0"
+     }
+    ]
+   },
+   {
+    "name": "video.js",
+    "SPDXID": "SPDXRef-npm-video.js-7.21.6-2dcead",
+    "versionInfo": "^7.21.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/video.js@%5E7.21.6"
+     }
+    ]
+   },
+   {
+    "name": "sockjs-client",
+    "SPDXID": "SPDXRef-npm-sockjs-client-1.6.1-30e5f6",
+    "versionInfo": "^1.6.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/sockjs-client@%5E1.6.1"
+     }
+    ]
+   },
+   {
+    "name": "stylelint-config-html",
+    "SPDXID": "SPDXRef-npm-stylelint-config-html-1.1.0-b29fc4",
+    "versionInfo": "^1.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stylelint-config-html@%5E1.1.0"
+     }
+    ]
+   },
+   {
+    "name": "@antv/s2",
+    "SPDXID": "SPDXRef-npm-antv-s2-2.5.0-6fd88f",
+    "versionInfo": "^2.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antv/s2@%5E2.5.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-thread-comment-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-thread-comment-ui-1.2.0-fd9486",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-thread-comment-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vue-types",
+    "SPDXID": "SPDXRef-npm-vue-types-5.0.2-f2fa32",
+    "versionInfo": "^5.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-types@%5E5.0.2"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-numfmt",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-numfmt-1.2.0-0e92a1",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-numfmt@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "node-forge",
+    "SPDXID": "SPDXRef-npm-node-forge-1.4.2-94f3de",
+    "versionInfo": "1.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "(BSD-3-Clause OR GPL-2.0)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/node-forge@1.4.2"
+     }
+    ]
+   },
+   {
+    "name": "file-saver",
+    "SPDXID": "SPDXRef-npm-file-saver-2.0.5-ae0baf",
+    "versionInfo": "^2.0.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/file-saver@%5E2.0.5"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-filter",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-filter-1.2.0-b3139d",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-filter@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vite",
+    "SPDXID": "SPDXRef-npm-vite-6.4.4-69ac0a",
+    "versionInfo": "6.4.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite@6.4.4"
+     }
+    ]
+   },
+   {
+    "name": "rimraf",
+    "SPDXID": "SPDXRef-npm-rimraf-4.1.2-24725e",
+    "versionInfo": "^4.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "ISC",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/rimraf@%5E4.1.2"
+     }
+    ]
+   },
+   {
+    "name": "html2canvas",
+    "SPDXID": "SPDXRef-npm-html2canvas-1.4.1-556f8d",
+    "versionInfo": "^1.4.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/html2canvas@%5E1.4.1"
+     }
+    ]
+   },
+   {
+    "name": "@antv/g2",
+    "SPDXID": "SPDXRef-npm-antv-g2-5.4.8-dcb05e",
+    "versionInfo": "^5.4.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antv/g2@%5E5.4.8"
+     }
+    ]
+   },
+   {
+    "name": "@npkg/tinymce-plugins",
+    "SPDXID": "SPDXRef-npm-npkg-tinymce-plugins-0.0.7-c65c0e",
+    "versionInfo": "^0.0.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40npkg/tinymce-plugins@%5E0.0.7"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/docs",
+    "SPDXID": "SPDXRef-npm-univerjs-docs-1.2.0-1d8335",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/docs@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/watermark",
+    "SPDXID": "SPDXRef-npm-univerjs-watermark-1.2.0-3b3345",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/watermark@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "postcss-scss",
+    "SPDXID": "SPDXRef-npm-postcss-scss-4.0.6-316fa4",
+    "versionInfo": "^4.0.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/postcss-scss@%5E4.0.6"
+     }
+    ]
+   },
+   {
+    "name": "stylelint-order",
+    "SPDXID": "SPDXRef-npm-stylelint-order-6.0.2-f7b4c7",
+    "versionInfo": "^6.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stylelint-order@%5E6.0.2"
+     }
+    ]
+   },
+   {
+    "name": "vite-plugin-stylelint",
+    "SPDXID": "SPDXRef-npm-vite-plugin-stylelint-6.0.0-2b3293",
+    "versionInfo": "^6.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-plugin-stylelint@%5E6.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-find-replace",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-find-replace-1.2.0-46c760",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-find-replace@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "consola",
+    "SPDXID": "SPDXRef-npm-consola-2.15.3-7e1395",
+    "versionInfo": "^2.15.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/consola@%5E2.15.3"
+     }
+    ]
+   },
+   {
+    "name": "unplugin-vue-components-secondary",
+    "SPDXID": "SPDXRef-npm-unplugin-vue-components-secondary-0.24.6-62313e",
+    "versionInfo": "^0.24.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/unplugin-vue-components-secondary@%5E0.24.6"
+     }
+    ]
+   },
+   {
+    "name": "vite-svg-loader",
+    "SPDXID": "SPDXRef-npm-vite-svg-loader-5.1.0-52960f",
+    "versionInfo": "^5.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-svg-loader@%5E5.1.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/ui-adapter-vue3",
+    "SPDXID": "SPDXRef-npm-univerjs-ui-adapter-vue3-1.2.0-f5946c",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/ui-adapter-vue3@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "pinia",
+    "SPDXID": "SPDXRef-npm-pinia-2.0.32-e1a4e9",
+    "versionInfo": "^2.0.32",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/pinia@%5E2.0.32"
+     }
+    ]
+   },
+   {
+    "name": "vue-i18n",
+    "SPDXID": "SPDXRef-npm-vue-i18n-9.2.2-d8c863",
+    "versionInfo": "^9.2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-i18n@%5E9.2.2"
+     }
+    ]
+   },
+   {
+    "name": "modern-screenshot",
+    "SPDXID": "SPDXRef-npm-modern-screenshot-4.6.6-f3b254",
+    "versionInfo": "^4.6.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/modern-screenshot@%5E4.6.6"
+     }
+    ]
+   },
+   {
+    "name": "tinymce",
+    "SPDXID": "SPDXRef-npm-tinymce-6.8.6-8b17ac",
+    "versionInfo": "^6.8.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT AND MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/tinymce@%5E6.8.6"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/icons-vue",
+    "SPDXID": "SPDXRef-npm-univerjs-icons-vue-1.46.0-b78420",
+    "versionInfo": "^1.46.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/icons-vue@%5E1.46.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/icons",
+    "SPDXID": "SPDXRef-npm-univerjs-icons-1.46.0-4ad63a",
+    "versionInfo": "^1.46.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/icons@%5E1.46.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/node-forge",
+    "SPDXID": "SPDXRef-npm-types-node-forge-1.3.14-73f811",
+    "versionInfo": "1.3.14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/node-forge@1.3.14"
+     }
+    ]
+   },
+   {
+    "name": "html-to-image",
+    "SPDXID": "SPDXRef-npm-html-to-image-1.11.11-40c612",
+    "versionInfo": "^1.11.11",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/html-to-image@%5E1.11.11"
+     }
+    ]
+   },
+   {
+    "name": "patch-package",
+    "SPDXID": "SPDXRef-npm-patch-package-8.0.1-6a9093",
+    "versionInfo": "8.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2017-Present David Sheldrick",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/patch-package@8.0.1"
+     }
+    ]
+   },
+   {
+    "name": "lodash-es",
+    "SPDXID": "SPDXRef-npm-lodash-es-4.17.21-aac1ee",
+    "versionInfo": "^4.17.21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "CC0-1.0 AND MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/lodash-es@%5E4.17.21"
+     }
+    ]
+   },
+   {
+    "name": "snowflake-id",
+    "SPDXID": "SPDXRef-npm-snowflake-id-1.1.0-6ca2c2",
+    "versionInfo": "^1.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/snowflake-id@%5E1.1.0"
+     }
+    ]
+   },
+   {
+    "name": "axios",
+    "SPDXID": "SPDXRef-npm-axios-1.3.3-17f8f7",
+    "versionInfo": "^1.3.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/axios@%5E1.3.3"
+     }
+    ]
+   },
+   {
+    "name": "jspdf",
+    "SPDXID": "SPDXRef-npm-jspdf-4.2.0-03161b",
+    "versionInfo": "^4.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/jspdf@%5E4.2.0"
+     }
+    ]
+   },
+   {
+    "name": "flv-h265",
+    "SPDXID": "SPDXRef-npm-flv-h265-1.7.0-f055ef",
+    "versionInfo": "^1.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/flv-h265@%5E1.7.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/design",
+    "SPDXID": "SPDXRef-npm-univerjs-design-1.2.0-0e3e6d",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/design@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "nprogress",
+    "SPDXID": "SPDXRef-npm-nprogress-0.2.0-a5dbb3",
+    "versionInfo": "^0.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/nprogress@%5E0.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vite-plugin-style-import",
+    "SPDXID": "SPDXRef-npm-vite-plugin-style-import-2.0.0-98747f",
+    "versionInfo": "^2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-plugin-style-import@%5E2.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/sockjs-client",
+    "SPDXID": "SPDXRef-npm-types-sockjs-client-1.5.4-1943c4",
+    "versionInfo": "^1.5.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/sockjs-client@%5E1.5.4"
+     }
+    ]
+   },
+   {
+    "name": "@videojs-player/vue",
+    "SPDXID": "SPDXRef-npm-videojs-player-vue-1.0.0-eeab40",
+    "versionInfo": "^1.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40videojs-player/vue@%5E1.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@turf/centroid",
+    "SPDXID": "SPDXRef-npm-turf-centroid-7.0.0-709181",
+    "versionInfo": "^7.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40turf/centroid@%5E7.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@vitejs/plugin-vue",
+    "SPDXID": "SPDXRef-npm-vitejs-plugin-vue-6.0.6-65cfa6",
+    "versionInfo": "^6.0.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40vitejs/plugin-vue@%5E6.0.6"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-formula-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-formula-ui-1.2.0-69dfac",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-formula-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-formula",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-formula-1.2.0-085f1f",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-formula@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/ui",
+    "SPDXID": "SPDXRef-npm-univerjs-ui-1.2.0-8a3e86",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-table",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-table-1.2.0-130400",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-table@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-ui-1.2.0-173e78",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "element-resize-detector",
+    "SPDXID": "SPDXRef-npm-element-resize-detector-1.2.4-7823a9",
+    "versionInfo": "^1.2.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/element-resize-detector@%5E1.2.4"
+     }
+    ]
+   },
+   {
+    "name": "@typescript-eslint/parser",
+    "SPDXID": "SPDXRef-npm-typescript-eslint-parser-5.53.0-4d00b3",
+    "versionInfo": "^5.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-2-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40typescript-eslint/parser@%5E5.53.0"
+     }
+    ]
+   },
+   {
+    "name": "net",
+    "SPDXID": "SPDXRef-npm-net-1.0.2-8cb756",
+    "versionInfo": "^1.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/net@%5E1.0.2"
+     }
+    ]
+   },
+   {
+    "name": "ace-builds",
+    "SPDXID": "SPDXRef-npm-ace-builds-1.15.3-909579",
+    "versionInfo": "^1.15.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/ace-builds@%5E1.15.3"
+     }
+    ]
+   },
+   {
+    "name": "vue-tsc",
+    "SPDXID": "SPDXRef-npm-vue-tsc-1.0.24-ef365a",
+    "versionInfo": "^1.0.24",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-tsc@%5E1.0.24"
+     }
+    ]
+   },
+   {
+    "name": "unplugin-auto-import",
+    "SPDXID": "SPDXRef-npm-unplugin-auto-import-0.15.1-4731c6",
+    "versionInfo": "^0.15.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/unplugin-auto-import@%5E0.15.1"
+     }
+    ]
+   },
+   {
+    "name": "@vitejs/plugin-vue-jsx",
+    "SPDXID": "SPDXRef-npm-vitejs-plugin-vue-jsx-4.0.0-bc1c3b",
+    "versionInfo": "^4.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40vitejs/plugin-vue-jsx@%5E4.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-data-validation-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-data-validation-ui-1.2.0-104739",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-data-validation-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "eslint-plugin-vue",
+    "SPDXID": "SPDXRef-npm-eslint-plugin-vue-9.9.0-5569c1",
+    "versionInfo": "^9.9.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/eslint-plugin-vue@%5E9.9.0"
+     }
+    ]
+   },
+   {
+    "name": "jsencrypt",
+    "SPDXID": "SPDXRef-npm-jsencrypt-3.3.2-9b2c65",
+    "versionInfo": "3.3.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) 2013-2017 Kenji Urushima, Copyright (c) 2003-2005 Tom Wu, Copyright (c) 2005 Tom Wu, Copyright (c) 2008-2013 Lapo Luchini <lapo@lapo.it>, Copyright (c) 2008-2014 Lapo Luchini <lapo@lapo.it>, Copyright (c) 2010-2013 Kenji Urushima, Copyright (c) 2011, Yahoo! Inc., Copyright (c) 2013-2017 Kenji Urushima (kenji.urushima@gmail.com), Copyright (c) 2014 Lapo Luchini <lapo@lapo.it>, Copyright (c) 2015 Form.io",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/jsencrypt@3.3.2"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-table-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-table-ui-1.2.0-6e5156",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-table-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vue-uuid",
+    "SPDXID": "SPDXRef-npm-vue-uuid-3.0.0-af45f2",
+    "versionInfo": "^3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-uuid@%5E3.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-hyper-link-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-hyper-link-ui-1.2.0-bae7d3",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-hyper-link-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vite-plugin-svg-icons",
+    "SPDXID": "SPDXRef-npm-vite-plugin-svg-icons-2.0.1-873a3b",
+    "versionInfo": "^2.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-plugin-svg-icons@%5E2.0.1"
+     }
+    ]
+   },
+   {
+    "name": "dayjs",
+    "SPDXID": "SPDXRef-npm-dayjs-1.11.9-2f00f2",
+    "versionInfo": "^1.11.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/dayjs@%5E1.11.9"
+     }
+    ]
+   },
+   {
+    "name": "@vueuse/core",
+    "SPDXID": "SPDXRef-npm-vueuse-core-9.13.0-73e031",
+    "versionInfo": "^9.13.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40vueuse/core@%5E9.13.0"
+     }
+    ]
+   },
+   {
+    "name": "@antv/l7plot",
+    "SPDXID": "SPDXRef-npm-antv-l7plot-0.5.11-99c0ac",
+    "versionInfo": "0.5.11",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2016 Jorik Tangelder, Copyright (c) 2021 AntV, Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antv/l7plot@0.5.11"
+     }
+    ]
+   },
+   {
+    "name": "element-plus-secondary",
+    "SPDXID": "SPDXRef-npm-element-plus-secondary-2.1.2-1cfbf7",
+    "versionInfo": "^2.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/element-plus-secondary@%5E2.1.2"
+     }
+    ]
+   },
+   {
+    "name": "@typescript-eslint/eslint-plugin",
+    "SPDXID": "SPDXRef-npm-typescript-eslint-eslint-plugin-5.53.0-5153db",
+    "versionInfo": "^5.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40typescript-eslint/eslint-plugin@%5E5.53.0"
+     }
+    ]
+   },
+   {
+    "name": "dompurify",
+    "SPDXID": "SPDXRef-npm-dompurify-3.4.2-697b61",
+    "versionInfo": "^3.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "(MPL-2.0 OR Apache-2.0)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/dompurify@%5E3.4.2"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-note-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-note-ui-1.2.0-a8b595",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-note-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/find-replace",
+    "SPDXID": "SPDXRef-npm-univerjs-find-replace-1.2.0-00296c",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/find-replace@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/thread-comment-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-thread-comment-ui-1.2.0-5fab99",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/thread-comment-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vue-draggable-next",
+    "SPDXID": "SPDXRef-npm-vue-draggable-next-2.2.1-635f27",
+    "versionInfo": "^2.2.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vue-draggable-next@%5E2.2.1"
+     }
+    ]
+   },
+   {
+    "name": "stylelint-config-standard",
+    "SPDXID": "SPDXRef-npm-stylelint-config-standard-30.0.1-d1ade6",
+    "versionInfo": "^30.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stylelint-config-standard@%5E30.0.1"
+     }
+    ]
+   },
+   {
+    "name": "stylelint-config-recommended",
+    "SPDXID": "SPDXRef-npm-stylelint-config-recommended-10.0.1-c7300e",
+    "versionInfo": "^10.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/stylelint-config-recommended@%5E10.0.1"
+     }
+    ]
+   },
+   {
+    "name": "@types/element-resize-detector",
+    "SPDXID": "SPDXRef-npm-types-element-resize-detector-1.1.3-24832c",
+    "versionInfo": "^1.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/element-resize-detector@%5E1.1.3"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-numfmt-ui",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-numfmt-ui-1.2.0-7de398",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-numfmt-ui@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets-hyper-link",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-hyper-link-1.2.0-f7b19d",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets-hyper-link@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/sheets",
+    "SPDXID": "SPDXRef-npm-univerjs-sheets-1.2.0-8cd33b",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/sheets@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@univerjs/core",
+    "SPDXID": "SPDXRef-npm-univerjs-core-1.2.0-f68576",
+    "versionInfo": "^1.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40univerjs/core@%5E1.2.0"
+     }
+    ]
+   },
+   {
+    "name": "vite-plugin-compression",
+    "SPDXID": "SPDXRef-npm-vite-plugin-compression-0.5.1-79982b",
+    "versionInfo": "^0.5.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-plugin-compression@%5E0.5.1"
+     }
+    ]
+   },
+   {
+    "name": "@codemirror/lang-sql",
+    "SPDXID": "SPDXRef-npm-codemirror-lang-sql-6.4.0-45d431",
+    "versionInfo": "^6.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40codemirror/lang-sql@%5E6.4.0"
+     }
+    ]
+   },
+   {
+    "name": "vite-plugin-eslint",
+    "SPDXID": "SPDXRef-npm-vite-plugin-eslint-1.8.1-6cff9e",
+    "versionInfo": "^1.8.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vite-plugin-eslint@%5E1.8.1"
+     }
+    ]
+   },
+   {
+    "name": "normalize.css",
+    "SPDXID": "SPDXRef-npm-normalize.css-8.0.1-e75166",
+    "versionInfo": "^8.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/normalize.css@%5E8.0.1"
+     }
+    ]
+   },
+   {
+    "name": "crypto-js",
+    "SPDXID": "SPDXRef-npm-crypto-js-4.1.1-01a53b",
+    "versionInfo": "^4.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/crypto-js@%5E4.1.1"
+     }
+    ]
+   },
+   {
+    "name": "mathjs",
+    "SPDXID": "SPDXRef-npm-mathjs-15.2.0-6ad865",
+    "versionInfo": "^15.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/mathjs@%5E15.2.0"
+     }
+    ]
+   },
+   {
+    "name": "htmlparser2",
+    "SPDXID": "SPDXRef-npm-htmlparser2-8.0.2-a94ada",
+    "versionInfo": "^8.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/htmlparser2@%5E8.0.2"
+     }
+    ]
+   },
+   {
+    "name": "fit2cloud/LLM-CodeReview-Action",
+    "SPDXID": "SPDXRef-githubactions-fit2cloud-LLM-CodeReview-Action-main-fca9ac",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/fit2cloud/LLM-CodeReview-Action@main"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-2..-794539",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents.core5:httpcore5-h2",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents.core5-httpcore5-h2-5.4.3-e379af",
+    "versionInfo": "5.4.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2005-2021 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.4.3"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.fesod:fesod-sheet",
+    "SPDXID": "SPDXRef-maven-org.apache.fesod-fesod-sheet-2.1.0-incubating-98e323",
+    "versionInfo": "2.1.0-incubating",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.fesod/fesod-sheet@2.1.0-incubating"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-codec-http",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-codec-http-4.1.137-1bcac9",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "org.bouncycastle:bcprov-jdk15to18",
+    "SPDXID": "SPDXRef-maven-org.bouncycastle-bcprov-jdk15to18-1.85-cfdc56",
+    "versionInfo": "1.85",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NOASSERTION",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.85"
+     }
+    ]
+   },
+   {
+    "name": "org.projectlombok:lombok",
+    "SPDXID": "SPDXRef-maven-org.projectlombok-lombok-58272c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.projectlombok/lombok"
+     }
+    ]
+   },
+   {
+    "name": "commons-lang:commons-lang",
+    "SPDXID": "SPDXRef-maven-commons-lang-commons-lang-2.6-bc0e6c",
+    "versionInfo": "2.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2011 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-lang/commons-lang@2.6"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.velocity:velocity-engine-core",
+    "SPDXID": "SPDXRef-maven-org.apache.velocity-velocity-engine-core-2.3-7d48b9",
+    "versionInfo": "2.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2000-2020 The Apache Software Foundation, Copyright 2002-2020 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.velocity/velocity-engine-core@2.3"
+     }
+    ]
+   },
+   {
+    "name": "com.google.protobuf:protobuf-java",
+    "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-3.25.5-b9c2c0",
+    "versionInfo": "3.25.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright 2008 Google Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@3.25.5"
+     }
+    ]
+   },
+   {
+    "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+    "SPDXID": "SPDXRef-maven-io.swagger.core.v3-swagger-annotations-jakarta-2.2.38-87f290",
+    "versionInfo": "2.2.38",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2015. SmartBear Software Inc., Copyright (c) 2015. SmartBear Software Inc. Swagger Core",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-annotations-jakarta@2.2.38"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-3.5.15-8010dd",
+    "versionInfo": "3.5.15",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-maven-plugin@3.5.15"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-handler",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-handler-4.1.137-0f288a",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-transport",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-transport-4.1.137-6e99d8",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:exec-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-exec-maven-plugin-3.1.0-9e1e78",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/exec-maven-plugin@3.1.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-lang3",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-687ef1",
+    "versionInfo": "3.20.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2017 The Apache Software Foundation, Copyright 2001-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.20.0"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-common",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-common-4.1.137-db47d1",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-resolver",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-resolver-4.1.137-677ec5",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-transport-native-unix-common",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-transport-native-unix-common-4.1.137-dc0e72",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.poi:poi-ooxml-lite",
+    "SPDXID": "SPDXRef-maven-org.apache.poi-poi-ooxml-lite-5.5.1-085ebc",
+    "versionInfo": "5.5.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT",
+    "copyrightText": "Copyright (c) 2000-2003, BEA Systems, http://www.bea.com, Copyright (c) 2002-2023 EPFL, Copyright (c) 2006-2007 Valek Filippov (frob@df.ru), Copyright (c) 2009-2018 FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be), Bart Hanssens from FedICT, Copyright (c) 2011-2023 Lightbend, Inc., Copyright (c) 2015 Inbot, Copyright (c) 2015-2021 the original, Copyright (c) Microsoft Corporation, Copyright 2001-2003 (c) World Wide Web Consortium (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University), Copyright 2003-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.poi/poi-ooxml-lite@5.5.1"
+     }
+    ]
+   },
+   {
+    "name": "commons-fileupload:commons-fileupload",
+    "SPDXID": "SPDXRef-maven-commons-fileupload-commons-fileupload-1.6.0-78fcec",
+    "versionInfo": "1.6.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-fileupload/commons-fileupload@1.6.0"
+     }
+    ]
+   },
+   {
+    "name": "org.bouncycastle:bcprov-jdk18on",
+    "SPDXID": "SPDXRef-maven-org.bouncycastle-bcprov-jdk18on-1.85-5a9843",
+    "versionInfo": "1.85",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2000-2023 The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org), Copyright (c) 2000-2026 The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.85"
+     }
+    ]
+   },
+   {
+    "name": "com.fasterxml.jackson:jackson-bom",
+    "SPDXID": "SPDXRef-maven-com.fasterxml.jackson-jackson-bom-2.21.7-116a71",
+    "versionInfo": "2.21.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.21.7"
+     }
+    ]
+   },
+   {
+    "name": "com.h2database:h2",
+    "SPDXID": "SPDXRef-maven-com.h2database-h2-2.2.220-008568",
+    "versionInfo": "2.2.220",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0 OR MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.h2database/h2@2.2.220"
+     }
+    ]
+   },
+   {
+    "name": "com.github.xiaoymin:knife4j-dependencies",
+    "SPDXID": "SPDXRef-maven-com.github.xiaoymin-knife4j-dependencies-4.5.0-7a84a0",
+    "versionInfo": "4.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.xiaoymin/knife4j-dependencies@4.5.0"
+     }
+    ]
+   },
+   {
+    "name": "com.fasterxml.woodstox:woodstox-core",
+    "SPDXID": "SPDXRef-maven-com.fasterxml.woodstox-woodstox-core-7.1.0-6bf065",
+    "versionInfo": "7.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2001-2009 Sun Microsystems, Inc., Copyright (c) 2001-2013 Oracle and/or its affiliates, Copyright (c) 2013 Oracle and/or its affiliates, Copyright 2001 Sun Microsystems, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.fasterxml.woodstox/woodstox-core@7.1.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents.core5:httpcore5",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents.core5-httpcore5-5.4.3-5fac9c",
+    "versionInfo": "5.4.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2005-2021 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.4.3"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-2dd532",
+    "versionInfo": "33.7.2-jre",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava@33.7.2-jre"
+     }
+    ]
+   },
+   {
+    "name": "org.mariadb.jdbc:mariadb-java-client",
+    "SPDXID": "SPDXRef-maven-org.mariadb.jdbc-mariadb-java-client-3.3.7-80ac46",
+    "versionInfo": "3.3.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@3.3.7"
+     }
+    ]
+   },
+   {
+    "name": "org.ehcache:ehcache",
+    "SPDXID": "SPDXRef-maven-org.ehcache-ehcache-3.10.8-37caaf",
+    "versionInfo": "3.10.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND CC0-1.0",
+    "copyrightText": "Copyright 2015 Terracotta, Inc., a Software AG company, Copyright 2020 Terracotta, Inc., a Software AG company, copyright Terracotta, Inc., Copyright Terracotta, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.ehcache/ehcache@3.10.8"
+     }
+    ]
+   },
+   {
+    "name": "com.auth0:java-jwt",
+    "SPDXID": "SPDXRef-maven-com.auth0-java-jwt-3.12.1-f4f1b3",
+    "versionInfo": "3.12.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NOASSERTION",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.auth0/java-jwt@3.12.1"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-dependencies",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-dependencies-3.5.15-1f2c96",
+    "versionInfo": "3.5.15",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-dependencies@3.5.15"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-bom",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-bom-4.1.137-a2a91c",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-bom@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "org.jsoup:jsoup",
+    "SPDXID": "SPDXRef-maven-org.jsoup-jsoup-1.23.2-b6787b",
+    "versionInfo": "1.23.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jsoup/jsoup@1.23.2"
+     }
+    ]
+   },
+   {
+    "name": "com.baomidou:mybatis-plus-boot-starter",
+    "SPDXID": "SPDXRef-maven-com.baomidou-mybatis-plus-boot-starter-3.5.7-f97e67",
+    "versionInfo": "3.5.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2011-$ year, baomidou (jobob@qq.com)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.baomidou/mybatis-plus-boot-starter@3.5.7"
+     }
+    ]
+   },
+   {
+    "name": "commons-io:commons-io",
+    "SPDXID": "SPDXRef-maven-commons-io-commons-io-2.21.0-955078",
+    "versionInfo": "2.21.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-io/commons-io@2.21.0"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-websocket",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-websocket-3.5.15-8c72af",
+    "versionInfo": "3.5.15",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-websocket@3.5.15"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-codec",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-codec-4.1.137-6e7caf",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents.client5:httpclient5",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents.client5-httpclient5-5.6.3-0ee73f",
+    "versionInfo": "5.6.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 1999-2021 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.6.3"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-buffer",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-buffer-4.1.137-c18797",
+    "versionInfo": "4.1.137",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.137"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:flatten-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-flatten-maven-plugin-1.3.0-10748c",
+    "versionInfo": "1.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/flatten-maven-plugin@1.3.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.pdfbox:pdfbox",
+    "SPDXID": "SPDXRef-maven-org.apache.pdfbox-pdfbox-2.0.33-956bcd",
+    "versionInfo": "2.0.33",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1985, 1987, 1988, 1989, 1997 Adobe Systems Incorporated, Copyright (c) 1985, 1987, 1989, 1990, 1993, 1997 Adobe Systems Incorporated, Copyright (c) 1985, 1987, 1989, 1990, 1997 Adobe Systems Incorporated, Copyright (c) 1989, 1990, 1991, 1992, 1993, 1997 Adobe Systems Incorporated, Copyright (c) 1989, 1990, 1991, 1993, 1997 Adobe Systems Incorporated, Copyright (c) 1991-2015 Unicode, Inc., Copyright (c) 1997,1998,2002,2007 Adobe Systems Incorporated, Copyright (c) 2002-2007, www.pdfbox.org, Copyright (c) 2006-2007 Color Solutions, Copyright (c) 2007-2010, basICColor GmbH, Copyright (c) 2008-2016, Harald Kuhr, copyright (c) 2010 Google Corporation, Copyright (c) 2012 Red Hat, Inc., Copyright 1990-2009 Adobe Systems Incorporated, Copyright 1991-2015 Unicode, Inc., Copyright 1997, 1998, 2002, 2007, 2010 Adobe Systems Incorporated, Copyright 2002-2025 The Apache Software Foundation, Copyright 2002, 2010 Adobe Systems Incorporated, Copyright 2008-2016 Harald Kuhr",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.pdfbox/pdfbox@2.0.33"
+     }
+    ]
+   },
+   {
+    "name": "org.xmlunit:xmlunit-core",
+    "SPDXID": "SPDXRef-maven-org.xmlunit-xmlunit-core-2.10.0-9044e9",
+    "versionInfo": "2.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-core@2.10.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-compress",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-compress-1.26.2-1fcff6",
+    "versionInfo": "1.26.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2024 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-compress@1.26.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.santuario:xmlsec",
+    "SPDXID": "SPDXRef-maven-org.apache.santuario-xmlsec-2.3.5-d51f25",
+    "versionInfo": "2.3.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND MIT",
+    "copyrightText": "Copyright (c) 2011 World Wide Web Consortium (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University), Copyright 2000-2024 The Apache Software Foundation, Copyright 2001 The Internet Society and W3C (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University), Copyright 2002 The Internet Society and W3C (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.santuario/xmlsec@2.3.5"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.poi:poi",
+    "SPDXID": "SPDXRef-maven-org.apache.poi-poi-5.5.1-76603a",
+    "versionInfo": "5.5.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT",
+    "copyrightText": "Copyright (c) 2000-2003, BEA Systems, http://www.bea.com, Copyright (c) 2002-2023 EPFL, Copyright (c) 2006-2007 Valek Filippov (frob@df.ru), Copyright (c) 2009-2018 FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be), Bart Hanssens from FedICT, Copyright (c) 2011-2023 Lightbend, Inc., Copyright (c) 2015 Inbot, Copyright (c) 2015-2021 the original, Copyright 2001-2003 (c) World Wide Web Consortium (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University), Copyright 2003-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.poi/poi@5.5.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.poi:poi-ooxml",
+    "SPDXID": "SPDXRef-maven-org.apache.poi-poi-ooxml-5.5.1-2ad4d6",
+    "versionInfo": "5.5.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT",
+    "copyrightText": "Copyright (c) 2000-2003, BEA Systems, http://www.bea.com, Copyright (c) 2002-2023 EPFL, Copyright (c) 2006-2007 Valek Filippov (frob@df.ru), Copyright (c) 2009-2018 FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be), Bart Hanssens from FedICT, Copyright (c) 2011-2023 Lightbend, Inc., Copyright (c) 2015 Inbot, Copyright (c) 2015-2021 the original, Copyright 2001-2003 (c) World Wide Web Consortium (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University), Copyright 2003-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.poi/poi-ooxml@5.5.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.logging.log4j:log4j-core",
+    "SPDXID": "SPDXRef-maven-org.apache.logging.log4j-log4j-core-2.25.4-35ac1f",
+    "versionInfo": "2.25.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 1999-2005 The Apache Software Foundation, Copyright 1999-2012 Apache Software Foundation, Copyright 2005-2006 Tim Fennell",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-core@2.25.4"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.ldap:spring-ldap-core",
+    "SPDXID": "SPDXRef-maven-org.springframework.ldap-spring-ldap-core-22e63b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.ldap/spring-ldap-core"
+     }
+    ]
+   },
+   {
+    "name": "org.mybatis:mybatis-spring",
+    "SPDXID": "SPDXRef-maven-org.mybatis-mybatis-spring-83f7f4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mybatis/mybatis-spring"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.cloud:spring-cloud-dependencies",
+    "SPDXID": "SPDXRef-maven-org.springframework.cloud-spring-cloud-dependencies-2023.0.1-c9e27a",
+    "versionInfo": "2023.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.cloud/spring-cloud-dependencies@2023.0.1"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba.cloud:spring-cloud-alibaba-dependencies",
+    "SPDXID": "SPDXRef-maven-com.alibaba.cloud-spring-cloud-alibaba-dependencies-2023.0.1.0-16124f",
+    "versionInfo": "2023.0.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba.cloud/spring-cloud-alibaba-dependencies@2023.0.1.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-clean-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-clean-plugin-dd0eb6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-clean-plugin"
+     }
+    ]
+   },
+   {
+    "name": "com.github.eirslett:frontend-maven-plugin",
+    "SPDXID": "SPDXRef-maven-com.github.eirslett-frontend-maven-plugin-1.9.1-e2a65b",
+    "versionInfo": "1.9.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.eirslett/frontend-maven-plugin@1.9.1"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:extensions-sync",
+    "SPDXID": "SPDXRef-maven-io.dataease-extensions-sync-3b3a5c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/extensions-sync"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-lang3",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-4a048c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3"
+     }
+    ]
+   },
+   {
+    "name": "commons-io:commons-io",
+    "SPDXID": "SPDXRef-maven-commons-io-commons-io-b9a9d8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-io/commons-io"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-aop",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-aop-ddd966",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-aop"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents:httpclient",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents-httpclient-a1f09b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient"
+     }
+    ]
+   },
+   {
+    "name": "javax.cache:cache-api",
+    "SPDXID": "SPDXRef-maven-javax.cache-cache-api-e0f535",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/javax.cache/cache-api"
+     }
+    ]
+   },
+   {
+    "name": "org.opensaml:opensaml-core",
+    "SPDXID": "SPDXRef-maven-org.opensaml-opensaml-core-3.4.6-6eb9b7",
+    "versionInfo": "3.4.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.opensaml/opensaml-core@3.4.6"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:extensions-datafilling",
+    "SPDXID": "SPDXRef-maven-io.dataease-extensions-datafilling-cdfa19",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/extensions-datafilling"
+     }
+    ]
+   },
+   {
+    "name": "org.ehcache:ehcache",
+    "SPDXID": "SPDXRef-maven-org.ehcache-ehcache-459313",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.ehcache/ehcache"
+     }
+    ]
+   },
+   {
+    "name": "com.auth0:java-jwt",
+    "SPDXID": "SPDXRef-maven-com.auth0-java-jwt-d986b0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.auth0/java-jwt"
+     }
+    ]
+   },
+   {
+    "name": "com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter",
+    "SPDXID": "SPDXRef-maven-com.github.xiaoymin-knife4j-openapi3-jakarta-spring-boot-starter-ce324c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.xiaoymin/knife4j-openapi3-jakarta-spring-boot-starter"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.fesod:fesod-sheet",
+    "SPDXID": "SPDXRef-maven-org.apache.fesod-fesod-sheet-4c6480",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.fesod/fesod-sheet"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-web",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-web-b1e441",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-web"
+     }
+    ]
+   },
+   {
+    "name": "com.querydsl:querydsl-jpa",
+    "SPDXID": "SPDXRef-maven-com.querydsl-querydsl-jpa-947512",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.querydsl/querydsl-jpa"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-470b88",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents:httpmime",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents-httpmime-b83647",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpmime"
+     }
+    ]
+   },
+   {
+    "name": "org.opensaml:opensaml-saml-impl",
+    "SPDXID": "SPDXRef-maven-org.opensaml-opensaml-saml-impl-3.4.6-cd1cef",
+    "versionInfo": "3.4.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-validation",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-validation-d535b8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-validation"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-cache",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-cache-6d0122",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-cache"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-data-redis",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-redis-744e29",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-data-redis"
+     }
+    ]
+   },
+   {
+    "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
+    "SPDXID": "SPDXRef-maven-org.springdoc-springdoc-openapi-starter-webmvc-ui-9c7115",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-ui"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.httpcomponents:httpcore",
+    "SPDXID": "SPDXRef-maven-org.apache.httpcomponents-httpcore-d4e8cd",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpcore"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.velocity:velocity-engine-core",
+    "SPDXID": "SPDXRef-maven-org.apache.velocity-velocity-engine-core-59d58d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.velocity/velocity-engine-core"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:extensions-view",
+    "SPDXID": "SPDXRef-maven-io.dataease-extensions-view-4fc828",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/extensions-view"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-collections4",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-M2-4f0839",
+    "versionInfo": "4.5.0-M2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2024 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-collections4@4.5.0-M2"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:extensions-datasource",
+    "SPDXID": "SPDXRef-maven-io.dataease-extensions-datasource-cfe151",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/extensions-datasource"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.calcite:calcite-core",
+    "SPDXID": "SPDXRef-maven-org.apache.calcite-calcite-core-fea92d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.calcite/calcite-core"
+     }
+    ]
+   },
+   {
+    "name": "com.github.mwiede:jsch",
+    "SPDXID": "SPDXRef-maven-com.github.mwiede-jsch-c54dcb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.mwiede/jsch"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-4..-0645a2",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-1..-1e3a76",
+    "versionInfo": "1.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@1.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "yizhoumo/setup-ossutil",
+    "SPDXID": "SPDXRef-githubactions-yizhoumo-setup-ossutil-2..-8863c0",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/yizhoumo/setup-ossutil@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "crate-ci/typos",
+    "SPDXID": "SPDXRef-githubactions-crate-ci-typos-master-71e81a",
+    "versionInfo": "master",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/crate-ci/typos@master"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-4584e8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-4f8c48",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-maven-plugin"
+     }
+    ]
+   },
+   {
+    "name": "com.h2database:h2",
+    "SPDXID": "SPDXRef-maven-com.h2database-h2-80bd8e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.h2database/h2"
+     }
+    ]
+   },
+   {
+    "name": "com.github.jsqlparser:jsqlparser",
+    "SPDXID": "SPDXRef-maven-com.github.jsqlparser-jsqlparser-4f83de",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.jsqlparser/jsqlparser"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:api-base",
+    "SPDXID": "SPDXRef-maven-io.dataease-api-base-503a7d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/api-base"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-jpa-39b0bf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-9d1546",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit"
+     }
+    ]
+   },
+   {
+    "name": "com.querydsl:querydsl-apt",
+    "SPDXID": "SPDXRef-maven-com.querydsl-querydsl-apt-687ebb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.querydsl/querydsl-apt"
+     }
+    ]
+   },
+   {
+    "name": "commons-net:commons-net",
+    "SPDXID": "SPDXRef-maven-commons-net-commons-net-ff3722",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-net/commons-net"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-dbcp2",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-dbcp2-a768f4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-dbcp2"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-test",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-test-538e13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-test"
+     }
+    ]
+   },
+   {
+    "name": "com.jayway.jsonpath:json-path",
+    "SPDXID": "SPDXRef-maven-com.jayway.jsonpath-json-path-da2a9a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.jayway.jsonpath/json-path"
+     }
+    ]
+   },
+   {
+    "name": "com.github.ulisesbocchio:jasypt-spring-boot-starter",
+    "SPDXID": "SPDXRef-maven-com.github.ulisesbocchio-jasypt-spring-boot-starter-3.0.5-919d0c",
+    "versionInfo": "3.0.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.ulisesbocchio/jasypt-spring-boot-starter@3.0.5"
+     }
+    ]
+   },
+   {
+    "name": "org.eclipse.angus:angus-mail",
+    "SPDXID": "SPDXRef-maven-org.eclipse.angus-angus-mail-aab1c5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.eclipse.angus/angus-mail"
+     }
+    ]
+   },
+   {
+    "name": "org.antlr:antlr",
+    "SPDXID": "SPDXRef-maven-org.antlr-antlr-de2453",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.antlr/antlr"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:distributed",
+    "SPDXID": "SPDXRef-maven-io.dataease-distributed-eb9351",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/distributed"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-surefire-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-bbd84e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3f3acf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin"
+     }
+    ]
+   },
+   {
+    "name": "com.google.code.gson:gson",
+    "SPDXID": "SPDXRef-maven-com.google.code.gson-gson-5055e6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.code.gson/gson"
+     }
+    ]
+   },
+   {
+    "name": "org.mariadb.jdbc:mariadb-java-client",
+    "SPDXID": "SPDXRef-maven-org.mariadb.jdbc-mariadb-java-client-ce0219",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mariadb.jdbc/mariadb-java-client"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-antrun-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-antrun-plugin-7a0d79",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-antrun-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-websocket",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-websocket-a68e2a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-websocket"
+     }
+    ]
+   },
+   {
+    "name": "com.github.librepdf:openpdf",
+    "SPDXID": "SPDXRef-maven-com.github.librepdf-openpdf-f3b691",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.librepdf/openpdf"
+     }
+    ]
+   },
+   {
+    "name": "com.vladsch.flexmark:flexmark-all",
+    "SPDXID": "SPDXRef-maven-com.vladsch.flexmark-flexmark-all-dd89f2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.vladsch.flexmark/flexmark-all"
+     }
+    ]
+   },
+   {
+    "name": "com.mysema.maven:apt-maven-plugin",
+    "SPDXID": "SPDXRef-maven-com.mysema.maven-apt-maven-plugin-1.1.3-4408cf",
+    "versionInfo": "1.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.mysema.maven/apt-maven-plugin@1.1.3"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:build-helper-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-3.4.0-b9eed9",
+    "versionInfo": "3.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NOASSERTION",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/build-helper-maven-plugin@3.4.0"
+     }
+    ]
+   },
+   {
+    "name": "com.fit2cloud:quartz-spring-boot-starter",
+    "SPDXID": "SPDXRef-maven-com.fit2cloud-quartz-spring-boot-starter-1.0.8-125996",
+    "versionInfo": "1.0.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.fit2cloud/quartz-spring-boot-starter@1.0.8"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:api-permissions",
+    "SPDXID": "SPDXRef-maven-io.dataease-api-permissions-e286df",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/api-permissions"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:api-sync",
+    "SPDXID": "SPDXRef-maven-io.dataease-api-sync-c8ac86",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/api-sync"
+     }
+    ]
+   },
+   {
+    "name": "com.hierynomus:smbj",
+    "SPDXID": "SPDXRef-maven-com.hierynomus-smbj-0.14.0-47c738",
+    "versionInfo": "0.14.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.hierynomus/smbj@0.14.0"
+     }
+    ]
+   },
+   {
+    "name": "com.Dm:DmDialect",
+    "SPDXID": "SPDXRef-maven-com.Dm-DmDialect-6-fb5221",
+    "versionInfo": "6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.Dm/DmDialect@6"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:common",
+    "SPDXID": "SPDXRef-maven-io.dataease-common-024408",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/common"
+     }
+    ]
+   },
+   {
+    "name": "io.dataease:dataease-license-sdk",
+    "SPDXID": "SPDXRef-maven-io.dataease-dataease-license-sdk-8600d0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.dataease/dataease-license-sdk"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:core",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-core-3.4.1-33d60c",
+    "versionInfo": "3.4.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2010 ZXing",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/core@3.4.1"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:javase",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-javase-3.4.1-c23030",
+    "versionInfo": "3.4.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2010 ZXing, Copyright (c) 2015 ZXing",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/javase@3.4.1"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework.boot:spring-boot-starter-data-ldap",
+    "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-ldap-6b8151",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-data-ldap"
+     }
+    ]
+   },
+   {
+    "name": "com.fasterxml.jackson.core:jackson-databind",
+    "SPDXID": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-bb6506",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+     }
+    ]
+   },
+   {
+    "name": "com.github.dataease/dataease",
+    "SPDXID": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "versionInfo": "dev-v3",
+    "downloadLocation": "git+https://github.com/dataease/dataease",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/dataease/dataease@dev-v3"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-npm-playwright-cli-0.1.22-4fd6fa",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-1.64.0-alpha-1790635538000-a6b1d6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-npm-playwright-cli-0.1.22-4fd6fa",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-core-1.64.0-alpha-1790635538000-411db5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-npm-playwright-1.64.0-alpha-1790635538000-a6b1d6",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-core-1.64.0-alpha-1790635538000-411db5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-npm-playwright-test-1.64.1-447d39",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-1.64.1-fc83c4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-npm-playwright-1.64.1-fc83c4",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-core-1.64.1-d8a3a4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-cli-0.1.22-4fd6fa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-test-1.64.1-447d39",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-docs-ui-1.2.0-cc5572",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-lodash-es-4.17.6-5e20bc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-less-4.1.3-2228a4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stompjs-2.3.3-d88fdd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-intlify-unplugin-vue-i18n-0.8.2-01e265",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-4.9.3-f611af",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-clipboard3-2.0.0-ebc9b3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-autoprefixer-10.4.13-a63ac4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stylelint-15.2.0-9b96bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-config-prettier-8.6.0-c642c1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue3-ace-editor-2.2.2-c0a1e1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-xss-1.0.14-82199d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-jquery-3.5.16-67b312",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-stompjs-2.3.9-3e72cd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-exceljs-4.4.0-f1055b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-filter-ui-1.2.0-d95ff7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-jquery-3.6.4-54b283",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-web-storage-cache-1.1.1-375699",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-7.32.0-d592c0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-plugin-prettier-4.2.1-7697d0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-node-20.14.12-f38921",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-data-validation-1.2.0-1b6629",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-sort-ui-1.2.0-09b408",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-qs-6.11.0-3ff9fd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vxe-table-4.16.204.19.22-3b314b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-antv-g-svg-2.1.1-cf46f3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-crosshair-highlight-1.2.0-060359",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-engine-render-1.2.0-c1f9b3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-codemirror-6.1.1-8ea088",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-conditional-formatting-1.2.0-f282a3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-prettier-2.8.4-736aec",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stylelint-prettier-2.0.0-9e18b3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-router-4.1.3-c03b6c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-babel-runtime-7.5.5-b1e507",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-antv-l7-2.23.1-5cb6b6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-dingtalk-jsapi-3.1.0-4e023a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-mitt-3.0.0-bcee86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-plugin-style-import-secondary-2.0.0-7f25a3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vant-4.10.0-cf45a8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-postcss-html-1.5.0-e94601",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vuedraggable-4.1.0-42ae3c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-js-base64-3.7.5-f8fc3c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-router2-4.1.3-0bb457",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-echarts-5.5.1-b06249",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-tinymce-tinymce-vue-5.1.1-1a0cf8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-screenfull-6.0.2-cc8f20",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-tinymce-i18n-23.1.23-64b4ef",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-3.5.35-2fe857",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-cron-validate-1.4.5-a2b464",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-conditional-formatting-ui-1.2.0-f4d57e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-engine-formula-1.2.0-a786d9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-postcss-8.4.21-33da78",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-dompurify-html-5.3.0-b5d5dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-video.js-7.21.6-2dcead",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-sockjs-client-1.6.1-30e5f6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stylelint-config-html-1.1.0-b29fc4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-antv-s2-2.5.0-6fd88f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-thread-comment-ui-1.2.0-fd9486",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-types-5.0.2-f2fa32",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-numfmt-1.2.0-0e92a1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-node-forge-1.4.2-94f3de",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-file-saver-2.0.5-ae0baf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-filter-1.2.0-b3139d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-6.4.4-69ac0a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-rimraf-4.1.2-24725e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-html2canvas-1.4.1-556f8d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-antv-g2-5.4.8-dcb05e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-npkg-tinymce-plugins-0.0.7-c65c0e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-docs-1.2.0-1d8335",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-watermark-1.2.0-3b3345",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-postcss-scss-4.0.6-316fa4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stylelint-order-6.0.2-f7b4c7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-plugin-stylelint-6.0.0-2b3293",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-find-replace-1.2.0-46c760",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-consola-2.15.3-7e1395",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-unplugin-vue-components-secondary-0.24.6-62313e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-svg-loader-5.1.0-52960f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-ui-adapter-vue3-1.2.0-f5946c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-pinia-2.0.32-e1a4e9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-i18n-9.2.2-d8c863",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-modern-screenshot-4.6.6-f3b254",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-tinymce-6.8.6-8b17ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-icons-vue-1.46.0-b78420",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-icons-1.46.0-4ad63a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-node-forge-1.3.14-73f811",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-html-to-image-1.11.11-40c612",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-patch-package-8.0.1-6a9093",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-lodash-es-4.17.21-aac1ee",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-snowflake-id-1.1.0-6ca2c2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-axios-1.3.3-17f8f7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-jspdf-4.2.0-03161b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-flv-h265-1.7.0-f055ef",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-design-1.2.0-0e3e6d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-nprogress-0.2.0-a5dbb3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-plugin-style-import-2.0.0-98747f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-sockjs-client-1.5.4-1943c4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-videojs-player-vue-1.0.0-eeab40",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-turf-centroid-7.0.0-709181",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vitejs-plugin-vue-6.0.6-65cfa6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-formula-ui-1.2.0-69dfac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-formula-1.2.0-085f1f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-ui-1.2.0-8a3e86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-table-1.2.0-130400",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-ui-1.2.0-173e78",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-element-resize-detector-1.2.4-7823a9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-eslint-parser-5.53.0-4d00b3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-net-1.0.2-8cb756",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-ace-builds-1.15.3-909579",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-tsc-1.0.24-ef365a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-unplugin-auto-import-0.15.1-4731c6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vitejs-plugin-vue-jsx-4.0.0-bc1c3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-data-validation-ui-1.2.0-104739",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-plugin-vue-9.9.0-5569c1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-jsencrypt-3.3.2-9b2c65",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-table-ui-1.2.0-6e5156",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-uuid-3.0.0-af45f2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-hyper-link-ui-1.2.0-bae7d3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-plugin-svg-icons-2.0.1-873a3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-dayjs-1.11.9-2f00f2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vueuse-core-9.13.0-73e031",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-antv-l7plot-0.5.11-99c0ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-element-plus-secondary-2.1.2-1cfbf7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-eslint-eslint-plugin-5.53.0-5153db",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-dompurify-3.4.2-697b61",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-note-ui-1.2.0-a8b595",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-find-replace-1.2.0-00296c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-thread-comment-ui-1.2.0-5fab99",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vue-draggable-next-2.2.1-635f27",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stylelint-config-standard-30.0.1-d1ade6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-stylelint-config-recommended-10.0.1-c7300e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-types-element-resize-detector-1.1.3-24832c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-numfmt-ui-1.2.0-7de398",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-hyper-link-1.2.0-f7b19d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-sheets-1.2.0-8cd33b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-univerjs-core-1.2.0-f68576",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-plugin-compression-0.5.1-79982b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-codemirror-lang-sql-6.4.0-45d431",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-vite-plugin-eslint-1.8.1-6cff9e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-normalize.css-8.0.1-e75166",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-crypto-js-4.1.1-01a53b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-mathjs-15.2.0-6ad865",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-npm-htmlparser2-8.0.2-a94ada",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-fit2cloud-LLM-CodeReview-Action-main-fca9ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.cloud-spring-cloud-dependencies-2023.0.1-c9e27a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.velocity-velocity-engine-core-2.3-7d48b9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-commons-fileupload-commons-fileupload-1.6.0-78fcec",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.xiaoymin-knife4j-dependencies-4.5.0-7a84a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.ehcache-ehcache-3.10.8-37caaf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.mwiede-jsch-c54dcb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-distributed-eb9351",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.jsqlparser-jsqlparser-4f83de",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-ldap-6b8151",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.h2database-h2-2.2.220-008568",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.baomidou-mybatis-plus-boot-starter-3.5.7-f97e67",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.fesod-fesod-sheet-4c6480",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-extensions-view-4fc828",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-dbcp2-a768f4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-3.4.0-b9eed9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-codec-4.1.137-6e7caf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-web-b1e441",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.querydsl-querydsl-jpa-947512",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-codec-http-4.1.137-1bcac9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.jsoup-jsoup-1.23.2-b6787b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-compress-1.26.2-1fcff6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-470b88",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-redis-744e29",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-common-024408",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.mariadb.jdbc-mariadb-java-client-3.3.7-80ac46",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.poi-poi-ooxml-5.5.1-2ad4d6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-aop-ddd966",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-yizhoumo-setup-ossutil-2..-8863c0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.fasterxml.woodstox-woodstox-core-7.1.0-6bf065",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.logging.log4j-log4j-core-2.25.4-35ac1f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.eclipse.angus-angus-mail-aab1c5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-bbd84e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.swagger.core.v3-swagger-annotations-jakarta-2.2.38-87f290",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-1..-1e3a76",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.h2database-h2-80bd8e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-api-base-503a7d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.ulisesbocchio-jasypt-spring-boot-starter-3.0.5-919d0c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-clean-plugin-dd0eb6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.projectlombok-lombok-58272c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-handler-4.1.137-0f288a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents.core5-httpcore5-5.4.3-5fac9c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.librepdf-openpdf-f3b691",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.pdfbox-pdfbox-2.0.33-956bcd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-687ef1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.querydsl-querydsl-apt-687ebb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.jayway.jsonpath-json-path-da2a9a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-commons-io-commons-io-2.21.0-955078",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-validation-d535b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-bom-4.1.137-a2a91c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents-httpclient-a1f09b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents-httpmime-b83647",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-antlr-de2453",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.code.gson-gson-5055e6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-crate-ci-typos-master-71e81a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-test-538e13",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-websocket-a68e2a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-bb6506",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-2..-794539",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-3.25.5-b9c2c0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-extensions-sync-3b3a5c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.velocity-velocity-engine-core-59d58d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-9d1546",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents.core5-httpcore5-h2-5.4.3-e379af",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-3.5.15-8010dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.fit2cloud-quartz-spring-boot-starter-1.0.8-125996",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-buffer-4.1.137-c18797",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-cache-6d0122",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-4584e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.vladsch.flexmark-flexmark-all-dd89f2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-api-permissions-e286df",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.hierynomus-smbj-0.14.0-47c738",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-core-3.4.1-33d60c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-exec-maven-plugin-3.1.0-9e1e78",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-resolver-4.1.137-677ec5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.mysema.maven-apt-maven-plugin-1.1.3-4408cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-transport-4.1.137-6e99d8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.ldap-spring-ldap-core-22e63b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.opensaml-opensaml-saml-impl-3.4.6-cd1cef",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-2dd532",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-javax.cache-cache-api-e0f535",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-commons-net-commons-net-ff3722",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-commons-lang-commons-lang-2.6-bc0e6c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.auth0-java-jwt-3.12.1-f4f1b3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents.client5-httpclient5-5.6.3-0ee73f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.xmlunit-xmlunit-core-2.10.0-9044e9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.santuario-xmlsec-2.3.5-d51f25",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.mybatis-mybatis-spring-83f7f4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.ehcache-ehcache-459313",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-4..-0645a2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba.cloud-spring-cloud-alibaba-dependencies-2023.0.1.0-16124f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.opensaml-opensaml-core-3.4.6-6eb9b7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents-httpcore-d4e8cd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-dataease-license-sdk-8600d0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.fesod-fesod-sheet-2.1.0-incubating-98e323",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcprov-jdk18on-1.85-5a9843",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.fasterxml.jackson-jackson-bom-2.21.7-116a71",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-websocket-3.5.15-8c72af",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.eirslett-frontend-maven-plugin-1.9.1-e2a65b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-commons-io-commons-io-b9a9d8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.calcite-calcite-core-fea92d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-antrun-plugin-7a0d79",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-4a048c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-common-4.1.137-db47d1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-flatten-maven-plugin-1.3.0-10748c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.poi-poi-5.5.1-76603a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.auth0-java-jwt-d986b0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3f3acf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.Dm-DmDialect-6-fb5221",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcprov-jdk15to18-1.85-cfdc56",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.poi-poi-ooxml-lite-5.5.1-085ebc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-dependencies-3.5.15-1f2c96",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-M2-4f0839",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-jpa-39b0bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springdoc-springdoc-openapi-starter-webmvc-ui-9c7115",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-extensions-datasource-cfe151",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-javase-3.4.1-c23030",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-transport-native-unix-common-4.1.137-dc0e72",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.xiaoymin-knife4j-openapi3-jakarta-spring-boot-starter-ce324c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-4f8c48",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-org.mariadb.jdbc-mariadb-java-client-ce0219",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-api-sync-c8ac86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relatedSpdxElement": "SPDXRef-maven-io.dataease-extensions-datafilling-cdfa19",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-dataease-dataease-dev-v3-183f26",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

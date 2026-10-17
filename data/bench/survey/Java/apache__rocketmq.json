@@ -1,0 +1,3360 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.apache/rocketmq",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/0f4f6ae5-92e7-4479-a567-59384e930f3c",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:33:31Z"
+  },
+  "packages": [
+   {
+    "name": "org.openjdk.jmh:jmh-core",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-core-1.19-a9c6e2",
+    "versionInfo": "1.19",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2005, 2013, Oracle and/or its affiliates, Copyright (c) 2014, 2014, Oracle and/or its affiliates, Copyright (c) SourceForge, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-core@1.19"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-generator-annprocess",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-1.19-ecd46d",
+    "versionInfo": "1.19",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.19"
+     }
+    ]
+   },
+   {
+    "name": "io.openmessaging:openmessaging-api",
+    "SPDXID": "SPDXRef-maven-io.openmessaging-openmessaging-api-4d9bb0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.openmessaging/openmessaging-api"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-services",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-services-20b082",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-services"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-tcnative-boringssl-static",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-tcnative-boringssl-static-1cfd28",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-tcnative-boringssl-static"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-proto",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-proto-2415d3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-proto"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-grpc-netty-codec-haproxy",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-grpc-netty-codec-haproxy-55f1a4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-grpc-netty-codec-haproxy"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-core",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-core-3861cd",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-core"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-protobuf",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-protobuf-0f71c7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-protobuf"
+     }
+    ]
+   },
+   {
+    "name": "javax.annotation:javax.annotation-api",
+    "SPDXID": "SPDXRef-maven-javax.annotation-javax.annotation-api-1.3.2-9e5de7",
+    "versionInfo": "1.3.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1999-2017, http://www.oracle.com Oracle and/or its affiliates, Copyright (c) 1999-2017, http://www.oracle.com' Oracle and/or its affiliates, Copyright (c) 2005-2018 Oracle and/or its affiliates, Copyright (c) 2012-2017 Oracle and/or its affiliates, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-deploy-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-c49553",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-deploy-plugin"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-api",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-api-4471a7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-api"
+     }
+    ]
+   },
+   {
+    "name": "com.google.protobuf:protobuf-java",
+    "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-055070",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-core",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-core-0e0d86",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-core"
+     }
+    ]
+   },
+   {
+    "name": "org.xolstice.maven.plugins:protobuf-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.xolstice.maven.plugins-protobuf-maven-plugin-0.6.1-02bc41",
+    "versionInfo": "0.6.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.xolstice.maven.plugins/protobuf-maven-plugin@0.6.1"
+     }
+    ]
+   },
+   {
+    "name": "com.google.api.grpc:proto-google-common-protos",
+    "SPDXID": "SPDXRef-maven-com.google.api.grpc-proto-google-common-protos-2.9.0-b9d90e",
+    "versionInfo": "2.9.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2015 Google LLC, Copyright 2016 Google LLC, Copyright 2018 Google LLC, Copyright 2019 Google LLC., Copyright 2020 Google LLC, Copyright 2021 Google LLC., Copyright 2022 Google LLC",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.9.0"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-3..-10c23e",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-3..-963d4f",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-4..-afeeb4",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/analyze",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-analyze-3..-91da99",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/analyze@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/init",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-init-3..-6b7363",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/init@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-9d1546",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-api",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-13d614",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-api"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-lang3",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-4a048c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3"
+     }
+    ]
+   },
+   {
+    "name": "com.github.ben-manes.caffeine:caffeine",
+    "SPDXID": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2a1603",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.ben-manes.caffeine/caffeine"
+     }
+    ]
+   },
+   {
+    "name": "commons-codec:commons-codec",
+    "SPDXID": "SPDXRef-maven-commons-codec-commons-codec-567b68",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-codec/commons-codec"
+     }
+    ]
+   },
+   {
+    "name": "com.google.protobuf:protobuf-java-util",
+    "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-util-2d768a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba.fastjson2:fastjson2",
+    "SPDXID": "SPDXRef-maven-com.alibaba.fastjson2-fastjson2-3ea87e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba.fastjson2/fastjson2"
+     }
+    ]
+   },
+   {
+    "name": "org.rocksdb:rocksdbjni",
+    "SPDXID": "SPDXRef-maven-org.rocksdb-rocksdbjni-1e5120",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.rocksdb/rocksdbjni"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-stub",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-stub-08a9be",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-stub"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-prometheus",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-prometheus-c9beb4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-prometheus"
+     }
+    ]
+   },
+   {
+    "name": "commons-validator:commons-validator",
+    "SPDXID": "SPDXRef-maven-commons-validator-commons-validator-19420d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-validator/commons-validator"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-otlp",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-otlp-cfe13f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-otlp"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-netty-shaded",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-netty-shaded-a9f176",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-netty-shaded"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-all",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-all-50712c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-all"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-logging-otlp",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-otlp-80c08c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging-otlp"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-4584e8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-logging",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-385b28",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-sdk",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-sdk-36c28a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-sdk"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.tomcat:annotations-api",
+    "SPDXID": "SPDXRef-maven-org.apache.tomcat-annotations-api-5eefad",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.tomcat/annotations-api"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okio:okio-jvm",
+    "SPDXID": "SPDXRef-maven-com.squareup.okio-okio-jvm-517591",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okio/okio-jvm"
+     }
+    ]
+   },
+   {
+    "name": "at.yawk.lz4:lz4-java",
+    "SPDXID": "SPDXRef-maven-at.yawk.lz4-lz4-java-d351d0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/at.yawk.lz4/lz4-java"
+     }
+    ]
+   },
+   {
+    "name": "com.github.luben:zstd-jni",
+    "SPDXID": "SPDXRef-maven-com.github.luben-zstd-jni-a1d0d0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.luben/zstd-jni"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-testing",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-testing-f74530",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-testing"
+     }
+    ]
+   },
+   {
+    "name": "com.google.truth:truth",
+    "SPDXID": "SPDXRef-maven-com.google.truth-truth-a8f60b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.truth/truth"
+     }
+    ]
+   },
+   {
+    "name": "org.awaitility:awaitility",
+    "SPDXID": "SPDXRef-maven-org.awaitility-awaitility-fd43ef",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.awaitility/awaitility"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-jar-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-8fc682",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin"
+     }
+    ]
+   },
+   {
+    "name": "actions/stale",
+    "SPDXID": "SPDXRef-githubactions-actions-stale-5-afd6de",
+    "versionInfo": "5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/stale@5"
+     }
+    ]
+   },
+   {
+    "name": "io.jaegertracing:jaeger-thrift",
+    "SPDXID": "SPDXRef-maven-io.jaegertracing-jaeger-thrift-52aa65",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.jaegertracing/jaeger-thrift"
+     }
+    ]
+   },
+   {
+    "name": "io.jaegertracing:jaeger-core",
+    "SPDXID": "SPDXRef-maven-io.jaegertracing-jaeger-core-b895bf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.jaegertracing/jaeger-core"
+     }
+    ]
+   },
+   {
+    "name": "io.jaegertracing:jaeger-client",
+    "SPDXID": "SPDXRef-maven-io.jaegertracing-jaeger-client-0cc1fc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.jaegertracing/jaeger-client"
+     }
+    ]
+   },
+   {
+    "name": "commons-cli:commons-cli",
+    "SPDXID": "SPDXRef-maven-commons-cli-commons-cli-a8ec8b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-cli/commons-cli"
+     }
+    ]
+   },
+   {
+    "name": "net.java.dev.jna:jna",
+    "SPDXID": "SPDXRef-maven-net.java.dev.jna-jna-fd9c21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/net.java.dev.jna/jna"
+     }
+    ]
+   },
+   {
+    "name": "com.conversantmedia:disruptor",
+    "SPDXID": "SPDXRef-maven-com.conversantmedia-disruptor-3b457b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.conversantmedia/disruptor"
+     }
+    ]
+   },
+   {
+    "name": "commons-io:commons-io",
+    "SPDXID": "SPDXRef-maven-commons-io-commons-io-b9a9d8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-io/commons-io"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-collections4",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-collections4-904acc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-collections4"
+     }
+    ]
+   },
+   {
+    "name": "org.javassist:javassist",
+    "SPDXID": "SPDXRef-maven-org.javassist-javassist-529ce3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.javassist/javassist"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-shaded-slf4j-api-bridge",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-shaded-slf4j-api-bridge-124347",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-shaded-slf4j-api-bridge"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-slf4j-api",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-slf4j-api-e71327",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-slf4j-api"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:jul-to-slf4j",
+    "SPDXID": "SPDXRef-maven-org.slf4j-jul-to-slf4j-c6955f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/jul-to-slf4j"
+     }
+    ]
+   },
+   {
+    "name": "org.bouncycastle:bcpkix-jdk18on",
+    "SPDXID": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-40a575",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk18on"
+     }
+    ]
+   },
+   {
+    "name": "com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru",
+    "SPDXID": "SPDXRef-maven-com.googlecode.concurrentlinkedhashmap-concurrentlinkedhashmap-lru-877261",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-logback-classic",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-logback-classic-44a489",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-logback-classic"
+     }
+    ]
+   },
+   {
+    "name": "org.reflections:reflections",
+    "SPDXID": "SPDXRef-maven-org.reflections-reflections-be34ae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.reflections/reflections"
+     }
+    ]
+   },
+   {
+    "name": "com.google.code.gson:gson",
+    "SPDXID": "SPDXRef-maven-com.google.code.gson-gson-2.9.0-eacd69",
+    "versionInfo": "2.9.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.9.0"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-core",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-core-1.36-62b7d2",
+    "versionInfo": "1.36",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2004-2021 Paul R. Holser, Jr, Copyright (c) 2005, 2013, Oracle and/or its affiliates, Copyright (c) 2005, 2020, Oracle and/or its affiliates, Copyright (c) 2014, 2014, Oracle and/or its affiliates, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-core@1.36"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-generator-annprocess",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-1.36-0a7ff4",
+    "versionInfo": "1.36",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2004-2021 Paul R. Holser, Jr, Copyright (c) 2005, 2014, Oracle and/or its affiliates, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.36"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-4..-0645a2",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-4..-2c6cf8",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-master-28571f",
+    "versionInfo": "master",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@master"
+     }
+    ]
+   },
+   {
+    "name": "codecov/codecov-action",
+    "SPDXID": "SPDXRef-githubactions-codecov-codecov-action-3..-79398e",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/codecov/codecov-action@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-2..-794539",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "mikepenz/action-junit-report",
+    "SPDXID": "SPDXRef-githubactions-mikepenz-action-junit-report-3..-532fd2",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/mikepenz/action-junit-report@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "apache/skywalking-eyes",
+    "SPDXID": "SPDXRef-githubactions-apache-skywalking-eyes-0.2.0-ad5627",
+    "versionInfo": "0.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/apache/skywalking-eyes@0.2.0"
+     }
+    ]
+   },
+   {
+    "name": "apache/rocketmq-test-tool",
+    "SPDXID": "SPDXRef-githubactions-apache-rocketmq-test-tool-1a646589accad17070423eabf0f54925e52b0666-e557a3",
+    "versionInfo": "1a646589accad17070423eabf0f54925e52b0666",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/apache/rocketmq-test-tool@1a646589accad17070423eabf0f54925e52b0666"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-4..-958748",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "docker/login-action",
+    "SPDXID": "SPDXRef-githubactions-docker-login-action-2..-983fee",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/login-action@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-netty-shaded",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-netty-shaded-1.53.0-a8e9dc",
+    "versionInfo": "1.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1995-1998 Eric Young (eay@cryptsoft.com), Copyright (c) 1998-2011 The OpenSSL Project, Copyright (c) 1998-2019 The OpenSSL Project, Copyright (c) 2009 The Go Authors, Copyright (c) 2015-2016 the fiat-crypto, Copyright (c) 2015, Google Inc., Copyright 2015 The Chromium Authors, Copyright 2016 The Netty Project, Copyright 2019 The Netty Project, holder is Tim Hudson (tjh@cryptsoft.com)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-netty-shaded@1.53.0"
+     }
+    ]
+   },
+   {
+    "name": "io.openmessaging:openmessaging-api",
+    "SPDXID": "SPDXRef-maven-io.openmessaging-openmessaging-api-0.3.1-alpha-8ed5b4",
+    "versionInfo": "0.3.1-alpha",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.openmessaging/openmessaging-api@0.3.1-alpha"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-testing",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-testing-1.53.0-4422b6",
+    "versionInfo": "1.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-testing@1.53.0"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-32.0.1-jre-09c72f",
+    "versionInfo": "32.0.1-jre",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava@32.0.1-jre"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-api",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.3-c19c1e",
+    "versionInfo": "2.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.3"
+     }
+    ]
+   },
+   {
+    "name": "org.assertj:assertj-core",
+    "SPDXID": "SPDXRef-maven-org.assertj-assertj-core-3.22.0-76eb93",
+    "versionInfo": "3.22.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.assertj/assertj-core@3.22.0"
+     }
+    ]
+   },
+   {
+    "name": "io.jaegertracing:jaeger-thrift",
+    "SPDXID": "SPDXRef-maven-io.jaegertracing-jaeger-thrift-1.8.1-5e464a",
+    "versionInfo": "1.8.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.jaegertracing/jaeger-thrift@1.8.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-client",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-client-3790ad",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-client"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:clirr-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-clirr-maven-plugin-2.7-9def64",
+    "versionInfo": "2.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/clirr-maven-plugin@2.7"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-container",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-container-f1d7bf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-container"
+     }
+    ]
+   },
+   {
+    "name": "commons-codec:commons-codec",
+    "SPDXID": "SPDXRef-maven-commons-codec-commons-codec-1.13-e6c1ca",
+    "versionInfo": "1.13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2002 Kevin Atkinson (kevina@gnu.org), Copyright (c) 2008 Alexander Beider & Stephen P. Morse, Copyright 2002-2019 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.13"
+     }
+    ]
+   },
+   {
+    "name": "io.jaegertracing:jaeger-client",
+    "SPDXID": "SPDXRef-maven-io.jaegertracing-jaeger-client-1.8.1-87016a",
+    "versionInfo": "1.8.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.jaegertracing/jaeger-client@1.8.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-example",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-example-b89c08",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-example"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-filter",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-filter-1079c8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-filter"
+     }
+    ]
+   },
+   {
+    "name": "io.openmessaging.storage:dledger",
+    "SPDXID": "SPDXRef-maven-io.openmessaging.storage-dledger-0.3.3.4-c1efd6",
+    "versionInfo": "0.3.3.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.openmessaging.storage/dledger@0.3.3.4"
+     }
+    ]
+   },
+   {
+    "name": "commons-io:commons-io",
+    "SPDXID": "SPDXRef-maven-commons-io-commons-io-2.14.0-d9f464",
+    "versionInfo": "2.14.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2023 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-io/commons-io@2.14.0"
+     }
+    ]
+   },
+   {
+    "name": "io.jaegertracing:jaeger-core",
+    "SPDXID": "SPDXRef-maven-io.jaegertracing-jaeger-core-1.8.1-a1bf39",
+    "versionInfo": "1.8.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.jaegertracing/jaeger-core@1.8.1"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-shaded-slf4j-api-bridge",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-shaded-slf4j-api-bridge-1.0.0-6af318",
+    "versionInfo": "1.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-shaded-slf4j-api-bridge@1.0.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-tiered-store",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-tiered-store-6b8d21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-tiered-store"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:versions-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-versions-maven-plugin-2.2-1467db",
+    "versionInfo": "2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/versions-maven-plugin@2.2"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-4.13.2-e7f44b",
+    "versionInfo": "4.13.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+     }
+    ]
+   },
+   {
+    "name": "org.jacoco:jacoco-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.5-b48941",
+    "versionInfo": "0.8.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0",
+    "copyrightText": "Copyright (c) 2009, 2019 Mountainminds GmbH & Co. KG and Contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jacoco/jacoco-maven-plugin@0.8.5"
+     }
+    ]
+   },
+   {
+    "name": "org.javassist:javassist",
+    "SPDXID": "SPDXRef-maven-org.javassist-javassist-3.20.0-GA-904736",
+    "versionInfo": "3.20.0-GA",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND LGPL-2.1 AND LGPL-2.1-only AND MPL-1.1",
+    "copyrightText": "Copyright (c) 1999-2015 Shigeru Chiba",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.javassist/javassist@3.20.0-GA"
+     }
+    ]
+   },
+   {
+    "name": "org.mockito:mockito-junit-jupiter",
+    "SPDXID": "SPDXRef-maven-org.mockito-mockito-junit-jupiter-4.11.0-34045f",
+    "versionInfo": "4.11.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2007 Mockito",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mockito/mockito-junit-jupiter@4.11.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-tools",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-tools-9def53",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-tools"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:jul-to-slf4j",
+    "SPDXID": "SPDXRef-maven-org.slf4j-jul-to-slf4j-2.0.6-76392f",
+    "versionInfo": "2.0.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.6"
+     }
+    ]
+   },
+   {
+    "name": "com.google.code:gson",
+    "SPDXID": "SPDXRef-maven-com.google.code-gson-2.9.0-2c221a",
+    "versionInfo": "2.9.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.code/gson@2.9.0"
+     }
+    ]
+   },
+   {
+    "name": "org.mockito:mockito-core",
+    "SPDXID": "SPDXRef-maven-org.mockito-mockito-core-3.10.0-bfe8aa",
+    "versionInfo": "3.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2007 Mockito",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.mockito/mockito-core@3.10.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-common",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-common-56c309",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-common"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-namesrv",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-namesrv-aaaa52",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-namesrv"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-proxy",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-proxy-54d0af",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-proxy"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-grpc-netty-codec-haproxy",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-grpc-netty-codec-haproxy-1.0.0-873b5a",
+    "versionInfo": "1.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-grpc-netty-codec-haproxy@1.0.0"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-otlp",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-otlp-1.47.0-fc4d5b",
+    "versionInfo": "1.47.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-otlp@1.47.0"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-prometheus",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-prometheus-1.47.0-alpha-119de5",
+    "versionInfo": "1.47.0-alpha",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-prometheus@1.47.0-alpha"
+     }
+    ]
+   },
+   {
+    "name": "commons-validator:commons-validator",
+    "SPDXID": "SPDXRef-maven-commons-validator-commons-validator-1.10.0-6c05cd",
+    "versionInfo": "1.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-validator/commons-validator@1.10.0"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:extra-enforcer-rules",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-extra-enforcer-rules-1.0-beta-4-3d3d62",
+    "versionInfo": "1.0-beta-4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/extra-enforcer-rules@1.0-beta-4"
+     }
+    ]
+   },
+   {
+    "name": "software.amazon.awssdk:s3",
+    "SPDXID": "SPDXRef-maven-software.amazon.awssdk-s3-2.20.29-309ef5",
+    "versionInfo": "2.20.29",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 1998-2010 AOL Inc. - Apache, Copyright 2001-2020 The Apache Software Foundation, Copyright 2006-2009 James Murty, Copyright Amazon.com, Inc. or its affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/software.amazon.awssdk/s3@2.20.29"
+     }
+    ]
+   },
+   {
+    "name": "com.adobe.testing:s3mock-junit4",
+    "SPDXID": "SPDXRef-maven-com.adobe.testing-s3mock-junit4-2.11.0-40ddca",
+    "versionInfo": "2.11.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2017-2022 Adobe",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.adobe.testing/s3mock-junit4@2.11.0"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-logging",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-1.47.0-256ac4",
+    "versionInfo": "1.47.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.47.0"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-all",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-all-4.1.130-b15d9b",
+    "versionInfo": "4.1.130",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-all@4.1.130"
+     }
+    ]
+   },
+   {
+    "name": "org.eluder.coveralls:coveralls-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.eluder.coveralls-coveralls-maven-plugin-4.3.0-f75708",
+    "versionInfo": "4.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.eluder.coveralls/coveralls-maven-plugin@4.3.0"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okio:okio-jvm",
+    "SPDXID": "SPDXRef-maven-com.squareup.okio-okio-jvm-3.4.0-0813e8",
+    "versionInfo": "3.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okio/okio-jvm@3.4.0"
+     }
+    ]
+   },
+   {
+    "name": "com.github.luben:zstd-jni",
+    "SPDXID": "SPDXRef-maven-com.github.luben-zstd-jni-1.5.2-2-d1c8c4",
+    "versionInfo": "1.5.2-2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-2-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.luben/zstd-jni@1.5.2-2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rat:apache-rat-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.rat-apache-rat-plugin-0.12-0d0c5e",
+    "versionInfo": "0.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rat/apache-rat-plugin@0.12"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-auth",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-auth-502840",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-auth"
+     }
+    ]
+   },
+   {
+    "name": "org.bouncycastle:bcpkix-jdk18on",
+    "SPDXID": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-1.83-4b3bb1",
+    "versionInfo": "1.83",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.83"
+     }
+    ]
+   },
+   {
+    "name": "com.github.spotbugs:spotbugs-maven-plugin",
+    "SPDXID": "SPDXRef-maven-com.github.spotbugs-spotbugs-maven-plugin-4.8.6.8-be56ca",
+    "versionInfo": "4.8.6.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.spotbugs/spotbugs-maven-plugin@4.8.6.8"
+     }
+    ]
+   },
+   {
+    "name": "com.fasterxml.jackson.core:jackson-databind",
+    "SPDXID": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-2.13.4.2-1b22ab",
+    "versionInfo": "2.13.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-core",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-core-5.3.27-6a70b3",
+    "versionInfo": "5.3.27",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <https://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2023 Pivotal, Inc., Copyright 2002-2020 the original author or authors, Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-core@5.3.27"
+     }
+    ]
+   },
+   {
+    "name": "com.github.ben-manes.caffeine:caffeine",
+    "SPDXID": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2.9.3-cd2ca0",
+    "versionInfo": "2.9.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.annotation:jakarta.annotation-api",
+    "SPDXID": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-1.3.5-e46a80",
+    "versionInfo": "1.3.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2012, 2018 Oracle and/or its affiliates, Copyright (C) 2012, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019 Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-slf4j-api",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-slf4j-api-1.0.1-1a3e31",
+    "versionInfo": "1.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-slf4j-api@1.0.1"
+     }
+    ]
+   },
+   {
+    "name": "com.alipay.sofa:jraft-core",
+    "SPDXID": "SPDXRef-maven-com.alipay.sofa-jraft-core-1.3.14-fe8d94",
+    "versionInfo": "1.3.14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alipay.sofa/jraft-core@1.3.14"
+     }
+    ]
+   },
+   {
+    "name": "com.google.protobuf:protobuf-java-util",
+    "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-util-3.24.4-6dd7cb",
+    "versionInfo": "3.24.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util@3.24.4"
+     }
+    ]
+   },
+   {
+    "name": "io.opentracing:opentracing-mock",
+    "SPDXID": "SPDXRef-maven-io.opentracing-opentracing-mock-0.33.0-23fc2b",
+    "versionInfo": "0.33.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2016-2019 The OpenTracing Authors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentracing/opentracing-mock@0.33.0"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-stub",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-stub-1.53.0-665836",
+    "versionInfo": "1.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-stub@1.53.0"
+     }
+    ]
+   },
+   {
+    "name": "org.sonarsource.scanner.maven:sonar-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.sonarsource.scanner.maven-sonar-maven-plugin-3.0.2-763dcf",
+    "versionInfo": "3.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LGPL-2.1-or-later AND LGPL-3.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.sonarsource.scanner.maven/sonar-maven-plugin@3.0.2"
+     }
+    ]
+   },
+   {
+    "name": "io.github.aliyunmq:rocketmq-logback-classic",
+    "SPDXID": "SPDXRef-maven-io.github.aliyunmq-rocketmq-logback-classic-1.0.1-408396",
+    "versionInfo": "1.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2010, QOS.ch, Copyright (c) 1999-2012, QOS.ch",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.github.aliyunmq/rocketmq-logback-classic@1.0.1"
+     }
+    ]
+   },
+   {
+    "name": "com.github.vongosling:dependency-mediator-maven-plugin",
+    "SPDXID": "SPDXRef-maven-com.github.vongosling-dependency-mediator-maven-plugin-1.0.2-f61188",
+    "versionInfo": "1.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.vongosling/dependency-mediator-maven-plugin@1.0.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-test",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-test-60ed88",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-test"
+     }
+    ]
+   },
+   {
+    "name": "com.alibaba.fastjson2:fastjson2",
+    "SPDXID": "SPDXRef-maven-com.alibaba.fastjson2-fastjson2-2.0.64-122bdd",
+    "versionInfo": "2.0.64",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alibaba.fastjson2/fastjson2@2.0.64"
+     }
+    ]
+   },
+   {
+    "name": "org.powermock:powermock-api-mockito2",
+    "SPDXID": "SPDXRef-maven-org.powermock-powermock-api-mockito2-2.0.9-cad324",
+    "versionInfo": "2.0.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2007-2017 PowerMock",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.powermock/powermock-api-mockito2@2.0.9"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-protobuf",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-protobuf-1.53.0-17b6dd",
+    "versionInfo": "1.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-protobuf@1.53.0"
+     }
+    ]
+   },
+   {
+    "name": "com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru",
+    "SPDXID": "SPDXRef-maven-com.googlecode.concurrentlinkedhashmap-concurrentlinkedhashmap-lru-1.4.2-d74bd1",
+    "versionInfo": "1.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru@1.4.2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-broker",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-broker-236273",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-broker"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-controller",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-controller-724426",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-controller"
+     }
+    ]
+   },
+   {
+    "name": "org.rocksdb:rocksdbjni",
+    "SPDXID": "SPDXRef-maven-org.rocksdb-rocksdbjni-8.4.4-ca3abd",
+    "versionInfo": "8.4.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 OR GPL-2.0",
+    "copyrightText": "Copyright (c) 2006, 2015, Percona and/or its affiliates, Copyright 1995-2017 Jean-loup Gailly and Mark Adler Qkkbal, Copyright 1995-2017 Jean-loup Gailly and Mark Adler Qkkbal MGiI, Copyright 1995-2017 Mark Adler, Copyright 1995-2022 Jean-loup Gailly and Mark Adler, Copyright 1995-2022 Mark Adler",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.rocksdb/rocksdbjni@8.4.4"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-lang3",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-687ef1",
+    "versionInfo": "3.20.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2017 The Apache Software Foundation, Copyright 2001-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.20.0"
+     }
+    ]
+   },
+   {
+    "name": "at.yawk.lz4:lz4-java",
+    "SPDXID": "SPDXRef-maven-at.yawk.lz4-lz4-java-1.10.3-c4d133",
+    "versionInfo": "1.10.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/at.yawk.lz4/lz4-java@1.10.3"
+     }
+    ]
+   },
+   {
+    "name": "net.java.dev.jna:jna",
+    "SPDXID": "SPDXRef-maven-net.java.dev.jna-jna-4.2.2-699b69",
+    "versionInfo": "4.2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2008-2013 Timothy Wall OriginalFilename jnidispatch.dll, Copyright 2008-2015 Timothy Wall OriginalFilename jnidispatch.dll",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/net.java.dev.jna/jna@4.2.2"
+     }
+    ]
+   },
+   {
+    "name": "org.reflections:reflections",
+    "SPDXID": "SPDXRef-maven-org.reflections-reflections-0.9.11-b5aba8",
+    "versionInfo": "0.9.11",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "WTFPL OR BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.reflections/reflections@0.9.11"
+     }
+    ]
+   },
+   {
+    "name": "org.powermock:powermock-module-junit4",
+    "SPDXID": "SPDXRef-maven-org.powermock-powermock-module-junit4-2.0.9-79eb41",
+    "versionInfo": "2.0.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2007-2017 PowerMock, Copyright 2007-2017 PowerMock Contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.powermock/powermock-module-junit4@2.0.9"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:maven-enforcer-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-maven-enforcer-plugin-1.4.1-ace8fa",
+    "versionInfo": "1.4.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/maven-enforcer-plugin@1.4.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-srvutil",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-srvutil-c7f2e1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-srvutil"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.tomcat:annotations-api",
+    "SPDXID": "SPDXRef-maven-org.apache.tomcat-annotations-api-6.0.53-5d3d70",
+    "versionInfo": "6.0.53",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 1999-2017 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.tomcat/annotations-api@6.0.53"
+     }
+    ]
+   },
+   {
+    "name": "org.awaitility:awaitility",
+    "SPDXID": "SPDXRef-maven-org.awaitility-awaitility-4.1.0-0d577c",
+    "versionInfo": "4.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2015 the original author or authors.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.awaitility/awaitility@4.1.0"
+     }
+    ]
+   },
+   {
+    "name": "io.netty:netty-tcnative-boringssl-static",
+    "SPDXID": "SPDXRef-maven-io.netty-netty-tcnative-boringssl-static-2.0.53-ea61cb",
+    "versionInfo": "2.0.53",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.netty/netty-tcnative-boringssl-static@2.0.53"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.commons:commons-collections4",
+    "SPDXID": "SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-46115d",
+    "versionInfo": "4.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.commons/commons-collections4@4.5.0"
+     }
+    ]
+   },
+   {
+    "name": "commons-cli:commons-cli",
+    "SPDXID": "SPDXRef-maven-commons-cli-commons-cli-1.5.0-d20ded",
+    "versionInfo": "1.5.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2021 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-cli/commons-cli@1.5.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-remoting",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-remoting-b25c54",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-remoting"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-store",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-store-623123",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-store"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.rocketmq:rocketmq-openmessaging",
+    "SPDXID": "SPDXRef-maven-org.apache.rocketmq-rocketmq-openmessaging-88b7e5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.rocketmq/rocketmq-openmessaging"
+     }
+    ]
+   },
+   {
+    "name": "com.conversantmedia:disruptor",
+    "SPDXID": "SPDXRef-maven-com.conversantmedia-disruptor-1.2.10-54ce35",
+    "versionInfo": "1.2.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.conversantmedia/disruptor@1.2.10"
+     }
+    ]
+   },
+   {
+    "name": "io.grpc:grpc-services",
+    "SPDXID": "SPDXRef-maven-io.grpc-grpc-services-1.53.0-b61104",
+    "versionInfo": "1.53.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2015 The gRPC, Copyright 2016 The gRPC, Copyright 2018 The gRPC",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.grpc/grpc-services@1.53.0"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-sdk",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-sdk-1.47.0-4418bb",
+    "versionInfo": "1.47.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.47.0"
+     }
+    ]
+   },
+   {
+    "name": "io.opentelemetry:opentelemetry-exporter-logging-otlp",
+    "SPDXID": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-otlp-1.47.0-994335",
+    "versionInfo": "1.47.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging-otlp@1.47.0"
+     }
+    ]
+   },
+   {
+    "name": "io.opentracing:opentracing-api",
+    "SPDXID": "SPDXRef-maven-io.opentracing-opentracing-api-0.33.0-80b2c6",
+    "versionInfo": "0.33.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2016-2019 The OpenTracing Authors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentracing/opentracing-api@0.33.0"
+     }
+    ]
+   },
+   {
+    "name": "org.yaml:snakeyaml",
+    "SPDXID": "SPDXRef-maven-org.yaml-snakeyaml-2.0-2cab2e",
+    "versionInfo": "2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.0"
+     }
+    ]
+   },
+   {
+    "name": "com.google.truth:truth",
+    "SPDXID": "SPDXRef-maven-com.google.truth-truth-0.30-e9ecdf",
+    "versionInfo": "0.30",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.truth/truth@0.30"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:flatten-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-flatten-maven-plugin-1.7.2-201004",
+    "versionInfo": "1.7.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/flatten-maven-plugin@1.7.2"
+     }
+    ]
+   },
+   {
+    "name": "org.yaml:snakeyaml",
+    "SPDXID": "SPDXRef-maven-org.yaml-snakeyaml-02e57f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.yaml/snakeyaml"
+     }
+    ]
+   },
+   {
+    "name": "io.opentracing:opentracing-api",
+    "SPDXID": "SPDXRef-maven-io.opentracing-opentracing-api-fd9021",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentracing/opentracing-api"
+     }
+    ]
+   },
+   {
+    "name": "io.opentracing:opentracing-mock",
+    "SPDXID": "SPDXRef-maven-io.opentracing-opentracing-mock-a8fe30",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.opentracing/opentracing-mock"
+     }
+    ]
+   },
+   {
+    "name": "com.alipay.sofa:jraft-core",
+    "SPDXID": "SPDXRef-maven-com.alipay.sofa-jraft-core-b5ad3b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.alipay.sofa/jraft-core"
+     }
+    ]
+   },
+   {
+    "name": "io.openmessaging.storage:dledger",
+    "SPDXID": "SPDXRef-maven-io.openmessaging.storage-dledger-fc212f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.openmessaging.storage/dledger"
+     }
+    ]
+   },
+   {
+    "name": "com.github.apache/rocketmq",
+    "SPDXID": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "versionInfo": "develop",
+    "downloadLocation": "git+https://github.com/apache/rocketmq",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/apache/rocketmq@develop"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-proxy-54d0af",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-software.amazon.awssdk-s3-2.20.29-309ef5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.vongosling-dependency-mediator-maven-plugin-1.0.2-f61188",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.rocksdb-rocksdbjni-8.4.4-ca3abd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentracing-opentracing-api-0.33.0-80b2c6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-clirr-maven-plugin-2.7-9def64",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-tcnative-boringssl-static-2.0.53-ea61cb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-sdk-1.47.0-4418bb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-analyze-3..-91da99",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-shaded-slf4j-api-bridge-1.0.0-6af318",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.code-gson-2.9.0-2c221a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-grpc-netty-codec-haproxy-1.0.0-873b5a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-687ef1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-srvutil-c7f2e1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-javax.annotation-javax.annotation-api-1.3.2-9e5de7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-otlp-80c08c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-jul-to-slf4j-2.0.6-76392f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-stub-1.53.0-665836",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-openmessaging-88b7e5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-3..-963d4f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-protobuf-1.53.0-17b6dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.tomcat-annotations-api-6.0.53-5d3d70",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.openmessaging-openmessaging-api-4d9bb0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-cli-commons-cli-a8ec8b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.3-c19c1e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-filter-1079c8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-at.yawk.lz4-lz4-java-1.10.3-c4d133",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-46115d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-remoting-b25c54",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.truth-truth-a8f60b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-stale-5-afd6de",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-core-1.19-a9c6e2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-core-3861cd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-codec-commons-codec-1.13-e6c1ca",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-example-b89c08",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-protobuf-0f71c7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-core-0e0d86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.api.grpc-proto-google-common-protos-2.9.0-b9d90e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-32.0.1-jre-09c72f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-cli-commons-cli-1.5.0-d20ded",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.yaml-snakeyaml-2.0-2cab2e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-4a048c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-tools-9def53",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-test-60ed88",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.googlecode.concurrentlinkedhashmap-concurrentlinkedhashmap-lru-1.4.2-d74bd1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-broker-236273",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.jaegertracing-jaeger-client-1.8.1-87016a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-slf4j-api-1.0.1-1a3e31",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba.fastjson2-fastjson2-2.0.64-122bdd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.powermock-powermock-module-junit4-2.0.9-79eb41",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentracing-opentracing-api-fd9021",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.awaitility-awaitility-fd43ef",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-shaded-slf4j-api-bridge-124347",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.luben-zstd-jni-1.5.2-2-d1c8c4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.luben-zstd-jni-a1d0d0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.jaegertracing-jaeger-thrift-52aa65",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-master-28571f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.jaegertracing-jaeger-thrift-1.8.1-5e464a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-otlp-1.47.0-fc4d5b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.sonarsource.scanner.maven-sonar-maven-plugin-3.0.2-763dcf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.powermock-powermock-api-mockito2-2.0.9-cad324",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.jaegertracing-jaeger-client-0cc1fc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-net.java.dev.jna-jna-fd9c21",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-client-3790ad",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-versions-maven-plugin-2.2-1467db",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-maven-enforcer-plugin-1.4.1-ace8fa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-prometheus-c9beb4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-netty-shaded-a9f176",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-4584e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-1.83-4b3bb1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-otlp-1.47.0-994335",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-40a575",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.googlecode.concurrentlinkedhashmap-concurrentlinkedhashmap-lru-877261",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-4..-2c6cf8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.tomcat-annotations-api-5eefad",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-1.19-ecd46d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.openmessaging.storage-dledger-fc212f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.reflections-reflections-0.9.11-b5aba8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.yaml-snakeyaml-02e57f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-codecov-codecov-action-3..-79398e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-4..-958748",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.alipay.sofa-jraft-core-1.3.14-fe8d94",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-4..-afeeb4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-io-commons-io-2.14.0-d9f464",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-validator-commons-validator-1.10.0-6c05cd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-util-3.24.4-6dd7cb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentracing-opentracing-mock-0.33.0-23fc2b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-055070",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-testing-f74530",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-slf4j-api-e71327",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.code.gson-gson-2.9.0-eacd69",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-extra-enforcer-rules-1.0-beta-4-3d3d62",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.rocksdb-rocksdbjni-1e5120",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-all-50712c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okio-okio-jvm-517591",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-8fc682",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.javassist-javassist-529ce3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-testing-1.53.0-4422b6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-tiered-store-6b8d21",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-prometheus-1.47.0-alpha-119de5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.conversantmedia-disruptor-3b457b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-jul-to-slf4j-c6955f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-e7f44b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.mockito-mockito-core-3.10.0-bfe8aa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-auth-502840",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-core-5.3.27-6a70b3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-controller-724426",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-net.java.dev.jna-jna-4.2.2-699b69",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-apache-skywalking-eyes-0.2.0-ad5627",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-login-action-2..-983fee",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.jaegertracing-jaeger-core-1.8.1-a1bf39",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-namesrv-aaaa52",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.adobe.testing-s3mock-junit4-2.11.0-40ddca",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.alipay.sofa-jraft-core-b5ad3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3..-10c23e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-stub-08a9be",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-validator-commons-validator-19420d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-385b28",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-io-commons-io-b9a9d8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rat-apache-rat-plugin-0.12-0d0c5e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.awaitility-awaitility-4.1.0-0d577c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-store-623123",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-logging-1.47.0-256ac4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-1.3.5-e46a80",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-exporter-otlp-cfe13f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentelemetry-opentelemetry-sdk-36c28a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-mikepenz-action-junit-report-3..-532fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.eluder.coveralls-coveralls-maven-plugin-4.3.0-f75708",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-2.13.4.2-1b22ab",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2.9.3-cd2ca0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.conversantmedia-disruptor-1.2.10-54ce35",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-services-1.53.0-b61104",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.alibaba.fastjson2-fastjson2-3ea87e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-proto-2415d3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-api-4471a7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2a1603",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.reflections-reflections-be34ae",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.mockito-mockito-junit-jupiter-4.11.0-34045f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-all-4.1.130-b15d9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-flatten-maven-plugin-1.7.2-201004",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-init-3..-6b7363",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.spotbugs-spotbugs-maven-plugin-4.8.6.8-be56ca",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-logback-classic-1.0.1-408396",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.truth-truth-0.30-e9ecdf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.openmessaging-openmessaging-api-0.3.1-alpha-8ed5b4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.javassist-javassist-3.20.0-GA-904736",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.opentracing-opentracing-mock-a8fe30",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-at.yawk.lz4-lz4-java-d351d0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-netty-shaded-1.53.0-a8e9dc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-container-f1d7bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.rocketmq-rocketmq-common-56c309",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okio-okio-jvm-3.4.0-0813e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-grpc-netty-codec-haproxy-55f1a4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-c49553",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-util-2d768a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-collections4-904acc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-9d1546",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-13d614",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-commons-codec-commons-codec-567b68",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.grpc-grpc-services-20b082",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.netty-netty-tcnative-boringssl-static-1cfd28",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.jaegertracing-jaeger-core-b895bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.github.aliyunmq-rocketmq-logback-classic-44a489",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-1.36-0a7ff4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-4..-0645a2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-2..-794539",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.assertj-assertj-core-3.22.0-76eb93",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-io.openmessaging.storage-dledger-0.3.3.4-c1efd6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.5-b48941",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.xolstice.maven.plugins-protobuf-maven-plugin-0.6.1-02bc41",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-core-1.36-62b7d2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relatedSpdxElement": "SPDXRef-githubactions-apache-rocketmq-test-tool-1a646589accad17070423eabf0f54925e52b0666-e557a3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-apache-rocketmq-develop-c4945e",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

@@ -1,0 +1,828 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.garrytan/gstack",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/f2ea9fa8-2988-49eb-b0ff-fd4336dfdc76",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:49:04Z"
+  },
+  "packages": [
+   {
+    "name": "@anthropic-ai/sdk",
+    "SPDXID": "SPDXRef-npm-anthropic-ai-sdk-0.78.0-a04a70",
+    "versionInfo": "^0.78.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40anthropic-ai/sdk@%5E0.78.0"
+     }
+    ]
+   },
+   {
+    "name": "sharp",
+    "SPDXID": "SPDXRef-npm-sharp-0.35.4-f9ef64",
+    "versionInfo": "^0.35.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/sharp@%5E0.35.4"
+     }
+    ]
+   },
+   {
+    "name": "@anthropic-ai/claude-agent-sdk",
+    "SPDXID": "SPDXRef-npm-anthropic-ai-claude-agent-sdk-0.2.141-70d648",
+    "versionInfo": "0.2.141",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-see-license-in-readme.md",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40anthropic-ai/claude-agent-sdk@0.2.141"
+     }
+    ]
+   },
+   {
+    "name": "prettier",
+    "SPDXID": "SPDXRef-npm-prettier-3.9.10-3b3534",
+    "versionInfo": "3.9.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/prettier@3.9.10"
+     }
+    ]
+   },
+   {
+    "name": "playwright",
+    "SPDXID": "SPDXRef-npm-playwright-1.65.0-30d54d",
+    "versionInfo": "^1.65.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/playwright@%5E1.65.0"
+     }
+    ]
+   },
+   {
+    "name": "marked",
+    "SPDXID": "SPDXRef-npm-marked-18.1.3-e7dd06",
+    "versionInfo": "^18.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/marked@%5E18.1.3"
+     }
+    ]
+   },
+   {
+    "name": "xterm-addon-fit",
+    "SPDXID": "SPDXRef-npm-xterm-addon-fit-0.8.0-f4fd8a",
+    "versionInfo": "^0.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/xterm-addon-fit@%5E0.8.0"
+     }
+    ]
+   },
+   {
+    "name": "cross-spawn",
+    "SPDXID": "SPDXRef-npm-cross-spawn-7.0.6-67b01d",
+    "versionInfo": "^7.0.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/cross-spawn@%5E7.0.6"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-7.0.2-efac34",
+    "versionInfo": "7.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) (c) AAEE (c), (c) (c) EeAoq (c), (c) aA'AE (c) 1AE, (c) by W3C, (c) Copyright 2009 The Go Authors, (c) EAiE (c) A, (c) lEEe (c) AE, (c) oav!A (c) AY, Copyright (c) <owner>, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2012-2014, Yann Collet, Copyright (c) 2015 Klaus Post, Copyright (c) 2015 Microsoft, Copyright (c) 2015- Klaus Post & Contributors, Copyright (c) 2017-present Devon Govett, Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG Apple, Google, Mozilla, Copyright (c) 2019, Jeff Wendling, Copyright (c) 2020 Klaus Post, Copyright (c) 2020 The Go Authors, Copyright (c) 2021 Klaus Post, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers, Copyright 2009 The Go Authors, Copyright 2009,2010 The Go Authors, Copyright 2010 The Go Authors, Copyright 2011 The Go Authors, Copyright 2012 The Go Authors, Copyright 2012-2020 Facebook, Inc., Copyright 2013 The Go Authors, Copyright 2014 The Go Authors, Copyright 2015 The Go Authors, Copyright 2016 The Go Authors, Copyright 2017 The Go Authors, Copyright 2017-2019 Hatena Co., Ltd., Copyright 2018 The Go Authors, Copyright 2019 The Go Authors, Copyright 2020 The Go Authors, Copyright 2021 The Go Authors, Copyright 2022 The Go Authors, Copyright 2023 The Go Authors, Copyright 2024 The Go Authors, Copyright 2025 The Go Authors, Copyright Node.js contributors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@7.0.2"
+     }
+    ]
+   },
+   {
+    "name": "socks",
+    "SPDXID": "SPDXRef-npm-socks-2.8.10-1184d6",
+    "versionInfo": "^2.8.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/socks@%5E2.8.10"
+     }
+    ]
+   },
+   {
+    "name": "diff",
+    "SPDXID": "SPDXRef-npm-diff-9.0.0-363f5d",
+    "versionInfo": "^9.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/diff@%5E9.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@ngrok/ngrok",
+    "SPDXID": "SPDXRef-npm-ngrok-ngrok-1.7.0-e2bb6d",
+    "versionInfo": "^1.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "(MIT OR Apache-2.0)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40ngrok/ngrok@%5E1.7.0"
+     }
+    ]
+   },
+   {
+    "name": "@huggingface/transformers",
+    "SPDXID": "SPDXRef-npm-huggingface-transformers-4.3.2-d00d07",
+    "versionInfo": "^4.3.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40huggingface/transformers@%5E4.3.2"
+     }
+    ]
+   },
+   {
+    "name": "@types/bun",
+    "SPDXID": "SPDXRef-npm-types-bun-1.4.4-971240",
+    "versionInfo": "1.4.4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/bun@1.4.4"
+     }
+    ]
+   },
+   {
+    "name": "html-to-docx",
+    "SPDXID": "SPDXRef-npm-html-to-docx-1.8.0-d0444d",
+    "versionInfo": "1.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) extraPathPercentEncodeSet.has, Copyright (c) 2014 Jonathan Ong, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015-2022 Douglas Christopher Wilson, Copyright (c) 2020, Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors, Copyright OpenJS Foundation and other contributors <https://openjsf.org/>",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/html-to-docx@1.8.0"
+     }
+    ]
+   },
+   {
+    "name": "xterm",
+    "SPDXID": "SPDXRef-npm-xterm-5.3.0-72c89f",
+    "versionInfo": "^5.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/xterm@%5E5.3.0"
+     }
+    ]
+   },
+   {
+    "name": "html-to-vdom",
+    "SPDXID": "SPDXRef-npm-html-to-vdom-0.7.0-937013",
+    "versionInfo": "0.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "ISC",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/html-to-vdom@0.7.0"
+     }
+    ]
+   },
+   {
+    "name": "react",
+    "SPDXID": "SPDXRef-npm-react-18.3.1-029a8c",
+    "versionInfo": "18.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Facebook, Inc. and its affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react@18.3.1"
+     }
+    ]
+   },
+   {
+    "name": "react-dom",
+    "SPDXID": "SPDXRef-npm-react-dom-18.3.1-bf294a",
+    "versionInfo": "18.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "(c) http://www.w3.org/1999/xhtml, (c) Ka (c), Copyright (c) Facebook, Inc. and its affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react-dom@18.3.1"
+     }
+    ]
+   },
+   {
+    "name": "mermaid",
+    "SPDXID": "SPDXRef-npm-mermaid-11.16.1-6e06da",
+    "versionInfo": "11.16.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/mermaid@11.16.1"
+     }
+    ]
+   },
+   {
+    "name": "@excalidraw/excalidraw",
+    "SPDXID": "SPDXRef-npm-excalidraw-excalidraw-0.18.1-8a131d",
+    "versionInfo": "0.18.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2012, Andreas Lind Petersen, Copyright (c) 2014 ecomfe, Copyright (c) 2018 Shannon Miwa, Copyright (c) 2019 Ebrahim Byagowi, Copyright (c) 2020 LXGW uniqueID Xiaolai, Copyright (c) 2023 Jesus Gonzalez, Copyright (c) 2023 Rodrigo Batista de Moraes, Copyright (c) 2024 Fini Jastrow, Copyright (c) 2024 Kyle Beechly, Table Copyright (c) 2024 by Excalidraw",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40excalidraw/excalidraw@0.18.1"
+     }
+    ]
+   },
+   {
+    "name": "@excalidraw/mermaid-to-excalidraw",
+    "SPDXID": "SPDXRef-npm-excalidraw-mermaid-to-excalidraw-2.2.2-ffe0f2",
+    "versionInfo": "2.2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2023 Excalidraw",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40excalidraw/mermaid-to-excalidraw@2.2.2"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "versionInfo": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
+     }
+    ]
+   },
+   {
+    "name": "oven-sh/setup-bun",
+    "SPDXID": "SPDXRef-githubactions-oven-sh-setup-bun-0c5077e51419868618aeaa5fe8019c62421857d6-ea9ebd",
+    "versionInfo": "0c5077e51419868618aeaa5fe8019c62421857d6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-cf430e030ddbb5b0abf93d22962f4752f3646cd9-27c915",
+    "versionInfo": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache/save",
+    "SPDXID": "SPDXRef-githubactions-actionscache-save-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8fc7ab",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache/restore",
+    "SPDXID": "SPDXRef-githubactions-actionscache-restore-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8830a0",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "trunk-io/dynamic-ci",
+    "SPDXID": "SPDXRef-githubactions-trunk-io-dynamic-ci-5bcddbf3615c2b032c21eed1b514c91164bda4a8-83fbe6",
+    "versionInfo": "5bcddbf3615c2b032c21eed1b514c91164bda4a8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/trunk-io/dynamic-ci@5bcddbf3615c2b032c21eed1b514c91164bda4a8"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-5fbf3d",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "trunk-io/analytics-uploader",
+    "SPDXID": "SPDXRef-githubactions-trunk-io-analytics-uploader-a86313c7029d22e6ea2d5c346060a224d90053dc-34500c",
+    "versionInfo": "a86313c7029d22e6ea2d5c346060a224d90053dc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/trunk-io/analytics-uploader@a86313c7029d22e6ea2d5c346060a224d90053dc"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-949feb2413d6458794dcd2491c4babbbce0c15c1-3259db",
+    "versionInfo": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1"
+     }
+    ]
+   },
+   {
+    "name": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml",
+    "SPDXID": "SPDXRef-githubactions-googleosv-scanner-action.githubworkflows-osv-scanner-reusable.yml-f4cfcc01edc9c8b756a9b873b7a623ca674da51e-1627e7",
+    "versionInfo": "f4cfcc01edc9c8b756a9b873b7a623ca674da51e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@f4cfcc01edc9c8b756a9b873b7a623ca674da51e"
+     }
+    ]
+   },
+   {
+    "name": "docker/setup-buildx-action",
+    "SPDXID": "SPDXRef-githubactions-docker-setup-buildx-action-f87e5991a6d7451dcb8d9637bfbc97413f497069-7b82b0",
+    "versionInfo": "f87e5991a6d7451dcb8d9637bfbc97413f497069",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-9000827ccba6bdab643e8b6fd33ac0654aef8333-6c80c5",
+    "versionInfo": "9000827ccba6bdab643e8b6fd33ac0654aef8333",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333"
+     }
+    ]
+   },
+   {
+    "name": "docker/login-action",
+    "SPDXID": "SPDXRef-githubactions-docker-login-action-81c6f93d4bc991e510b342a00b419b3bb4efc5c6-16cb03",
+    "versionInfo": "81c6f93d4bc991e510b342a00b419b3bb4efc5c6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/login-action@81c6f93d4bc991e510b342a00b419b3bb4efc5c6"
+     }
+    ]
+   },
+   {
+    "name": "actions/attest",
+    "SPDXID": "SPDXRef-githubactions-actions-attest-1e69f48acb82d1966a394da916b4c1698aa569d6-6937a7",
+    "versionInfo": "1e69f48acb82d1966a394da916b4c1698aa569d6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6"
+     }
+    ]
+   },
+   {
+    "name": "docker/build-push-action",
+    "SPDXID": "SPDXRef-githubactions-docker-build-push-action-c3c9e263c25d99ce0380d002d59b67737d91b0dc-8d8e9e",
+    "versionInfo": "c3c9e263c25d99ce0380d002d59b67737d91b0dc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc"
+     }
+    ]
+   },
+   {
+    "name": "actions/dependency-review-action",
+    "SPDXID": "SPDXRef-githubactions-actions-dependency-review-action-a1d282b36b6f3519aa1f3fc636f609c47dddb294-04605b",
+    "versionInfo": "a1d282b36b6f3519aa1f3fc636f609c47dddb294",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/upload-sarif",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-upload-sarif-9b3254085494b55a0f7c4c2b3d2d52cc712ce370-332420",
+    "versionInfo": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/upload-sarif@9b3254085494b55a0f7c4c2b3d2d52cc712ce370"
+     }
+    ]
+   },
+   {
+    "name": "ossf/scorecard-action",
+    "SPDXID": "SPDXRef-githubactions-ossf-scorecard-action-fa7117db83c52d787ae5a89f350999701505d78e-66f3cf",
+    "versionInfo": "fa7117db83c52d787ae5a89f350999701505d78e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/ossf/scorecard-action@fa7117db83c52d787ae5a89f350999701505d78e"
+     }
+    ]
+   },
+   {
+    "name": "com.github.garrytan/gstack",
+    "SPDXID": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/garrytan/gstack",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/garrytan/gstack@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-anthropic-ai-sdk-0.78.0-a04a70",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-sharp-0.35.4-f9ef64",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-anthropic-ai-claude-agent-sdk-0.2.141-70d648",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-prettier-3.9.10-3b3534",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-1.65.0-30d54d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-marked-18.1.3-e7dd06",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-xterm-addon-fit-0.8.0-f4fd8a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-cross-spawn-7.0.6-67b01d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-7.0.2-efac34",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-socks-2.8.10-1184d6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-diff-9.0.0-363f5d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-ngrok-ngrok-1.7.0-e2bb6d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-huggingface-transformers-4.3.2-d00d07",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-types-bun-1.4.4-971240",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-html-to-docx-1.8.0-d0444d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-xterm-5.3.0-72c89f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-html-to-vdom-0.7.0-937013",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-react-18.3.1-029a8c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-react-dom-18.3.1-bf294a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-mermaid-11.16.1-6e06da",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-excalidraw-excalidraw-0.18.1-8a131d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-npm-excalidraw-mermaid-to-excalidraw-2.2.2-ffe0f2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-dependency-review-action-a1d282b36b6f3519aa1f3fc636f609c47dddb294-04605b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-ossf-scorecard-action-fa7117db83c52d787ae5a89f350999701505d78e-66f3cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-5fbf3d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-login-action-81c6f93d4bc991e510b342a00b419b3bb4efc5c6-16cb03",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-oven-sh-setup-bun-0c5077e51419868618aeaa5fe8019c62421857d6-ea9ebd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actionscache-restore-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8830a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-trunk-io-analytics-uploader-a86313c7029d22e6ea2d5c346060a224d90053dc-34500c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-949feb2413d6458794dcd2491c4babbbce0c15c1-3259db",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-setup-buildx-action-f87e5991a6d7451dcb8d9637bfbc97413f497069-7b82b0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-9000827ccba6bdab643e8b6fd33ac0654aef8333-6c80c5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-attest-1e69f48acb82d1966a394da916b4c1698aa569d6-6937a7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-cf430e030ddbb5b0abf93d22962f4752f3646cd9-27c915",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-upload-sarif-9b3254085494b55a0f7c4c2b3d2d52cc712ce370-332420",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actionscache-save-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8fc7ab",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-trunk-io-dynamic-ci-5bcddbf3615c2b032c21eed1b514c91164bda4a8-83fbe6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-googleosv-scanner-action.githubworkflows-osv-scanner-reusable.yml-f4cfcc01edc9c8b756a9b873b7a623ca674da51e-1627e7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-build-push-action-c3c9e263c25d99ce0380d002d59b67737d91b0dc-8d8e9e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-garrytan-gstack-main-a60ca7",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

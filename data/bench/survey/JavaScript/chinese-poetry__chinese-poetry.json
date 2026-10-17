@@ -1,0 +1,99 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.chinese-poetry/chinese-poetry",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/8449625f-af38-45b6-87e4-405f26a3b866",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:32:15Z"
+  },
+  "packages": [
+   {
+    "name": "pytest",
+    "SPDXID": "SPDXRef-pypi-pytest-5.3.2-457e11",
+    "versionInfo": "5.3.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2004-2019 Holger Krekel and others, Copyright (c) 2010 by Armin Ronacher, Copyright (c) 2010 by Armin Ronacher., Copyright (c) 2014, Gregory Boissinot, Copyright 2010 by Armin Ronacher. :license Flask Design, Copyright 2010 by Armin Ronacher. :license Flask Design License, copyright 2015-2019, copyright 2015-2019, holger krekel and pytest-dev team, Copyright Holger Krekel and others, 2004-2017, Copyright Holger Krekel and others, 2004-2017., Copyright Holger Krekel and others, 2004-2019, Copyright Holger Krekel and others, 2004-2019.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest@5.3.2"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-2-ce10eb",
+    "versionInfo": "2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@2"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-python",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-python-2-fd5af1",
+    "versionInfo": "2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-python@2"
+     }
+    ]
+   },
+   {
+    "name": "com.github.chinese-poetry/chinese-poetry",
+    "SPDXID": "SPDXRef-github-chinese-poetry-chinese-poetry-master-bf8f88",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/chinese-poetry/chinese-poetry",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/chinese-poetry/chinese-poetry@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-chinese-poetry-chinese-poetry-master-bf8f88",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-2-ce10eb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-chinese-poetry-chinese-poetry-master-bf8f88",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-python-2-fd5af1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-chinese-poetry-chinese-poetry-master-bf8f88",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-5.3.2-457e11",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-chinese-poetry-chinese-poetry-master-bf8f88",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

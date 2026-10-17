@@ -1,0 +1,1247 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.zxing/zxing",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/a9331a7c-784d-49d1-9b02-f7ed7917f675",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: Automatic Dependency Submission"
+   ],
+   "created": "2026-11-12T14:21:57Z"
+  },
+  "packages": [
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-4.13.2-cd34e5",
+    "versionInfo": "4.13.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit@4.13.2?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.hamcrest:hamcrest-core",
+    "SPDXID": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-3ac58d",
+    "versionInfo": "1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.hamcrest:hamcrest-core",
+    "SPDXID": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-8ab5aa",
+    "versionInfo": "1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.jcommander:jcommander",
+    "SPDXID": "SPDXRef-maven-org.jcommander-jcommander-1.85-f7f264",
+    "versionInfo": "1.85",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jcommander/jcommander@1.85?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.github.jai-imageio:jai-imageio-core",
+    "SPDXID": "SPDXRef-maven-com.github.jai-imageio-jai-imageio-core-1.4.0-72a990",
+    "versionInfo": "1.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause-No-Nuclear-Warranty",
+    "copyrightText": "Copyright (c) 2005 Sun Microsystems, Inc., Copyright (c) 2010-2014 University of Manchester, Copyright (c) 2010-2015 Stian Soiland-Reyes, Copyright (c) 2010-2018 Stian Soiland-Reyes, Copyright (c) 2010-2018 University of Manchester, Copyright (c) 2015 Butch Howard, Copyright (c) 2015 Mark Carroll, Copyright (c) 2015 Peter Hull, Copyright (c) 2015 Robin Stevens, Copyright (c) 2015 Yannick De Turck, Copyright (c) 2015-2016 Luca Bellonda, Copyright (c) 2017 Curtis Rueden, Copyright (c) 2017 Ghislain Bonamy, Copyright (c) 2017 Mykola Pavluchynskyi, Copyright (c) 2017 Roger Leigh, Copyright (c) 2017 Sebastien Besson, Copyright (c) 2018 Peter Jodeleit, Copyright Compression ColorMap",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.jai-imageio/jai-imageio-core@1.4.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:core",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-core-3.5.5-SNAPSHOT-f0b7f3",
+    "versionInfo": "3.5.5-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/core@3.5.5-SNAPSHOT?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-4.13.2-5ac7e9",
+    "versionInfo": "4.13.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit@4.13.2?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.servlet:jakarta.servlet-api",
+    "SPDXID": "SPDXRef-maven-jakarta.servlet-jakarta.servlet-api-6.0.0-7d364e",
+    "versionInfo": "6.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "(c) Copyright International Business Machines Corporation 2002, Copyright (c) 1997, 2020 Oracle and/or its affiliates and others, Copyright (c) 1997, 2021 Oracle and/or its affiliates and others, Copyright (c) 1997, 2022 Oracle and/or its affiliates and others, Copyright (c) 1997, 2022 Oracle and/or its affiliates and others., Copyright (C) 1997, 2022 Oracle and/or its affiliates and others., Copyright (c) 1997, 2024 Oracle and/or its affiliates and others., Copyright (c) 1999, 2018 Oracle and/or its affiliates, Copyright (c) 1999, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 1999, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2000, 2018 Oracle and/or its affiliates, Copyright (c) 2000, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2000, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2008, 2020 Oracle and/or its affiliates and others, Copyright (c) 2008, 2020 Oracle and/or its affiliates and others., Copyright (C) 2008, 2020 Oracle and/or its affiliates and others., Copyright (c) 2008, 2023 Oracle and/or its affiliates and others., Copyright (c) 2009, 2020 Oracle and/or its affiliates, Copyright (c) 2009, 2020 Oracle and/or its affiliates and others, Copyright (c) 2009, 2020 Oracle and/or its affiliates and others., Copyright (C) 2009, 2020 Oracle and/or its affiliates and others., Copyright (c) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2009, 2021 Oracle and/or its affiliates, Copyright (c) 2009, 2021 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2009, 2021 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2009, 2023 Oracle and/or its affiliates and others., Copyright (c) 2018 Oracle and/or its affiliates, Copyright (c) 2018 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2022 Eclipse Foundation, Copyright & 169 2019, 2022 Eclipse Foundation, Copyright 2002 International Business Machines Corporation, Copyright 2004 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "versionInfo": "33.7.2-android",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava@33.7.2-android?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.ejb:jakarta.ejb-api",
+    "SPDXID": "SPDXRef-maven-jakarta.ejb-jakarta.ejb-api-4.0.1-0f362b",
+    "versionInfo": "4.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2009, 2018 Oracle and/or its affiliates, Copyright (c) 2009, 2018 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2012, 2021 Oracle and/or its affiliates, Copyright (c) 2012, 2021 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018, current.year Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.ejb/jakarta.ejb-api@4.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.el:jakarta.el-api",
+    "SPDXID": "SPDXRef-maven-jakarta.el-jakarta.el-api-5.0.1-918926",
+    "versionInfo": "5.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997, 2019 Oracle and/or its affiliates, Copyright (c) 1997, 2022 Oracle and/or its affiliates and others, Copyright (c) 2018, 2022 Eclipse Foundation, Copyright 2004 The Apache Software Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.el/jakarta.el-api@5.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:failureaccess",
+    "SPDXID": "SPDXRef-maven-com.google.guava-failureaccess-1.0.3-4bdaff",
+    "versionInfo": "1.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.websocket:jakarta.websocket-client-api",
+    "SPDXID": "SPDXRef-maven-jakarta.websocket-jakarta.websocket-client-api-2.1.0-c4d658",
+    "versionInfo": "2.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2018, 2022 Oracle and/or its affiliates and others., copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "commons-logging:commons-logging",
+    "SPDXID": "SPDXRef-maven-commons-logging-commons-logging-1.3.5-3d3d0b",
+    "versionInfo": "1.3.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.3.5?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.persistence:jakarta.persistence-api",
+    "SPDXID": "SPDXRef-maven-jakarta.persistence-jakarta.persistence-api-3.1.0-2b8763",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause OR EPL-2.0",
+    "copyrightText": "Copyright (c) 2007, Eclipse Foundation, Inc., Copyright (c) 2008, 2019 Oracle and/or its affiliates, Copyright (C) 2008, 2019 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2008, 2020 Oracle and/or its affiliates, Copyright (C) 2008, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018, 2022 Oracle and/or its affiliates, Copyright (C) 2018, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019 Oracle and/or its affiliates, Copyright (C) 2019 Oracle and/or its affiliates. All rights reserved. \", Copyright (c) 2019, current.year Eclipse Foundation, Copyright (c) 2022 Oracle and/or its affiliates, Copyright (C) 2022 Oracle and/or its affiliates. All rights reserved.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.github.jai-imageio:jai-imageio-core",
+    "SPDXID": "SPDXRef-maven-com.github.jai-imageio-jai-imageio-core-1.4.0-dddc9d",
+    "versionInfo": "1.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause-No-Nuclear-Warranty",
+    "copyrightText": "Copyright (c) 2005 Sun Microsystems, Inc., Copyright (c) 2010-2014 University of Manchester, Copyright (c) 2010-2015 Stian Soiland-Reyes, Copyright (c) 2010-2018 Stian Soiland-Reyes, Copyright (c) 2010-2018 University of Manchester, Copyright (c) 2015 Butch Howard, Copyright (c) 2015 Mark Carroll, Copyright (c) 2015 Peter Hull, Copyright (c) 2015 Robin Stevens, Copyright (c) 2015 Yannick De Turck, Copyright (c) 2015-2016 Luca Bellonda, Copyright (c) 2017 Curtis Rueden, Copyright (c) 2017 Ghislain Bonamy, Copyright (c) 2017 Mykola Pavluchynskyi, Copyright (c) 2017 Roger Leigh, Copyright (c) 2017 Sebastien Besson, Copyright (c) 2018 Peter Jodeleit, Copyright Compression ColorMap",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.jai-imageio/jai-imageio-core@1.4.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api",
+    "SPDXID": "SPDXRef-maven-jakarta.servlet.jsp.jstl-jakarta.servlet.jsp.jstl-api-3.0.0-ea833d",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-epl-2.0-and-gpl-2.0-only-and-classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997, 2020 Oracle and/or its affiliates, Copyright (c) 1997, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018, current.year Eclipse Foundation, Copyright (c) 2021-2022 Contributors, Copyright (c) 2021-2022 Contributors to the Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@3.0.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:javase",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-javase-3.5.5-SNAPSHOT-b7e461",
+    "versionInfo": "3.5.5-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/javase@3.5.5-SNAPSHOT?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:core",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-core-3.5.5-SNAPSHOT-0efa92",
+    "versionInfo": "3.5.5-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/core@3.5.5-SNAPSHOT?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-core",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-core-7.0.9-ea3d13",
+    "versionInfo": "7.0.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium https://www.ow2.org, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2026 Pivotal, Inc., Copyright 2002-2020 the original author or authors, Copyright 2006-2026 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-core@7.0.9?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "io.micrometer:micrometer-commons",
+    "SPDXID": "SPDXRef-maven-io.micrometer-micrometer-commons-1.16.7-2c63ee",
+    "versionInfo": "1.16.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2017-Present VMware, Inc., Copyright 2001-2019 The Apache Software Foundation, Copyright 2002-2019 the original author or authors, Copyright 2010 Google Inc., Copyright 2013 The Netty Project",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.micrometer/micrometer-commons@1.16.7?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.servlet.jsp:jakarta.servlet.jsp-api",
+    "SPDXID": "SPDXRef-maven-jakarta.servlet.jsp-jakarta.servlet.jsp-api-3.1.0-52846a",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997, 2022 Oracle and/or its affiliates and others, Copyright (c) 1997, 2022 Oracle and/or its affiliates and others., Copyright (c) 2018, 2021 Eclipse Foundation, Copyright (c) 2021 Contributors, Copyright (c) 2021 Contributors to the Eclipse Foundation., copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.servlet.jsp/jakarta.servlet.jsp-api@3.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.security.enterprise:jakarta.security.enterprise-api",
+    "SPDXID": "SPDXRef-maven-jakarta.security.enterprise-jakarta.security.enterprise-api-3.0.0-5c95b4",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-epl-2.0-and-gpl-2.0-only-and-classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2011, 2020 Oracle and/or its affiliates, Copyright (c) 2011, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2015, 2022 Oracle and/or its affiliates, Copyright (c) 2015, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2022 Eclipse Foundation, Copyright 2008, Red Hat Middleware LLC, and individual contributors by the @authors, Copyright 2008, Red Hat Middleware LLC, and individual contributors by the authors, Copyright 2016, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2016, Red Hat, Inc., and individual contributors ~ by the authors, Copyright 2020, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2020, Red Hat, Inc., and individual contributors ~ by the authors, Copyright 2021, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2021, Red Hat, Inc., and individual contributors ~ by the authors, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.security.enterprise/jakarta.security.enterprise-api@3.0.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "io.micrometer:micrometer-observation",
+    "SPDXID": "SPDXRef-maven-io.micrometer-micrometer-observation-1.16.7-6599fa",
+    "versionInfo": "1.16.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2017-Present VMware, Inc., Copyright 2001-2019 The Apache Software Foundation, Copyright 2002-2019 the original author or authors, Copyright 2010 Google Inc., Copyright 2013 The Netty Project",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/io.micrometer/micrometer-observation@1.16.7?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.j2objc:j2objc-annotations",
+    "SPDXID": "SPDXRef-maven-com.google.j2objc-j2objc-annotations-3.1-c6b81d",
+    "versionInfo": "3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@3.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.inject:jakarta.inject-api",
+    "SPDXID": "SPDXRef-maven-jakarta.inject-jakarta.inject-api-2.0.1-ba4e5c",
+    "versionInfo": "2.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 OR (Apache-2.0 AND EPL-2.0)",
+    "copyrightText": "Copyright (c) 2018,2020 Eclipse Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.enterprise:jakarta.enterprise.cdi-api",
+    "SPDXID": "SPDXRef-maven-jakarta.enterprise-jakarta.enterprise.cdi-api-4.0.1-0df4a0",
+    "versionInfo": "4.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND EPL-2.0 AND LicenseRef-scancode-generic-export-compliance",
+    "copyrightText": "Copyright (c) 2018,2022 Eclipse Foundation, Copyright 2008, Red Hat Middleware LLC, and individual contributors by the @authors, Copyright 2008, Red Hat Middleware LLC, and individual contributors by the authors, Copyright 2016, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2016, Red Hat, Inc., and individual contributors ~ by the authors, Copyright 2018, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2018, Red Hat, Inc., and individual contributors ~ by the authors, Copyright 2020, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2020, Red Hat, Inc., and individual contributors ~ by the authors, Copyright 2021, Red Hat, Inc., and individual contributors ~ by the @authors, Copyright 2021, Red Hat, Inc., and individual contributors ~ by the authors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api@4.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.jcommander:jcommander",
+    "SPDXID": "SPDXRef-maven-org.jcommander-jcommander-1.85-62793b",
+    "versionInfo": "1.85",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jcommander/jcommander@1.85?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.platform:jakarta.jakartaee-web-api",
+    "SPDXID": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "versionInfo": "10.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997, 2019 Oracle and/or its affiliates, Copyright (c) 1997, 2020 Oracle and/or its affiliates, Copyright (c) 1997, 2020 Oracle and/or its affiliates and others, Copyright (c) 1997, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 1997, 2021 Oracle and/or its affiliates and others, Copyright (c) 2010, 2020 Oracle and/or its affiliates, Copyright (c) 2010, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2011, 2020 Oracle and/or its affiliates, Copyright (c) 2011, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2012, 2020 Oracle and/or its affiliates, Copyright (c) 2012, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2021 Contributors, Copyright (c) 2021 Contributors to the Eclipse Foundation., Copyright 2004 The Apache Software Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.platform/jakarta.jakartaee-web-api@10.0.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.json.bind:jakarta.json.bind-api",
+    "SPDXID": "SPDXRef-maven-jakarta.json.bind-jakarta.json.bind-api-3.0.0-c4de18",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "((EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only) AND LicenseRef-scancode-unknown",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2016, 2022 Oracle and/or its affiliates, Copyright (c) 2016, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2022 Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.json.bind/jakarta.json.bind-api@3.0.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.jspecify:jspecify",
+    "SPDXID": "SPDXRef-maven-org.jspecify-jspecify-1.0.1-dcd280",
+    "versionInfo": "1.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jspecify/jspecify@1.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.validation:jakarta.validation-api",
+    "SPDXID": "SPDXRef-maven-jakarta.validation-jakarta.validation-api-3.0.2-94e10c",
+    "versionInfo": "3.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2019,2020 Eclipse Foundation, Copyright (c) 2019,2023 Eclipse Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.2?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.errorprone:error_prone_annotations",
+    "SPDXID": "SPDXRef-maven-com.google.errorprone-errorproneannotations-2.50.0-04b30d",
+    "versionInfo": "2.50.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-1.1 AND Apache-2.0",
+    "copyrightText": "Copyright 2015 The Error Prone Authors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.50.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-4.13.2-016fa2",
+    "versionInfo": "4.13.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit@4.13.2?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-beans",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-beans-7.0.9-5c19b6",
+    "versionInfo": "7.0.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium https://www.ow2.org, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2026 Pivotal, Inc., Copyright 2006-2026 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-beans@7.0.9?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.enterprise:jakarta.enterprise.lang-model",
+    "SPDXID": "SPDXRef-maven-jakarta.enterprise-jakarta.enterprise.lang-model-4.0.1-90c60d",
+    "versionInfo": "4.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2018,2020 Eclipse Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.enterprise/jakarta.enterprise.lang-model@4.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:listenablefuture",
+    "SPDXID": "SPDXRef-maven-com.google.guava-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-5be2d6",
+    "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.websocket:jakarta.websocket-api",
+    "SPDXID": "SPDXRef-maven-jakarta.websocket-jakarta.websocket-api-2.1.0-3f23dd",
+    "versionInfo": "2.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2018, 2022 Oracle and/or its affiliates and others, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.websocket/jakarta.websocket-api@2.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.authentication:jakarta.authentication-api",
+    "SPDXID": "SPDXRef-maven-jakarta.authentication-jakarta.authentication-api-3.0.0-b35915",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-epl-2.0-and-gpl-2.0-only-and-classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997, 2020 Oracle and/or its affiliates, Copyright (c) 1997, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2011, 2020 Oracle and/or its affiliates, Copyright (c) 2011, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2013, 2020 Oracle and/or its affiliates, Copyright (c) 2013, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2020, 2022 Contributors, Copyright (c) 2020, 2022 Contributors to Eclipse Foundation, Copyright (c) 2020, 2022 Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.authentication/jakarta.authentication-api@3.0.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.interceptor:jakarta.interceptor-api",
+    "SPDXID": "SPDXRef-maven-jakarta.interceptor-jakarta.interceptor-api-2.1.0-977987",
+    "versionInfo": "2.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2009, 2020 Oracle and/or its affiliates, Copyright (c) 2009, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2012, 2020 Oracle and/or its affiliates, Copyright (c) 2012, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2020 Eclipse Foundation, Copyright (c) 2021 Contributors, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.interceptor/jakarta.interceptor-api@2.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.transaction:jakarta.transaction-api",
+    "SPDXID": "SPDXRef-maven-jakarta.transaction-jakarta.transaction-api-2.0.1-6994fd",
+    "versionInfo": "2.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2010, 2020 Oracle and/or its affiliates, Copyright (c) 2010, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2012, 2020 Oracle and/or its affiliates, Copyright (c) 2012, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018, 2020 Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-test",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-test-7.0.9-c91d91",
+    "versionInfo": "7.0.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium https://www.ow2.org, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2026 Pivotal, Inc., Copyright 2006-2026 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-test@7.0.9?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.faces:jakarta.faces-api",
+    "SPDXID": "SPDXRef-maven-jakarta.faces-jakarta.faces-api-4.0.1-6428ff",
+    "versionInfo": "4.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-epl-2.0-and-gpl-2.0-only-and-classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1997, 2020 Oracle and/or its affiliates, Copyright (c) 1997, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2010, 2020 Oracle and/or its affiliates, Copyright (c) 2010, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2011, 2020 Oracle and/or its affiliates, Copyright (c) 2011, 2020 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2017, 2022 Oracle and/or its affiliates, Copyright (c) 2017, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2022, 2022 Contributors, Copyright (c) 2022, 2022 Contributors to Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.faces/jakarta.faces-api@4.0.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.json:jakarta.json-api",
+    "SPDXID": "SPDXRef-maven-jakarta.json-jakarta.json-api-2.1.0-626a22",
+    "versionInfo": "2.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "((EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only) AND LicenseRef-scancode-unknown",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2011, 2022 Oracle and/or its affiliates, Copyright (c) 2011, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018, 2020 Oracle and/or its affiliates, Copyright (c) 2019, current.year Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.json/jakarta.json-api@2.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.springframework:spring-web",
+    "SPDXID": "SPDXRef-maven-org.springframework-spring-web-7.0.9-ba8238",
+    "versionInfo": "7.0.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium https://www.ow2.org, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2026 Pivotal, Inc., Copyright 2002-2021 the original author or authors, Copyright 2006-2026 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.springframework/spring-web@7.0.9?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.annotation:jakarta.annotation-api",
+    "SPDXID": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-2.1.1-5313a0",
+    "versionInfo": "2.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2012, 2022 Oracle and/or its affiliates, Copyright (c) 2012, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (C) 2012, 2022 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2021 Eclipse Foundation, Copyright & 169 2019, 2021 Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "jakarta.ws.rs:jakarta.ws.rs-api",
+    "SPDXID": "SPDXRef-maven-jakarta.ws.rs-jakarta.ws.rs-api-3.1.0-d2d72e",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2011, 2021 Oracle and/or its affiliates, Copyright (c) 2011, 2021 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2011, 2024 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2018, 2020 Eclipse Foundation, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@3.1.0?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "org.hamcrest:hamcrest-core",
+    "SPDXID": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-5d938d",
+    "versionInfo": "1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/analyze",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-5cce3b",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/analyze@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/autobuild",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-autobuild-4..-a97fc9",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/autobuild@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/init",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-init-4..-4b59fc",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/init@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-6..-a51a37",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.google.android:android",
+    "SPDXID": "SPDXRef-maven-com.google.android-android-bf38f5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.android/android"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:android-core",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-android-core-fef358",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/android-core"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-deploy-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-c49553",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-deploy-plugin"
+     }
+    ]
+   },
+   {
+    "name": "com.google.zxing:core",
+    "SPDXID": "SPDXRef-maven-com.google.zxing-core-3.3.3-1dfc63",
+    "versionInfo": "3.3.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.zxing/core@3.3.3"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:gwt-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-gwt-maven-plugin-2.10.0-06a974",
+    "versionInfo": "2.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/gwt-maven-plugin@2.10.0"
+     }
+    ]
+   },
+   {
+    "name": "org.gwtproject:gwt-user",
+    "SPDXID": "SPDXRef-maven-org.gwtproject-gwt-user-2.10.0-0a5552",
+    "versionInfo": "2.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright (c) 2009 The Guava Authors, Copyright (c) 2011 The Guava Authors, Copyright (c) 2012 The Guava Authors, Copyright (c) 2015 The Guava Authors, Copyright (c) 2017 The Guava Authors, Copyright 2006 Google Inc., Copyright 2007 Google Inc., Copyright 2008 Google Inc., Copyright 2008 Google, Inc., Copyright 2009 Google Inc., Copyright 2009, Red Hat, Inc., Copyright 2010 Google Inc., Copyright 2011 Google Inc., Copyright 2012 Google Inc., Copyright 2013 Google Inc., Copyright 2014 Google Inc., Copyright 2015 Google Inc., Copyright 2016 Google Inc., Copyright 2017 Google Inc., Copyright 2018 Google Inc., Copyright 2019 Google Inc., Copyright 2020 Google Inc., Copyright 2021 Google Inc., Copyrighted to Guava Authors, Copyrighted to the Android Open Source Project, Portions Copyright 1986 International Organization, Portions Copyright 1986 International Organization for Standardization",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.gwtproject/gwt-user@2.10.0"
+     }
+    ]
+   },
+   {
+    "name": "com.github.zxing/zxing",
+    "SPDXID": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/zxing/zxing",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/zxing/zxing@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-maven-junit-junit-4.13.2-cd34e5",
+    "relatedSpdxElement": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-3ac58d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-junit-junit-4.13.2-5ac7e9",
+    "relatedSpdxElement": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-8ab5aa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-failureaccess-1.0.3-4bdaff",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-5be2d6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "relatedSpdxElement": "SPDXRef-maven-org.jspecify-jspecify-1.0.1-dcd280",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.errorprone-errorproneannotations-2.50.0-04b30d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.j2objc-j2objc-annotations-3.1-c6b81d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.zxing-javase-3.5.5-SNAPSHOT-b7e461",
+    "relatedSpdxElement": "SPDXRef-maven-org.jcommander-jcommander-1.85-62793b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.zxing-javase-3.5.5-SNAPSHOT-b7e461",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.jai-imageio-jai-imageio-core-1.4.0-dddc9d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.springframework-spring-core-7.0.9-ea3d13",
+    "relatedSpdxElement": "SPDXRef-maven-commons-logging-commons-logging-1.3.5-3d3d0b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-io.micrometer-micrometer-observation-1.16.7-6599fa",
+    "relatedSpdxElement": "SPDXRef-maven-io.micrometer-micrometer-commons-1.16.7-2c63ee",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.servlet-jakarta.servlet-api-6.0.0-7d364e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.servlet.jsp-jakarta.servlet.jsp-api-3.1.0-52846a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.el-jakarta.el-api-5.0.1-918926",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.servlet.jsp.jstl-jakarta.servlet.jsp.jstl-api-3.0.0-ea833d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.faces-jakarta.faces-api-4.0.1-6428ff",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.ws.rs-jakarta.ws.rs-api-3.1.0-d2d72e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.websocket-jakarta.websocket-api-2.1.0-3f23dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.websocket-jakarta.websocket-client-api-2.1.0-c4d658",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.json-jakarta.json-api-2.1.0-626a22",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.json.bind-jakarta.json.bind-api-3.0.0-c4de18",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-2.1.1-5313a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.ejb-jakarta.ejb-api-4.0.1-0f362b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.transaction-jakarta.transaction-api-2.0.1-6994fd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.persistence-jakarta.persistence-api-3.1.0-2b8763",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.validation-jakarta.validation-api-3.0.2-94e10c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.interceptor-jakarta.interceptor-api-2.1.0-977987",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.enterprise-jakarta.enterprise.cdi-api-4.0.1-0df4a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.enterprise-jakarta.enterprise.lang-model-4.0.1-90c60d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.inject-jakarta.inject-api-2.0.1-ba4e5c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.authentication-jakarta.authentication-api-3.0.0-b35915",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.security.enterprise-jakarta.security.enterprise-api-3.0.0-5c95b4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-junit-junit-4.13.2-016fa2",
+    "relatedSpdxElement": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-5d938d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.springframework-spring-test-7.0.9-c91d91",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-core-7.0.9-ea3d13",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.springframework-spring-web-7.0.9-ba8238",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-beans-7.0.9-5c19b6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.springframework-spring-web-7.0.9-ba8238",
+    "relatedSpdxElement": "SPDXRef-maven-io.micrometer-micrometer-observation-1.16.7-6599fa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-cd34e5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-org.jcommander-jcommander-1.85-f7f264",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.jai-imageio-jai-imageio-core-1.4.0-72a990",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-core-3.5.5-SNAPSHOT-f0b7f3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-5ac7e9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-android-34592a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-javase-3.5.5-SNAPSHOT-b7e461",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-core-3.5.5-SNAPSHOT-0efa92",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-jakarta.platform-jakarta.jakartaee-web-api-10.0.0-ac906f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-016fa2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-test-7.0.9-c91d91",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-web-7.0.9-ba8238",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.android-android-bf38f5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-c49553",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-core-3.3.3-1dfc63",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-gwt-maven-plugin-2.10.0-06a974",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-org.gwtproject-gwt-user-2.10.0-0a5552",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-5cce3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-autobuild-4..-a97fc9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-6..-a51a37",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.zxing-android-core-fef358",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-init-4..-4b59fc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-zxing-zxing-master-ddaa8a",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

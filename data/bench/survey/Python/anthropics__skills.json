@@ -1,0 +1,154 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.anthropics/skills",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/886eee65-7e64-40a7-a1b8-16ebf0a52510",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T12:55:29Z"
+  },
+  "packages": [
+   {
+    "name": "mcp",
+    "SPDXID": "SPDXRef-pypi-mcp-10d6d8",
+    "versionInfo": ">= 1.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mcp"
+     }
+    ]
+   },
+   {
+    "name": "anthropic",
+    "SPDXID": "SPDXRef-pypi-anthropic-360830",
+    "versionInfo": ">= 0.39.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/anthropic"
+     }
+    ]
+   },
+   {
+    "name": "numpy",
+    "SPDXID": "SPDXRef-pypi-numpy-de2c27",
+    "versionInfo": ">= 1.24.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/numpy"
+     }
+    ]
+   },
+   {
+    "name": "pillow",
+    "SPDXID": "SPDXRef-pypi-pillow-20093b",
+    "versionInfo": ">= 10.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pillow"
+     }
+    ]
+   },
+   {
+    "name": "imageio-ffmpeg",
+    "SPDXID": "SPDXRef-pypi-imageio-ffmpeg-1d37b5",
+    "versionInfo": ">= 0.4.9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/imageio-ffmpeg"
+     }
+    ]
+   },
+   {
+    "name": "imageio",
+    "SPDXID": "SPDXRef-pypi-imageio-dcce72",
+    "versionInfo": ">= 2.31.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/imageio"
+     }
+    ]
+   },
+   {
+    "name": "com.github.anthropics/skills",
+    "SPDXID": "SPDXRef-github-anthropics-skills-main-a05041",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/anthropics/skills",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/anthropics/skills@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relatedSpdxElement": "SPDXRef-pypi-numpy-de2c27",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relatedSpdxElement": "SPDXRef-pypi-pillow-20093b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relatedSpdxElement": "SPDXRef-pypi-imageio-ffmpeg-1d37b5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relatedSpdxElement": "SPDXRef-pypi-imageio-dcce72",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relatedSpdxElement": "SPDXRef-pypi-mcp-10d6d8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relatedSpdxElement": "SPDXRef-pypi-anthropic-360830",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-anthropics-skills-main-a05041",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

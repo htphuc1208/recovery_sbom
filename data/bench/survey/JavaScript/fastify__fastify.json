@@ -1,0 +1,1404 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.fastify/fastify",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/03f10f84-da08-4ebe-88dc-40c8f09bc577",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:43:49Z"
+  },
+  "packages": [
+   {
+    "name": "webpack-cli",
+    "SPDXID": "SPDXRef-npm-webpack-cli-4.7.2-071b52",
+    "versionInfo": "^4.7.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/webpack-cli@%5E4.7.2"
+     }
+    ]
+   },
+   {
+    "name": "webpack",
+    "SPDXID": "SPDXRef-npm-webpack-5.49.0-38a077",
+    "versionInfo": "^5.49.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/webpack@%5E5.49.0"
+     }
+    ]
+   },
+   {
+    "name": "markdownlint-cli2",
+    "SPDXID": "SPDXRef-npm-markdownlint-cli2-0.23.0-0d6286",
+    "versionInfo": "^0.23.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/markdownlint-cli2@%5E0.23.0"
+     }
+    ]
+   },
+   {
+    "name": "ajv-formats",
+    "SPDXID": "SPDXRef-npm-ajv-formats-3.0.1-a4cfd0",
+    "versionInfo": "^3.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/ajv-formats@%5E3.0.1"
+     }
+    ]
+   },
+   {
+    "name": "autocannon",
+    "SPDXID": "SPDXRef-npm-autocannon-8.0.0-f4e422",
+    "versionInfo": "^8.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/autocannon@%5E8.0.0"
+     }
+    ]
+   },
+   {
+    "name": "secure-json-parse",
+    "SPDXID": "SPDXRef-npm-secure-json-parse-4.0.0-f14f87",
+    "versionInfo": "^4.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/secure-json-parse@%5E4.0.0"
+     }
+    ]
+   },
+   {
+    "name": "cross-env",
+    "SPDXID": "SPDXRef-npm-cross-env-10.0.0-fd8e82",
+    "versionInfo": "^10.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/cross-env@%5E10.0.0"
+     }
+    ]
+   },
+   {
+    "name": "json-schema-to-ts",
+    "SPDXID": "SPDXRef-npm-json-schema-to-ts-3.0.1-1d50a2",
+    "versionInfo": "^3.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/json-schema-to-ts@%5E3.0.1"
+     }
+    ]
+   },
+   {
+    "name": "avvio",
+    "SPDXID": "SPDXRef-npm-avvio-9.0.0-3bd102",
+    "versionInfo": "^9.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/avvio@%5E9.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@stylistic/eslint-plugin-js",
+    "SPDXID": "SPDXRef-npm-stylistic-eslint-plugin-js-4.1.0-27b04f",
+    "versionInfo": "^4.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40stylistic/eslint-plugin-js@%5E4.1.0"
+     }
+    ]
+   },
+   {
+    "name": "typebox",
+    "SPDXID": "SPDXRef-npm-typebox-1.0.81-ebee46",
+    "versionInfo": "^1.0.81",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typebox@%5E1.0.81"
+     }
+    ]
+   },
+   {
+    "name": "process-warning",
+    "SPDXID": "SPDXRef-npm-process-warning-5.1.0-e989d6",
+    "versionInfo": "^5.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/process-warning@%5E5.1.0"
+     }
+    ]
+   },
+   {
+    "name": "find-my-way",
+    "SPDXID": "SPDXRef-npm-find-my-way-9.10.0-01d147",
+    "versionInfo": "^9.10.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/find-my-way@%5E9.10.0"
+     }
+    ]
+   },
+   {
+    "name": "@stylistic/eslint-plugin",
+    "SPDXID": "SPDXRef-npm-stylistic-eslint-plugin-5.1.0-8194e6",
+    "versionInfo": "^5.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40stylistic/eslint-plugin@%5E5.1.0"
+     }
+    ]
+   },
+   {
+    "name": "pino",
+    "SPDXID": "SPDXRef-npm-pino-9.14.010.1.0-dcb26b",
+    "versionInfo": "^9.14.0 || ^10.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/pino@%5E9.14.0%20%7C%7C%20%5E10.1.0"
+     }
+    ]
+   },
+   {
+    "name": "borp",
+    "SPDXID": "SPDXRef-npm-borp-1.0.0-df2ae2",
+    "versionInfo": "^1.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/borp@%5E1.0.0"
+     }
+    ]
+   },
+   {
+    "name": "fastify-tsconfig",
+    "SPDXID": "SPDXRef-npm-fastify-tsconfig-3.0.0-b227f1",
+    "versionInfo": "^3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/fastify-tsconfig@%5E3.0.0"
+     }
+    ]
+   },
+   {
+    "name": "fast-json-stringify",
+    "SPDXID": "SPDXRef-npm-fast-json-stringify-7.0.0-587f77",
+    "versionInfo": "^7.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/fast-json-stringify@%5E7.0.0"
+     }
+    ]
+   },
+   {
+    "name": "ajv-errors",
+    "SPDXID": "SPDXRef-npm-ajv-errors-3.0.0-465950",
+    "versionInfo": "^3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/ajv-errors@%5E3.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@fastify/error",
+    "SPDXID": "SPDXRef-npm-fastify-error-4.0.0-25362f",
+    "versionInfo": "^4.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40fastify/error@%5E4.0.0"
+     }
+    ]
+   },
+   {
+    "name": "JSONStream",
+    "SPDXID": "SPDXRef-npm-JSONStream-1.3.5-e8aeec",
+    "versionInfo": "^1.3.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/JSONStream@%5E1.3.5"
+     }
+    ]
+   },
+   {
+    "name": "proxyquire",
+    "SPDXID": "SPDXRef-npm-proxyquire-2.1.3-5fd02d",
+    "versionInfo": "^2.1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/proxyquire@%5E2.1.3"
+     }
+    ]
+   },
+   {
+    "name": "toad-cache",
+    "SPDXID": "SPDXRef-npm-toad-cache-3.7.0-bab864",
+    "versionInfo": "^3.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/toad-cache@%5E3.7.0"
+     }
+    ]
+   },
+   {
+    "name": "http-errors",
+    "SPDXID": "SPDXRef-npm-http-errors-2.0.0-2350e9",
+    "versionInfo": "^2.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/http-errors@%5E2.0.0"
+     }
+    ]
+   },
+   {
+    "name": "tstyche",
+    "SPDXID": "SPDXRef-npm-tstyche-7.0.0-e1d5e9",
+    "versionInfo": "^7.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/tstyche@%5E7.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/node",
+    "SPDXID": "SPDXRef-npm-types-node-26.0.1-ffa69b",
+    "versionInfo": "^26.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/node@%5E26.0.1"
+     }
+    ]
+   },
+   {
+    "name": "split2",
+    "SPDXID": "SPDXRef-npm-split2-4.2.0-672489",
+    "versionInfo": "^4.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "ISC",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/split2@%5E4.2.0"
+     }
+    ]
+   },
+   {
+    "name": "fast-json-body",
+    "SPDXID": "SPDXRef-npm-fast-json-body-1.1.0-bdc1b2",
+    "versionInfo": "^1.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/fast-json-body@%5E1.1.0"
+     }
+    ]
+   },
+   {
+    "name": "vary",
+    "SPDXID": "SPDXRef-npm-vary-1.1.2-33120a",
+    "versionInfo": "^1.1.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/vary@%5E1.1.2"
+     }
+    ]
+   },
+   {
+    "name": "semver",
+    "SPDXID": "SPDXRef-npm-semver-7.6.0-02228f",
+    "versionInfo": "^7.6.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "ISC",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/semver@%5E7.6.0"
+     }
+    ]
+   },
+   {
+    "name": "ajv-merge-patch",
+    "SPDXID": "SPDXRef-npm-ajv-merge-patch-5.0.1-eabad6",
+    "versionInfo": "^5.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/ajv-merge-patch@%5E5.0.1"
+     }
+    ]
+   },
+   {
+    "name": "light-my-request",
+    "SPDXID": "SPDXRef-npm-light-my-request-6.0.0-fbf054",
+    "versionInfo": "^6.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/light-my-request@%5E6.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@fastify/fast-json-stringify-compiler",
+    "SPDXID": "SPDXRef-npm-fastify-fast-json-stringify-compiler-5.0.0-63a1fd",
+    "versionInfo": "^5.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40fastify/fast-json-stringify-compiler@%5E5.0.0"
+     }
+    ]
+   },
+   {
+    "name": "neostandard",
+    "SPDXID": "SPDXRef-npm-neostandard-0.12.0-3009c0",
+    "versionInfo": "^0.12.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/neostandard@%5E0.12.0"
+     }
+    ]
+   },
+   {
+    "name": "h2url",
+    "SPDXID": "SPDXRef-npm-h2url-0.2.0-fdb523",
+    "versionInfo": "^0.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/h2url@%5E0.2.0"
+     }
+    ]
+   },
+   {
+    "name": "yup",
+    "SPDXID": "SPDXRef-npm-yup-1.4.0-a593f0",
+    "versionInfo": "^1.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/yup@%5E1.4.0"
+     }
+    ]
+   },
+   {
+    "name": "rfdc",
+    "SPDXID": "SPDXRef-npm-rfdc-1.3.1-a58789",
+    "versionInfo": "^1.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/rfdc@%5E1.3.1"
+     }
+    ]
+   },
+   {
+    "name": "fluent-json-schema",
+    "SPDXID": "SPDXRef-npm-fluent-json-schema-6.0.0-d90eb3",
+    "versionInfo": "^6.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/fluent-json-schema@%5E6.0.0"
+     }
+    ]
+   },
+   {
+    "name": "joi",
+    "SPDXID": "SPDXRef-npm-joi-18.0.1-f2c118",
+    "versionInfo": "^18.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/joi@%5E18.0.1"
+     }
+    ]
+   },
+   {
+    "name": "@fastify/ajv-compiler",
+    "SPDXID": "SPDXRef-npm-fastify-ajv-compiler-4.0.5-334235",
+    "versionInfo": "^4.0.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40fastify/ajv-compiler@%5E4.0.5"
+     }
+    ]
+   },
+   {
+    "name": "fastify-plugin",
+    "SPDXID": "SPDXRef-npm-fastify-plugin-6.0.0-cc1a06",
+    "versionInfo": "^6.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/fastify-plugin@%5E6.0.0"
+     }
+    ]
+   },
+   {
+    "name": "undici",
+    "SPDXID": "SPDXRef-npm-undici-8.0.0-cd069f",
+    "versionInfo": "^8.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/undici@%5E8.0.0"
+     }
+    ]
+   },
+   {
+    "name": "node-forge",
+    "SPDXID": "SPDXRef-npm-node-forge-1.3.1-97c465",
+    "versionInfo": "^1.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "(BSD-3-Clause OR GPL-2.0)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/node-forge@%5E1.3.1"
+     }
+    ]
+   },
+   {
+    "name": "ajv",
+    "SPDXID": "SPDXRef-npm-ajv-8.12.0-3ac0a1",
+    "versionInfo": "^8.12.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/ajv@%5E8.12.0"
+     }
+    ]
+   },
+   {
+    "name": "ajv-i18n",
+    "SPDXID": "SPDXRef-npm-ajv-i18n-4.2.0-cc8bed",
+    "versionInfo": "^4.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/ajv-i18n@%5E4.2.0"
+     }
+    ]
+   },
+   {
+    "name": "eslint",
+    "SPDXID": "SPDXRef-npm-eslint-9.0.0-023d19",
+    "versionInfo": "^9.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/eslint@%5E9.0.0"
+     }
+    ]
+   },
+   {
+    "name": "@jsumners/line-reporter",
+    "SPDXID": "SPDXRef-npm-jsumners-line-reporter-1.0.1-85402d",
+    "versionInfo": "^1.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BlueOak-1.0.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40jsumners/line-reporter@%5E1.0.1"
+     }
+    ]
+   },
+   {
+    "name": "@fastify/proxy-addr",
+    "SPDXID": "SPDXRef-npm-fastify-proxy-addr-5.0.0-5449ac",
+    "versionInfo": "^5.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40fastify/proxy-addr@%5E5.0.0"
+     }
+    ]
+   },
+   {
+    "name": "branch-comparer",
+    "SPDXID": "SPDXRef-npm-branch-comparer-1.1.0-4f62e0",
+    "versionInfo": "^1.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/branch-comparer@%5E1.1.0"
+     }
+    ]
+   },
+   {
+    "name": "abstract-logging",
+    "SPDXID": "SPDXRef-npm-abstract-logging-2.0.1-72ba02",
+    "versionInfo": "^2.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/abstract-logging@%5E2.0.1"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-6.0.2-7237c6",
+    "versionInfo": "~6.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@~6.0.2"
+     }
+    ]
+   },
+   {
+    "name": "concurrently",
+    "SPDXID": "SPDXRef-npm-concurrently-10.0.0-c57ac8",
+    "versionInfo": "^10.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/concurrently@%5E10.0.0"
+     }
+    ]
+   },
+   {
+    "name": "esbuild",
+    "SPDXID": "SPDXRef-npm-esbuild-0.28.1-b9248c",
+    "versionInfo": "^0.28.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/esbuild@%5E0.28.1"
+     }
+    ]
+   },
+   {
+    "name": "nearform-actions/github-action-test-compare",
+    "SPDXID": "SPDXRef-githubactions-nearform-actions-github-action-test-compare-d50bc37a05e736bb40db0eebc8fdad3e33ece136-a0cfa7",
+    "versionInfo": "d50bc37a05e736bb40db0eebc8fdad3e33ece136",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/nearform-actions/github-action-test-compare@d50bc37a05e736bb40db0eebc8fdad3e33ece136"
+     }
+    ]
+   },
+   {
+    "name": "nodesource/setup-nsolid",
+    "SPDXID": "SPDXRef-githubactions-nodesource-setup-nsolid-1ca68d2589d3d56ecd3881dfe6ffa87eeda9c939-adee7b",
+    "versionInfo": "1ca68d2589d3d56ecd3881dfe6ffa87eeda9c939",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/nodesource/setup-nsolid@1ca68d2589d3d56ecd3881dfe6ffa87eeda9c939"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0-a76c9f",
+    "versionInfo": "9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
+     }
+    ]
+   },
+   {
+    "name": "fastify/github-action-merge-dependabot",
+    "SPDXID": "SPDXRef-githubactions-fastify-github-action-merge-dependabot-73ec4cbb5e56df5591eae286972d5b2201ffe90f-e6374b",
+    "versionInfo": "73ec4cbb5e56df5591eae286972d5b2201ffe90f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/fastify/github-action-merge-dependabot@73ec4cbb5e56df5591eae286972d5b2201ffe90f"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-820762786026740c76f36085b0efc47a31fe5020-bf9025",
+    "versionInfo": "820762786026740c76f36085b0efc47a31fe5020",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@820762786026740c76f36085b0efc47a31fe5020"
+     }
+    ]
+   },
+   {
+    "name": "fastify/workflows/.github/workflows/nested-quality.yml",
+    "SPDXID": "SPDXRef-githubactions-fastifyworkflows.githubworkflows-nested-quality.yml-ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57-c9e6e4",
+    "versionInfo": "ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/fastify/workflows/.github/workflows/nested-quality.yml@ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "versionInfo": "3a2844b7e9c422d3c10d287c895573f7108da1b3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3"
+     }
+    ]
+   },
+   {
+    "name": "octokit/request-action",
+    "SPDXID": "SPDXRef-githubactions-octokit-request-action-b91aabaa861c777dcdb14e2387e30eddf04619ae-8e302d",
+    "versionInfo": "b91aabaa861c777dcdb14e2387e30eddf04619ae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/octokit/request-action@b91aabaa861c777dcdb14e2387e30eddf04619ae"
+     }
+    ]
+   },
+   {
+    "name": "xt0rted/markdownlint-problem-matcher",
+    "SPDXID": "SPDXRef-githubactions-xt0rted-markdownlint-problem-matcher-1a5fabfb577370cfdf5af944d418e4be3ea06f27-1cb5fb",
+    "versionInfo": "1a5fabfb577370cfdf5af944d418e4be3ea06f27",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/xt0rted/markdownlint-problem-matcher@1a5fabfb577370cfdf5af944d418e4be3ea06f27"
+     }
+    ]
+   },
+   {
+    "name": "tibdex/backport",
+    "SPDXID": "SPDXRef-githubactions-tibdex-backport-9565281eda0731b1d20c4025c43339fb0a23812e-8f733b",
+    "versionInfo": "9565281eda0731b1d20c4025c43339fb0a23812e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/tibdex/backport@9565281eda0731b1d20c4025c43339fb0a23812e"
+     }
+    ]
+   },
+   {
+    "name": "pnpm/action-setup",
+    "SPDXID": "SPDXRef-githubactions-pnpm-action-setup-26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a-0a25d7",
+    "versionInfo": "26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a"
+     }
+    ]
+   },
+   {
+    "name": "actions/labeler",
+    "SPDXID": "SPDXRef-githubactions-actions-labeler-bf12e9b00b37c5c0ca2b87b79b2daf7891dbda13-17017c",
+    "versionInfo": "bf12e9b00b37c5c0ca2b87b79b2daf7891dbda13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/labeler@bf12e9b00b37c5c0ca2b87b79b2daf7891dbda13"
+     }
+    ]
+   },
+   {
+    "name": "JustinBeckwith/linkinator-action",
+    "SPDXID": "SPDXRef-githubactions-JustinBeckwith-linkinator-action-7b6b0bc671f6264e1a8daa4488a5bd91ce61dcd4-f1063a",
+    "versionInfo": "7b6b0bc671f6264e1a8daa4488a5bd91ce61dcd4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/JustinBeckwith/linkinator-action@7b6b0bc671f6264e1a8daa4488a5bd91ce61dcd4"
+     }
+    ]
+   },
+   {
+    "name": "lycheeverse/lychee-action",
+    "SPDXID": "SPDXRef-githubactions-lycheeverse-lychee-action-8646ba30535128ac92d33dfc9133794bfdd9b411-51a7c3",
+    "versionInfo": "8646ba30535128ac92d33dfc9133794bfdd9b411",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411"
+     }
+    ]
+   },
+   {
+    "name": "fastify/workflows/.github/workflows/lock-threads.yml",
+    "SPDXID": "SPDXRef-githubactions-fastifyworkflows.githubworkflows-lock-threads.yml-ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57-5f0db9",
+    "versionInfo": "ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/fastify/workflows/.github/workflows/lock-threads.yml@ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57"
+     }
+    ]
+   },
+   {
+    "name": "fastify/action-pr-title",
+    "SPDXID": "SPDXRef-githubactions-fastify-action-pr-title-e8f2ff244ca28c4a1a00edbf2df39b082002e8aa-a31a8f",
+    "versionInfo": "e8f2ff244ca28c4a1a00edbf2df39b082002e8aa",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/fastify/action-pr-title@e8f2ff244ca28c4a1a00edbf2df39b082002e8aa"
+     }
+    ]
+   },
+   {
+    "name": "com.github.fastify/fastify",
+    "SPDXID": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/fastify/fastify",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/fastify/fastify@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-webpack-cli-4.7.2-071b52",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-webpack-5.49.0-38a077",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-markdownlint-cli2-0.23.0-0d6286",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-ajv-formats-3.0.1-a4cfd0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-autocannon-8.0.0-f4e422",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-secure-json-parse-4.0.0-f14f87",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-cross-env-10.0.0-fd8e82",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-json-schema-to-ts-3.0.1-1d50a2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-avvio-9.0.0-3bd102",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-stylistic-eslint-plugin-js-4.1.0-27b04f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-typebox-1.0.81-ebee46",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-process-warning-5.1.0-e989d6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-find-my-way-9.10.0-01d147",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-stylistic-eslint-plugin-5.1.0-8194e6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-pino-9.14.010.1.0-dcb26b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-borp-1.0.0-df2ae2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fastify-tsconfig-3.0.0-b227f1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fast-json-stringify-7.0.0-587f77",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-ajv-errors-3.0.0-465950",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fastify-error-4.0.0-25362f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-JSONStream-1.3.5-e8aeec",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-proxyquire-2.1.3-5fd02d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-toad-cache-3.7.0-bab864",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-http-errors-2.0.0-2350e9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-tstyche-7.0.0-e1d5e9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-types-node-26.0.1-ffa69b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-split2-4.2.0-672489",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fast-json-body-1.1.0-bdc1b2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-vary-1.1.2-33120a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-semver-7.6.0-02228f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-ajv-merge-patch-5.0.1-eabad6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-light-my-request-6.0.0-fbf054",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fastify-fast-json-stringify-compiler-5.0.0-63a1fd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-neostandard-0.12.0-3009c0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-h2url-0.2.0-fdb523",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-yup-1.4.0-a593f0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-rfdc-1.3.1-a58789",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fluent-json-schema-6.0.0-d90eb3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-joi-18.0.1-f2c118",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fastify-ajv-compiler-4.0.5-334235",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fastify-plugin-6.0.0-cc1a06",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-undici-8.0.0-cd069f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-node-forge-1.3.1-97c465",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-ajv-8.12.0-3ac0a1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-ajv-i18n-4.2.0-cc8bed",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-eslint-9.0.0-023d19",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-jsumners-line-reporter-1.0.1-85402d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-fastify-proxy-addr-5.0.0-5449ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-branch-comparer-1.1.0-4f62e0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-abstract-logging-2.0.1-72ba02",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-6.0.2-7237c6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-concurrently-10.0.0-c57ac8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-npm-esbuild-0.28.1-b9248c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-fastify-github-action-merge-dependabot-73ec4cbb5e56df5591eae286972d5b2201ffe90f-e6374b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-tibdex-backport-9565281eda0731b1d20c4025c43339fb0a23812e-8f733b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-fastifyworkflows.githubworkflows-lock-threads.yml-ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57-5f0db9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-nearform-actions-github-action-test-compare-d50bc37a05e736bb40db0eebc8fdad3e33ece136-a0cfa7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-fastifyworkflows.githubworkflows-nested-quality.yml-ef591e2186785d5ab36b9fe6a79c7ce2f1d94e57-c9e6e4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-xt0rted-markdownlint-problem-matcher-1a5fabfb577370cfdf5af944d418e4be3ea06f27-1cb5fb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-labeler-bf12e9b00b37c5c0ca2b87b79b2daf7891dbda13-17017c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-fastify-action-pr-title-e8f2ff244ca28c4a1a00edbf2df39b082002e8aa-a31a8f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-820762786026740c76f36085b0efc47a31fe5020-bf9025",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-octokit-request-action-b91aabaa861c777dcdb14e2387e30eddf04619ae-8e302d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-pnpm-action-setup-26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a-0a25d7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-JustinBeckwith-linkinator-action-7b6b0bc671f6264e1a8daa4488a5bd91ce61dcd4-f1063a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-lycheeverse-lychee-action-8646ba30535128ac92d33dfc9133794bfdd9b411-51a7c3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-nodesource-setup-nsolid-1ca68d2589d3d56ecd3881dfe6ffa87eeda9c939-adee7b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0-a76c9f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-fastify-fastify-main-a586d8",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

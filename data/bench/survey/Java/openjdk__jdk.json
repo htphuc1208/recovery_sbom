@@ -1,0 +1,1194 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.openjdk/jdk",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/001f1d20-7e01-4116-bcf7-3d94f7939be4",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:32:28Z"
+  },
+  "packages": [
+   {
+    "name": "org.netbeans.api:org-openide-dialogs",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-dialogs-53aff6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-dialogs"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Filter",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Filter-1.0-SNAPSHOT-382a81",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Filter@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.ibm.wala:com.ibm.wala.util",
+    "SPDXID": "SPDXRef-maven-com.ibm.wala-com.ibm.wala.util-78911d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.ibm.wala/com.ibm.wala.util"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-netbeans-api-visual",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-netbeans-api-visual-c51f30",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-netbeans-api-visual"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.xmlgraphics:batik-svggen",
+    "SPDXID": "SPDXRef-maven-org.apache.xmlgraphics-batik-svggen-6bf964",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.xmlgraphics/batik-svggen"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.xmlgraphics:batik-dom",
+    "SPDXID": "SPDXRef-maven-org.apache.xmlgraphics-batik-dom-4a1662",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.xmlgraphics/batik-dom"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-netbeans-spi-quicksearch",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-netbeans-spi-quicksearch-fd4245",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-netbeans-spi-quicksearch"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:HierarchicalLayout",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-HierarchicalLayout-1.0-SNAPSHOT-540a82",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/HierarchicalLayout@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:SelectionCoordinator",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-SelectionCoordinator-1.0-SNAPSHOT-924be9",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/SelectionCoordinator@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.github.librepdf:openpdf",
+    "SPDXID": "SPDXRef-maven-com.github.librepdf-openpdf-f3b691",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.github.librepdf/openpdf"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-core",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-core-1.36-62b7d2",
+    "versionInfo": "1.36",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2004-2021 Paul R. Holser, Jr, Copyright (c) 2005, 2013, Oracle and/or its affiliates, Copyright (c) 2005, 2020, Oracle and/or its affiliates, Copyright (c) 2014, 2014, Oracle and/or its affiliates, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-core@1.36"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.jmh:jmh-generator-annprocess",
+    "SPDXID": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-1.36-0a7ff4",
+    "versionInfo": "1.36",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2004-2021 Paul R. Holser, Jr, Copyright (c) 2005, 2014, Oracle and/or its affiliates, copyrighted by the Free Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.36"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-release-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-3.1.1-c53ddb",
+    "versionInfo": "3.1.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2024 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-release-plugin@3.1.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-shade-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-shade-plugin-3.6.1-c4ae8c",
+    "versionInfo": "3.6.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-shade-plugin@3.6.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.14.1-31ae9a",
+    "versionInfo": "3.14.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.14.1"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-27d5ce7f107fe9357f9df03efb73ab90386fccae-3998fe",
+    "versionInfo": "27d5ce7f107fe9357f9df03efb73ab90386fccae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-jar-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-8fc682",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-enforcer-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-ee243a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-netbeans-api-progress",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-netbeans-api-progress-db5f9a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-netbeans-api-progress"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-netbeans-api-progress-nb",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-netbeans-api-progress-nb-449b14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-netbeans-api-progress-nb"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-loaders",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-loaders-4f0fd3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-loaders"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Settings",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Settings-1.0-SNAPSHOT-b21287",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Settings@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-modules",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-modules-00c5bf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-modules"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-actions",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-actions-43b2c2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-actions"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Difference",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Difference-1.0-SNAPSHOT-08dd1d",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Difference@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:NetworkConnection",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-NetworkConnection-1.0-SNAPSHOT-2628c1",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/NetworkConnection@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:View",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-View-1.0-SNAPSHOT-c5d1cd",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/View@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-9d1546",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-filesystems",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-filesystems-b48102",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-filesystems"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Layout",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Layout-1.0-SNAPSHOT-7ffd7a",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Layout@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "org.openjdk.nashorn:nashorn-core",
+    "SPDXID": "SPDXRef-maven-org.openjdk.nashorn-nashorn-core-172bba",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.openjdk.nashorn/nashorn-core"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-awt",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-awt-ad8063",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-awt"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-netbeans-modules-options-api",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-netbeans-modules-options-api-5b5507",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-netbeans-modules-options-api"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-4.13.1-edb709",
+    "versionInfo": "4.13.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-release-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-2.5.3-f7166b",
+    "versionInfo": "2.5.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2015 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-release-plugin@2.5.3"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.7.0-eccabb",
+    "versionInfo": "3.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.7.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-shade-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-shade-plugin-3.1.0-4e4b8d",
+    "versionInfo": "3.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-shade-plugin@3.1.0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-surefire-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.0.0-M2-168a33",
+    "versionInfo": "3.0.0-M2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@3.0.0-M2"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-javadoc-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-3.0.0-M1-f98e1d",
+    "versionInfo": "3.0.0-M1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-1.1 AND Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-public-domain AND MIT",
+    "copyrightText": "Copyright 2004-2017 The Apache Software Foundation, Copyright 2005, a http://www.mycompany.com MyCompany, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin@3.0.0-M1"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:nbm-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-nbm-maven-plugin-34e75f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/nbm-maven-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-netbeans-modules-nbjunit",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-netbeans-modules-nbjunit-12d187",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-netbeans-modules-nbjunit"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.cluster:platform",
+    "SPDXID": "SPDXRef-maven-org.netbeans.cluster-platform-419d4b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.cluster/platform"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-surefire-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-2.12.2-33238d",
+    "versionInfo": "2.12.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2004-2012 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@2.12.2"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0-a76c9f",
+    "versionInfo": "9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-enforcer-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-3.4.1-85fd10",
+    "versionInfo": "3.4.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin@3.4.1"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-jar-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.3.0-d6962e",
+    "versionInfo": "3.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2022 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin@3.3.0"
+     }
+    ]
+   },
+   {
+    "name": "org.codehaus.mojo:nbm-maven-plugin",
+    "SPDXID": "SPDXRef-maven-org.codehaus.mojo-nbm-maven-plugin-3.7-f6880d",
+    "versionInfo": "3.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.codehaus.mojo/nbm-maven-plugin@3.7"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.12.1-9aecf2",
+    "versionInfo": "3.12.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2001-2023 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.12.1"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-util-ui",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-util-ui-b8021d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-util-ui"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-util-lookup",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-util-lookup-129bb0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-util-lookup"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-util",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-util-e74e93",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-util"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-nodes",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-nodes-1efeb5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-nodes"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-explorer",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-explorer-d4a99c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-explorer"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Util",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Util-1.0-SNAPSHOT-a9ff77",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Util@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "org.apache.maven.plugins:maven-compiler-plugin",
+    "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3f3acf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin"
+     }
+    ]
+   },
+   {
+    "name": "org.netbeans.api:org-openide-windows",
+    "SPDXID": "SPDXRef-maven-org.netbeans.api-org-openide-windows-9efbca",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.netbeans.api/org-openide-windows"
+     }
+    ]
+   },
+   {
+    "name": "net.java.dev.swing-layout:swing-layout",
+    "SPDXID": "SPDXRef-maven-net.java.dev.swing-layout-swing-layout-25b16d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/net.java.dev.swing-layout/swing-layout"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Data",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Data-1.0-SNAPSHOT-78cb91",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Data@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "com.sun.hotspot.igv:Graph",
+    "SPDXID": "SPDXRef-maven-com.sun.hotspot.igv-Graph-1.0-SNAPSHOT-f39467",
+    "versionInfo": "1.0-SNAPSHOT",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.sun.hotspot.igv/Graph@1.0-SNAPSHOT"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "versionInfo": "3a2844b7e9c422d3c10d287c895573f7108da1b3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a-ac548b",
+    "versionInfo": "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a"
+     }
+    ]
+   },
+   {
+    "name": "com.github.openjdk/jdk",
+    "SPDXID": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/openjdk/jdk",
+    "filesAnalyzed": false,
+    "licenseDeclared": "GPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/openjdk/jdk@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Util-1.0-SNAPSHOT-a9ff77",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-netbeans-spi-quicksearch-fd4245",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.cluster-platform-419d4b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.xmlgraphics-batik-svggen-6bf964",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-shade-plugin-3.6.1-c4ae8c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-8fc682",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-actions-43b2c2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-util-ui-b8021d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Data-1.0-SNAPSHOT-78cb91",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-HierarchicalLayout-1.0-SNAPSHOT-540a82",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-2.5.3-f7166b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3f3acf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-windows-9efbca",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-ee243a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-util-e74e93",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-modules-00c5bf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Layout-1.0-SNAPSHOT-7ffd7a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-awt-ad8063",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-netbeans-modules-options-api-5b5507",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-loaders-4f0fd3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Settings-1.0-SNAPSHOT-b21287",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.0.0-M2-168a33",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.3.0-d6962e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-nodes-1efeb5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-explorer-d4a99c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.ibm.wala-com.ibm.wala.util-78911d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-core-1.36-62b7d2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.14.1-31ae9a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Difference-1.0-SNAPSHOT-08dd1d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-NetworkConnection-1.0-SNAPSHOT-2628c1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.1-edb709",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-3.0.0-M1-f98e1d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-nbm-maven-plugin-34e75f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-3.4.1-85fd10",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Filter-1.0-SNAPSHOT-382a81",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-3.1.1-c53ddb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-View-1.0-SNAPSHOT-c5d1cd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-9d1546",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-net.java.dev.swing-layout-swing-layout-25b16d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-netbeans-api-visual-c51f30",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-netbeans-modules-nbjunit-12d187",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0-a76c9f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.12.1-9aecf2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-dialogs-53aff6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a-ac548b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.jmh-jmh-generator-annprocess-1.36-0a7ff4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-netbeans-api-progress-nb-449b14",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-util-lookup-129bb0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-Graph-1.0-SNAPSHOT-f39467",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.github.librepdf-openpdf-f3b691",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.openjdk.nashorn-nashorn-core-172bba",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-2.12.2-33238d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-openide-filesystems-b48102",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-shade-plugin-3.1.0-4e4b8d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.xmlgraphics-batik-dom-4a1662",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-27d5ce7f107fe9357f9df03efb73ab90386fccae-3998fe",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.netbeans.api-org-netbeans-api-progress-db5f9a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-nbm-maven-plugin-3.7-f6880d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-com.sun.hotspot.igv-SelectionCoordinator-1.0-SNAPSHOT-924be9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.7.0-eccabb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-openjdk-jdk-master-cc3985",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

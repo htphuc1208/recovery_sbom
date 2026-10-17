@@ -1,0 +1,726 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.hugohe3/ppt-master",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/35aff206-e0d0-46ca-a581-fe3f2560a036",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: dependabot"
+   ],
+   "created": "2026-11-12T13:12:15Z"
+  },
+  "packages": [
+   {
+    "name": "pymupdf",
+    "SPDXID": "SPDXRef-pypi-pymupdf-2422fb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pymupdf"
+     }
+    ]
+   },
+   {
+    "name": "google-genai",
+    "SPDXID": "SPDXRef-pypi-google-genai-4c12cf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/google-genai"
+     }
+    ]
+   },
+   {
+    "name": "markdownify",
+    "SPDXID": "SPDXRef-pypi-markdownify-6bf660",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/markdownify"
+     }
+    ]
+   },
+   {
+    "name": "uharfbuzz",
+    "SPDXID": "SPDXRef-pypi-uharfbuzz-8261c5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/uharfbuzz"
+     }
+    ]
+   },
+   {
+    "name": "curl-cffi",
+    "SPDXID": "SPDXRef-pypi-curl-cffi-750b7d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/curl-cffi"
+     }
+    ]
+   },
+   {
+    "name": "edge-tts",
+    "SPDXID": "SPDXRef-pypi-edge-tts-69539d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/edge-tts"
+     }
+    ]
+   },
+   {
+    "name": "pillow",
+    "SPDXID": "SPDXRef-pypi-pillow-268a21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pillow"
+     }
+    ]
+   },
+   {
+    "name": "flask",
+    "SPDXID": "SPDXRef-pypi-flask-414df2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/flask"
+     }
+    ]
+   },
+   {
+    "name": "skia-pathops",
+    "SPDXID": "SPDXRef-pypi-skia-pathops-3c01a7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/skia-pathops"
+     }
+    ]
+   },
+   {
+    "name": "xlsxwriter",
+    "SPDXID": "SPDXRef-pypi-xlsxwriter-210d50",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/xlsxwriter"
+     }
+    ]
+   },
+   {
+    "name": "python-pptx",
+    "SPDXID": "SPDXRef-pypi-python-pptx-9e0b93",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/python-pptx"
+     }
+    ]
+   },
+   {
+    "name": "beautifulsoup4",
+    "SPDXID": "SPDXRef-pypi-beautifulsoup4-db1043",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/beautifulsoup4"
+     }
+    ]
+   },
+   {
+    "name": "nbconvert",
+    "SPDXID": "SPDXRef-pypi-nbconvert-fbc3c2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/nbconvert"
+     }
+    ]
+   },
+   {
+    "name": "requests",
+    "SPDXID": "SPDXRef-pypi-requests-5c9dd1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/requests"
+     }
+    ]
+   },
+   {
+    "name": "ebooklib",
+    "SPDXID": "SPDXRef-pypi-ebooklib-9a2bb5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/ebooklib"
+     }
+    ]
+   },
+   {
+    "name": "pyyaml",
+    "SPDXID": "SPDXRef-pypi-pyyaml-864b86",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyyaml"
+     }
+    ]
+   },
+   {
+    "name": "openpyxl",
+    "SPDXID": "SPDXRef-pypi-openpyxl-c077e8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/openpyxl"
+     }
+    ]
+   },
+   {
+    "name": "mammoth",
+    "SPDXID": "SPDXRef-pypi-mammoth-645716",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mammoth"
+     }
+    ]
+   },
+   {
+    "name": "numpy",
+    "SPDXID": "SPDXRef-pypi-numpy-924e45",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/numpy"
+     }
+    ]
+   },
+   {
+    "name": "edge-tts",
+    "SPDXID": "SPDXRef-pypi-edge-tts-15de91",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/edge-tts"
+     }
+    ]
+   },
+   {
+    "name": "pyyaml",
+    "SPDXID": "SPDXRef-pypi-pyyaml-76737d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyyaml"
+     }
+    ]
+   },
+   {
+    "name": "skia-pathops",
+    "SPDXID": "SPDXRef-pypi-skia-pathops-43b77e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/skia-pathops"
+     }
+    ]
+   },
+   {
+    "name": "mammoth",
+    "SPDXID": "SPDXRef-pypi-mammoth-b7db9c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/mammoth"
+     }
+    ]
+   },
+   {
+    "name": "xlsxwriter",
+    "SPDXID": "SPDXRef-pypi-xlsxwriter-a7e522",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/xlsxwriter"
+     }
+    ]
+   },
+   {
+    "name": "flask",
+    "SPDXID": "SPDXRef-pypi-flask-4b0c7d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/flask"
+     }
+    ]
+   },
+   {
+    "name": "openpyxl",
+    "SPDXID": "SPDXRef-pypi-openpyxl-23f749",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/openpyxl"
+     }
+    ]
+   },
+   {
+    "name": "beautifulsoup4",
+    "SPDXID": "SPDXRef-pypi-beautifulsoup4-4a2612",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/beautifulsoup4"
+     }
+    ]
+   },
+   {
+    "name": "pymupdf",
+    "SPDXID": "SPDXRef-pypi-pymupdf-771de8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pymupdf"
+     }
+    ]
+   },
+   {
+    "name": "requests",
+    "SPDXID": "SPDXRef-pypi-requests-25a4a5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/requests"
+     }
+    ]
+   },
+   {
+    "name": "curl-cffi",
+    "SPDXID": "SPDXRef-pypi-curl-cffi-d5041f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/curl-cffi"
+     }
+    ]
+   },
+   {
+    "name": "google-genai",
+    "SPDXID": "SPDXRef-pypi-google-genai-88ca73",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/google-genai"
+     }
+    ]
+   },
+   {
+    "name": "numpy",
+    "SPDXID": "SPDXRef-pypi-numpy-af2ac6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/numpy"
+     }
+    ]
+   },
+   {
+    "name": "nbconvert",
+    "SPDXID": "SPDXRef-pypi-nbconvert-d04e4e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/nbconvert"
+     }
+    ]
+   },
+   {
+    "name": "ebooklib",
+    "SPDXID": "SPDXRef-pypi-ebooklib-c852ac",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/ebooklib"
+     }
+    ]
+   },
+   {
+    "name": "python-pptx",
+    "SPDXID": "SPDXRef-pypi-python-pptx-cd5890",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/python-pptx"
+     }
+    ]
+   },
+   {
+    "name": "markdownify",
+    "SPDXID": "SPDXRef-pypi-markdownify-316c77",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/markdownify"
+     }
+    ]
+   },
+   {
+    "name": "uharfbuzz",
+    "SPDXID": "SPDXRef-pypi-uharfbuzz-5c2561",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/uharfbuzz"
+     }
+    ]
+   },
+   {
+    "name": "pillow",
+    "SPDXID": "SPDXRef-pypi-pillow-f6c093",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pillow"
+     }
+    ]
+   },
+   {
+    "name": "com.github.hugohe3/ppt-master",
+    "SPDXID": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/hugohe3/ppt-master",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/hugohe3/ppt-master@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-pymupdf-2422fb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-google-genai-4c12cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-markdownify-6bf660",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-uharfbuzz-8261c5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-curl-cffi-750b7d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-edge-tts-69539d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-pillow-268a21",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-flask-414df2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-skia-pathops-3c01a7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-xlsxwriter-210d50",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-python-pptx-9e0b93",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-beautifulsoup4-db1043",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-nbconvert-fbc3c2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-requests-5c9dd1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-ebooklib-9a2bb5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-pyyaml-864b86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-openpyxl-c077e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-mammoth-645716",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-numpy-924e45",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-edge-tts-15de91",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-pyyaml-76737d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-skia-pathops-43b77e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-mammoth-b7db9c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-xlsxwriter-a7e522",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-flask-4b0c7d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-openpyxl-23f749",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-beautifulsoup4-4a2612",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-pymupdf-771de8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-requests-25a4a5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-curl-cffi-d5041f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-google-genai-88ca73",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-numpy-af2ac6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-nbconvert-d04e4e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-ebooklib-c852ac",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-python-pptx-cd5890",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-markdownify-316c77",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-uharfbuzz-5c2561",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relatedSpdxElement": "SPDXRef-pypi-pillow-f6c093",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-hugohe3-ppt-master-main-c5d02b",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

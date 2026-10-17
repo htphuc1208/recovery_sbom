@@ -1,0 +1,268 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.TeamNewPipe/NewPipe",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/7e88a6d5-b4cf-40ca-8e4f-dfab0cdda63c",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:17:44Z"
+  },
+  "packages": [
+   {
+    "name": "tcely/no-response",
+    "SPDXID": "SPDXRef-githubactions-tcely-no-response-0.2.2-7e6e1a",
+    "versionInfo": "0.2.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/tcely/no-response@0.2.2"
+     }
+    ]
+   },
+   {
+    "name": "TeamNewPipe/changed-lines-count-labeler",
+    "SPDXID": "SPDXRef-githubactions-TeamNewPipe-changed-lines-count-labeler-main-29a1d7",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/TeamNewPipe/changed-lines-count-labeler@main"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-6..-b6d641",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "korthout/backport-action",
+    "SPDXID": "SPDXRef-githubactions-korthout-backport-action-4..-523164",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/korthout/backport-action@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-5..-666a10",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "reactivecircus/android-emulator-runner",
+    "SPDXID": "SPDXRef-githubactions-reactivecircus-android-emulator-runner-2..-7a1fe4",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/reactivecircus/android-emulator-runner@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-5..-997470",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "gradle/actions/wrapper-validation",
+    "SPDXID": "SPDXRef-githubactions-gradleactions-wrapper-validation-6..-6a80f0",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/actions/wrapper-validation@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-6..-95d0cf",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-9..-8892dd",
+    "versionInfo": "9.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@9.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-8..-b34620",
+    "versionInfo": "8.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@8.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.github.TeamNewPipe/NewPipe",
+    "SPDXID": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "versionInfo": "dev",
+    "downloadLocation": "git+https://github.com/TeamNewPipe/NewPipe",
+    "filesAnalyzed": false,
+    "licenseDeclared": "GPL-3.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/TeamNewPipe/NewPipe@dev"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-5..-997470",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradleactions-wrapper-validation-6..-6a80f0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-9..-8892dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-TeamNewPipe-changed-lines-count-labeler-main-29a1d7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-korthout-backport-action-4..-523164",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-reactivecircus-android-emulator-runner-2..-7a1fe4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-6..-95d0cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-8..-b34620",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-tcely-no-response-0.2.2-7e6e1a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-6..-b6d641",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-5..-666a10",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-TeamNewPipe-NewPipe-dev-3753f7",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

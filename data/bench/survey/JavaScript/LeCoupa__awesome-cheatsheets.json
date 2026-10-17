@@ -1,0 +1,40 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.LeCoupa/awesome-cheatsheets",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/1e0dc5ab-73fc-4964-8eb4-7f09c6c05082",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:36:27Z"
+  },
+  "packages": [
+   {
+    "name": "com.github.LeCoupa/awesome-cheatsheets",
+    "SPDXID": "SPDXRef-github-LeCoupa-awesome-cheatsheets-master-297714",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/LeCoupa/awesome-cheatsheets",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/LeCoupa/awesome-cheatsheets@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-LeCoupa-awesome-cheatsheets-master-297714",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

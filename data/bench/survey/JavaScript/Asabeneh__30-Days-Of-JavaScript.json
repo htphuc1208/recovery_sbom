@@ -1,0 +1,39 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.Asabeneh/30-Days-Of-JavaScript",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/66091ba5-6d9e-4f19-9001-58790fa8df4d",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:35:25Z"
+  },
+  "packages": [
+   {
+    "name": "com.github.Asabeneh/30-Days-Of-JavaScript",
+    "SPDXID": "SPDXRef-github-Asabeneh-30-Days-Of-JavaScript-master-40ab83",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/Asabeneh/30-Days-Of-JavaScript",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/Asabeneh/30-Days-Of-JavaScript@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-Asabeneh-30-Days-Of-JavaScript-master-40ab83",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

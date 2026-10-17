@@ -1,0 +1,211 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.skylot/jadx",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/0f27ec5a-76e1-4432-896c-5c29665fbbfa",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:15:37Z"
+  },
+  "packages": [
+   {
+    "name": "actions/setup-dotnet",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-dotnet-6..-8fcac4",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-dotnet@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-6..-a51a37",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "gradle/actions/setup-gradle",
+    "SPDXID": "SPDXRef-githubactions-gradleactions-setup-gradle-6..-613509",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/actions/setup-gradle@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "oracle-actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-oracle-actions-setup-java-1..-2a31bd",
+    "versionInfo": "1.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/oracle-actions/setup-java@1.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-8..-8b2394",
+    "versionInfo": "8.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@8.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "softprops/action-gh-release",
+    "SPDXID": "SPDXRef-githubactions-softprops-action-gh-release-3..-e8e2e8",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/softprops/action-gh-release@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-9..-8892dd",
+    "versionInfo": "9.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@9.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.github.skylot/jadx",
+    "SPDXID": "SPDXRef-github-skylot-jadx-master-133313",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/skylot/jadx",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/skylot/jadx@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-9..-8892dd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-6..-a51a37",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradleactions-setup-gradle-6..-613509",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-8..-8b2394",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-softprops-action-gh-release-3..-e8e2e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-dotnet-6..-8fcac4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-skylot-jadx-master-133313",
+    "relatedSpdxElement": "SPDXRef-githubactions-oracle-actions-setup-java-1..-2a31bd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-skylot-jadx-master-133313",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.anthropics/claude-code",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/6fcda16e-c724-4d1f-8423-e5171d30dba4",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:48:01Z"
+  },
+  "packages": [
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "oven-sh/setup-bun",
+    "SPDXID": "SPDXRef-githubactions-oven-sh-setup-bun-0c5077e51419868618aeaa5fe8019c62421857d6-ea9ebd",
+    "versionInfo": "0c5077e51419868618aeaa5fe8019c62421857d6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6"
+     }
+    ]
+   },
+   {
+    "name": "anthropics/claude-code-action",
+    "SPDXID": "SPDXRef-githubactions-anthropics-claude-code-action-1..-c3fec8",
+    "versionInfo": "1.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/anthropics/claude-code-action@1.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-11bd71901bbe5b1630ceea73d27597364c9af683-b59d0c",
+    "versionInfo": "11bd71901bbe5b1630ceea73d27597364c9af683",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-7..-aad4ce",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.github.anthropics/claude-code",
+    "SPDXID": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/anthropics/claude-code",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/anthropics/claude-code@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "relatedSpdxElement": "SPDXRef-githubactions-oven-sh-setup-bun-0c5077e51419868618aeaa5fe8019c62421857d6-ea9ebd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "relatedSpdxElement": "SPDXRef-githubactions-anthropics-claude-code-action-1..-c3fec8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-11bd71901bbe5b1630ceea73d27597364c9af683-b59d0c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-7..-aad4ce",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-anthropics-claude-code-main-37ec3a",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

@@ -1,0 +1,3329 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.huggingface/transformers",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/15f1b9af-157e-4b70-bc70-cc5dd61f5759",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: dependabot"
+   ],
+   "created": "2026-11-12T12:56:32Z"
+  },
+  "packages": [
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-28bcce",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "amdsmi",
+    "SPDXID": "SPDXRef-pypi-amdsmi-4b08c8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/amdsmi"
+     }
+    ]
+   },
+   {
+    "name": "huggingface-hub",
+    "SPDXID": "SPDXRef-pypi-huggingface-hub-fcbea9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/huggingface-hub"
+     }
+    ]
+   },
+   {
+    "name": "nvidia-ml-py",
+    "SPDXID": "SPDXRef-pypi-nvidia-ml-py-685538",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/nvidia-ml-py"
+     }
+    ]
+   },
+   {
+    "name": "psutil",
+    "SPDXID": "SPDXRef-pypi-psutil-be9b3b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/psutil"
+     }
+    ]
+   },
+   {
+    "name": "pyzes",
+    "SPDXID": "SPDXRef-pypi-pyzes-f18034",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pyzes"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-a92ff4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "numpy",
+    "SPDXID": "SPDXRef-pypi-numpy-e0ebda",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/numpy"
+     }
+    ]
+   },
+   {
+    "name": "pillow",
+    "SPDXID": "SPDXRef-pypi-pillow-6c1169",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pillow"
+     }
+    ]
+   },
+   {
+    "name": "git-python",
+    "SPDXID": "SPDXRef-pypi-git-python-1.0.3-a16476",
+    "versionInfo": "1.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "NONE",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/git-python@1.0.3"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-0b390c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "tensorboard",
+    "SPDXID": "SPDXRef-pypi-tensorboard-9838f8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/tensorboard"
+     }
+    ]
+   },
+   {
+    "name": "sacrebleu",
+    "SPDXID": "SPDXRef-pypi-sacrebleu-58f6f4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sacrebleu"
+     }
+    ]
+   },
+   {
+    "name": "conllu",
+    "SPDXID": "SPDXRef-pypi-conllu-bba57a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/conllu"
+     }
+    ]
+   },
+   {
+    "name": "torchcodec",
+    "SPDXID": "SPDXRef-pypi-torchcodec-f3bd09",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchcodec"
+     }
+    ]
+   },
+   {
+    "name": "jiwer",
+    "SPDXID": "SPDXRef-pypi-jiwer-5359e3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/jiwer"
+     }
+    ]
+   },
+   {
+    "name": "timm",
+    "SPDXID": "SPDXRef-pypi-timm-512e60",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/timm"
+     }
+    ]
+   },
+   {
+    "name": "torchaudio",
+    "SPDXID": "SPDXRef-pypi-torchaudio-54a3e7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchaudio"
+     }
+    ]
+   },
+   {
+    "name": "rouge-score",
+    "SPDXID": "SPDXRef-pypi-rouge-score-0b6eb2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/rouge-score"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-b4e508",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torchvision",
+    "SPDXID": "SPDXRef-pypi-torchvision-d27f42",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchvision"
+     }
+    ]
+   },
+   {
+    "name": "psutil",
+    "SPDXID": "SPDXRef-pypi-psutil-a5ed22",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/psutil"
+     }
+    ]
+   },
+   {
+    "name": "torchmetrics",
+    "SPDXID": "SPDXRef-pypi-torchmetrics-e89ad4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchmetrics"
+     }
+    ]
+   },
+   {
+    "name": "pytest",
+    "SPDXID": "SPDXRef-pypi-pytest-bcedef",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pytest"
+     }
+    ]
+   },
+   {
+    "name": "librosa",
+    "SPDXID": "SPDXRef-pypi-librosa-ad60b7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/librosa"
+     }
+    ]
+   },
+   {
+    "name": "pycocotools",
+    "SPDXID": "SPDXRef-pypi-pycocotools-7fd499",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pycocotools"
+     }
+    ]
+   },
+   {
+    "name": "streamlit",
+    "SPDXID": "SPDXRef-pypi-streamlit-8da280",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/streamlit"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-9ed354",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "scikit-learn",
+    "SPDXID": "SPDXRef-pypi-scikit-learn-00e848",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/scikit-learn"
+     }
+    ]
+   },
+   {
+    "name": "nltk",
+    "SPDXID": "SPDXRef-pypi-nltk-caf593",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/nltk"
+     }
+    ]
+   },
+   {
+    "name": "seqeval",
+    "SPDXID": "SPDXRef-pypi-seqeval-897460",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/seqeval"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-9a383e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "tensorflow-datasets",
+    "SPDXID": "SPDXRef-pypi-tensorflow-datasets-81ddd1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/tensorflow-datasets"
+     }
+    ]
+   },
+   {
+    "name": "albumentations",
+    "SPDXID": "SPDXRef-pypi-albumentations-db2537",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/albumentations"
+     }
+    ]
+   },
+   {
+    "name": "pandas",
+    "SPDXID": "SPDXRef-pypi-pandas-abedab",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pandas"
+     }
+    ]
+   },
+   {
+    "name": "faiss-cpu",
+    "SPDXID": "SPDXRef-pypi-faiss-cpu-325278",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/faiss-cpu"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-af213f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-7521d1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "matplotlib",
+    "SPDXID": "SPDXRef-pypi-matplotlib-c2f7e7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/matplotlib"
+     }
+    ]
+   },
+   {
+    "name": "elasticsearch",
+    "SPDXID": "SPDXRef-pypi-elasticsearch-af50da",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/elasticsearch"
+     }
+    ]
+   },
+   {
+    "name": "fire",
+    "SPDXID": "SPDXRef-pypi-fire-17eadc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/fire"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-6299b8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torchaudio",
+    "SPDXID": "SPDXRef-pypi-torchaudio-94fda6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchaudio"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-127797",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-52b3cb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "librosa",
+    "SPDXID": "SPDXRef-pypi-librosa-43d756",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/librosa"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-bc2858",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-430649",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torchvision",
+    "SPDXID": "SPDXRef-pypi-torchvision-723c14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchvision"
+     }
+    ]
+   },
+   {
+    "name": "scikit-learn",
+    "SPDXID": "SPDXRef-pypi-scikit-learn-41f717",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/scikit-learn"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-44c469",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torchvision",
+    "SPDXID": "SPDXRef-pypi-torchvision-ebe0fb",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchvision"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-72d2f0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-122d20",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-63804e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-958141",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-b9768a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torchvision",
+    "SPDXID": "SPDXRef-pypi-torchvision-324df9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchvision"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-f55734",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "pycocotools",
+    "SPDXID": "SPDXRef-pypi-pycocotools-859262",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pycocotools"
+     }
+    ]
+   },
+   {
+    "name": "timm",
+    "SPDXID": "SPDXRef-pypi-timm-e6395a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/timm"
+     }
+    ]
+   },
+   {
+    "name": "torchmetrics",
+    "SPDXID": "SPDXRef-pypi-torchmetrics-012d27",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchmetrics"
+     }
+    ]
+   },
+   {
+    "name": "albumentations",
+    "SPDXID": "SPDXRef-pypi-albumentations-bf8864",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/albumentations"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-3a5102",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-ea31fe",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-edf4f2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "scikit-learn",
+    "SPDXID": "SPDXRef-pypi-scikit-learn-7510ae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/scikit-learn"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-ecd095",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-6a7e35",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-0f352f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-4ce903",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-97bbe7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-968e72",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-7dd0ad",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-7c10ee",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "timm",
+    "SPDXID": "SPDXRef-pypi-timm-c9f1d4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/timm"
+     }
+    ]
+   },
+   {
+    "name": "torchmetrics",
+    "SPDXID": "SPDXRef-pypi-torchmetrics-ea8076",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchmetrics"
+     }
+    ]
+   },
+   {
+    "name": "albumentations",
+    "SPDXID": "SPDXRef-pypi-albumentations-be6a7a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/albumentations"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-3c8f4d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "pycocotools",
+    "SPDXID": "SPDXRef-pypi-pycocotools-7a21c6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pycocotools"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-15fc15",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-b994a4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-894af0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-c90475",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-25ef33",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "pillow",
+    "SPDXID": "SPDXRef-pypi-pillow-3a6057",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/pillow"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-3816aa",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-fbf44e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "albumentations",
+    "SPDXID": "SPDXRef-pypi-albumentations-220a1e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/albumentations"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-e1f33d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "torchaudio",
+    "SPDXID": "SPDXRef-pypi-torchaudio-bf0b50",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchaudio"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-3d4e7d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-941d73",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "librosa",
+    "SPDXID": "SPDXRef-pypi-librosa-0dabb9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/librosa"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-77bdff",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-f9d44d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "torchaudio",
+    "SPDXID": "SPDXRef-pypi-torchaudio-2eceec",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torchaudio"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-6619dc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-4a03e8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "jiwer",
+    "SPDXID": "SPDXRef-pypi-jiwer-af22de",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/jiwer"
+     }
+    ]
+   },
+   {
+    "name": "librosa",
+    "SPDXID": "SPDXRef-pypi-librosa-92537d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/librosa"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-8ee411",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-cdc192",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "py7zr",
+    "SPDXID": "SPDXRef-pypi-py7zr-8c16b8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/py7zr"
+     }
+    ]
+   },
+   {
+    "name": "rouge-score",
+    "SPDXID": "SPDXRef-pypi-rouge-score-af548f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/rouge-score"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-1b6021",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-e3b86d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-9e3bc7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "nltk",
+    "SPDXID": "SPDXRef-pypi-nltk-d06a65",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/nltk"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-a94368",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "scikit-learn",
+    "SPDXID": "SPDXRef-pypi-scikit-learn-11c639",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/scikit-learn"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-18d9c5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-dc7aa7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-5e1c72",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "scipy",
+    "SPDXID": "SPDXRef-pypi-scipy-16f190",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/scipy"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-e9923e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-4a2763",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-80f21b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-ee25f7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-09a86a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-1bcfae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-0d1381",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-039f4e",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "seqeval",
+    "SPDXID": "SPDXRef-pypi-seqeval-c2c385",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/seqeval"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-a3132d",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-1c09cf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-f3bb57",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "evaluate",
+    "SPDXID": "SPDXRef-pypi-evaluate-1d2d04",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/evaluate"
+     }
+    ]
+   },
+   {
+    "name": "protobuf",
+    "SPDXID": "SPDXRef-pypi-protobuf-fcfb96",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/protobuf"
+     }
+    ]
+   },
+   {
+    "name": "sentencepiece",
+    "SPDXID": "SPDXRef-pypi-sentencepiece-1a9161",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sentencepiece"
+     }
+    ]
+   },
+   {
+    "name": "torch",
+    "SPDXID": "SPDXRef-pypi-torch-8a73bc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/torch"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-d87c6f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets"
+     }
+    ]
+   },
+   {
+    "name": "py7zr",
+    "SPDXID": "SPDXRef-pypi-py7zr-9e6751",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/py7zr"
+     }
+    ]
+   },
+   {
+    "name": "sacrebleu",
+    "SPDXID": "SPDXRef-pypi-sacrebleu-ecfa79",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/sacrebleu"
+     }
+    ]
+   },
+   {
+    "name": "accelerate",
+    "SPDXID": "SPDXRef-pypi-accelerate-ed153f",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/accelerate"
+     }
+    ]
+   },
+   {
+    "name": "datasets",
+    "SPDXID": "SPDXRef-pypi-datasets-1.8.0-509fef",
+    "versionInfo": "1.8.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/datasets@1.8.0"
+     }
+    ]
+   },
+   {
+    "name": "transformers-ci",
+    "SPDXID": "SPDXRef-pypi-transformers-ci-8d2772",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/transformers-ci"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacesecurity-workflows.githubworkflows-codeql-reusable.yml-a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68-f518f4",
+    "versionInfo": "a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/security-workflows/.github/workflows/codeql-reusable.yml@a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68"
+     }
+    ]
+   },
+   {
+    "name": "peakoss/anti-slop",
+    "SPDXID": "SPDXRef-githubactions-peakoss-anti-slop-57858eead489d08b255fab2af45a506c2ca6eab2-380d29",
+    "versionInfo": "57858eead489d08b255fab2af45a506c2ca6eab2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/peakoss/anti-slop@57858eead489d08b255fab2af45a506c2ca6eab2"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/hf-workflows/.github/actions/post-slack",
+    "SPDXID": "SPDXRef-githubactions-huggingfacehf-workflows.githubactions-post-slack-63657f571a92cc9759159442936061c51d6d9ae4-57d9fa",
+    "versionInfo": "63657f571a92cc9759159442936061c51d6d9ae4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/hf-workflows/.github/actions/post-slack@63657f571a92cc9759159442936061c51d6d9ae4"
+     }
+    ]
+   },
+   {
+    "name": "docker/build-push-action",
+    "SPDXID": "SPDXRef-githubactions-docker-build-push-action-f9f3042f7e2789586610d6e8b85c8f03e5195baf-09dea0",
+    "versionInfo": "f9f3042f7e2789586610d6e8b85c8f03e5195baf",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/build-push-action@f9f3042f7e2789586610d6e8b85c8f03e5195baf"
+     }
+    ]
+   },
+   {
+    "name": "conda-incubator/setup-miniconda",
+    "SPDXID": "SPDXRef-githubactions-conda-incubator-setup-miniconda-8ee1f361103df19b6f8c8655fd3967a8ecb162d5-286951",
+    "versionInfo": "8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-11d5960a326750d5838078e36cf38b85af677262-1a15b5",
+    "versionInfo": "11d5960a326750d5838078e36cf38b85af677262",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@11d5960a326750d5838078e36cf38b85af677262"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacedoc-builder.githubworkflows-buildmaindocumentation.yml-9b0e5b334b65d006b59e0b1a022a33122f7e12aa-616d9f",
+    "versionInfo": "9b0e5b334b65d006b59e0b1a022a33122f7e12aa",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/doc-builder/.github/workflows/build_main_documentation.yml@9b0e5b334b65d006b59e0b1a022a33122f7e12aa"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-python",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-python-a309ff8b426b58ec0e2a45f0f869d46889d02405-7887df",
+    "versionInfo": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a-ac548b",
+    "versionInfo": "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-27d5ce7f107fe9357f9df03efb73ab90386fccae-3998fe",
+    "versionInfo": "27d5ce7f107fe9357f9df03efb73ab90386fccae",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-de0fac2e4500dabe0009e67214ff5f5447ce83dd-3ac792",
+    "versionInfo": "de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd"
+     }
+    ]
+   },
+   {
+    "name": "slackapi/slack-github-action",
+    "SPDXID": "SPDXRef-githubactions-slackapi-slack-github-action-6c661ce58804a1a20f6dc5fbee7f0381b469e001-8833c7",
+    "versionInfo": "6c661ce58804a1a20f6dc5fbee7f0381b469e001",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c-ebeef9",
+    "versionInfo": "3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c"
+     }
+    ]
+   },
+   {
+    "name": "actions/github-script",
+    "SPDXID": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "versionInfo": "3a2844b7e9c422d3c10d287c895573f7108da1b3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/transformers-ci/.github/workflows/daily-ci_reusable.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-daily-cireusable.yml-main-3efe6f",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/transformers-ci/.github/workflows/daily-ci_reusable.yml@main"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/tailscale-action",
+    "SPDXID": "SPDXRef-githubactions-huggingface-tailscale-action-9d1a67c46875a956cf2d1975473da978a970a2a9-bcb247",
+    "versionInfo": "9d1a67c46875a956cf2d1975473da978a970a2a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/tailscale-action@9d1a67c46875a956cf2d1975473da978a970a2a9"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/security-workflows/.github/workflows/permissions-advisor-reusable.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacesecurity-workflows.githubworkflows-permissions-advisor-reusable.yml-a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68-9d878c",
+    "versionInfo": "a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/security-workflows/.github/workflows/permissions-advisor-reusable.yml@a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled_arc_scale_set.yaml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersamdcischeduledarcscaleset.yaml-main-757231",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled_arc_scale_set.yaml@main"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/hf-workflows/.github/actions/post-slack",
+    "SPDXID": "SPDXRef-githubactions-huggingfacehf-workflows.githubactions-post-slack-a88e7fa2eaee28de5a4d6142381b1fb792349b67-357ff7",
+    "versionInfo": "a88e7fa2eaee28de5a4d6142381b1fb792349b67",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/hf-workflows/.github/actions/post-slack@a88e7fa2eaee28de5a4d6142381b1fb792349b67"
+     }
+    ]
+   },
+   {
+    "name": "docker/login-action",
+    "SPDXID": "SPDXRef-githubactions-docker-login-action-650006c6eb7dba73a995cc03b0b2d7f5ca915bee-5fbd2c",
+    "versionInfo": "650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee"
+     }
+    ]
+   },
+   {
+    "name": "docker/setup-buildx-action",
+    "SPDXID": "SPDXRef-githubactions-docker-setup-buildx-action-d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5-962694",
+    "versionInfo": "d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5"
+     }
+    ]
+   },
+   {
+    "name": "peter-evans/create-or-update-comment",
+    "SPDXID": "SPDXRef-githubactions-peter-evans-create-or-update-comment-1-358a64",
+    "versionInfo": "1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/peter-evans/create-or-update-comment@1"
+     }
+    ]
+   },
+   {
+    "name": "peter-evans/find-comment",
+    "SPDXID": "SPDXRef-githubactions-peter-evans-find-comment-1-c00767",
+    "versionInfo": "1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/peter-evans/find-comment@1"
+     }
+    ]
+   },
+   {
+    "name": "thollander/actions-comment-pull-request",
+    "SPDXID": "SPDXRef-githubactions-thollander-actions-comment-pull-request-1-d6f04d",
+    "versionInfo": "1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/thollander/actions-comment-pull-request@1"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-2-ce10eb",
+    "versionInfo": "2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@2"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache",
+    "SPDXID": "SPDXRef-githubactions-actions-cache-2-3a8697",
+    "versionInfo": "2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache@2"
+     }
+    ]
+   },
+   {
+    "name": "slackapi/slack-github-action",
+    "SPDXID": "SPDXRef-githubactions-slackapi-slack-github-action-45a88b9581bfab2566dc881e2cd66d334e621e2c-7428b2",
+    "versionInfo": "45a88b9581bfab2566dc881e2cd66d334e621e2c",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/slackapi/slack-github-action@45a88b9581bfab2566dc881e2cd66d334e621e2c"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/transformers-ci/.github/workflows/pr-ci_dynamic_caller_example.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-pr-cidynamiccallerexample.yml-main-137182",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/transformers-ci/.github/workflows/pr-ci_dynamic_caller_example.yml@main"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/transformers-ci/.github/workflows/pr-ci-security-gate.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-pr-ci-security-gate.yml-main-8430e1",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/transformers-ci/.github/workflows/pr-ci-security-gate.yml@main"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-d3f86a106a0bac45b974a628896c90dbdf5c8093-e6bc56",
+    "versionInfo": "d3f86a106a0bac45b974a628896c90dbdf5c8093",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "versionInfo": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled_arc_scale_set.yaml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersamdcischeduledarcscaleset.yaml-50acccfe9afb8927b9b74ed7e750f2b0d3991b62-2acf76",
+    "versionInfo": "50acccfe9afb8927b9b74ed7e750f2b0d3991b62",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled_arc_scale_set.yaml@50acccfe9afb8927b9b74ed7e750f2b0d3991b62"
+     }
+    ]
+   },
+   {
+    "name": "ydshieh/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-ydshieh-download-artifact-034d574170fc2fbcc74842d25304666dad52f1ad-43ce45",
+    "versionInfo": "034d574170fc2fbcc74842d25304666dad52f1ad",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/ydshieh/download-artifact@034d574170fc2fbcc74842d25304666dad52f1ad"
+     }
+    ]
+   },
+   {
+    "name": "trufflesecurity/trufflehog",
+    "SPDXID": "SPDXRef-githubactions-trufflesecurity-trufflehog-d411fff7b8879a62509f3fa98c07f247ac089a51-f13cba",
+    "versionInfo": "d411fff7b8879a62509f3fa98c07f247ac089a51",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/trufflesecurity/trufflehog@d411fff7b8879a62509f3fa98c07f247ac089a51"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacedoc-builder.githubworkflows-uploadprdocumentation.yml-9b0e5b334b65d006b59e0b1a022a33122f7e12aa-57a98d",
+    "versionInfo": "9b0e5b334b65d006b59e0b1a022a33122f7e12aa",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9b0e5b334b65d006b59e0b1a022a33122f7e12aa"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/transformers-ci/.github/workflows/docs-check.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-docs-check.yml-main-ebdb2a",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/transformers-ci/.github/workflows/docs-check.yml@main"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/transformers-ci/.github/workflows/integration-failure-triage.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-integration-failure-triage.yml-main-e6bfbf",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/transformers-ci/.github/workflows/integration-failure-triage.yml@main"
+     }
+    ]
+   },
+   {
+    "name": "pypa/gh-action-pypi-publish",
+    "SPDXID": "SPDXRef-githubactions-pypa-gh-action-pypi-publish-cef221092ed1bacb1cc03d23a2d87d1d172e277b-3863e2",
+    "versionInfo": "cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/hf-workflows/.github/workflows/transformers_intel_xpu_ci_scheduled.yaml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersintelxpucischeduled.yaml-main-2fef07",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/hf-workflows/.github/workflows/transformers_intel_xpu_ci_scheduled.yaml@main"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/transformers-ci/.github/workflows/serge-verify-slow.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-serge-verify-slow.yml-main-cb5d2e",
+    "versionInfo": "main",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/transformers-ci/.github/workflows/serge-verify-slow.yml@main"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-python",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-python-a26af69be951a213d495a4c3e4e4022e16d87065-3d8305",
+    "versionInfo": "a26af69be951a213d495a4c3e4e4022e16d87065",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacedoc-builder.githubworkflows-buildprdocumentation.yml-9b0e5b334b65d006b59e0b1a022a33122f7e12aa-877dc5",
+    "versionInfo": "9b0e5b334b65d006b59e0b1a022a33122f7e12aa",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@9b0e5b334b65d006b59e0b1a022a33122f7e12aa"
+     }
+    ]
+   },
+   {
+    "name": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled.yaml",
+    "SPDXID": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersamdcischeduled.yaml-63657f571a92cc9759159442936061c51d6d9ae4-9d5147",
+    "versionInfo": "63657f571a92cc9759159442936061c51d6d9ae4",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled.yaml@63657f571a92cc9759159442936061c51d6d9ae4"
+     }
+    ]
+   },
+   {
+    "name": "com.github.huggingface/transformers",
+    "SPDXID": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/huggingface/transformers",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/huggingface/transformers@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-28bcce",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-amdsmi-4b08c8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-huggingface-hub-fcbea9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-nvidia-ml-py-685538",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-psutil-be9b3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pyzes-f18034",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-a92ff4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-numpy-e0ebda",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pillow-6c1169",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-git-python-1.0.3-a16476",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-0b390c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-tensorboard-9838f8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sacrebleu-58f6f4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-conllu-bba57a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchcodec-f3bd09",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-jiwer-5359e3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-timm-512e60",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchaudio-54a3e7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-rouge-score-0b6eb2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-b4e508",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchvision-d27f42",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-psutil-a5ed22",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchmetrics-e89ad4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pytest-bcedef",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-librosa-ad60b7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pycocotools-7fd499",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-streamlit-8da280",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-9ed354",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-scikit-learn-00e848",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-nltk-caf593",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-seqeval-897460",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-9a383e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-tensorflow-datasets-81ddd1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-albumentations-db2537",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pandas-abedab",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-faiss-cpu-325278",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-af213f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-7521d1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-matplotlib-c2f7e7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-elasticsearch-af50da",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-fire-17eadc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-6299b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchaudio-94fda6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-127797",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-52b3cb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-librosa-43d756",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-bc2858",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-430649",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchvision-723c14",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-scikit-learn-41f717",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-44c469",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchvision-ebe0fb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-72d2f0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-122d20",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-63804e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-958141",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-b9768a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchvision-324df9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-f55734",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pycocotools-859262",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-timm-e6395a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchmetrics-012d27",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-albumentations-bf8864",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-3a5102",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-ea31fe",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-edf4f2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-scikit-learn-7510ae",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-ecd095",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-6a7e35",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-0f352f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-4ce903",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-97bbe7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-968e72",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-7dd0ad",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-7c10ee",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-timm-c9f1d4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchmetrics-ea8076",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-albumentations-be6a7a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-3c8f4d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pycocotools-7a21c6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-15fc15",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-b994a4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-894af0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-c90475",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-25ef33",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-pillow-3a6057",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-3816aa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-fbf44e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-albumentations-220a1e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-e1f33d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchaudio-bf0b50",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-3d4e7d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-941d73",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-librosa-0dabb9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-77bdff",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-f9d44d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torchaudio-2eceec",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-6619dc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-4a03e8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-jiwer-af22de",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-librosa-92537d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-8ee411",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-cdc192",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-py7zr-8c16b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-rouge-score-af548f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-1b6021",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-e3b86d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-9e3bc7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-nltk-d06a65",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-a94368",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-scikit-learn-11c639",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-18d9c5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-dc7aa7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-5e1c72",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-scipy-16f190",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-e9923e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-4a2763",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-80f21b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-ee25f7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-09a86a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-1bcfae",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-0d1381",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-039f4e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-seqeval-c2c385",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-a3132d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-1c09cf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-f3bb57",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-evaluate-1d2d04",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-protobuf-fcfb96",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sentencepiece-1a9161",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-torch-8a73bc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-d87c6f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-py7zr-9e6751",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-sacrebleu-ecfa79",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-accelerate-ed153f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-datasets-1.8.0-509fef",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-pypi-transformers-ci-8d2772",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-serge-verify-slow.yml-main-cb5d2e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersamdcischeduled.yaml-63657f571a92cc9759159442936061c51d6d9ae4-9d5147",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacesecurity-workflows.githubworkflows-codeql-reusable.yml-a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68-f518f4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacedoc-builder.githubworkflows-buildmaindocumentation.yml-9b0e5b334b65d006b59e0b1a022a33122f7e12aa-616d9f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-daily-cireusable.yml-main-3efe6f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersamdcischeduledarcscaleset.yaml-main-757231",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-peter-evans-create-or-update-comment-1-358a64",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacedoc-builder.githubworkflows-uploadprdocumentation.yml-9b0e5b334b65d006b59e0b1a022a33122f7e12aa-57a98d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c-ebeef9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-peakoss-anti-slop-57858eead489d08b255fab2af45a506c2ca6eab2-380d29",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-build-push-action-f9f3042f7e2789586610d6e8b85c8f03e5195baf-09dea0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-python-a309ff8b426b58ec0e2a45f0f869d46889d02405-7887df",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a-ac548b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-27d5ce7f107fe9357f9df03efb73ab90386fccae-3998fe",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-thollander-actions-comment-pull-request-1-d6f04d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-2-3a8697",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-2-ce10eb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-ydshieh-download-artifact-034d574170fc2fbcc74842d25304666dad52f1ad-43ce45",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-python-a26af69be951a213d495a4c3e4e4022e16d87065-3d8305",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-conda-incubator-setup-miniconda-8ee1f361103df19b6f8c8655fd3967a8ecb162d5-286951",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacehf-workflows.githubactions-post-slack-a88e7fa2eaee28de5a4d6142381b1fb792349b67-357ff7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-peter-evans-find-comment-1-c00767",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-trufflesecurity-trufflehog-d411fff7b8879a62509f3fa98c07f247ac089a51-f13cba",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacedoc-builder.githubworkflows-buildprdocumentation.yml-9b0e5b334b65d006b59e0b1a022a33122f7e12aa-877dc5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingface-tailscale-action-9d1a67c46875a956cf2d1975473da978a970a2a9-bcb247",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacesecurity-workflows.githubworkflows-permissions-advisor-reusable.yml-a2b4c9b1d4f9afbb9f24b80ae7e4382f5bb51a68-9d878c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-setup-buildx-action-d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5-962694",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-slackapi-slack-github-action-45a88b9581bfab2566dc881e2cd66d334e621e2c-7428b2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-pr-cidynamiccallerexample.yml-main-137182",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-integration-failure-triage.yml-main-e6bfbf",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-github-script-3a2844b7e9c422d3c10d287c895573f7108da1b3-2dfe94",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-docker-login-action-650006c6eb7dba73a995cc03b0b2d7f5ca915bee-5fbd2c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-pr-ci-security-gate.yml-main-8430e1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-pypa-gh-action-pypi-publish-cef221092ed1bacb1cc03d23a2d87d1d172e277b-3863e2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-de0fac2e4500dabe0009e67214ff5f5447ce83dd-3ac792",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-d3f86a106a0bac45b974a628896c90dbdf5c8093-e6bc56",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersamdcischeduledarcscaleset.yaml-50acccfe9afb8927b9b74ed7e750f2b0d3991b62-2acf76",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-slackapi-slack-github-action-6c661ce58804a1a20f6dc5fbee7f0381b469e001-8833c7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacehf-workflows.githubactions-post-slack-63657f571a92cc9759159442936061c51d6d9ae4-57d9fa",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-11d5960a326750d5838078e36cf38b85af677262-1a15b5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacetransformers-ci.githubworkflows-docs-check.yml-main-ebdb2a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relatedSpdxElement": "SPDXRef-githubactions-huggingfacehf-workflows.githubworkflows-transformersintelxpucischeduled.yaml-main-2fef07",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-huggingface-transformers-main-460a53",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

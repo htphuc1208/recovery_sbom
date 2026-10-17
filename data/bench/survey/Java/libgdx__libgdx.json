@@ -1,0 +1,211 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.libgdx/libgdx",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/132dd44d-8553-48f7-8a7f-240843b1bcc6",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:30:22Z"
+  },
+  "packages": [
+   {
+    "name": "actions/labeler",
+    "SPDXID": "SPDXRef-githubactions-actions-labeler-5..-0fb8c7",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/labeler@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "crazy-max/ghaction-import-gpg",
+    "SPDXID": "SPDXRef-githubactions-crazy-max-ghaction-import-gpg-1c6a9e9d3594f2d743f1b1dd7669ab0dfdffa922-cf9707",
+    "versionInfo": "1c6a9e9d3594f2d743f1b1dd7669ab0dfdffa922",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/crazy-max/ghaction-import-gpg@1c6a9e9d3594f2d743f1b1dd7669ab0dfdffa922"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-4..-2c6cf8",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/download-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-download-artifact-4..-958748",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/download-artifact@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-2..-794539",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-3..-4b2e10",
+    "versionInfo": "3.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@3.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "gradle/gradle-build-action",
+    "SPDXID": "SPDXRef-githubactions-gradle-gradle-build-action-2..-d0914b",
+    "versionInfo": "2.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/gradle-build-action@2.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "ad-m/github-push-action",
+    "SPDXID": "SPDXRef-githubactions-ad-m-github-push-action-8407731efefc0d8f72af254c74276b7a90be36e1-161f86",
+    "versionInfo": "8407731efefc0d8f72af254c74276b7a90be36e1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/ad-m/github-push-action@8407731efefc0d8f72af254c74276b7a90be36e1"
+     }
+    ]
+   },
+   {
+    "name": "gradle/actions/wrapper-validation",
+    "SPDXID": "SPDXRef-githubactions-gradleactions-wrapper-validation-748248ddd2a24f49513d8f472f81c3a07d4d50e1-9579b2",
+    "versionInfo": "748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/actions/wrapper-validation@748248ddd2a24f49513d8f472f81c3a07d4d50e1"
+     }
+    ]
+   },
+   {
+    "name": "com.github.libgdx/libgdx",
+    "SPDXID": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/libgdx/libgdx",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/libgdx/libgdx@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-labeler-5..-0fb8c7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-4..-2c6cf8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-2..-794539",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-crazy-max-ghaction-import-gpg-1c6a9e9d3594f2d743f1b1dd7669ab0dfdffa922-cf9707",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-download-artifact-4..-958748",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-3..-4b2e10",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradle-gradle-build-action-2..-d0914b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-ad-m-github-push-action-8407731efefc0d8f72af254c74276b7a90be36e1-161f86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradleactions-wrapper-validation-748248ddd2a24f49513d8f472f81c3a07d4d50e1-9579b2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-libgdx-libgdx-master-90fca6",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.MisterBooo/LeetCodeAnimation",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/fd8e5c25-a291-4989-8897-021c0a482a7a",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: dependabot"
+   ],
+   "created": "2026-11-12T14:13:32Z"
+  },
+  "packages": [
+   {
+    "name": "fire",
+    "SPDXID": "SPDXRef-pypi-fire-d11c2a",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:pypi/fire"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-4..-0bb21e",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.github.MisterBooo/LeetCodeAnimation",
+    "SPDXID": "SPDXRef-github-MisterBooo-LeetCodeAnimation-master-a922d4",
+    "versionInfo": "master",
+    "downloadLocation": "git+https://github.com/MisterBooo/LeetCodeAnimation",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/MisterBooo/LeetCodeAnimation@master"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-MisterBooo-LeetCodeAnimation-master-a922d4",
+    "relatedSpdxElement": "SPDXRef-pypi-fire-d11c2a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-MisterBooo-LeetCodeAnimation-master-a922d4",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-MisterBooo-LeetCodeAnimation-master-a922d4",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-4..-0bb21e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-MisterBooo-LeetCodeAnimation-master-a922d4",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

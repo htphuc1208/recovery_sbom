@@ -1,0 +1,1020 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.asgeirtj/system_prompts_leaks",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/59612d11-6899-46a7-90ad-4e212d7a5671",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:15:24Z"
+  },
+  "packages": [
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-5.6.3-1544ed",
+    "versionInfo": "5.6.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) by W3C, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang). Disclaimers",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@5.6.3"
+     }
+    ]
+   },
+   {
+    "name": "drizzle-orm",
+    "SPDXID": "SPDXRef-npm-drizzle-orm-0.45.2-62effb",
+    "versionInfo": "0.45.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/drizzle-orm@0.45.2"
+     }
+    ]
+   },
+   {
+    "name": "@babel/parser",
+    "SPDXID": "SPDXRef-npm-babel-parser-7.25.0-67e819",
+    "versionInfo": "^7.25.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40babel/parser@%5E7.25.0"
+     }
+    ]
+   },
+   {
+    "name": "@babel/traverse",
+    "SPDXID": "SPDXRef-npm-babel-traverse-7.25.0-3fbfc4",
+    "versionInfo": "^7.25.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40babel/traverse@%5E7.25.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/babel__generator",
+    "SPDXID": "SPDXRef-npm-types-babelgenerator-7.6.8-6ac182",
+    "versionInfo": "^7.6.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/babel__generator@%5E7.6.8"
+     }
+    ]
+   },
+   {
+    "name": "@types/babel__traverse",
+    "SPDXID": "SPDXRef-npm-types-babeltraverse-7.20.6-0eece2",
+    "versionInfo": "^7.20.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/babel__traverse@%5E7.20.6"
+     }
+    ]
+   },
+   {
+    "name": "@babel/types",
+    "SPDXID": "SPDXRef-npm-babel-types-7.25.0-edd527",
+    "versionInfo": "^7.25.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40babel/types@%5E7.25.0"
+     }
+    ]
+   },
+   {
+    "name": "@babel/generator",
+    "SPDXID": "SPDXRef-npm-babel-generator-7.25.0-9bb078",
+    "versionInfo": "^7.25.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40babel/generator@%5E7.25.0"
+     }
+    ]
+   },
+   {
+    "name": "react",
+    "SPDXID": "SPDXRef-npm-react-19.2.5-d135b7",
+    "versionInfo": "19.2.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Meta Platforms, Inc. and affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react@19.2.5"
+     }
+    ]
+   },
+   {
+    "name": "react-dom",
+    "SPDXID": "SPDXRef-npm-react-dom-19.2.5-606a66",
+    "versionInfo": "19.2.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2011 Gary Court, Copyright (c) Meta Platforms, Inc. and affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react-dom@19.2.5"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-5.6.3-2ce098",
+    "versionInfo": "5.6.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) by W3C, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang). Disclaimers",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@5.6.3"
+     }
+    ]
+   },
+   {
+    "name": "@types/react",
+    "SPDXID": "SPDXRef-npm-types-react-19.2.14-7fc4b8",
+    "versionInfo": "19.2.14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react@19.2.14"
+     }
+    ]
+   },
+   {
+    "name": "@types/react-dom",
+    "SPDXID": "SPDXRef-npm-types-react-dom-19.2.3-f98629",
+    "versionInfo": "19.2.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react-dom@19.2.3"
+     }
+    ]
+   },
+   {
+    "name": "zod",
+    "SPDXID": "SPDXRef-npm-zod-4.4.3-e4bb8a",
+    "versionInfo": "4.4.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2025 Colin McDonnell",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/zod@4.4.3"
+     }
+    ]
+   },
+   {
+    "name": "@tanstack/react-query",
+    "SPDXID": "SPDXRef-npm-tanstack-react-query-5.100.10-20fc4d",
+    "versionInfo": "5.100.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40tanstack/react-query@5.100.10"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-5.6.3-d6c482",
+    "versionInfo": "5.6.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) by W3C, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang). Disclaimers",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@5.6.3"
+     }
+    ]
+   },
+   {
+    "name": "@libsql/client",
+    "SPDXID": "SPDXRef-npm-libsql-client-0.14.0-bc16e9",
+    "versionInfo": "0.14.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40libsql/client@0.14.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/bun",
+    "SPDXID": "SPDXRef-npm-types-bun-latest-ba27a3",
+    "versionInfo": "latest",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/bun@latest"
+     }
+    ]
+   },
+   {
+    "name": "pdfjs-dist",
+    "SPDXID": "SPDXRef-npm-pdfjs-dist-5.4.624-971e35",
+    "versionInfo": "5.4.624",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) 2014-2025 Denis Pushkarev, Copyright (c) 1998-2007 Marti Maria, Copyright (c) 2001-2003, David Janssens, Copyright (c) 2002-2003, Yannick Verschueren, Copyright (c) 2002-2014, Copyright (c) 2002-2014, Professor Benoit Macq, Copyright (c) 2003-2009, Francois-Olivier Devaux, Copyright (c) 2003-2014, Antonin Descampe, Copyright (c) 2005, Herve Drolon, FreeImage Team, Copyright (c) 2007 Red Hat, Inc., Copyright (c) 2009-2024 Mozilla Corporation, copyright (c) 2010 Google Corporation, Copyright (c) 2011-2012, Centre National d'Etudes Spatiales, Copyright (c) 2012 Red Hat, Inc., copyright (c) 2014-2025 Denis Pushkarev, Copyright (c) 2024, Mozilla Foundation, Copyright (c) 2025, Mozilla Foundation, Copyright 1990-2009 Adobe Systems Incorporated, Copyright 1996-2003 Glyph & Cog, LLC, Copyright 2012 Mozilla Foundation, Copyright 2013 Mozilla Foundation, Copyright 2014 Mozilla Foundation, Copyright 2014 Opera Software ASA, Copyright 2014 PDFium Authors, Copyright 2014 The PDFium Authors, Copyright 2015 Mozilla Foundation, Copyright 2016 Mozilla Foundation, Copyright 2017 Mozilla Foundation, Copyright 2018 Mozilla Foundation, Copyright 2019 Mozilla Foundation, Copyright 2020 Mozilla Foundation, Copyright 2021 Mozilla Foundation, Copyright 2022 Mozilla Foundation, Copyright 2023 Mozilla Foundation, Copyright 2024 Mozilla Foundation, Copyright 2025 Mozilla Foundation, Copyright 2026 Mozilla Foundation, copyright xA9 2014-2025 Denis Pushkarev, France Copyright (c) 2012, CS Systemes d'Information, France, RCopyright 1990-2009 Adobe Systems Incorporated, WCopyright (c) 2007 Red Hat, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/pdfjs-dist@5.4.624"
+     }
+    ]
+   },
+   {
+    "name": "@types/react",
+    "SPDXID": "SPDXRef-npm-types-react-19.2.14-1033cd",
+    "versionInfo": "19.2.14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react@19.2.14"
+     }
+    ]
+   },
+   {
+    "name": "react",
+    "SPDXID": "SPDXRef-npm-react-19.2.5-35138f",
+    "versionInfo": "19.2.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Meta Platforms, Inc. and affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react@19.2.5"
+     }
+    ]
+   },
+   {
+    "name": "drizzle-orm",
+    "SPDXID": "SPDXRef-npm-drizzle-orm-0.45.2-241edd",
+    "versionInfo": "0.45.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/drizzle-orm@0.45.2"
+     }
+    ]
+   },
+   {
+    "name": "bun-plugin-tailwind",
+    "SPDXID": "SPDXRef-npm-bun-plugin-tailwind-0.0.15-140447",
+    "versionInfo": "0.0.15",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/bun-plugin-tailwind@0.0.15"
+     }
+    ]
+   },
+   {
+    "name": "@libsql/client",
+    "SPDXID": "SPDXRef-npm-libsql-client-0.14.0-64edd4",
+    "versionInfo": "0.14.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40libsql/client@0.14.0"
+     }
+    ]
+   },
+   {
+    "name": "drizzle-orm",
+    "SPDXID": "SPDXRef-npm-drizzle-orm-0.45.2-c453ab",
+    "versionInfo": "0.45.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/drizzle-orm@0.45.2"
+     }
+    ]
+   },
+   {
+    "name": "playwright",
+    "SPDXID": "SPDXRef-npm-playwright-1.55.1-ad920d",
+    "versionInfo": "1.55.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) 2011 Gary Court, Copyright (c) 2009-2011, Mozilla Foundation and contributors, Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2010 Sencha Inc., Copyright (c) 2011 Alexander Shtuchkin, Copyright (c) 2011 LearnBoost, Copyright (c) 2011 TJ Holowaychuk, Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>, Copyright (c) 2011-2017 whitequark <whitequark@whitequark.org>, Copyright (c) 2011-2022 Isaac Z. Schlueter, Ben Noordhuis, and Contributors, Copyright (c) 2012 TJ Holowaychuk, Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2012-2013 TJ Holowaychuk, Copyright (c) 2012-2014 by various contributors, Copyright (c) 2012-2014 Federico Romero, Copyright (c) 2012-2014 Isaac Z. Schlueter, Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>, Copyright (c) 2012-2014 TJ Holowaychuk, Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2012-2018 Aseem Kishore, and others, Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker, Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com), Copyright (c) 2012-2024 LearnBoost <tj@learnboost.com> and other contributors, Copyright (c) 2013 James Halliday, Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2013 Raynos, Copyright (c) 2013 Roman Shtylman, Copyright (c) 2013 Troy Goode <troygoode@gmail.com>, Copyright (c) 2013-2014 Jonathan Ong, Copyright (c) 2013-2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>, Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com), Copyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2014 Evan Wallace, Copyright (c) 2014 Forbes Lindesay, Copyright (c) 2014 Jonathan Ong, Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>, Copyright (c) 2014 Jonathan Ong me@jongleberry.com, Copyright (c) 2014-2015 Douglas Christopher Wilson, Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2014-2016 Douglas Christopher Wilson, Copyright (c) 2014-2016, Jon Schlinkert, Copyright (c) 2014-2017 Douglas Christopher Wilson, Copyright (c) 2014-2017 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2014-2017, Jon Schlinkert, Copyright (c) 2014-2018 Douglas Christopher Wilson, Copyright (c) 2014-2018, Jon Schlinkert, Copyright (c) 2014-2022 Douglas Christopher Wilson, Copyright (c) 2014-2022 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2014-present Sebastian McKenzie and other contributors, Copyright (c) 2014-present, Facebook, Inc., Copyright (c) 2014-present, Jon Schlinkert, Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell, Copyright (c) 2014, Nathan LaFreniere and other contributors (https://github.com/ljharb/qs/graphs/contributors), Copyright (c) 2015 Andreas Lubbe, Copyright (c) 2015 Dmitry Ivanov, Copyright (c) 2015 Douglas Christopher Wilson, Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2015 Jed Watson, Copyright (c) 2015 Jed Watson <jed.watson@me.com>, Copyright (c) 2015 Tiancheng Timothy Gu, Copyright (c) 2015-2016 Douglas Christopher Wilson doug@somethingdoug.com, Copyright (c) 2015-2017 Evgeny Poberezkin, Copyright (c) 2015-2022 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2015-present, Brian Woodward, Copyright (c) 2015-present, Jon Schlinkert, Copyright (c) 2015, 2019 Elan Shanker, Copyright (c) 2015, Wes Todd, Copyright (c) 2016 Douglas Christopher Wilson, Copyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com, Copyright (c) 2016 Jordan Harband, Copyright (c) 2016 Thomas Watson Steen, Copyright (c) 2016-2017 Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) 2016-2022 Isaac Z. Schlueter <i@izs.me> , James Talmage <james@talmage.io> (github.com/jamestalmage), and Contributors, Copyright (c) 2016-present, Jon Schlinkert, Copyright (c) 2016, 2018 Linus Unneback, Copyright (c) 2017 by Marijn Haverbeke <marijn@haverbeke.berlin> and others, Copyright (c) 2017 Evgeny Poberezkin, Copyright (c) 2017 Hunter Loftis <hunter@hunterloftis.com>, Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy), Copyright (c) 2017-2023 Haydn Paterson (sinclair) <haydn.developer@gmail.com>, Copyright (c) 2017-present, Jon Schlinkert, Copyright (c) 2018 Made With MOXY Lda, Copyright (c) 2018 Nikita Skovoroda <chalkerx@gmail.com>, Copyright (c) 2018-2021 Josh Junon, Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com), Copyright (c) 2019 Jordan Harband, Copyright (c) 2019 Permission, Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com), Copyright (c) 2020 Jordan Harband, Copyright (c) 2020 Vercel, Inc., Copyright (c) 2020, Stefan Terdell, Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov, Copyright (c) 2022 Jordan Harband, Copyright (c) 2024 Anthropic, PBC, Copyright (c) 2024 ECMAScript Shims, Copyright (c) 2024 Jordan Harband, Copyright (c) 2025 Colin McDonnell, Copyright (c) 2025 Espen Hovlandsdal <espen@hovlandsdal.com>, Copyright (c) 2025 Jordan Harband, Copyright (c) Douglas Christopher Wilson <doug@somethingdoug.com>, Copyright (c) EventSource GitHub, Copyright (c) Facebook, Inc. and its affiliates, Copyright (c) Feross Aboukhadijeh, Copyright (c) Isaac Z. Schlueter, Copyright (c) Isaac Z. Schlueter and Contributors, Copyright (c) Jonathan Ong <me@jongleberry.com>, Copyright (c) Jordan Harband and contributors, Copyright (c) Kevin Martensson <kevinmartensson@gmail.com>, Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com), Copyright (c) Matteo Collina and Undici contributors, Copyright (c) Meta Platforms, Inc. and affiliates, Copyright (c) Microsoft Corporation, Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com), Copyright 2011 Gary Court, Copyright 2013 Thorsten Lorenz, Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors, Copyright 2018 Kilian Valkhof, Copyright 2018 Logan Smyth <loganfsmyth@gmail.com>, Copyright 2019 Justin Ridgewell <jridgewell@google.com>, Copyright 2022 Andrey Sitnik <andrey@sitnik.ru> and other contributors, Copyright 2023 Nathan Friedly, Vedant K, Copyright 2024 Justin Ridgewell <justin@ridgewell.name>, Copyright Mathias Bynens <https://mathiasbynens.be/>, Portions Copyright (c) Microsoft Corporation, Portions Copyright 2017 Google Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/playwright@1.55.1"
+     }
+    ]
+   },
+   {
+    "name": "zod",
+    "SPDXID": "SPDXRef-npm-zod-4.4.3-d8e346",
+    "versionInfo": "4.4.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2025 Colin McDonnell",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/zod@4.4.3"
+     }
+    ]
+   },
+   {
+    "name": "@types/bun",
+    "SPDXID": "SPDXRef-npm-types-bun-latest-2a9dfd",
+    "versionInfo": "latest",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/bun@latest"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-5.6.3-e15940",
+    "versionInfo": "5.6.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) by W3C, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang). Disclaimers",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@5.6.3"
+     }
+    ]
+   },
+   {
+    "name": "@meta/maps",
+    "SPDXID": "SPDXRef-npm-meta-maps-1.4.0-607197",
+    "versionInfo": "^1.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40meta/maps@%5E1.4.0"
+     }
+    ]
+   },
+   {
+    "name": "react",
+    "SPDXID": "SPDXRef-npm-react-19.2.0-c7dcf4",
+    "versionInfo": "^19.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react@%5E19.2.0"
+     }
+    ]
+   },
+   {
+    "name": "react-dom",
+    "SPDXID": "SPDXRef-npm-react-dom-19.2.0-d85603",
+    "versionInfo": "^19.2.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react-dom@%5E19.2.0"
+     }
+    ]
+   },
+   {
+    "name": "@types/react",
+    "SPDXID": "SPDXRef-npm-types-react-19-8fc51f",
+    "versionInfo": "^19",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react@%5E19"
+     }
+    ]
+   },
+   {
+    "name": "@types/react-dom",
+    "SPDXID": "SPDXRef-npm-types-react-dom-19-dcee76",
+    "versionInfo": "^19",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react-dom@%5E19"
+     }
+    ]
+   },
+   {
+    "name": "esbuild",
+    "SPDXID": "SPDXRef-npm-esbuild-0.28.2-74bbe5",
+    "versionInfo": "^0.28.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/esbuild@%5E0.28.2"
+     }
+    ]
+   },
+   {
+    "name": "@hatch/space-sdk",
+    "SPDXID": "SPDXRef-npm-hatch-space-sdk-SPACESDKDEPENDENCY-db2949",
+    "versionInfo": "__SPACE_SDK_DEPENDENCY__",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40hatch/space-sdk@__SPACE_SDK_DEPENDENCY__"
+     }
+    ]
+   },
+   {
+    "name": "@types/react",
+    "SPDXID": "SPDXRef-npm-types-react-19.2.14-f69a42",
+    "versionInfo": "19.2.14",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react@19.2.14"
+     }
+    ]
+   },
+   {
+    "name": "typescript",
+    "SPDXID": "SPDXRef-npm-typescript-5.6.3-34ff77",
+    "versionInfo": "5.6.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "(c) by W3C, Copyright (c) 1991-2017 Unicode, Inc., Copyright (c) 2018 The Khronos Group Inc., Copyright (c) 2018 WHATWG, Copyright (c) Microsoft Corporation, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang) Disclaimers, Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang). Disclaimers",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/typescript@5.6.3"
+     }
+    ]
+   },
+   {
+    "name": "recharts",
+    "SPDXID": "SPDXRef-npm-recharts-2.15.3-82bde3",
+    "versionInfo": "2.15.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2015-2023 Recharts Group, Copyright (c) 2015-present recharts, Copyright (c) 2018 Jed Watson, Copyright (c) 2020 Michael Mclaughlin <M8ch88l@gmail.com>, Copyright (c) Facebook, Inc. and its affiliates, Copyright 2002-2021, Carrot Search s.c, Copyright 2018 Vladimir Agafonkin",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/recharts@2.15.3"
+     }
+    ]
+   },
+   {
+    "name": "@types/react-dom",
+    "SPDXID": "SPDXRef-npm-types-react-dom-19.2.3-57d9e4",
+    "versionInfo": "19.2.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Microsoft Corporation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/react-dom@19.2.3"
+     }
+    ]
+   },
+   {
+    "name": "zod",
+    "SPDXID": "SPDXRef-npm-zod-4.4.3-0ab5a0",
+    "versionInfo": "4.4.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2025 Colin McDonnell",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/zod@4.4.3"
+     }
+    ]
+   },
+   {
+    "name": "tailwindcss",
+    "SPDXID": "SPDXRef-npm-tailwindcss-4.1.13-b622ae",
+    "versionInfo": "4.1.13",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Tailwind Labs, Inc.",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/tailwindcss@4.1.13"
+     }
+    ]
+   },
+   {
+    "name": "@tanstack/react-query",
+    "SPDXID": "SPDXRef-npm-tanstack-react-query-5.100.10-a67f49",
+    "versionInfo": "5.100.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40tanstack/react-query@5.100.10"
+     }
+    ]
+   },
+   {
+    "name": "tailwindcss-safe-area",
+    "SPDXID": "SPDXRef-npm-tailwindcss-safe-area-1.3.0-333427",
+    "versionInfo": "1.3.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/tailwindcss-safe-area@1.3.0"
+     }
+    ]
+   },
+   {
+    "name": "drizzle-orm",
+    "SPDXID": "SPDXRef-npm-drizzle-orm-0.45.2-08ff0d",
+    "versionInfo": "0.45.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/drizzle-orm@0.45.2"
+     }
+    ]
+   },
+   {
+    "name": "@types/bun",
+    "SPDXID": "SPDXRef-npm-types-bun-1.4.2-90ba3f",
+    "versionInfo": "1.4.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40types/bun@1.4.2"
+     }
+    ]
+   },
+   {
+    "name": "react",
+    "SPDXID": "SPDXRef-npm-react-19.2.5-e6a93b",
+    "versionInfo": "19.2.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) Meta Platforms, Inc. and affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react@19.2.5"
+     }
+    ]
+   },
+   {
+    "name": "react-dom",
+    "SPDXID": "SPDXRef-npm-react-dom-19.2.5-1b98b6",
+    "versionInfo": "19.2.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2011 Gary Court, Copyright (c) Meta Platforms, Inc. and affiliates",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/react-dom@19.2.5"
+     }
+    ]
+   },
+   {
+    "name": "com.github.asgeirtj/system_prompts_leaks",
+    "SPDXID": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/asgeirtj/system_prompts_leaks",
+    "filesAnalyzed": false,
+    "licenseDeclared": "CC0-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/asgeirtj/system_prompts_leaks@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-5.6.3-1544ed",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-drizzle-orm-0.45.2-62effb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-babel-parser-7.25.0-67e819",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-babel-traverse-7.25.0-3fbfc4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-babelgenerator-7.6.8-6ac182",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-babeltraverse-7.20.6-0eece2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-babel-types-7.25.0-edd527",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-babel-generator-7.25.0-9bb078",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-19.2.5-d135b7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-dom-19.2.5-606a66",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-5.6.3-2ce098",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-19.2.14-7fc4b8",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-dom-19.2.3-f98629",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-zod-4.4.3-e4bb8a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-tanstack-react-query-5.100.10-20fc4d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-5.6.3-d6c482",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-libsql-client-0.14.0-bc16e9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-bun-latest-ba27a3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-pdfjs-dist-5.4.624-971e35",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-19.2.14-1033cd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-19.2.5-35138f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-drizzle-orm-0.45.2-241edd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-bun-plugin-tailwind-0.0.15-140447",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-libsql-client-0.14.0-64edd4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-drizzle-orm-0.45.2-c453ab",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-playwright-1.55.1-ad920d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-zod-4.4.3-d8e346",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-bun-latest-2a9dfd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-5.6.3-e15940",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-meta-maps-1.4.0-607197",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-19.2.0-c7dcf4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-dom-19.2.0-d85603",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-19-8fc51f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-dom-19-dcee76",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-esbuild-0.28.2-74bbe5",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-hatch-space-sdk-SPACESDKDEPENDENCY-db2949",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-19.2.14-f69a42",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-typescript-5.6.3-34ff77",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-recharts-2.15.3-82bde3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-react-dom-19.2.3-57d9e4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-zod-4.4.3-0ab5a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-tailwindcss-4.1.13-b622ae",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-tanstack-react-query-5.100.10-a67f49",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-tailwindcss-safe-area-1.3.0-333427",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-drizzle-orm-0.45.2-08ff0d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-types-bun-1.4.2-90ba3f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-19.2.5-e6a93b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relatedSpdxElement": "SPDXRef-npm-react-dom-19.2.5-1b98b6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-asgeirtj-systempromptsleaks-main-4e4d1a",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

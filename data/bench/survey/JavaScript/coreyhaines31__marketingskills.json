@@ -1,0 +1,154 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.coreyhaines31/marketingskills",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/6e8904bc-105f-42bb-a68f-43e4520d045d",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T13:31:12Z"
+  },
+  "packages": [
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-6..-b6d641",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-node",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-node-4..-0bb21e",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-node@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-python",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-python-5..-ef8212",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-python@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "stefanzweifel/git-auto-commit-action",
+    "SPDXID": "SPDXRef-githubactions-stefanzweifel-git-auto-commit-action-7..-ba0ffd",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/stefanzweifel/git-auto-commit-action@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "Flash-Brew-Digital/validate-skill",
+    "SPDXID": "SPDXRef-githubactions-Flash-Brew-Digital-validate-skill-1..-e215c9",
+    "versionInfo": "1.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/Flash-Brew-Digital/validate-skill@1.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "com.github.coreyhaines31/marketingskills",
+    "SPDXID": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/coreyhaines31/marketingskills",
+    "filesAnalyzed": false,
+    "licenseDeclared": "MIT",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/coreyhaines31/marketingskills@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-node-4..-0bb21e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-4..-bfd09a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-python-5..-ef8212",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relatedSpdxElement": "SPDXRef-githubactions-stefanzweifel-git-auto-commit-action-7..-ba0ffd",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relatedSpdxElement": "SPDXRef-githubactions-Flash-Brew-Digital-validate-skill-1..-e215c9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-6..-b6d641",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-coreyhaines31-marketingskills-main-61d102",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

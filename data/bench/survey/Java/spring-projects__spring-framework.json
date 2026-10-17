@@ -1,0 +1,410 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.spring-projects/spring-framework",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/9435a404-bc60-4522-bd6d-845d246f3bde",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph"
+   ],
+   "created": "2026-11-12T14:14:34Z"
+  },
+  "packages": [
+   {
+    "name": "@springio/asciidoctor-extensions",
+    "SPDXID": "SPDXRef-npm-springio-asciidoctor-extensions-1.0.0-alpha.18-99db7e",
+    "versionInfo": "1.0.0-alpha.18",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-asl-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40springio/asciidoctor-extensions@1.0.0-alpha.18"
+     }
+    ]
+   },
+   {
+    "name": "antora",
+    "SPDXID": "SPDXRef-npm-antora-3.2.0-alpha.12-04c72b",
+    "versionInfo": "3.2.0-alpha.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/antora@3.2.0-alpha.12"
+     }
+    ]
+   },
+   {
+    "name": "@antora/collector-extension",
+    "SPDXID": "SPDXRef-npm-antora-collector-extension-1.0.3-1a2cb0",
+    "versionInfo": "1.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antora/collector-extension@1.0.3"
+     }
+    ]
+   },
+   {
+    "name": "@springio/antora-extensions",
+    "SPDXID": "SPDXRef-npm-springio-antora-extensions-1.14.12-07e215",
+    "versionInfo": "1.14.12",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-bad-asl-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40springio/antora-extensions@1.14.12"
+     }
+    ]
+   },
+   {
+    "name": "@asciidoctor/tabs",
+    "SPDXID": "SPDXRef-npm-asciidoctor-tabs-1.0.0-beta.6-dad402",
+    "versionInfo": "1.0.0-beta.6",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2018-present Dan Allen, Copyright (c) 2018-present Dan Allen (OpenDevise Inc.)",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40asciidoctor/tabs@1.0.0-beta.6"
+     }
+    ]
+   },
+   {
+    "name": "@antora/atlas-extension",
+    "SPDXID": "SPDXRef-npm-antora-atlas-extension-1.0.0-alpha.5-812e98",
+    "versionInfo": "1.0.0-alpha.5",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MPL-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/%40antora/atlas-extension@1.0.0-alpha.5"
+     }
+    ]
+   },
+   {
+    "name": "fast-xml-parser",
+    "SPDXID": "SPDXRef-npm-fast-xml-parser-5.7.0-af1cf6",
+    "versionInfo": "5.7.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "MIT",
+    "copyrightText": "Copyright (c) 2017 Amit Kumar Gupta",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:npm/fast-xml-parser@5.7.0"
+     }
+    ]
+   },
+   {
+    "name": "spring-io/spring-doc-actions/update-antora-spring-ui",
+    "SPDXID": "SPDXRef-githubactions-spring-iospring-doc-actions-update-antora-spring-ui-5a57bcc6a0da2a1474136cf29571b277850432bc-96b212",
+    "versionInfo": "5a57bcc6a0da2a1474136cf29571b277850432bc",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/spring-io/spring-doc-actions/update-antora-spring-ui@5a57bcc6a0da2a1474136cf29571b277850432bc"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-5..-666a10",
+    "versionInfo": "5.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@5.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "gradle/actions/setup-gradle",
+    "SPDXID": "SPDXRef-githubactions-gradleactions-setup-gradle-3f131e8634966bd73d06cc69884922b02e6faf92-3e6e49",
+    "versionInfo": "3f131e8634966bd73d06cc69884922b02e6faf92",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92"
+     }
+    ]
+   },
+   {
+    "name": "spring-io/backport-bot",
+    "SPDXID": "SPDXRef-githubactions-spring-io-backport-bot-0.0.3-37c283",
+    "versionInfo": "0.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/spring-io/backport-bot@0.0.3"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "versionInfo": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
+     }
+    ]
+   },
+   {
+    "name": "spring-io/artifactory-deploy-action",
+    "SPDXID": "SPDXRef-githubactions-spring-io-artifactory-deploy-action-aba148f1541e09adcf5735af90029fac9a6d3083-5b6520",
+    "versionInfo": "aba148f1541e09adcf5735af90029fac9a6d3083",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/spring-io/artifactory-deploy-action@aba148f1541e09adcf5735af90029fac9a6d3083"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-6..-b6d641",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache/save",
+    "SPDXID": "SPDXRef-githubactions-actionscache-save-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8fc7ab",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-cf430e030ddbb5b0abf93d22962f4752f3646cd9-27c915",
+    "versionInfo": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-77dd5b2ce225ea11469928ac317850245a74ae78-456eb6",
+    "versionInfo": "77dd5b2ce225ea11469928ac317850245a74ae78",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@77dd5b2ce225ea11469928ac317850245a74ae78"
+     }
+    ]
+   },
+   {
+    "name": "actions/cache/restore",
+    "SPDXID": "SPDXRef-githubactions-actionscache-restore-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8830a0",
+    "versionInfo": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+     }
+    ]
+   },
+   {
+    "name": "com.github.spring-projects/spring-framework",
+    "SPDXID": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/spring-projects/spring-framework",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/spring-projects/spring-framework@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-springio-asciidoctor-extensions-1.0.0-alpha.18-99db7e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-antora-3.2.0-alpha.12-04c72b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-antora-collector-extension-1.0.3-1a2cb0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-springio-antora-extensions-1.14.12-07e215",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-asciidoctor-tabs-1.0.0-beta.6-dad402",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-antora-atlas-extension-1.0.0-alpha.5-812e98",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-npm-fast-xml-parser-5.7.0-af1cf6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-cf430e030ddbb5b0abf93d22962f4752f3646cd9-27c915",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-77dd5b2ce225ea11469928ac317850245a74ae78-456eb6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actionscache-restore-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8830a0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradleactions-setup-gradle-3f131e8634966bd73d06cc69884922b02e6faf92-3e6e49",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-spring-io-backport-bot-0.0.3-37c283",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3d3c42e5aac5ba805825da76410c181273ba90b1-a75f5c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-spring-io-artifactory-deploy-action-aba148f1541e09adcf5735af90029fac9a6d3083-5b6520",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-6..-b6d641",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actionscache-save-55cc8345863c7cc4c66a329aec7e433d2d1c52a9-8fc7ab",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-spring-iospring-doc-actions-update-antora-spring-ui-5a57bcc6a0da2a1474136cf29571b277850432bc-96b212",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-5..-666a10",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-spring-projects-spring-framework-main-a7f1db",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

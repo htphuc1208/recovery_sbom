@@ -1,0 +1,1184 @@
+{
+ "sbom": {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.iBotPeaches/Apktool",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/028b193c-f189-465f-a94f-5a8ee73f960b",
+  "creationInfo": {
+   "creators": [
+    "Tool: protobom-v0.0.0-20261109232325-8e6193b044d8+dirty",
+    "Tool: GitHub.com-Dependency-Graph",
+    "Tool: GitHub Dependency Graph Gradle Plugin"
+   ],
+   "created": "2026-11-12T14:28:16Z"
+  },
+  "packages": [
+   {
+    "name": "org.jcommander:jcommander",
+    "SPDXID": "SPDXRef-maven-org.jcommander-jcommander-1.85-fa1f58",
+    "versionInfo": "1.85",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jcommander/jcommander@1.85"
+     }
+    ]
+   },
+   {
+    "name": "org.slf4j:slf4j-api",
+    "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.18-858a86",
+    "versionInfo": "2.0.18",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.18?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "xmlpull:xmlpull",
+    "SPDXID": "SPDXRef-maven-xmlpull-xmlpull-1.1.3.1-1b0654",
+    "versionInfo": "1.1.3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "LicenseRef-scancode-public-domain",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/xmlpull/xmlpull@1.1.3.1"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:guava",
+    "SPDXID": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "versionInfo": "33.7.2-jre",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/guava@33.7.2-jre"
+     }
+    ]
+   },
+   {
+    "name": "com.google.j2objc:j2objc-annotations",
+    "SPDXID": "SPDXRef-maven-com.google.j2objc-j2objc-annotations-3.1-8a625f",
+    "versionInfo": "3.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@3.1"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.moshi:moshi",
+    "SPDXID": "SPDXRef-maven-com.squareup.moshi-moshi-1.15.2-020e78",
+    "versionInfo": "1.15.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.moshi/moshi@1.15.2?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:listenablefuture",
+    "SPDXID": "SPDXRef-maven-com.google.guava-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-a9741d",
+    "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava"
+     }
+    ]
+   },
+   {
+    "name": "com.android.tools.smali:smali-util",
+    "SPDXID": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "versionInfo": "3.0.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.android.tools.smali/smali-util@3.0.10?repository_url=https:%2F%2Fdl.google.com%2Fdl%2Fandroid%2Fmaven2"
+     }
+    ]
+   },
+   {
+    "name": "com.vanniktech:gradle-maven-publish-plugin",
+    "SPDXID": "SPDXRef-maven-com.vanniktech-gradle-maven-publish-plugin-0.37.0-cbe275",
+    "versionInfo": "0.37.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.vanniktech/gradle-maven-publish-plugin@0.37.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.android.tools.smali:smali-dexlib2",
+    "SPDXID": "SPDXRef-maven-com.android.tools.smali-smali-dexlib2-3.0.10-c2848c",
+    "versionInfo": "3.0.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.android.tools.smali/smali-dexlib2@3.0.10?repository_url=https:%2F%2Fdl.google.com%2Fdl%2Fandroid%2Fmaven2"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okio:okio",
+    "SPDXID": "SPDXRef-maven-com.squareup.okio-okio-3.15.0-bcfe86",
+    "versionInfo": "3.15.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okio/okio@3.15.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "commons-cli:commons-cli",
+    "SPDXID": "SPDXRef-maven-commons-cli-commons-cli-1.11.0-3f83c3",
+    "versionInfo": "1.11.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/commons-cli/commons-cli@1.11.0"
+     }
+    ]
+   },
+   {
+    "name": "org.xmlunit:xmlunit-core",
+    "SPDXID": "SPDXRef-maven-org.xmlunit-xmlunit-core-2.14.0-01fcff",
+    "versionInfo": "2.14.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-core@2.14.0"
+     }
+    ]
+   },
+   {
+    "name": "org.jetbrains.kotlin:kotlin-reflect",
+    "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-reflect-2.4.10-f27e44",
+    "versionInfo": "2.4.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@2.4.10?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.antlr:ST4",
+    "SPDXID": "SPDXRef-maven-org.antlr-ST4-4.0.8-cea687",
+    "versionInfo": "4.0.8",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause-No-Nuclear-Warranty AND BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.antlr/ST4@4.0.8"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okio:okio-jvm",
+    "SPDXID": "SPDXRef-maven-com.squareup.okio-okio-jvm-3.15.0-89ba9c",
+    "versionInfo": "3.15.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okio/okio-jvm@3.15.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.android.tools:r8",
+    "SPDXID": "SPDXRef-maven-com.android.tools-r8-9.1.31-a7f98a",
+    "versionInfo": "9.1.31",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.android.tools/r8@9.1.31?repository_url=https:%2F%2Fdl.google.com%2Fdl%2Fandroid%2Fmaven2"
+     }
+    ]
+   },
+   {
+    "name": "com.google.code.findbugs:jsr305",
+    "SPDXID": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-ec8ec0",
+    "versionInfo": "3.0.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okhttp3:okhttp",
+    "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-okhttp-5.1.0-58ba8f",
+    "versionInfo": "5.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@5.1.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.android.tools.smali:smali",
+    "SPDXID": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "versionInfo": "3.0.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.android.tools.smali/smali@3.0.10?repository_url=https:%2F%2Fdl.google.com%2Fdl%2Fandroid%2Fmaven2"
+     }
+    ]
+   },
+   {
+    "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+    "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk8-1.8.21-bbe47e",
+    "versionInfo": "1.8.21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.21?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.google.guava:failureaccess",
+    "SPDXID": "SPDXRef-maven-com.google.guava-failureaccess-1.0.3-305707",
+    "versionInfo": "1.0.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.3"
+     }
+    ]
+   },
+   {
+    "name": "antlr:antlr",
+    "SPDXID": "SPDXRef-maven-antlr-antlr-2.7.7-2fa285",
+    "versionInfo": "2.7.7",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/antlr/antlr@2.7.7"
+     }
+    ]
+   },
+   {
+    "name": "junit:junit",
+    "SPDXID": "SPDXRef-maven-junit-junit-4.13.2-0fb5e6",
+    "versionInfo": "4.13.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "EPL-1.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+     }
+    ]
+   },
+   {
+    "name": "org.jetbrains:annotations",
+    "SPDXID": "SPDXRef-maven-org.jetbrains-annotations-13.0-b25c0c",
+    "versionInfo": "13.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jetbrains/annotations@13.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.google.errorprone:error_prone_annotations",
+    "SPDXID": "SPDXRef-maven-com.google.errorprone-errorproneannotations-2.50.0-646fb1",
+    "versionInfo": "2.50.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-1.1 AND Apache-2.0",
+    "copyrightText": "Copyright 2015 The Error Prone Authors",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.50.0"
+     }
+    ]
+   },
+   {
+    "name": "org.jetbrains.kotlin:kotlin-stdlib",
+    "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "versionInfo": "2.4.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.4.10?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.hamcrest:hamcrest-core",
+    "SPDXID": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-1164d7",
+    "versionInfo": "1.3",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.moshi:moshi-kotlin",
+    "SPDXID": "SPDXRef-maven-com.squareup.moshi-moshi-kotlin-1.15.2-847aa9",
+    "versionInfo": "1.15.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.moshi/moshi-kotlin@1.15.2?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.antlr:antlr-runtime",
+    "SPDXID": "SPDXRef-maven-org.antlr-antlr-runtime-3.5.2-6e4ffc",
+    "versionInfo": "3.5.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.antlr/antlr-runtime@3.5.2"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.okhttp3:okhttp-jvm",
+    "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-okhttp-jvm-5.1.0-e95606",
+    "versionInfo": "5.1.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp-jvm@5.1.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.antlr:antlr",
+    "SPDXID": "SPDXRef-maven-org.antlr-antlr-3.5.2-e8d491",
+    "versionInfo": "3.5.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "copyrightText": "Copyright (c) 2005 Terence Parr, Copyright (c) 2005-2006 Terence Parr, Copyright (c) 2005-2007 Kunle Odutola, Copyright (c) 2005-2008 Terence Parr, Copyright (c) 2005-2009 Gokulakannan Somasundaram, Copyright (c) 2005-2009 Gokulakannan Somasundaram, ElectronDB, Copyright (c) 2005-2009 Gokulakannan Somasundaram., Copyright (c) 2005-2009 Jim Idle, Temporal Wave LLC http://www.temporal-wave.com http://www.linkedin.com/in/jimidle, Copyright (c) 2005-2009 Terence Parr, Copyright (c) 2005-2012 Terence Parr, Copyright (c) 2006 Kay Roepke, Copyright (c) 2006 Kay Roepke 2010 Alan Condit, Copyright (c) 2006, 2007 Kay Roepke 2010 Alan Condit, Copyright (c) 2007 Kay Roepke 2010 Alan Condit, Copyright (c) 2007-2008 Johannes Luber, Copyright (c) 2007-2008 Ronald Blaschke, Copyright (c) 2008 Erik van Bilsen, Copyright (c) 2008 Ronald Blaschke, Copyright (c) 2008-2009 Sam Harwell, Pixel Mine, Inc., Copyright (c) 2010 Matthew Lloyd http://linkedin.com/in/matthewl, Copyright (c) 2010 Terence Parr, Copyright (c) 2011 Sam Harwell, Copyright (c) 2011 Sam Harwell, Pixel Mine, Inc., Copyright (c) 2011 Sam Harwell, Tunnel Vision Laboratories, LLC., Copyright (c) 2011 Terence Parr",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.antlr/antlr@3.5.2"
+     }
+    ]
+   },
+   {
+    "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+    "SPDXID": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk7-1.8.21-9688d4",
+    "versionInfo": "1.8.21",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.21?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.gradle:gradle-core",
+    "SPDXID": "SPDXRef-maven-org.gradle-gradle-core-9.8.2-7ab7fc",
+    "versionInfo": "9.8.2",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.gradle/gradle-core@9.8.2"
+     }
+    ]
+   },
+   {
+    "name": "com.vanniktech:central-portal",
+    "SPDXID": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "versionInfo": "0.37.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.vanniktech/central-portal@0.37.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.retrofit2:retrofit",
+    "SPDXID": "SPDXRef-maven-com.squareup.retrofit2-retrofit-3.0.0-54ff0a",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.gradle.toolchains:foojay-resolver",
+    "SPDXID": "SPDXRef-maven-org.gradle.toolchains-foojay-resolver-1.0.0-8df6e3",
+    "versionInfo": "1.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.gradle.toolchains/foojay-resolver@1.0.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.xmlunit:xmlunit-legacy",
+    "SPDXID": "SPDXRef-maven-org.xmlunit-xmlunit-legacy-2.14.0-d0016e",
+    "versionInfo": "2.14.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-legacy@2.14.0"
+     }
+    ]
+   },
+   {
+    "name": "com.android.tools.smali:smali-baksmali",
+    "SPDXID": "SPDXRef-maven-com.android.tools.smali-smali-baksmali-3.0.10-4df721",
+    "versionInfo": "3.0.10",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.android.tools.smali/smali-baksmali@3.0.10?repository_url=https:%2F%2Fdl.google.com%2Fdl%2Fandroid%2Fmaven2"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.retrofit2:converter-scalars",
+    "SPDXID": "SPDXRef-maven-com.squareup.retrofit2-converter-scalars-3.0.0-fad1fb",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-scalars@3.0.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "org.antlr:stringtemplate",
+    "SPDXID": "SPDXRef-maven-org.antlr-stringtemplate-3.2.1-c40845",
+    "versionInfo": "3.2.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "BSD-3-Clause",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.antlr/stringtemplate@3.2.1"
+     }
+    ]
+   },
+   {
+    "name": "org.jspecify:jspecify",
+    "SPDXID": "SPDXRef-maven-org.jspecify-jspecify-1.0.1-c3c126",
+    "versionInfo": "1.0.1",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "licenseConcluded": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/org.jspecify/jspecify@1.0.1"
+     }
+    ]
+   },
+   {
+    "name": "com.squareup.retrofit2:converter-moshi",
+    "SPDXID": "SPDXRef-maven-com.squareup.retrofit2-converter-moshi-3.0.0-15ae0f",
+    "versionInfo": "3.0.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-moshi@3.0.0?repository_url=https:%2F%2Fplugins.gradle.org%2Fm2"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/autobuild",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-autobuild-4..-a97fc9",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/autobuild@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/init",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-init-4..-4b59fc",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/init@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/checkout",
+    "SPDXID": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/checkout@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/setup-java",
+    "SPDXID": "SPDXRef-githubactions-actions-setup-java-6..-a51a37",
+    "versionInfo": "6.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/setup-java@6.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "gradle/actions/setup-gradle",
+    "SPDXID": "SPDXRef-githubactions-gradleactions-setup-gradle-6.4.0-c8e82b",
+    "versionInfo": "6.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/actions/setup-gradle@6.4.0"
+     }
+    ]
+   },
+   {
+    "name": "github/codeql-action/analyze",
+    "SPDXID": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-5cce3b",
+    "versionInfo": "4.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/github/codeql-action/analyze@4.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "actions/upload-artifact",
+    "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "versionInfo": "7.*.*",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/actions/upload-artifact@7.%2A.%2A"
+     }
+    ]
+   },
+   {
+    "name": "gradle/actions/wrapper-validation",
+    "SPDXID": "SPDXRef-githubactions-gradleactions-wrapper-validation-6.4.0-938240",
+    "versionInfo": "6.4.0",
+    "downloadLocation": "NOASSERTION",
+    "filesAnalyzed": false,
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:githubactions/gradle/actions/wrapper-validation@6.4.0"
+     }
+    ]
+   },
+   {
+    "name": "com.github.iBotPeaches/Apktool",
+    "SPDXID": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "versionInfo": "main",
+    "downloadLocation": "git+https://github.com/iBotPeaches/Apktool",
+    "filesAnalyzed": false,
+    "licenseDeclared": "Apache-2.0",
+    "externalRefs": [
+     {
+      "referenceCategory": "PACKAGE-MANAGER",
+      "referenceType": "purl",
+      "referenceLocator": "pkg:github/iBotPeaches/Apktool@main"
+     }
+    ]
+   }
+  ],
+  "relationships": [
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-failureaccess-1.0.3-305707",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-a9741d",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relatedSpdxElement": "SPDXRef-maven-org.jspecify-jspecify-1.0.1-c3c126",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.errorprone-errorproneannotations-2.50.0-646fb1",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.j2objc-j2objc-annotations-3.1-8a625f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.moshi-moshi-1.15.2-020e78",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okio-okio-3.15.0-bcfe86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.moshi-moshi-1.15.2-020e78",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk8-1.8.21-bbe47e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-dexlib2-3.0.10-c2848c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-ec8ec0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "relatedSpdxElement": "SPDXRef-maven-org.jcommander-jcommander-1.85-fa1f58",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-gradle-maven-publish-plugin-0.37.0-cbe275",
+    "relatedSpdxElement": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-dexlib2-3.0.10-c2848c",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-ec8ec0",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-dexlib2-3.0.10-c2848c",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.okio-okio-3.15.0-bcfe86",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okio-okio-jvm-3.15.0-89ba9c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-reflect-2.4.10-f27e44",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.antlr-ST4-4.0.8-cea687",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-antlr-runtime-3.5.2-6e4ffc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.okio-okio-jvm-3.15.0-89ba9c",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.okhttp3-okhttp-5.1.0-58ba8f",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-jvm-5.1.0-e95606",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-antlr-runtime-3.5.2-6e4ffc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-org.jcommander-jcommander-1.85-fa1f58",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-stringtemplate-3.2.1-c40845",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-dexlib2-3.0.10-c2848c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-antlr-3.5.2-e8d491",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk8-1.8.21-bbe47e",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk8-1.8.21-bbe47e",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk7-1.8.21-9688d4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-junit-junit-4.13.2-0fb5e6",
+    "relatedSpdxElement": "SPDXRef-maven-org.hamcrest-hamcrest-core-1.3-1164d7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains-annotations-13.0-b25c0c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk8-1.8.21-bbe47e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk7-1.8.21-9688d4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.moshi-moshi-kotlin-1.15.2-847aa9",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.moshi-moshi-1.15.2-020e78",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.moshi-moshi-kotlin-1.15.2-847aa9",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-reflect-2.4.10-f27e44",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.moshi-moshi-kotlin-1.15.2-847aa9",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk8-1.8.21-bbe47e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.okhttp3-okhttp-jvm-5.1.0-e95606",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okio-okio-3.15.0-bcfe86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.okhttp3-okhttp-jvm-5.1.0-e95606",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.antlr-antlr-3.5.2-e8d491",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-antlr-runtime-3.5.2-6e4ffc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.antlr-antlr-3.5.2-e8d491",
+    "relatedSpdxElement": "SPDXRef-maven-org.antlr-ST4-4.0.8-cea687",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-jdk7-1.8.21-9688d4",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-5.1.0-58ba8f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.retrofit2-retrofit-3.0.0-54ff0a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.retrofit2-converter-scalars-3.0.0-fad1fb",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.retrofit2-converter-moshi-3.0.0-15ae0f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.18-858a86",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.moshi-moshi-1.15.2-020e78",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.vanniktech-central-portal-0.37.0-e55714",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.moshi-moshi-kotlin-1.15.2-847aa9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.retrofit2-retrofit-3.0.0-54ff0a",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-5.1.0-58ba8f",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.retrofit2-retrofit-3.0.0-54ff0a",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.xmlunit-xmlunit-legacy-2.14.0-d0016e",
+    "relatedSpdxElement": "SPDXRef-maven-org.xmlunit-xmlunit-core-2.14.0-01fcff",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.xmlunit-xmlunit-legacy-2.14.0-d0016e",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-0fb5e6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-baksmali-3.0.10-4df721",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-util-3.0.10-594ed4",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-baksmali-3.0.10-4df721",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-baksmali-3.0.10-4df721",
+    "relatedSpdxElement": "SPDXRef-maven-org.jcommander-jcommander-1.85-fa1f58",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.android.tools.smali-smali-baksmali-3.0.10-4df721",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-dexlib2-3.0.10-c2848c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.retrofit2-converter-scalars-3.0.0-fad1fb",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.retrofit2-retrofit-3.0.0-54ff0a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-org.antlr-stringtemplate-3.2.1-c40845",
+    "relatedSpdxElement": "SPDXRef-maven-antlr-antlr-2.7.7-2fa285",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.retrofit2-converter-moshi-3.0.0-15ae0f",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.retrofit2-retrofit-3.0.0-54ff0a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-maven-com.squareup.retrofit2-converter-moshi-3.0.0-15ae0f",
+    "relatedSpdxElement": "SPDXRef-maven-com.squareup.moshi-moshi-1.15.2-020e78",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-xmlpull-xmlpull-1.1.3.1-1b0654",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-com.google.guava-guava-33.7.2-jre-b8208e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-com.vanniktech-gradle-maven-publish-plugin-0.37.0-cbe275",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-commons-cli-commons-cli-1.11.0-3f83c3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-reflect-2.4.10-f27e44",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools-r8-9.1.31-a7f98a",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-3.0.10-eb1ac7",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-junit-junit-4.13.2-0fb5e6",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains-annotations-13.0-b25c0c",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-org.jetbrains.kotlin-kotlin-stdlib-2.4.10-bd3fd2",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-org.gradle-gradle-core-9.8.2-7ab7fc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-org.gradle.toolchains-foojay-resolver-1.0.0-8df6e3",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-org.xmlunit-xmlunit-legacy-2.14.0-d0016e",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-maven-com.android.tools.smali-smali-baksmali-3.0.10-4df721",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradleactions-wrapper-validation-6.4.0-938240",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-autobuild-4..-a97fc9",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-init-4..-4b59fc",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-7..-c5c952",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-6..-a51a37",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-gradleactions-setup-gradle-6.4.0-c8e82b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-5cce3b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-7..-06bf9b",
+    "relationshipType": "DEPENDS_ON"
+   },
+   {
+    "spdxElementId": "SPDXRef-DOCUMENT",
+    "relatedSpdxElement": "SPDXRef-github-iBotPeaches-Apktool-main-7c826d",
+    "relationshipType": "DESCRIBES"
+   }
+  ]
+ }
+}

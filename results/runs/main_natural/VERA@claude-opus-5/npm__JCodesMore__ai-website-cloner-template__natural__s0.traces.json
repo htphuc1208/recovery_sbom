@@ -1,0 +1,366 @@
+[
+ {
+  "component": "undici",
+  "kind": "version",
+  "value": 43.9923298615484,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "undici",
+   "version": "7.30.1",
+   "evidence": [
+    "E2"
+   ],
+   "rationale": "Registry lookup (E2) confirms undici 7.30.1 is a valid published version in the npm registry. Among the candidate versions, 7.30.1 has the highest probability score (0.3) and matches the version_field declared in the SBOM component. The version is consistent with the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 20.70174659617686,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.8",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "fast-uri@3.1.8 confirmed to exist in npm registry (E1). Among the candidate versions, 3.1.8 has the highest probability (0.374) per the SBOM's current_candidates, and is a valid published version with known vulnerability data (E3). 3.1.8 is the most likely version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "hono",
+  "kind": "version",
+  "value": 20.501428024625767,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.13.13",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package 'hono' confirmed in npm registry (E1). Version 4.13.13 is listed among valid versions published before the SBOM timestamp (E2), and it has the highest candidate probability (0.258) in the SBOM data."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "sdk",
+  "kind": "version",
+  "value": 18.825866156628738,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "1.32.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 1.32.2 is the latest published version of @modelcontextprotocol/sdk on npm (E1), available before the SBOM timestamp of 2026-11-10 (E2). It also has the highest probability score (0.248) among current_candidates, making it the most likely version at SBOM generation time."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 11.559308973085205,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "brace-expansion@1.1.21 is confirmed to exist in the npm registry (E1 lists it among latest versions). The candidate distribution strongly favors 1.1.21 with probability 0.666, far above the next candidate (1.1.18 at 0.121). The version was published before the SBOM timestamp (2026-11-10) and has no known vulnerabilities (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 10.297900999892246,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.4",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 10.7.4 is confirmed to exist in the npm registry (E1) and was published before the SBOM timestamp of 2026-11-10. It is also the highest-probability candidate (0.174) in the current_candidates list, making it the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "systeminformation",
+  "kind": "version",
+  "value": 8.056643447514002,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "systeminformation",
+   "version": "5.33.15",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Package systeminformation exists in npm registry (E1) with 798 versions. Version 5.33.15 is among the published versions before the SBOM timestamp 2026-11-10 (E2) and is confirmed to exist via OSV vulnerability lookup (E3). Among the candidate versions, 5.33.15 has the highest probability score (0.217), making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "js-yaml",
+  "kind": "version",
+  "value": 5.583224333922672,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "js-yaml",
+   "version": "4.3.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "js-yaml@4.3.2 is confirmed as a published version in the npm registry (E1). The candidate distribution shows 4.3.2 with the highest probability (0.733), and it matches the version already declared in the purl. No declared range constraints to satisfy, and the version is consistent with the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 4.577002462428229,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Registry prior probability distribution (E1) shows 4.4.3 as the most likely version (0.339) among those published before the SBOM timestamp (2026-11-10), exceeding 4.6.7 (0.209). Both versions exist in the npm registry (E2). The SBOM's current_candidates distribution differs from the registry prior, but the registry prior is the authoritative signal for the most likely version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 4.317530113358897,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "brace-expansion 5.0.12 is confirmed to exist in the npm registry (E2), is the highest-prior version published before the SBOM timestamp (E1), and matches the SBOM's strongest candidate (probability 0.792). No declared range constraint to satisfy."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 3.6657264260418425,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.1",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Both 1.2.1 and 1.2.2 exist in the npm registry (E3). The registry's prior probability strongly favors 1.2.1 (0.714) over 1.2.2 (0.284) (E1), making 1.2.1 the most likely version when the SBOM was generated."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "postcss",
+  "kind": "version",
+  "value": 3.4207342255429567,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss",
+   "version": "8.5.28",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "postcss 8.5.28 is confirmed to exist in the npm registry (E2) and is the highest-prior-probability candidate (0.173) from list_versions filtered before the SBOM timestamp (E1). It also matches the SBOM's top current_candidate (0.257). No declared range constraint to satisfy."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "node-server",
+  "kind": "version",
+  "value": 3.389724645685934,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@hono/node-server",
+   "version": "2.1.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Package @hono/node-server exists in npm registry (E1) with 2.1.5 among its published versions. The candidate probability distribution strongly favors 2.1.5 (0.263, highest), matching the version in the purl. Version 2.1.5 is confirmed valid with no vulnerabilities (E3) and was published before the SBOM timestamp of 2026-11-10 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 2.8198761470175344,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.29.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.29.3 is confirmed to exist in the npm registry (E2) and was published before the SBOM timestamp of 2026-11-10 (E1). It matches the version_field in the SBOM and has the highest probability score (0.227) among current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 2.3471998162557903,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 6.16.0 is confirmed as a real published version of the npm package 'qs' (E1, E2), published before the SBOM timestamp of 2026-11-10. It also has the highest probability (0.531) among the current candidates, matching the version_field in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 2.1530311966783535,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.3.0 is confirmed to exist in the npm registry (E2) and has the highest prior probability (0.566) among versions published before the SBOM timestamp of 2026-11-10 (E1). This aligns with the SBOM's own candidate scoring which favors 2.3.0 (0.713) over 2.4.0 (0.287)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sharp",
+  "kind": "version",
+  "value": 2.1333615253299243,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "sharp",
+   "version": "0.35.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "sharp 0.35.5 is the latest stable version in npm (E2) and was published before the SBOM timestamp of 2026-11-10 (E1). The candidate probability distribution also strongly favors 0.35.5 (0.716) over 0.35.4 (0.284)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "postcss-selector-parser",
+  "kind": "version",
+  "value": 1.7632357464027082,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-selector-parser",
+   "version": "7.1.6",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 7.1.6 has the highest prior probability (0.274) among all versions published before the SBOM timestamp (2026-11-10), and it is also the top candidate in the current distribution (0.433). No declared range constraint to consider."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 1.2722668990968276,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "10.2.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package confirmed in npm registry (E1). Version 10.2.6 is the highest-probability candidate (0.479 prior) and was published before the SBOM timestamp of 2026-11-10 (E2). It matches the version declared in the purl."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ }
+]

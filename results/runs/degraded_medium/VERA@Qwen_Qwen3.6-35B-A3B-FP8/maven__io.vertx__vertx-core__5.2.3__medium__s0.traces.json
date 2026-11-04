@@ -1,0 +1,101 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'netty-transport' belongs to the io.netty group in Maven. Registry lookup (E1) confirms io.netty:netty-transport exists. Version 4.2.20.Final was published before the SBOM timestamp (E3) and matches the version used by all other Netty components in the SBOM context. This is the most likely version when the SBOM was generated."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-handler-proxy",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-handler-proxy",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'netty-handler-proxy' with group null was not matching any registry. Based on the SBOM context showing other Netty components under io.netty group (e.g., io.netty/netty-handler@4.2.20.Final), the correct Maven coordinates are io.netty:netty-handler-proxy. Registry lookup confirmed this package exists (E1) and version 4.2.20.Final is available (E2), published before the SBOM timestamp of 2026-11-03."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "netty-codec-haproxy",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-codec-haproxy",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'netty-codec-haproxy' corresponds to Maven coordinate 'io.netty:netty-codec-haproxy'. Version 4.2.20.Final exists in the Maven registry and was published before the SBOM timestamp of 2026-11-03. This version is consistent with other netty components in the SBOM sample which all use 4.2.20.Final."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "vertx-codegen-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.vertx:vertx-codegen-api",
+   "version": "5.2.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component vertx-codegen-api with group null corresponds to Maven coordinate io.vertx:vertx-codegen-api (E1, E6). The SBOM declares version 5.2.3, but list_versions before the SBOM timestamp shows 5.2.2 as the highest available version (E2). The root vertx-core@5.2.3 depends on vertx-codegen-api (E5). Since 5.2.3 was not available before the SBOM timestamp, 5.2.2 is the most likely version used."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "netty-tcnative-classes",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-tcnative-classes",
+   "version": "2.0.84.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared name 'netty-tcnative-classes' with no group did not match any registry entry (E3). The correct Maven coordinate is 'io.netty:netty-tcnative-classes' (E1). The declared version 2.0.85.Final was not published before the SBOM timestamp 2026-11-03T08:49:03Z; the latest version available before that date is 2.0.84.Final (E2). Therefore, 2.0.84.Final is the most likely version when the SBOM was generated."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

@@ -1,0 +1,274 @@
+[
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 7.202599406959968,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 5.0.12. Querying npm for versions matching this spec before the SBOM timestamp returns only 5.0.12, confirming it as the exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 2.8198761470175344,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.29.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared_range '4.29.3' pins to exactly version 4.29.3. This version exists in the npm registry (E1), was available before the SBOM timestamp of 2026-11-10 (E2), and is the only version matching the pinned spec (E3). The version_field also confirms 4.29.3."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "postcss-selector-parser",
+  "kind": "version",
+  "value": 2.3332694441423216,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-selector-parser",
+   "version": "7.1.6",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 7.1.6 is the declared version, matches the exact declared range, is the most probable version by prior probability (0.272) among versions published before the SBOM timestamp, and has valid dependencies confirming it is a real published version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 1.8570653614932364,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "Version 2.3.0 is confirmed as the most likely exact version. It has the highest probability (0.669) among candidates, is explicitly declared in the SBOM with a pinned range of '2.3.0', and querying the npm registry with the before-timestamp constraint returns 2.3.0 with 100% confidence. The version exists, has valid dependencies, and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "@babel/preset_typescript",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@babel/preset-typescript",
+   "version": "7.28.5",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declared name '@babel/preset_typescript' with underscore does not exist in npm registry (E1). The correct registry name is '@babel/preset-typescript' with a hyphen (E2). Version 7.28.5 exists in the registry and was published before the SBOM timestamp of 2026-11-10 (E3). This is the most likely version the SBOM was referring to."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@IMG/SHARP-LINUXMUSL-ARM64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linuxmusl-arm64",
+   "version": "0.35.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @IMG/SHARP-LINUXMUSL-ARM64 is a case-normalized form of the npm package @img/sharp-linuxmusl-arm64. Version 0.35.4 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@typescript_eslint/utils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@typescript-eslint/utils",
+   "version": "8.57.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name used underscores instead of the correct npm scoped package notation. The correct registry name is @typescript-eslint/utils. Version 8.57.2 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "axe_core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "axe-core",
+   "version": "4.11.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'axe_core' with underscore does not match any npm registry entry. The correct npm package name is 'axe-core' (with hyphen), which exists in the npm registry (E1). Version 4.11.1 is a valid published version of axe-core that was available before the SBOM timestamp of 2026-11-10 (E2). The SBOM context confirms this is an npm-based project."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "BALANCED-MATCH",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "balanced-match",
+   "version": "1.0.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'BALANCED-MATCH' with version '1.0.2' was not found in the registry due to case sensitivity. The correct npm package name is 'balanced-match' (lowercase). Version 1.0.2 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10. No known vulnerabilities were found for this version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "ESLINT-VISITOR-KEYS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "eslint-visitor-keys",
+   "version": "4.2.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'ESLINT-VISITOR-KEYS' corresponds to the npm package 'eslint-visitor-keys'. The declared range '^4.2.0' is satisfied by versions 4.2.0 and 4.2.1, both published before the SBOM timestamp. Version 4.2.1 is the newest version satisfying the range and was available before the SBOM was generated."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "is_data_view",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-data-view",
+   "version": "1.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'is_data_view' with underscores was not found in npm registry. The correct package name uses hyphens: 'is-data-view'. Version 1.0.2 exists in npm and was available before the SBOM timestamp of 2026-11-10. This matches the version_field in the component."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Lodash.merge",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lodash.merge",
+   "version": "4.6.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'lodash.merge' exists in the npm registry (E1). Version 4.6.2 is available and was published before the SBOM timestamp of 2026-11-10 (E2). The version matches the declared version_field exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Outvariant",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "outvariant",
+   "version": "1.4.3",
+   "evidence": [
+    "E4"
+   ],
+   "rationale": "The component name 'Outvariant' was a case-sensitivity issue. The correct npm package name is 'outvariant' (lowercase), which exists and has version 1.4.3 as its latest release, matching the declared version_field. This version was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "Picomatch",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "picomatch",
+   "version": "2.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Picomatch' with declared range '^2.3.0' corresponds to the npm package 'picomatch'. The latest version satisfying the range and published before the SBOM timestamp is 2.3.2."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

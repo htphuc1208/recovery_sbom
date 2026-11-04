@@ -1,0 +1,330 @@
+[
+ {
+  "component": "vllm",
+  "kind": "version",
+  "value": 32.33743579507548,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "vllm",
+   "version": "0.29.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "vllm 0.29.0 exists on PyPI (E2), satisfies the declared range >=0.26, was published before the SBOM timestamp 2026-09-30, and has the highest prior probability (0.225) among the candidate versions (E1). It also matches the version already declared in the purl."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyjwt",
+  "kind": "version",
+  "value": 30.682741426903203,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyjwt",
+   "version": "2.13.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.13.0 is confirmed to exist in PyPI (E2) and has the highest prior probability (0.522) among versions published before the SBOM timestamp of 2026-09-30 (E1). It also matches the highest-scoring current candidate (0.622)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "yt-dlp",
+  "kind": "version",
+  "value": 6.618430028555647,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "yt-dlp",
+   "version": "2026.8.19",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2026.8.19 is the highest-prior candidate (0.29) among versions published before the SBOM timestamp (2026-09-30), satisfies the declared range >=2024.4, and matches the top current_candidates probability (0.496). The package exists in PyPI with 649 versions."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 6.019773518346767,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "pyasn1 exists in pypi registry (E1). Version 0.6.4 is the highest-probability candidate (0.75) and was published before the SBOM timestamp of 2026-09-30 (E2). It matches the purl pkg:pypi/pyasn1@0.6.4."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 4.897143610382883,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.9.2 is confirmed to exist in the PyPI registry (E1), is listed as a valid candidate published before the SBOM timestamp of 2026-09-30 (E2), and has the highest prior probability (0.314) among all candidates. No known vulnerabilities (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "joserfc",
+  "kind": "version",
+  "value": 4.002197053133204,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "joserfc",
+   "version": "1.7.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.7.5 is confirmed to exist in the PyPI registry (E1) and is among the versions published before the SBOM timestamp (E2). It also has the highest probability score (0.466) among the current candidates, making it the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "python-multipart",
+  "kind": "version",
+  "value": 3.487543000675391,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "version": "0.0.32",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.0.32 is confirmed to exist in pypi (E1) and has the highest prior probability (0.623) among versions satisfying the declared range (>=0.0.9) and published before the SBOM timestamp (E2). It also matches the top candidate in the SBOM's current_candidates with score 0.859."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "fastmcp",
+  "kind": "version",
+  "value": 3.2054659316342113,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "fastmcp",
+   "version": "3.4.7",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "fastmcp 3.4.7 is confirmed to exist in the PyPI registry (E1), is the highest-prior candidate satisfying the declared range >=0.2 and published before the SBOM timestamp (E2), and is a valid published version per OSV (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.0620154115351106,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.14.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.14.0 is the top candidate in both the SBOM's candidate distribution (0.551) and the registry's prior probability (0.446). It satisfies the declared range (>=0.30), was published before the SBOM timestamp (2026-09-30), and is confirmed to exist in the PyPI registry."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mem0ai",
+  "kind": "version",
+  "value": 2.011194340690703,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mem0ai",
+   "version": "2.0.20",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "mem0ai 2.0.20 is confirmed to exist in the PyPI registry (E1), is the highest-prior version satisfying the declared range >=2.0,<3 (E2), and aligns with the SBOM's top current candidate (probability 0.205). It was published before the SBOM timestamp of 2026-09-30."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "aiosmtplib",
+  "kind": "version",
+  "value": 1.7474858789376668,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "aiosmtplib",
+   "version": "5.1.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 5.1.2 is confirmed to exist in PyPI (E2), has the highest prior probability (0.403) among all candidates (E1), matches the SBOM's stated version_field, and satisfies the declared range \">=3.0\"."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "authlib",
+  "kind": "version",
+  "value": 1.7138251718659103,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "authlib",
+   "version": "1.7.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "authlib exists in pypi registry (E1). Version 1.7.2 is confirmed published before the SBOM timestamp (E2) and has the highest candidate probability (0.548) in the SBOM's own distribution, consistent with the prior probability ranking. No declared range constraint to satisfy."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "sentence-transformers",
+  "kind": "version",
+  "value": 1.686515802768089,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "sentence-transformers",
+   "version": "6.0.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package exists in pypi registry (E1). Version 6.0.1 is published before the SBOM timestamp 2026-09-30 (E2), satisfies the declared range >=2.2.2, and has the highest probability (0.215) among the current candidates in the SBOM."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "datasets",
+  "kind": "version",
+  "value": 1.6181037796384878,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "datasets",
+   "version": "5.0.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Package 'datasets' exists on PyPI (E2) with 121 versions. The declared range is exactly '5.0.1', and 5.0.1 is the top candidate in both the SBOM's own distribution (0.676) and the registry prior (0.412, E1). It is published before the SBOM timestamp (2026-09-30) and is confirmed as a valid version (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "httplib2",
+  "kind": "version",
+  "value": 1.521658298253891,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httplib2",
+   "version": "0.32.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.32.0 is confirmed as the most likely version. E1 shows it has the highest prior probability (0.55) among versions published before the SBOM timestamp (2026-09-30). E2 confirms 0.32.0 exists in the PyPI registry. The SBOM's own current_candidates also rank 0.32.0 highest at 0.797."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "msgpack",
+  "kind": "version",
+  "value": 1.4639489212895194,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "msgpack",
+   "version": "1.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.2.2 is the highest-probability candidate (0.413) in the SBOM's distribution, is confirmed to exist in the PyPI registry (E2), and was published before the SBOM timestamp of 2026-09-30 (E1). The purl pkg:pypi/msgpack@1.2.2 matches the declared version_field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "cryptography",
+  "kind": "version",
+  "value": 1.2102026092675695,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 50.0.1 is confirmed to exist in PyPI (E2) and is listed as a candidate published before the SBOM timestamp with the highest prior probability (0.255 in E1, matching the SBOM's stated candidate probability of 0.531). It is the second-latest version, with 50.0.2 being newer. The SBOM explicitly states version 50.0.1, and this is consistent with the registry data."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

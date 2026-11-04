@@ -1,0 +1,199 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 21.89480570512653,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.8",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The SBOM's probability distribution shows 3.1.8 as the most likely version (0.308). Registry lookup confirms fast-uri exists in npm (E1). Version 3.1.8 was available before the SBOM timestamp (E2, E3). Within the 3.1.x range, 3.1.8 has the highest prior probability (0.213) (E3). Version 3.1.8 is confirmed as a valid published version (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "hono",
+  "kind": "version",
+  "value": 21.466353248081663,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.13.13",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pkg:npm/hono@4.13.13. Registry lookup confirms this package exists in npm (E1). Version listing before the SBOM timestamp confirms 4.13.13 was published and is the highest-probability candidate (E2). The version satisfies all constraints."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "vite",
+  "kind": "version",
+  "value": 20.260969891802123,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vite",
+   "version": "8.3.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "vite 8.3.5 is confirmed as a published npm version before the SBOM timestamp (2026-11-11). It has the highest confidence score (0.165) among all candidates and matches the version declared in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sdk",
+  "kind": "version",
+  "value": 18.30353540936537,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "1.30.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 1.30.0 is the highest probability candidate (0.311) from the provided distribution, satisfies the declared range ^1.26.0, was published before the SBOM timestamp, and is explicitly listed in the SBOM's other_components_sample as pkg:npm/%40modelcontextprotocol/sdk@1.30.0."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 13.477106307019191,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The SBOM declares brace-expansion@1.1.21. Registry lookup confirms the package exists in npm (E1). Querying for the exact version 1.1.21 confirms it is a valid published version (E3). Among all 1.1.x versions available before the SBOM timestamp, 1.1.21 has the highest prior probability (0.381) (E4). The declared version is confirmed and most likely correct."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 11.82981122761959,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM purl explicitly declares version 10.7.4. This version exists in the npm registry (E1) and was published before the SBOM timestamp (E2). It is one of the highest-probability candidates. No reason to doubt the declared version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 6.292650652864484,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "The SBOM explicitly declares version 5.0.12 in both version_field and purl. Registry lookup confirms brace-expansion exists on npm (E1). Version 5.0.12 was published before the SBOM timestamp and is the highest-confidence candidate (0.69) among those available at that time (E2). The version satisfies the pinned spec (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "node-server",
+  "kind": "version",
+  "value": 3.6072201898492553,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@hono/node-server",
+   "version": "2.1.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM explicitly declares version 2.1.1 in both version_field and purl (pkg:npm/@hono/node-server@2.1.1). The package exists in npm registry (E1). Version 2.1.1 is confirmed to exist and was available before the SBOM timestamp (E2, E3). Among current candidates, 2.1.1 has the highest probability (0.321)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 2.252594291274798,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 6.16.0 is confirmed to exist in npm registry (E1), was available before the SBOM timestamp of 2026-11-11 (E2), and is a valid published version (E3). It has the highest probability (0.549) among the current candidates and matches the version_field in the SBOM."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 1.9632405129556847,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Version 2.3.0 has the highest prior probability (0.557) among versions published before the SBOM timestamp (2026-11-11), and matches the SBOM's declared version. It was confirmed to exist in the npm registry (E3). The version 2.4.0 has lower prior probability (0.155) and lower confidence in the SBOM candidates."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

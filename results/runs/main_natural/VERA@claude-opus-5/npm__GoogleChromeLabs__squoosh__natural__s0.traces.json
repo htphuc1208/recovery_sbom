@@ -1,0 +1,39 @@
+[
+ {
+  "component": "ejs",
+  "kind": "version",
+  "value": 1.5906224131147504,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ejs",
+   "version": "3.1.10",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 3.1.10 is the latest version of ejs published before the SBOM timestamp (2024-08-19), and its prior probability (0.658) closely matches the SBOM's candidate probability (0.683), making it the most likely version."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "postcss-selector-parser",
+  "kind": "version",
+  "value": 1.14394223030157,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-selector-parser",
+   "version": "6.1.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM purl declares postcss-selector-parser@6.1.0. The version candidate distribution (E1) shows 6.1.0 as the top candidate with prior 0.249 (highest among all candidates). The package exists in npm registry (E2) with 74 versions, and 6.1.0 is among the published versions before the SBOM timestamp (2024-08-19). The 6.x line is consistent with the postcss 7.x ecosystem used by cssnano 4.1.11 in the Squoosh project. No declared range constraint to override the version selection."
+  },
+  "steps": 6,
+  "tool_calls": 6
+ }
+]

@@ -1,0 +1,195 @@
+[
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 14.525482880257982,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM declares version 1.1.21 for brace-expansion. Registry lookup confirms the package exists in npm (E1). Version 1.1.21 is a valid published version (E2, E5) and was available before the SBOM timestamp of 2026-10-09 (E4). The current_candidates probability distribution also shows 1.1.21 as the most likely version at 0.592 confidence."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "sharp",
+  "kind": "version",
+  "value": 8.535510743244947,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "sharp",
+   "version": "0.35.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The version 0.35.5 is the most likely exact version because: (1) it is explicitly stated in the SBOM's version_field, (2) it has the highest probability (0.548) among current candidates, (3) it is confirmed to exist in the npm registry as the latest version (E1), and (4) it was available before the SBOM timestamp of 2026-10-09 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "follow-redirects",
+  "kind": "version",
+  "value": 7.356062068585395,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "follow-redirects",
+   "version": "1.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The version_field in the component data is 1.16.0, and it has the highest probability (0.51) among candidates. Both 1.16.0 and 1.16.1 exist in the npm registry and were published before the SBOM timestamp. The declared version_field points to 1.16.0 as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 3.484577915886816,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declared version 1.2.2 is uncertain. Registry lookup confirms the package exists in npm. Version listing before the SBOM timestamp shows 1.2.1 as the most likely version with 0.927 prior probability, significantly higher than 1.2.2 at 0.071."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "nanoid",
+  "kind": "version",
+  "value": 2.598750356531625,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "nanoid",
+   "version": "5.1.16",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The version 5.1.16 is confirmed to exist in npm registry (E1), satisfies the declared range ^5.1.5, was published before the SBOM timestamp, and has the highest prior probability (0.594) among all candidate versions (E2). It also matches the SBOM's declared version_field exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "postcss-selector-parser",
+  "kind": "version",
+  "value": 2.3030328778763836,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-selector-parser",
+   "version": "7.1.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 7.1.6 exists in the npm registry (E1) and was published before the SBOM timestamp (E2). It is the highest-probability candidate (0.63) and matches the version_field exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "lodash-es",
+  "kind": "version",
+  "value": 1.7766890575820202,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lodash-es",
+   "version": "4.18.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.18.1 is the most likely exact version: it matches the version_field in the SBOM, satisfies the declared range ^4.17.21, was published before the SBOM timestamp, and has the highest probability (0.796) among all valid candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "flatted",
+  "kind": "version",
+  "value": 1.3010326106379984,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "flatted",
+   "version": "3.4.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 3.4.4 is the latest published version of flatted on npm before the SBOM timestamp (2026-10-09), has the highest prior probability among candidates, and matches the version_field declared in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "form-data",
+  "kind": "version",
+  "value": 1.2286582673338429,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "form-data",
+   "version": "4.0.6",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares form-data@4.0.6 with purl pkg:npm/form-data@4.0.6. Version 4.0.6 exists in the npm registry and was published before the SBOM timestamp (2026-10-09). It has the highest confidence score (0.836) among candidates and is the exact version declared in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "picomatch",
+  "kind": "version",
+  "value": 1.1850286087216184,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "picomatch",
+   "version": "2.3.2",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The SBOM declares picomatch@2.3.2. E1 confirms picomatch exists in npm and 2.3.2 is a known version. E3 confirms version 2.3.2 was published before the SBOM timestamp (2026-10-09) and is pinned by the spec. The version_field explicitly states 2.3.2, and the purl confirms pkg:npm/picomatch@2.3.2. This is the most likely exact version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

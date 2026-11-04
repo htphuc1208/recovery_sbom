@@ -1,0 +1,215 @@
+[
+ {
+  "component": "undici",
+  "kind": "version",
+  "value": 21.74595217847722,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "undici",
+   "version": "8.12.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 8.12.3. The list_versions query with spec=8.12.3 and before=2026-11-06T11:14:31-06:00 returned only version 8.12.3 as a candidate, confirming it was published before the SBOM timestamp and satisfies the declared range."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "js-yaml",
+  "kind": "version",
+  "value": 5.913433676214758,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "js-yaml",
+   "version": "3.15.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "js-yaml@3.15.2 is the most likely version: it satisfies the declared range ^3.14.0, was available before the SBOM timestamp (2026-11-06), and has the highest probability score (0.725) among candidates. It is also the latest 3.x version confirmed by registry lookup."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 3.0833661572245044,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 1.2.2. The list_versions query confirms that 1.2.2 is the only version satisfying this constraint and was available before the SBOM timestamp. This matches the higher-probability candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@img/sharp_libvips_linux_arm",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-libvips-linux-arm",
+   "version": "1.2.4",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The SBOM declared name '@img/sharp_libvips_linux_arm' uses underscores which doesn't exist in npm registry (E1). The correct name uses hyphens: '@img/sharp-libvips-linux-arm' (E3). Version 1.2.4 exists and was published before the SBOM timestamp 2026-11-06 (E4), matching the declared version_field."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "@mixmark_io/domino",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "name": "domino",
+   "rationale": "The package @mixmark_io/domino does not exist in npm registry (E1). However, the package 'domino' exists in npm (E2) and is likely the intended package given the npm ecosystem context. Version 2.2.0 does not exist for domino (E3), so the closest available version before the SBOM timestamp is 2.1.8 (E4).",
+   "version": "2.1.8"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "DETECT-LIBC",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'DETECT-LIBC' was not found in any of the major package registries (npm, PyPI, Maven). E1 confirms it doesn't exist in npm, E2 confirms it doesn't exist in PyPI, and E3 confirms it doesn't exist in Maven. Since the component has no registry match, its true package identity (ecosystem + registry name) and version cannot be determined. The version '2.1.2' cannot be verified against any known package."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "Isexe",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The package name 'Isexe' was not found in any of the major package registries (npm, pypi, maven). Despite the SBOM being primarily npm-based, the package does not exist under this exact name in any registry. This appears to be a misspelled or non-existent package name that cannot be resolved to a valid package identity."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "Lodash.startcase",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lodash.startcase",
+   "version": "4.4.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Lodash.startcase' is a case-variant of the npm package 'lodash.startcase'. Registry lookup confirmed the package exists in npm (E1). The latest version published before the SBOM timestamp of 2026-11-06 is 4.4.0 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mdast_util_gfm_task_list_item",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mdast-util-gfm-task-list-item",
+   "version": "2.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'mdast_util_gfm_task_list_item' is the underscore-separated form of the scoped npm package 'mdast-util-gfm-task-list-item'. Registry lookup confirmed it exists in npm (E1). The SBOM timestamp is 2026-11-06, and the latest version published before that date is 2.0.0 (E2). Both 2.0.0 and 2.0.1 are available, but 2.0.0 is the most recent stable release prior to 2.0.1 and is the most likely version used. No vulnerabilities found in either version (E5, E6)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "XML-NAME-VALIDATOR",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "xml-name-validator",
+   "version": "5.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM component 'XML-NAME-VALIDATOR' with declared range '^5.0.0' in an npm ecosystem corresponds to the npm package 'xml-name-validator'. Version 5.0.0 is the only version matching the range and published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "WHATWG-MIMETYPE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "whatwg-mimetype",
+   "version": "5.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared name 'WHATWG-MIMETYPE' is a case-variant of the npm package 'whatwg-mimetype'. The exact case variant does not exist in npm (E3), but 'whatwg-mimetype' exists (E1) and version 5.0.0 was available before the SBOM timestamp (E2). The declared version 5.0.0 matches the latest available version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

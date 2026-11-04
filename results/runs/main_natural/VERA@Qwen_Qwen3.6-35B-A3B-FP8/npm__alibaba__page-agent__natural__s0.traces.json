@@ -1,0 +1,119 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 25.22821684700342,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.7",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The purl explicitly references fast-uri@3.1.7. Registry lookup confirms the package exists in npm (E1). Listing versions before the SBOM timestamp confirms 3.1.7 was published and is available (E2). Filtering by spec '3.1.7' returns exactly version 3.1.7 (E3), confirming it as the most likely exact version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "js-yaml",
+  "kind": "version",
+  "value": 9.589640814556716,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "js-yaml",
+   "version": "4.3.2",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The purl explicitly states pkg:npm/js-yaml@4.3.2. list_versions with spec '4.3.2' confirms this exact version exists and was published before the SBOM timestamp (E3). E1 confirms the package exists in npm registry. 4.3.2 is the highest probability candidate (0.542) and matches the declared version_field."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 8.212489507980898,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "2.1.4",
+   "evidence": [
+    "E1",
+    "E4",
+    "E6"
+   ],
+   "rationale": "The purl explicitly specifies pkg:npm/brace-expansion@2.1.4. The package exists in npm (E1). Listing versions with spec '2.1.4' before the SBOM timestamp confirms that version 2.1.4 is a valid, published release (E4, E6). The candidate probabilities also show 2.1.4 as the highest (0.639). Therefore, 2.1.4 is the most likely exact version."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "lodash-es",
+  "kind": "version",
+  "value": 2.340530301180681,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lodash-es",
+   "version": "4.18.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "lodash-es 4.18.1 is the latest version in the npm registry and the most probable version published before the SBOM timestamp, with a prior probability of 0.731. It matches the version declared in the SBOM (4.18.1) and has the highest confidence among all candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 2.2280612660079964,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "9.0.9",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 9.0.9 has the highest probability (0.797) among 9.0.x candidates and was confirmed to be published before the SBOM timestamp (2026-09-06). The package exists in npm registry (E3) and version 9.0.9 is available (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "flatted",
+  "kind": "version",
+  "value": 1.7139719376095512,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "flatted",
+   "version": "3.4.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares flatted@3.4.4. Registry lookup confirms this version exists in npm. list_versions confirms 3.4.4 was published before the SBOM timestamp and is the highest-confidence candidate (0.635). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

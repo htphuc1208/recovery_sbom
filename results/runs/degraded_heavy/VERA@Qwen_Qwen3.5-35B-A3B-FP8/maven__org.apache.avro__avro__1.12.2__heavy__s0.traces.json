@@ -1,0 +1,21 @@
+[
+ {
+  "component": "commons-compress",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.commons:commons-compress",
+   "version": "1.28.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original component had name 'commons-compress' with no group, causing 'no registry match'. In Maven ecosystem, the correct coordinate is 'org.apache.commons:commons-compress' as confirmed by E2. Version 1.28.0 exists and is the latest version, confirmed by E3."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

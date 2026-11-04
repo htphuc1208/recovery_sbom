@@ -1,0 +1,318 @@
+[
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 114.66703155581803,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 12.3.0 is the most likely exact version based on highest prior probability (0.484) among versions satisfying the declared range >=11.3.0 and published before the SBOM timestamp 2026-11-11. This also matches the highest probability candidate (0.54) from the SBOM's current_candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "gitpython",
+  "kind": "version",
+  "value": 55.08392834455896,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "gitpython",
+   "version": "3.2.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "Version 3.2.1 is the most likely exact version based on: (1) highest prior probability (0.211) among candidates published before SBOM timestamp, (2) confirmed as latest version in pypi registry, (3) no known vulnerabilities, and (4) version 3.2.0 has CVE-2026-114145 (severity 7.5), making 3.2.1 the likely patched release. Version 3.2.1 satisfies the declared range >=3.1.46."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "pyjwt",
+  "kind": "version",
+  "value": 36.82030126132931,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyjwt",
+   "version": "2.15.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.15.1 is the most likely exact version because: (1) it was the version declared in the SBOM with highest confidence (0.521), (2) it has zero known vulnerabilities (E3) compared to other candidates like 2.13.0 (15 vulns, E4) and 2.12.1 (16 vulns, E6), (3) it satisfies the declared range >=2.9.0, and (4) it was available before the SBOM timestamp of 2026-11-11 (E2)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "pydantic-ai-slim",
+  "kind": "version",
+  "value": 15.254383622709359,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pydantic-ai-slim",
+   "version": "2.66.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "Version 2.66.0 is the most likely exact version because: (1) it exists in PyPI and was available before the SBOM timestamp of 2026-11-11 (E1, E2, E5); (2) it satisfies the declared range >=2.0.0 (E6); (3) it is the newest version available before the timestamp, consistent with the highest probability candidate (0.113) in current_candidates; (4) its dependencies (anyio>=4.7.0, httpx2>=2.7, opentelemetry-api>=1.28.0, pydantic>=2.12, typing-inspection>=0.4.0) are all satisfied by the other components in the SBOM (E3); (5) pydantic-graph==2.66.0 is an exact dependency, and that version also exists (E4)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "graphql-core",
+  "kind": "version",
+  "value": 9.644130888771407,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "graphql-core",
+   "version": "3.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares graphql-core@3.3.0. Registry lookup confirms the package exists in pypi and 3.3.0 is a valid published version. Version listing before the SBOM timestamp shows 3.3.0 as a candidate with the highest prior probability (0.277), matching the declared version exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.377992577047137,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "urllib3 exists in pypi (E1). Version 2.8.0 was available before the SBOM timestamp 2026-11-11 (E2) and has the highest probability (0.614) among current candidates. No declared range constraint exists to narrow the version further."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "strawberry-graphql",
+  "kind": "version",
+  "value": 4.392839949237829,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "strawberry-graphql",
+   "version": "0.327.7",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 0.327.7 is the most likely exact version based on: (1) it has the highest probability (0.157) among current candidates, (2) it was available before the SBOM timestamp of 2026-11-11, (3) it satisfies the declared range >=0.200.0,<1.0.0, and (4) the purl already indicates this version. The package exists in PyPI registry."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "black",
+  "kind": "version",
+  "value": 3.4332941026090493,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "black",
+   "version": "26.5.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'black' exists in PyPI (E1). Among versions satisfying the declared range >=25.1.0 and published before the SBOM timestamp 2026-11-11, version 26.5.1 has the highest prior probability (0.501) per the version list (E2). This also matches the SBOM's current_candidates where 26.5.1 had the highest confidence score (0.477)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 3.400553456659958,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The package httpx2 exists in pypi registry. Version 2.16.0 is the latest version, was published before the SBOM timestamp, matches the declared version and exact range (2.16.0), has the highest probability among candidates (0.35), and has no known vulnerabilities."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "dnspython",
+  "kind": "version",
+  "value": 3.239529201657482,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "dnspython",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares dnspython version 2.8.0. Registry lookup confirms this package exists in PyPI (E1). Listing versions published before the SBOM timestamp shows 2.8.0 is available and has the highest prior probability (0.726) among all candidates (E2). No declared range constraints exist. Therefore, 2.8.0 is confirmed as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "cryptography",
+  "kind": "version",
+  "value": 2.681739489895064,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 50.0.2 for pkg:pypi/cryptography. Registry lookup confirms this version exists in PyPI (E1) and list_versions confirms it was published before the SBOM timestamp (E2). It is also the most likely candidate by probability."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "werkzeug",
+  "kind": "version",
+  "value": 2.465864695967186,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "werkzeug",
+   "version": "3.1.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM timestamp is 2026-11-11T23:28:24+01:00. Querying available werkzeug versions before this date (E2) shows 3.1.8 has the highest prior probability (0.531) among all versions published before the SBOM generation time. E1 confirms werkzeug exists in the pypi registry."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "starlette",
+  "kind": "version",
+  "value": 2.0053723732467867,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "starlette",
+   "version": "1.10.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 1.10.0 is confirmed to exist in pypi (E1), was published before the SBOM timestamp of 2026-11-11 (E2), satisfies the declared range >=0.46.0, has no known vulnerabilities (E4), and its dependencies (anyio, typing-extensions) match the SBOM context (E3). It also has the highest probability score (0.263) among candidates and matches the purl version."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "cairosvg",
+  "kind": "version",
+  "value": 1.8092917165703244,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "cairosvg",
+   "version": "2.9.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares cairosvg with version_field 2.9.1 and declared range >=2.8.2. Version 2.9.1 was available before the SBOM timestamp (2026-11-11) and has the highest probability score (0.664) among candidates. It satisfies the declared range constraint."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "python-multipart",
+  "kind": "version",
+  "value": 1.7086041416931022,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "version": "0.0.32",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly declares python-multipart@0.0.32. This version exists on PyPI (E1), was published before the SBOM timestamp, and satisfies the declared range >=0.0.18 (E2). It is also the highest-probability candidate among all valid versions."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "anyio",
+  "kind": "version",
+  "value": 1.5399073415162823,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "anyio",
+   "version": "4.15.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares anyio with a pinned version range '4.15.1'. Registry lookup confirms anyio exists in pypi (E1). Listing versions with spec '4.15.1' before the SBOM timestamp returns exactly version 4.15.1 (E2). This is the only version satisfying the declared range and predating the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

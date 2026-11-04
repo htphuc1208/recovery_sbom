@@ -1,0 +1,80 @@
+[
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 10.939954368140285,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares brace-expansion@1.1.21 with range ^1.1.0. E1 confirms the package exists in npm and 1.1.21 is among the latest versions. E2 lists versions satisfying ^1.1.0 before the SBOM timestamp (2026-11-12), with 1.1.21 having the highest prior probability (0.378). The declared version is confirmed as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 3.9029394745397297,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares zod@4.6.7 with the highest confidence (0.466). Registry lookup confirms 4.6.7 exists and is the latest version (E1). Version list published before the SBOM timestamp confirms 4.6.7 was available (E2). No evidence suggests a different version was used."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Chalk",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "chalk",
+   "version": "4.1.2",
+   "evidence": [
+    "E1",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component 'Chalk' with version 4.1.2 exists in the npm registry. E1 confirms chalk exists in npm with 45 versions. E4 confirms version 4.1.2 is available when pinned by spec. E5 confirms version 4.1.2 was published before the SBOM timestamp of 2026-11-12. The SBOM majority ecosystem is npm, and the other components are all npm packages, confirming this is an npm package."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "p_locate",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "p-locate",
+   "version": "5.0.0",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The declared name 'p_locate' was a typo; the correct npm package is 'p-locate' (with hyphen). The declared range ^5.0.0 matches only version 5.0.0, which was published before the SBOM timestamp."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

@@ -1,0 +1,190 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 21.89480570512653,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "fast-uri@3.1.8 is confirmed to exist in the npm registry (E1) and was published before the SBOM timestamp of 2026-11-11. Among the candidate versions, 3.1.8 has the highest probability score (0.308), making it the most likely version that was in use when the SBOM was generated."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "hono",
+  "kind": "version",
+  "value": 21.466353248081663,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.13.13",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.13.13 is confirmed to exist in the npm registry (E2) and was published before the SBOM timestamp of 2026-11-11. It has the highest prior probability among candidates (E1: 0.141) and matches the version field already declared in the SBOM, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "vite",
+  "kind": "version",
+  "value": 20.260969891802123,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vite",
+   "version": "8.3.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "vite 8.3.5 is confirmed to exist in the npm registry (E2) and is the highest-prior version published before the SBOM timestamp 2026-11-11 (E1). It also matches the top candidate in the SBOM's own probability distribution (0.165)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sdk",
+  "kind": "version",
+  "value": 18.30353540936537,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "1.30.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.30.0 is the highest-probability candidate (0.311) in the SBOM, satisfies the declared range ^1.26.0, is confirmed to exist in the npm registry (E2), and appears in the SBOM's other_components_sample. Registry prior probability (0.284) also ranks it among the top candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 13.477106307019191,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E2"
+   ],
+   "rationale": "The version distribution from list_versions with spec ^1.1.0 (E2) closely matches the SBOM's current_candidates distribution, with 1.1.21 as the top candidate (prior 0.377). The SBOM's candidate probabilities (1.1.21: 0.565, 1.1.18: 0.223, etc.) align with the registry's prior distribution for the 1.1.x range, confirming 1.1.21 as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 11.82981122761959,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.4",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 10.7.4 of npm package 'ip-address' is confirmed to exist in the registry (E1) and was published before the SBOM timestamp of 2026-11-11. It is also the highest-probability candidate (0.145) in the SBOM's current_candidates list."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 6.292650652864484,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 5.0.12 is confirmed to exist in the npm registry (E2) and was published before the SBOM timestamp of 2026-11-11. It also has the highest prior probability (0.381) among all versions (E1), aligning with the SBOM's candidate probability of 0.69."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "node-server",
+  "kind": "version",
+  "value": 3.6072201898492553,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@hono/node-server",
+   "version": "2.1.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Package @hono/node-server exists in npm registry (E1). Version 2.1.1 is listed among available versions published before the SBOM timestamp (E2). The candidate probability distribution shows 2.1.1 as the most likely version (0.321), well above the next candidate 2.1.5 (0.218). OSV lookup confirms 2.1.1 is a real published version (E3). No declared range constraint to consider."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 2.252594291274798,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 6.16.0 of qs exists in the npm registry (E1) and was published before the SBOM timestamp of 2026-11-11. It also has the highest probability (0.549) among the current candidates, making it the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 1.9632405129556847,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "body-parser 2.3.0 is confirmed to exist in the npm registry (E2) and is listed among versions published before the SBOM timestamp (E1). The SBOM's candidate probability strongly favors 2.3.0 (0.738) over 2.4.0 (0.262), and 2.3.0 matches the originally declared version in the purl."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

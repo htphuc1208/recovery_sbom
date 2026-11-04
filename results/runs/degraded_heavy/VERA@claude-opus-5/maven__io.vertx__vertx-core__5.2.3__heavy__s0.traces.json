@@ -1,0 +1,135 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Registry lookup confirms io.netty:netty-transport exists in Maven Central (E1). Version 4.2.20.Final is listed as the latest version and matches the version used by all other io.netty components in the SBOM (netty-common, netty-buffer, netty-handler, etc.), confirming consistency with the SBOM context."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "netty-codec-dns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-codec-dns",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Registry lookup (E1) confirms io.netty:netty-codec-dns exists in Maven Central with 4.2.20.Final as the latest version. The version aligns with all other Netty components in the SBOM (e.g., netty-common, netty-buffer, netty-codec-http2 all at 4.2.20.Final), and is published before the SBOM timestamp of 2026-11-03."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "netty-transport-classes-epoll",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport-classes-epoll",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Package exists in Maven Central as io.netty:netty-transport-classes-epoll (E1). The vertx-core 5.2.3 parent chain's dependencyManagement resolves this artifact to 4.2.20.Final (E3), which is consistent with all other Netty components in the SBOM (e.g., netty-common, netty-buffer, netty-handler all at 4.2.20.Final)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-transport-classes-kqueue",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport-classes-kqueue",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Registry lookup confirms the artifact exists in Maven Central as io.netty:netty-transport-classes-kqueue, and 4.2.20.Final is listed among its released versions. This is consistent with the SBOM's majority ecosystem (maven) and the naming/versioning pattern of all other io.netty components in the SBOM (e.g., netty-common, netty-buffer, netty-handler all at 4.2.20.Final)."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-annotations",
+   "version": "2.21",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name \"jackson-annotations\" with version \"2.21\" in a Maven SBOM (majority ecosystem maven, root io.vertx/vertx-core) maps to com.fasterxml.jackson.core:jackson-annotations. E1 confirms the package exists in Maven Central. E3 confirms version 2.21 is published and pinned by spec. E2 shows 2.21 is among the most likely versions given the SBOM timestamp. The sibling component com.fasterxml.jackson.core/jackson-core@2.21.8 in the same SBOM corroborates the groupId."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "vertx-codegen-processor",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.vertx:vertx-codegen-processor",
+   "version": "5.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Registry lookup (E1) confirms the package exists in Maven Central as io.vertx:vertx-codegen-processor with 5.2.3 as the latest version. The SBOM root is io.vertx:vertx-core@5.2.3 (E2), and codegen-processor is a sibling Vert.x module typically released in lockstep with vertx-core. Version 5.2.3 matches the root version and is consistent with the SBOM timestamp of 2026-11-03."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "tools.jackson.core:jackson-core",
+   "version": "3.1.8",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "Jackson 3.x relocated to the new groupId `tools.jackson.core`. The original `com.fasterxml.jackson.core:jackson-core` (E1) only has 2.x versions, so the bare name \"jackson-core\" with version 3.1.8 fails to match. E3 confirms version 3.1.8 exists under `tools.jackson.core:jackson-core` and was published before the SBOM timestamp (2026-11-03)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ }
+]

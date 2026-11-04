@@ -1,0 +1,291 @@
+[
+ {
+  "component": "ejs",
+  "kind": "version",
+  "value": 1.7131323878773381,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ejs",
+   "version": "3.1.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 3.1.10 is the latest 3.x release of ejs on npm, satisfies the declared range ^3.1.0, was published before the SBOM timestamp (2024-08-19), and has the highest prior probability (0.658) among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "image-size",
+  "kind": "version",
+  "value": 1.0567014446946081,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "image-size",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "image-size exists in npm registry (E2) with 74 versions. Among candidates published before the SBOM timestamp 2024-08-19, version 1.1.1 has the highest prior probability (0.853) per E1, and is a valid published version. No declared range constraint to consider."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "Big.js",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "big.js",
+   "version": "5.2.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Registry lookup (E1) confirms \"big.js\" exists in npm. The SBOM majority ecosystem is npm and other components are npm packages. Version 5.2.2 is confirmed via OSV lookup (E3), and 33 versions were published before the SBOM timestamp (E2), consistent with 5.2.2 being a valid pre-2024-08-19 release."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Csso",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "csso",
+   "version": "4.0.3",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component \"Csso\" with version 4.0.3 matches the npm package \"csso\" (case-insensitive match). E1 confirms csso exists in the npm registry. E3 confirms version 4.0.3 is a valid published version (OSV returned no vulnerabilities but the lookup succeeded). The SBOM context shows npm as the majority ecosystem and the root is the squoosh project, which uses csso as a dependency."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "ESTREE-WALKER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "estree-walker",
+   "version": "2.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"ESTREE-WALKER\" failed registry lookup due to case sensitivity (npm packages are lowercase). The correct registry name is \"estree-walker\" (E1 confirms it exists in npm). Version 2.0.2 is confirmed by the SBOM's own other_components_sample which lists \"pkg:npm/estree-walker@2.0.2\", and E1 confirms 2.0.2 is a published version. This is consistent with the squoosh project (root: GoogleChromeLabs/squoosh) which uses estree-walker 2.x."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Execa",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "execa",
+   "version": "8.0.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "\"Execa\" is the npm package \"execa\" (case-insensitive). It exists in the npm registry (E1). Among versions published before the SBOM timestamp (2024-08-19), version 8.0.1 has the highest prior probability (0.378), making it the most likely version used by the squoosh project at that time (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "FAST-GLOB",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-glob",
+   "version": "3.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "\"FAST-GLOB\" is the uppercase/normalized form of the npm package \"fast-glob\" (E1 confirms existence in npm registry). The SBOM context shows npm ecosystem with other components like @babel/code-frame, @rollup/plugin-commonjs, etc. Version 3.3.2 is the most likely version (E2: prior probability 0.908) published before the SBOM timestamp of 2024-08-19."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "HSL-REGEX",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hsl-regex",
+   "version": "1.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "HSL-REGEX matches the npm package \"hsl-regex\" (case-insensitive). Registry lookup (E1) confirms it exists with versions 1.0.0 and 0.0.1. Version listing (E2) confirms 1.0.0 was published before the SBOM timestamp 2024-08-19, matching the declared version_field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "IS-REFERENCE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-reference",
+   "version": "3.0.2",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component name \"IS-REFERENCE\" is an uppercase-mangled form of the npm package \"is-reference\" (E1 confirms existence in npm registry). The SBOM majority ecosystem is npm and the root is the squoosh project, which uses Rollup-based tooling (consistent with @rollup/plugin-commonjs in the sample). is-reference is a known dependency of @rollup/pluginutils used by Rollup plugins. Version 3.0.2 is the most likely version: it was published before the SBOM timestamp (2024-08-19) and has 94.3% prior probability among the 13 eligible versions (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "lines_and_columns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lines-and-columns",
+   "version": "1.1.6",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name \"lines_and_columns\" failed registry lookup because npm uses hyphens, not underscores. The correct package name is \"lines-and-columns\" (E3 confirms it exists in npm registry). Version 1.1.6 is confirmed available and published before the SBOM timestamp of 2024-08-19 (E4)."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "mime_db",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mime-db",
+   "version": "1.45.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name \"mime_db\" had no registry match (E2). The correct npm package is \"mime-db\" (E1), a well-known dependency in the npm ecosystem consistent with the SBOM's majority ecosystem. Version 1.45.0 was confirmed to exist via OSV (E4) and falls within the 63 versions published before the SBOM timestamp of 2024-08-19 (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "POSTCSS-DISCARD-EMPTY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-discard-empty",
+   "version": "4.0.1",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The SBOM listed the package name in uppercase (\"POSTCSS-DISCARD-EMPTY\"), which caused the registry match to fail. The actual npm package is \"postcss-discard-empty\" (E1 confirms it exists in npm). Version 4.0.1 is confirmed valid (E3 returns no error, E4 shows its declared dependency on postcss ^7.0.0, consistent with a 2019-era release well before the Aug 2024 SBOM timestamp). The version is preserved as-is from the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "SIGNAL-EXIT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "signal-exit",
+   "version": "3.0.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"SIGNAL-EXIT\" is a case-mangled form of the npm package \"signal-exit\" (E1 confirms it exists in npm). The declared range ^3.0.0 was applied with the SBOM timestamp as the upper bound; the newest version satisfying ^3.0.0 published before 2024-08-19 is 3.0.7 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "STRING-ARGV",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "string-argv",
+   "version": "0.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "STRING-ARGV matches the npm package \"string-argv\" (E1). The latest version published before the SBOM timestamp 2024-08-19 is 0.3.2 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Vendors",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vendors",
+   "version": "1.0.4",
+   "evidence": [
+    "E2",
+    "E4"
+   ],
+   "rationale": "The component name \"Vendors\" was a capitalization variant of the npm package \"vendors\" (E2). The declared range ^1.0.0 with SBOM timestamp 2024-08-19 resolves to the latest matching version 1.0.4 (E4)."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ }
+]

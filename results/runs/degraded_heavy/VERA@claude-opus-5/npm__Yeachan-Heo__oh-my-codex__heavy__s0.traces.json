@@ -1,0 +1,251 @@
+[
+ {
+  "component": "IP-ADDRESS",
+  "kind": "version",
+  "value": 10.34918093770293,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 10.7.5 is confirmed to exist in the npm registry (E2), has the highest candidate probability (0.272) among the listed candidates, and is consistent with the SBOM purl. The SBOM timestamp (2026-11-10) is after 10.7.5's publication, and no vulnerabilities were found (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 9.716831569837375,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "5.0.12 is the latest version of brace-expansion satisfying ^5.0.0 published before the SBOM timestamp, and it matches the highest-probability candidate (0.71) in the SBOM's current_candidates."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 3.6658967578416,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.4.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared_range is an exact pin to \"2.4.0\". Registry lookup (E1) confirms body-parser exists in npm with 2.4.0 as the latest version. The current_candidates also show 2.4.0 with the highest probability (0.553). Since the range is an exact match and 2.4.0 is published and available before the SBOM timestamp, 2.4.0 is the correct version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "proxy-addr",
+  "kind": "version",
+  "value": 2.9713517258370468,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "proxy-addr",
+   "version": "2.0.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package proxy-addr exists in npm registry (E1). Both 2.0.7 and 2.0.8 are valid versions published before the SBOM timestamp (E2). The SBOM's declared version_field and purl both specify 2.0.8, and the candidate distribution strongly favors 2.0.8 (0.687 vs 0.313), making 2.0.8 the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "Zod",
+  "kind": "version",
+  "value": 2.9218670196736807,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "zod exists in npm registry (E1). Version 4.6.7 is the latest published version before the SBOM timestamp 2026-11-10T22:18:00+09:00 (E1, E2), and it is the top candidate (0.607) in the SBOM's candidate distribution. No declared range to constrain further."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "@typescript/typescript_openbsd_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "typescript",
+   "version": "7.0.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name \"@typescript/typescript_openbsd_arm64\" does not exist in the npm registry (E2). The \"@typescript/\" scope and \"_openbsd_arm64\" suffix are artifacts of a malformed name: \"@typescript/\" is a stray scope prefix and \"_openbsd_arm64\" is a platform tag that was incorrectly concatenated to the package name. The actual package is \"typescript\" (E1), which exists in npm. Version 7.0.2 is confirmed published before the SBOM timestamp (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "Ajv",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ajv",
+   "version": "8.18.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"Ajv\" is a capitalization variant of the well-known npm package \"ajv\". Registry lookup (E1) confirms \"ajv\" exists in npm with 359 versions, and 8.18.0 is among the listed versions. Version listing (E2) confirms 8.18.0 was published before the SBOM timestamp of 2026-11-10. The SBOM majority ecosystem is npm, consistent with this fix."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "foreground_child",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "foreground-child",
+   "version": "3.3.1",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The SBOM listed the package as `foreground_child` (underscore), which does not exist in the npm registry (E1). The correct npm package name is `foreground-child` (hyphen), confirmed by registry lookup (E3). Version 3.3.1 is listed among available versions and was published before the SBOM timestamp of 2026-11-10 (E4)."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "Hono",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.12.26",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Registry lookup confirmed \"hono\" exists in npm (E1). The declared version 4.12.26 was confirmed as a published version via list_versions with spec '4.12.26' (E3). The SBOM majority ecosystem is npm, consistent with this being the npm \"hono\" package."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "ISTANBUL-LIB-REPORT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "istanbul-lib-report",
+   "version": "3.0.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"ISTANBUL-LIB-REPORT\" is the uppercase form of the npm package \"istanbul-lib-report\" (E1). Version 3.0.1 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10 (E2). The SBOM majority ecosystem is npm, consistent with this identification."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "OBJECT-ASSIGN",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "object-assign",
+   "version": "4.1.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name \"OBJECT-ASSIGN\" (uppercase) matches the npm package \"object-assign\" (E2), a well-known polyfill by Sindre Sorhus. The SBOM majority ecosystem is npm. The latest version published before the SBOM timestamp (2026-11-10) is 4.1.1 (E3). No declared range or version was provided, so the latest pre-timestamp version is used."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "OBJECT-INSPECT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "object-inspect",
+   "version": "1.13.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"OBJECT-INSPECT\" is a case-variant of the npm package \"object-inspect\" (E1 confirms it exists in npm registry). Since no version was specified in the SBOM and no declared range was provided, the latest version 1.13.4 (E2) is the most likely version, with 99.5% prior probability and published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PATH-SCURRY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "path-scurry",
+   "version": "2.0.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name \"PATH-SCURRY\" had no registry match (E1), but the lowercase form \"path-scurry\" exists in npm (E2). The declared range ^2.0.0 resolves to versions 2.0.0, 2.0.1, and 2.0.2 (E3); the latest satisfying version published before the SBOM timestamp 2026-11-10 is 2.0.2."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ }
+]

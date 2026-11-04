@@ -1,0 +1,174 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 24.199403281942484,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.9",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 3.1.9 is confirmed to exist in the npm registry (E2) and is listed among the candidates satisfying the ~3.1.0 range (E3). It has the highest probability (0.358) in the SBOM's current_candidates, matches the purl, and no declared_range constraint restricts it. Published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "hono",
+  "kind": "version",
+  "value": 19.84424975872491,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.13.13",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 4.13.13 has the highest prior probability (0.141) among all hono versions published before the SBOM timestamp (2026-11-10), and it also matches the highest-weighted candidate in the SBOM's current_candidates (0.313). No declared range constraint exists, and the sibling @hono/node-server@2.1.5 does not pin hono."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "sdk",
+  "kind": "version",
+  "value": 14.486529136235768,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "1.32.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package @modelcontextprotocol/sdk exists in npm registry (E1). Version 1.32.2 is the latest version satisfying the declared range ^1.26.0 and was published before the SBOM timestamp of 2026-11-10 (E2). The candidate probability distribution also shows 1.32.2 as the most likely (0.307), consistent with it being the latest available version at SBOM generation time."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 9.521751777540098,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 10.7.4 is confirmed to exist in the npm registry (E2), is listed among available versions published before the SBOM timestamp (E1), and has no known vulnerabilities (E3). It also has the highest probability score (0.209) among the SBOM's current candidates, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 3.880956493309979,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 5.0.12 is confirmed to exist in the npm registry (E2), is the highest-prior candidate from version listing (E1, prior 0.372), and matches the SBOM's top current candidate (0.813 confidence). It was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 3.8265930986308874,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.6.7 is the latest version of zod satisfying the declared range ^4.3.6 (E1), exists in the npm registry as the current latest (E2), and matches the highest-probability candidate (0.475) in the SBOM's current_candidates. The SBOM timestamp (2026-11-10) is consistent with 4.6.7 being the most recent release."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "node-server",
+  "kind": "version",
+  "value": 2.78229466008186,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@hono/node-server",
+   "version": "2.1.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Package @hono/node-server exists in npm registry (E1). Version 2.1.5 is listed among available versions published before the SBOM timestamp (E2). OSV confirms 2.1.5 is a valid published version with no known vulnerabilities (E3). The SBOM already declares 2.1.5, which matches the highest-probability candidate (0.319)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 2.7627614992338985,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 6.16.0 is confirmed to exist in the npm registry (E1) and was published before the SBOM timestamp of 2026-11-10. It is also the highest-probability candidate (0.447) in the current_candidates distribution, making it the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 2.6219275150848276,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "body-parser@2.3.0 is the latest version published before the SBOM timestamp (2026-11-10). 2.4.0 exists in the registry but was published after the SBOM timestamp, so it could not have been the version at SBOM generation time. The current candidate distribution (0.65 vs 0.35) also favors 2.3.0."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

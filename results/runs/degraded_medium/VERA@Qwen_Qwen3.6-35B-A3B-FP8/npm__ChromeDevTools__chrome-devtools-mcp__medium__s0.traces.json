@@ -1,0 +1,79 @@
+[
+ {
+  "component": "@ESLINT/OBJECT-SCHEMA",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@eslint/object-schema",
+   "version": "3.0.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name '@ESLINT/OBJECT-SCHEMA' was incorrectly formatted (uppercase, slash instead of scope). The correct npm package name is '@eslint/object-schema'. Version 3.0.5 exists, was published before the SBOM timestamp, and matches the declared version field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@sentry/server_runtime_injection",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@sentry/node",
+   "version": "11.8.0",
+   "evidence": [
+    "E1",
+    "E3",
+    "E6"
+   ],
+   "rationale": "The original name @sentry/server_runtime_injection does not exist in npm (E1). The version 11.8.0 matches @sentry/node which exists in the npm registry (E3) and has version 11.8.0 published before the SBOM timestamp (E6). Given the npm ecosystem context and version match, @sentry/node is the most likely intended package."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "core_js",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "core-js",
+   "version": "3.51.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'core_js' with underscore is a misnaming of the well-known npm package 'core-js'. Registry lookup confirmed 'core-js' exists in npm and version 3.51.0 is available and was published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "yocto_queue",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "yocto-queue",
+   "version": "0.1.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The original name 'yocto_queue' does not exist in any registry (E1, E2, E3). However, 'yocto-queue' exists in npm (E4) with version 0.1.0 available and published before the SBOM timestamp (E5). The underscore vs hyphen difference is a common naming error. The version 0.1.0 matches the declared version_field exactly."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ }
+]

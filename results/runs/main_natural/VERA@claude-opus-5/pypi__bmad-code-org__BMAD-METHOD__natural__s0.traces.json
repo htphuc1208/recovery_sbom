@@ -1,0 +1,39 @@
+[
+ {
+  "component": "virtualenv",
+  "kind": "version",
+  "value": 61.01311516455165,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "virtualenv",
+   "version": "21.15.6",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 21.15.6 is confirmed to exist in the PyPI registry (E1) and was published before the SBOM timestamp of 2026-11-12. It is also the highest-probability candidate (0.091) in the SBOM's current_candidates list, making it the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 38.029425239897456,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.2.4 is confirmed to exist in PyPI (E2) and was published before the SBOM timestamp of 2026-11-12 (E1). It is the top-ranked candidate (0.145 probability) and matches the version explicitly stated in the purl pkg:pypi/filelock@4.2.4."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

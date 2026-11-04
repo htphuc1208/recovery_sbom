@@ -1,0 +1,138 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "version": "4.2.20.Final",
+   "ecosystem": "maven",
+   "rationale": "The component netty-transport with version 4.2.20.Final was identified as a Maven package. Registry lookup confirmed io.netty:netty-transport exists in Maven with version 4.2.20.Final available. The version is published before the SBOM timestamp and has no known vulnerabilities.",
+   "name": "io.netty:netty-transport"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-codec-dns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-codec-dns",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Package io.netty:netty-codec-dns exists in Maven registry (E1) with version 4.2.20.Final available. The version has no known vulnerabilities (E3). The SBOM context shows other io.netty packages at the same version 4.2.20.Final, confirming consistency.",
+   "version": "4.2.20.Final"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-transport-classes-epoll",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Package exists in Maven registry (E1). Maven resolve from root artifact io.vertx:vertx-core:5.2.3 confirms version 4.2.20.Final (E5), which matches the version pattern of other Netty components in the SBOM.",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E5"
+   ],
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport-classes-epoll"
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "netty-transport-classes-kqueue",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport-classes-kqueue",
+   "version": "4.2.20.Final",
+   "rationale": "Package exists in Maven registry (E1). Version 4.2.20.Final is confirmed to exist (E2). The component's declared version matches this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "version": "2.21",
+   "rationale": "Package exists in Maven registry as com.fasterxml.jackson.core:jackson-annotations (E1). Version 2.21 is available and was published before the SBOM timestamp (E2, E3). The component's version_field was 2.21, which matches an available version.",
+   "name": "com.fasterxml.jackson.core:jackson-annotations"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "vertx-codegen-processor",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "version": "5.2.3",
+   "name": "io.vertx:vertx-codegen-processor",
+   "rationale": "Package exists in Maven registry (E1). Maven resolve from root artifact io.vertx:vertx-core:5.2.3 confirms version 5.2.3 is managed via dependencyManagement (E3). Version 5.2.3 has valid requirements confirming it's a published version (E4).",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ]
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-core",
+   "version": null,
+   "rationale": "The package identity is confirmed as com.fasterxml.jackson.core:jackson-core in Maven (E1). The version 3.1.8 does not exist in the registry - all available versions are in the 2.x range (E2). Since the declared_range is null and I cannot confirm the intended version, I submit null for version.",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 4,
+  "tool_calls": 2
+ }
+]

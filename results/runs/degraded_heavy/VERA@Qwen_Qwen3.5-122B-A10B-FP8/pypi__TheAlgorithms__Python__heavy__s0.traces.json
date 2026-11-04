@@ -1,0 +1,61 @@
+[
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.390537756155405,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Version 2.8.0 is confirmed to exist in PyPI (E1) and was published before the SBOM timestamp (E2). The declared_range is \"2.8.0\" (exact version), and the purl specifies 2.8.0. This is the most likely version.",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "ecosystem": "pypi",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.744436826879583,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The package httpx2 exists in pypi (E1). Version 2.16.0 is a valid version (E2) and was published before the SBOM timestamp of 2026-11-11T20:38:38+01:00 (E3). This matches the version specified in the SBOM and is the latest version available.",
+   "version": "2.16.0",
+   "name": "httpx2"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.402288386983285,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "soupsieve",
+   "ecosystem": "pypi",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.9.2 has the highest probability (0.245) among current candidates. E1 confirms soupsieve exists in PyPI. E2 confirms version 2.9.2 was published before the SBOM timestamp (2026-11-11). E3 confirms no known vulnerabilities for this version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

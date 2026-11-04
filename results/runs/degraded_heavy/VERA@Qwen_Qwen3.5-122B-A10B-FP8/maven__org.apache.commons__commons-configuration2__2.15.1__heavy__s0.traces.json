@@ -1,0 +1,117 @@
+[
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.195252287091923,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The version 2.26.1 is confirmed as a valid version in the Maven registry (E1, E2). It has the highest probability (0.679) among candidates. Other log4j components in the SBOM (log4j-1.2-api, log4j-api) also use version 2.26.1, supporting consistency.",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "ecosystem": "maven"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6050345106031616,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "rationale": "Version 2.26.1 is confirmed to exist in the Maven registry (E1) and has the highest prior probability (0.679) among all candidates (E2). The SBOM context shows consistency with log4j-1.2-api also at version 2.26.1.",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "2.26.1"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "commons-beanutils:commons-beanutils",
+   "rationale": "Found the correct Maven package identity as commons-beanutils:commons-beanutils. Version 1.11.0 matches the component's version_field and is the latest version available with no known vulnerabilities.",
+   "version": "1.11.0",
+   "evidence": [
+    "E2",
+    "E4"
+   ],
+   "ecosystem": "maven"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jakarta.servlet-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "5.0.0",
+   "evidence": [
+    "E2",
+    "E5"
+   ],
+   "rationale": "The component name 'jakarta.servlet-api' was not found directly in Maven registry. Registry lookup confirmed the correct Maven identity is 'jakarta.servlet:jakarta.servlet-api' (E2). Version 5.0.0 exists in the registry as shown in E2's latest versions list, and E5 confirms the version is valid with no vulnerabilities. The component's version_field was 5.0.0 which matches an available version.",
+   "name": "jakarta.servlet:jakarta.servlet-api",
+   "ecosystem": "maven"
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "jackson-databind",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "version": "2.21.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "rationale": "The package com.fasterxml.jackson.core:jackson-databind exists in Maven registry (E1). The root package org.apache.commons:commons-configuration2@2.15.1 declares a dependency on this package with version 2.21.3 (E2). Version 2.21.3 is confirmed to exist (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "2.21.3",
+   "name": "com.fasterxml.jackson.core:jackson-core",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "maven",
+   "rationale": "The package jackson-core exists in Maven registry as com.fasterxml.jackson.core:jackson-core (E1). Version 2.21.3 is confirmed to exist in the version list (E2). The component's declared version matches an existing version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

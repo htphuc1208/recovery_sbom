@@ -1,0 +1,388 @@
+[
+ {
+  "component": "gitpython",
+  "kind": "version",
+  "value": 55.58193160239146,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "gitpython",
+   "version": "3.2.1",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 3.2.1 has the highest prior probability (0.215) among all gitpython versions published before the SBOM timestamp (2026-11-12), and matches the top current_candidates score (0.383). It is the most likely version used in this Apache Airflow 3.3.2 environment."
+  },
+  "steps": 5,
+  "tool_calls": 6
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.78442668790488,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "filelock 4.2.4 is the highest-probability candidate (0.144 in SBOM candidates, 0.084 in registry priors) and matches the version already declared in the SBOM purl. It was published before the SBOM timestamp (2026-11-12). The dependency is transitive through apache-airflow-core 3.3.2's dependency chain. No declared range constraint conflicts with this version."
+  },
+  "steps": 6,
+  "tool_calls": 6
+ },
+ {
+  "component": "apache-airflow",
+  "kind": "version",
+  "value": 34.73498262892564,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "apache-airflow",
+   "version": "3.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 3.3.2 is the most likely match: it has the highest prior probability (0.325) among versions published before the SBOM timestamp (E1), exists in PyPI (E2), matches the declared range \"3.3.2\" exactly, and is consistent with sibling components like apache-airflow-core@3.3.2 in the same SBOM."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "pymongo",
+  "kind": "version",
+  "value": 14.781648644659185,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pymongo",
+   "version": "4.19.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Registry lookup (E2) confirms pymongo exists in PyPI with 4.19.0 as the latest version. The SBOM candidate probabilities show 4.19.0 has the highest score (0.38). Version 4.19.0 is the latest release available before the SBOM timestamp of 2026-11-12, making it the most likely version used."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "tornado",
+  "kind": "version",
+  "value": 12.648290547802695,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "tornado",
+   "version": "6.5.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "tornado 6.5.10 is confirmed to exist on PyPI (E2 shows known vulnerabilities for this version) and was published before the SBOM timestamp of 2026-11-12 (E1). It is the highest-ranked candidate both in the SBOM's current_candidates (0.339) and in the list_versions prior probability (0.216), making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.029245514325506,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "pyasn1 confirmed in pypi registry (E2). Version 0.6.4 has the highest prior probability (0.525) among versions published before the SBOM timestamp (E1), and aligns with the SBOM's current candidate distribution where 0.6.4 is the top candidate (0.642)."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 9.152811190748363,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "pillow 12.3.0 is confirmed to exist in PyPI (E2) and is listed among versions published before the SBOM timestamp 2026-11-12 (E1). It has the highest prior probability (0.474) in list_versions and matches the top candidate probability (0.902) from the SBOM. No declared range constraint to satisfy."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mistune",
+  "kind": "version",
+  "value": 8.12940560596875,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mistune",
+   "version": "3.3.4",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "mistune 3.3.4 is the latest version published on PyPI before the SBOM timestamp (2026-11-12), and it has the highest prior probability (0.429) among all available versions. This aligns with the SBOM's current_candidates where 3.3.4 has the highest score (0.518). The package is a transitive dependency of apache-airflow-core 3.3.2 (likely via providers like common-sql or smtp that use it for markdown rendering), with no declared range constraint."
+  },
+  "steps": 5,
+  "tool_calls": 6
+ },
+ {
+  "component": "pydantic-ai-slim",
+  "kind": "version",
+  "value": 8.012287554022032,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pydantic-ai-slim",
+   "version": "2.66.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package pydantic-ai-slim exists in PyPI (E1). Version 2.66.0 is confirmed as a published version before the SBOM timestamp 2026-11-12 (E2). It is also the highest-probability candidate (0.135) in the current distribution, consistent with the SBOM's purl."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "sqlparse",
+  "kind": "version",
+  "value": 6.080264576475337,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "sqlparse",
+   "version": "0.6.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "sqlparse exists in PyPI (E1) with 0.6.0 as a published version before the SBOM timestamp (E2). The candidate probability distribution strongly favors 0.6.0 (0.616) over alternatives 0.5.5 (0.216) and 0.6.1 (0.164). No declared range constraint exists, so the highest-probability candidate that is a valid published version is selected."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "apache-airflow-providers-google",
+  "kind": "version",
+  "value": 4.767220532558601,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "apache-airflow-providers-google",
+   "version": "22.8.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 22.8.0 is confirmed to exist in PyPI (E2), is listed among the candidate versions (E1) with the highest prior probability (0.224), satisfies the declared range >=10.24.0, and was published before the SBOM timestamp of 2026-11-12. The requirements (E3) are consistent with a stable release."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "msgpack",
+  "kind": "version",
+  "value": 4.228113486214421,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "msgpack",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E5"
+   ],
+   "rationale": "Version 1.2.3 is the most likely candidate: it has the highest probability (0.279) in current_candidates, matches the existing version_field, exists in PyPI (E5), and was published before the SBOM timestamp of 2026-11-12 (E1). No declared range or direct dependency from apache-airflow-core/task-sdk pins a specific msgpack version, so the highest-probability candidate is the best choice."
+  },
+  "steps": 5,
+  "tool_calls": 5
+ },
+ {
+  "component": "joserfc",
+  "kind": "version",
+  "value": 3.596297224550458,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "joserfc",
+   "version": "1.7.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 1.7.5 is confirmed to exist in the PyPI registry (E1) and appears in the list of versions published before the SBOM timestamp (E2). It has the highest probability score (0.402) among the candidates, making it the most likely version. OSV lookup (E3) further confirms 1.7.5 is a valid published version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "nbconvert",
+  "kind": "version",
+  "value": 3.548248722938313,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "nbconvert",
+   "version": "7.17.1",
+   "evidence": [
+    "E1",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The SBOM purl explicitly declares nbconvert@7.17.1, and the candidate probability distribution shows 7.17.1 as the most likely version (0.569 vs 0.405 for 7.17.2). E6 confirms 7.17.1 exists in PyPI. While E4/E5 show 7.17.1 has a known CVE (severity 7.5) and 7.17.2 is the patched version, the SBOM was generated with 7.17.1 as the declared version, so we preserve that value."
+  },
+  "steps": 5,
+  "tool_calls": 6
+ },
+ {
+  "component": "black",
+  "kind": "version",
+  "value": 3.4710166504572353,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "black",
+   "version": "26.5.1",
+   "evidence": [
+    "E1",
+    "E5"
+   ],
+   "rationale": "Version 26.5.1 is confirmed to exist on PyPI (E5) and is the highest-probability candidate both in the SBOM's current_candidates (0.472) and in the version prior distribution (0.497, E1). It was published before the SBOM timestamp (2026-11-12). No declared range constraint was provided, and 26.5.1 is the most likely version used by Apache Airflow 3.3.2 at that time."
+  },
+  "steps": 4,
+  "tool_calls": 6
+ },
+ {
+  "component": "dnspython",
+  "kind": "version",
+  "value": 3.279048461965016,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "dnspython",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.8.0 is confirmed to exist in PyPI (E2) and has the highest prior probability (0.723) among candidates published before the SBOM timestamp (E1). It matches the SBOM's existing version field and is the most likely exact version."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "apache-airflow-providers-snowflake",
+  "kind": "version",
+  "value": 3.014383784669278,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "apache-airflow-providers-snowflake",
+   "version": "6.20.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 6.20.0 is confirmed to exist in the PyPI registry (E2), satisfies the declared range >=5.8.0 (E1), and has the highest prior probability (0.224) among the candidate versions. It is a stable release published before 6.21.0 and before the SBOM timestamp of 2026-11-12."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.375331454546152,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 2.9.2 has the highest prior probability (0.219) among all soupsieve versions published before the SBOM timestamp (2026-11-12), and aligns with the top-ranked candidate in the SBOM's current_candidates (0.242). It is a transitive dependency in the Apache Airflow 3.3.2 ecosystem, typically pulled in via BeautifulSoup4."
+  },
+  "steps": 5,
+  "tool_calls": 6
+ },
+ {
+  "component": "werkzeug",
+  "kind": "version",
+  "value": 2.3014555334583195,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "werkzeug",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Werkzeug 3.1.9 is confirmed to exist in the PyPI registry (E2) and is listed as the latest version. The SBOM candidate distribution shows 3.1.9 with the highest probability (0.54), and it was published before the SBOM timestamp of 2026-11-12. No vulnerabilities found (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "apache-airflow-providers-apache-kafka",
+  "kind": "version",
+  "value": 1.8250281000318176,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "apache-airflow-providers-apache-kafka",
+   "version": "2.1.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.1.0 is confirmed to exist in PyPI (E2), satisfies the declared range >=1.6.1, and has the highest prior probability (0.349) among candidates (E1). It is the latest stable release before 3.0.0, consistent with the SBOM timestamp of 2026-11-12 and the version patterns of other providers in the same Airflow 3.x ecosystem."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ }
+]

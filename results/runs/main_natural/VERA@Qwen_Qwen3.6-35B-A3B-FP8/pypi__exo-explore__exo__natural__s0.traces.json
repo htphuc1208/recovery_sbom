@@ -1,0 +1,179 @@
+[
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 41.553300599030386,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 4.2.4 is confirmed to exist in PyPI, was published before the SBOM timestamp, has the highest prior probability (0.088) among candidates, and exactly matches the declared range '4.2.4'. The purl in the SBOM (pkg:pypi/filelock@4.2.4) is consistent with this finding."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "aiohttp",
+  "kind": "version",
+  "value": 28.96685778414082,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "aiohttp",
+   "version": "3.14.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM explicitly declares aiohttp@3.14.3. This version exists in pypi (E1), was available before the SBOM timestamp of 2026-11-06 (E2), and satisfies the declared range >=3.12.14. It also has the highest probability (0.416) among the candidate versions. The version has valid dependencies (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.839173737736341,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "Version 2.8.0 is the most likely exact version based on: (1) highest probability score (0.583) among candidates, (2) no known vulnerabilities unlike 2.7.0 which has 3 CVEs, (3) version was available before the SBOM timestamp of 2026-11-06, and (4) confirmed to exist in pypi registry."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 6.233094874476895,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.13.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package httpx2 exists in PyPI (E1). Version 2.13.1 was published before the SBOM timestamp and has the highest prior probability (0.209) among all available versions (E2). This matches the declared version in the SBOM and the highest-confidence candidate (0.264) in current_candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "cryptography",
+  "kind": "version",
+  "value": 2.9157852044363657,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 50.0.2 is confirmed to exist in PyPI (E1) and was published before the SBOM timestamp (E2). It is the top candidate with highest prior probability (0.267) among versions available before 2026-11-06, matching the declared version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "multidict",
+  "kind": "version",
+  "value": 2.448685746645516,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "multidict",
+   "version": "6.9.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 6.9.1 is confirmed to exist in PyPI registry (E1) and was published before the SBOM timestamp of 2026-11-06 (E2). It has the highest candidate probability (0.537) among all versions, making it the most likely exact version used in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "opentelemetry-api",
+  "kind": "version",
+  "value": 2.38827651849064,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "opentelemetry-api",
+   "version": "1.44.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 1.44.0 exists in PyPI (E1), was published before the SBOM timestamp (E2), and has the highest prior probability (0.313) among all candidates. No conflicting evidence found."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "python-multipart",
+  "kind": "version",
+  "value": 1.6865290052120299,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "version": "0.0.32",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.0.32 is confirmed to exist in PyPI (E1), satisfies the declared range >=0.0.21, was published before the SBOM timestamp, and has the highest probability score (0.723) among all candidate versions (E2). The SBOM's declared version matches this most likely version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "h2",
+  "kind": "version",
+  "value": 1.0775546976795214,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "h2",
+   "version": "4.4.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component h2 exists in PyPI. Version 4.4.1 is the latest release, was published before the SBOM timestamp, and has the highest prior probability (0.549) among candidates. It matches the declared version_field in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

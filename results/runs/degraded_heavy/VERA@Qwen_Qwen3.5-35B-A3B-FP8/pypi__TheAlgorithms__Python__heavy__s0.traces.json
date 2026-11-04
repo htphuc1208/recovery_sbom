@@ -1,0 +1,59 @@
+[
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.390537756155405,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "urllib3",
+   "rationale": "The declared_range is '2.8.0' (pinned). list_versions with spec '2.8.0' before the SBOM timestamp returns only version 2.8.0 as a candidate. This is also the highest probability candidate (0.613) in current_candidates. The component exists in pypi registry (E1) and version 2.8.0 was available before the SBOM timestamp and satisfies the declared range (E2).",
+   "version": "2.8.0"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.744436826879583,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package httpx2 exists in PyPI. Version 2.16.0 is the latest version, was available before the SBOM timestamp, and has the highest prior probability (0.209) among candidates. The SBOM also declares this version, which is confirmed by registry lookup."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.402288386983285,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.9.2 is confirmed to exist in pypi registry (E1) and was published before the SBOM timestamp (E2). It has the highest prior probability (0.22) among all candidate versions, making it the most likely exact version used in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

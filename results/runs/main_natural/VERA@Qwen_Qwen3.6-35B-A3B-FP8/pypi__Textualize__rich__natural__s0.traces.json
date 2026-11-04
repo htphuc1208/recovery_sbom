@@ -1,0 +1,60 @@
+[
+ {
+  "component": "virtualenv",
+  "kind": "version",
+  "value": 42.681204476575424,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "virtualenv",
+   "version": "21.7.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 21.7.4 for virtualenv. This version exists in pypi registry (E2), was published before the SBOM timestamp of 2026-11-07 (E3), and has the highest prior probability (0.06) among all candidate versions (E1). The version satisfies all constraints and is the most likely exact version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 41.38274908241512,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.2.4 is confirmed to exist in PyPI (E1), was published before the SBOM timestamp, and has the highest prior probability (0.087) among all candidates (E2). This matches the declared version in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "black",
+  "kind": "version",
+  "value": 3.012073837942451,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "black",
+   "version": "26.5.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The version 26.5.1 is the most likely exact version based on: (1) it has the highest prior probability (0.567) among all versions satisfying the declared range >=26 and published before the SBOM timestamp, (2) it matches the currently listed version in the SBOM with the highest confidence score (0.517), and (3) the package exists in PyPI registry as confirmed by E1."
+  },
+  "steps": 5,
+  "tool_calls": 5
+ }
+]

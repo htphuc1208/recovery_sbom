@@ -1,0 +1,118 @@
+[
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.195841559490849,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a published version of org.apache.logging.log4j:log4j-core in Maven Central (E1, E4). It is the highest-probability candidate (0.679) and aligns with sibling log4j2 artifacts in the same SBOM (log4j-api@2.26.1 and log4j-1.2-api@2.26.1), which are conventionally released in lockstep with log4j-core."
+  },
+  "steps": 3,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6053305131321145,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Package confirmed in Maven Central (E1). The candidate distribution (E2) shows 2.26.1 with the highest prior probability (0.679). The companion component log4j-1.2-api in the same SBOM is also at 2.26.1 (E4), and log4j2 modules are released in lockstep, providing strong corroborating evidence that 2.26.1 is the correct version."
+  },
+  "steps": 3,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.11.0",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component name \"commons-beanutils\" with no group resolves to the canonical Maven coordinates commons-beanutils:commons-beanutils (the legacy groupId, consistent with other commons-* components in the SBOM like commons-logging, commons-collections, commons-codec, commons-io, commons-jxpath). Registry lookup (E1) confirms the package exists with 1.11.0 as the latest version, and list_versions with spec [1.11.0] (E3) confirms 1.11.0 is a valid published version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "jakarta.servlet-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "jakarta.servlet:jakarta.servlet-api",
+   "version": "5.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"jakarta.servlet-api\" was missing the groupId. The correct Maven coordinate is jakarta.servlet:jakarta.servlet-api, confirmed by registry lookup (E1) which shows the package exists with 12 versions including 5.0.0. Version 5.0.0 is explicitly listed in the version history (E1, E2), matching the declared version_field."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "jackson-databind",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.21.3",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ],
+   "rationale": "jackson-databind is a well-known Maven artifact under groupId com.fasterxml.jackson.core. The SBOM root commons-configuration2:2.15.1 declares this dependency at version 2.21.3 (E3), and that version exists in the Maven registry (E1, E4)."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-core",
+   "version": "2.21.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"jackson-core\" with version 2.21.3 in a Maven SBOM context resolves to com.fasterxml.jackson.core:jackson-core. E1 confirms the package exists in Maven Central with 198 versions. E2 confirms 2.21.3 is a real published version. The original SBOM entry was missing the groupId \"com.fasterxml.jackson.core\"."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ }
+]

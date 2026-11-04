@@ -1,0 +1,119 @@
+[
+ {
+  "component": "pyjwt",
+  "kind": "version",
+  "value": 36.48955839919296,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyjwt",
+   "version": "2.15.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.15.1 has the highest probability (0.525) among candidates, exists in pypi registry (E1), was available before SBOM timestamp 2026-11-12 (E2), and satisfies the declared range >=2.10.1,<3."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.023335073095076,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.6.4 is the most likely exact version based on: (1) it has the highest prior probability (0.642) in the SBOM's current_candidates, (2) it is the top candidate (prior 0.525) among versions published before the SBOM timestamp of 2026-11-12, and (3) it is confirmed to exist in the pypi registry."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.320698285176672,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares urllib3 version 2.8.0. This version exists in the pypi registry (E1), was published before the SBOM timestamp of 2026-11-12 (E2), and is confirmed as a valid pinned version (E3). It has the highest probability (0.618) among all candidates and matches the declared version exactly."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.654298545629782,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly identifies the component as pypi/httpx2@2.16.0. Registry lookup confirms version 2.16.0 exists and is the latest (E1). Version list confirms 2.16.0 was published before the SBOM timestamp and has the highest prior probability (0.215) among all candidates (E2). Therefore, 2.16.0 is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "multidict",
+  "kind": "version",
+  "value": 3.0680995187965516,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "multidict",
+   "version": "6.7.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 6.7.1. This version exists in PyPI (E1), was published before the SBOM timestamp (E2), and is the most likely version the SBOM was generated with. Although it has a known vulnerability (E3), the task is to determine the most likely exact version, not to recommend a fix. The declared version 6.7.1 is confirmed as a valid pre-timestamp release."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "cryptography",
+  "kind": "version",
+  "value": 2.657644559397608,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 50.0.2 for cryptography in pypi. E1 confirms this is the latest available version in the registry. E2 confirms 50.0.2 was published before the SBOM timestamp (2026-11-12) and has the highest prior probability (0.3) among all candidate versions, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

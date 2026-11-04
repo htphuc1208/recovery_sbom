@@ -1,0 +1,295 @@
+[
+ {
+  "component": "ejs",
+  "kind": "version",
+  "value": 1.7131323878773381,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package ejs exists in npm registry (E1). Version 3.1.10 satisfies the declared range ^3.1.0 and was published before the SBOM timestamp 2024-08-19T08:50:41+01:00 (E2). It has the highest prior probability (0.658) among candidates and is the latest version in the 3.1.x series matching the range.",
+   "version": "3.1.10",
+   "name": "ejs"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "image-size",
+  "kind": "version",
+  "value": 1.0567014446946081,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "version": "1.1.1",
+   "name": "image-size",
+   "rationale": "Package image-size exists in npm registry (E1). Version 1.1.1 is confirmed as a valid version published before the SBOM timestamp (E2). The candidate with highest probability (0.853) is 1.1.1, which matches the version_field in the component.",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Big.js",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "5.2.2",
+   "rationale": "The package name \"Big.js\" does not exist in npm (E1). The correct package name is \"big.js\" (lowercase) which exists in npm registry (E2). Version 5.2.2 was confirmed to exist and was published before the SBOM timestamp (E4).",
+   "ecosystem": "npm",
+   "name": "big.js",
+   "evidence": [
+    "E2",
+    "E4"
+   ]
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Csso",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E4"
+   ],
+   "rationale": "The package 'Csso' maps to 'csso' in npm registry (case-insensitive). E1 confirms csso exists in npm. E4 confirms version 4.0.3 exists with valid dependencies. The SBOM specified version 4.0.3 which is a valid version of the csso package.",
+   "name": "csso",
+   "version": "4.0.3"
+  },
+  "steps": 6,
+  "tool_calls": 4
+ },
+ {
+  "component": "ESTREE-WALKER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package estree-walker exists in npm registry (E1). Version 2.0.2 is listed as a valid version and was published before the SBOM timestamp (E2). The SBOM context also shows estree-walker@2.0.2 in other_components_sample.",
+   "name": "estree-walker",
+   "ecosystem": "npm",
+   "version": "2.0.2"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Execa",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "execa",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "8.0.1",
+   "rationale": "Package 'execa' exists in npm registry (E1). Version 8.0.1 is the latest version published before the SBOM timestamp 2024-08-19T08:50:41+01:00 (E2). The component name 'Execa' is a case variation of the npm package name 'execa'."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "FAST-GLOB",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Package 'fast-glob' exists in npm registry (E1). Version 3.3.2 is the latest version published before the SBOM timestamp 2024-08-19T08:50:41+01:00 (E2).",
+   "version": "3.3.2",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "fast-glob"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "HSL-REGEX",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "hsl-regex",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "version": "1.0.0",
+   "rationale": "The component name 'HSL-REGEX' does not exist in npm registry (E1). The correct package name is 'hsl-regex' which exists with versions 1.0.0 and 0.0.1 (E2). Version 1.0.0 matches the component's version_field and was published before the SBOM timestamp (E3).",
+   "ecosystem": "npm"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "IS-REFERENCE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "is-reference",
+   "rationale": "The component name 'IS-REFERENCE' was resolved to 'is-reference' in npm registry (E5). Version 3.0.2 is the latest version published before the SBOM timestamp (E6).",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "ecosystem": "npm",
+   "version": "3.0.2"
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "lines_and_columns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "ecosystem": "npm",
+   "name": "lines-and-columns",
+   "version": "1.1.6",
+   "rationale": "The original name 'lines_and_columns' does not exist in npm registry (E1). The correct npm package name is 'lines-and-columns' (E2). Version 1.1.6 exists and was published before the SBOM timestamp (E3, E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "mime_db",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mime-db",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "version": "1.45.0",
+   "rationale": "The original name 'mime_db' does not exist in npm registry (E1). The correct package name is 'mime-db' which exists (E2). Version 1.45.0 exists and was published before the SBOM timestamp (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "POSTCSS-DISCARD-EMPTY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The component name POSTCSS-DISCARD-EMPTY was normalized to lowercase 'postcss-discard-empty' which exists in npm registry (E1). Version 4.0.1 was confirmed to exist with valid requirements (E3). The version 4.0.1 is an older version that would have been published before the SBOM timestamp of 2024-08-19 (E2 shows versions up to 7.0.0 were published before the timestamp, and 4.0.1 is older than those).",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "name": "postcss-discard-empty",
+   "ecosystem": "npm",
+   "version": "4.0.1"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "SIGNAL-EXIT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The component name \"SIGNAL-EXIT\" maps to npm package \"signal-exit\" (lowercase). Version 3.0.7 is the latest version satisfying the declared range ^3.0.0 and published before the SBOM timestamp 2024-08-19T08:50:41+01:00.",
+   "version": "3.0.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "npm",
+   "name": "signal-exit"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "STRING-ARGV",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "name": "string-argv",
+   "version": "0.3.2",
+   "rationale": "The original name 'STRING-ARGV' does not exist in npm (E1). The correct package name is 'string-argv' (lowercase) which exists in npm (E2, E4). Version 0.3.2 is the latest version published before the SBOM timestamp of 2024-08-19T08:50:41+01:00 (E3).",
+   "ecosystem": "npm"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Vendors",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The package \"Vendors\" (capital V) does not exist in npm registry (E1). The correct package name is \"vendors\" (lowercase) which exists with versions 1.0.0 through 2.0.1 (E2). The latest version satisfying the declared range ^1.0.0 and published before the SBOM timestamp 2024-08-19T08:50:41+01:00 is 1.0.4 (E3).",
+   "name": "vendors",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "version": "1.0.4"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

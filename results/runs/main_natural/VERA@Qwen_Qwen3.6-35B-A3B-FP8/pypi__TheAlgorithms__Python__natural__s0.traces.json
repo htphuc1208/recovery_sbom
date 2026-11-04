@@ -1,0 +1,121 @@
+[
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 114.30990010669662,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 12.3.0 is the most likely exact version based on: (1) it exists in pypi registry (E1), (2) it was available before the SBOM timestamp and has the highest prior probability (0.477) among pre-timestamp versions (E2), (3) it satisfies the declared range >=11.3 (E4), and (4) it matches the version explicitly listed in the SBOM's other_components_sample."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.390537756155405,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares urllib3 version 2.8.0. Registry lookup confirms this version exists in PyPI (E1). List versions confirms 2.8.0 was published before the SBOM timestamp and is the most likely candidate (highest probability 0.613) (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.670724644629984,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.16.0 is the latest version in the PyPI registry, satisfies the declared range >=2.0.1, was published before the SBOM timestamp (2026-11-11), and has the highest prior probability (0.317 in original candidates, 0.211 among constraint-satisfying versions). No known vulnerabilities exist for this version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.402288386983285,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "name": "soupsieve",
+   "rationale": "The SBOM declares version 2.9.2 for soupsieve. This version exists in the pypi registry (E1), was available before the SBOM timestamp of 2026-11-11 (E2), has no known vulnerabilities (E3), and is a valid package version (E4). It also has the highest confidence score (0.245) among all candidates. Therefore, 2.9.2 is confirmed as the most likely exact version.",
+   "version": "2.9.2"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "certifi",
+  "kind": "version",
+  "value": 1.656382950934516,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "certifi",
+   "version": "2026.7.22",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM lists certifi with version 2026.7.22 and probability 0.516 (highest among candidates). This version was published before the SBOM timestamp of 2026-11-11, as confirmed by list_versions. The pypi registry confirms certifi exists with this version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "anyio",
+  "kind": "version",
+  "value": 1.5429373849248411,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "anyio",
+   "version": "4.15.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.15.1 is confirmed to exist in pypi registry (E1) and was published before the SBOM timestamp (E2). It has the highest prior probability (0.347) among all candidates and matches the declared version in the SBOM with the highest confidence (0.516)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

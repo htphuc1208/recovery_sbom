@@ -1,0 +1,60 @@
+[
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.390537756155405,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "urllib3 exists in pypi (E2). Version 2.8.0 is the latest version published before the SBOM timestamp 2026-11-11 (E1, E2). The declared range is an exact pin to 2.8.0, and the highest-probability candidate (0.613) is 2.8.0, confirming the version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.744436826879583,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "httpx2 exists on PyPI (E1) with 2.16.0 as the latest version. Version 2.16.0 was published before the SBOM timestamp (E2) and is the top-ranked candidate both in the SBOM's own current_candidates (0.316) and in the registry's prior distribution (0.209). No declared range constraint exists, so the latest available version matching the SBOM's declared value is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.402288386983285,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.9.2 is confirmed to exist in PyPI (E1) and is the top-ranked candidate both in the SBOM's current_candidates (0.245) and in the version list prior (0.222) (E2). It was published before the SBOM timestamp of 2026-11-11 and has no known vulnerabilities (E3). It is also consistent with the SBOM context showing beautifulsoup4@4.15.0, which is compatible with soupsieve 2.9.2."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ }
+]

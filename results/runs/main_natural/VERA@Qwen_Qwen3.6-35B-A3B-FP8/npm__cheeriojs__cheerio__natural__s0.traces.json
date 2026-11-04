@@ -1,0 +1,59 @@
+[
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 3.7970219324278753,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly declares brace-expansion@5.0.12 with 0.775 confidence, the highest among candidates. Registry lookup (E1) confirms the package exists in npm. Version listing (E2) confirms 5.0.12 was published before the SBOM timestamp and is the most probable version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 2.6290661385412046,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "source-map-js 1.2.2 is the latest version published before the SBOM timestamp and has the highest probability (0.649) among candidates. Both 1.2.2 and 1.2.1 exist in the npm registry (E1) and are available before the SBOM date (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 2.090025598679247,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.29.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM purl explicitly declares version 4.29.5. Tool E1 confirms this version exists in the npm registry as the latest. Tool E2 confirms it was published before the SBOM timestamp and is a valid candidate. No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

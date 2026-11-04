@@ -1,0 +1,291 @@
+[
+ {
+  "component": "ejs",
+  "kind": "version",
+  "value": 1.7131323878773381,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ejs",
+   "version": "3.1.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The most likely version is 3.1.10, which has the highest prior probability (0.658) among versions satisfying the declared range ^3.1.0 and published before the SBOM timestamp. It matches the version_field in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "image-size",
+  "kind": "version",
+  "value": 1.0567014446946081,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "image-size",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM purl explicitly states pkg:npm/image-size@1.1.1. Registry lookup confirms the package exists in npm (E1). Version 1.1.1 is available and was published before the SBOM timestamp (E2), with the highest prior probability (0.853)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Big.js",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "big.js",
+   "version": "5.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Big.js' corresponds to the npm package 'big.js'. Version 5.2.2 exists and was published before the SBOM timestamp of 2024-08-19."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Csso",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "csso",
+   "version": "4.0.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'Csso' with version 4.0.3 was not matched in the registry. After looking up 'csso' in npm registry, it exists. Version 4.0.3 was published before the SBOM timestamp and matches the declared version exactly."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "ESTREE-WALKER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "estree-walker",
+   "version": "2.0.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM context explicitly lists estree-walker@2.0.2 in the other_components_sample. Registry lookup confirms the package exists on npm, and version 2.0.2 was published before the SBOM timestamp."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Execa",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "execa",
+   "version": "9.3.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Execa' is a known npm package (lowercase 'execa'). E1 confirms its existence in the npm registry. E2 shows that version 9.3.1 was the latest version published before the SBOM timestamp of 2024-08-19. No declared range was provided, so the latest pre-timestamp version is the best estimate."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "FAST-GLOB",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-glob",
+   "version": "3.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'FAST-GLOB' with no group in an npm-dominant SBOM corresponds to the npm package 'fast-glob'. E1 confirms its existence in npm registry. E2 shows 3.3.2 as the latest version published before the SBOM timestamp of 2024-08-19."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "HSL-REGEX",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hsl-regex",
+   "version": "1.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'HSL-REGEX' with version '1.0.0' corresponds to the npm package 'hsl-regex' version 1.0.0, which was published before the SBOM timestamp of 2024-08-19. The package exists in the npm registry (E1) and version 1.0.0 is available and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "IS-REFERENCE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The name 'IS-REFERENCE' does not exist in npm (E1), Maven (E2), or PyPI (E3) registries. It appears to be a placeholder or reference marker rather than an actual package. Since it cannot be matched to any real package in any registry, all fields are submitted as null."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "lines_and_columns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lines-and-columns",
+   "version": "1.1.6",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original name 'lines_and_columns' with underscores had no registry match (E1, E2). The npm package 'lines-and-columns' with hyphens exists (E3). Version 1.1.6 is available and was published before the SBOM timestamp (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "mime_db",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mime-db",
+   "version": "1.45.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'mime_db' with version '1.45.0' corresponds to the npm package 'mime-db' version 1.45.0, which was published before the SBOM timestamp and matches the declared version exactly."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "POSTCSS-DISCARD-EMPTY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-discard-empty",
+   "version": "4.0.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name POSTCSS-DISCARD-EMPTY corresponds to the npm package postcss-discard-empty (E1). Version 4.0.1 is available and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "SIGNAL-EXIT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "signal-exit",
+   "version": "3.0.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'SIGNAL-EXIT' maps to the npm package 'signal-exit'. The declared range ^3.0.0 is satisfied by versions 3.0.3, 3.0.6, and 3.0.7 published before the SBOM timestamp. The newest matching version is 3.0.7."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "STRING-ARGV",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "string-argv",
+   "version": "0.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'STRING-ARGV' was likely a case-sensitivity error. The correct npm package is 'string-argv' (lowercase). Version 0.3.2 is the latest version published before the SBOM timestamp of 2024-08-19."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Vendors",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vendors",
+   "version": "1.0.4",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The package name 'Vendors' (capitalized) had no registry match (E1). The lowercase variant 'vendors' exists in npm (E3). Version 1.0.4 is the only version satisfying the declared range '^1.0.0' and published before the SBOM timestamp of 2024-08-19 (E4)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ }
+]

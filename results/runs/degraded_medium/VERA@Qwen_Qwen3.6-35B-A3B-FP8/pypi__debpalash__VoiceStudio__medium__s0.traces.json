@@ -1,0 +1,155 @@
+[
+ {
+  "component": "nltk",
+  "kind": "version",
+  "value": 37.06567660632714,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "nltk",
+   "version": "3.10.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares nltk@3.10.3. Registry lookup confirms this version exists on PyPI (E1). Version list before the SBOM timestamp shows 3.10.3 as the highest-probability candidate (E2). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "msgpack",
+  "kind": "version",
+  "value": 4.22751976397862,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "msgpack",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.2.3 has the highest probability (0.279) among current candidates and is confirmed to exist in PyPI (E1) and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "mako",
+  "kind": "version",
+  "value": 3.1996624146232837,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mako",
+   "version": "1.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 1.4.3 exists in the pypi registry (E1) and is the latest available version. It was published before the SBOM timestamp and has the highest probability (0.57) among candidates (E2). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.0574949151143387,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM explicitly declares accelerate@1.15.0. Registry lookup confirms 1.15.0 exists and is the latest version. Version 1.15.0 satisfies the declared range >=1.14 and was published before the SBOM timestamp. Probability analysis favors 1.15.0 (0.71) over 1.14.0 (0.29)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "pip",
+  "kind": "version",
+  "value": 1.8790106332433871,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pip",
+   "version": "26.2.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pip version 26.2.1. Registry lookup (E1) confirms pip exists in pypi. Version list (E2) shows 26.2.1 was published before the SBOM timestamp and has the highest prior probability (0.391) among all candidates, confirming it as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "lightning",
+  "kind": "version",
+  "value": 1.7805088189319103,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "lightning",
+   "version": "2.6.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.6.6 is the most likely exact version based on: (1) it exists in PyPI registry and is the latest version (E1), (2) it satisfies the declared range >=2.6 and was published before the SBOM timestamp, (3) it has the highest prior probability (0.433) among all candidate versions (E2). This also matches the version specified in the purl."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "setuptools",
+  "kind": "version",
+  "value": 1.5030214176522723,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "setuptools",
+   "version": "84.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 84.0.0 has the highest probability (0.471) among all candidates in the SBOM context. It exists in the pypi registry (E2), was published before the SBOM timestamp of 2026-11-12 (E1), and satisfies the declared range >=79.0."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "brotli",
+  "kind": "version",
+  "value": 1.4719588262431238,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "brotli",
+   "version": "1.2.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares brotli@1.2.0. Registry lookup confirms the package exists on PyPI. Version listing before the SBOM timestamp shows 1.2.0 as the highest-probability candidate (0.795), confirming it as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

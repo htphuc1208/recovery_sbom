@@ -1,0 +1,253 @@
+[
+ {
+  "component": "nltk",
+  "kind": "version",
+  "value": 37.06567660632714,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "nltk",
+   "version": "3.10.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 3.10.3 exists in the pypi registry (E1) and was published before the SBOM timestamp (E2). It is the most likely version given the prior probabilities and the SBOM's declared value."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyjwt",
+  "kind": "version",
+  "value": 36.47363981641838,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyjwt",
+   "version": "2.13.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM timestamp is 2026-11-12T17:35:42+05:30. Version 2.15.1 (declared in SBOM) was not available before this date (E2 shows it's not in the candidates list when filtering by before timestamp). The highest version available before the SBOM timestamp is 2.13.0, which has the highest prior probability (0.363) among available versions. E1 confirms pyjwt exists in pypi with 2.15.1 as latest. E3 confirms 2.13.0 is a valid version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "aiohttp",
+  "kind": "version",
+  "value": 20.364551415617502,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "aiohttp",
+   "version": "3.14.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 3.14.5 exists in PyPI (E1) and was published before the SBOM timestamp (E2). It is the latest available version and has the highest probability score among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.03204985758156,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pyasn1@0.6.4. Registry lookup confirms the package exists in pypi (E1). Version listing shows 0.6.4 was published before the SBOM timestamp and has the highest prior probability (0.525) among candidates, confirming it as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "hydra-core",
+  "kind": "version",
+  "value": 9.880471917459701,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "hydra-core",
+   "version": "1.3.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The version 1.3.7 has the highest probability (0.366) among all candidates. It exists in the pypi registry (E1) and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 9.752879601807095,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 12.3.0 is confirmed to exist in pypi registry (E1, E4), was published before the SBOM timestamp (E2), and is the most likely version based on current candidates (89.8% probability) and the declared_range of '12.3.0' indicating an exact version match."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.3179407246994765,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.8.0 has the highest confidence score (0.618) among candidates, exists in PyPI registry (E1), and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.651710735931442,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly declares version 2.16.0. Registry lookup confirms httpx2 exists on pypi and 2.16.0 is the latest version. list_versions confirms 2.16.0 was published before the SBOM timestamp and is the highest-probability candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mcp",
+  "kind": "version",
+  "value": 5.209648847552171,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mcp",
+   "version": "1.30.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 1.30.0 is the highest-probability candidate within the declared range >=1.28.1,<2, published before the SBOM timestamp, and matches the SBOM's declared version. It is confirmed as a real PyPI release with valid dependencies."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "msgpack",
+  "kind": "version",
+  "value": 4.227519763978619,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "msgpack",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares msgpack@1.2.3. E1 confirms msgpack exists in PyPI. E2 confirms version 1.2.3 was published before the SBOM timestamp. Among the current candidates, 1.2.3 has the highest probability (0.279), making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "multidict",
+  "kind": "version",
+  "value": 3.069073414312098,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "multidict",
+   "version": "6.7.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 6.7.1. This version exists in PyPI (E1) and was published before the SBOM timestamp (E2). While it has a known vulnerability (E3), the task is to determine the most likely exact version as it was when the SBOM was generated, not to recommend a fix. The declared version is a valid, pre-timestamp release."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "cryptography",
+  "kind": "version",
+  "value": 2.6564848782663484,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 50.0.2 is the top-ranked candidate (prior 0.301) satisfying the declared range >=41, was published before the SBOM timestamp, and matches the version_field in the SBOM."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.444213787171577,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares accelerate@1.15.0. Registry lookup confirms this version exists in pypi (E1). Version listing filtered before the SBOM timestamp confirms 1.15.0 was published before 2026-11-12 and is the most probable version (E2). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

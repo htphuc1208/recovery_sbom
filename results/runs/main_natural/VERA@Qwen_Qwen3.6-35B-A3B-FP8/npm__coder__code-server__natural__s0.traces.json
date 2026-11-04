@@ -1,0 +1,179 @@
+[
+ {
+  "component": "follow-redirects",
+  "kind": "version",
+  "value": 13.131904572483123,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "follow-redirects",
+   "version": "1.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.16.0 has the highest prior probability (0.539) among versions available before the SBOM timestamp (2026-11-11). It was also the highest-confidence candidate in the original current_candidates (0.328). The package exists in npm registry (E1) and 1.16.0 was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 10.990844184360807,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 1.1.21 with highest confidence (0.686). Registry lookup confirms brace-expansion exists in npm (E1). Version 1.1.21 was published before the SBOM timestamp and is available in the registry (E3). No vulnerabilities found for this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 9.584269122374723,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly declares version 10.7.4. This version exists in the npm registry and was published before the SBOM timestamp. It also has the highest prior probability among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 3.811681020306605,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 5.0.12 is confirmed to exist in npm registry (E1) and was published before the SBOM timestamp of 2026-11-11 (E2). It is the most recent version available at that time and matches the SBOM's declared version with the highest confidence (0.81 prior probability)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "basic-ftp",
+  "kind": "version",
+  "value": 2.7202327019428885,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "basic-ftp",
+   "version": "5.3.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The purl explicitly states pkg:npm/basic-ftp@5.3.1. All range interpretations (pinned, ^5.3.1, ~5.3.1) resolve exclusively to version 5.3.1, which was published before the SBOM timestamp. This is the most likely exact version."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 2.7032860706060053,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range '6.16.0' is a pinned exact version. The list_versions query with this spec and before the SBOM timestamp returned only version 6.16.0, confirming it as the only matching candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 2.5967684169611953,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.3.0 has the highest confidence (0.654) among candidates and was published before the SBOM timestamp. Both 2.3.0 and 2.4.0 were available, but 2.3.0 is more likely based on the confidence scores."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "compression",
+  "kind": "version",
+  "value": 2.2483649751450874,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "compression",
+   "version": "1.8.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly references compression@1.8.2 in its purl and component list. Version 1.8.2 exists in npm, satisfies the declared range ^1.7.4, and was available before the SBOM timestamp. It is also the highest-probability candidate (0.7 prior)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ws",
+  "kind": "version",
+  "value": 1.4305329068857082,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "8.22.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The version 8.22.0 is confirmed to exist in npm registry (E1), satisfies the declared range ^8.14.2 and was published before the SBOM timestamp 2026-11-11 (E2), and is the exact pinned version (E3). It also has the highest probability (0.461) among the current candidates in the SBOM context."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

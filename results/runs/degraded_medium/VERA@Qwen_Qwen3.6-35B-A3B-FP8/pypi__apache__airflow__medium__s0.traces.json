@@ -1,0 +1,271 @@
+[
+ {
+  "component": "virtualenv",
+  "kind": "version",
+  "value": 60.367588679509446,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "virtualenv",
+   "version": "21.15.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 21.15.6 exists in pypi registry (E1), was published before the SBOM timestamp of 2026-11-12, and exactly matches the declared_range '21.15.6'. It is the only candidate satisfying the pinned version constraint (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "gitpython",
+  "kind": "version",
+  "value": 55.58193160239146,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "gitpython",
+   "version": "3.2.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares gitpython version 3.2.1. This version exists in the pypi registry (E1), was published before the SBOM timestamp of 2026-11-12 (E2), and is the most likely candidate with 0.383 probability in the current candidates and 0.215 prior in the version list. No known vulnerabilities exist for this version (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.029245514325506,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 0.6.4 has the highest prior probability (0.525) among all versions satisfying the >=0.6 range and published before the SBOM timestamp. It is confirmed to exist in PyPI (E1) and is a valid candidate (E2)."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 9.152811190748363,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 12.3.0. The list_versions tool confirms that only version 12.3.0 satisfies this constraint and was published before the SBOM timestamp. This matches the highest-probability candidate (0.902)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "fastmcp-slim",
+  "kind": "version",
+  "value": 5.355495046029138,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "fastmcp-slim",
+   "version": "4.1.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package fastmcp-slim exists in pypi (E1). Version 4.1.6 is confirmed to exist and was published before the SBOM timestamp of 2026-11-12 (E2). It matches the declared version and has the highest confidence (0.111) among current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "uv",
+  "kind": "version",
+  "value": 4.491423625448451,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "uv",
+   "version": "0.13.7",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 0.13.7 is confirmed to exist in PyPI (E1), was available before the SBOM timestamp of 2026-11-12 (E2), and has the highest prior probability (0.075) among all candidate versions. The version is valid and has no dependencies (E3). This matches the declared version in the SBOM."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "banks",
+  "kind": "version",
+  "value": 4.376597927921923,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "banks",
+   "version": "2.5.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.5.1 is confirmed as the latest version of the 'banks' package in PyPI (E1), was published before the SBOM timestamp, exactly matches the declared range '2.5.1', and has the highest probability among all candidates (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pydantic-ai-harness",
+  "kind": "version",
+  "value": 3.402496651037234,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pydantic-ai-harness",
+   "version": "0.66.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 0.66.0 exists in PyPI registry and was published before the SBOM timestamp 2026-11-12. It has the highest prior probability (0.104) among all candidates, confirming it as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "dnspython",
+  "kind": "version",
+  "value": 3.279048461965016,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "dnspython",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares dnspython@2.8.0. Registry lookup confirms this package exists in PyPI. Version listing before the SBOM timestamp shows 2.8.0 as the most likely version with prior probability 0.723, significantly higher than alternatives. The declared version matches the highest-probability candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "multidict",
+  "kind": "version",
+  "value": 3.068760023070814,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "multidict",
+   "version": "7.2.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "The declared_range '7.2.1' indicates the project requires version 7.2.1. Version 7.2.1 was available before the SBOM timestamp (2026-11-12) as confirmed by E1. Version 7.2.1 has no known vulnerabilities (E4), while the SBOM's listed version 6.7.1 has CVE-2026-104874 (E3). The most likely intended version based on the declared range is 7.2.1."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "oauthlib",
+  "kind": "version",
+  "value": 2.5834624412506098,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "oauthlib",
+   "version": "4.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares oauthlib@4.0.0 with range >=4.0. Both 4.0.0 and 4.0.1 satisfy the range and were available before the SBOM timestamp. Version 4.0.0 has the highest prior probability (0.695 from E2, 0.656 from current_candidates) and matches the declared version, making it the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "python-multipart",
+  "kind": "version",
+  "value": 1.6927549526328893,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "version": "0.0.32",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.0.32 is confirmed to exist on PyPI (E1), was available before the SBOM timestamp, satisfies the declared range >=0.0, and has the highest prior probability (0.644) among all candidates (E2). This matches the version_field declared in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "anyio",
+  "kind": "version",
+  "value": 1.5256173714365424,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "anyio",
+   "version": "4.15.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 4.15.1 with declared_range 4.15.1. Among versions available before the SBOM timestamp (2026-11-12), 4.15.1 has the highest probability (0.345) and matches the declared version exactly. The package exists in pypi registry (E1) and 4.15.1 was available before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpcore2",
+  "kind": "version",
+  "value": 1.3512040770903138,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpcore2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.16.0 is confirmed to exist in PyPI for httpcore2 (E1), was published before the SBOM timestamp (E2), and has the highest prior probability (0.215) among all candidates available before 2026-11-12. It also matches the version_field declared in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

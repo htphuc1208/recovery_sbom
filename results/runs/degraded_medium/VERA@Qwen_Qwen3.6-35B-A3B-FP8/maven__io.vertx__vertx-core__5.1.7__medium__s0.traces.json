@@ -1,0 +1,100 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport",
+   "version": "4.2.17.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'netty-transport' belongs to the io.netty group in Maven. Registry lookup (E1) confirms io.netty:netty-transport exists. Version listing (E2) confirms 4.2.17.Final was published before the SBOM timestamp (2026-09-01) and matches the declared version_field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "netty-handler-proxy",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-handler-proxy",
+   "version": "4.2.17.Final",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component netty-handler-proxy is a Netty module. Based on the SBOM context showing other Netty components under io.netty group with version 4.2.17.Final, and confirmed by Maven registry lookup, the full Maven coordinates are io.netty:netty-handler-proxy. Version 4.2.17.Final exists and was available before the SBOM timestamp."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-codec-haproxy",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-codec-haproxy",
+   "version": "4.2.17.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component netty-codec-haproxy exists in Maven under io.netty:netty-codec-haproxy (E1). Version 4.2.17.Final was published before the SBOM timestamp and is consistent with other Netty components in the SBOM which are all at 4.2.17.Final (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "vertx-codegen-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.vertx:vertx-codegen-api",
+   "version": "5.1.6",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The package io.vertx:vertx-codegen-api exists in Maven (E1, E4). Version 5.1.7 was not published before the SBOM timestamp (E2), but 5.1.6 was the latest available. The root component vertx-core@5.1.7 declares a dependency on vertx-codegen-api without a version range (E3), implying it uses the same version line. Therefore, 5.1.6 is the most likely version used when the SBOM was generated."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "netty-tcnative-classes",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-tcnative-classes",
+   "version": "2.0.81.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'netty-tcnative-classes' with version '2.0.81.Final' corresponds to the Maven artifact io.netty:netty-tcnative-classes. E1 confirms this artifact exists in Maven Central and includes version 2.0.81.Final. E2 confirms 2.0.81.Final was published before the SBOM timestamp (2026-09-01) and is the exact version declared in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

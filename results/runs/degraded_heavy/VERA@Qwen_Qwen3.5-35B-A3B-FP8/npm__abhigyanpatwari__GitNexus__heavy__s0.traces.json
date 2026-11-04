@@ -1,0 +1,138 @@
+[
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 2.90703005851976,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.29.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 4.29.5 has the highest probability (0.258) among current candidates, exists in npm registry (E1), was available before the SBOM timestamp (E2), and is a valid published version (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 2.7742237925292126,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The most likely version is 4.6.7. E1 confirms zod exists in npm registry. E2 shows versions satisfying ^4.6.0 published before 2026-11-12, with 4.6.7 having the highest priority (0.549). This aligns with the SBOM's current_candidates where 4.6.7 had the highest probability (0.613)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "baseline_browser_mapping",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "baseline-browser-mapping",
+   "version": "2.11.28",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name 'baseline_browser_mapping' with underscores was a formatting issue. The actual npm package is 'baseline-browser-mapping' (with hyphens). Version 2.11.28 exists in the npm registry and was published before the SBOM timestamp of 2026-11-12T09:54:58+00:00."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "CLI-TRUNCATE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "cli-truncate",
+   "version": "5.2.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component 'CLI-TRUNCATE' with version 5.2.0 was not found in the registry due to case sensitivity. The correct npm package name is 'cli-truncate' (lowercase). Version 5.2.0 exists in the npm registry (E1, E2), was published before the SBOM timestamp of 2026-11-12 (E3), and has no known vulnerabilities (E4). The SBOM's majority ecosystem is npm, confirming this is the correct ecosystem."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Levn",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "levn",
+   "version": "0.4.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Levn' was not found with its original name. Registry lookup in npm (the SBOM's majority ecosystem) found 'levn' with version 0.4.1, which matches the declared version_field and was published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "NATURAL-COMPARE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "natural-compare",
+   "version": "1.4.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'NATURAL-COMPARE' with version 1.4.0 was not found in the registry due to case sensitivity. The correct npm package name is 'natural-compare' (lowercase). Version 1.4.0 exists in npm registry (E1) and has no known vulnerabilities (E2). This version was published before the SBOM timestamp of 2026-11-12."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Rfdc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "rfdc",
+   "version": "1.4.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Rfdc' matches the npm package 'rfdc' (case-insensitive). The SBOM is from an npm-based project. Version 1.4.1 is the latest version published before the SBOM timestamp of 2026-11-12."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

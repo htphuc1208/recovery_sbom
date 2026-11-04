@@ -1,0 +1,394 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 20.535206975015136,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The declared_range is '4.2.3', which specifies an exact version. Version 4.2.3 exists in the npm registry (E1), is available in the version list (E2), was published before the SBOM timestamp (E3), has no vulnerabilities (E4), and has no dependencies (E6). The declared range being a specific version strongly indicates that 4.2.3 is the intended version.",
+   "name": "fast-uri",
+   "version": "4.2.3",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E6"
+   ]
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 9.561195298070267,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The package brace-expansion exists in npm registry (E1). Version 5.0.12 is the first (newest) version listed that satisfies the declared range ^5.0.0 and was published before the SBOM timestamp 2026-11-12T06:58:55+00:00 (E2). It also has the highest prior value (0.422) among candidates, aligning with the component's current_candidates showing 5.0.12 with highest probability (0.691).",
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "5.0.12"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "protobufjs",
+  "kind": "version",
+  "value": 8.271227207186406,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "version": "8.8.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package protobufjs exists in npm registry (E1). Version 8.8.1 is confirmed to be published before the SBOM timestamp (E2). Among current candidates, 8.8.1 has the highest probability (0.616) and is a valid version.",
+   "name": "protobufjs"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "server",
+  "kind": "version",
+  "value": 6.819220972798955,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "@modelcontextprotocol/server",
+   "rationale": "Package @modelcontextprotocol/server exists in npm registry (E1). Version 2.4.0 is listed as a valid version and was published before the SBOM timestamp 2026-11-12T06:58:55+00:00 (E2). The current candidates show 2.4.0 has the highest probability (0.602), and it is confirmed to be available before the SBOM generation time.",
+   "ecosystem": "npm",
+   "version": "2.4.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 3.788942971527554,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "brace-expansion",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared_range is '5.0.12' which is an exact version specification. Version 5.0.12 exists in npm registry (E1) and was published before the SBOM timestamp (E2). The spec '5.0.12' pins to this version.",
+   "version": "5.0.12",
+   "ecosystem": "npm"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Minimatch",
+  "kind": "version",
+  "value": 3.455674292055589,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "npm",
+   "version": "10.2.6",
+   "name": "minimatch",
+   "rationale": "Version 10.2.6 has the highest probability (0.355) in current_candidates and is listed first in versions published before the SBOM timestamp (2026-11-12T06:58:55+00:00), making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "client",
+  "kind": "version",
+  "value": 3.071467105321765,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "2.4.0",
+   "name": "@modelcontextprotocol/client",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "npm",
+   "rationale": "Version 2.4.0 has the highest probability (0.602) in current_candidates. E1 confirms the package exists and 2.4.0 is among the latest versions. E2 confirms 2.4.0 was published before the SBOM timestamp (2026-11-12T06:58:55+00:00)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@typescript_eslint/project_service",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "8.72.1",
+   "rationale": "The original name @typescript_eslint/project_service uses underscores which is not a valid npm scoped package format. The correct registry name is @typescript-eslint/project-service (with hyphens). Version 8.72.1 exists and was published before the SBOM timestamp.",
+   "name": "@typescript-eslint/project-service",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ]
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The package name was incorrectly uppercase. The correct lowercase name @unrs/resolver-binding-linux-arm-gnueabihf exists in npm registry (E2). Version 1.12.2 satisfies the declared range ^1.12.0 and was published before the SBOM timestamp, with the highest prior probability (E3). No vulnerabilities found for this version (E4).",
+   "version": "1.12.2",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "name": "@unrs/resolver-binding-linux-arm-gnueabihf",
+   "ecosystem": "npm"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "@unrs/resolver_binding_linux_arm_musleabihf",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "unrs-resolver",
+   "version": "1.12.2",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The original name @unrs/resolver_binding_linux_arm_musleabihf does not exist in npm registry (E1). The package unrs-resolver exists (E5) and version 1.12.2 is confirmed to exist (E6), matching the component's version field. The component name appears to be incorrectly scoped/misidentified."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@unrs/resolver_binding_linux_s390x_gnu",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "rationale": "The original package name @unrs/resolver_binding_linux_s390x_gnu with underscores does not exist in npm registry (E1). The correct package name uses hyphens: @unrs/resolver-binding-linux-s390x-gnu (E5). Version 1.12.2 has the highest prior probability (0.685) of being published before the SBOM timestamp 2026-11-12T06:58:55+00:00 (E6).",
+   "version": "1.12.2",
+   "name": "@unrs/resolver-binding-linux-s390x-gnu",
+   "evidence": [
+    "E1",
+    "E5",
+    "E6"
+   ]
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-WASM32-WASI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name @UNRS/RESOLVER-BINDING-WASM32-WASI (uppercase) does not exist in npm registry (E1). The correct lowercase name @unrs/resolver-binding-wasm32-wasi exists (E2) and version 1.12.2 was published before the SBOM timestamp (E3).",
+   "version": "1.12.2",
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-wasm32-wasi"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "BUNDLE-NAME",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "version": null,
+   "rationale": "The component name 'BUNDLE-NAME' does not exist in the npm registry (E1). Unable to determine the correct package identity without additional evidence.",
+   "ecosystem": "npm",
+   "name": null,
+   "evidence": [
+    "E1"
+   ]
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "DEFINE-PROPERTIES",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The component name 'DEFINE-PROPERTIES' normalized to lowercase 'define-properties' which exists in npm registry (E2). Version 1.2.1 is the latest available version (E3) and was published before the SBOM timestamp of 2026-11-12.",
+   "name": "define-properties",
+   "ecosystem": "npm",
+   "version": "1.2.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ]
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "fast_json_stable_stringify",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "version": "2.1.0",
+   "name": "fast-json-stable-stringify",
+   "rationale": "The component name 'fast_json_stable_stringify' with underscores does not exist in npm registry (E1). The correct package name is 'fast-json-stable-stringify' with hyphens, which exists and has version 2.1.0 available (E2, E3). This matches the version field in the component.",
+   "ecosystem": "npm"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "IS-NEGATIVE-ZERO",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "version": "2.0.3",
+   "rationale": "The component name 'IS-NEGATIVE-ZERO' did not match any npm package (E1). The correct package name is 'is-negative-zero' (lowercase with hyphens) which exists in npm registry (E2). Version 2.0.3 matches the component's version and is the latest version, published before the SBOM timestamp (E3, E4).",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "name": "is-negative-zero"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "magic_string",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "magic-string",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "version": null,
+   "rationale": "The component name 'magic_string' does not exist in npm (E1). The correct package name is 'magic-string' which exists in npm (E2). Since no version was declared in the component and no range was specified, the version cannot be confirmed and is submitted as null.",
+   "ecosystem": "npm"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Minipass",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "minipass",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "7.1.3",
+   "ecosystem": "npm",
+   "rationale": "Package 'minipass' exists in npm registry (E1). Versions satisfying '^7.1.0' range published before SBOM timestamp include 7.1.3 and 7.1.2, with 7.1.3 having highest prior probability (0.891) (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PATH-SCURRY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "2.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "path-scurry",
+   "ecosystem": "npm",
+   "rationale": "Package 'path-scurry' exists in npm registry (E1). Version 2.0.2 satisfies the declared range '^2.0.0' and was published before the SBOM timestamp 2026-11-12 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Regexp.prototype.flags",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The original name 'Regexp.prototype.flags' does not exist in npm (E1). The correct package name is 'regexp.prototype.flags' which exists in npm registry (E2). Version 1.5.4 is the latest version published before the SBOM timestamp 2026-11-12T06:58:55+00:00 (E3).",
+   "name": "regexp.prototype.flags",
+   "ecosystem": "npm",
+   "version": "1.5.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ]
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

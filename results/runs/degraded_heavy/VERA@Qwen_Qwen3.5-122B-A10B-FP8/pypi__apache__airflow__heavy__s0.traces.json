@@ -1,0 +1,231 @@
+[
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 116.35571975000056,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "rationale": "The package pillow exists in pypi registry (E1). Version 12.3.0 was published before the SBOM timestamp (E2) and has the highest probability in current_candidates (0.535) and highest prior score (0.474) in list_versions. The declared version field was 12.3.0, making it the most likely exact version.",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "12.3.0",
+   "name": "pillow"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PYPDF",
+  "kind": "version",
+  "value": 60.39447308441841,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "6.19.0",
+   "rationale": "Version 6.19.0 has the highest probability (0.181) among current candidates, exists in PyPI registry (E1), and was published before the SBOM timestamp (E2).",
+   "ecosystem": "pypi",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "pypdf"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.029245514325506,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "rationale": "Version 0.6.4 is confirmed as a valid pyasn1 version in pypi (E1) and was published before the SBOM timestamp 2026-11-12 (E2). It has the highest probability (0.642) among candidates and there is no declared_range constraint to satisfy.",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "0.6.4"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "datamodel-code-generator",
+  "kind": "version",
+  "value": 8.45801350499264,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Version 0.83.0 is the highest-scoring candidate (0.188 in current_candidates) and is confirmed to be published before the SBOM timestamp (2026-11-12) with the highest prior value (0.129) in list_versions result.",
+   "name": "datamodel-code-generator",
+   "ecosystem": "pypi",
+   "version": "0.83.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sqlparse",
+  "kind": "version",
+  "value": 6.080264576475338,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "version": "0.6.0",
+   "rationale": "The package sqlparse exists in pypi (E1). Version 0.6.0 is confirmed to be available before the SBOM timestamp (E2). The original purl indicates version 0.6.0, and it has the highest candidate score (0.616) among the options.",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "sqlparse"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "uv",
+  "kind": "version",
+  "value": 4.491423625448451,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Package uv exists in pypi (E1). Version 0.13.7 is available and was published before the SBOM timestamp 2026-11-12T11:53:34+00:00 (E2). Among the current candidates, 0.13.7 has the highest probability (0.145).",
+   "version": "0.13.7",
+   "name": "uv",
+   "ecosystem": "pypi",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "snowflake_connector_python",
+  "kind": "version",
+  "value": 2.700713579103962,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "snowflake-connector-python",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared_range is '5.1.0', which specifies exactly version 5.1.0. Evidence E1 confirms the package exists and lists 5.1.0 as a latest version. Evidence E2 confirms 5.1.0 is available in the version list. The version 5.1.0 satisfies the declared range requirement.",
+   "version": "5.1.0"
+  },
+  "steps": 4,
+  "tool_calls": 2
+ },
+ {
+  "component": "werkzeug",
+  "kind": "version",
+  "value": 2.4429917886594907,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "werkzeug",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "E1 confirms werkzeug exists in pypi registry. E2 shows version 3.1.9 was published before the SBOM timestamp (2026-11-12T11:53:34+00:00). The current_candidates shows 3.1.9 has the highest probability (0.533) among all candidates, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "starlette",
+  "kind": "version",
+  "value": 1.9632519890840872,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "starlette",
+   "version": "1.10.0",
+   "rationale": "The declared range is exactly '1.10.0'. Version 1.10.0 exists in pypi registry (E1), was published before the SBOM timestamp 2026-11-12 (E2), and is a valid version with proper dependencies (E3). This matches the exact version constraint.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "ecosystem": "pypi"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "mako",
+  "kind": "version",
+  "value": 1.9279023657999899,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "mako",
+   "version": "1.4.3",
+   "rationale": "Version 1.4.3 is the current version field value, has the highest probability (0.703) among candidates, satisfies the declared range >=1.4, and was available before the SBOM timestamp (2026-11-12). E1 confirms mako exists in pypi with 1.4.3 as a latest version. E2 shows 1.4.3 is available before the timestamp and is the newest version listed.",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "pypi"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PYTHON_MULTIPART",
+  "kind": "version",
+  "value": 1.6927549526328893,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Package python-multipart exists in pypi (E1). Version 0.0.32 satisfies the declared range >=0.0 and was published before the SBOM timestamp 2026-11-12 (E2). It has the highest probability (0.752) among candidates and is the first version in the list_versions result with prior 0.644.",
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "0.0.32"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "setuptools",
+  "kind": "version",
+  "value": 1.5028813810714658,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "84.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "pypi",
+   "name": "setuptools",
+   "rationale": "Version 84.0.0 has the highest probability (0.471) in current_candidates and the highest prior probability (0.371) among versions published before the SBOM timestamp. It exists in the pypi registry and was available before the SBOM generation date."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

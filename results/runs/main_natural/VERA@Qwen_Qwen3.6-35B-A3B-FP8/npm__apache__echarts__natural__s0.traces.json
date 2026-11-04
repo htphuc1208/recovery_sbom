@@ -1,0 +1,348 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 33.50863562334087,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares fast-uri@3.1.2. Registry lookup confirms the package exists in npm (E1). Version listing before the SBOM timestamp confirms 3.1.2 is a valid published version (E2). Among the current candidates, 3.1.2 has the highest probability (0.192), and it matches the declared version exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 16.53387550383769,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.2.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 10.2.0 is confirmed to exist in the npm registry (E1) and was published before the SBOM timestamp (E2). It is the highest-probability candidate (0.279) among all versions available by the SBOM generation time."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 14.269977745082768,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.18",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Version 1.1.18 is the most likely version based on highest probability (0.328) in current_candidates. The package exists in npm registry and version 1.1.18 was confirmed to exist and be published before the SBOM timestamp of 2026-10-04."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 14.098280940088282,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "2.1.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 2.1.4 is the most likely exact version based on: (1) it matches the SBOM's version_field, (2) it has the highest prior probability (0.273) among 2.x versions published before the SBOM timestamp, and (3) it exists in the npm registry as confirmed by registry_lookup and OSV lookup."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "js-yaml",
+  "kind": "version",
+  "value": 12.944923760999757,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "js-yaml",
+   "version": "3.15.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 3.15.2 for js-yaml. E1 confirms the package exists in npm. E2 confirms 3.15.2 was published before the SBOM timestamp. E3 confirms 3.15.2 is a valid pinned version. Among the current candidates, 3.15.2 has the highest probability (0.331). Therefore, 3.15.2 is the most likely exact version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "tar",
+  "kind": "version",
+  "value": 11.526850304893728,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "tar",
+   "version": "7.5.22",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 7.5.22 is confirmed to exist in npm registry (E1) and was published before the SBOM timestamp (E2). It has the highest prior probability (0.45) among pre-timestamp versions and matches the SBOM's highest-confidence candidate (0.581)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 8.376119581594791,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.28.8",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 4.28.8 is the most likely exact version: it has the second-highest prior probability (0.158) among versions published before the SBOM timestamp, and unlike 4.28.2 (which has known CVEs), it has no known vulnerabilities. The ecosystem and name are confirmed as npm/browserslist."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 7.132165792156034,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.9",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 5.0.9 is the most likely version based on the highest probability (0.599) in current_candidates, was published before the SBOM timestamp, and exists in the npm registry."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "form-data",
+  "kind": "version",
+  "value": 2.0894432094736177,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "form-data",
+   "version": "3.0.5",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The declared version 3.0.5 exists in npm registry and was published before the SBOM timestamp. It is the newest and highest-probability version in the 3.0.x series (E3), matching the SBOM's declared version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "jest-canvas-mock",
+  "kind": "version",
+  "value": 2.0358931153997615,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "jest-canvas-mock",
+   "version": "2.5.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares jest-canvas-mock@2.5.8 with range ^2.5.0. Registry lookup confirms the package exists on npm. list_versions with the ^2.5.0 constraint and before the SBOM timestamp shows 2.5.8 as the highest matching version with the highest prior probability (0.515). The declared version 2.5.8 is valid and most likely."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "lodash",
+  "kind": "version",
+  "value": 1.851362565144733,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lodash",
+   "version": "4.18.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "lodash 4.18.1 is the latest version in npm, has the highest prior probability (0.787) among versions published before the SBOM timestamp, and matches the SBOM's declared version_field and highest-confidence candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 1.7623717009890374,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "9.0.9",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The SBOM declares minimatch@9.0.9. Registry lookup (E1) confirms the package exists in npm. Version listing with spec '9.0.9' (E3) confirms that 9.0.9 is a valid published version available before the SBOM timestamp, with 100% prior probability when pinned to that spec."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 1.7487450422469466,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "3.1.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares minimatch@3.1.5 with 92.1% confidence. Registry lookup (E1) confirms minimatch exists in npm. Listing versions with spec 3.1.5 (E2) confirms version 3.1.5 exists and was published before the SBOM timestamp. This is the most likely version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "tmp",
+  "kind": "version",
+  "value": 1.5698755678009864,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "tmp",
+   "version": "0.2.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package tmp exists in npm registry. Version 0.2.7 is the latest version, was published before the SBOM timestamp, and has the highest prior probability (0.661) among candidates. The SBOM declares 0.2.7 which is confirmed to exist."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ws",
+  "kind": "version",
+  "value": 1.4141756972310702,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "7.5.13",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly states ws@7.5.13. Registry lookup confirms ws exists on npm (E1). Version 7.5.13 is available and was published before the SBOM timestamp (E2). The candidate probability distribution also strongly favors 7.5.13."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "flatted",
+  "kind": "version",
+  "value": 1.3557167045693899,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "flatted",
+   "version": "3.4.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares flatted@3.4.4. Registry lookup confirms this version exists in npm (E1). The version list before the SBOM timestamp confirms 3.4.4 was available and is the highest-probability candidate (E2). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sigstore",
+  "kind": "version",
+  "value": 1.3429252273294479,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "sigstore",
+   "version": "4.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.1.1 has the highest confidence score (0.821) among candidates and was published before the SBOM timestamp of 2026-10-04. Both E1 confirms the package exists in npm registry, and E2 confirms 4.1.1 was available before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "picomatch",
+  "kind": "version",
+  "value": 1.234832151565534,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "picomatch",
+   "version": "2.3.2",
+   "evidence": [
+    "E1",
+    "E6"
+   ],
+   "rationale": "The purl explicitly states version 2.3.2. E1 confirms picomatch 2.3.2 exists in npm and is listed among the latest versions. E6 confirms no known vulnerabilities for this version. The SBOM's own candidate analysis shows 90.1% confidence in 2.3.2. No declared range constraints exist to suggest otherwise."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

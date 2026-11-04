@@ -1,0 +1,41 @@
+[
+ {
+  "component": "commons-compress",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.commons:commons-compress",
+   "version": "1.28.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'commons-compress' exists in the Maven registry under the correct group ID 'org.apache.commons'. Version 1.28.0 is available and has no known vulnerabilities. The SBOM incorrectly listed only 'commons-compress' without the proper Maven group ID."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "snappy-java",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.xerial.snappy:snappy-java",
+   "version": "1.1.10.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'snappy-java' is a well-known compression library in the Maven ecosystem under the group org.xerial.snappy. Registry lookup confirmed the package exists as org.xerial.snappy:snappy-java (E1). Version 1.1.10.8 was confirmed to exist and match the declared version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

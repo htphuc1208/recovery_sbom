@@ -1,0 +1,359 @@
+[
+ {
+  "component": "vite",
+  "kind": "version",
+  "value": 18.220985628505204,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "vite",
+   "ecosystem": "npm",
+   "rationale": "Package vite exists in npm registry (E1). Version 8.3.5 was published before the SBOM timestamp 2026-11-11T17:22:38+00:00 (E2). The current_candidates show 8.3.5 as the top candidate with highest score 0.194, and it is confirmed to be available before the SBOM generation time.",
+   "version": "8.3.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 11.541280987552803,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "brace-expansion",
+   "ecosystem": "npm",
+   "rationale": "Package exists in npm registry (E1). Version 5.0.12 is confirmed as a valid published version and is the first in the version list (E2). The current_candidates show 5.0.12 has the highest probability (0.666). No declared range constraint exists.",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 4.508918032749056,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "zod",
+   "rationale": "Version 4.6.7 is confirmed to exist in npm registry (E1) and was published before the SBOM timestamp (E2). It is also the top candidate in the original component's current_candidates with 0.387 probability.",
+   "version": "4.6.7",
+   "ecosystem": "npm"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 3.4826058564597737,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "10.7.4",
+   "name": "ip-address",
+   "ecosystem": "npm",
+   "rationale": "Package exists in npm registry (E1). Version 10.7.4 satisfies the declared range ^10.7.0 and was published before the SBOM timestamp (E2). It is the first version in the list (newest first) and has the highest prior probability among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "vitest",
+  "kind": "version",
+  "value": 1.8630591480013394,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vitest",
+   "rationale": "E1 confirms vitest exists in npm registry. E2 shows 5.0.5 is a valid version published before the SBOM timestamp (2026-11-11T17:22:38+00:00). Among the current_candidates, 5.0.5 has the highest probability (0.227) and is confirmed to exist.",
+   "version": "5.0.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@img/sharp_libvips_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "@img/sharp-libvips-darwin-x64",
+   "version": "1.0.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "ecosystem": "npm",
+   "rationale": "The original name @img/sharp_libvips_darwin_x64 does not exist in npm registry (E1). The correct registry name is @img/sharp-libvips-darwin-x64 with hyphens instead of underscores (E2). Version 1.0.4 exists for this package (E4) and was published before the SBOM timestamp."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@IMG/SHARP-LINUX-ARM",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The original name '@IMG/SHARP-LINUX-ARM' does not exist in npm registry (E1). The correct package name is '@img/sharp-linux-arm' which exists (E2). Version 0.33.5 is confirmed to exist (E3), has no known vulnerabilities (E4), and was published before the SBOM timestamp (E5). The issue was case sensitivity in the package name.",
+   "ecosystem": "npm",
+   "name": "@img/sharp-linux-arm",
+   "version": "0.33.5"
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "@types/better_sqlite3",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "@types/better-sqlite3",
+   "version": "7.6.13",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The original package name @types/better_sqlite3 (with underscore) does not exist in npm registry (E1). The correct package name is @types/better-sqlite3 (with hyphen), which exists and has version 7.6.13 available (E4, E5). The version 7.6.13 was published before the SBOM timestamp 2026-11-11T17:22:38+00:00 (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "DECOMPRESS-RESPONSE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "decompress-response",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "10.0.0",
+   "rationale": "The component name DECOMPRESS-RESPONSE maps to the npm package decompress-response (E1 confirms existence). Version 10.0.0 is the most likely version based on prior probability (0.962) from versions published before the SBOM timestamp (E2).",
+   "ecosystem": "npm"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "DEEP-EXTEND",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "deep-extend",
+   "version": "0.6.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name DEEP-EXTEND is a case variation of the npm package 'deep-extend'. E1 confirms the package exists in npm registry. E2 shows version 0.6.0 is available and published before the SBOM timestamp (2026-11-11T17:22:38+00:00).",
+   "ecosystem": "npm"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "END-OF-STREAM",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The component name 'END-OF-STREAM' was not found in npm registry (E1). The correct package name is 'end-of-stream' (lowercase) which exists in npm (E2). Versions satisfying the declared range '^1.4.0' and published before the SBOM timestamp (2026-11-11) include 1.4.5 and 1.4.4 (E3). Version 1.4.5 has the highest prior probability (0.986) and no known vulnerabilities (E4), making it the most likely version used when the SBOM was generated.",
+   "ecosystem": "npm",
+   "version": "1.4.5",
+   "name": "end-of-stream",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ]
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "fast_levenshtein",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The package 'fast_levenshtein' does not exist in npm registry, but 'fast-levenshtein' (with hyphen) exists and has version 2.0.6 which matches the component's version. Evidence E4 confirms the package exists in npm, and E6 confirms version 2.0.6 is valid.",
+   "name": "fast-levenshtein",
+   "version": "2.0.6",
+   "ecosystem": "npm",
+   "evidence": [
+    "E4",
+    "E6"
+   ]
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "FAST-URI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'FAST-URI' is a case variation of the npm package 'fast-uri'. E1 shows 'FAST-URI' doesn't exist in npm registry. E2 confirms 'fast-uri' exists with 47 versions. E3 lists available versions published before the SBOM timestamp. Since no version was declared in the component, version is submitted as null.",
+   "name": "fast-uri",
+   "ecosystem": "npm",
+   "version": null
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Fflate",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "version": "0.8.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'Fflate' is a case variation of the npm package 'fflate'. Version 0.8.3 exists in the npm registry and was published before the SBOM timestamp.",
+   "name": "fflate"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "FS-CONSTANTS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "rationale": "The component name \"FS-CONSTANTS\" was normalized to lowercase \"fs-constants\" which exists in the npm registry. Version 1.0.0 matches the declared version and was published before the SBOM timestamp.",
+   "version": "1.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "fs-constants"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pure_rand",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "The component name 'pure_rand' with underscore does not exist in npm registry (E1). The correct npm package name is 'pure-rand' with hyphen (E2). Version 8.4.2 exists and is the latest version (E2, E3), matching the component's version field. No vulnerabilities found for this version (E4).",
+   "name": "pure-rand",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "version": "8.4.2",
+   "ecosystem": "npm"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "STRIP-JSON-COMMENTS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "strip-json-comments",
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name STRIP-JSON-COMMENTS is a case variation of the npm package strip-json-comments. E1 confirms the package exists in npm registry. E3 confirms version 2.0.1 exists. E4 confirms versions exist before the SBOM timestamp (2026-11-11).",
+   "version": "2.0.1"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Unpipe",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Unpipe' with capital U was not found in the registry. Looking up 'unpipe' (lowercase) in npm registry confirmed it exists with version 1.0.0, which matches the component's version field. npm package names are typically lowercase.",
+   "ecosystem": "npm",
+   "version": "1.0.0",
+   "name": "unpipe"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

@@ -1,0 +1,41 @@
+[
+ {
+  "component": "ejs",
+  "kind": "version",
+  "value": 1.5906224131147504,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ejs",
+   "version": "3.1.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 3.1.10 is the highest-probability candidate (0.683), exists in the npm registry, was published before the SBOM timestamp, and is the only version matching the declared range."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "postcss-selector-parser",
+  "kind": "version",
+  "value": 1.14394223030157,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-selector-parser",
+   "version": "6.1.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The version 6.1.0 has the highest prior probability (0.248) among versions published before the SBOM timestamp and matches the version_field in the SBOM. The package exists in npm and its dependencies are consistent with the expected structure."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

@@ -1,0 +1,59 @@
+[
+ {
+  "component": "virtualenv",
+  "kind": "version",
+  "value": 42.681204476575424,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "virtualenv",
+   "version": "21.7.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 21.7.4 has the highest prior probability (0.061) among all candidates and is confirmed to exist in the PyPI registry. It was published before the SBOM timestamp of 2026-11-07, and no declared range constraint applies."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 41.38274908241512,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "filelock 4.2.4 is confirmed as a real PyPI package version (E1), published before the SBOM timestamp of 2026-11-07 (E2), and has the highest probability score (0.158) among the candidate versions. It is consistent with the recent versions of other packages in the SBOM (e.g., rich ecosystem dependencies)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "black",
+  "kind": "version",
+  "value": 3.012073837942451,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "black",
+   "version": "26.5.1",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 26.5.1 has the highest prior probability (0.518) among all black versions published before the SBOM timestamp, satisfies the declared range >=26, and matches the version already encoded in the purl."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ }
+]

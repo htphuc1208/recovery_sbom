@@ -1,0 +1,268 @@
+[
+ {
+  "component": "vllm",
+  "kind": "version",
+  "value": 76.99724038797807,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "vllm",
+   "version": "0.29.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.29.0 has the highest probability (0.169) among all candidates. It exists in the pypi registry (E1) and was published before the SBOM timestamp of 2026-09-30T03:03:28+00:00 (E2). The purl also indicates this version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pypdf",
+  "kind": "version",
+  "value": 40.60158170483055,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pypdf",
+   "version": "6.14.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 6.14.2 exists in PyPI registry (E1), was published before the SBOM timestamp of 2026-09-30 (E2), and has the highest prior probability (0.195) among all candidate versions. The SBOM explicitly declares this version, and it is confirmed to be a valid published version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyjwt",
+  "kind": "version",
+  "value": 30.682741426903203,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyjwt",
+   "version": "2.13.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.13.0 is the most likely exact version: it has the highest prior probability (0.522) among versions published before the SBOM timestamp (2026-09-30), and it is confirmed to exist in the pypi registry. The SBOM already declares this version, which aligns with the evidence."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mcp",
+  "kind": "version",
+  "value": 16.619455589315155,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mcp",
+   "version": "2.2.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.2.0 is the most likely version based on: (1) it has the highest probability score (0.312) among current candidates, (2) it exists in the PyPI registry as confirmed by E1, and (3) it was published before the SBOM timestamp as confirmed by E2. The purl already specifies this version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 16.148576528884497,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range '12.3.0' is a pinned version. list_versions with spec '12.3.0' and before the SBOM timestamp returns only version 12.3.0, confirming it as the exact version present in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 6.019773518346767,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 0.6.4 is confirmed as a published PyPI package version (E1), and it is the most probable version based on the highest prior probability (0.75) and availability before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 3.4932186955858935,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.7.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.7.0 is the most likely exact version based on prior probability (0.84 from list_versions, 0.767 from current candidates) compared to 2.8.0 (0.16/0.233). Both versions satisfy the declared range >=2.7 and were published before the SBOM timestamp 2026-09-30."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "python-multipart",
+  "kind": "version",
+  "value": 3.4875430006753914,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "python-multipart",
+   "version": "0.0.32",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares python-multipart@0.0.32. Registry lookup confirms the package exists in pypi (E1). Version listing confirms 0.0.32 was published before the SBOM timestamp and satisfies the declared range >=0.0 (E2). It is the most probable exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "transformers",
+  "kind": "version",
+  "value": 2.8542939860461347,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "transformers",
+   "version": "5.17.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 5.17.0 is declared in the SBOM, exists in PyPI registry (confirmed by E1 showing 252 versions), and is present in the list of versions published before the SBOM timestamp with the highest prior probability (0.157) among all candidates (E2). This is the most likely exact version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 2.479490688723346,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "3.32.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly declares version 3.32.2 in both the version_field and purl. This version exists in the pypi registry (E1) and satisfies the declared range >=3.32, and was published before the SBOM timestamp (E2). It is the most likely exact version as it matches the SBOM's own declaration."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.4498546460185713,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.14.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 1.14.0 with purl pkg:pypi/accelerate@1.14.0. Both 1.14.0 and 1.15.0 satisfy the declared range >=1.14 and were published before the SBOM timestamp. However, 1.14.0 has a higher prior probability (0.738 vs 0.262) and matches the explicitly declared version_field, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "aiosmtplib",
+  "kind": "version",
+  "value": 1.7474858789376668,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "aiosmtplib",
+   "version": "5.1.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 5.1.2 is confirmed to exist in pypi registry (E1) and was published before the SBOM timestamp 2026-09-30 (E2). It is the most likely candidate with 0.508 probability in the original candidates and 0.403 prior in the filtered version list. The SBOM purl explicitly references this version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "anyio",
+  "kind": "version",
+  "value": 1.7446609052090545,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "anyio",
+   "version": "4.14.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.14.2 is the highest-priority candidate (0.478) among versions satisfying the declared range >=4.14 and published before the SBOM timestamp. It matches the version explicitly declared in the SBOM purl (pkg:pypi/anyio@4.14.2) and appears in the other_components_sample."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "authlib",
+  "kind": "version",
+  "value": 1.703213524162225,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "authlib",
+   "version": "1.7.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.7.2 has the highest prior probability (0.644) among all authlib versions satisfying >=1.7 and published before the SBOM timestamp. It also matches the declared version_field in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

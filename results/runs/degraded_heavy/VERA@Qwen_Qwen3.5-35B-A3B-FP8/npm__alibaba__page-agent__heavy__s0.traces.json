@@ -1,0 +1,387 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 27.52868735018899,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "4.1.4",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "Version 4.1.4 satisfies the declared range '4.1.4' and was published before the SBOM timestamp. This is the correct version that should be in the SBOM."
+  },
+  "steps": 7,
+  "tool_calls": 5
+ },
+ {
+  "component": "vitest",
+  "kind": "version",
+  "value": 3.2445291614896954,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vitest",
+   "version": "4.1.11",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares vitest@4.1.11. Registry lookup confirms vitest exists in npm (E1). Version 4.1.11 was published before the SBOM timestamp and has the highest prior probability (0.121) among candidates (E2). No vulnerabilities found for this version (E3). The version is confirmed and most likely correct."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 2.1985360704941206,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "10.2.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares minimatch@10.2.6. Registry lookup (E1) confirms minimatch exists in npm. Version listing (E2) confirms 10.2.6 was published before the SBOM timestamp (2026-09-06) and is among the available versions. The SBOM's own probability distribution shows 10.2.6 as the most likely candidate (0.643). Therefore, 10.2.6 is confirmed as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 2.1985360704941206,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "10.2.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 10.2.6 is confirmed to exist in npm registry (E1) and was published before the SBOM timestamp of 2026-09-06 (E2). It has the highest confidence score (0.643) among all candidates and matches the declared version_field in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "path-to-regexp",
+  "kind": "version",
+  "value": 1.5892653358833018,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "path-to-regexp",
+   "version": "8.4.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 8.4.2. The npm registry lookup confirms this version exists. The version list query with the pinned spec and before-SBOM timestamp returns only 8.4.2 as the matching version. This is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace_expansion",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.18",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'brace_expansion' was a mismatch due to underscore vs hyphen. The correct npm package is 'brace-expansion'. Version 1.1.18 exists in the registry and was published before the SBOM timestamp (2026-09-06)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "STRIP-JSON-COMMENTS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "strip-json-comments",
+   "version": "3.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name STRIP-JSON-COMMENTS maps to the npm package strip-json-comments (E1). Version 3.1.1 is a valid published version and was available before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@ROLLDOWN/BINDING-ANDROID-ARM-EABI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-android-arm-eabi",
+   "version": null,
+   "evidence": [
+    "E3",
+    "E5"
+   ],
+   "rationale": "The component name '@ROLLDOWN/BINDING-ANDROID-ARM-EABI' is a corrupted/mangled version of '@rollup/rollup-android-arm-eabi' (E3). The declared version '1.2.7' is unsatisfiable for this package as the package versions are all in the 4.x range (E5). Cannot confirm a matching version, so submitting null for version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-FREEBSD-X64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-freebsd-x64",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "The package @tailwindcss/oxide-freebsd-x64 exists in npm. The latest version published before the SBOM timestamp 2026-09-06 is 4.3.3, which is consistent with the main @tailwindcss/oxide package version at the same time."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-LINUX-ARM-GNUEABIHF",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-arm-gnueabihf",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @TAILWINDCSS/OXIDE-LINUX-ARM-GNUEABIHF is a case-normalized form of the npm package @tailwindcss/oxide-linux-arm-gnueabihf, which exists in the npm registry (E1). The SBOM's majority ecosystem is npm and the root is an npm package. The latest version published before the SBOM timestamp (2026-09-06) is 4.3.3 (E2). This is the most likely version the SBOM was generated with."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@EMNAPI/WASI-THREADS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@emnapi/wasi-threads",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared name @EMNAPI/WASI-THREADS with range ^1.2.0 matches the npm package @emnapi/wasi-threads (E1). Versions satisfying ^1.2.0 and published before the SBOM timestamp are 1.2.3, 1.2.2, 1.2.1, 1.2.0 (E2). The newest such version is 1.2.3, which is the most likely version used when the SBOM was generated."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "default_browser_id",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "default-browser-id",
+   "version": "5.0.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM listed 'default_browser_id' which does not exist in npm registry (E1). The correct package name is 'default-browser-id' with hyphens, which exists in npm (E2). The most recent version published before the SBOM timestamp of 2026-09-06 is 5.0.1 (E3). The underscore-to-hyphen difference is a common package name normalization issue."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Dequal",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "dequal",
+   "version": "2.0.3",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name 'Dequal' was a case-sensitive mismatch. The correct npm package is 'dequal' (lowercase). The declared range ^2.0.0 is satisfied by version 2.0.3, which is the latest version available before the SBOM timestamp of 2026-09-06."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "ESCAPE-GOAT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The package name 'ESCAPE-GOAT' was not found in any of the major package registries (npm, pypi, maven). E1 confirms it doesn't exist in npm, E2 confirms it doesn't exist in pypi, and E3 confirms it doesn't exist in maven. Without a valid registry match, the true package identity cannot be determined."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "Esquery",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "esquery",
+   "version": "1.7.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Esquery' corresponds to the npm package 'esquery' (case-insensitive match). E1 confirms its existence in npm registry. E2 shows version 1.7.0 is the latest version published before the SBOM timestamp of 2026-09-06."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Esrecurse",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "esrecurse",
+   "version": "4.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'esrecurse' exists in the npm registry (E1). Version 4.3.0 is available and was published before the SBOM timestamp of 2026-09-06 (E2). The declared version_field matches this version exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "http_errors",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "http-errors",
+   "version": "2.0.1",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component name 'http_errors' with underscore was a registry match failure. The actual package is 'http-errors' (with hyphen) in npm ecosystem, which exists and has version 2.0.1 published before the SBOM timestamp of 2026-09-06."
+  },
+  "steps": 5,
+  "tool_calls": 5
+ },
+ {
+  "component": "RESOLVE-FROM",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "resolve-from",
+   "version": "4.0.0",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original name 'RESOLVE-FROM' was not found in npm registry (E1). The correct package name is 'resolve-from' which exists in npm (E2). The declared range '^4.0.0' resolves to exactly one version published before the SBOM timestamp: 4.0.0 (E3). The package has no dependencies (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Levn",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "levn",
+   "version": "0.4.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Levn' corresponds to the npm package 'levn'. Registry lookup (E1) confirms it exists in npm with version 0.4.1. Version listing (E2) confirms 0.4.1 was published before the SBOM timestamp of 2026-09-06. The SBOM context shows this is an npm-based project."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "lightningcss_win32_x64_msvc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lightningcss",
+   "version": "1.32.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'lightningcss_win32_x64_msvc' is not a valid npm package (E1). The correct package is 'lightningcss' which exists in npm (E2) and has version 1.32.0 that satisfies the declared range ^1.32.0 and was published before the SBOM timestamp (E3). The platform-specific suffix appears to be a misinterpretation of a platform binary within the lightningcss package."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

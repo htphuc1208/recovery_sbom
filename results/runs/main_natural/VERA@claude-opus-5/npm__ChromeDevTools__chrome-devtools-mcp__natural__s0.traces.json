@@ -1,0 +1,136 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 20.535206975015136,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 3.1.9 is confirmed to exist in the npm registry (E2). The SBOM candidate distribution shows 3.1.9 with the highest probability (0.588), significantly higher than the next candidate (3.1.8 at 0.103). The purl already specifies 3.1.9, and this version was published before the SBOM timestamp of 2026-11-12."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 10.951106547576986,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "brace-expansion@1.1.21 is confirmed to exist in the npm registry (E1) and has no known vulnerabilities (E3). The candidate distribution strongly favors 1.1.21 with probability 0.663, far ahead of the next candidate (1.1.18 at 0.099). The version was published before the SBOM timestamp of 2026-11-12."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "protobufjs",
+  "kind": "version",
+  "value": 7.357756805566089,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "protobufjs",
+   "version": "7.6.6",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 7.6.6 of protobufjs is confirmed to exist in the npm registry (E2). The SBOM candidate distribution strongly favors 7.6.6 with probability 0.742, far ahead of the next candidate 7.6.5 at 0.098. The version is consistent with the SBOM timestamp of 2026-11-12 and no declared range constraint applies."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 3.788942971527554,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 5.0.12 is confirmed to exist in the npm registry (E2) and was published before the SBOM timestamp of 2026-11-12. It is the highest-probability candidate in the SBOM (0.786) and has the highest prior probability (0.379) among versions satisfying the implicit range (E1)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 2.6618023467855427,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.6.7 is the latest published version of zod on npm (E2), satisfies the declared range ^4.4.3 (E1), and is the top candidate in the SBOM's own probability distribution (0.641). The SBOM timestamp (2026-11-12) is consistent with using the latest version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ws",
+  "kind": "version",
+  "value": 1.4205446093086809,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "8.22.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 8.22.1 is confirmed to exist in the npm registry (E2) and is among the versions published before the SBOM timestamp of 2026-11-12 (E1). The SBOM's own candidate scoring gives 8.22.1 the highest probability (0.298), making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 1.2652745290090432,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "3.1.5",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "Package minimatch exists in npm registry (E1). Version 3.1.5 is confirmed available and published before the SBOM timestamp of 2026-11-12 (E3). The candidate distribution strongly favors 3.1.5 (0.943 probability), and the purl already specifies this version. No declared range constraint to consider."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ }
+]

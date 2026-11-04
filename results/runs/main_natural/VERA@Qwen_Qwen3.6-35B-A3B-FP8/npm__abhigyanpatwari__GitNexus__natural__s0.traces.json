@@ -1,0 +1,79 @@
+[
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 19.72920790495244,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.21",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The purl explicitly states version 1.1.21 (pkg:npm/brace-expansion@1.1.21). Version 1.1.21 exists in the npm registry and was available before the SBOM timestamp. It also has the highest confidence score (0.41) among current candidates."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 9.954742013207323,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.28.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly declares version 4.28.2 for browserslist. This version exists in the npm registry (E1) and was published before the SBOM timestamp (E2). It is also the most likely candidate among the current options with a prior probability of 0.164."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 7.565161812427206,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 5.0.12 has the highest probability (0.624) among candidates. It exists in the npm registry (E1), is part of the 5.0.x series (E2), and was published before the SBOM timestamp of 2026-11-12T09:54:58+00:00 (E4). The purl also specifies this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 1.899103909582619,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 4.4.3 has the highest prior probability (0.331) among all versions published before the SBOM timestamp, making it the most likely exact version. The purl confirms the npm ecosystem and registry name."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

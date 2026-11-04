@@ -1,0 +1,119 @@
+[
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.195669949712237,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component org.apache.logging.log4j:log4j-core version 2.26.1 is confirmed as a valid published version (E1, E2). It is the highest-probability candidate (0.679) and is consistent with other log4j components in the SBOM also being at 2.26.1. No vulnerabilities found for this version (E4)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6052443102692748,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of org.apache.logging.log4j:log4j-api in Maven Central (E1, E2). It is the highest-probability candidate (0.679) and matches the purl and SBOM context. No vulnerabilities found (E4). No declared range constraints to consider."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.11.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'commons-beanutils' with version 1.11.0 was not found using the simple name in Maven registry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (groupId:artifactId). Version 1.11.0 exists and is the latest published version, matching the SBOM's version_field. No vulnerabilities found for this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jakarta.servlet-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "jakarta.servlet:jakarta.servlet-api",
+   "version": "5.0.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component was declared with group=null and name=jakarta.servlet-api, which failed registry lookup. The correct Maven coordinate is jakarta.servlet:jakarta.servlet-api (E4). Version 5.0.0 exists and matches the declared version_field exactly (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "jackson-databind",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'jackson-databind' with no group was not found because it requires the Maven group 'com.fasterxml.jackson.core'. Registry lookup confirmed 'com.fasterxml.jackson.core:jackson-databind' exists (E1). No version could be confirmed since the SBOM has no timestamp and no declared range."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-core",
+   "version": "2.21.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM listed 'jackson-core' with group null and version 2.21.3. In the Maven ecosystem, this corresponds to the well-known package 'com.fasterxml.jackson.core:jackson-core'. Registry lookup confirmed this package exists (E1) and version 2.21.3 is available (E2)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

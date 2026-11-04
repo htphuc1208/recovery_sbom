@@ -1,0 +1,256 @@
+[
+ {
+  "component": "BRACE-EXPANSION",
+  "kind": "version",
+  "value": 14.091997953522073,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 5.0.12 for brace-expansion. Registry lookup confirms the package exists on npm. Version listing before the SBOM timestamp shows 5.0.12 as the highest-probability candidate (0.381 prior), matching the declared version field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 13.9897362651751,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 10.7.4 has the highest probability (0.128) among all candidates and was confirmed to be available before the SBOM timestamp (2026-11-11) per E2. The package exists in npm registry (E1)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "js-yaml",
+  "kind": "version",
+  "value": 5.476056410273648,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "js-yaml",
+   "version": "5.5.0",
+   "evidence": [
+    "E6",
+    "E5"
+   ],
+   "rationale": "Version 5.5.0 satisfies the declared_range '5.5.0' (E6). It exists in npm registry (E5) and was published before the SBOM timestamp. The version_field 4.3.2 was rejected as it violates the declared range constraint."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "proxy-addr",
+  "kind": "version",
+  "value": 4.385145745570398,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "proxy-addr",
+   "version": "2.0.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Both 2.0.7 and 2.0.8 were available before the SBOM timestamp. Version 2.0.7 has a higher prior probability (0.619) than 2.0.8 (0.381) based on the registry listing, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 3.143712119500781,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 1.2.1. Both 1.2.1 and 1.2.2 exist in npm and were published before the SBOM timestamp. Version 1.2.1 has the highest prior probability (0.703) and matches the declared version exactly, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 1.9899269137535538,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 2.3.0 exists in the npm registry, was published before the SBOM timestamp, and has the highest prior probability among candidates. It exactly matches the declared_range '2.3.0'."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "minimatch",
+  "kind": "version",
+  "value": 1.2712656538901586,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minimatch",
+   "version": "3.1.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 3.1.5 is the most probable match: it satisfies the declared range ^3.1.0, was published before the SBOM timestamp, has the highest prior probability (0.884), and has no known vulnerabilities. Version 3.1.2, the only other candidate with non-trivial probability, has 3 CVEs and is therefore unlikely."
+  },
+  "steps": 3,
+  "tool_calls": 4
+ },
+ {
+  "component": "@rolldown/binding_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@rolldown/binding-darwin-x64",
+   "version": "1.2.8",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name used an underscore (@rolldown/binding_darwin_x64) which doesn't exist in npm registry. The correct name uses hyphens (@rolldown/binding-darwin-x64) as confirmed by E2. Version 1.2.8 was published before the SBOM timestamp and is available in the registry (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Escalade",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "escalade",
+   "version": "3.2.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component name 'Escalade' was a case-sensitive mismatch. The npm registry contains 'escalade' (lowercase) version 3.2.0, which matches the declared version_field and was available before the SBOM timestamp."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "file_uri_to_path",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "file-uri-to-path",
+   "version": "1.0.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'file_uri_to_path' with underscores is the npm package 'file-uri-to-path' with hyphens. Version 1.0.0 exists in the npm registry (E1), is available before the SBOM timestamp 2026-11-11 (E2), and matches the declared version exactly (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Obug",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The name 'Obug' does not exist in npm (E1) or pypi (E2) registries. The closest similar name 'debug' exists in npm (E3), but version 2.2.1 was not found in the available versions of debug (E4, E5, E6). Without being able to confirm that 'Obug' is a typo for 'debug' or that version 2.2.1 exists, I cannot reliably determine the true package identity. The SBOM problem states 'no registry match' which confirms the name is not found in any registry."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "RANGE-PARSER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "range-parser",
+   "version": "1.2.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'RANGE-PARSER' corresponds to the npm package 'range-parser'. Version 1.2.1 exists in the npm registry and was published before the SBOM timestamp of 2026-11-11."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Rolldown",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "rolldown",
+   "version": "1.2.16",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name 'Rolldown' was case-sensitive; the correct npm package is 'rolldown' (lowercase). The declared range ^1.2.0 matches 22 versions. The most recent version published before the SBOM timestamp (2026-11-11) satisfying the range is 1.2.16."
+  },
+  "steps": 5,
+  "tool_calls": 6
+ }
+]

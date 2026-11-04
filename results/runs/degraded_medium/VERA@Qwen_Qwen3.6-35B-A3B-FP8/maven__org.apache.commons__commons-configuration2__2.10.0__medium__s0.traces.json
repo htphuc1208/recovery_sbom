@@ -1,0 +1,98 @@
+[
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.19623056252049,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared version 2.26.1 is confirmed to exist in Maven Central (E1), has the highest prior probability (0.679) among all candidates (E2), and has no known vulnerabilities (E3). This is the most likely exact version as it was when the SBOM was generated."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.605525916505432,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a published version in the Maven registry for org.apache.logging.log4j:log4j-api. It has the highest probability (0.679) among all candidate versions and is listed among the latest versions. No SBOM timestamp constraint was provided, so the most likely version based on probability scores is selected."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.9.4",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'commons-beanutils' with no group in a Maven SBOM context corresponds to the Maven coordinate 'commons-beanutils:commons-beanutils'. Version 1.9.4 was confirmed to exist in the Maven registry (E2, E3). The original 'no registry match' error was due to missing the Maven groupId prefix."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-vfs2",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.commons:commons-vfs2",
+   "version": "2.9.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'commons-vfs2' was missing its Maven group ID. The correct registry name is 'org.apache.commons:commons-vfs2' as confirmed by E2. Version 2.9.0 exists and matches the declared version_field (E3). The SBOM majority ecosystem is Maven and all other components use Maven coordinates, confirming this is a Maven package."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jackson-databind",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.16.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'jackson-databind' with group null was not matching any registry. Based on the SBOM context showing other Jackson components (jackson-annotations, jackson-core) from com.fasterxml.jackson.core at version 2.16.1, the correct Maven coordinate is com.fasterxml.jackson.core:jackson-databind. Registry lookup confirmed this package exists (E1), and version 2.16.1 is available (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

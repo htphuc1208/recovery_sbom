@@ -1,0 +1,99 @@
+[
+ {
+  "component": "braces",
+  "kind": "version",
+  "value": 3.5410573697644163,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "braces",
+   "version": "3.0.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package braces exists in npm. Both 3.0.3 and 3.0.2 were available before the SBOM timestamp. Version 3.0.3 is the latest and has the highest probability (0.527), making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "get_stream",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "get-stream",
+   "version": "5.2.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'get_stream' with underscore was not found in npm registry. The correct npm package name is 'get-stream' with a hyphen. Version 5.2.0 exists in npm, was published before the SBOM timestamp (2024-08-19), and is a valid package with declared dependencies."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "IS-SVG",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-svg",
+   "version": "5.0.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'IS-SVG' with 'no registry match' problem was resolved by finding the correct npm package 'is-svg' (case-insensitive match). Version 5.0.1 is the latest version published before the SBOM timestamp of 2024-08-19. Evidence: E1 confirms package exists in npm registry, E2 shows 5.0.1 is the newest version before the timestamp, E3 confirms it's a valid package with dependencies."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "postcss_discard_duplicates",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-discard-duplicates",
+   "version": "4.0.2",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM listed 'postcss_discard_duplicates' which doesn't exist in npm registry (E1). The correct npm package name uses hyphens: 'postcss-discard-duplicates' (E2). Version 4.0.2 exists and was published before the SBOM timestamp of 2024-08-19 (E3). The underscore-to-hyphen naming difference was causing the 'no registry match' problem."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "POSTCSS-SELECTOR-PARSER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss-selector-parser",
+   "version": "6.1.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name POSTCSS-SELECTOR-PARSER maps to the npm package postcss-selector-parser (E1). The declared range ^6.0.0 is satisfied by versions 6.x.x. The newest version published before the SBOM timestamp 2024-08-19 is 6.1.2 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

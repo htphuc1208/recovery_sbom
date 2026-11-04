@@ -1,0 +1,42 @@
+[
+ {
+  "component": "virtualenv",
+  "kind": "version",
+  "value": 61.01311516455165,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "virtualenv",
+   "version": "21.15.6",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared version 21.15.6 is confirmed to exist in PyPI (E1), was published before the SBOM timestamp (E2), and has no known vulnerabilities (E3). It is the highest available version at the time and matches the SBOM declaration exactly. The next most likely candidate 21.7.4 has 19 CVEs (E4), making it far less probable."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 38.029425239897456,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 4.2.4 is confirmed to exist in PyPI (E1), was published before the SBOM timestamp of 2026-11-12 (E2), and has the highest prior probability among all candidates both overall (0.084) and among versions >= 4.2.4 (0.455) (E3). The SBOM purl explicitly references this version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

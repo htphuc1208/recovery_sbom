@@ -1,0 +1,22 @@
+[
+ {
+  "component": "${cxf.asm.artifactId}",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E4",
+    "E5"
+   ],
+   "name": "org.ow2.asm:asm",
+   "rationale": "The Maven property ${cxf.asm.groupId}:${cxf.asm.artifactId} in org.apache.cxf:cxf-core:4.1.7 resolves to org.ow2.asm:asm (E1). The package exists in Maven registry (E4). The most recent version published before the SBOM timestamp 2026-06-05 is 9.9.1 (E5). However, the exact managed version could not be resolved from the POM, so version is submitted as null.",
+   "version": null
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

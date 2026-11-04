@@ -1,0 +1,388 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 36.05688614412134,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "4.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.2.3 is confirmed to exist in npm registry (E1) and was published before the SBOM timestamp (E2). It has the highest prior probability (0.163) among available versions and matches the declared version in the SBOM with highest confidence (0.196)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "hono",
+  "kind": "version",
+  "value": 26.877057669697425,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.13.13",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'hono' exists in npm registry (E1). The declared range is '4.13.13' which is a pinned version. When querying for versions satisfying this range and published before the SBOM timestamp (2026-11-10), only version 4.13.13 is returned with prior probability 1.0 (E2). This confirms 4.13.13 is the exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sdk",
+  "kind": "version",
+  "value": 14.55946183554839,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "1.30.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 1.30.0. The list_versions query with spec=1.30.0 and before=2026-11-10 returned only version 1.30.0, confirming it as the only candidate satisfying the constraint and predating the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "IS-NUMBER-OBJECT",
+  "kind": "identity",
+  "value": 10.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-number-object",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM name 'IS-NUMBER-OBJECT' was incorrectly capitalized. The correct npm package is 'is-number-object'. Version 1.1.1 is the newest version satisfying the declared range ^1.1.0 and was published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 5.209166285024043,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared_range '6.16.0' is a pinned version constraint that only matches version 6.16.0 exactly (E2). The purl also specifies @6.16.0. Version 6.16.0 exists in the npm registry (E1) and was available before the SBOM timestamp (E3). It has the highest probability (0.346) among the current candidates."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "node-server",
+  "kind": "version",
+  "value": 3.4470512948159633,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@hono/node-server",
+   "version": "2.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is '2.1.1' which is an exact pin. The list_versions query with spec='2.1.1' and before the SBOM timestamp returned only version 2.1.1, confirming it exists and was available before the SBOM was generated."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Zod",
+  "kind": "version",
+  "value": 2.0392943309947404,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares zod@4.4.3 with range ^4.3.0. Registry lookup confirms zod exists on npm. Version listing confirms 4.4.3 satisfies ^4.3.0 and was published before the SBOM timestamp 2026-11-10. It has the highest prior probability (0.363) among candidates, matching the SBOM's declared version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 1.531800048025754,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "The declared range ^2.3.0 matches two versions: 2.3.0 and 2.4.0. Version 2.3.0 has the highest prior probability (0.796) and matches the version_field in the SBOM. Both versions were published before the SBOM timestamp. Therefore, 2.3.0 is the most likely exact version."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "@floating_ui/react_dom",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@floating-ui/react-dom",
+   "version": "2.1.8",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "The SBOM name '@floating_ui/react_dom' used underscores instead of hyphens, causing no registry match. The correct npm package name is '@floating-ui/react-dom' (E1). Version 2.1.8 is confirmed as a published version and was available before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "@humanwhocodes/module_importer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@humanwhocodes/module-importer",
+   "version": "1.0.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name in the SBOM used an underscore (module_importer) but the correct npm package name uses a hyphen (module-importer). The package @humanwhocodes/module-importer version 1.0.1 exists in the npm registry and was available before the SBOM timestamp (2026-11-10). This matches the declared version_field."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@NEXT/SWC-DARWIN-ARM64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-arm64",
+   "version": "16.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name '@NEXT/SWC-DARWIN-ARM64' was incorrectly formatted. The correct npm package name is '@next/swc-darwin-arm64' (E1). The declared range '^16.3.0' is satisfied by multiple versions, and the newest version published before the SBOM timestamp (2026-11-10) is 16.4.3 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@next/swc_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-x64",
+   "version": "16.3.5",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name used an underscore (@next/swc_darwin_x64) but the correct npm registry name uses a hyphen (@next/swc-darwin-x64). Version 16.3.5 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-WIN32-ARM64-MSVC",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-win32-arm64-msvc",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The package exists in npm registry (E1). The latest version published before the SBOM timestamp 2026-11-10 is 4.3.3 (E2), which is also the latest version of the parent @tailwindcss/oxide package (E4), confirming version alignment. This is the most probable version used in the SBOM."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@tailwindcss/oxide_win32_x64_msvc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E2",
+    "E5",
+    "E6"
+   ],
+   "name": "@tailwindcss/oxide-win32-x64-msvc",
+   "rationale": "The SBOM name '@tailwindcss/oxide_win32_x64_msvc' uses underscores but the actual npm package uses hyphens. Registry lookup confirmed '@tailwindcss/oxide-win32-x64-msvc' exists (E6) as a platform-specific binary package in the tailwindcss ecosystem. The SBOM majority ecosystem is npm (context). Version could not be confirmed due to tool budget exhaustion.",
+   "version": null
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "GLOB-PARENT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob-parent",
+   "version": "5.1.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The name 'GLOB-PARENT' maps to the npm package 'glob-parent' (E1). The declared range ^5.1.0 is satisfied by version 5.1.2, which is the newest version published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-ANDROID-ARM-EABI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-android-arm-eabi",
+   "version": "1.11.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package exists in npm registry as @unrs/resolver-binding-android-arm-eabi. Version 1.11.1 was available before the SBOM timestamp (2026-11-10) and matches the declared version_field. The original name was uppercase but npm names are case-insensitive."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ARRAY-INCLUDES",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "array-includes",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'ARRAY-INCLUDES' was incorrectly cased. The correct npm package name is 'array-includes' (lowercase). Verified existence in npm registry (E1). The most recent version published before the SBOM timestamp (2026-11-10) is 3.1.9 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "error_ex",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "error-ex",
+   "version": "1.3.4",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component name 'error_ex' was a typo/misformatting of the actual npm package 'error-ex'. The package exists in npm registry (E4) and version 1.3.4 is available and matches the version_field in the SBOM (E5). Published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "ES-OBJECT-ATOMS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "es-object-atoms",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'ES-OBJECT-ATOMS' was a case-mismatched version of the npm package 'es-object-atoms'. Verified existence in npm registry (E1) and confirmed version 1.1.1 was published before the SBOM timestamp of 2026-11-10 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "express_rate_limit",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "express-rate-limit",
+   "version": "8.7.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The declared name 'express_rate_limit' with underscore does not exist in npm registry (E1). The correct package name is 'express-rate-limit' with hyphen (E2). Version 8.7.0 is the most recent version published before the SBOM timestamp of 2026-11-10 (E3). The package is valid with declared dependencies (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

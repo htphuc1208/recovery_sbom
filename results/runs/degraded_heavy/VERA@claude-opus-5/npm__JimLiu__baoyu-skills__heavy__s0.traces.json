@@ -1,0 +1,324 @@
+[
+ {
+  "component": "undici",
+  "kind": "version",
+  "value": 54.63207934090433,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "undici",
+   "version": "8.12.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "undici@8.12.3 is confirmed to exist in the npm registry (E1) and is listed among the latest versions. It was published before the SBOM timestamp of 2026-11-06 (E2). Among the candidate versions, 8.12.3 has the highest prior probability (0.129) in the version listing, consistent with it being the top candidate (0.33) in the SBOM's uncertainty distribution."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "image-size",
+  "kind": "version",
+  "value": 4.836041661146788,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "image-size",
+   "version": "2.0.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "image-size@2.0.4 is confirmed to exist in the npm registry (E1) and appears in the version list published before the SBOM timestamp (E2). It is the top candidate with probability 0.674, matching the purl already declared in the SBOM."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 2.7520385941550902,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Both 1.2.1 and 1.2.2 exist in the npm registry and were published before the SBOM timestamp (E1). The SBOM's own candidate distribution strongly favors 1.2.2 (0.633) over 1.2.1 (0.366), making 1.2.2 the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "ws",
+  "kind": "version",
+  "value": 1.493122528893331,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "8.22.0",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 8.22.0 of npm package 'ws' is confirmed to exist in the registry and was published before the SBOM timestamp (2026-11-06). It is also the highest-probability candidate (0.514) in the SBOM's current_candidates distribution."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "defuddle",
+  "kind": "version",
+  "value": 1.3547072977605383,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "defuddle",
+   "version": "0.19.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package defuddle exists in npm registry (E1). Version 0.19.6 is the latest version published before the SBOM timestamp 2026-11-06 (E2). It also has the highest candidate score (0.264) in the SBOM, confirming it as the most likely version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "@img/sharp_linux_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linux-arm64",
+   "version": "0.34.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name had an underscore instead of a hyphen: `@img/sharp_linux_arm64` is not a valid npm package, but `@img/sharp-linux-arm64` is a real npm package (E1). Version 0.34.5 exists and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@IMG/SHARP-LINUXMUSL-X64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linuxmusl-x64",
+   "version": "0.34.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name was cased incorrectly (@IMG/SHARP-LINUXMUSL-X64). The correct npm package is the scoped @img/sharp-linuxmusl-x64, an optional binary dependency of the sharp image processing library for Linux musl x64. Version 0.34.5 is confirmed published before the SBOM timestamp (E2) and matches the declared version_field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "decode_named_character_reference",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "decode-named-character-reference",
+   "version": "1.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name \"decode_named_character_reference\" matches the npm package \"decode-named-character-reference\" (underscore-to-hyphen conversion is standard for npm). Registry lookup (E1) confirms the package exists with 1.3.0 as the latest version. Version listing (E2) confirms 1.3.0 was published before the SBOM timestamp of 2026-11-06. The declared version_field \"1.3.0\" matches the latest available version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ENCODING-SNIFFER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "encoding-sniffer",
+   "version": "0.2.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name \"ENCODING-SNIFFER\" did not match the npm registry (E1), but the lowercase form \"encoding-sniffer\" exists on npm (E2). Version 0.2.1 is available and was published before the SBOM timestamp of 2026-11-06 (E3). The original name was simply uppercased; the correct registry name is \"encoding-sniffer\"."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "Immediate",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "immediate",
+   "version": "3.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Component \"Immediate\" matches the npm package \"immediate\" (a well-known microtask library). Registry lookup confirmed existence (E1). The latest version published before the SBOM timestamp 2026-11-06 is 3.3.0 (E2). No declared range was provided, so the latest pre-timestamp version is the most likely value."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Inherits",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "inherits",
+   "version": "2.0.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component \"Inherits\" matches the npm package \"inherits\" (E1). The SBOM is npm-majority and no declared range or version was provided. The latest version 2.0.4 was published before the SBOM timestamp (E2), so it is the most likely version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mdast_util_to_markdown",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mdast-util-to-markdown",
+   "version": "2.1.2",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name used underscores, but the actual npm package is published as \"mdast-util-to-markdown\" (hyphenated) per E2. The declared range ^2.1.0 is satisfied by 8 versions; per E3, version 2.1.2 has the highest prior probability (0.712) among versions published before the SBOM timestamp, making it the most likely resolved version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "Picocolors",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "picocolors",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "\"Picocolors\" matches the npm package \"picocolors\" (case-insensitive). E1 confirms the package exists in the npm registry. E2 shows the latest version published before the SBOM timestamp (2026-11-06) is 1.1.1, which also has the highest prior probability. No declared range was provided, so the latest version is the most likely choice."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "whatwg_encoding",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "whatwg-encoding",
+   "version": "3.1.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name \"whatwg_encoding\" failed registry lookup (E1). The correct npm package name uses a hyphen: \"whatwg-encoding\" (E2). Version 3.1.1 is the latest version and was published before the SBOM timestamp of 2026-11-06 (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Xmlchars",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "xmlchars",
+   "version": "2.2.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component \"Xmlchars\" with version 2.2.0 matches the npm package \"xmlchars\" (case-insensitive match). E2 confirms the package exists in npm with 9 versions, latest being 2.2.0. E3 confirms 2.2.0 was published before the SBOM timestamp (2026-11-06). The original casing was incorrect; the canonical npm name is lowercase \"xmlchars\"."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "@csstools/css_color_parser",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@csstools/css-color-parser",
+   "version": "4.2.6",
+   "evidence": [
+    "E2",
+    "E4"
+   ],
+   "rationale": "The original name used underscores (@csstools/css_color_parser) which doesn't exist in the npm registry (E3). The correct registry name uses hyphens: @csstools/css-color-parser (E2). The declared range ^4.2.0 is satisfied by 8 versions; the most likely version at SBOM time (2026-11-06) is 4.2.6, which has the highest prior probability among candidates (E4)."
+  },
+  "steps": 4,
+  "tool_calls": 4
+ },
+ {
+  "component": "w3c_xmlserializer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "w3c-xmlserializer",
+   "version": null,
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name \"w3c_xmlserializer\" with underscores matches the npm package \"w3c-xmlserializer\" (E3), which provides the W3C XMLSerializer API. The package exists in the npm registry with versions 4.0.0, 5.0.0, and 6.0.0 published before the SBOM timestamp (E4). However, the SBOM provides no version and no declared range, so per the rules I cannot guess a specific version and submit null."
+  },
+  "steps": 5,
+  "tool_calls": 6
+ }
+]

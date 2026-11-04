@@ -1,0 +1,139 @@
+[
+ {
+  "component": "jackson-databind",
+  "kind": "version",
+  "value": 28.377319163092743,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "rationale": "The package exists in Maven registry (E1). Version 2.22.2 has the highest prior probability (0.169) among candidates (E2) and is the version currently listed in the SBOM.",
+   "version": "2.22.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ]
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.1952722405576486,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Version 2.26.1 is confirmed as a valid published version in the Maven registry (E1, E2). It has the highest probability (0.679) in the current_candidates and is listed as the newest version. No vulnerabilities are associated with this version (E3). The component's version field already shows 2.26.1, which aligns with the evidence.",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "version": "2.26.1",
+   "ecosystem": "maven"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6050445335836077,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "rationale": "Version 2.26.1 has the highest probability (0.679) among all candidates as shown in E2. The package exists in Maven registry (E1). The SBOM sample also shows log4j-core@2.26.1, consistent with this version.",
+   "version": "2.26.1"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "1.9.4",
+   "name": "commons-beanutils:commons-beanutils",
+   "rationale": "The package commons-beanutils:commons-beanutils exists in Maven registry (E1), and version 1.9.4 is listed as a valid version. The component's version_field was 1.9.4, which matches a valid version in the registry.",
+   "ecosystem": "maven"
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "snakeyaml",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "rationale": "The component 'snakeyaml' with no group was not found in Maven registry directly (E1). However, 'org.yaml:snakeyaml' exists in Maven (E2) and version 2.2 is available (E3). The component's version_field '2.2' matches an available version. This is the correct Maven package identity for snakeyaml.",
+   "name": "org.yaml:snakeyaml",
+   "version": "2.2",
+   "evidence": [
+    "E2",
+    "E3"
+   ]
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "version": "2.22",
+   "rationale": "The package com.fasterxml.jackson.core:jackson-annotations exists in Maven registry (E1). Available versions include 2.22 (E2, E4). The SBOM contains jackson-databind@2.22.2 which depends on jackson-annotations (E5), suggesting version 2.22 is the compatible version.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4",
+    "E5"
+   ],
+   "name": "com.fasterxml.jackson.core:jackson-annotations"
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "log4j-1.2-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "org.apache.logging.log4j:log4j-1.2-api",
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'log4j-1.2-api' was matched to the Maven package 'org.apache.logging.log4j:log4j-1.2-api'. Version 2.23.0 was confirmed to exist in the registry.",
+   "version": "2.23.0"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

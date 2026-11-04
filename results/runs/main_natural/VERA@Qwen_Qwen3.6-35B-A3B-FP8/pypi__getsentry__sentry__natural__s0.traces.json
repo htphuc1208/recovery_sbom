@@ -1,0 +1,194 @@
+[
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.790944960589016,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares filelock@4.2.4. Registry lookup confirms 4.2.4 exists in PyPI and is among the latest versions. Version listing before the SBOM timestamp shows 4.2.4 as the top candidate with highest prior probability (0.084). No declared range constraint exists, so the declared version is accepted as the most likely exact version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "oauthlib",
+  "kind": "version",
+  "value": 12.169849921372805,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "oauthlib",
+   "version": "3.3.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 3.3.1 for oauthlib. This version exists in the pypi registry and was available before the SBOM timestamp. It is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.025801180370264,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "Version 0.6.4 is declared in the SBOM, exists in the pypi registry, was published before the SBOM timestamp (2026-11-12), and has the highest probability (0.642) among current candidates."
+  },
+  "steps": 2,
+  "tool_calls": 1
+ },
+ {
+  "component": "django",
+  "kind": "version",
+  "value": 8.284022845052652,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "django",
+   "version": "6.1.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E5"
+   ],
+   "rationale": "Django 6.1.2 is confirmed as the most likely version: it exists in pypi registry (E1), was published before the SBOM timestamp of 2026-11-12 (E2), satisfies the declared range >=5.2.15, has no known vulnerabilities (E3), and is a valid version with proper dependencies (E5). It also has the highest probability (0.324) among current candidates and matches the purl pkg:pypi/django@6.1.2."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "sqlparse",
+  "kind": "version",
+  "value": 6.081313239740752,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "sqlparse",
+   "version": "0.6.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 0.6.0 is the highest-probability candidate (prior 0.445) among all versions satisfying the >=0.5.0 range and published before the SBOM timestamp. It matches the declared version exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.6535662367118285,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package httpx2 exists in PyPI. Version 2.16.0 is the latest published version, exists in the registry, was published before the SBOM timestamp, and has the highest prior probability (0.215) among all candidates. The declared version in the SBOM matches this most likely version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "werkzeug",
+  "kind": "version",
+  "value": 2.4434131300273587,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "werkzeug",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares werkzeug@3.1.9. E1 confirms this version exists in PyPI. E2 confirms it was published before the SBOM timestamp. E3 confirms no known vulnerabilities for this version. While 3.1.8 has a higher prior probability, the explicit declaration in the SBOM combined with the version being valid and clean makes 3.1.9 the most likely correct version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.3757411548874803,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.9.2 is confirmed to exist in pypi registry (E1) and was published before the SBOM timestamp of 2026-11-12 (E2). It has the highest confidence score (0.242) among all candidates and matches the version_field declared in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyjwt",
+  "kind": "version",
+  "value": 1.6774269230065009,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyjwt",
+   "version": "2.15.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pyjwt version 2.15.1. Registry lookup confirms pyjwt exists on PyPI and 2.15.1 is a valid published version (E1). Version listing confirms 2.15.1 was available before the SBOM timestamp (E2). The declared range '2.15.1' exactly matches this version, and it has the highest probability (0.816) among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "anyio",
+  "kind": "version",
+  "value": 1.5258806056609386,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "anyio",
+   "version": "4.15.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.15.1 is the most likely exact version: it matches the SBOM's version_field, is the highest-priority candidate among versions published before the SBOM timestamp (2026-11-12), and has the highest prior probability (0.345) in the pre-timestamp candidate list. Version 4.16.0 was excluded as it was not yet published at the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

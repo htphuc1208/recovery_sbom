@@ -1,0 +1,140 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "io.netty:netty-transport",
+   "version": "4.2.17.Final",
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'netty-transport' with version '4.2.17.Final' was identified as a Maven package. Registry lookup confirmed that 'io.netty:netty-transport' exists in the Maven registry (E1), version '4.2.17.Final' is a valid version for this package (E2), and this version was published before the SBOM timestamp (E3). The SBOM context shows other io.netty packages follow the same pattern, confirming the group ID is 'io.netty'."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-codec-dns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "io.netty:netty-codec-dns",
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "version": "4.2.17.Final",
+   "rationale": "Package io.netty:netty-codec-dns exists in Maven registry (E1). Version 4.2.17.Final is available and was published before the SBOM timestamp 2026-09-01T07:15:02Z (E2). The group ID io.netty is consistent with other netty components in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "netty-transport-classes-epoll",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "rationale": "Package exists in Maven registry as io.netty:netty-transport-classes-epoll. Version 4.2.17.Final matches the version pattern of other Netty components in the SBOM and is confirmed by Maven dependency resolution from the root artifact io.vertx:vertx-core:5.1.7.",
+   "name": "io.netty:netty-transport-classes-epoll",
+   "version": "4.2.17.Final",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "ecosystem": "maven"
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-transport-classes-kqueue",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "name": "io.netty:netty-transport-classes-kqueue",
+   "version": "4.2.17.Final",
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package exists in Maven registry as io.netty:netty-transport-classes-kqueue. Version 4.2.17.Final is available and was published before the SBOM timestamp (2026-09-01T07:15:02Z). This version matches the component's declared version and is consistent with other Netty components in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "version": "2.21",
+   "name": "com.fasterxml.jackson.core:jackson-annotations",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package exists in Maven registry (E1). Version 2.21 is available and published before SBOM timestamp (E2). Component's version_field is 2.21 which matches an available version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "vertx-codegen-processor",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "version": "5.1.6",
+   "ecosystem": "maven",
+   "name": "io.vertx:vertx-codegen-processor",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Package io.vertx:vertx-codegen-processor exists in Maven registry (E1). The SBOM timestamp is 2026-09-01T07:15:02Z, and list_versions shows 5.1.6 is the newest version published before this timestamp (E2). This is consistent with the vertx 5.1.x series used in the SBOM."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-core",
+   "version": "2.21.6",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component's version_field '3.1.6' does not exist for jackson-core in Maven. The package 'com.fasterxml.jackson.core:jackson-core' exists (E1), and version 2.21.6 is available (E3). The maven_resolve tool confirms that the resolved version from the root artifact io.vertx:vertx-core:5.1.7 is 2.21.6 (E5). This matches the version already present in the SBOM sample components."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ }
+]

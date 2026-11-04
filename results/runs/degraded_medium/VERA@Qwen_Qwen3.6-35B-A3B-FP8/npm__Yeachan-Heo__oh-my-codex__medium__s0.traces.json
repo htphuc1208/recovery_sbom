@@ -1,0 +1,160 @@
+[
+ {
+  "component": "ip-address",
+  "kind": "version",
+  "value": 10.34918093770293,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.5",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 10.7.5 for the npm package ip-address. This version exists in the npm registry (E1), was available before the SBOM timestamp of 2026-11-10 (E2), and is confirmed as a valid published version (E3). It is also the most likely candidate with the highest probability (0.273) among the current candidates."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 4.895019900883114,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.17.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared range is '6.17.1' which pins to this exact version. Only version 6.17.1 matches this constraint (E2, E3). It was published before the SBOM timestamp (E3) and exists in the npm registry (E1). This is also the highest probability candidate (0.376) from the current candidates."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 3.880956493309979,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The declared_range is '5.0.12' which is a pinned version. Version 5.0.12 satisfies this range exactly and was available before the SBOM timestamp (2026-11-10). While 5.0.13 also exists and was available before the timestamp, it does not satisfy the pinned range '5.0.12'. The candidate confidence for 5.0.12 is 0.813, the highest among all candidates. The purl also references 5.0.12."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "proxy-addr",
+  "kind": "version",
+  "value": 2.9713517258370468,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "proxy-addr",
+   "version": "2.0.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 2.0.8 in both version_field and purl. Registry lookup confirms 2.0.8 exists and was published before the SBOM timestamp. It has the highest probability (0.687) among candidates."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "@typescript/typescript_linux_riscv64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "typescript",
+   "version": "7.0.2",
+   "evidence": [
+    "E2",
+    "E4"
+   ],
+   "rationale": "The declared name @typescript/typescript_linux_riscv64 does not exist in npm (E1, E3). The actual package is 'typescript' which exists and has version 7.0.2 published before the SBOM timestamp (E2, E4). The version 7.0.2 matches the version_field and is a valid release."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "call_bound",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The package 'call_bound' was not found in npm (E1), PyPI (E2), or Maven (E3) registries. The component cannot be resolved to a known package identity in any major registry, so all fields are submitted as null."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "range_parser",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "range-parser",
+   "version": "1.2.1",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The declared name 'range_parser' (with underscore) does not exist in any registry. The correct npm package name is 'range-parser' (with hyphen), which exists and has version 1.2.1 available. Version 1.2.1 was published before the SBOM timestamp of 2026-11-10 and matches the declared version exactly."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "v8_to_istanbul",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "v8-to-istanbul",
+   "version": "9.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'v8_to_istanbul' with underscores is the npm package 'v8-to-istanbul' with hyphens. Registry lookup confirmed it exists in npm (E1). Version 9.3.0 was published before the SBOM timestamp and matches the declared version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

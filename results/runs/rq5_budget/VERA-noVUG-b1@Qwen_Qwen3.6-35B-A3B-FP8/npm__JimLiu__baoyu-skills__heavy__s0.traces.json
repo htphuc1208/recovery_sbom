@@ -1,0 +1,20 @@
+[
+ {
+  "component": "@img/sharp_linux_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E6"
+   ],
+   "rationale": "The component @img/sharp_linux_arm64 does not exist in the npm registry (E6). This appears to be a platform-specific binary artifact that was bundled within the sharp package, not a standalone npm package. Since no valid registry match exists, submitting null for both name and version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "component": "undici",
+  "kind": "version",
+  "value": 54.63207934090433,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "undici",
+   "version": "8.12.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component undici exists in npm registry (E1). Version 8.12.3 was published before the SBOM timestamp and has the highest prior probability (0.129) among pre-timestamp versions (E2). This matches the declared version in the SBOM and has the highest confidence score (0.33) in the current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "image-size",
+  "kind": "version",
+  "value": 4.836041661146788,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "image-size",
+   "version": "2.0.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 2.0.4 for image-size. E1 confirms the package exists in npm. E2 confirms version 2.0.4 was published before the SBOM timestamp (2026-11-06). While 2.0.2 has a slightly higher prior probability, the SBOM explicitly declares 2.0.4, making it the most likely version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 2.7520385941550902,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 1.2.2 with the highest confidence (0.633). This version exists in the npm registry (E1), was published before the SBOM timestamp (E2), and has no known vulnerabilities (E3). Version 1.2.1, while having a higher prior in the version list, has a known CVE (E4), making 1.2.2 the most likely correct version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "ws",
+  "kind": "version",
+  "value": 1.493122528893331,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "8.22.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 8.22.0 with highest probability (0.514). E1 confirms ws exists in npm registry. E2 confirms 8.22.0 was published before the SBOM timestamp (2026-11-06), making it a valid candidate. The version_field and purl both indicate 8.22.0."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

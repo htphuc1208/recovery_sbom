@@ -1,0 +1,40 @@
+[
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.11.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'commons-beanutils' with version 1.11.0 was not found using the simple name in Maven registry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (groupId:artifactId). Version 1.11.0 exists and is the latest published version, matching the SBOM's version_field. No vulnerabilities found for this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jakarta.servlet-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "jakarta.servlet:jakarta.servlet-api",
+   "version": "5.0.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component was declared with group=null and name=jakarta.servlet-api, which failed registry lookup. The correct Maven coordinate is jakarta.servlet:jakarta.servlet-api (E4). Version 5.0.0 exists and matches the declared version_field exactly (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ }
+]

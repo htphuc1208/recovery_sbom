@@ -1,0 +1,156 @@
+[
+ {
+  "component": "@img/sharp_linux_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E6"
+   ],
+   "rationale": "The component @img/sharp_linux_arm64 does not exist in the npm registry (E6). This appears to be a platform-specific binary artifact that was bundled within the sharp package, not a standalone npm package. Since no valid registry match exists, submitting null for both name and version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@IMG/SHARP-LINUXMUSL-X64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linuxmusl-x64",
+   "version": "0.34.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @IMG/SHARP-LINUXMUSL-X64 was incorrectly cased. The correct npm registry name is @img/sharp-linuxmusl-x64 (lowercase). Version 0.34.5 exists in the npm registry and was published before the SBOM timestamp of 2026-11-06."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "decode_named_character_reference",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "decode-named-character-reference",
+   "version": "1.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'decode_named_character_reference' with underscores was not found in npm registry. The correct package name uses hyphens: 'decode-named-character-reference'. This package exists in npm (E1) and version 1.3.0 is available and matches the declared version_field. Version 1.3.0 was published before the SBOM timestamp of 2026-11-06 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ENCODING-SNIFFER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "encoding-sniffer",
+   "version": "0.2.1",
+   "evidence": [
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name 'ENCODING-SNIFFER' in the SBOM was incorrectly cased. The correct npm package name is 'encoding-sniffer' (lowercase). Version 0.2.1 exists in the npm registry (E4, E5) and was published before the SBOM timestamp of 2026-11-06 (E6). This matches the declared version field in the SBOM."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "Immediate",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component named 'Immediate' was not found in any of the major package registries. E1 confirms it does not exist in npm, E2 confirms it does not exist in PyPI, and E3 confirms it does not exist in Maven. The SBOM's majority ecosystem is npm, so npm is the most likely ecosystem, but the package name itself does not match any known registry entry. The true package identity and version cannot be determined."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "Inherits",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "inherits",
+   "version": "2.0.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component named 'Inherits' with 'no registry match' problem was resolved by looking up the lowercase npm package 'inherits'. E1 confirms the package exists in npm registry. E2 confirms version 2.0.4 is the latest version published before the SBOM timestamp of 2026-11-06. The capitalization difference ('Inherits' vs 'inherits') caused the initial registry lookup failure."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mdast_util_to_markdown",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mdast-util-to-markdown",
+   "version": "2.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'mdast_util_to_markdown' with group null in an npm-based SBOM maps to the npm package 'mdast-util-to-markdown'. The declared range ^2.1.0 is satisfied by version 2.2.3, which was published before the SBOM timestamp of 2026-11-06. This is the newest version satisfying the range constraint."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Picocolors",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "picocolors",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E5"
+   ],
+   "rationale": "Picocolors exists in npm registry (E1). The SBOM's npm ecosystem and timestamp confirm it predates 2026-11-06. A dependency in the SBOM (@changesets/get-dependents-graph@2.1.3) declares picocolors ^1.1.0 (E4). Among versions satisfying ^1.1.0 and published before the SBOM timestamp, 1.1.1 is the newest and most likely version used (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ }
+]

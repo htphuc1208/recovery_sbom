@@ -1,0 +1,156 @@
+[
+ {
+  "component": "glob",
+  "kind": "version",
+  "value": 2.328533704004325,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob",
+   "version": "10.3.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares glob@10.3.3. Registry lookup confirms glob exists in npm. Version listing before the SBOM timestamp (2023-07-28) confirms 10.3.3 was published and available. No declared range constrains it differently, so 10.3.3 is the confirmed version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "common_ancestor_path",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'common_ancestor_path' does not exist in any major registry (npm, pypi, maven) as confirmed by registry lookups. The problem field already indicates 'no registry match'. Since no valid package identity can be determined, all fields are submitted as null."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "iconv_lite",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "iconv-lite",
+   "version": "0.6.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'iconv_lite' with underscore is a common npm naming variant for 'iconv-lite'. The npm registry confirms 'iconv-lite' exists (E1). The latest version published before the SBOM timestamp (2023-07-28) is 0.6.3 (E2). No declared range was provided, so the newest pre-timestamp version is selected."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "INDENT-STRING",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "indent-string",
+   "version": "4.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'INDENT-STRING' maps to the npm package 'indent-string'. Version 4.0.0 exists and was published before the SBOM timestamp (2023-07-28). Evidence E1 confirms the package exists in npm registry with version 4.0.0 available. Evidence E2 confirms version 4.0.0 is a valid candidate matching the declared version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Libnpmaccess",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "libnpmaccess",
+   "version": "7.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'libnpmaccess' exists in the npm registry (E1). The latest version published before the SBOM timestamp of 2023-07-28 is 7.0.2 (E2). This is the most likely version used when the SBOM was generated."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "MINIPASS-FETCH",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minipass-fetch",
+   "version": "3.0.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name MINIPASS-FETCH is the uppercase form of the npm package minipass-fetch. Version 3.0.3 exists in the npm registry and was published before the SBOM timestamp of 2023-07-28."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Nopt",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "nopt",
+   "version": "7.2.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM listed 'Nopt' which doesn't exist in any registry. The correct package name is 'nopt' (lowercase) in npm. Version 7.2.0 is the latest version published before the SBOM timestamp (2023-07-28)."
+  },
+  "steps": 5,
+  "tool_calls": 5
+ },
+ {
+  "component": "SIGNAL-EXIT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "signal-exit",
+   "version": "4.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'SIGNAL-EXIT' matches the npm package 'signal-exit' (case-insensitive). E1 confirms the package exists in npm registry. E2 shows versions published before the SBOM timestamp, with 4.0.2 being the newest available at that time."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

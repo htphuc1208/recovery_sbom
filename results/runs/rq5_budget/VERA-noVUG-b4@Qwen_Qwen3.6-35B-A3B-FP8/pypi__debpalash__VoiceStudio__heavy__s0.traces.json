@@ -1,0 +1,78 @@
+[
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.444213787171577,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.15.0 is the latest version of accelerate in PyPI, was published before the SBOM timestamp (2026-11-12), and has the highest prior probability (0.413) among pre-timestamp versions. It matches the SBOM's declared version and has the highest confidence score (0.656) in the current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "CERTIFI",
+  "kind": "version",
+  "value": 1.6943718080207946,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "certifi",
+   "version": "2026.7.22",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 2026.7.22 is confirmed as a valid PyPI release (E1) and is the most probable version published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.779119574005364,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 4.2.4 for filelock. Registry lookup confirms 4.2.4 exists in PyPI. Version listing before the SBOM timestamp shows 4.2.4 as the highest-probability candidate (0.084), matching the declared version exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "lightning",
+  "kind": "version",
+  "value": 1.7805088189319103,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "lightning",
+   "version": "2.6.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'lightning' exists in pypi (E1). Among versions satisfying >=2.6 and published before the SBOM timestamp 2026-11-12, version 2.6.6 has the highest prior probability (0.433) (E2). This also matches the purl version and the highest-confidence candidate from the current_candidates distribution."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

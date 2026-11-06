@@ -1,0 +1,15 @@
+[
+ {
+  "component": "12 OS packages",
+  "kind": "distro",
+  "value": 0,
+  "accepted": false,
+  "reason": "contradicted by OSV fingerprint (best Alpine:v3.24=4, proposed Alpine:v3.18=1)",
+  "proposal": {
+   "distro": "alpine-3.18",
+   "evidence": "The presence of 'apk' as the package manager, 'alpine-baselayout' (v3.4.3-r1), 'busybox' (v1.36.1-r2), and 'musl-utils' (v1.2.4-r1) uniquely identifies this as an Alpine Linux distribution. Specifically, Alpine Linux 3.18 ships with alpine-baselayout 3.4.3, busybox 1.36.1, and musl 1.2.4."
+  },
+  "steps": 1,
+  "tool_calls": 0
+ }
+]

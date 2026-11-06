@@ -1,0 +1,141 @@
+[
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.9.4",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'commons-beanutils' with null group did not match any Maven registry entry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (groupId:artifactId). Version 1.9.4 was confirmed to exist in the registry (E2, E3) and matches the declared version in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "snakeyaml",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.yaml:snakeyaml",
+   "version": "2.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'snakeyaml' with version 2.2 is a Maven package. Registry lookup confirmed the correct Maven coordinates are 'org.yaml:snakeyaml' (E1). Version 2.2 exists and is the exact version specified (E2). No known vulnerabilities were found for this version (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-annotations",
+   "version": "2.22",
+   "evidence": [
+    "E1",
+    "E2",
+    "E5"
+   ],
+   "rationale": "The component 'jackson-annotations' with no group in a Maven SBOM containing com.fasterxml.jackson.core/jackson-databind@2.22.2 is resolved to com.fasterxml.jackson.core:jackson-annotations. Version 2.22 is the matching major.minor version aligned with jackson-databind 2.22.2 present in the SBOM. E1 confirms the package exists in Maven registry. E2 shows version 2.22 is available. E5 confirms jackson-databind 2.22.2 exists and is in the SBOM."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "log4j-1.2-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-1.2-api",
+   "version": "2.23.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'log4j-1.2-api' with version '2.23.0' in a Maven SBOM context corresponds to the Maven artifact 'org.apache.logging.log4j:log4j-1.2-api'. Registry lookup confirmed this package exists (E1) and version 2.23.0 is a valid published version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "jackson-databind",
+  "kind": "version",
+  "value": 28.378984413846446,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.22.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared version 2.22.2 is confirmed to exist in Maven Central (E1), is the highest-probability candidate among current options (E2), and is a valid published version (E3). No transitive dependency constraints from the root POM affect this version (E4). The SBOM declaration appears correct."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6052443587794816,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as the most likely exact version. It exists in the Maven registry (E1), has no known vulnerabilities (E2), and is the highest probability candidate at 0.679 (E4). The SBOM already declares 2.26.1, which is consistent with the evidence. Version 2.26.0 has a known vulnerability (CVE-2026-49844, E3), making 2.26.1 the likely security fix release."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.1956700462959335,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of log4j-core in the Maven registry. It has the highest probability (0.679) among candidates, has no known vulnerabilities, and is consistent with the log4j-api version (2.26.1) present in the SBOM, which is typical for log4j releases where core and api are released together."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

@@ -1,0 +1,156 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 36.05688614412134,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "4.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package fast-uri exists in npm registry (E1). Version 4.2.3 is available and was published before the SBOM timestamp of 2026-11-10 (E2). The declared version 4.2.3 has the highest probability (0.196) among all candidates, and it is confirmed to exist in the registry."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "hono",
+  "kind": "version",
+  "value": 26.877057669697425,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.13.13",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'hono' exists in npm registry (E1). The declared range is '4.13.13' which is a pinned version. list_versions with spec '4.13.13' and before SBOM timestamp returns only version 4.13.13 (E2), confirming this is the exact version that satisfies the declared range and was available before the SBOM was generated."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "sdk",
+  "kind": "version",
+  "value": 14.55946183554839,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "1.30.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 1.30.0. The list_versions query with this spec and before the SBOM timestamp returns only version 1.30.0. This is also the highest-probability candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "IS-NUMBER-OBJECT",
+  "kind": "identity",
+  "value": 10.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-number-object",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'IS-NUMBER-OBJECT' is the uppercase form of the npm package 'is-number-object'. Registry lookup confirmed the package exists in npm (E1). Version list with range ^1.1.0 and before SBOM timestamp shows 1.1.1 as the newest matching version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "qs",
+  "kind": "version",
+  "value": 5.209166285024043,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "qs",
+   "version": "6.16.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared range '6.16.0' is a pinned version constraint. Only version 6.16.0 satisfies this constraint (E3). This version was available before the SBOM timestamp (E2) and the package exists in npm registry (E1). This is also the highest-probability candidate from the current candidates list."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "node-server",
+  "kind": "version",
+  "value": 3.4470512948159633,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@hono/node-server",
+   "version": "2.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl confirms the package is @hono/node-server on npm. The declared range is pinned to 2.1.1. list_versions confirms version 2.1.1 exists and was available before the SBOM timestamp, and it is the only version matching the pinned spec."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Zod",
+  "kind": "version",
+  "value": 2.0392943309947404,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares zod@4.4.3 with range ^4.3.0. Version 4.4.3 exists on npm (E1), satisfies the declared range, was published before the SBOM timestamp, and is the highest-probability candidate (0.363) among all versions matching the constraints (E2). The declared version matches the most likely version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 1.531800048025754,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares body-parser@2.3.0 with range ^2.3.0. Both 2.3.0 and 2.4.0 satisfy the range and were published before the SBOM timestamp. The prior probability strongly favors 2.3.0 (0.796), and the SBOM explicitly states this version. Therefore, 2.3.0 is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ }
+]

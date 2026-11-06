@@ -1,0 +1,42 @@
+[
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.1956667026068186,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.26.1 is confirmed to exist in Maven registry (E1), is the only version matching the pinned spec (E2), and is consistent with other log4j components in the SBOM (log4j-api@2.26.1, log4j-1.2-api@2.26.1). It has the highest probability (0.679) among candidates and is a valid published version."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6052426792002326,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of org.apache.logging.log4j:log4j-api in Maven Central (E1, E2). It is the highest-probability candidate (0.679) and matches the purl and SBOM sample entries. No known vulnerabilities exist for this version (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

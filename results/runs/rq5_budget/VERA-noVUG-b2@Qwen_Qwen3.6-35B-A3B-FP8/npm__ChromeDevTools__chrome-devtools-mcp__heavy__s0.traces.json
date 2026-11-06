@@ -1,0 +1,40 @@
+[
+ {
+  "component": "@typescript_eslint/project_service",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@typescript-eslint/project-service",
+   "version": "8.72.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name in the SBOM used underscores (@typescript_eslint/project_service) which is not a valid npm package name. The correct npm package uses hyphens (@typescript-eslint/project-service). Verified existence via registry lookup (E1) and confirmed version 8.72.1 was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-linux-arm-gnueabihf",
+   "version": "1.13.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The original name @UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF was incorrectly cased. The correct npm package name is @unrs/resolver-binding-linux-arm-gnueabihf (E1). Version 1.13.0 is the latest version satisfying the declared range ^1.12.0 and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

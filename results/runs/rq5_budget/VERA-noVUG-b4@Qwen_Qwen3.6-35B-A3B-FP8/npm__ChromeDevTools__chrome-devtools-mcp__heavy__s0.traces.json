@@ -1,0 +1,78 @@
+[
+ {
+  "component": "@typescript_eslint/project_service",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@typescript-eslint/project-service",
+   "version": "8.72.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name in the SBOM used underscores (@typescript_eslint/project_service) which is not a valid npm package name. The correct npm package uses hyphens (@typescript-eslint/project-service). Verified existence via registry lookup (E1) and confirmed version 8.72.1 was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-linux-arm-gnueabihf",
+   "version": "1.13.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The original name @UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF was incorrectly cased. The correct npm package name is @unrs/resolver-binding-linux-arm-gnueabihf (E1). Version 1.13.0 is the latest version satisfying the declared range ^1.12.0 and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@unrs/resolver_binding_linux_arm_musleabihf",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E3",
+    "E6"
+   ],
+   "name": "unrs-resolver",
+   "rationale": "The component @unrs/resolver_binding_linux_arm_musleabihf is a platform-specific binary binding bundled within the unrs-resolver npm package, not a standalone package. Version 1.12.2 matches the SBOM's version_field and was published before the SBOM timestamp (2026-11-12). E3 confirms unrs-resolver exists with version 1.12.2 available. E6 confirms 1.12.2 is a valid published version.",
+   "version": "1.12.2"
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@unrs/resolver_binding_linux_s390x_gnu",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "unrs-resolver",
+   "version": "1.12.2",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name @unrs/resolver_binding_linux_s390x_gnu is a platform-specific native binding bundled within the unrs-resolver npm package, not a standalone scoped package. The @unrs scope does not exist (E6). The unrs-resolver package (E3) contains these platform bindings. Version 1.12.2 is the latest version published before the SBOM timestamp of 2026-11-12 (E4)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ }
+]

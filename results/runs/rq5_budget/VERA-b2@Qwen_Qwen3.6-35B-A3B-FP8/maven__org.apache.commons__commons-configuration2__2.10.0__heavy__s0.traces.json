@@ -1,0 +1,43 @@
+[
+ {
+  "component": "jackson-databind",
+  "kind": "version",
+  "value": 28.379036400328395,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.22.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared version 2.22.2 is confirmed to exist in Maven Central (E1), is the highest-probability candidate among current options (E2), and is a valid published version (E3). No transitive dependency constraints from the root POM affect this version (E4). The SBOM declaration appears correct."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.195682465202357,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of log4j-core in the Maven registry. It has the highest probability (0.679) among candidates, has no known vulnerabilities, and is consistent with the log4j-api version (2.26.1) present in the SBOM, which is typical for log4j releases where core and api are released together."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

@@ -1,0 +1,21 @@
+[
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.744436826879583,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.16.0 is confirmed to exist in pypi (E1), was available before the SBOM timestamp, and has the highest prior probability (0.209) among all candidates (E2). This matches the declared version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

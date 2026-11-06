@@ -1,0 +1,390 @@
+[
+ {
+  "component": "@floating_ui/react_dom",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@floating-ui/react-dom",
+   "version": "2.1.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM had an incorrect package name using underscores (@floating_ui/react_dom) instead of the correct npm package name with hyphens (@floating-ui/react-dom). Registry lookup confirmed the package exists and version 2.1.8 is a valid published version available before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@humanwhocodes/module_importer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@humanwhocodes/module-importer",
+   "version": "1.0.1",
+   "evidence": [
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM had a typo in the package name: 'module_importer' (underscore) instead of 'module-importer' (hyphen). The correct package @humanwhocodes/module-importer exists in npm registry and version 1.0.1 was published before the SBOM timestamp with no known vulnerabilities."
+  },
+  "steps": 4,
+  "tool_calls": 5
+ },
+ {
+  "component": "@NEXT/SWC-DARWIN-ARM64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-arm64",
+   "version": "16.4.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name @NEXT/SWC-DARWIN-ARM64 was incorrectly formatted. The correct npm package name is @next/swc-darwin-arm64 (Next.js SWC compiler for Darwin ARM64). Version 16.4.3 is the newest version satisfying the declared range ^16.3.0 and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@next/swc_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-x64",
+   "version": "16.3.5",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name in the SBOM used an underscore (@next/swc_darwin_x64) but the correct npm registry name uses a hyphen (@next/swc-darwin-x64). Verified existence of the package under the corrected name (E5) and confirmed version 16.3.5 exists and was published before the SBOM timestamp (E6)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-WIN32-ARM64-MSVC",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-win32-arm64-msvc",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The package exists in npm registry (E1). The latest version published before the SBOM timestamp 2026-11-10 is 4.3.3 (E2), which is also the latest version of the parent @tailwindcss/oxide package (E4), confirming version alignment. This is the most probable version the SBOM was generated with."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@tailwindcss/oxide_win32_x64_msvc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "npm:@tailwindcss/oxide_win32_x64_msvc does not exist in the registry",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide_win32_x64_msvc",
+   "version": null,
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "The package @tailwindcss/oxide_win32_x64_msvc does not exist in the npm registry (E1). It appears to be a platform-specific binary artifact bundled within the @tailwindcss/oxide package, not a standalone package. Since no registry match exists, the version cannot be confirmed."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "GLOB-PARENT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob-parent",
+   "version": "5.1.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'GLOB-PARENT' corresponds to the npm package 'glob-parent' (E1). The declared range '^5.1.0' is satisfied by version 5.1.2, which is the latest version in the 5.1.x series published before the SBOM timestamp of 2026-11-10 (E2)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-ANDROID-ARM-EABI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-android-arm-eabi",
+   "version": "1.11.1",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original name @UNRS/RESOLVER-BINDING-ANDROID-ARM-EABI was incorrectly cased. The correct npm package name is @unrs/resolver-binding-android-arm-eabi (lowercase). Version 1.11.1 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "ARRAY-INCLUDES",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "array-includes",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'ARRAY-INCLUDES' is the uppercase form of the npm package 'array-includes'. Verified existence in npm registry (E1). Version 3.1.9 is the latest version published before the SBOM timestamp of 2026-11-10 (E2). Package has valid dependencies confirming it's a real package (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "error_ex",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "error-ex",
+   "version": "1.3.4",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component name 'error_ex' was a typo for the npm package 'error-ex'. Registry lookup confirmed 'error-ex' exists (E4) and version 1.3.4 was published before the SBOM timestamp and matches the declared version (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "ES-OBJECT-ATOMS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "es-object-atoms",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'ES-OBJECT-ATOMS' was incorrectly formatted. The actual npm package is 'es-object-atoms' (lowercase with hyphens). Version 1.1.1 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "express_rate_limit",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "express-rate-limit",
+   "version": "8.7.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'express_rate_limit' was incorrect (underscore instead of hyphen). The correct npm package is 'express-rate-limit' (E2). The latest version published before the SBOM timestamp 2026-11-10T00:35:24-05:00 is 8.7.0 (E3)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "IS-DOCKER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'IS-DOCKER' was not found in any of the major package registries (npm, pypi, maven). E1 confirms it doesn't exist in npm, E2 confirms it doesn't exist in pypi, and E3 confirms it doesn't exist in maven. Given the SBOM context shows all other components are npm packages, this appears to be an incorrectly named or non-existent component in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "IS-NUMBER-OBJECT",
+  "kind": "identity",
+  "value": 10.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-number-object",
+   "version": "1.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'IS-NUMBER-OBJECT' is the uppercase form of the npm package 'is-number-object'. Registry lookup confirmed the package exists in npm (E1). Version list with range ^1.1.0 and before SBOM timestamp shows 1.1.1 as the newest matching version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "IS-PLAIN-OBJ",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "is-plain-obj",
+   "version": "4.1.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'IS-PLAIN-OBJ' was incorrectly formatted. The correct npm package name is 'is-plain-obj' (lowercase with hyphen). Version 4.1.0 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "json_schema_traverse",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "json-schema-traverse",
+   "version": "0.4.1",
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "The original name 'json_schema_traverse' with underscores did not match any npm package. The correct npm package name is 'json-schema-traverse' with hyphens (E1). Version 0.4.1 is listed among the available versions for this package (E1), and it was published before the SBOM timestamp. The SBOM's majority ecosystem is npm, consistent with this being an npm package."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "Object.values",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "object.values",
+   "version": "1.2.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'Object.values' is a JavaScript built-in function, not a package. The closest npm package match is 'object.values' (lowercase), which is a polyfill for Object.values(). Version 1.2.1 is the latest version published before the SBOM timestamp 2026-11-10. E1 confirms 'Object.values' does not exist as a package. E2 confirms 'object.values' exists with 15 versions. E3 shows 1.2.1 as the latest version before the SBOM timestamp."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "react_is",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "name": "react-is",
+   "rationale": "The component name 'react_is' with underscore is a normalized form of the npm package 'react-is' (with hyphen). The package exists in npm registry (E1). The latest version published before the SBOM timestamp of 2026-11-10 is 19.3.1 (E2). No declared range was specified, so the most recent stable version before the SBOM date is the best estimate.",
+   "version": "19.3.1"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "require_directory",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E1",
+    "E4",
+    "E5"
+   ],
+   "name": "require-directory",
+   "rationale": "The declared name 'require_directory' does not exist in npm registry (E1). The closest matching package is 'require-directory' which exists (E4) and was published before the SBOM timestamp with version 2.1.1 being the latest (E5). The underscore in the original name is likely a typo for the hyphen in the actual package name.",
+   "version": "2.1.1"
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "Rettime",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "rettime",
+   "version": "0.11.12",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The name 'Rettime' did not match in npm registry (E1), but the lowercase variant 'rettime' exists with 35 versions (E2). The latest version published before the SBOM timestamp of 2026-11-10 is 0.11.12 (E3). This is the most likely version used in the SBOM."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

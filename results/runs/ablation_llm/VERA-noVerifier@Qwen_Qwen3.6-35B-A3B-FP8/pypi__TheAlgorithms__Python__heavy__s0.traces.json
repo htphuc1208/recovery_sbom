@@ -1,0 +1,62 @@
+[
+ {
+  "component": "urllib3",
+  "kind": "version",
+  "value": 6.390537756155405,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.8.0 is the only version satisfying the declared range '2.8.0' and was published before the SBOM timestamp. It exists in PyPI and has no known vulnerabilities."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.744436826879583,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.16.0 is confirmed to exist in pypi (E1), was available before the SBOM timestamp, and has the highest prior probability (0.209) among all candidates (E2). This matches the declared version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.402288386983285,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 2.9.2 is confirmed to exist in pypi registry (E2), has no known vulnerabilities (E3), and is the highest probability candidate (0.22 prior in E1, 0.245 in current_candidates) among versions published before the SBOM timestamp 2026-11-11. It has no dependencies that would conflict with other packages in the SBOM (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

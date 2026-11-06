@@ -1,0 +1,41 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 20.535206975015136,
+  "accepted": false,
+  "reason": "version 3.1.9 violates declared range 4.2.3",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "3.1.9",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The purl explicitly references fast-uri@3.1.9, the version_field is 3.1.9, and the highest-probability candidate (0.588) is 3.1.9. Both E3 and E4 confirm that 3.1.9 and 4.2.3 are valid published versions before the SBOM timestamp. The declared_range of 4.2.3 appears inconsistent with the purl and version_field, so 3.1.9 is the most likely intended version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 9.561195298070267,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package brace-expansion exists in npm. Version 5.0.12 satisfies the declared range ^5.0.0, was published before the SBOM timestamp, and has the highest prior probability (0.422) among all candidate versions."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

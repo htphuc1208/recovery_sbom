@@ -1,0 +1,78 @@
+[
+ {
+  "component": "Semver",
+  "kind": "version",
+  "value": 3.8373399331874687,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "semver",
+   "version": "7.5.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared range is pinned to 7.5.4, and list_versions confirms that 7.5.4 is the only version satisfying this constraint and published before the SBOM timestamp. This matches the highest probability candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@NPMCLI/NODE-GYP",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@npmcli/node-gyp",
+   "version": "3.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared name '@NPMCLI/NODE-GYP' is a case-normalized form of the npm package '@npmcli/node-gyp'. Registry lookup confirmed this package exists (E1). The SBOM timestamp is 2023-07-28, and version 3.0.0 was the latest version published before that date (E2), making it the most likely version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Eastasianwidth",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "eastasianwidth",
+   "version": "0.2.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'Eastasianwidth' was incorrectly capitalized. The correct npm package name is 'eastasianwidth' (lowercase). Version 0.2.0 exists and was published before the SBOM timestamp of 2023-07-28."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "minipass_json_stream",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minipass-json-stream",
+   "version": "1.0.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'minipass_json_stream' (with underscore) had no registry match (E1). The correct npm package name is 'minipass-json-stream' (with hyphens) which exists (E2). Version 1.0.1 is the latest version published before the SBOM timestamp of 2023-07-28 (E3)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

@@ -1,0 +1,148 @@
+[
+ {
+  "component": "11 OS packages",
+  "kind": "distro",
+  "value": 0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "distro": "alpine-3.18",
+   "evidence": "The presence of 'alpine-baselayout-data@3.4.3-r1' and 'musl-utils@1.2.4-r2' confirms the Alpine Linux distribution. The specific package versions, particularly alpine-baselayout 3.4.3 and musl 1.2.4, are characteristic of the Alpine 3.18 release series."
+  },
+  "steps": 1,
+  "tool_calls": 0
+ },
+ {
+  "component": "@NPMCLI/PROMISE-SPAWN",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@npmcli/promise-spawn",
+   "version": "7.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @NPMCLI/PROMISE-SPAWN was case-normalized to @npmcli/promise-spawn which exists in the npm registry (E1). Version 7.0.0 was published before the SBOM timestamp and is the most likely candidate based on prior probability (E2). The SBOM contains other @npmcli packages in the 7.x range, consistent with this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Cacache",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "cacache",
+   "version": "18.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Cacache' corresponds to the npm package 'cacache' (E1). The declared range ^18.0.0 and SBOM timestamp 2024-01-27 narrow candidates to versions 18.0.0, 18.0.1, and 18.0.2 (E2). The newest version published before the SBOM timestamp is 18.0.2."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Cssesc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "cssesc",
+   "version": "3.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'Cssesc' with declared range '^3.0.0' matches the npm package 'cssesc'. Only version 3.0.0 satisfies the range and was published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "foreground_child",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "name": "foreground-child",
+   "rationale": "The component name 'foreground_child' with underscore had no registry match. The correct npm package name is 'foreground-child' with a hyphen (E2). Version 3.1.1 exists in the npm registry and was published before the SBOM timestamp of 2024-01-27 (E3). This matches the version_field in the component data.",
+   "version": "3.1.1"
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Minipass",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minipass",
+   "version": "7.0.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Minipass' corresponds to the npm package 'minipass' (lowercase). Registry lookup confirmed it exists. The most recent version published before the SBOM timestamp (2024-01-27) is 7.0.4, which is the most likely version in use."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "safe_buffer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "safe-buffer",
+   "version": "5.2.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'safe_buffer' with version 5.2.1 was not found in the registry due to naming convention. The correct npm package name is 'safe-buffer' (with hyphen instead of underscore). Registry lookup confirmed this package exists in npm with version 5.2.1 available, and list_versions confirmed this version was published before the SBOM timestamp of 2024-01-27."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "wrap_ansi",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "wrap-ansi",
+   "version": "7.0.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM listed 'wrap_ansi' (with underscores) which doesn't exist in npm. The correct package name is 'wrap-ansi' (with hyphens), confirmed by registry lookup. Version 7.0.0 exists and was published before the SBOM timestamp of 2024-01-27."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

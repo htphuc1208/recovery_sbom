@@ -1,0 +1,21 @@
+[
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.88061831156008,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly declares version 4.2.4 for filelock. Registry lookup confirms this version exists in PyPI (E1). Version listing confirms 4.2.4 was published before the SBOM timestamp and has the highest prior probability (0.084) among available versions (E2). No declared range conflicts exist."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

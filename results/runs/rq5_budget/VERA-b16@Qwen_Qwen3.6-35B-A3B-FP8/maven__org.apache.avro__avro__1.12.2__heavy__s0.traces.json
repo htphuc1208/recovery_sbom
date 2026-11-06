@@ -1,0 +1,21 @@
+[
+ {
+  "component": "commons-compress",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.commons:commons-compress",
+   "version": "1.28.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'commons-compress' was not found in Maven registry (E1). The correct Maven coordinate is 'org.apache.commons:commons-compress' which exists (E2). Version 1.28.0 is confirmed to exist and is the latest version (E3). No vulnerabilities found for this version (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

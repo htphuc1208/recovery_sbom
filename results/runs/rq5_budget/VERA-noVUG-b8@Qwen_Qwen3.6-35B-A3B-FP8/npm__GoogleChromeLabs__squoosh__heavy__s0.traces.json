@@ -1,0 +1,157 @@
+[
+ {
+  "component": "Big.js",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "big.js",
+   "version": "5.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Big.js' with version 5.2.2 exists in the npm registry. The registry lookup confirmed the package exists (E1), and the version 5.2.2 was available before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Csso",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "csso",
+   "version": "4.0.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'Csso' matches the npm package 'csso'. The declared version 4.0.3 exists in the npm registry and was published before the SBOM timestamp."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "ESTREE-WALKER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "estree-walker",
+   "version": "2.0.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'ESTREE-WALKER' maps to the npm package 'estree-walker' (E1). The SBOM's other_components_sample explicitly lists 'estree-walker@2.0.2' (E2). Version 2.0.2 was published before the SBOM timestamp and is confirmed available (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Execa",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "execa",
+   "version": "9.3.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package 'execa' exists in npm. The latest version published before the SBOM timestamp of 2024-08-19 is 9.3.1 (E2). No declared range was provided, so the most recent pre-timestamp version is selected as the most likely version in the SBOM."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "FAST-GLOB",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-glob",
+   "version": "3.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'FAST-GLOB' maps to the npm package 'fast-glob' (E1). The SBOM timestamp is 2024-08-19, and the latest version published before that date is 3.3.2 (E2). No declared range was provided, so the most recent pre-timestamp version is selected."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "HSL-REGEX",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hsl-regex",
+   "version": "1.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'HSL-REGEX' with version '1.0.0' corresponds to the npm package 'hsl-regex' version 1.0.0. This was confirmed by registry lookup showing the package exists in npm with version 1.0.0 available, and list_versions confirmed this version was published before the SBOM timestamp of 2024-08-19T08:50:41+01:00."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "IS-REFERENCE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The name 'IS-REFERENCE' does not exist in npm (E1), PyPI (E2), or Maven (E3) registries. It appears to be a placeholder or reference marker rather than an actual package. Since it cannot be matched to any real package in any registry, all fields are submitted as null."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "lines_and_columns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "lines-and-columns",
+   "version": "1.1.6",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'lines_and_columns' (with underscores) does not exist in npm registry (E1). The correct npm package name is 'lines-and-columns' (with hyphens) (E2). Version 1.1.6 was published before the SBOM timestamp and matches the declared version_field (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

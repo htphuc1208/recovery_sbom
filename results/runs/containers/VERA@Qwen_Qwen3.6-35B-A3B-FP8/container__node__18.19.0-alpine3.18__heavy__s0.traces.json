@@ -1,0 +1,168 @@
+[
+ {
+  "component": "10 OS packages",
+  "kind": "distro",
+  "value": 0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "distro": "alpine-3.18",
+   "evidence": "The presence of 'apk' as the package manager, 'alpine-keys', 'alpine-baselayout-data', and 'busybox' are definitive indicators of Alpine Linux. Specifically, apk-tools@2.14.0 and busybox@1.36.1-r5 align with the package versions found in Alpine Linux 3.18."
+  },
+  "steps": 1,
+  "tool_calls": 0
+ },
+ {
+  "component": "CROSS-SPAWN",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "cross-spawn",
+   "version": "7.0.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'CROSS-SPAWN' was incorrectly cased. The correct npm package name is 'cross-spawn' (lowercase). Version 7.0.3 exists and was available before the SBOM timestamp of 2024-01-27."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "event_target_shim",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "event-target-shim",
+   "version": "5.0.1",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The SBOM had an incorrect package name with underscores (event_target_shim). The correct npm package name uses hyphens (event-target-shim). Version 5.0.1 exists in the npm registry and was published before the SBOM timestamp of 2024-01-27."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "http_proxy_agent",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "http-proxy-agent",
+   "version": "7.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'http_proxy_agent' with version '7.0.0' matches the npm package 'http-proxy-agent' version 7.0.0, which was published before the SBOM timestamp and satisfies the declared version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Isexe",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "isexe",
+   "version": "2.0.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The original name 'Isexe' had no registry match (E1-E3). The npm package 'isexe' exists (E4) and version 2.0.0 is the only version satisfying the declared range ^2.0.0 published before the SBOM timestamp 2024-01-27 (E5). The capitalization difference suggests a case-sensitivity issue in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 5
+ },
+ {
+  "component": "Minipass",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "minipass",
+   "version": "3.3.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Minipass' corresponds to the npm package 'minipass' (E1). The declared range ^3.3.0 was satisfied by version 3.3.6, which is the newest version in that range published before the SBOM timestamp of 2024-01-27 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "MUTE-STREAM",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "mute-stream",
+   "version": "1.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'MUTE-STREAM' was incorrectly cased. The correct npm package name is 'mute-stream' (lowercase). Version 1.0.0 satisfies the declared range ^1.0.0 and was published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PATH-KEY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "path-key",
+   "version": "3.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'PATH-KEY' is a case variant of the npm package 'path-key'. Version 3.1.1 exists in the npm registry and was published before the SBOM timestamp of 2024-01-27."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Tar",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "tar",
+   "version": "6.2.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'Tar' matches the npm package 'tar' (case-insensitive). E1 confirms 'tar' exists in npm. E2 shows 6.2.0 was the latest version published before the SBOM timestamp of 2024-01-27. E3 confirms 'Tar' (capitalized) doesn't exist, so the correct registry name is 'tar'."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

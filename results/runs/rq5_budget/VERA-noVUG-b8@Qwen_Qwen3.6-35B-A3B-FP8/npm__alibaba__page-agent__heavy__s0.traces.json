@@ -1,0 +1,158 @@
+[
+ {
+  "component": "brace_expansion",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.18",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'brace_expansion' is the underscored form of the npm package 'brace-expansion'. Version 1.1.18 exists in the npm registry and was published before the SBOM timestamp. It matches the declared version_field exactly."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "STRIP-JSON-COMMENTS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "strip-json-comments",
+   "version": "3.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name STRIP-JSON-COMMENTS maps to the npm package strip-json-comments. Version 3.1.1 exists and was published before the SBOM timestamp (2026-09-06). Evidence E1 confirms the package exists in npm registry with version 3.1.1 listed. Evidence E2 confirms 3.1.1 is a valid version matching the pinned spec."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@ROLLDOWN/BINDING-ANDROID-ARM-EABI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@rollup/rollup-android-arm-eabi",
+   "version": null,
+   "evidence": [
+    "E6"
+   ],
+   "rationale": "The original name '@ROLLDOWN/BINDING-ANDROID-ARM-EABI' appears to be a corrupted/malformed package name. Based on the pattern of existing @rollup platform-specific binding packages (e.g., @rollup/rollup-linux-arm-gnueabihf exists as confirmed by E6), the correct package name is likely '@rollup/rollup-android-arm-eabi'. The version 1.2.7 could not be confirmed as no matching package was found with the original name, and I could not verify the correct version exists before the SBOM timestamp of 2026-09-06."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-FREEBSD-X64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-freebsd-x64",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The package @tailwindcss/oxide-freebsd-x64 exists in npm. The latest version published before the SBOM timestamp 2026-09-06T15:44:57+08:00 is 4.3.3, which matches the latest version of the parent package @tailwindcss/oxide. This is the most likely version used when the SBOM was generated."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-LINUX-ARM-GNUEABIHF",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-linux-arm-gnueabihf",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM component name was incorrectly uppercased. The correct npm package is @tailwindcss/oxide-linux-arm-gnueabihf. The latest version published before the SBOM timestamp 2026-09-06 is 4.3.3 (E2). This is a platform-specific binary package for Tailwind CSS oxide, consistent with the npm ecosystem of the SBOM."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@EMNAPI/WASI-THREADS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@emnapi/wasi-threads",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared name @EMNAPI/WASI-THREADS with range ^1.2.0 matches the npm package @emnapi/wasi-threads. Version 1.2.3 is the newest version satisfying ^1.2.0 and published before the SBOM timestamp 2026-09-06."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "default_browser_id",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "default-browser-id",
+   "version": "5.0.1",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name 'default_browser_id' with underscores had no registry match (E1). The correct npm package name uses hyphens: 'default-browser-id' (E3). The latest version published before the SBOM timestamp 2026-09-06 is 5.0.1 (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Dequal",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "dequal",
+   "version": "2.0.3",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name 'Dequal' was case-sensitive mismatch. The correct npm package is 'dequal' (lowercase). Version 2.0.3 satisfies the declared range ^2.0.0 and was published before the SBOM timestamp 2026-09-06."
+  },
+  "steps": 5,
+  "tool_calls": 5
+ }
+]

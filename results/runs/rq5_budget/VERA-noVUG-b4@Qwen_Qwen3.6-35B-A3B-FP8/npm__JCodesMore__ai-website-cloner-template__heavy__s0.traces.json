@@ -1,0 +1,80 @@
+[
+ {
+  "component": "@floating_ui/react_dom",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@floating-ui/react-dom",
+   "version": "2.1.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM had an incorrect package name using underscores (@floating_ui/react_dom) instead of the correct npm package name with hyphens (@floating-ui/react-dom). Registry lookup confirmed the package exists and version 2.1.8 is a valid published version available before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@humanwhocodes/module_importer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@humanwhocodes/module-importer",
+   "version": "1.0.1",
+   "evidence": [
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM had a typo in the package name: 'module_importer' (underscore) instead of 'module-importer' (hyphen). The correct package @humanwhocodes/module-importer exists in npm registry and version 1.0.1 was published before the SBOM timestamp with no known vulnerabilities."
+  },
+  "steps": 4,
+  "tool_calls": 5
+ },
+ {
+  "component": "@NEXT/SWC-DARWIN-ARM64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-arm64",
+   "version": "16.4.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name @NEXT/SWC-DARWIN-ARM64 was incorrectly formatted. The correct npm package name is @next/swc-darwin-arm64 (Next.js SWC compiler for Darwin ARM64). Version 16.4.3 is the newest version satisfying the declared range ^16.3.0 and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@next/swc_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-x64",
+   "version": "16.3.5",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name in the SBOM used an underscore (@next/swc_darwin_x64) but the correct npm registry name uses a hyphen (@next/swc-darwin-x64). Verified existence of the package under the corrected name (E5) and confirmed version 16.3.5 exists and was published before the SBOM timestamp (E6)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ }
+]

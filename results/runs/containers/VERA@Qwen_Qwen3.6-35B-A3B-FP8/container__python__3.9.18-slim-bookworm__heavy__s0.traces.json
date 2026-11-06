@@ -1,0 +1,21 @@
+[
+ {
+  "component": "pip",
+  "kind": "version",
+  "value": 1.3070618608204951,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pip",
+   "version": "23.3.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 23.3.2 is confirmed to exist in PyPI (E1) and was published before the SBOM timestamp (E2). It has the highest prior probability (0.328) among all candidates, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

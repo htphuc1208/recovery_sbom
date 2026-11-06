@@ -1,0 +1,391 @@
+[
+ {
+  "component": "ghost",
+  "kind": "version",
+  "value": 5.131937791064654,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ghost",
+   "version": "5.70.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E5"
+   ],
+   "rationale": "Version 5.70.1 has the highest probability (0.205) among all candidates and was available before the SBOM timestamp (2023-10-28). The package exists in npm registry (E1), 5.70.1 was published before the timestamp (E2), and it falls within the range of versions available at that time (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "fast-xml-parser",
+  "kind": "version",
+  "value": 2.064336407741812,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-xml-parser",
+   "version": "4.2.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package fast-xml-parser exists in npm. Among versions satisfying ^4.0.0 and published before the SBOM timestamp (2023-10-28), 4.2.7 has the highest prior probability (0.257) according to the candidate analysis."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "postcss",
+  "kind": "version",
+  "value": 1.960090290540718,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "postcss",
+   "version": "8.4.31",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package postcss exists in npm (E1). Among versions satisfying ^8.4.0 and published before the SBOM timestamp, 8.4.31 is the newest and has the highest prior probability (E2). The SBOM's version_field also matches this version, confirming it as the most likely exact version."
+  },
+  "steps": 2,
+  "tool_calls": 2
+ },
+ {
+  "component": "axios",
+  "kind": "version",
+  "value": 1.8478934907286744,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "axios",
+   "version": "1.5.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "1.5.1 has the highest probability (0.547) among current candidates and was published before the SBOM timestamp of 2023-10-28. Confirmed to exist in npm registry."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "systeminformation",
+  "kind": "version",
+  "value": 1.4828677356296691,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "systeminformation",
+   "version": "5.21.13",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 5.21.13 is confirmed to exist in npm registry (E1), was published before the SBOM timestamp 2023-10-28 and satisfies the declared range ^5.21.0 (E2), and is a valid published version with no dependencies (E3). It has the highest probability (0.345) among the current candidates and matches the version_field in the SBOM."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "semver",
+  "kind": "version",
+  "value": 1.225811522920696,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "semver",
+   "version": "7.5.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 7.5.4 is confirmed to exist in npm registry (E1), was published before the SBOM timestamp of 2023-10-28 (E2), and has the highest probability (0.607) among pre-timestamp versions. It matches the version_field in the SBOM and has no known vulnerabilities (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "semver",
+  "kind": "version",
+  "value": 1.225811522920696,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "semver",
+   "version": "7.5.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 7.5.4 is confirmed to exist in npm registry (E1), was published before the SBOM timestamp of 2023-10-28 (E2), and has the highest probability (0.607) among pre-timestamp versions. It matches the version_field in the SBOM and has no known vulnerabilities (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "semver",
+  "kind": "version",
+  "value": 1.225811522920696,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "semver",
+   "version": "7.5.4",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 7.5.4 is confirmed to exist in npm registry (E1), was published before the SBOM timestamp of 2023-10-28 (E2), and has the highest probability (0.607) among pre-timestamp versions. It matches the version_field in the SBOM and has no known vulnerabilities (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "glob",
+  "kind": "version",
+  "value": 1.0817901686595461,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob",
+   "version": "10.3.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 10.3.10 is the most likely exact version based on highest probability (0.613) among candidates, and it was published before the SBOM timestamp of 2023-10-28. The package exists in npm registry (E1) and 10.3.10 is confirmed as an available version before the timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "glob",
+  "kind": "version",
+  "value": 1.0817901686595461,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob",
+   "version": "10.3.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 10.3.10 is the most likely exact version based on highest probability (0.613) among candidates, and it was published before the SBOM timestamp of 2023-10-28. The package exists in npm registry (E1) and 10.3.10 is confirmed as an available version before the timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "glob",
+  "kind": "version",
+  "value": 1.0817901686595461,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob",
+   "version": "10.3.10",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 10.3.10 is the most likely exact version based on highest probability (0.613) among candidates, and it was published before the SBOM timestamp of 2023-10-28. The package exists in npm registry (E1) and 10.3.10 is confirmed as an available version before the timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@AWS-CRYPTO/SHA256-JS",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@aws-crypto/sha256-js",
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared name '@AWS-CRYPTO/SHA256-JS' is a case-normalized form of the correct npm package '@aws-crypto/sha256-js'. E1 confirms this package exists in npm registry. E2 shows all versions available before the SBOM timestamp. The SBOM context contains multiple versions of this package (2.0.0, 3.0.0, 5.2.0) so no single version can be definitively determined without additional context."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@AWS-SDK/IS-ARRAY-BUFFER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@aws-sdk/is-array-buffer",
+   "version": "3.188.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @AWS-SDK/IS-ARRAY-BUFFER is a case-normalized form of the npm package @aws-sdk/is-array-buffer. Registry lookup (E1) confirms the package exists in npm. Version 3.188.0 was published before the SBOM timestamp and matches the declared version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@aws_sdk/middleware_content_length",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@aws-sdk/middleware-content-length",
+   "version": "3.374.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name uses underscores but the correct npm package name uses hyphens: @aws-sdk/middleware-content-length. E1 confirms the package exists in npm registry. E2 lists versions satisfying ^3.193.0 published before the SBOM timestamp 2023-10-28, with 3.374.0 being the newest candidate."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@AWS-SDK/MIDDLEWARE-SERDE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@aws-sdk/middleware-serde",
+   "version": "3.374.0",
+   "evidence": [
+    "E1",
+    "E6"
+   ],
+   "rationale": "The component name @AWS-SDK/MIDDLEWARE-SERDE was incorrectly formatted. The correct npm package is @aws-sdk/middleware-serde (E1). Version 3.374.0 is the newest version satisfying the declared range ^3.193.0 and was published before the SBOM timestamp of 2023-10-28 (E6)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@aws_sdk/middleware_signing",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@aws-sdk/middleware-signing",
+   "version": "3.193.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E5"
+   ],
+   "rationale": "The component name @aws_sdk/middleware_signing uses underscore but the correct npm package name uses hyphen: @aws-sdk/middleware-signing. Version 3.193.0 exists in the npm registry and was published before the SBOM timestamp of 2023-10-28. This matches the declared version_field exactly."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "@aws_sdk/shared_ini_file_loader",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@aws-sdk/shared-ini-file-loader",
+   "version": "3.193.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name uses underscores instead of hyphens. The correct npm package name is @aws-sdk/shared-ini-file-loader (E1). Version 3.193.0 exists and was published before the SBOM timestamp (E2, E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@DISTRIBUTED-SYSTEMS/CALLSITE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@distributed-systems/callsite",
+   "version": "3.0.1",
+   "evidence": [
+    "E4",
+    "E6"
+   ],
+   "rationale": "The original name @DISTRIBUTED-SYSTEMS/CALLSITE was a case-sensitivity issue. The correct package name is @distributed-systems/callsite which exists in npm (E4). The most recent version published before the SBOM timestamp of 2023-10-28 is 3.0.1 (E6)."
+  },
+  "steps": 6,
+  "tool_calls": 6
+ },
+ {
+  "component": "@my-scope/package-a",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component @my-scope/package-a does not exist in the npm registry (E1). Various alternative names were also checked (@aws-crypto/package-a E2, package-a E3) and none exist. The sample components are all @aws-crypto/* packages which do exist (E4), but @my-scope/package-a is not one of them. Since the package cannot be found in any registry, I cannot determine its true package identity or version. Submitting null values as required by the rules when values cannot be confirmed."
+  },
+  "steps": 6,
+  "tool_calls": 4
+ },
+ {
+  "component": "@my-scope/package-b",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "The package @my-scope/package-b does not exist in the npm registry (E1). Since the SBOM's majority ecosystem is npm and no matching package was found, the true package identity and version cannot be determined. Submitting null values as required by the rules when values cannot be confirmed."
+  },
+  "steps": 3,
+  "tool_calls": 1
+ }
+]

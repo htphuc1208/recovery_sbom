@@ -1,0 +1,174 @@
+[
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.88061831156008,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly states filelock@4.2.4. Registry lookup confirms this version exists (E1). List of versions published before the SBOM timestamp confirms 4.2.4 was available and is the most likely version (E2). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Urllib3",
+  "kind": "version",
+  "value": 6.33483410423214,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly states urllib3@2.8.0, the declared range is pinned to 2.8.0, and version 2.8.0 exists in the pypi registry and was published before the SBOM timestamp. It also has the highest confidence score (0.617) among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.66756592731442,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "httpx2 exists in PyPI (E1). Version 2.16.0 is the latest, was published before the SBOM timestamp, has the highest prior probability (0.213) among pre-timestamp versions (E2), and exactly matches the declared range '2.16.0'."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "msgpack",
+  "kind": "version",
+  "value": 4.238822933194194,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "msgpack",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.2.3 is the highest-probability candidate (0.28) from the SBOM's current_candidates, exists in PyPI registry (E1), and was published before the SBOM timestamp (E2). The SBOM explicitly declares this version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "nbconvert",
+  "kind": "version",
+  "value": 3.53823910775344,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "nbconvert",
+   "version": "7.17.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 7.17.1 is confirmed to exist in pypi registry (E1), was available before the SBOM timestamp of 2026-11-12 (E2), and has the highest prior probability (0.611) among all pre-timestamp versions. It also matches the SBOM's declared version and has the highest confidence score (0.571) in the current candidates."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.4507502351712334,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package accelerate exists in PyPI (E1). Version 1.15.0 is the latest version, was published before the SBOM timestamp, and has the highest prior probability (0.413) among candidates (E2). The SBOM declares 1.15.0 which is consistent with this evidence."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "soupsieve",
+  "kind": "version",
+  "value": 2.3813483996392497,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "soupsieve",
+   "version": "2.9.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM explicitly declares soupsieve version 2.9.2 in both the version_field and purl. This version exists in PyPI and was published before the SBOM timestamp (2026-11-12). It is the most likely exact version as stated in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Setuptools",
+  "kind": "version",
+  "value": 1.5003554273806052,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "setuptools",
+   "version": "84.0.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares setuptools version 84.0.0. Registry lookup confirms this version exists in pypi (E1). Listing versions before the SBOM timestamp confirms 84.0.0 was available and has the highest prior probability (0.372) among candidates (E2). This is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpcore2",
+  "kind": "version",
+  "value": 1.354791141615207,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpcore2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package httpcore2 exists in PyPI. Version 2.16.0 is the latest version and was published before the SBOM timestamp. It has the highest prior probability (0.214) among all candidates and matches the declared version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

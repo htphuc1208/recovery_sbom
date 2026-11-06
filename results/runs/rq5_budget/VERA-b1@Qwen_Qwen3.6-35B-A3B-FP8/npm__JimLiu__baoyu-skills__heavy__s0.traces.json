@@ -1,0 +1,21 @@
+[
+ {
+  "component": "undici",
+  "kind": "version",
+  "value": 54.63207934090433,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "undici",
+   "version": "8.12.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component undici exists in npm registry (E1). Version 8.12.3 was published before the SBOM timestamp and has the highest prior probability (0.129) among pre-timestamp versions (E2). This matches the declared version in the SBOM and has the highest confidence score (0.33) in the current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

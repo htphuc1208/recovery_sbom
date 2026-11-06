@@ -1,0 +1,154 @@
+[
+ {
+  "component": "@typescript_eslint/project_service",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@typescript-eslint/project-service",
+   "version": "8.72.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name in the SBOM used underscores (@typescript_eslint/project_service) which is not a valid npm package name. The correct npm package uses hyphens (@typescript-eslint/project-service). Verified existence via registry lookup (E1) and confirmed version 8.72.1 was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-linux-arm-gnueabihf",
+   "version": "1.13.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The original name @UNRS/RESOLVER-BINDING-LINUX-ARM-GNUEABIHF was incorrectly cased. The correct npm package name is @unrs/resolver-binding-linux-arm-gnueabihf (E1). Version 1.13.0 is the latest version satisfying the declared range ^1.12.0 and was published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@unrs/resolver_binding_linux_arm_musleabihf",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "evidence": [
+    "E3",
+    "E6"
+   ],
+   "name": "unrs-resolver",
+   "rationale": "The component @unrs/resolver_binding_linux_arm_musleabihf is a platform-specific binary binding bundled within the unrs-resolver npm package, not a standalone package. Version 1.12.2 matches the SBOM's version_field and was published before the SBOM timestamp (2026-11-12). E3 confirms unrs-resolver exists with version 1.12.2 available. E6 confirms 1.12.2 is a valid published version.",
+   "version": "1.12.2"
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@unrs/resolver_binding_linux_s390x_gnu",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "unrs-resolver",
+   "version": "1.12.2",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component name @unrs/resolver_binding_linux_s390x_gnu is a platform-specific native binding bundled within the unrs-resolver npm package, not a standalone scoped package. The @unrs scope does not exist (E6). The unrs-resolver package (E3) contains these platform bindings. Version 1.12.2 is the latest version published before the SBOM timestamp of 2026-11-12 (E4)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-WASM32-WASI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-wasm32-wasi",
+   "version": "1.12.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @UNRS/RESOLVER-BINDING-WASM32-WASI is a case-insensitive match for the npm package @unrs/resolver-binding-wasm32-wasi (E1). Version 1.12.2 exists and was published before the SBOM timestamp (E2). The SBOM context confirms npm as the majority ecosystem."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "BUNDLE-NAME",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "The component name 'BUNDLE-NAME' is not a valid npm package name (E1). This appears to be a placeholder or invalid entry in the SBOM with no corresponding real package. Unable to determine the actual intended package identity."
+  },
+  "steps": 3,
+  "tool_calls": 1
+ },
+ {
+  "component": "DEFINE-PROPERTIES",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'DEFINE-PROPERTIES' does not exist in any registry (npm, pypi, maven). This appears to be a JavaScript function name (Object.defineProperties) rather than a third-party package. No valid package identity could be determined."
+  },
+  "steps": 5,
+  "tool_calls": 3
+ },
+ {
+  "component": "fast_json_stable_stringify",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-json-stable-stringify",
+   "version": "2.1.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'fast_json_stable_stringify' with underscores does not exist in npm registry (E1). The correct npm package name uses hyphens: 'fast-json-stable-stringify' (E2). Version 2.1.0 exists and was published before the SBOM timestamp of 2026-11-12T06:58:55+00:00 (E3). This matches the version_field '2.1.0' in the component."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

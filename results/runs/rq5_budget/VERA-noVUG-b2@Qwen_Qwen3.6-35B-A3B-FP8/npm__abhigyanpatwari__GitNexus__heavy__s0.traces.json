@@ -1,0 +1,41 @@
+[
+ {
+  "component": "baseline_browser_mapping",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "baseline-browser-mapping",
+   "version": "2.11.28",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original SBOM had name 'baseline_browser_mapping' which doesn't exist in npm (E1). The correct npm package name is 'baseline-browser-mapping' with hyphens (E2). Version 2.11.28 exists and was published before the SBOM timestamp of 2026-11-12 (E3, E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "CLI-TRUNCATE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "cli-truncate",
+   "version": "5.2.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'CLI-TRUNCATE' matches the npm package 'cli-truncate' (case-insensitive). Version 5.2.0 exists in the npm registry and was published before the SBOM timestamp of 2026-11-12. The SBOM context confirms this is an npm-based project."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

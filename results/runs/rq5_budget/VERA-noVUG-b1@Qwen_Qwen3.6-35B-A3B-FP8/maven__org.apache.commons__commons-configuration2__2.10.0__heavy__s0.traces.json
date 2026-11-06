@@ -1,0 +1,21 @@
+[
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.9.4",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'commons-beanutils' with null group did not match any Maven registry entry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (groupId:artifactId). Version 1.9.4 was confirmed to exist in the registry (E2, E3) and matches the declared version in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

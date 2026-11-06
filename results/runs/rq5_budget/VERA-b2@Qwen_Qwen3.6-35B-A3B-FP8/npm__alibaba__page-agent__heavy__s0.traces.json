@@ -1,0 +1,41 @@
+[
+ {
+  "component": "fast-uri",
+  "kind": "version",
+  "value": 27.52868735018899,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "fast-uri",
+   "version": "4.1.4",
+   "evidence": [
+    "E1",
+    "E5",
+    "E6"
+   ],
+   "rationale": "Version 4.1.4 is the correct version because: (1) it satisfies the declared_range '4.1.4' which is a pinned version constraint (E5), (2) it was published before the SBOM timestamp (E6), and (3) the package fast-uri exists in npm (E1). Although 3.1.7 had higher probability in the candidates, it violates the declared range constraint."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "vitest",
+  "kind": "version",
+  "value": 3.2445291614896954,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "vitest",
+   "version": "4.1.11",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.1.11 is confirmed to exist in npm registry (E1) and was published before the SBOM timestamp (E2). It has the highest confidence score (0.308) among all candidates and matches the declared version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

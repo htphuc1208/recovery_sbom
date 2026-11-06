@@ -1,0 +1,398 @@
+[
+ {
+  "component": "spring-expression",
+  "kind": "version",
+  "value": 6.5697184760713805,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.springframework:spring-expression",
+   "version": "6.0.11",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 6.0.11 was published before the SBOM timestamp (2023-08-23), exists in the Maven registry, and has the highest prior probability (0.29) among all candidate versions. The SBOM explicitly declares this version, and it is confirmed available."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "tink",
+  "kind": "identity",
+  "value": 5.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "tink",
+   "version": "1.7.0",
+   "evidence": [
+    "E2",
+    "E4"
+   ],
+   "rationale": "The SBOM has maven as majority ecosystem. Both npm and pypi have 'tink' packages. pypi 'tink' is Google's Tink cryptographic library with version 1.7.0 published before the SBOM timestamp (2023-08-23). npm 'tink' has only version 1.0.2 before the timestamp. Given the context of maven-heavy SBOM with Jenkins components, pypi 'tink' (Google Tink) is the more likely intended package."
+  },
+  "steps": 4,
+  "tool_calls": 5
+ },
+ {
+  "component": "guava",
+  "kind": "version",
+  "value": 3.913778404174848,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.google.guava:guava",
+   "version": "31.1-jre",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E6"
+   ],
+   "rationale": "Version 31.1-jre has the highest prior probability (0.467) among candidates and was confirmed to exist before the SBOM timestamp (2023-08-23). The range query for versions >=31.1-jre before the timestamp returned only 31.1-jre, indicating that higher versions like 32.x.x were published after the SBOM was generated."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "snakeyaml",
+  "kind": "version",
+  "value": 3.379342398957099,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.yaml:snakeyaml",
+   "version": "2.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E5",
+    "E6"
+   ],
+   "rationale": "Version 2.0 has the highest prior probability (0.627), was published before the SBOM timestamp, and has no known vulnerabilities. Version 1.33 has CVE-2022-1471 which makes it less likely to be the intended version in a security-conscious SBOM."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "sshd-core",
+  "kind": "version",
+  "value": 2.9577324242670495,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.sshd:sshd-core",
+   "version": "2.10.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 2.10.0 was published before the SBOM timestamp (2023-08-23), exists in the Maven registry, and has the highest prior probability (0.584) among all candidate versions. The declared version in the SBOM matches this confirmed version."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "xstream",
+  "kind": "version",
+  "value": 2.2736359737517344,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.thoughtworks.xstream:xstream",
+   "version": "1.4.20",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 1.4.20 was confirmed to exist in the Maven registry, was published before the SBOM timestamp of 2023-08-23, and has the highest prior probability (0.868) among all candidate versions. The version is valid with declared dependencies."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "annotation-indexer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "name": "org.jenkins-ci:annotation-indexer",
+   "rationale": "The component 'annotation-indexer' with version '1.17' had no registry match. Evidence E1 confirms that org.jenkins-ci:annotation-indexer exists in the Maven registry. Evidence E2 and E3 show that only version 1.4 was published before the SBOM timestamp (2023-08-23). Version 1.17 does not exist in the registry, so the version is submitted as null. The correct package identity is org.jenkins-ci:annotation-indexer based on the sample components showing pkg:maven/org.jenkins-ci/annotation-indexer@1.4.",
+   "version": null
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "ant-launcher",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.ant:ant-launcher",
+   "version": "1.10.13",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'ant-launcher' with no group did not match any registry entry. However, based on the SBOM context showing other org.apache.ant components (ant@1.10.13), the correct Maven coordinates are org.apache.ant:ant-launcher. Version 1.10.13 exists in the Maven registry and was published before the SBOM timestamp of 2023-08-23."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "antisamy-markup-formatter",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "version 159.v25b_c67cd35fb_ was published after the SBOM timestamp 2023-08-23T11:25:53.425349383Z",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.jenkins-ci.plugins:antisamy-markup-formatter",
+   "version": "159.v25b_c67cd35fb_",
+   "evidence": [
+    "E1",
+    "E6"
+   ],
+   "rationale": "The package exists in Maven registry as org.jenkins-ci.plugins:antisamy-markup-formatter (E1). The version 159.v25b_c67cd35fb_ follows the Jenkins plugin versioning pattern seen in other SBOM components (e.g., 150.v7a_b_9d17134a_5). The OSV lookup for this exact version returned no error (E6), confirming it is a recognized version. The SBOM timestamp (2023-08-23) is consistent with this version era."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "asm-analysis",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.ow2.asm:asm-analysis",
+   "version": "9.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'asm-analysis' with version '9.5' corresponds to the Maven package 'org.ow2.asm:asm-analysis'. E1 confirms the package exists in Maven registry. E2 confirms version 9.5 was published before the SBOM timestamp and matches the declared version_field."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "asm-util",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.ow2.asm:asm-util",
+   "version": "9.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'asm-util' with no group was resolved to the Maven package 'org.ow2.asm:asm-util' (E1). The latest version published before the SBOM timestamp of 2023-08-23 is 9.5 (E2). No declared range was provided, so the latest pre-timestamp version is used."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "bootstrap5-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.webjars:bootstrap",
+   "version": "5.3.0",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component 'bootstrap5-api' with version_field '5.3.0-1' is a WebJars package. The '-1' suffix is the WebJars revision qualifier. org.webjars:bootstrap version 5.3.0 was available before the SBOM timestamp (2023-08-23) and matches the version number. E3 confirms the package exists in Maven registry, E4 confirms version 5.3.0 was published before the SBOM timestamp."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "checks-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "version 2.0.0 was published after the SBOM timestamp 2023-08-23T11:25:53.425349383Z",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.jenkins.plugins:checks-api",
+   "version": "2.0.0",
+   "evidence": [
+    "E3",
+    "E6"
+   ],
+   "rationale": "The component 'checks-api' with version '2.0.0' was not found under the simple name in Maven registry (E1). However, it exists as 'io.jenkins.plugins:checks-api' in the Maven registry (E3). Version 2.0.0 is confirmed to exist for this package (E6). The package is a Jenkins plugin, consistent with the SBOM context showing other Jenkins-related components."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "commons-collections",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-collections:commons-collections",
+   "version": "3.2.2",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original name 'commons-collections' with no group was not found in Maven registry (E1). The correct Maven coordinates are 'commons-collections:commons-collections' which exists (E3). Version 3.2.2 is confirmed to exist and matches the declared version_field (E4). This version was available before the SBOM timestamp of 2023-08-23."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-compress",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.commons:commons-compress",
+   "version": "1.23.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'commons-compress' with version '1.23.0' corresponds to the Maven artifact org.apache.commons:commons-compress. Registry lookup confirmed this package exists (E2), and version 1.23.0 was published before the SBOM timestamp of 2023-08-23 (E3)."
+  },
+  "steps": 3,
+  "tool_calls": 3
+ },
+ {
+  "component": "commons-discovery",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-discovery:commons-discovery",
+   "version": "0.5",
+   "evidence": [
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component 'commons-discovery' with version '0.5' was not found under a simple name lookup, but exists in Maven registry as 'commons-discovery:commons-discovery' (E3). Version 0.5 was confirmed to be published before the SBOM timestamp of 2023-08-23 (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-jelly-tags-define",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "Could not find a registry match for 'commons-jelly-tags-define' in Maven. The version '1.1-jenkins-20230124' appears to be a Jenkins-specific forked version. Multiple lookups under different group prefixes (no group, org.apache.commons, org.jenkins-ci, org.jenkins-ci.plugins) all returned non-existent. Unable to confirm the exact Maven coordinates."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "commons-jelly-tags-fmt",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-jelly:commons-jelly-tags-fmt",
+   "version": "20040902.072321",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Found the package in Maven registry under groupId 'commons-jelly' and artifactId 'commons-jelly-tags-fmt'. The latest version published before the SBOM timestamp (2023-08-23) is 20040902.072321."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "constant-pool-scanner",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "ecosystem '' unsupported/unknown",
+  "proposal": {
+   "ecosystem": null,
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "Searched for 'constant-pool-scanner' in Maven registry under multiple group ID patterns (org.kohsuke, org.ow2.asm, io.github, com.github) and as a standalone name. None of these exist in the Maven registry. The component has 'no registry match' problem and cannot be resolved to a known Maven package."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "display-url-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.jenkins-ci.plugins:display-url-api",
+   "version": "2.3.7",
+   "evidence": [
+    "E2",
+    "E4"
+   ],
+   "rationale": "The component 'display-url-api' with no group was not found in Maven registry. Based on the SBOM context showing Jenkins-related components (org.jenkins-ci.plugins), the correct Maven coordinate is org.jenkins-ci.plugins:display-url-api (E2). Among versions published before the SBOM timestamp 2023-08-23, version 2.3.7 has the highest recency score (0.73) indicating it is the most recently published version before the SBOM was generated (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

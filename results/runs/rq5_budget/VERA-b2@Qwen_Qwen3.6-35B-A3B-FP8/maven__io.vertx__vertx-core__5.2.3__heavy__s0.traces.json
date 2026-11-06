@@ -1,0 +1,40 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component 'netty-transport' is a Maven artifact from the io.netty group. Registry lookup confirmed 'io.netty:netty-transport' exists (E1). Version 4.2.20.Final was published before the SBOM timestamp and matches the declared version exactly (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-codec-dns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-codec-dns",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component name 'netty-codec-dns' with group null corresponds to the Maven artifact io.netty:netty-codec-dns. The version 4.2.20.Final is confirmed as a valid published version available before the SBOM timestamp (E1, E3). This matches the surrounding Netty components in the SBOM which all use version 4.2.20.Final."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

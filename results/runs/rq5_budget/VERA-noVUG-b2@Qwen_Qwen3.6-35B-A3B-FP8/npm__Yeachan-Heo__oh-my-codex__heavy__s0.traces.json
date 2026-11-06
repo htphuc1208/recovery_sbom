@@ -1,0 +1,40 @@
+[
+ {
+  "component": "@typescript/typescript_openbsd_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "npm:@typescript/typescript_openbsd_arm64 does not exist in the registry",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@typescript/typescript_openbsd_arm64",
+   "version": "7.0.2",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The package @typescript/typescript_openbsd_arm64 does not exist in the npm registry (E1). The version 7.0.2 was declared in the SBOM and TypeScript 7.0.2 exists in npm (E3). However, the package name itself is invalid/non-existent. The SBOM likely intended to reference the 'typescript' package but used an incorrect scoped name. Since the exact package name doesn't exist, this component cannot be properly resolved to a real registry entry."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "Ajv",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ajv",
+   "version": "8.18.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Ajv' corresponds to the npm package 'ajv'. Registry lookup confirmed the package exists and includes version 8.18.0. Version listing confirmed 8.18.0 was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

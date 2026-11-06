@@ -1,0 +1,79 @@
+[
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.0620154115351106,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.14.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.14.0 is confirmed as a valid PyPI package version (E1) and has the highest prior probability (0.445) among versions published before the SBOM timestamp (E2). It matches the SBOM's declared version and is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "authlib",
+  "kind": "version",
+  "value": 1.703213524162225,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "authlib",
+   "version": "1.7.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.7.2 is explicitly declared in the SBOM (pkg:pypi/authlib@1.7.2), exists in PyPI (E1), and is the highest-probability candidate (0.644) among versions satisfying the declared range >=1.7 and published before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "fastmcp",
+  "kind": "version",
+  "value": 3.2054659316342113,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "fastmcp",
+   "version": "3.4.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares fastmcp@3.4.7 with purl pkg:pypi/fastmcp@3.4.7. Registry lookup confirms fastmcp exists on PyPI. list_versions confirms version 3.4.7 was published before the SBOM timestamp and is the highest-probability candidate matching the declared version. No conflicting evidence found.\""
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "litellm",
+  "kind": "version",
+  "value": 1.2389251528307528,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "litellm",
+   "version": "1.98.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 1.98.0 is the most likely exact version. It matches the declared version in the SBOM, satisfies the declared range >=1.94, was published before the SBOM timestamp (2026-09-30), and has the highest prior probability (0.14) among all valid candidates."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

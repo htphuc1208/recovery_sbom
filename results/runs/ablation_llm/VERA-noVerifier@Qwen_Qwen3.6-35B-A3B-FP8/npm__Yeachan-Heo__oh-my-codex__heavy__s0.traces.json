@@ -1,0 +1,252 @@
+[
+ {
+  "component": "IP-ADDRESS",
+  "kind": "version",
+  "value": 10.34918093770293,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ip-address",
+   "version": "10.7.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly states pkg:npm/ip-address@10.7.5. The package exists in npm (E1) and version 10.7.5 was published before the SBOM timestamp (E2). It is also the highest-probability candidate (0.272) among the current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "brace-expansion",
+  "kind": "version",
+  "value": 9.716831569837375,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "5.0.12",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 5.0.12, which exists in npm registry and satisfies the ^5.0.0 range. It is the highest-probability candidate (0.71) and was available before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "body-parser",
+  "kind": "version",
+  "value": 3.6658967578416,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.4.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The declared_range is '2.4.0' (pinned), and version 2.4.0 exists in the npm registry (E1). It was published before the SBOM timestamp (E4) and has valid dependencies (E5). When searching with spec '2.4.0', it returns with prior probability 1.0 (E2). The current_candidates also show 2.4.0 as the highest probability candidate (0.553)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "proxy-addr",
+  "kind": "version",
+  "value": 2.9713517258370468,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "proxy-addr",
+   "version": "2.0.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM candidate distribution shows 2.0.8 with 0.687 probability vs 2.0.7 with 0.313. Both versions exist in npm registry and were published before the SBOM timestamp. 2.0.8 is the latest version and has the highest prior probability, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Zod",
+  "kind": "version",
+  "value": 2.9218670196736807,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.6.7 is confirmed to exist in the npm registry (E1) and was published before the SBOM timestamp of 2026-11-10 (E2). It matches the declared version in the SBOM and has the highest prior probability (0.214) among all candidate versions published before the timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@typescript/typescript_openbsd_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@typescript/typescript_openbsd_arm64",
+   "version": "7.0.2",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The package @typescript/typescript_openbsd_arm64 does not exist in the npm registry (E1). The version 7.0.2 was declared in the SBOM and TypeScript 7.0.2 exists in npm (E3). However, the package name itself is invalid/non-existent. The SBOM likely intended to reference the 'typescript' package but used an incorrect scoped name. Since the exact package name doesn't exist, this component cannot be properly resolved to a real registry entry."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "Ajv",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ajv",
+   "version": "8.18.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Ajv' corresponds to the npm package 'ajv'. Registry lookup confirmed the package exists and includes version 8.18.0. Version listing confirmed 8.18.0 was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "foreground_child",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "foreground-child",
+   "version": "3.3.1",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM had 'foreground_child' (with underscore) which doesn't exist in npm registry. The correct package name is 'foreground-child' (with hyphen), which exists and has version 3.3.1 available before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "Hono",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "hono",
+   "version": "4.12.26",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM listed 'Hono' with capital H, but the npm registry uses lowercase 'hono' (E4). Version 4.12.26 exists in npm and was published before the SBOM timestamp (E5). The version matches the declared version_field exactly."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "ISTANBUL-LIB-REPORT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "istanbul-lib-report",
+   "version": "3.0.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'ISTANBUL-LIB-REPORT' is the uppercase/underscored form of the npm package 'istanbul-lib-report'. Verified existence in npm registry (E1), confirmed version 3.0.1 is available and matches the declared version (E2), and no known vulnerabilities found (E3). The npm ecosystem context with other @istanbuljs packages confirms this is the correct package."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "OBJECT-ASSIGN",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "object-assign",
+   "version": "4.1.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'OBJECT-ASSIGN' matches the npm package 'object-assign' (case-insensitive). The SBOM's majority ecosystem is npm. The latest version published before the SBOM timestamp is 4.1.1."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "OBJECT-INSPECT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "object-inspect",
+   "version": "1.13.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'OBJECT-INSPECT' corresponds to the npm package 'object-inspect'. The latest version published before the SBOM timestamp of 2026-11-10 is 1.13.4."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PATH-SCURRY",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "path-scurry",
+   "version": "2.0.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'PATH-SCURRY' maps to the npm package 'path-scurry'. The declared range ^2.0.0 is satisfied by versions 2.0.0, 2.0.1, and 2.0.2. The newest version published before the SBOM timestamp 2026-11-10 is 2.0.2."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

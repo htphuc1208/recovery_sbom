@@ -1,0 +1,41 @@
+[
+ {
+  "component": "Big.js",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "big.js",
+   "version": "5.2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Big.js' with version 5.2.2 exists in the npm registry. The registry lookup confirmed the package exists (E1), and the version 5.2.2 was available before the SBOM timestamp (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Csso",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "csso",
+   "version": "4.0.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'Csso' matches the npm package 'csso'. The declared version 4.0.3 exists in the npm registry and was published before the SBOM timestamp."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

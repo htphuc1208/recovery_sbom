@@ -1,0 +1,40 @@
+[
+ {
+  "component": "datamodel-code-generator",
+  "kind": "version",
+  "value": 8.45801350499264,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "datamodel-code-generator",
+   "version": "0.83.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 0.83.0 for datamodel-code-generator. This version exists in PyPI (E1) and was published before the SBOM timestamp (E2). It is also the highest-prior candidate among versions available at that time, confirming it as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "mako",
+  "kind": "version",
+  "value": 1.9279023657999899,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mako",
+   "version": "1.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared version 1.4.3 is confirmed to exist in pypi and is the latest version published before the SBOM timestamp. It satisfies the declared range >=1.4 and has the highest confidence score (0.703) among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

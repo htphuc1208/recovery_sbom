@@ -1,0 +1,80 @@
+[
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.9.4",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'commons-beanutils' with null group did not match any Maven registry entry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (groupId:artifactId). Version 1.9.4 was confirmed to exist in the registry (E2, E3) and matches the declared version in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "snakeyaml",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.yaml:snakeyaml",
+   "version": "2.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'snakeyaml' with version 2.2 is a Maven package. Registry lookup confirmed the correct Maven coordinates are 'org.yaml:snakeyaml' (E1). Version 2.2 exists and is the exact version specified (E2). No known vulnerabilities were found for this version (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-annotations",
+   "version": "2.22",
+   "evidence": [
+    "E1",
+    "E3",
+    "E5"
+   ],
+   "rationale": "The component 'jackson-annotations' with no group was resolved to 'com.fasterxml.jackson.core:jackson-annotations' in Maven (E1). The SBOM contains jackson-databind@2.22.2, and jackson-databind 2.22.2 declares a dependency on jackson-annotations (E5). The corresponding jackson-annotations version in the 2.22.x line is 2.22 (E3)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "log4j-1.2-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-1.2-api",
+   "version": "2.23.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'log4j-1.2-api' with version '2.23.0' in a Maven SBOM context corresponds to the Maven artifact org.apache.logging.log4j:log4j-1.2-api. Registry lookup confirmed this package exists and version 2.23.0 is available."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

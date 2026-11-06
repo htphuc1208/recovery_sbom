@@ -1,0 +1,154 @@
+[
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.779119574005364,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 4.2.4 for filelock. Registry lookup confirms 4.2.4 exists in PyPI. Version listing before the SBOM timestamp shows 4.2.4 as the highest-probability candidate (0.084), matching the declared version exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pypdf",
+  "kind": "version",
+  "value": 23.32270937891128,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pypdf",
+   "version": "6.21.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 6.21.4 has the highest prior probability (0.333) among all versions satisfying the declared range >=6.21 and published before the SBOM timestamp. It also matches the version_field in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 10.379812384922007,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The declared_range is exactly '12.3.0', version 12.3.0 exists in pypi registry (E1), was published before SBOM timestamp (E2), and has the highest probability (0.893) among candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pyasn1",
+  "kind": "version",
+  "value": 10.03204985758156,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pyasn1 version 0.6.4. Registry lookup confirms the package exists in pypi. Version listing before the SBOM timestamp confirms 0.6.4 was available and has the highest prior probability (0.525) among candidates, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "msgpack",
+  "kind": "version",
+  "value": 4.22751976397862,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "msgpack",
+   "version": "1.2.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.2.3 is the declared version in the SBOM, exists in PyPI registry, was available before the SBOM timestamp, and has the highest probability (0.279) among all candidate versions."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "MAKO",
+  "kind": "version",
+  "value": 3.1996624146232837,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "mako",
+   "version": "1.4.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.4.3 is confirmed to exist in PyPI (E1), was published before the SBOM timestamp (E2), and has the highest probability score (0.57) among current candidates. It is also the latest version listed in the registry."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.444213787171577,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 1.15.0 is the latest version of accelerate in PyPI, was published before the SBOM timestamp (2026-11-12), and has the highest prior probability (0.413) among pre-timestamp versions. It matches the SBOM's declared version and has the highest confidence score (0.656) in the current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "pytorch-lightning",
+  "kind": "version",
+  "value": 1.8114703078206205,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pytorch-lightning",
+   "version": "2.6.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 2.6.6 for pytorch-lightning. This version exists in the pypi registry (E1) and was published before the SBOM timestamp of 2026-11-12 (E2). Among all available versions before the timestamp, 2.6.6 has the highest probability (0.409) and matches the declared version, making it the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

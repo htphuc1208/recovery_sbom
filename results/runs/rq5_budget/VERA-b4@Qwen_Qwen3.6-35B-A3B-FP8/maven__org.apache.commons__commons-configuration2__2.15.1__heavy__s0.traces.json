@@ -1,0 +1,79 @@
+[
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.1956639108448432,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "Version 2.26.1 is confirmed to exist in Maven registry (E1), is the only version matching the pinned spec (E2), and is consistent with other log4j components in the SBOM (log4j-api@2.26.1, log4j-1.2-api@2.26.1). It has the highest probability (0.679) among candidates and is a valid published version."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6052412768319548,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of org.apache.logging.log4j:log4j-api in Maven Central (E1, E2). It is the highest-probability candidate (0.679) and matches the purl and SBOM sample entries. No known vulnerabilities exist for this version (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.11.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original SBOM had name 'commons-beanutils' with no group, causing 'no registry match'. Maven lookup confirmed the correct coordinate is 'commons-beanutils:commons-beanutils' (E2). Version 1.11.0 exists and is the latest release (E3). No vulnerabilities found (E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jakarta.servlet-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "jakarta.servlet:jakarta.servlet-api",
+   "version": "5.0.0",
+   "evidence": [
+    "E6"
+   ],
+   "rationale": "The original SBOM had name 'jakarta.servlet-api' with group null, which doesn't match any Maven registry entry (E1). The correct Maven coordinate is jakarta.servlet:jakarta.servlet-api which exists and includes version 5.0.0 (E6). This is the Jakarta EE 9+ servlet API, consistent with version 5.0.0."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

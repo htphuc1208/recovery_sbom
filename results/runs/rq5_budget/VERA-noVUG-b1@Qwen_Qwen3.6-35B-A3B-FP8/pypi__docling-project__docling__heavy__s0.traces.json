@@ -1,0 +1,21 @@
+[
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.4507502351712334,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package accelerate exists in PyPI. Version 1.15.0 is the latest version and was published before the SBOM timestamp. It has the highest prior probability (0.413) among pre-timestamp versions and matches the SBOM's declared version. No declared range constraints exist to narrow further."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

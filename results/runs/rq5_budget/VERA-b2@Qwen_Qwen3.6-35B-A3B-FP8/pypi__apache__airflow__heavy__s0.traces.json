@@ -1,0 +1,40 @@
+[
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 116.35571975000056,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pillow@12.3.0. Registry lookup confirms pillow exists in PyPI. Version listing before the SBOM timestamp shows 12.3.0 as the most likely version (prior 0.474), matching the declared version. No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "PYPDF",
+  "kind": "version",
+  "value": 60.39447308441841,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pypdf",
+   "version": "6.19.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 6.19.0 for pypdf. This version exists in the pypi registry (E1) and was published before the SBOM timestamp of 2026-11-12 (E2). Since the declared version is valid and available at the time of SBOM generation, 6.19.0 is the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

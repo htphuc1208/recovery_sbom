@@ -1,0 +1,78 @@
+[
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.11.0",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'commons-beanutils' with version 1.11.0 was not found using the simple name in Maven registry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (groupId:artifactId). Version 1.11.0 exists and is the latest published version, matching the SBOM's version_field. No vulnerabilities found for this version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "jakarta.servlet-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "jakarta.servlet:jakarta.servlet-api",
+   "version": "5.0.0",
+   "evidence": [
+    "E4",
+    "E5"
+   ],
+   "rationale": "The component was declared with group=null and name=jakarta.servlet-api, which failed registry lookup. The correct Maven coordinate is jakarta.servlet:jakarta.servlet-api (E4). Version 5.0.0 exists and matches the declared version_field exactly (E5)."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "jackson-databind",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'jackson-databind' without a group was not found in the registry. The correct Maven coordinates are 'com.fasterxml.jackson.core:jackson-databind' as confirmed by registry lookup (E1). The version cannot be determined without a timestamp or declared range constraint, so null is submitted for version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "jackson-core",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-core",
+   "version": "2.21.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'jackson-core' with null group was not matching any registry entry. In Maven, jackson-core belongs to the group 'com.fasterxml.jackson.core'. Verified that com.fasterxml.jackson.core:jackson-core exists in Maven registry (E1) and version 2.21.3 is available (E2). The version matches the declared version_field exactly."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

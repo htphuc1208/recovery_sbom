@@ -1,0 +1,138 @@
+[
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 2.90703005851976,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.29.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM purl explicitly declares browserslist@4.29.5. Registry lookup (E1) confirms this version exists and is the latest. list_versions (E2) confirms 4.29.5 was published before the SBOM timestamp 2026-11-12. No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 2.7742237925292126,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.6.7 is the latest version of zod in the npm registry, satisfies the declared range ^4.6.0, was published before the SBOM timestamp, and has the highest prior probability (0.549) among all candidate versions."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "baseline_browser_mapping",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "baseline-browser-mapping",
+   "version": "2.11.28",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original SBOM had name 'baseline_browser_mapping' which doesn't exist in npm (E1). The correct npm package name is 'baseline-browser-mapping' with hyphens (E2). Version 2.11.28 exists and was published before the SBOM timestamp of 2026-11-12 (E3, E4)."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "CLI-TRUNCATE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "cli-truncate",
+   "version": "5.2.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'CLI-TRUNCATE' matches the npm package 'cli-truncate' (case-insensitive). Version 5.2.0 exists in the npm registry and was published before the SBOM timestamp of 2026-11-12. The SBOM context confirms this is an npm-based project."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "Levn",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "levn",
+   "version": "0.4.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'Levn' corresponds to the npm package 'levn'. Registry lookup confirmed its existence (E1), and version 0.4.1 was published before the SBOM timestamp and matches the declared version (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "NATURAL-COMPARE",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "natural-compare",
+   "version": "1.4.0",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component 'NATURAL-COMPARE' with version '1.4.0' was not found in the registry lookup because npm package names are case-sensitive and typically lowercase. The correct package name is 'natural-compare' (lowercase). Verified that version 1.4.0 exists in the npm registry (E1, E2, E3) and has no known vulnerabilities (E4). This version was published before the SBOM timestamp of 2026-11-12."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "Rfdc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "rfdc",
+   "version": "1.4.1",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'Rfdc' with no registry match was identified as the npm package 'rfdc' (E1). The latest version published before the SBOM timestamp of 2026-11-12 is 1.4.1 (E2). No declared range was provided, so the most recent pre-timestamp version was selected."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

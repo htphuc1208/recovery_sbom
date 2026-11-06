@@ -1,0 +1,78 @@
+[
+ {
+  "component": "@img/sharp_linux_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E6"
+   ],
+   "rationale": "The component @img/sharp_linux_arm64 does not exist in the npm registry (E6). This appears to be a platform-specific binary artifact that was bundled within the sharp package, not a standalone npm package. Since no valid registry match exists, submitting null for both name and version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@IMG/SHARP-LINUXMUSL-X64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linuxmusl-x64",
+   "version": "0.34.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @IMG/SHARP-LINUXMUSL-X64 was incorrectly cased. The correct npm registry name is @img/sharp-linuxmusl-x64 (lowercase). Version 0.34.5 exists in the npm registry and was published before the SBOM timestamp of 2026-11-06."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "decode_named_character_reference",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "decode-named-character-reference",
+   "version": "1.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'decode_named_character_reference' with underscores was not found in npm registry. The correct package name uses hyphens: 'decode-named-character-reference'. This package exists in npm (E1) and version 1.3.0 is available and matches the declared version_field. Version 1.3.0 was published before the SBOM timestamp of 2026-11-06 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "ENCODING-SNIFFER",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "encoding-sniffer",
+   "version": "0.2.1",
+   "evidence": [
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name 'ENCODING-SNIFFER' in the SBOM was incorrectly cased. The correct npm package name is 'encoding-sniffer' (lowercase). Version 0.2.1 exists in the npm registry (E4, E5) and was published before the SBOM timestamp of 2026-11-06 (E6). This matches the declared version field in the SBOM."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ }
+]

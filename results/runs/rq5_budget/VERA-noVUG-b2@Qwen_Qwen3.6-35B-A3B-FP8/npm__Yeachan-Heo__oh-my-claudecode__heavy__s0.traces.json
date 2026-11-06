@@ -1,0 +1,44 @@
+[
+ {
+  "component": "@img/sharp_libvips_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "npm:@img/sharp_libvips_darwin_x64 does not exist in the registry",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp_libvips_darwin_x64",
+   "version": null,
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "rationale": "The package @img/sharp_libvips_darwin_x64 does not exist in the npm registry (E1). The @img scope is not a valid npm scope (E5). This appears to be a bundled native module from the sharp package, not a standalone publishable package. The sharp package exists (E2) with versions like 0.33.5, 0.34.5, 0.35.5 available before the SBOM timestamp (E3), but the version 1.0.4 does not correspond to any sharp release. Since the component cannot be matched to any real registry entry, version is submitted as null."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@IMG/SHARP-LINUX-ARM",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linux-arm",
+   "version": "0.33.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @IMG/SHARP-LINUX-ARM is a case-normalized variant of the npm package @img/sharp-linux-arm. Version 0.33.5 exists in the npm registry and was published before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

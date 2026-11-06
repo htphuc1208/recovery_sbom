@@ -1,0 +1,41 @@
+[
+ {
+  "component": "@floating_ui/react_dom",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@floating-ui/react-dom",
+   "version": "2.1.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM had an incorrect package name using underscores (@floating_ui/react_dom) instead of the correct npm package name with hyphens (@floating-ui/react-dom). Registry lookup confirmed the package exists and version 2.1.8 is a valid published version available before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@humanwhocodes/module_importer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@humanwhocodes/module-importer",
+   "version": "1.0.1",
+   "evidence": [
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM had a typo in the package name: 'module_importer' (underscore) instead of 'module-importer' (hyphen). The correct package @humanwhocodes/module-importer exists in npm registry and version 1.0.1 was published before the SBOM timestamp with no known vulnerabilities."
+  },
+  "steps": 4,
+  "tool_calls": 5
+ }
+]

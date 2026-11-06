@@ -1,0 +1,141 @@
+[
+ {
+  "component": "jackson-databind",
+  "kind": "version",
+  "value": 28.379019949658932,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.22.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared version 2.22.2 is confirmed to exist in Maven Central (E1), is the highest-probability candidate among current options (E2), and is a valid published version (E3). No transitive dependency constraints from the root POM affect this version (E4). The SBOM declaration appears correct."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.1956785350807504,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of log4j-core in the Maven registry. It has the highest probability (0.679) among candidates, has no known vulnerabilities, and is consistent with the log4j-api version (2.26.1) present in the SBOM, which is typical for log4j releases where core and api are released together."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6052486228912646,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as the most likely exact version. It exists in the Maven registry (E1), has no known vulnerabilities (E2), and is the highest probability candidate at 0.679 (E4). The SBOM already declares 2.26.1, which is consistent with the evidence. Version 2.26.0 has a known vulnerability (CVE-2026-49844, E3), making 2.26.1 the likely security fix release."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.9.4",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component 'commons-beanutils' with version 1.9.4 was not found in Maven registry using just the artifact name. In Maven, this package requires the full groupId:artifactId format. The correct registry name is 'commons-beanutils:commons-beanutils' (E2 confirms existence with 25 versions including 1.9.4). Version 1.9.4 is confirmed available (E3). The SBOM context shows this is a Maven project with other Apache Commons dependencies."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "snakeyaml",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.yaml:snakeyaml",
+   "version": "2.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component 'snakeyaml' with version 2.2 is a Maven package. Registry lookup confirmed the correct Maven coordinates are org.yaml:snakeyaml (E1). Version 2.2 exists and is the exact version specified in the SBOM (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "jackson-annotations",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-annotations",
+   "version": "2.22",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E5"
+   ],
+   "rationale": "The component 'jackson-annotations' with no group was missing its Maven group ID. Based on the SBOM context containing 'com.fasterxml.jackson.core/jackson-databind@2.22.2', the correct Maven coordinates are 'com.fasterxml.jackson.core:jackson-annotations'. Version 2.22 is the matching Jackson 2.22.x release consistent with the databind version in the SBOM."
+  },
+  "steps": 6,
+  "tool_calls": 5
+ },
+ {
+  "component": "log4j-1.2-api",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "verifier disabled",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-1.2-api",
+   "version": "2.23.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'log4j-1.2-api' with version '2.23.0' in a Maven SBOM corresponds to the Maven artifact org.apache.logging.log4j:log4j-1.2-api. Registry lookup confirmed this package exists and version 2.23.0 is available."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

@@ -1,0 +1,154 @@
+[
+ {
+  "component": "undici",
+  "kind": "version",
+  "value": 54.63207934090433,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "undici",
+   "version": "8.12.3",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component undici exists in npm registry (E1). Version 8.12.3 was published before the SBOM timestamp and has the highest prior probability (0.129) among pre-timestamp versions (E2). This matches the declared version in the SBOM and has the highest confidence score (0.33) in the current candidates."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "image-size",
+  "kind": "version",
+  "value": 4.836041661146788,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "image-size",
+   "version": "2.0.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 2.0.4 for image-size. E1 confirms the package exists in npm. E2 confirms version 2.0.4 was published before the SBOM timestamp (2026-11-06). While 2.0.2 has a slightly higher prior probability, the SBOM explicitly declares 2.0.4, making it the most likely version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "source-map-js",
+  "kind": "version",
+  "value": 2.7520385941550902,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "source-map-js",
+   "version": "1.2.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The SBOM declares version 1.2.2 with the highest confidence (0.633). This version exists in the npm registry (E1), was published before the SBOM timestamp (E2), and has no known vulnerabilities (E3). Version 1.2.1, while having a higher prior in the version list, has a known CVE (E4), making 1.2.2 the most likely correct version."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "ws",
+  "kind": "version",
+  "value": 1.493122528893331,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "8.22.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 8.22.0 with highest probability (0.514). E1 confirms ws exists in npm registry. E2 confirms 8.22.0 was published before the SBOM timestamp (2026-11-06), making it a valid candidate. The version_field and purl both indicate 8.22.0."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "defuddle",
+  "kind": "version",
+  "value": 1.3547072977605383,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "defuddle",
+   "version": "0.19.6",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares version 0.19.6 for pkg:npm/defuddle. This version exists in the npm registry (E1) and was published before the SBOM timestamp of 2026-11-06 (E2). Among the current_candidates, 0.19.6 has the highest probability (0.264), confirming it as the most likely exact version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@img/sharp_linux_arm64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "name missing",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": null,
+   "version": null,
+   "evidence": [
+    "E6"
+   ],
+   "rationale": "The component @img/sharp_linux_arm64 does not exist in the npm registry (E6). This appears to be a platform-specific binary artifact that was bundled within the sharp package, not a standalone npm package. Since no valid registry match exists, submitting null for both name and version."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "@IMG/SHARP-LINUXMUSL-X64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@img/sharp-linuxmusl-x64",
+   "version": "0.34.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name @IMG/SHARP-LINUXMUSL-X64 was incorrectly cased. The correct npm registry name is @img/sharp-linuxmusl-x64 (lowercase). Version 0.34.5 exists in the npm registry and was published before the SBOM timestamp of 2026-11-06."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "decode_named_character_reference",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "decode-named-character-reference",
+   "version": "1.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'decode_named_character_reference' with underscores was not found in npm registry. The correct package name uses hyphens: 'decode-named-character-reference'. This package exists in npm (E1) and version 1.3.0 is available and matches the declared version_field. Version 1.3.0 was published before the SBOM timestamp of 2026-11-06 (E2)."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

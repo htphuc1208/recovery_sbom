@@ -1,0 +1,40 @@
+[
+ {
+  "component": "browserslist",
+  "kind": "version",
+  "value": 2.90703005851976,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "browserslist",
+   "version": "4.29.5",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM purl explicitly declares browserslist@4.29.5. Registry lookup (E1) confirms this version exists and is the latest. list_versions (E2) confirms 4.29.5 was published before the SBOM timestamp 2026-11-12. No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "zod",
+  "kind": "version",
+  "value": 2.7742237925292126,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "zod",
+   "version": "4.6.7",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "Version 4.6.7 is the latest version of zod in the npm registry, satisfies the declared range ^4.6.0, was published before the SBOM timestamp, and has the highest prior probability (0.549) among all candidate versions."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

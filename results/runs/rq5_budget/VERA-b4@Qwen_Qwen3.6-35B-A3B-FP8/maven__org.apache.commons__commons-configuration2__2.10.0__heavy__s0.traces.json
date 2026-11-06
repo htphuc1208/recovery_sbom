@@ -1,0 +1,82 @@
+[
+ {
+  "component": "jackson-databind",
+  "kind": "version",
+  "value": 28.379024582927308,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.22.2",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The declared version 2.22.2 is confirmed to exist in Maven Central (E1), is the highest-probability candidate among current options (E2), and is a valid published version (E3). No transitive dependency constraints from the root POM affect this version (E4). The SBOM declaration appears correct."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-core",
+  "kind": "version",
+  "value": 3.195679641824928,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-core",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version of log4j-core in the Maven registry. It has the highest probability (0.679) among candidates, has no known vulnerabilities, and is consistent with the log4j-api version (2.26.1) present in the SBOM, which is typical for log4j releases where core and api are released together."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "log4j-api",
+  "kind": "version",
+  "value": 1.6052491787970176,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "org.apache.logging.log4j:log4j-api",
+   "version": "2.26.1",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "rationale": "Version 2.26.1 is confirmed as a valid published version in the Maven registry (E1), has no known vulnerabilities (E2), and has the highest prior probability (0.679) among candidates (E4). The SBOM also explicitly lists 2.26.1. Version 2.26.0, the second most likely candidate, has a known vulnerability (CVE-2026-49844, E3), making 2.26.1 the more probable choice."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "commons-beanutils",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "commons-beanutils:commons-beanutils",
+   "version": "1.9.4",
+   "evidence": [
+    "E2",
+    "E3"
+   ],
+   "rationale": "The original name 'commons-beanutils' was not found in Maven registry. The correct Maven coordinate is 'commons-beanutils:commons-beanutils' (E2). Version 1.9.4 is confirmed to exist for this package (E3). The SBOM context shows this is a Maven project with other Apache Commons dependencies."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

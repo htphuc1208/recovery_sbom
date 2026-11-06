@@ -1,0 +1,21 @@
+[
+ {
+  "component": "pillow",
+  "kind": "version",
+  "value": 116.35571975000056,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM declares pillow@12.3.0. Registry lookup confirms pillow exists in PyPI. Version listing before the SBOM timestamp shows 12.3.0 as the most likely version (prior 0.474), matching the declared version. No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

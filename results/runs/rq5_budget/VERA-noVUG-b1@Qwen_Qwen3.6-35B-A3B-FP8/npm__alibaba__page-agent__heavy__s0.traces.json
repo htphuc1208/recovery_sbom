@@ -1,0 +1,22 @@
+[
+ {
+  "component": "brace_expansion",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "brace-expansion",
+   "version": "1.1.18",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name 'brace_expansion' is the underscored form of the npm package 'brace-expansion'. Version 1.1.18 exists in the npm registry and was published before the SBOM timestamp. It matches the declared version_field exactly."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "component": "netty-transport",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component 'netty-transport' is a Maven artifact from the io.netty group. Registry lookup confirmed 'io.netty:netty-transport' exists (E1). Version 4.2.20.Final was published before the SBOM timestamp and matches the declared version exactly (E3)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-codec-dns",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-codec-dns",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E3"
+   ],
+   "rationale": "The component name 'netty-codec-dns' with group null corresponds to the Maven artifact io.netty:netty-codec-dns. The version 4.2.20.Final is confirmed as a valid published version available before the SBOM timestamp (E1, E3). This matches the surrounding Netty components in the SBOM which all use version 4.2.20.Final."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "netty-transport-classes-epoll",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport-classes-epoll",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The component is a Maven artifact io.netty:netty-transport-classes-epoll. Version 4.2.20.Final was resolved from the dependency management of io.vertx:vertx-core:5.2.3 (E3), confirmed to exist in the registry (E1), and published before the SBOM timestamp (E4). This version is consistent with other Netty components in the SBOM."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ },
+ {
+  "component": "netty-transport-classes-kqueue",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "maven",
+   "name": "io.netty:netty-transport-classes-kqueue",
+   "version": "4.2.20.Final",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'netty-transport-classes-kqueue' corresponds to the Maven artifact io.netty:netty-transport-classes-kqueue. The declared version 4.2.20.Final exists in the registry and was published before the SBOM timestamp. All other netty components in the SBOM use the same 4.2.20.Final version, confirming this is the correct version."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]

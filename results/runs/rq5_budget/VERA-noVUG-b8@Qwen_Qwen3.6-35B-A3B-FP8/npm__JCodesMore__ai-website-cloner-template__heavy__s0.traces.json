@@ -1,0 +1,158 @@
+[
+ {
+  "component": "@floating_ui/react_dom",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@floating-ui/react-dom",
+   "version": "2.1.8",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The SBOM had an incorrect package name using underscores (@floating_ui/react_dom) instead of the correct npm package name with hyphens (@floating-ui/react-dom). Registry lookup confirmed the package exists and version 2.1.8 is a valid published version available before the SBOM timestamp."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "@humanwhocodes/module_importer",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@humanwhocodes/module-importer",
+   "version": "1.0.1",
+   "evidence": [
+    "E3",
+    "E4",
+    "E5"
+   ],
+   "rationale": "The SBOM had a typo in the package name: 'module_importer' (underscore) instead of 'module-importer' (hyphen). The correct package @humanwhocodes/module-importer exists in npm registry and version 1.0.1 was published before the SBOM timestamp with no known vulnerabilities."
+  },
+  "steps": 4,
+  "tool_calls": 5
+ },
+ {
+  "component": "@NEXT/SWC-DARWIN-ARM64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-arm64",
+   "version": "16.4.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "rationale": "The component name @NEXT/SWC-DARWIN-ARM64 was incorrectly formatted. The correct npm package name is @next/swc-darwin-arm64 (Next.js SWC compiler for Darwin ARM64). Version 16.4.3 is the newest version satisfying the declared range ^16.3.0 and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@next/swc_darwin_x64",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@next/swc-darwin-x64",
+   "version": "16.3.5",
+   "evidence": [
+    "E5",
+    "E6"
+   ],
+   "rationale": "The component name in the SBOM used an underscore (@next/swc_darwin_x64) but the correct npm registry name uses a hyphen (@next/swc-darwin-x64). Verified existence of the package under the corrected name (E5) and confirmed version 16.3.5 exists and was published before the SBOM timestamp (E6)."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@TAILWINDCSS/OXIDE-WIN32-ARM64-MSVC",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide-win32-arm64-msvc",
+   "version": "4.3.3",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The package exists in npm registry (E1). The latest version published before the SBOM timestamp 2026-11-10 is 4.3.3 (E2), which is also the latest version of the parent @tailwindcss/oxide package (E4), confirming version alignment. This is the most probable version the SBOM was generated with."
+  },
+  "steps": 7,
+  "tool_calls": 6
+ },
+ {
+  "component": "@tailwindcss/oxide_win32_x64_msvc",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": false,
+  "reason": "npm:@tailwindcss/oxide_win32_x64_msvc does not exist in the registry",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@tailwindcss/oxide_win32_x64_msvc",
+   "version": null,
+   "evidence": [
+    "E1"
+   ],
+   "rationale": "The package @tailwindcss/oxide_win32_x64_msvc does not exist in the npm registry (E1). It appears to be a platform-specific binary artifact bundled within the @tailwindcss/oxide package, not a standalone package. Since no registry match exists, the version cannot be confirmed."
+  },
+  "steps": 8,
+  "tool_calls": 6
+ },
+ {
+  "component": "GLOB-PARENT",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "glob-parent",
+   "version": "5.1.2",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The component name 'GLOB-PARENT' corresponds to the npm package 'glob-parent' (E1). The declared range '^5.1.0' is satisfied by version 5.1.2, which is the latest version in the 5.1.x series published before the SBOM timestamp of 2026-11-10 (E2)."
+  },
+  "steps": 4,
+  "tool_calls": 3
+ },
+ {
+  "component": "@UNRS/RESOLVER-BINDING-ANDROID-ARM-EABI",
+  "kind": "identity",
+  "value": 0.0,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "npm",
+   "name": "@unrs/resolver-binding-android-arm-eabi",
+   "version": "1.11.1",
+   "evidence": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "rationale": "The original name @UNRS/RESOLVER-BINDING-ANDROID-ARM-EABI was incorrectly cased. The correct npm package name is @unrs/resolver-binding-android-arm-eabi (lowercase). Version 1.11.1 exists in the npm registry and was published before the SBOM timestamp of 2026-11-10."
+  },
+  "steps": 5,
+  "tool_calls": 4
+ }
+]

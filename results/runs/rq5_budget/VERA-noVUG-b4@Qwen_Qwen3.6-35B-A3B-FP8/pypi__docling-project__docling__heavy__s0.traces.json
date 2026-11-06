@@ -1,0 +1,78 @@
+[
+ {
+  "component": "accelerate",
+  "kind": "version",
+  "value": 2.4507502351712334,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "accelerate",
+   "version": "1.15.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package accelerate exists in PyPI. Version 1.15.0 is the latest version and was published before the SBOM timestamp. It has the highest prior probability (0.413) among pre-timestamp versions and matches the SBOM's declared version. No declared range constraints exist to narrow further."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "filelock",
+  "kind": "version",
+  "value": 37.88061831156008,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "filelock",
+   "version": "4.2.4",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The purl explicitly states filelock@4.2.4. Registry lookup confirms this version exists (E1). List of versions published before the SBOM timestamp confirms 4.2.4 was available and is the most likely version (E2). No conflicting evidence found."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpcore2",
+  "kind": "version",
+  "value": 1.354791141615207,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpcore2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "The package httpcore2 exists in PyPI. Version 2.16.0 is the latest version and was published before the SBOM timestamp. It has the highest prior probability (0.214) among all candidates and matches the declared version in the SBOM."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ },
+ {
+  "component": "httpx2",
+  "kind": "version",
+  "value": 5.66756592731442,
+  "accepted": true,
+  "reason": "ok",
+  "proposal": {
+   "ecosystem": "pypi",
+   "name": "httpx2",
+   "version": "2.16.0",
+   "evidence": [
+    "E1",
+    "E2"
+   ],
+   "rationale": "httpx2 exists in PyPI (E1). Version 2.16.0 is the latest, was published before the SBOM timestamp, has the highest prior probability (0.213) among pre-timestamp versions (E2), and exactly matches the declared range '2.16.0'."
+  },
+  "steps": 3,
+  "tool_calls": 2
+ }
+]
